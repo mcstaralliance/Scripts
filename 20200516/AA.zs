@@ -19,3 +19,13 @@ recipes.addShaped("Goldenapple", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<
     }
     return <minecraft:golden_apple:1>*8;
 }, null);
+
+recipes.remove(<appliedenergistics2:part:220>);
+val icp = <enderio:item_conduit_probe>.anyDamage().transformDamage();
+mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>, [
+	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null], 
+	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null], 
+	[<ore:itemChassiParts>, icp, <enderio:block_end_iron_bars>, <thermalexpansion:cache>, null], 
+	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null], 
+	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
+]);
