@@ -239,4 +239,4 @@ recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 //腐化瓶子
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottled_taint>);
