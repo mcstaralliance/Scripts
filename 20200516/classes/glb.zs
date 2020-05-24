@@ -5,7 +5,7 @@ zenClass glb {
 	zenConstructor() {
 	}
 	
-	function Trecipe(isShaped as bool,out as IItemStack,input as IIngredient[][]) {
+	function tRecipe(isShaped as bool,out as IItemStack,input as IIngredient[][]) {
 		val recipeName as string = this.getItemNameWithUnderline(out);
 		recipes.remove(out,true);
 		if (isShaped) {
@@ -16,7 +16,7 @@ zenClass glb {
 	}
 	//删除合成并添加合成 需要提供二维数组
 	
-	function HFJEI(input as IItemStack) as bool {
+	function hideFromJEI(input as IItemStack) as bool {
 		recipes.remove(input);
 		furnace.remove(input);
 		furnace.setFuel(input, 0);
@@ -25,7 +25,7 @@ zenClass glb {
 	}
 	//删除合成并隐藏JEI
 	
-	function IS(out, ins, forb, oitem as IItemStack, cInfo) {
+	function iS(out, ins, forb, oitem as IItemStack, cInfo) {
 	var displayName = ins.forb.displayName;
 	if(displayName has ":") {
 		return itemUtils.getItem(displayName);
