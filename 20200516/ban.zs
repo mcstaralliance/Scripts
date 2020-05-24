@@ -1,3 +1,4 @@
+import mods.thaumcraft.Infusion;
 //凝血弹弓,方块放置器,UU一套,稳定刷怪笼未ban
 
 //无尽碗
@@ -239,3 +240,9 @@ mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 //EFLN
 recipes.remove(<tconstruct:throwball:1>);
+
+//腐化瓶
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
+
+//海森堡补偿器 装备后可获得类似旅行权杖的功能
+recipes.remove(<matteroverdrive:h_compensator>);
