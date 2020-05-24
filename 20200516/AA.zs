@@ -12,6 +12,7 @@ events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){
 */
 
 val GB = <minecraft:gold_block>;
+//设置GB为金块
 recipes.addShaped("Goldenapple", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<minecraft:apple>.marked("anyapple"),GB],[GB,<minecraft:nether_star>,GB]], function(out, ins, cInfo) {
     var displayName = ins.anyapple.displayName;
     if(displayName has ":") {
@@ -19,6 +20,7 @@ recipes.addShaped("Goldenapple", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<
     }
     return <minecraft:golden_apple:1>*8;
 }, null);
+//函数添加附魔金苹果
 
 recipes.remove(<appliedenergistics2:part:220>);
 val icp = <enderio:item_conduit_probe>.anyDamage().transformDamage();
@@ -29,3 +31,4 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>,
 	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null], 
 	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
 ]);
+//修改了ME存储总线的合成
