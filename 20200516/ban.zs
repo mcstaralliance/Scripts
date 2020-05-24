@@ -62,7 +62,7 @@ recipes.remove(<forestry:rainmaker>);
 //林业背包
 var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] ;
 for i, bag in bags {
-    val bag = bags[i];
+    var bag = bags[i];
     recipes.remove(bag);
 }
 
