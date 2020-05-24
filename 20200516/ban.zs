@@ -59,14 +59,11 @@ recipes.remove(<forestry:stamp_collector>);
 recipes.remove(<forestry:rainmaker>);
 
 //林业背包
-recipes.remove(<forestry:lepidopterist_bag>);
-recipes.remove(<forestry:miner_bag>);
-recipes.remove(<forestry:digger_bag>);
-recipes.remove(<forestry:forester_bag>);
-recipes.remove(<forestry:hunter_bag>);
-recipes.remove(<forestry:apiarist_bag>);
-recipes.remove(<forestry:adventurer_bag>);
-recipes.remove(<forestry:builder_bag>);
+var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] ;
+for i, bag in bags {
+    var bag = bags[i];
+    recipes.remove(bag);
+}
 
 //区块加载器
 recipes.remove(<ic2:te:82>);
