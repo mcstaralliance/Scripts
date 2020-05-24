@@ -13,7 +13,7 @@ events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){
 
 val GB = <minecraft:gold_block>;
 //设置GB为金块
-recipes.addShaped("Goldenapple", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<minecraft:apple>.marked("anyapple"),GB],[GB,<minecraft:nether_star>,GB]], function(out, ins, cInfo) {
+recipes.addShaped("Goldenapplerecipes", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<minecraft:apple>.marked("anyapple"),GB],[GB,<minecraft:nether_star>,GB]], function(out, ins, cInfo) {
     var displayName = ins.anyapple.displayName;
     if(displayName has ":") {
         return itemUtils.getItem(displayName);
