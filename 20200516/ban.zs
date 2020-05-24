@@ -60,7 +60,7 @@ recipes.remove(<forestry:stamp_collector>);
 recipes.remove(<forestry:rainmaker>);
 
 //林业背包
-val bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>]
+val bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] as IItemStack[];
 for i, bag in bags {
     val bag = bags[i];
     recipes.remove(bag);
