@@ -1,4 +1,3 @@
-import mods.thaumcraft.Infusion;
 //凝血弹弓,方块放置器,UU一套,稳定刷怪笼未ban
 
 //无尽碗
@@ -60,11 +59,14 @@ recipes.remove(<forestry:stamp_collector>);
 recipes.remove(<forestry:rainmaker>);
 
 //林业背包
-var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] ;
-for i, bag in bags {
-    var bag = bags[i];
-    recipes.remove(bag);
-}
+recipes.remove(<forestry:lepidopterist_bag>);
+recipes.remove(<forestry:miner_bag>);
+recipes.remove(<forestry:digger_bag>);
+recipes.remove(<forestry:forester_bag>);
+recipes.remove(<forestry:hunter_bag>);
+recipes.remove(<forestry:apiarist_bag>);
+recipes.remove(<forestry:adventurer_bag>);
+recipes.remove(<forestry:builder_bag>);
 
 //区块加载器
 recipes.remove(<ic2:te:82>);
@@ -237,10 +239,3 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 //信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
-
-//EFLN
-recipes.remove(<tconstruct:throwball:1>);
-
-//腐化瓶 右键抛出会导致区域里面的腐化程度上升
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
-
