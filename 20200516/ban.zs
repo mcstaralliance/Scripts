@@ -239,6 +239,3 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 //信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
-
-//EFLN
-recipes.remove(<tconstruct:throwball:1>);
