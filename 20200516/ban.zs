@@ -241,6 +241,6 @@ mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 //EFLN
 recipes.remove(<tconstruct:throwball:1>);
 
-//腐化瓶
+//腐化瓶 右键抛出会导致区域里面的腐化程度上升
 mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
 
