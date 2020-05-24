@@ -1,3 +1,4 @@
+import mods.thaumcraft.Infusion;
 //凝血弹弓,方块放置器,UU一套,稳定刷怪笼未ban
 
 //无尽碗
@@ -236,3 +237,6 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 //信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
+
+//腐化瓶子
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
