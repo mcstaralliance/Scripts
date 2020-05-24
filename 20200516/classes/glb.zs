@@ -14,6 +14,7 @@ zenClass glb {
 			recipes.addShapeless(recipeName,out,input[0]);
 		}
 	}
+	//删除合成并添加合成 需要提供二维数组
 	
 	function HFJEI(input as IItemStack) as bool {
 		recipes.remove(input);
@@ -22,6 +23,7 @@ zenClass glb {
 		mods.jei.JEI.removeAndHide(input);
 		return true;
 	}
+	//删除合成并隐藏JEI
 	
 	function IS(out, ins, forb, oitem as IItemStack, cInfo) {
 	var displayName = ins.forb.displayName;
@@ -30,4 +32,5 @@ zenClass glb {
 	}
 	return oitem;
 	}
+	//删除合成并添加合成 需要提供二维数组,物品钩子,物品原输出，物品输入
 }
