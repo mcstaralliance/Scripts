@@ -5,8 +5,9 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.ResourceLocation;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.SoundType;
+import mods.contenttweaker.DropHandler;
 
-function visOreBuilder(name as string){
+function OreBuilder(name as string){
 	print("Block about to be added : " + name);
 	var cotblock = VanillaFactory.createBlock(name, <blockmaterial:rock>);
 	cotblock.setBlockHardness(5.0); 
@@ -18,44 +19,22 @@ function visOreBuilder(name as string){
 }
 //简化创建Ore函数
 
+function setDropandCreate(name as string){
+	OreBuilder(name);
+	name.setDropHandler(function(drops, world, position, state, fortune) {
 
-visOreBuilder("acer");
-visOreBuilder("terra");
-visOreBuilder("ignis");
-visOreBuilder("aqua");
-visOreBuilder("ordo");
-visOreBuilder("perditio");
-visOreBuilder("vacuos");
-visOreBuilder("lux");
-visOreBuilder("motus");
-visOreBuilder("gelum");
-visOreBuilder("vitreus");
-visOreBuilder("metallum");
-visOreBuilder("victus");
-visOreBuilder("mortuus");
-visOreBuilder("potentia");
-visOreBuilder("permutatio");
-visOreBuilder("praecantatio");
-visOreBuilder("auram");
-visOreBuilder("alkimia");
-visOreBuilder("vitium");
-visOreBuilder("tenebrae");
-visOreBuilder("alienis");
-visOreBuilder("volatus");
-visOreBuilder("herba");
-visOreBuilder("instrumentum");
-visOreBuilder("fabrico");
-visOreBuilder("machina");
-visOreBuilder("vinculum");
-visOreBuilder("spiritus");
-visOreBuilder("cognitio");
-visOreBuilder("sensus");
-visOreBuilder("aversio");
-visOreBuilder("praemunio");
-visOreBuilder("desiderium");
-visOreBuilder("exanimis");
-visOreBuilder("bestia");
-visOreBuilder("humanus");
+    drops.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: name}]})*2);
+
+    return;
+	});
+}
+//简化创建并设置掉落函数
+var visores = ["acer","terra","ignis","aqua","ordo","perditio","vacuos","lux","motus","gelum","vitreus","metallum","victus","mortuus","potentia","permutatio","praecantatio","auram","alkimia","vitium","tenebrae","alienis","volatus","herba","instrumentum","fabrico","machina","vinculum","spiritus","cognitio","sensus","aversio","praemunio","desiderium","exanimis","bestia","humanus"] ;
+for i, visore in visores {
+    var visore = visores[i];
+    setDropandCreate(visore);
+}
+
 //创建Ore
 
 /* function BlockBuilder(name as string, material as BlockMaterial, sound as SoundType, hardness as float, resis as float, toolcls as string, toollvl as int){
@@ -70,7 +49,7 @@ visOreBuilder("humanus");
 	}*/
 
 
-/* function visOreBuilder(name as string){
+/* function setDropandCreate(name as string){
 	print("Vis Ore about to be added : " ~ name);
 	mods.content.Block.registerBlock("Vis"~name, "Vis"~name~"_Ore", "rock", "content_block", "block", 1, [<minecraft:stone>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: name}]})], false, 0.5f, 0.8f, 2);
 } */
