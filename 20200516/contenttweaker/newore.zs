@@ -16,6 +16,8 @@ function visOreBuilder(name as string){
     cotblock.setToolLevel(0); 
 	cotblock.register();
 }
+//简化创建Ore函数
+
 
 visOreBuilder("acer");
 visOreBuilder("terra");
@@ -54,6 +56,7 @@ visOreBuilder("desiderium");
 visOreBuilder("exanimis");
 visOreBuilder("bestia");
 visOreBuilder("humanus");
+//创建Ore
 
 /* function BlockBuilder(name as string, material as BlockMaterial, sound as SoundType, hardness as float, resis as float, toolcls as string, toollvl as int){
 	print("Block about to be added : " + name);
