@@ -486,3 +486,4 @@ recipes.remove(<lettersenderio:block_powered_spawner>);
 
 //稳定刷怪笼
 recipes.remove(<draconicevolution:draconic_spawner>);
+mods.jei.JEI.hide(<draconicevolution:draconic_spawner>);
