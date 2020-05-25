@@ -1,37 +1,8 @@
-<contenttweaker:acer>.displayName = "Acer 矿";
-<contenttweaker:terra>.displayName = "Terra 矿";
-<contenttweaker:ignis>.displayName = "Ignis 矿";
-<contenttweaker:aqua>.displayName = "Aqua 矿";
-<contenttweaker:ordo>.displayName = "Ordo 矿";
-<contenttweaker:perditio>.displayName = "Perditio 矿";
-<contenttweaker:vacuos>.displayName = "Vacuos 矿";
-<contenttweaker:lux>.displayName = "Lux 矿";
-<contenttweaker:motus>.displayName = "Motus 矿";
-<contenttweaker:gelum>.displayName = "Gelum 矿";
-<contenttweaker:vitreus>.displayName = "Vitreus 矿";
-<contenttweaker:metallum>.displayName = "Metallum 矿";
-<contenttweaker:victus>.displayName = "Victus 矿";
-<contenttweaker:mortuus>.displayName = "Mortuus 矿";
-<contenttweaker:potentia>.displayName = "Potentia 矿";
-<contenttweaker:permutatio>.displayName = "Permutatio 矿";
-<contenttweaker:praecantatio>.displayName = "Praecantatio 矿";
-<contenttweaker:auram>.displayName = "Auram 矿";
-<contenttweaker:alkimia>.displayName = "Alkimia 矿";
-<contenttweaker:vitium>.displayName = "Vitium 矿";
-<contenttweaker:tenebrae>.displayName = "Tenebrae 矿";
-<contenttweaker:alienis>.displayName = "Alienis 矿";
-<contenttweaker:volatus>.displayName = "Volatus 矿";
-<contenttweaker:herba>.displayName = "Herba 矿";
-<contenttweaker:instrumentum>.displayName = "Instrumentum 矿";
-<contenttweaker:fabrico>.displayName = "Fabrico 矿";
-<contenttweaker:machina>.displayName = "Machina 矿";
-<contenttweaker:vinculum>.displayName = "Vinculum 矿";
-<contenttweaker:spiritus>.displayName = "Spiritus 矿";
-<contenttweaker:cognitio>.displayName = "Cognitio 矿";
-<contenttweaker:sensus>.displayName = "Sensus 矿";
-<contenttweaker:aversio>.displayName = "Aversio 矿";
-<contenttweaker:praemunio>.displayName = "Praemunio 矿";
-<contenttweaker:desiderium>.displayName = "Desiderium 矿";
-<contenttweaker:exanimis>.displayName = "Exanimis 矿";
-<contenttweaker:bestia>.displayName = "Bestia 矿";
-<contenttweaker:humanus>.displayName = "Humanus 矿";
+var allAdd as string[] = ["acer","terra","ignis","aqua","ordo","perditio","vacuos","lux","motus","gelum","vitreus","metallum","victus","mortuus","potentia","permutatio","praecantatio","auram","alkimia","vitium","tenebrae","alienis","volatus","herba","instrumentum","fabrico","machina","vinculum","spiritus","cognitio","sensus","aversio","praemunio","desiderium","exanimis","bestia","humanus"] ;
+//设置总列表
+for oneAdd in allAdd {
+	var itemStackAdd = itemUtils.getItem("contenttweaker:" + oneAdd);
+	itemStackAdd.displayName = oneAdd + " 矿";
+	furnace.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: oneAdd}]})*2, itemStackAdd, 20.0);
+}
+//添加Displayname 添加熔炉配方
