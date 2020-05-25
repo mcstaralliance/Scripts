@@ -487,3 +487,8 @@ recipes.remove(<lettersenderio:block_powered_spawner>);
 //稳定刷怪笼
 recipes.remove(<draconicevolution:draconic_spawner>);
 mods.jei.JEI.hide(<draconicevolution:draconic_spawner>);
+
+//灵魂瓶
+recipes.remove(<enderio:item_soul_vial>);
+mods.ltt.LootTable.removeEntry("minecraft:chests/end_city_treasure", "main", "enderio:item_soul_vial:1");
+mods.ltt.LootTable.removeEntry("minecraft:chests/end_city_treasure", "main", "enderio:item_soul_vial");
