@@ -468,9 +468,6 @@ recipes.remove(<draconicevolution:dislocator_pedestal>);
 //附魔提取机
 recipes.remove(<industrialforegoing:enchantment_extractor>);
 
-//灵魂瓶
-recipes.remove(<enderio:item_soul_vial>);
-
 //传送符咒收纳容器
 recipes.remove(<draconicevolution:dislocator_receptacle>);
 
@@ -483,3 +480,9 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 //信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
+
+//电动刷怪笼
+recipes.remove(<lettersenderio:block_powered_spawner>);
+
+//稳定刷怪笼
+recipes.remove(<draconicevolution:draconic_spawner>);
