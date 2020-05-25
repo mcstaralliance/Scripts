@@ -256,4 +256,3 @@ recipes.remove(<enderio:block_tele_pad>);
 
 //旅行锚
 recipes.remove(<enderio:block_travel_anchor>);
-
