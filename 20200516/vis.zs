@@ -3,6 +3,7 @@ var allAdd as string[] = ["acer","terra","ignis","aqua","ordo","perditio","vacuo
 for oneAdd in allAdd {
 	var itemStackAdd = itemUtils.getItem("contenttweaker:" + oneAdd);
 	itemStackAdd.displayName = oneAdd + " 矿";
+	itemStackAdd.addTooltip("&6熔炉烧炼可获得两倍对应的魔力水晶碎片");
 	furnace.addRecipe(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: oneAdd}]})*2, itemStackAdd, 20.0);
 }
 //添加Displayname 添加熔炉配方
