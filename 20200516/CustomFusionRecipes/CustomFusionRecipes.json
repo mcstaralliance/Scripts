@@ -18,5 +18,16 @@
         "mode": "REMOVE",
         "result": "draconicevolution:dislocator_advanced",
         "catalyst": "draconicevolution:dislocator"
-    }    
+    }
+    {
+            "mode": "ADD",
+                "result": "minecraft:nether_star,2",
+                "catalyst": "minecraft:skull,1,1",
+                "energy": 25000000000,                 //25E RF
+                "tier": 3 ,
+                "ingredients": [
+                    "minecraft:diamond"
+                ]
+    },
 ]
+
