@@ -18,6 +18,8 @@ function visOreBuilder(name as string){
 	cotblock.register();
 }
 
+//自定义批量添加方块函数
+
 visOreBuilder("acer");
 visOreBuilder("terra");
 visOreBuilder("ignis");
@@ -55,3 +57,5 @@ visOreBuilder("desiderium");
 visOreBuilder("exanimis");
 visOreBuilder("bestia");
 visOreBuilder("humanus");
+
+//注意！！！！！不能简化 
