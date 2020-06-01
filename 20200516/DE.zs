@@ -1,6 +1,8 @@
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.FluidToItem;
 
+recipes.addShapeless(<draconicevolution:draconic_core>,[<thaumcraft:grapple_gun_spool>,<thaumcraft:plate:3>,<thaumcraft:tallow>,<draconicevolution:draconium_ingot>*2,<forestry:pollen>,<thaumcraft:mind>]);
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_sword>, [
 	[null, null, null, null, null, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>], 
 	[null, null, null, null, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ic2:crafting:4>], 
