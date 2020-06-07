@@ -6,9 +6,9 @@ recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShapeless(<draconicevolution:draconic_core>,[<thaumcraft:grapple_gun_spool>,<thaumcraft:plate:3>,<thaumcraft:tallow>,<draconicevolution:draconium_ingot>*2,<forestry:pollen>,<thaumcraft:mind>]);
 //龙芯
 recipes.remove(<draconicevolution:wyvern_core>);
-recipes.addShaped("WyvernCore",<draconicevolution:wyvern_core>,[[<thaumcraft:brain>,<draconicevolution:draconic_core>,thaumcraft:morphic_resonator],[<draconicevolution:draconic_core>,<minecraft:nether_star>,<draconicevolution:draconic_core>],[<thaumcraft:morphic_resonator>,<draconicevolution:draconic_core>,<thaumcraft:brain>]]);
+recipes.addShaped("WyvernCore",<draconicevolution:wyvern_core>,[[<thaumcraft:brain>,<draconicevolution:draconic_core>,<thaumcraft:morphic_resonator>],[<draconicevolution:draconic_core>,<minecraft:nether_star>,<draconicevolution:draconic_core>],[<thaumcraft:morphic_resonator>,<draconicevolution:draconic_core>,<thaumcraft:brain>]]);
 //双足飞龙芯
-mods.extendedcrafting.EnderCrafting.addShaped("awakedcore", <draconicevolution:awakened_core>, [[draconicevolution:draconic_ingot, <draconicevolution:wyvern_core>, <thaumcraft:focus_3>], [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>], [<thaumcraft:focus_3>, <draconicevolution:wyvern_core>, draconicevolution:draconic_ingot]], seconds);
+recipes.addShaped("awakedcore", <draconicevolution:awakened_core>, [[<draconicevolution:draconic_ingot>, <draconicevolution:wyvern_core>, <thaumcraft:focus_3>], [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>], [<thaumcraft:focus_3>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_ingot>]]);
 //觉醒龙芯合成
 
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "sword", machineName, recipesTickTime)
