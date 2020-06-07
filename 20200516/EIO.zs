@@ -13,5 +13,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:item_material:0>, [
 	[<ore:ingotConstructionAlloy>, <ore:gearTin>, <ic2:dust:6>, <ore:gearCopper>, <ore:ingotConstructionAlloy>], 
 	[<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>]
 ]);
+//机器框架模具 中间是精密奥术装置 外面铁合金
 
-mods.inworldcrafting.FluidToItem.transform(<ore:ingotConstructionAlloy>*4, <liquid:lava>, [<minecraft:iron>*4,<extendedcrafting:material:7>*16,<ore:ingotSliver>*2], false);
+mods.inworldcrafting.FluidToItem.transform(<ore:ingotConstructionAlloy>*4, <liquid:lava>, [<ic2:ingot>*4,<extendedcrafting:material:7>*16,<ore:ingotSliver>*2], false);
+//铁合金合成 合金锭*4 + 流明精华*16 = 4铁合金
