@@ -276,3 +276,4 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:pedestal_arcane>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("jizuo", "", 10, [<aspect:ignis>*2, <aspect:terra>*2], <thaumcraft:pedestal_arcane>*4, [[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>, <extendedcrafting:pedestal>, <thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]]);
 // 奥术基座
 
+// TODO
