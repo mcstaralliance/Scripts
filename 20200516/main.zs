@@ -6,14 +6,6 @@ import crafttweaker.item.IItemTransformer;
 // 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>; 
 // 2020.5.17更新 
 
-recipes.remove(<minecraft:dirt:1>);
-recipes.addShaped(<minecraft:dirt:1>*4, [[<minecraft:sand>, <ore:cobblestone>, <minecraft:gravel>], [<ore:cobblestone>, <forestry:ash>, <ore:cobblestone>], [<minecraft:gravel>, <ore:cobblestone>, <minecraft:sand>]]);
-// 砂土 
-
-recipes.remove(<minecraft:furnace>);
-recipes.addShaped(<minecraft:furnace>, [[<minecraft:dirt:1>, <minecraft:dirt:1>, <minecraft:dirt:1>], [<minecraft:dirt:1>, <minecraft:crafting_table>, <minecraft:dirt:1>], [<minecraft:dirt:1>, <ore:cobblestone>, <minecraft:dirt:1>]]);
-// 熔炉 
-
 recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:dirt>, <ore:plankWood>], [<minecraft:gravel>, <minecraft:sand>]]);
 recipes.remove(<minecraft:crafting_table>);
 // 工作台 
