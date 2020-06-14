@@ -1,0 +1,1037 @@
+{
+    "registryname": "Tier3",
+    "localizedname": "Excavator MK3",
+    "parts": [
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": -3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "environmentaltech:void_ore_miner_cont_3@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "environmentaltech:ionite@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "environmentaltech:ionite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentaltech:pladium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "environmentaltech:ionite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "environmentaltech:ionite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "environmentaltech:structure_frame_3@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@7"
+            ]
+        }
+    ]}
