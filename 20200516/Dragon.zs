@@ -135,7 +135,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "pick", machi
     .addItemInput(<draconicevolution:draconic_energy_core>)
     .build();
 
-// 同神龙剑    
+// 同神龙剑
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "axe", machineName, recipesTickTime)
     .addEnergyPerTickInput(1024)
     .addFluidInput(<liquid:pyrotheum>*5000)
