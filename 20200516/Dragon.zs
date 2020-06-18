@@ -157,7 +157,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "shovel", mac
     .addItemInput(<draconicevolution:draconic_energy_core>)
     .build();
 
-
 // 龍装备合成
 // 神龙头  扩展合成锡奇点*2 秘金神秘使兜帽 双足头 神龙能量核心
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "helm", machineName, recipesTickTime)
