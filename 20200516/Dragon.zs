@@ -6,7 +6,7 @@ val recipesTickTime = 72000;
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShapeless(<draconicevolution:draconic_core>,[<thaumcraft:grapple_gun_spool>,<thaumcraft:plate:3>,<thaumcraft:tallow>,<draconicevolution:draconium_ingot>*2,<forestry:pollen>,<thaumcraft:mind>]);
 
-// 双足飞龙芯 龙芯*4 僵尸脑子*2 形态谐振器*2 下届*1
+// 双足飞龙核心 龙芯*4 僵尸之脑*2 形态谐振器*2 下届之星*1
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.addShaped("WyvernCore",<draconicevolution:wyvern_core>,[[<thaumcraft:brain>,<draconicevolution:draconic_core>,<thaumcraft:morphic_resonator>],[<draconicevolution:draconic_core>,<minecraft:nether_star>,<draconicevolution:draconic_core>],[<thaumcraft:morphic_resonator>,<draconicevolution:draconic_core>,<thaumcraft:brain>]]);
 
