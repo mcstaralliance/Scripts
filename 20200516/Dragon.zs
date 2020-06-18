@@ -169,7 +169,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "helm", machi
     .addItemInput(<draconicevolution:draconic_energy_core>)
     .build();
 
-// 神龙胸 快烂的铁砧 秘金神秘使法袍 双足胸 神龙能量核心
+// 神龙胸 损坏的铁砧 秘金神秘使法袍 双足胸 神龙能量核心
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "chest", machineName, recipesTickTime)
     .addEnergyPerTickInput(1024)
     .addFluidInput(<liquid:pyrotheum>*5000)
