@@ -2,7 +2,7 @@ recipes.remove(<xtones:base>);
 var machineName = "dragon";
 val recipesTickTime = 72000;
 
-// 龙芯 龙锭*2 机动装置滚轴 虚空金属板 魔力油脂 花粉 发条之心 
+// 龙芯 龙锭*2 机动装置滚轴 虚空金属板 魔力油脂 花粉 发条之心
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShapeless(<draconicevolution:draconic_core>,[<thaumcraft:grapple_gun_spool>,<thaumcraft:plate:3>,<thaumcraft:tallow>,<draconicevolution:draconium_ingot>*2,<forestry:pollen>,<thaumcraft:mind>]);
 
@@ -213,4 +213,3 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "power", mach
     .addItemInput(<draconicevolution:draconic_axe>)
     .addItemInput(<draconicevolution:draconic_shovel>)
     .build();
-
