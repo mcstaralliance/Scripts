@@ -1,4 +1,4 @@
-recipes.remove(<xtones:base>);
+//recipes.remove(<xtones:base>);
 var machineName = "dragon";
 val recipesTickTime = 72000;
 
