@@ -4,9 +4,9 @@ import mods.thaumcraft.Infusion;
 
 // UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
 var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] ;
-for i, UU in UU {
-    var UU = UU[i];
-    recipes.remove(UU);
+for i, UU_machine in UU {
+    var UU_machine = UU[i];
+    recipes.remove(UU_machine);
 }
 
 // 祛魔台
@@ -127,9 +127,6 @@ recipes.remove(<immersiveengineering:revolver>);
 // 折返权杖
 recipes.remove(<enderio:item_rod_of_return>);
 
-// 方块破坏器
-recipes.remove(<industrialforegoing:block_destroyer>);
-
 // 旅行权杖
 recipes.remove(<enderio:item_travel_staff>);
 
@@ -163,9 +160,6 @@ recipes.remove(<draconicevolution:magnet>);
 // 物质炮
 recipes.remove(<appliedenergistics2:matter_cannon>);
 
-// 生物捕捉工具
-recipes.remove(<industrialforegoing:mob_imprisonment_tool>);
-
 // 电动刷怪箱
 recipes.remove(<enderio:block_powered_spawner>);
 
@@ -186,9 +180,6 @@ recipes.remove(<draconicevolution:dislocator_bound:2>);
 
 // 网络工具
 recipes.remove(<appliedenergistics2:network_tool>);
-
-// 自动刷怪机
-recipes.remove(<industrialforegoing:mob_duplicator>);
 
 // 觉醒物品传送符咒
 recipes.remove(<draconicevolution:magnet:1>);
@@ -234,4 +225,4 @@ recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 // 腐化瓶子
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottled_taint>);
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
