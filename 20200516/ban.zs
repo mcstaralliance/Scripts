@@ -1,10 +1,6 @@
 
 import mods.thaumcraft.Infusion;
-//凝血弹弓,方块放置器,UU一套,稳定刷怪笼未ban
-
-//无尽碗
-import mods.roots.Fey;
-Fey.removeRecipe(<roots:unending_bowl>);
+//UU一套,稳定刷怪笼未ban
 
 //祛魔台
 recipes.remove(<draconicevolution:diss_enchanter>);
@@ -118,9 +114,6 @@ recipes.remove(<thermalexpansion:morb:1>);
 //工业tnt
 recipes.remove(<ic2:te:1>);
 
-//工程师装配台
-recipes.remove(<immersiveengineering:wooden_device0:2>);
-
 //左轮手枪
 recipes.remove(<immersiveengineering:revolver>);
 
@@ -132,9 +125,6 @@ recipes.remove(<industrialforegoing:block_destroyer>);
 
 //旅行权杖
 recipes.remove(<enderio:item_travel_staff>);
-
-//无限钻头
-recipes.remove(<industrialforegoing:infinity_drill>);
 
 //杀手乔
 recipes.remove(<enderio:block_killer_joe>);
@@ -219,9 +209,6 @@ recipes.remove(<enderio:block_tele_pad>);
 
 //传送符咒基座
 recipes.remove(<draconicevolution:dislocator_pedestal>);
-
-//附魔提取机
-recipes.remove(<industrialforegoing:enchantment_extractor>);
 
 //灵魂瓶
 recipes.remove(<enderio:item_soul_vial>);
