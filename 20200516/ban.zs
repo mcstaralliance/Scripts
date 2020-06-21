@@ -1,6 +1,13 @@
 import mods.thaumcraft.Infusion;
 
-// UU一套,稳定刷怪笼未ban
+// 稳定刷怪笼未ban
+
+// UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
+var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] ;
+for i, UU in UU {
+    var UU = UU[i];
+    recipes.remove(UU);
+}
 
 // 祛魔台
 recipes.remove(<draconicevolution:diss_enchanter>);
