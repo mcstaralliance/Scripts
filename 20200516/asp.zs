@@ -156,3 +156,10 @@ recipes.addShaped("lighter", <variedcommodities:lighter>, [
 	[null, <minecraft:fire_charge>, null], 
 	[<cuisine:fan>, null, null]
 ]);
+
+// 矿工指环
+recipes.addShaped("ring", <baubles:ring>, [
+	[null, <ore:ingotElectricalSteel>, null], 
+	[<advanced_solar_panels:crafting:3>, <minecraft:enchanted_book>, <ore:ingotElectrum>], 
+	[null, <extendedcrafting:material:36>, null]
+]);
