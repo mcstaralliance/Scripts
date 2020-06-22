@@ -94,11 +94,6 @@ recipes.addShaped("12", <cuisine:crops:12>, [
     [null, <ore:seedWheat>, null], 
     [null, null, null]
 ]);
-recipes.addShaped("4", <cuisine:food:4>, [
-    [null, <ore:seedWheat>, null], 
-    [null, null, <ore:seedWheat>], 
-    [null, null, null]
-]);
 recipes.addShaped("13", <cuisine:crops:13>, [
     [null, <ore:seedWheat>, null], 
     [null, null, null], 
@@ -147,6 +142,11 @@ recipes.addShaped("21", <cuisine:crops:21>, [
 recipes.addShaped("bamboo", <cuisine:bamboo>*32, [
     [<ore:logWood>, null, null], 
     [null, <ore:logWood>, null], 
+    [null, null, null]
+]);
+recipes.addShaped("4", <cuisine:food:4>, [
+    [null, <ore:seedWheat>, null], 
+    [null, null, <ore:seedWheat>], 
     [null, null, null]
 ]);
 
