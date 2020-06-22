@@ -243,7 +243,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:double_compressed_cra
 ]);
 // 双重压缩工作台 
 
-mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:ultimate_stew>*4, [<ore:cropApple>, <minecraft:mushroom_stew>, <ore:bread>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:golden_apple>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <minecraft:cake>, <ore:listAllcookie>, <ore:listAllfruit>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <ore:listAllchickenraw>, <ore:listAllchickencooked>, <minecraft:rotten_flesh>, <minecraft:spider_eye>, <ore:listAllveggie>, <ore:listAllveggie>, <minecraft:baked_potato>, <minecraft:pumpkin_pie>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:beetroot_soup>, <minecraft:poisonous_potato>, <minecraft:rabbit_stew>, <ore:listAllmeatraw>, <ore:nuggetCosmicNeutronium>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:ultimate_stew>*4, [<ore:cropApple>, <minecraft:mushroom_stew>, <ore:bread>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:golden_apple>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <minecraft:cake>, <ore:listAllcookie>, <ore:listAllfruit>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <ore:listAllchickenraw>, <ore:listAllchickencooked>, <minecraft:rotten_flesh>, <minecraft:spider_eye>, <ore:listAllveggie>, <ore:listAllveggie>, <minecraft:baked_potato>, <minecraft:pumpkin_pie>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:beetroot_soup>, <minecraft:poisonous_potato>, <minecraft:rabbit_stew>, <ore:listAllmeatraw>, <ore:nuggetCosmicNeutronium>,<cuisine:food:5>,<cuisine:food:6>,<cuisine:food:7>,<cuisine:food:8>]);
 // FIX超级堡 
 
 recipes.remove(<ic2:te:54>);
