@@ -10,7 +10,7 @@ function(out, ins, cInfo) {
     var xpTransfer = ins.xpe.displayName;
     var xMeta = ins.xp.displayName;
     var finalN = xTransfer + xpTransfer;
-    if(finalN has ":") {
+    if (finalN has ":") {
         return itemUtils.getItem(finalN,xMeta);
     }
     return <thermalexpansion:augment:401>;
@@ -54,42 +54,42 @@ recipes.addShaped("2", <cuisine:crops:2>, [
     [<ore:seedWheat>, null, null], 
     [null, null, null]
 ]);
-recipes.addShaped("21", <cuisine:crops:21>, [
+recipes.addShaped("3", <cuisine:crops:3>, [
     [<ore:seedWheat>, null, null], 
     [null, <ore:seedWheat>, null], 
     [null, null, null]
 ]);
-recipes.addShaped("13", <cuisine:crops:13>, [
+recipes.addShaped("4", <cuisine:crops:4>, [
     [<ore:seedWheat>, null, null], 
     [null, null, <ore:seedWheat>], 
     [null, null, null]
 ]);
-recipes.addShaped("14", <cuisine:crops:14>, [
+recipes.addShaped("5", <cuisine:crops:5>, [
     [<ore:seedWheat>, null, null], 
     [null, null, null], 
     [<ore:seedWheat>, null, null]
 ]);
-recipes.addShaped("15", <cuisine:crops:15>, [
+recipes.addShaped("6", <cuisine:crops:6>, [
     [<ore:seedWheat>, null, null], 
     [null, null, null], 
     [null, <ore:seedWheat>, null]
 ]);
-recipes.addShaped("6", <cuisine:crops:6>, [
+recipes.addShaped("9", <cuisine:crops:9>, [
     [<ore:seedWheat>, null, null], 
     [null, null, null], 
     [null, null, <ore:seedWheat>]
 ]);
-recipes.addShaped("5", <cuisine:crops:5>, [
+recipes.addShaped("10", <cuisine:crops:10>, [
     [null, <ore:seedWheat>, <ore:seedWheat>], 
     [null, null, null], 
     [null, null, null]
 ]);
-recipes.addShaped("4", <cuisine:crops:4>, [
+recipes.addShaped("11", <cuisine:crops:11>, [
     [null, <ore:seedWheat>, null], 
     [<ore:seedWheat>, null, null], 
     [null, null, null]
 ]);
-recipes.addShaped("18", <cuisine:crops:18>, [
+recipes.addShaped("12", <cuisine:crops:12>, [
     [null, <ore:seedWheat>, null], 
     [null, <ore:seedWheat>, null], 
     [null, null, null]
@@ -99,47 +99,47 @@ recipes.addShaped("4", <cuisine:food:4>, [
     [null, null, <ore:seedWheat>], 
     [null, null, null]
 ]);
-recipes.addShaped("3", <cuisine:crops:3>, [
+recipes.addShaped("13", <cuisine:crops:13>, [
     [null, <ore:seedWheat>, null], 
     [null, null, null], 
     [<ore:seedWheat>, null, null]
 ]);
-recipes.addShaped("9", <cuisine:crops:9>, [
+recipes.addShaped("14", <cuisine:crops:14>, [
     [null, <ore:seedWheat>, null], 
     [null, null, null], 
     [null, <ore:seedWheat>, null]
 ]);
-recipes.addShaped("10", <cuisine:crops:10>, [
+recipes.addShaped("15", <cuisine:crops:15>, [
     [null, <ore:seedWheat>, null], 
     [null, null, null], 
     [null, null, <ore:seedWheat>]
 ]);
-recipes.addShaped("19", <cuisine:crops:19>, [
+recipes.addShaped("16", <cuisine:crops:16>, [
     [null, null, <ore:seedWheat>], 
     [<ore:seedWheat>, null, null], 
     [null, null, null]
 ]);
-recipes.addShaped("12", <cuisine:crops:12>, [
+recipes.addShaped("17", <cuisine:crops:17>, [
     [null, null, <ore:seedWheat>], 
     [null, <ore:seedWheat>, null], 
     [null, null, null]
 ]);
-recipes.addShaped("11", <cuisine:crops:11>, [
+recipes.addShaped("18", <cuisine:crops:18>, [
     [null, null, <ore:seedWheat>], 
     [null, null, <ore:seedWheat>], 
     [null, null, null]
 ]);
-recipes.addShaped("20", <cuisine:crops:20>, [
+recipes.addShaped("19", <cuisine:crops:19>, [
     [null, null, <ore:seedWheat>], 
     [null, null, null], 
     [<ore:seedWheat>, null, null]
 ]);
-recipes.addShaped("17", <cuisine:crops:17>, [
+recipes.addShaped("20", <cuisine:crops:20>, [
     [null, null, <ore:seedWheat>], 
     [null, null, null], 
     [null, <ore:seedWheat>, null]
 ]);
-recipes.addShaped("16", <cuisine:crops:16>, [
+recipes.addShaped("21", <cuisine:crops:21>, [
     [null, null, <ore:seedWheat>], 
     [null, null, null], 
     [null, null, <ore:seedWheat>]
