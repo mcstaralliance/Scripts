@@ -11,7 +11,7 @@ function(out, ins, cInfo) {
     var xMeta = ins.xp.displayName;
     var finalN = xTransfer + xpTransfer;
     if (finalN has ":") {
-        return itemUtils.getItem(finalN,xMeta);
+        return itemUtils.getItem(finalN, xMeta);
     }
     return <thermalexpansion:augment:401>;
 }, null);
