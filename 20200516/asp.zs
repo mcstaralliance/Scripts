@@ -149,3 +149,10 @@ recipes.addShaped("bamboo", <cuisine:bamboo>*32, [
 	[null, <ore:logWood>, null], 
 	[null, null, null]
 ]);
+
+// 打火机
+recipes.addShaped("lighter", <variedcommodities:lighter>, [
+	[null, null, <sakura:kitunebi>], 
+	[null, <minecraft:fire_charge>, null], 
+	[<cuisine:fan>, null, null]
+]);
