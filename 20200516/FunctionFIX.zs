@@ -160,6 +160,6 @@ recipes.addShaped("lighter", <variedcommodities:lighter>, [
 // 矿工指环
 recipes.addShaped("ring", <baubles:ring>, [
     [null, <ore:ingotElectricalSteel>, null], 
-    [<advanced_solar_panels:crafting:3>, <minecraft:enchanted_book>, <ore:ingotElectrum>], 
+    [<advanced_solar_panels:crafting:3>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}), <ore:ingotElectrum>], 
     [null, <extendedcrafting:material:36>, null]
 ]);
