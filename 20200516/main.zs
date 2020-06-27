@@ -274,4 +274,11 @@ recipes.addShapeless("NO2", <immersiveengineering:material:24>, [<thaumadditions
 recipes.remove(<modularmachinery:itemmodularium>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<modularmachinery:itemmodularium>, <ore:ingotGold>, <thermalfoundation:material:161>, 200, 2048, [<ore:ingotIron>, <minecraft:redstone>*2, <minecraft:glowstone_dust>], "Alloying");
 
+// 公式处理器
+recipes.addShaped("unpack", <thermalexpansion:device:10>, [
+	[<ore:crystalLitherite>, <immersiveengineering:mold:7>, <ore:crystalLitherite>], 
+	[<ore:workbench>, <thermalexpansion:frame:64>, <ore:workbench>], 
+	[<ore:crystalLitherite>, <immersiveengineering:stone_decoration:7>, <ore:crystalLitherite>]
+]);
+
 // TODO
