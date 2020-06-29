@@ -163,3 +163,37 @@ recipes.addShaped("ring", <baubles:ring>, [
     [<advanced_solar_panels:crafting:3>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}), <ore:ingotElectrum>], 
     [null, <extendedcrafting:material:36>, null]
 ]);
+
+// 机器框架模具
+recipes.remove(<enderio:item_material>);
+recipes.addShaped("enderio_material", <enderio:item_material>, [
+    [<ore:plateThaumium>, <minecraft:iron_trapdoor>, <ore:plateThaumium>], 
+    [<advanced_solar_panels:crafting:6>, <enderio:item_basic_capacitor>, <appliedenergistics2:material:25>], 
+    [<ore:plateThaumium>, <minecraft:iron_trapdoor>, <ore:plateThaumium>]
+]);
+
+// 硝
+recipes.addShapeless("NO2", <immersiveengineering:material:24>, [<thaumadditions:salt_essence>]);
+
+// 模块化合金
+recipes.remove(<modularmachinery:itemmodularium>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<modularmachinery:itemmodularium>, <ore:ingotGold>, <thermalfoundation:material:161>, 200, 2048, [<ore:ingotIron>, <minecraft:redstone>*2, <minecraft:glowstone_dust>], "Alloying");
+
+// 公式处理器
+recipes.addShaped("unpack", <thermalexpansion:device:10>, [
+    [<ore:crystalLitherite>, <immersiveengineering:mold:7>, <ore:crystalLitherite>], 
+    [<ore:workbench>, <thermalexpansion:frame:64>, <ore:workbench>], 
+    [<ore:crystalLitherite>, <immersiveengineering:stone_decoration:7>, <ore:crystalLitherite>]
+]);
+
+// 晓汉堡
+<sakura:foodset:69>
+.displayName = "§2晓汉堡";
+.addTooltip("§3老八蜜汁晓汉堡")
+.addTooltip("§6既实惠，还管饱");
+
+recipes.addShaped("老⑧汉堡", <sakura:foodset:69>, [
+    [null, <ore:bread>, null], 
+    [<ore:listAllgrain>, <ore:cropLemon>, <cuisine:material:4>], 
+    [null, <ore:bread>, null]
+]);
