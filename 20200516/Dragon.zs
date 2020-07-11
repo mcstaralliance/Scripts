@@ -1,4 +1,3 @@
-//recipes.remove(<xtones:base>);
 var machineName = "dragon";
 val recipesTickTime = 72000;
 
@@ -36,7 +35,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_pick>
 ]);
 
 // 双足飞龙斧
-mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_axe>), [
+mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_axe>, [
     [null, null, <thermalfoundation:material:657>, <thermalfoundation:material:657>, null, null, null], 
     [null, <ic2:crafting:4>, <ore:dustCryotheum>, <thermalexpansion:capacitor:3>, <ic2:block_cutting_blade:2>, null, null], 
     [null, null, <ic2:crafting:4>, <ore:dustCryotheum>, <ic2:block_cutting_blade:2>, null, null], 
