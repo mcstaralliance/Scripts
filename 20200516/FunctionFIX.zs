@@ -188,7 +188,7 @@ recipes.addShaped("unpack", <thermalexpansion:device:10>, [
 
 // 晓汉堡
 <sakura:foodset:69>
-.displayName = "§2晓汉堡";
+.displayName = "§2晓汉堡"
 .addTooltip("§3老八蜜汁晓汉堡")
 .addTooltip("§6既实惠，还管饱");
 
