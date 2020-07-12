@@ -214,15 +214,25 @@ recipes.remove(<enderio:item_soul_vial>);
 // 传送符咒收纳容器
 recipes.remove(<draconicevolution:dislocator_receptacle>);
 
-// 玄钢升级"存入"
-recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}));
-
-//  玄钢升级"旅行"
-recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
-
 // 信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 // 腐化瓶子
 mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
+
+// OP 玄钢升级
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
+
+// 战利品表修改
+mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
+mods.ltt.LootTable.removeGlobalItem("<enderio:item_dark_steel_pickaxe>");
+mods.ltt.LootTable.removeGlobalItem("<enderio:item_dark_steel_sword>");
