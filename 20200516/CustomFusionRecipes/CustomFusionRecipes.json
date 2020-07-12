@@ -73,5 +73,10 @@
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_staff_of_power",
         "catalyst": "draconicevolution:draconic_pick"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
     }
 ]
