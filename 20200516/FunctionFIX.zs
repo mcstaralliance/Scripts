@@ -11,6 +11,9 @@ function(out, ins, cInfo) {
     var xMeta = ins.xp.displayName;
     var finalN = xTransfer + xpTransfer;
     if (finalN has ":") {
+        if (xMeta == "null") {
+            return itemUtils.getItem(finalN);
+        }
         return itemUtils.getItem(finalN, xMeta);
     }
     return <thermalexpansion:augment:401>;
@@ -187,13 +190,20 @@ recipes.addShaped("unpack", <thermalexpansion:device:10>, [
 ]);
 
 // 晓汉堡
-<sakura:foodset:69>
-.displayName = "§2晓汉堡"
-.addTooltip("§3老八蜜汁晓汉堡")
-.addTooltip("§6既实惠，还管饱");
+<sakura:foodset:69>.displayName = "§2晓汉堡";
 
 recipes.addShaped("老⑧汉堡", <sakura:foodset:69>, [
     [null, <ore:bread>, null], 
     [<ore:listAllgrain>, <ore:cropLemon>, <cuisine:material:4>], 
     [null, <ore:bread>, null]
 ]);
+
+recipes.remove(<draconicevolution:wyvern_axe>);
+recipes.remove(<draconicevolution:wyvern_bow>);
+recipes.remove(<draconicevolution:wyvern_pick>);
+recipes.remove(<draconicevolution:wyvern_shovel>);
+recipes.remove(<draconicevolution:wyvern_sword>);
+recipes.remove(<draconicevolution:wyvern_helm>);
+recipes.remove(<draconicevolution:wyvern_chest>);
+recipes.remove(<draconicevolution:wyvern_legs>);
+recipes.remove(<draconicevolution:wyvern_boots>);
