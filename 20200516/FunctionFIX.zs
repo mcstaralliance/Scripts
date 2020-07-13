@@ -198,6 +198,7 @@ recipes.addShaped("老⑧汉堡", <sakura:foodset:69>, [
     [null, <ore:bread>, null]
 ]);
 
+// 移除冲突合成
 recipes.remove(<draconicevolution:wyvern_axe>);
 recipes.remove(<draconicevolution:wyvern_bow>);
 recipes.remove(<draconicevolution:wyvern_pick>);
@@ -207,3 +208,6 @@ recipes.remove(<draconicevolution:wyvern_helm>);
 recipes.remove(<draconicevolution:wyvern_chest>);
 recipes.remove(<draconicevolution:wyvern_legs>);
 recipes.remove(<draconicevolution:wyvern_boots>);
+
+// 移除锤子核心合成
+recipes.removeByRegex("thaumcraft:.*plate");
