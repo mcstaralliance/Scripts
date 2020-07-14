@@ -199,20 +199,20 @@ recipes.addShaped("Mr.8", <sakura:foodset:69>*16, [
     [null, <ore:bread>, null]
 ]);
 
-
+// 格式化双足飞龙工具装备合成
 var wyverns = [<draconicevolution:wyvern_axe>,<draconicevolution:wyvern_bow>,<draconicevolution:wyvern_pick>,<draconicevolution:wyvern_shovel>,<draconicevolution:wyvern_sword>,<draconicevolution:wyvern_helm>,<draconicevolution:wyvern_chest>,<draconicevolution:wyvern_legs>,<draconicevolution:wyvern_boots>] as IItemStack[];
 for i, wyvern in wyverns {    
     var wyvern = wyverns[i];
     recipes.remove(wyvern);
 }
 
-
+// 移除传统板合成
 recipes.removeByRegex("thaumcraft:.*plate");
 recipes.removeByRegex("(immersiveengineering:compat/plate)+");
 recipes.removeByRegex("(immersiveengineering:material/plate)+");
 recipes.removeByRegex("(hammercore:thaumadditions)+");
 
-
+// 添加初始板合成
 var plates = [<immersiveengineering:metal:30>,<immersiveengineering:metal:38>,<immersiveengineering:metal:39>,<immersiveengineering:metal:40>] as IItemStack[];
 var ingots = [<ore:ingotCopper>,<ore:ingotSteel>,<ore:ingotIron>,<ore:ingotGold>];
 for i, plate in plates {
