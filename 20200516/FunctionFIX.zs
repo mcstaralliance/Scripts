@@ -191,23 +191,34 @@ recipes.addShaped("unpack", <thermalexpansion:device:10>, [
 
 // 晓汉堡
 <sakura:foodset:69>.displayName = "§2晓汉堡";
+<sakura:foodset:69>.addTooltip("§6既实惠还管饱");
 
-recipes.addShaped("老⑧汉堡", <sakura:foodset:69>, [
+recipes.addShaped("Mr.8", <sakura:foodset:69>*16, [
     [null, <ore:bread>, null], 
     [<ore:listAllgrain>, <ore:cropLemon>, <cuisine:material:4>], 
     [null, <ore:bread>, null]
 ]);
 
-// 移除冲突合成
-recipes.remove(<draconicevolution:wyvern_axe>);
-recipes.remove(<draconicevolution:wyvern_bow>);
-recipes.remove(<draconicevolution:wyvern_pick>);
-recipes.remove(<draconicevolution:wyvern_shovel>);
-recipes.remove(<draconicevolution:wyvern_sword>);
-recipes.remove(<draconicevolution:wyvern_helm>);
-recipes.remove(<draconicevolution:wyvern_chest>);
-recipes.remove(<draconicevolution:wyvern_legs>);
-recipes.remove(<draconicevolution:wyvern_boots>);
 
-// 移除锤子核心合成
+var wyverns = [<draconicevolution:wyvern_axe>,<draconicevolution:wyvern_bow>,<draconicevolution:wyvern_pick>,<draconicevolution:wyvern_shovel>,<draconicevolution:wyvern_sword>,<draconicevolution:wyvern_helm>,<draconicevolution:wyvern_chest>,<draconicevolution:wyvern_legs>,<draconicevolution:wyvern_boots>] as IItemStack[];
+for i, wyvern in wyverns {    
+    var wyvern = wyverns[i];
+    recipes.remove(wyvern);
+}
+
+
 recipes.removeByRegex("thaumcraft:.*plate");
+recipes.removeByRegex("(immersiveengineering:compat/plate)+");
+recipes.removeByRegex("(immersiveengineering:material/plate)+");
+recipes.removeByRegex("(hammercore:thaumadditions)+");
+
+
+var plates = [<immersiveengineering:metal:30>,<immersiveengineering:metal:38>,<immersiveengineering:metal:39>,<immersiveengineering:metal:40>] as IItemStack[];
+var ingots = [<ore:ingotCopper>,<ore:ingotSteel>,<ore:ingotIron>,<ore:ingotGold>];
+for i, plate in plates {
+    var plate as IItemStack = plates[i]; 
+    for ii, ingot in ingots {
+        var ingot = ingots[ii];
+        recipes.addShapeless(plate,[ingot,ingot,ingot,<thermalfoundation:wrench>],null,null);
+    }
+}
