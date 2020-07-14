@@ -3,7 +3,7 @@ import mods.thaumcraft.Infusion;
 // 稳定刷怪笼未ban
 
 // UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
-var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] ;
+var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] as IItemStack[];
 for i, UU_machine in UU {
     var UU_machine = UU[i];
     recipes.remove(UU_machine);
@@ -64,7 +64,7 @@ recipes.remove(<forestry:stamp_collector>);
 recipes.remove(<forestry:rainmaker>);
 
 // 林业背包
-var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] ;
+var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] as IItemStack[];
 for i, bag in bags {    
     var bag = bags[i];
     recipes.remove(bag);
@@ -231,6 +231,7 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
 
 // 战利品表修改
+// 需添加LootTableTweaker MOD
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
