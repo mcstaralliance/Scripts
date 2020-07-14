@@ -1,4 +1,8 @@
+import crafttweaker.item.IItemStack as IItemStack;
 import mods.thaumcraft.Infusion;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.item.IIngredient;
 
 // 稳定刷怪笼未ban
 
