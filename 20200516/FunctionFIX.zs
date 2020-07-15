@@ -190,8 +190,8 @@ recipes.addShaped("unpack", <thermalexpansion:device:10>, [
 ]);
 
 // 晓汉堡
-<sakura:foodset:69>.displayName = "§2晓汉堡";
-<sakura:foodset:69>.addTooltip("§6既实惠还管饱");
+<sakura:foodset:69>.displayName = "§5晓汉堡";
+<sakura:foodset:69>.addTooltip("§7既实惠还___");
 
 recipes.addShaped("Mr.8", <sakura:foodset:69>*16, [
     [null, <ore:bread>, null], 
@@ -209,7 +209,7 @@ for i, wyvern in wyverns {
 // 移除传统板合成
 recipes.removeByRegex("thaumcraft:.*plate");
 recipes.removeByRegex("immersiveengineering:compat/plate+");
-recipes.removeByRegex("immersiveengineering:material/plate)+");
+recipes.removeByRegex("immersiveengineering:material/plate+");
 recipes.removeByRegex("hammercore:thaumadditions+");
 
 // 添加初始板合成
@@ -223,21 +223,22 @@ for i, plate in plates {
     }
 }
 
-// 魔力与UU
+// 魔力及UU
 mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 250,<thermalfoundation:geode>,100000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:storage:8> , <thermalfoundation:storage:2> , <liquid:mana> * 9000,120000);
+mods.thermalexpansion.Transposer.addFillRecipe(<extendedcrafting:storage:4> , <thermalfoundation:storage:8> , <liquid:ic2uu_matter> * 1000,120000);
 recipes.addShaped("geode", <thermalfoundation:geode>, [
 	[null, <appliedenergistics2:material:1>, null], 
 	[<thaumcraft:alumentum>, <thaumadditions:crystal_block>.withTag({Aspect: "caeles"}), <thaumcraft:alumentum>], 
-	[null, <forge:bucketfilled>, null]
+	[null, <forge:bucketfilled>.withTag({FluidName: "crystal_water", Amount: 1000}), null]
 ]);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:ic2uu_matter> * 250,<ic2:misc_resource:3>,100);
-recipes.addShaped("UU mater", <ic2:misc_resource:3>, [
+recipes.addShaped("UU_mater", <ic2:misc_resource:3>, [
 	[null, <sakura:foodset:42>, null], 
 	[<ore:itemBiomassRich>, <extendedcrafting:material:40>, <ore:itemBiomass>], 
 	[null, <appliedenergistics2:paint_ball:30>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <custommc:item705>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <custommc:item705>.withTag({ench: [{lvl: 1 as short, id: 10 as short}, {lvl: 3 as short, id: 36 as short}, {lvl: 3 as short, id: 27 as short}], RepairCost: 7}), [
 	[<extendedcrafting:trimmed:5>, <ore:blockDraconiumAwakened>, <ic2:nuclear:3>, <ore:blockDraconiumAwakened>, <extendedcrafting:trimmed:5>], 
 	[<ore:blockDraconiumAwakened>, <ore:blockAethium>, <avaritia:resource:5>, <ore:blockAethium>, <ore:blockDraconiumAwakened>], 
 	[<ore:skullSentientEnder>, <enderio:item_basic_capacitor:2>, <draconicevolution:draconic_staff_of_power>, <enderio:item_basic_capacitor:2>, <ore:skullSentientEnder>], 
@@ -247,9 +248,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <custommc:item705>, [
 
 // 毕业证明
 <custommc:item705>.displayName = "§6§lWelcome  -look forward";
-<custommc:item705>.addTooltip("§7我就说那个玩家肯定会到达这里的");
-<custommc:item705>.addTooltip("§7嘘~");
-<custommc:item705>.addTooltip("§7现在的 TA 能听见我们的谈话……");
+<custommc:item705>.addTooltip("§7Mr.???:我就说他会到达这里的");
+<custommc:item705>.addTooltip("§7Mr.?????:嘘~");
+<custommc:item705>.addTooltip("§7Mr.?????:他能听见我们说话……");
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:chaos_shard:3>, [
 	[null, null, null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>], 
 	[null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>], 
@@ -259,8 +260,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:chaos_shard:
 	[<ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null], 
 	[<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null, null, null]
 ]);
-recipes.addShaped("I know you are looking at here.This not a simple letter,it is honor ……", <custommc:item705>.withTag({ench: [{lvl: 1 as short, id: 10 as short}, {lvl: 3 as short, id: 36 as short}, {lvl: 3 as short, id: 27 as short}], RepairCost: 7}), [
-	[null, null, null], 
-	[null, <custommc:item705>.withTag(), null], 
-	[null, null, null]
-]);
+
+recipes.addShaped("letter", <custommc:item705>, [
+    [<ic2:nuclear:3>, <avaritia:resource:5>, <ore:skullSentientEnder>], 
+    [<ore:dropRoyalJelly>, <draconicevolution:draconic_staff_of_power>, <draconicevolution:chaotic_core>], 
+    [<extendedcrafting:storage:4>, <extracells:storage.component:3>, <thaumadditions:mithminite_block>]
+],
+function(out,ins,cInfo){
+    return out;
+},
+function(out,cInfo,player){
+    return <custommc:item705>.withTag("{ench: [{lvl: 1 as short, id: 10 as short}, {lvl: 3 as short, id: 36 as short}, {lvl: 3 as short, id: 27 as short}], display: {Lore: [" ~ player.name ~ "]}}") ;
+});
