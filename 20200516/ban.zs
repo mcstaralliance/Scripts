@@ -224,7 +224,7 @@ recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 // 腐化瓶子
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:bottle_taint>);
 
 // OP 玄钢升级
 recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
