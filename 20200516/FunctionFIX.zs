@@ -1,3 +1,6 @@
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict;
 // 通量维修复原
 recipes.remove(<thermalexpansion:augment:401>);
 recipes.addShaped("Repair", <thermalexpansion:augment:401>, [
