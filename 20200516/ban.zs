@@ -4,7 +4,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
 
-// 稳定刷怪笼未ban
+// 稳定刷怪笼
+recipes.remove(<draconicevolution:draconic_spawner>);
 
 // UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
 var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] as IItemStack[];
