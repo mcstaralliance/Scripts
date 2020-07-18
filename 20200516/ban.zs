@@ -8,7 +8,7 @@ import crafttweaker.item.IIngredient;
 recipes.remove(<draconicevolution:draconic_spawner>);
 
 // UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
-var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] as IItemStack[];
+var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:88>,<ic2:te:89>] as IItemStack[];
 for i, UU_machine in UU {
     var UU_machine = UU[i];
     recipes.remove(UU_machine);
@@ -235,10 +235,18 @@ recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "ende
 recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}));
 recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
 
+// 奥术钻探机
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:turret>);
+
+// 奥术刷怪笼
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:entity_summoner>);
+
 // 战利品表修改
 // 需添加LootTableTweaker MOD
+/*
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
+*/
