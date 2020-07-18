@@ -241,6 +241,14 @@ mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:turret>);
 // 奥术刷怪笼
 mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:entity_summoner>);
 
+// 无尽
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pickaxe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_bow>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_shovel>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
+
 // 战利品表修改
 // 需添加LootTableTweaker MOD
 /*
