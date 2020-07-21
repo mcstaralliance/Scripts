@@ -241,6 +241,9 @@ mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:turret>);
 // 奥术刷怪笼
 mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:entity_summoner>);
 
+// 空白印记
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:seal>);
+
 // 无尽
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pickaxe>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
