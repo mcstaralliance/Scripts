@@ -228,11 +228,15 @@ recipes.addShaped("UU_mater", <ic2:misc_resource:3>, [
     [null, <appliedenergistics2:paint_ball:30>, null]
 ]);
 mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag({ench: [{lvl: 1 as short, id: 10 as short}, {lvl: 3 as short, id: 36 as short}, {lvl: 3 as short, id: 27 as short}], RepairCost: 7}), [
-    [<extracells:walrus>, <ore:blockDraconiumAwakened>, <ic2:nuclear:3>, <ore:blockDraconiumAwakened>, <extracells:walrus>], 
-    [<ore:blockDraconiumAwakened>, <ore:blockAethium>, <avaritia:resource:5>, <ore:blockAethium>, <ore:blockDraconiumAwakened>], 
-    [<ore:skullSentientEnder>, <enderio:item_basic_capacitor:2>, <draconicevolution:draconic_staff_of_power>, <enderio:item_basic_capacitor:2>, <ore:skullSentientEnder>], 
-    [<ore:blockDraconiumAwakened>, <ore:dropRoyalJelly>, <extracells:storage.component:3>, <ore:dropRoyalJelly>, <ore:blockDraconiumAwakened>], 
-    [<extracells:walrus>, <ore:blockDraconiumAwakened>, <draconicevolution:chaotic_core>, <ore:blockDraconiumAwakened>, <extracells:walrus>]
+    [null,null,null,null,null,null,null,null,null],
+    [null,null,null,null,null,null,null,null,null],
+    [null,null,<extracells:walrus>, <ore:blockDraconiumAwakened>, <ic2:nuclear:3>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null], 
+    [null,null,<ore:blockDraconiumAwakened>, <ore:blockAethium>, <avaritia:resource:5>, <ore:blockAethium>, <ore:blockDraconiumAwakened>,null,null], 
+    [null,null,<ore:skullSentientEnder>, <enderio:item_basic_capacitor:2>, <draconicevolution:draconic_staff_of_power>, <enderio:item_basic_capacitor:2>, <ore:skullSentientEnder>,null,null], 
+    [null,null,<ore:blockDraconiumAwakened>, <ore:dropRoyalJelly>, <extracells:storage.component:3>, <ore:dropRoyalJelly>, <ore:blockDraconiumAwakened>,null,null], 
+    [<extracells:walrus>, <ore:blockDraconiumAwakened>, <draconicevolution:chaotic_core>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null],
+    [null,null,null,null,null,null,null,null,null],
+    [null,null,null,null,null,null,null,null,null]
 ]);
 
 <custommc:item705>.displayName = "§6§lWelcome  -look forward";
@@ -240,12 +244,14 @@ mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag
 <custommc:item705>.addTooltip("§7Mr.?????:嘘~");
 <custommc:item705>.addTooltip("§7Mr.?????:他能听见我们说话……");
 mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolution:chaos_shard:3>, [
-    [null, null, null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>], 
-    [null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>], 
-    [null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>], 
-    [null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, null], 
-    [<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, <ore:oreCrystalEntropy>, null], 
-    [<ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null], 
-    [<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null, null, null]
+    [null,null,null,null,null,null,null,null,null],
+    [null,null, null, null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
+    [null,null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>,null], 
+    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
+    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, null,null], 
+    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, <ore:oreCrystalEntropy>, null,null], 
+    [null,<ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null,null], 
+    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null, null, null],
+    [null,null,null,null,null,null,null,null,null]
 ]);
 
