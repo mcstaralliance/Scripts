@@ -11,7 +11,7 @@ import crafttweaker.data.IData;
 recipes.remove(<thermalexpansion:augment:401>);
 recipes.addShaped("Repair", <thermalexpansion:augment:401>, [
     [<enderio:item_material:69>, <enderio:item_xp_transfer>.marked("meta"), <enderio:item_material:69>], 
-    [<immersiveengineering:material:27>, <thaumcraft:seal>.marked("xpe"), <ore:plateBronze>], 
+    [<immersiveengineering:material:27>, <thermalfoundation:diagram_redprint>.marked("xpe"), <ore:plateBronze>], 
     [<enderio:item_material:69>, <minecraft:enchanted_book>.marked("xp"), <enderio:item_material:69>]
 ], 
 function(out, ins, cInfo) {
