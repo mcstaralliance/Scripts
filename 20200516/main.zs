@@ -294,5 +294,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>,
 
 // 2020.7.22 凌六更新
 
-mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:aer>*16,<aspect:aqua>*16,<aspect:ordo>*16]);
+mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:alienis>*16,<aspect:aqua>*32,<aspect:lucrum>*16]);
 // 海晶碎片
