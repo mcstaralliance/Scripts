@@ -7,6 +7,9 @@ import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.InductionSmelter;
 import crafttweaker.event.PlayerCraftedEvent;
 import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.world.IWorld;
+import mods.thermalexpansion.Infuser;
 
 recipes.remove(<thermalexpansion:augment:401>);
 recipes.addShaped("Repair", <thermalexpansion:augment:401>, [
@@ -231,7 +234,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null],
     [null,null,<extracells:walrus>, <ore:blockDraconiumAwakened>, <ic2:nuclear:3>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null], 
-    [null,null,<ore:blockDraconiumAwakened>, <ore:blockAethium>, <avaritia:resource:5>, <ore:blockAethium>, <ore:blockDraconiumAwakened>,null,null], 
+    [null,null,<ore:blockDraconiumAwakened>, <cuisine:food:16>, <avaritia:resource:5>, <cuisine:food:16>, <ore:blockDraconiumAwakened>,null,null], 
     [null,null,<ore:skullSentientEnder>, <enderio:item_basic_capacitor:2>, <draconicevolution:draconic_staff_of_power>, <enderio:item_basic_capacitor:2>, <ore:skullSentientEnder>,null,null], 
     [null,null,<ore:blockDraconiumAwakened>, <ore:dropRoyalJelly>, <extracells:storage.component:3>, <ore:dropRoyalJelly>, <ore:blockDraconiumAwakened>,null,null], 
     [null,null,<extracells:walrus>, <ore:blockDraconiumAwakened>, <draconicevolution:chaotic_core>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null],
@@ -255,3 +258,5 @@ mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolutio
     [null,null,null,null,null,null,null,null,null]
 ]);
 
+<cuisine:food:16>.displayName = "§6充能柚子";
+mods.thermalexpansion.Infuser.addRecipe(<cuisine:food:16>, <cuisine:food:10>, 10000);
