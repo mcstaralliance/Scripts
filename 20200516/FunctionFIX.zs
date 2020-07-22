@@ -211,7 +211,7 @@ for i, wyvern in wyverns {
 
 
 recipes.removeByRegex("thaumcraft:.*plate");
-
+recipes.remove(<extracells:walrus>);
 
 mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 250,<thermalfoundation:geode>,100000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:storage:8> , <thermalfoundation:storage:2> , <liquid:mana> * 9000,120000);
@@ -234,7 +234,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag
     [null,null,<ore:blockDraconiumAwakened>, <ore:blockAethium>, <avaritia:resource:5>, <ore:blockAethium>, <ore:blockDraconiumAwakened>,null,null], 
     [null,null,<ore:skullSentientEnder>, <enderio:item_basic_capacitor:2>, <draconicevolution:draconic_staff_of_power>, <enderio:item_basic_capacitor:2>, <ore:skullSentientEnder>,null,null], 
     [null,null,<ore:blockDraconiumAwakened>, <ore:dropRoyalJelly>, <extracells:storage.component:3>, <ore:dropRoyalJelly>, <ore:blockDraconiumAwakened>,null,null], 
-    [<extracells:walrus>, <ore:blockDraconiumAwakened>, <draconicevolution:chaotic_core>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null],
+    [null,null,<extracells:walrus>, <ore:blockDraconiumAwakened>, <draconicevolution:chaotic_core>, <ore:blockDraconiumAwakened>, <extracells:walrus>,null,null],
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null]
 ]);
