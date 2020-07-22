@@ -67,7 +67,7 @@ mods.avaritia.ExtremeCrafting.addShaped("myshovel", <draconicevolution:wyvern_sh
 // 双足飞龙弓
 mods.avaritia.ExtremeCrafting.addShaped("mybow", <draconicevolution:wyvern_bow>, [
     [null,null,null,null,null,null,null,null,null],
-    [null, <ic2:te:41>, <thaumcraft:module:1>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVibrantAlloy>,null], 
+    [null, <ic2:te:41>, <thaumcraft:module:1>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVibrantAlloy>,null,null], 
     [null,<ic2:te:41>, <thermalfoundation:tool.bow_platinum>, <thaumcraft:turret:1>, <forge:bucketfilled>, null, <forestry:crafting_material:2>, null,null], 
     [null,<thaumcraft:module:1>, <thaumcraft:turret:1>, <thaumcraft:seal:14>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null,null], 
     [null,<ore:ingotVoid>, <forge:bucketfilled>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null, null,null], 
@@ -87,7 +87,7 @@ mods.avaritia.ExtremeCrafting.addShaped("myhelm", <draconicevolution:wyvern_helm
     [null,null, <forestry:crafting_material:6>, <ore:nitor>, <draconicevolution:infused_obsidian>, <ore:nitor>, <forestry:crafting_material:6>, null,null], 
     [null,null, <ore:blockRockwool>, <thaumcraft:candle_blue>, <thaumcraft:banner_blue>, <thaumcraft:candle_blue>, <ore:blockRockwool>, null,null], 
     [null,null, <ore:blockRockwool>, <thaumcraft:candle_blue>, <thaumcraft:banner_blue>, <thaumcraft:candle_blue>, <ore:blockRockwool>, null,null],
-    [null,null,null,null,null,null,null,null,null,null]
+    [null,null,null,null,null,null,null,null,null]
 ]);
 
 // 双足胸甲
@@ -100,7 +100,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mychest", <draconicevolution:wyvern_che
     [null,null,<ic2:crafting:4>,<ore:ingotVibrantAlloy>,<draconicevolution:wyvern_core>,<ore:ingotVibrantAlloy>,<ic2:crafting:4>,null,null], 
     [null,null,null,<ore:ingotVibrantAlloy>,<draconicevolution:wyvern_core>,<ore:ingotVibrantAlloy>,null,null,null], 
     [null,null,null, null, null, null, null, null,null],
-    [null,null,null,null,null,null,null,null,null,null]
+    [null,null,null,null,null,null,null,null,null]
 ]);
 
 // 双足裤腿
