@@ -291,3 +291,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>,
 	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
 ]);
 // 修改了ME存储总线的合成
+
+// 2020.7.22 凌六更新
+
+mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:aer>*16,<aspect:aqua>*16,<aspect:ordo>*16]);
+// 海晶碎片
