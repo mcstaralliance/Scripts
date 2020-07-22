@@ -1,11 +1,11 @@
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.ArcaneWorkbench;
 import thaumcraft.aspect.CTAspectStack;
-import crafttweaker.item.IItemTransformer;  
+import crafttweaker.item.IItemTransformer;
 import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 
-// 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>; 
+// 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>;
 // 2020.5.17 更新
 
 recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:dirt>, <ore:plankWood>], [<minecraft:gravel>, <minecraft:sand>]]);
@@ -271,10 +271,10 @@ recipes.addShaped("Goldenapplerecipes", <minecraft:golden_apple:1>*8, [[GB,GB,GB
 recipes.remove(<appliedenergistics2:part:220>);
 val icp = <enderio:item_conduit_probe>.anyDamage().transformDamage();
 mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>, [
-	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null], 
-	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null], 
-	[<ore:itemChassiParts>, icp, <enderio:block_end_iron_bars>, <thermalexpansion:cache>, null], 
-	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null], 
+	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null],
+	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
+	[<ore:itemChassiParts>, icp, <enderio:block_end_iron_bars>, <thermalexpansion:cache>, null],
+	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
 	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
 ]);
 // 修改了 ME 存储总线的合成
