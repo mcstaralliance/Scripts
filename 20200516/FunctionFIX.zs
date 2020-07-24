@@ -256,3 +256,21 @@ mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolutio
 
 <cuisine:food:16>.displayName = "§6充能柚子";
 mods.thermalexpansion.Infuser.addRecipe(<cuisine:food:16>, <cuisine:food:10>, 10000);
+
+recipes.addShaped("Sentient", <enderio:item_material:44>, [
+	[<ore:itemEnderCrystalPowder>, <ore:itemEnderCrystalPowder>, <ore:itemEnderCrystalPowder>], 
+	[<ore:itemEnderCrystalPowder>, <ore:skullEnderResonator>, <ore:itemEnderCrystalPowder>], 
+	[<ore:itemEnderCrystalPowder>, <ore:itemEnderCrystalPowder>, <ore:itemEnderCrystalPowder>]
+]);
+
+recipes.addShaped("thermalcell", <environmentaltech:thermal_cell>, [
+	[null, <minecraft:magma_cream>, null], 
+	[<minecraft:magma_cream>, <environmentaltech:modifier_null>, <minecraft:magma_cream>], 
+	[null, <minecraft:magma_cream>, null]
+]);
+
+recipes.addShaped("endercrystal", <enderio:item_material:16>, [
+	[null, <appliedenergistics2:material:1>, null], 
+	[<ore:itemVibrantPowder>, <ore:listAllfruit>, <ore:itemVibrantPowder>], 
+	[null, <ore:itemVibrantPowder>, null]
+]);
