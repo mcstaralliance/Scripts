@@ -207,29 +207,12 @@ mods.inworldcrafting.FluidToItem.transform(<modularmachinery:itemblueprint>.with
 
 // 2020.5.24 更新
 
-recipes.remove(<avaritia:double_compressed_crafting_table>);
-recipes.addShaped(<avaritia:double_compressed_crafting_table>, [[<avaritia:compressed_crafting_table>, <avaritia:compressed_crafting_table>, <avaritia:compressed_crafting_table>], [<avaritia:compressed_crafting_table>, <extendedcrafting:trimmed:2>, <avaritia:compressed_crafting_table>], [<avaritia:compressed_crafting_table>, <avaritia:compressed_crafting_table>, <avaritia:compressed_crafting_table>]]);
-// 双重压缩工作台
-
 recipes.remove(<avaritia:compressed_crafting_table>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:compressed_crafting_table>, [
-    [null, null, null, null, null], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, null], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, null], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, null], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, null]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:double_compressed_crafting_table>, [
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <ore:ingotCosmicNeutronium>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>], 
-    [<extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>, <extendedcrafting:crafting_table>]
-]);
+recipes.addShaped(<avaritia:compressed_crafting_table>, [[<ic2:crafting:17>, <enderio:block_infinity:1>, <ic2:crafting:17>], [<enderio:block_infinity:1>, <extendedcrafting:handheld_table>, <enderio:block_infinity:1>], [<ic2:crafting:17>, <enderio:block_infinity:1>, <ic2:crafting:17>]]);
+// 压缩工作台
+
+recipes.remove(<avaritia:double_compressed_crafting_table>);
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<avaritia:double_compressed_crafting_table>, <avaritia:compressed_crafting_table>, 100);
 // 双重压缩工作台
 
 mods.extendedcrafting.TableCrafting.addShapeless(0, <avaritia:ultimate_stew>*4, [<ore:cropApple>, <minecraft:mushroom_stew>, <ore:bread>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:golden_apple>, <ore:listAllfishraw>, <ore:listAllfishraw>, <ore:listAllfishraw>, <minecraft:cake>, <ore:listAllcookie>, <ore:listAllfruit>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <ore:listAllchickenraw>, <ore:listAllchickencooked>, <minecraft:rotten_flesh>, <minecraft:spider_eye>, <ore:listAllveggie>, <ore:listAllveggie>, <minecraft:baked_potato>, <minecraft:pumpkin_pie>, <ore:listAllmeatraw>, <ore:listAllmeatcooked>, <minecraft:beetroot_soup>, <minecraft:poisonous_potato>, <minecraft:rabbit_stew>, <ore:listAllmeatraw>, <ore:nuggetCosmicNeutronium>,<cuisine:food:5>,<cuisine:food:6>,<cuisine:food:7>,<cuisine:food:8>]);
@@ -278,3 +261,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>,
 	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
 ]);
 // 修改了 ME 存储总线的合成
+
+<variedcommodities:spell_dark>.displayName = "§7终极核心";
+// 更名
+
+mods.thaumcraft.Infusion.registerRecipe("hechenghexing", "", <variedcommodities:spell_dark>, 20, [<aspect:potentia>*16, <aspect:instrumentum>*16, <aspect:fabrico>*16, <aspect:auram>*8, <aspect:humanus>*8], <avaritia:double_compressed_crafting_table>, [<thaumcraft:causality_collapser>, <ore:ingotVoid>, <thaumadditions:mithrillium_ingot>, <ore:crystalLitherite>, <appliedenergistics2:material:7>, <ore:blockDiamond>, <thermalfoundation:material:1024>, <modularmachinery:itemmodularium>,]);
+// 合成台核心 无尽工作台核心
+
+mods.inworldcrafting.FluidToFluid.transform(<liquid:cryotheum>, <liquid:water>, [<thermalfoundation:material:1025>]);
+// 凛冰液体转化
+
+mods.inworldcrafting.FluidToItem.transform((<avaritia:extreme_crafting_table>), <liquid:cryotheum>, [<variedcommodities:spell_dark>], true);
+// 终极工作台
