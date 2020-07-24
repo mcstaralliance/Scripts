@@ -195,11 +195,7 @@ recipes.addShaped("unpack", <thermalexpansion:device:10>, [
     [<ore:crystalLitherite>, <immersiveengineering:stone_decoration:7>, <ore:crystalLitherite>]
 ]);
 
-
-<sakura:foodset:69>.displayName = "§5晓汉堡";
-<sakura:foodset:69>.addTooltip("§7既实惠还___");
-
-recipes.addShaped("Mr.8", <sakura:foodset:69>*16, [
+recipes.addShaped(<sakura:foodset:69>, [
     [null, <ore:bread>, null], 
     [<ore:listAllgrain>, <ore:cropLemon>, <cuisine:material:4>], 
     [null, <ore:bread>, null]
