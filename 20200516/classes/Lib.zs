@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 zenClass Lib {
     zenConstructor() {
     }
-    // 获取物品ID 原版石头 minecraft:stone
+    // 获取物品 ID 原版石头 minecraft:stone
     function getItemName(input as IItemStack) as string {
         val id as string = input.definition.id;
         val meta as int = input.metadata;
@@ -13,7 +13,7 @@ zenClass Lib {
             return id;
         } else return (id + meta);
     }
-    // 获取物品ID 只是冒号由下划线取代 原版石头 minecraft_stone
+    // 获取物品 ID 只是冒号由下划线取代 原版石头 minecraft_stone
     function getItemNameWithUnderline(input as IItemStack) as string {
         var mod as string = input.definition.owner;
         var id as string = input.definition.id.split(":")[1];
@@ -23,7 +23,7 @@ zenClass Lib {
         } else return (mod + "_" + id + "_" + meta);
     }
     
-    // 修改合成，先删后加，第一个参数true表有序，flase无序，需要二维数组（即使是无序）
+    // 修改合成，先删后加，第一个参数 true 表有序，false 无序，需要二维数组（即使是无序）
     function recipeTweak(isShaped as bool,out as IItemStack,input as IIngredient[][]) {
         val recipeName as string = this.getItemNameWithUnderline(out);
         recipes.remove(out,true);
@@ -48,7 +48,7 @@ zenClass Lib {
     function createFull2(input as IIngredient) as IIngredient[][] {
         return [[input,input],[input,input]];
     }
-    // 删除工作台与熔炉合成，并在JEI内隐藏
+    // 删除工作台与熔炉合成，并在 JEI 内隐藏
     function removeAllRecipe(input as IItemStack) as bool {
         recipes.remove(input);
         furnace.remove(input);
