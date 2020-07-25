@@ -13,7 +13,7 @@ recipes.addShaped("WyvernCore",<draconicevolution:wyvern_core>,[[<thaumcraft:bra
 recipes.addShaped("awakedcore", <draconicevolution:awakened_core>, [[<draconicevolution:draconic_ingot>, <draconicevolution:wyvern_core>, <thaumcraft:focus_3>], [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>], [<thaumcraft:focus_3>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_ingot>]]);
 
 // 双足飞龙剑
-mods.avaritia.ExtremeCrafting.addShaped("mysword", <draconicevolution:wyvern_sword>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvensword", <draconicevolution:wyvern_sword>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, null, null, null, null, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>,null], 
     [null,null, null, null, null, <ore:ingotBrickNetherGlazed>, <ore:ingotBrickNetherGlazed>, <ic2:crafting:4>,null], 
@@ -26,7 +26,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mysword", <draconicevolution:wyvern_swo
 ]);
 
 // 双足飞龙镐
-mods.avaritia.ExtremeCrafting.addShaped("mypick", <draconicevolution:wyvern_pick>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenpick", <draconicevolution:wyvern_pick>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, <thermalfoundation:material:656>, <thermalfoundation:material:656>, null, null, null, null,null], 
     [null,null, null, <ore:dustCryotheum>, <draconicevolution:wyvern_core>, null, null, null,null], 
@@ -39,7 +39,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mypick", <draconicevolution:wyvern_pick
 ]);
 
 // 双足飞龙斧
-mods.avaritia.ExtremeCrafting.addShaped("myaxe", <draconicevolution:wyvern_axe>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenaxe", <draconicevolution:wyvern_axe>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, null, <thermalfoundation:material:657>, <thermalfoundation:material:657>, null, null, null,null], 
     [null,null, <ic2:crafting:4>, <ore:dustCryotheum>, <thermalexpansion:capacitor:3>, <ic2:block_cutting_blade:2>, null, null,null], 
@@ -52,7 +52,7 @@ mods.avaritia.ExtremeCrafting.addShaped("myaxe", <draconicevolution:wyvern_axe>,
 ]);
 
 // 双足飞龙铲
-mods.avaritia.ExtremeCrafting.addShaped("myshovel", <draconicevolution:wyvern_shovel>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenshovel", <draconicevolution:wyvern_shovel>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, null, null, null, <ic2:crafting:4>, <ic2:crafting:4>, <ic2:crafting:4>,null], 
     [null,null, null, null, <ic2:crafting:4>, <ic2:crafting:4>, <draconicevolution:wyvern_core>, <ic2:crafting:4>,null], 
@@ -65,9 +65,9 @@ mods.avaritia.ExtremeCrafting.addShaped("myshovel", <draconicevolution:wyvern_sh
 ]);
 
 // 双足飞龙弓
-mods.avaritia.ExtremeCrafting.addShaped("mybow", <draconicevolution:wyvern_bow>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenbow", <draconicevolution:wyvern_bow>, [
     [null,null,null,null,null,null,null,null,null],
-    [null, <ic2:te:41>, <thaumcraft:module:1>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVibrantAlloy>,null,null], 
+    [null,null, <ic2:te:41>, <thaumcraft:module:1>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVibrantAlloy>,null], 
     [null,<ic2:te:41>, <thermalfoundation:tool.bow_platinum>, <thaumcraft:turret:1>, <forge:bucketfilled>, null, <forestry:crafting_material:2>, null,null], 
     [null,<thaumcraft:module:1>, <thaumcraft:turret:1>, <thaumcraft:seal:14>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null,null], 
     [null,<ore:ingotVoid>, <forge:bucketfilled>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null, null,null], 
@@ -78,7 +78,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mybow", <draconicevolution:wyvern_bow>,
 ]);
 
 // 双足头
-mods.avaritia.ExtremeCrafting.addShaped("myhelm", <draconicevolution:wyvern_helm>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenhelm", <draconicevolution:wyvern_helm>, [
     [null,null,null,null,null,null,null,null,null],
     [null,<ore:blockRedstoneAlloy>, null, null, <minecraft:sea_lantern>, null, null, <ore:blockRedstoneAlloy>,null], 
     [null,<ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, <forestry:crafting_material:6>, <forestry:crafting_material:6>, <forestry:crafting_material:6>, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>,null], 
@@ -91,7 +91,7 @@ mods.avaritia.ExtremeCrafting.addShaped("myhelm", <draconicevolution:wyvern_helm
 ]);
 
 // 双足胸甲
-mods.avaritia.ExtremeCrafting.addShaped("mychest", <draconicevolution:wyvern_chest>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenchest", <draconicevolution:wyvern_chest>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null], 
     [null,null,<ore:ingotVibrantAlloy>,<ic2:crafting:4>,<draconicevolution:infused_obsidian>,<ic2:crafting:4>,<ore:ingotVibrantAlloy>,null,null], 
@@ -104,7 +104,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mychest", <draconicevolution:wyvern_che
 ]);
 
 // 双足裤腿
-mods.avaritia.ExtremeCrafting.addShaped("mylegs", <draconicevolution:wyvern_legs>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenlegs", <draconicevolution:wyvern_legs>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, null, null, null, null, null, null,null], 
     [null,null, <forestry:crafting_material:6>, <forestry:crafting_material:6>, <thaumcraft:morphic_resonator>, <forestry:crafting_material:6>, <forestry:crafting_material:6>, null,null], 
@@ -117,7 +117,7 @@ mods.avaritia.ExtremeCrafting.addShaped("mylegs", <draconicevolution:wyvern_legs
 ]);
 
 // 双足靴子
-mods.avaritia.ExtremeCrafting.addShaped("myboots", <draconicevolution:wyvern_boots>, [
+mods.avaritia.ExtremeCrafting.addShaped("myvenboots", <draconicevolution:wyvern_boots>, [
     [null,null,null,null,null,null,null,null,null],
     [null,null, null, null, null, null, null, null,null], 
     [null,null, null, null, null, null, null, null,null], 
@@ -180,7 +180,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "helm", machi
     .addEnergyPerTickInput(1024)
     .addFluidInput(<liquid:pyrotheum>*5000)
     .addItemOutput(<draconicevolution:draconic_helm>)
-    .addItemInput(<extendedcrafting:singularity:18>*2)
+    .addItemInput(<cuisine:food:16>*128)
     .addItemInput(<thaumadditions:mithminite_hood>)
     .addItemInput(<draconicevolution:wyvern_helm>)
     .addItemInput(<draconicevolution:draconic_energy_core>)
