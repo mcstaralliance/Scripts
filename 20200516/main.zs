@@ -273,3 +273,8 @@ mods.inworldcrafting.FluidToFluid.transform(<liquid:cryotheum>, <liquid:water>, 
 
 mods.inworldcrafting.FluidToItem.transform((<avaritia:extreme_crafting_table>), <liquid:cryotheum>, [<variedcommodities:spell_dark>], true);
 // 终极工作台
+
+// 2020.7.26 凌六更新
+
+mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:alienis>*16,<aspect:aqua>*32,<aspect:lucrum>*16]);
+// 海晶碎片
