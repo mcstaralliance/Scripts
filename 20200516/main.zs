@@ -77,9 +77,10 @@ recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:sky_s
 // ME 控制器
 
 recipes.remove(<environmentaltech:laser_core>);
+<environmentaltech:laser_core>.addTooltip("§a无法使用该物品搭建结构")
 // 激光核心
 
-<environmentaltech:void_ore_miner_cont_1>.addTooltip("§4§l仅用于合成蓝图，无法搭建虚空采矿机§6reason:§a§l激光核心已删合成");
+<environmentaltech:void_ore_miner_cont_1>.addTooltip("§a仅用于合成");
 // 激光透镜
 
 mods.thaumcraft.Infusion.registerRecipe("MK1", "", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:tier1"}), 5, [<aspect:instrumentum>*32, <aspect:vitium>*32, <aspect:humanus>*32, <aspect:machina>*32], <environmentaltech:void_ore_miner_cont_1>, [<ore:paper>, <ore:oreGold>, <ore:oreIron>, <ore:oreCopper>, <ore:oreTin>, <ore:oreSilver>, <ore:oreNickel>, <enderio:item_material:54>, <forestry:broken_bronze_pickaxe>, <forestry:broken_bronze_shovel>]);
