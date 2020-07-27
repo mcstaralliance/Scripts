@@ -37,7 +37,7 @@ recipes.addShaped(<enderio:item_material:51>, [[<ic2:dust:6>, <ic2:crafting:25>,
 // 机器涂料
 
 recipes.remove(<environmentaltech:structure_frame_1>);
-<environmentaltech:structure_frame_1>.addTooltip("§6使用精英工作台合成此物品");
+<environmentaltech:structure_frame_1>.addTooltip("§6使用无尽贪婪工作台§4合成此物品");
 mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:structure_frame_1>*6, [
     [<ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>], 
     [<ore:plateBrass>, <ore:gemDiamond>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:gemDiamond>, <ore:plateBrass>], 
