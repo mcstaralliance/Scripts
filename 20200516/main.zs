@@ -319,7 +319,7 @@ mods.inworldcrafting.FluidToItem.transform((<avaritia:extreme_crafting_table>), 
 
 // 2020.7.26 凌六更新
 
-mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:alienis>*16,<aspect:aqua>*32,<aspect:lucrum>*16]);
+mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prismarine_shard>, <minecraft:quartz>, [<aspect:alienis>*16,<aspect:aqua>*32,<aspect:ordo>*16]);
 // 海晶碎片
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*2, <ore:dustRedstone>, <ore:dustGlowstone>, 400);
