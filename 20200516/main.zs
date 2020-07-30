@@ -65,7 +65,7 @@ recipes.addShaped(<appliedenergistics2:controller>, [[<appliedenergistics2:sky_s
 // ME 控制器
 
 recipes.remove(<environmentaltech:laser_core>);
-<environmentaltech:laser_core>.addTooltip("§a无法使用该物品搭建结构")
+<environmentaltech:laser_core>.addTooltip("§a无法使用该物品搭建结构");
 // 激光核心
 
 <environmentaltech:void_ore_miner_cont_1>.addTooltip("§a仅用于合成");
