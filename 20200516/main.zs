@@ -8,10 +8,6 @@ import crafttweaker.item.IItemStack;
 // 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>;
 // 2020.5.17 更新
 
-recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:dirt>, <ore:plankWood>], [<minecraft:gravel>, <minecraft:sand>]]);
-recipes.remove(<minecraft:crafting_table>);
-// 工作台
-
 recipes.remove(<extendedcrafting:handheld_table>);
 recipes.addShaped(<extendedcrafting:handheld_table>, [[null, <minecraft:crafting_table>], [<immersiveengineering:material>, null]]);
 // 手持工作台
