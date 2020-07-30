@@ -233,25 +233,14 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:pedestal_arcane>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("jizuo", "", 10, [<aspect:ignis>*2, <aspect:terra>*2], <thaumcraft:pedestal_arcane>*4, [[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>, <extendedcrafting:pedestal>, <thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]]);
 // 奥术基座
 
-val GB = <minecraft:gold_block>;
-// 设置 GB 为金块
-recipes.addShaped("Goldenapplerecipes", <minecraft:golden_apple:1>*8, [[GB,GB,GB],[GB,<minecraft:apple>.marked("anyapple"),GB],[GB,<minecraft:nether_star>,GB]], function(out, ins, cInfo) {
-    var displayName = ins.anyapple.displayName;
-    if(displayName has ":") {
-        return itemUtils.getItem(displayName);
-    }
-    return <minecraft:golden_apple:1>*8;
-}, null);
-// 函数添加附魔金苹果
-
 recipes.remove(<appliedenergistics2:part:220>);
 val icp = <enderio:item_conduit_probe>.anyDamage().transformDamage();
 mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:part:220>, [
-	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null],
-	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
-	[<ore:itemChassiParts>, icp, <enderio:block_end_iron_bars>, <thermalexpansion:cache>, null],
-	[null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
-	[null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
+    [null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null],
+    [null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
+    [<ore:itemChassiParts>, icp, <enderio:block_end_iron_bars>, <thermalexpansion:cache>, null],
+    [null, <ore:itemChassiParts>, <ore:itemChassiParts>, <thermalexpansion:cache>, null],
+    [null, null, <ore:ingotVibrantAlloy>, <ore:itemChassiParts>, null]
 ]);
 // 修改了 ME 存储总线的合成
 
