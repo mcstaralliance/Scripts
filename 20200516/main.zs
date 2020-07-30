@@ -5,6 +5,7 @@ import crafttweaker.item.IItemTransformer;
 import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.AlloySmelter;
+import mods.thermalexpansion.Insolator;
 
 // 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>;
 // 2020.5.17 更新
@@ -30,11 +31,11 @@ recipes.remove(<environmentaltech:structure_frame_1>);
 mods.avaritia.ExtremeCrafting.addShaped("structure_frame_1", <environmentaltech:structure_frame_1>*6, [
 [null,null,null,null,null,null,null,null,null],
 [null, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, null], 
-[null, <ore:plateBrass>, <ore:gemDiamond>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:gemDiamond>, <ore:plateBrass>, null], 
-[null, <ore:plateBrass>, <ore:crystalLitherite>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <ore:crystalLitherite>, <ore:plateBrass>, null], 
-[null, <ore:plateBrass>, <ore:crystalLitherite>, <minecraft:concrete_powder:15>, <ore:itemSimpleMachineChassi>, <minecraft:concrete_powder:15>, <ore:crystalLitherite>, <ore:plateBrass>, null], 
-[null, <ore:plateBrass>, <ore:crystalLitherite>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <ore:crystalLitherite>, <ore:plateBrass>, null], 
-[null, <ore:plateBrass>, <ore:gemDiamond>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:gemDiamond>, <ore:plateBrass>, null], 
+[null, <ore:plateBrass>, <ore:gemDiamond>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <ore:gemDiamond>, <ore:plateBrass>, null], 
+[null, <ore:plateBrass>, <environmentaltech:litherite_crystal>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <environmentaltech:litherite_crystal>, <ore:plateBrass>, null], 
+[null, <ore:plateBrass>, <environmentaltech:litherite_crystal>, <minecraft:concrete_powder:15>, <ore:itemSimpleMachineChassi>, <minecraft:concrete_powder:15>, <environmentaltech:litherite_crystal>, <ore:plateBrass>, null], 
+[null, <ore:plateBrass>, <environmentaltech:litherite_crystal>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <minecraft:concrete_powder:15>, <environmentaltech:litherite_crystal>, <ore:plateBrass>, null], 
+[null, <ore:plateBrass>, <ore:gemDiamond>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <ore:gemDiamond>, <ore:plateBrass>, null], 
 [null, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, <ore:plateBrass>, null],
 [null,null,null,null,null,null,null,null,null]
 ]);
@@ -93,11 +94,11 @@ recipes.remove(<thermalexpansion:machine:6>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_6", <thermalexpansion:machine:6>, [
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
-[null,null, <ore:crystalLitherite>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <ore:crystalLitherite>, null,null],
+[null,null, <environmentaltech:litherite_crystal>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <environmentaltech:litherite_crystal>, null,null],
 [null,null, <minecraft:bucket>, <minecraft:magma_cream>, <minecraft:magma_cream>, <minecraft:magma_cream>, <minecraft:bucket>, null,null], 
 [null,null, <thermalexpansion:tank>, <minecraft:magma>, <ic2:te:4>, <minecraft:magma>, <thermalexpansion:tank>, null,null], 
 [null,null, <minecraft:bucket>, <thermalexpansion:frame:64>, <minecraft:lava_bucket>, <thermalexpansion:frame>, <minecraft:bucket>, null,null], 
-[null,null, <ore:crystalLitherite>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <ore:crystalLitherite>, null,null],
+[null,null, <environmentaltech:litherite_crystal>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <minecraft:red_nether_brick>, <environmentaltech:litherite_crystal>, null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null]
 ]);
@@ -108,9 +109,9 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_5", <thermalexpansion:m
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null, <ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, null,null], 
-[null,null, <thaumcraft:stone_arcane>, <ore:crystalLitherite>, <immersiveengineering:tool>, <ore:crystalLitherite>, <thaumcraft:stone_arcane>, null,null], 
+[null,null, <thaumcraft:stone_arcane>, <environmentaltech:litherite_crystal>, <immersiveengineering:tool>, <environmentaltech:litherite_crystal>, <thaumcraft:stone_arcane>, null,null], 
 [null,null, <thaumcraft:stone_arcane>, <thermalexpansion:frame>, <appliedenergistics2:condenser>, <thermalexpansion:frame:64>, <thaumcraft:stone_arcane>, null,null], 
-[null,null, <thaumcraft:stone_arcane>, <ore:crystalLitherite>, <ic2:te:43>, <ore:crystalLitherite>, <thaumcraft:stone_arcane>, null,null], 
+[null,null, <thaumcraft:stone_arcane>, <environmentaltech:litherite_crystal>, <ic2:te:43>, <environmentaltech:litherite_crystal>, <thaumcraft:stone_arcane>, null,null], 
 [null,null, <ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null]
@@ -122,8 +123,8 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_3", <thermalexpansion:m
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
 	[null,null, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, null,null], 
-	[null,null, <ore:reBattery>, <ore:crystalLitherite>, <ic2:te:46>, <ore:crystalLitherite>, <ore:reBattery>, null,null], 
-	[null,null, <minecraft:lava_bucket>, <ore:crystalLitherite>, <ic2:te:54>, <ore:crystalLitherite>, <minecraft:lava_bucket>, null,null], 
+	[null,null, <ore:reBattery>, <environmentaltech:litherite_crystal>, <ic2:te:46>, <environmentaltech:litherite_crystal>, <ore:reBattery>, null,null], 
+	[null,null, <minecraft:lava_bucket>, <environmentaltech:litherite_crystal>, <ic2:te:54>, <environmentaltech:litherite_crystal>, <minecraft:lava_bucket>, null,null], 
 	[null,null, <ore:reBattery>, <thermalexpansion:frame:64>, <ic2:te:46>, <thermalexpansion:frame>, <ore:reBattery>, null,null], 
 	[null,null, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, null,null], 
 [null,null,null,null,null,null,null,null,null], 
@@ -135,9 +136,9 @@ recipes.remove(<thermalexpansion:machine:1>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_1", <thermalexpansion:machine:1>, [
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
-[null,null, <ore:crystalLitherite>, <ore:crystalLitherite>, <appliedenergistics2:crank>, <ore:crystalLitherite>, <ore:crystalLitherite>, null,null], 
+[null,null, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <appliedenergistics2:crank>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, null,null], 
 [null,null, <ore:gravel>, <ore:gearEnergized>, <appliedenergistics2:grindstone>, <ore:gearEnergized>, <ore:gravel>, null,null], 
-[null,null, <ore:gravel>, <ore:itemFlint>, <ore:ic2Macerator>, <ore:itemFlint>, <ore:gravel>, null,null], 
+[null,null, <ore:gravel>, <sakura:stone_mortar>, <ore:ic2Macerator>, <sakura:stone_mortar>, <ore:gravel>, null,null], 
 [null,null, <ore:sand>, <thermalexpansion:frame>, <ore:gearEnergized>, <thermalexpansion:frame:64>, <ore:sand>, null,null], 
 [null,null, <ore:sand>, <modularmachinery:itemmodularium>, <advanced_solar_panels:crafting:7>, <modularmachinery:itemmodularium>, <ore:sand>,null,null],
 [null,null,null,null,null,null,null,null,null],
@@ -150,8 +151,8 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine", <thermalexpansion:mac
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, null,null], 
-[null,null, <thaumcraft:stone_arcane>, <ore:crystalLitherite>, <ore:crystalLitherite>, <ore:crystalLitherite>, <thaumcraft:stone_arcane>, null,null], 
-[null,null, <thaumcraft:stone_arcane>, <thermalexpansion:frame>, <ore:crystalLitherite>, <thermalexpansion:frame:64>, <thaumcraft:stone_arcane>, null,null], 
+[null,null, <thaumcraft:stone_arcane>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_crystal>, <thaumcraft:stone_arcane>, null,null], 
+[null,null, <thaumcraft:stone_arcane>, <thermalexpansion:frame>, <environmentaltech:litherite_crystal>, <thermalexpansion:frame:64>, <thaumcraft:stone_arcane>, null,null], 
 [null,null, <thaumcraft:stone_arcane>, <ic2:te:46>, <ic2:te:46>, <ic2:te:46>, <thaumcraft:stone_arcane>, null,null], 
 [null,null, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thermalfoundation:material:513>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, null,null],
 [null,null,null,null,null,null,null,null,null],
@@ -163,11 +164,11 @@ recipes.remove(<thermalexpansion:machine:8>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_8", <thermalexpansion:machine:8>, [
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
-[null,null, <ore:crystalLitherite>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <ore:crystalLitherite>, null,null], 
-[null,null,null, <thermalexpansion:tank>, <thaumcraft:stone_arcane>, <thermalexpansion:tank>, null,null,null], 
-[null,null,null, <ore:gearEnergized>, <ic2:te:42>, <ore:gearEnergized>, null,null], 
-[null,null,null, <thermalexpansion:frame:64>, <minecraft:cauldron>, <thermalexpansion:frame>, null,null,null], 
-[null,null, <ore:crystalLitherite>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <ore:crystalLitherite>, null,null],
+[null,null, <environmentaltech:litherite_crystal>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <environmentaltech:litherite_crystal>, null,null], 
+[null,null, <minecraft:bucket>, <thermalexpansion:tank>, <thaumcraft:stone_arcane>, <thermalexpansion:tank>, <minecraft:bucket>, null,null], 
+[null,null, <minecraft:bucket>, <ore:gearEnergized>, <ic2:te:42>, <ore:gearEnergized>, <minecraft:bucket>, null,null], 
+[null,null, <minecraft:bucket>, <thermalexpansion:frame:64>, <minecraft:cauldron>, <thermalexpansion:frame>, <minecraft:bucket>, null,null], 
+[null,null, <environmentaltech:litherite_crystal>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <environmentaltech:litherite_crystal>, null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null]
 ]);
@@ -177,8 +178,8 @@ recipes.remove(<thermalexpansion:machine:15>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_15", <thermalexpansion:machine:15>, [
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
-[null,null, <ore:crystalLitherite>, <environmentaltech:litherite_slab>, <environmentaltech:litherite_slab>, <environmentaltech:litherite_slab>, <ore:crystalLitherite>, null,null], 
-[null,null,<ore:crystalLitherite>, <thermalexpansion:frame>, <minecraft:lava_bucket>, <thermalexpansion:frame:64>, <ore:crystalLitherite>,null,null], 
+[null,null, <environmentaltech:litherite_crystal>, <environmentaltech:litherite_slab>, <environmentaltech:litherite_slab>, <environmentaltech:litherite_slab>, <environmentaltech:litherite_crystal>, null,null], 
+[null,null,<environmentaltech:litherite_crystal>, <thermalexpansion:frame>, <minecraft:lava_bucket>, <thermalexpansion:frame:64>, <environmentaltech:litherite_crystal>,null,null], 
 [null,null,<ore:obsidian>, <ore:gearInvar>, <ore:listAllwater>, <ore:gearInvar>, <ore:obsidian>,null,null], 
 [null,null,<ore:obsidian>, <ore:obsidian>, <minecraft:cauldron>, <ore:obsidian>, <ore:obsidian>,null,null], 
 [null,null,<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>,null,null],
@@ -190,60 +191,19 @@ recipes.remove(<modularmachinery:blockcontroller>);
 recipes.addShaped(<modularmachinery:blockcontroller>, [[<appliedenergistics2:part:56>, <thermalexpansion:augment:432>, <appliedenergistics2:part:56>], [<modularmachinery:blockcasing>, <appliedenergistics2:controller>, <modularmachinery:blockcasing>], [<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>]]);
 // 机械控制器
 
-mods.avaritia.ExtremeCrafting.addShaped("blockoutputbus_6", <modularmachinery:blockoutputbus:6>, [
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,<ore:chest>, <ore:blockIron>, <ore:chest>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <ore:blockHopper>, <modularmachinery:blockcasing:4>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null]
-]);
+recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[<appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:part:260>, <appliedenergistics2:smooth_sky_stone_chest>], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:3>, <modularmachinery:blockcasing:4> ], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>]]);
 // 白嫖超级物品输出入仓 
 
-mods.avaritia.ExtremeCrafting.addShaped("blockinputbus_6", <modularmachinery:blockinputbus:6>, [
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,<ore:chest>, <ore:blockHopper>, <ore:chest>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <ore:blockIron>, <modularmachinery:blockcasing:4>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null]
-]);
+recipes.addShaped(<modularmachinery:blockinputbus:6>, [[<appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:part:240>, <appliedenergistics2:smooth_sky_stone_chest>], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:3>, <modularmachinery:blockcasing:4> ], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>]]);
 // 白嫖超级物品输出入仓 
 
-mods.avaritia.ExtremeCrafting.addShaped("blockenergyoutputhatch_5", <modularmachinery:blockenergyoutputhatch:5>, [
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,<enderio:item_conduit_facade>, <ore:dustCryotheum>, <enderio:item_conduit_facade>,null,null,null], 
-[null,null,null,<enderio:item_conduit_facade>, <ore:dustCryotheum>, <enderio:item_conduit_facade>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <appliedenergistics2:part:260>, <modularmachinery:blockcasing:4>,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null]
-]);
+recipes.remove(<modularmachinery:blockenergyinputhatch:7>);
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [[<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<modularmachinery:blockcasing:4>, <appliedenergistics2:part:260>, <modularmachinery:blockcasing:4>]]);
 // 白嫖能源输出仓 
 
-mods.avaritia.ExtremeCrafting.addShaped("blockenergyinputhatch:7", <modularmachinery:blockenergyinputhatch:7>, [
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,<enderio:item_conduit_facade>, <ore:dustCryotheum>, <enderio:item_conduit_facade>,null,null,null], 
-[null,null,null,<enderio:item_conduit_facade>, <ore:dustCryotheum>, <enderio:item_conduit_facade>,null,null,null], 
-[null,null,null,<modularmachinery:blockcasing:4>, <appliedenergistics2:part:240>, <modularmachinery:blockcasing:4>,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null],
-[null,null,null,null,null,null,null,null,null]
-]);
+recipes.remove(<modularmachinery:blockenergyinputhatch:7>);
+recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [[<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<modularmachinery:blockcasing:4>, <appliedenergistics2:part:240>, <modularmachinery:blockcasing:4>]]);
 // 白嫖能源输入仓 
-
-mods.inworldcrafting.FluidToItem.transform(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:quartz"}), <liquid:water>, [<minecraft:paper>, <minecraft:quartz>, <appliedenergistics2:material>, <appliedenergistics2:material:1>,], false);
-// 石英矿机 MK1 蓝图
 
 // 2020.5.24 更新
 
@@ -308,7 +268,7 @@ mods.avaritia.ExtremeCrafting.addShaped("appliedenergistics2_part_220", <applied
 <variedcommodities:spell_dark>.displayName = "§7终极核心";
 // 更名
 
-mods.thaumcraft.Infusion.registerRecipe("hechenghexing", "", <variedcommodities:spell_dark>, 20, [<aspect:potentia>*16, <aspect:instrumentum>*16, <aspect:fabrico>*16, <aspect:auram>*8, <aspect:humanus>*8], <avaritia:double_compressed_crafting_table>, [<thaumcraft:causality_collapser>, <ore:ingotVoid>, <thaumadditions:mithrillium_ingot>, <ore:crystalLitherite>, <appliedenergistics2:material:7>, <ore:blockDiamond>, <thermalfoundation:material:1024>, <modularmachinery:itemmodularium>,]);
+mods.thaumcraft.Infusion.registerRecipe("hechenghexing", "", <variedcommodities:spell_dark>, 20, [<aspect:potentia>*16, <aspect:instrumentum>*16, <aspect:fabrico>*16, <aspect:auram>*8, <aspect:humanus>*8], <avaritia:double_compressed_crafting_table>, [<thaumcraft:causality_collapser>, <ore:ingotVoid>, <thaumadditions:mithrillium_ingot>, <environmentaltech:litherite_crystal>, <appliedenergistics2:material:7>, <ore:blockDiamond>, <thermalfoundation:material:1024>, <modularmachinery:itemmodularium>,]);
 // 合成台核心 无尽工作台核心
 
 mods.inworldcrafting.FluidToFluid.transform(<liquid:cryotheum>, <liquid:water>, [<thermalfoundation:material:1025>]);
@@ -333,5 +293,26 @@ recipes.addShaped(<immersiveengineering:stone_decoration:10>, [[<minecraft:nethe
 
 <thaumcraft:nugget:10>.addTooltip("§a开采无需熔炼的矿石或在炼狱熔炉熔炼矿物获得。");
 <thaumcraft:nugget:10>.addTooltip("§b掉率十分感人)");
-// 添加物品注释
 
+recipes.addShaped(<modularmachinery:blockcasing:1>, [[<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>],[<ic2:crafting:32>, <ic2:crafting:32>, <ic2:crafting:32>],[<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>]]);
+// 机械通风口
+
+recipes.addShaped(<modularmachinery:blockcasing:3>, [[<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <ore:gearIron>],[<modularmachinery:blockcasing>, <ore:gearSteel>, <ore:gearIron>],[<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>]]);
+// 机械齿轮箱
+
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<environmentaltech:thermal_cell>*2, <immersiveengineering:metal_device1:1>, 70);
+// 热力单元
+
+mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 1000000);
+// 充能龙块
+
+<ic2:wall>.addTooltip("§a使用相应颜色的刷子右键建筑泡沫墙");
+// 添加注释
+
+mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_ancient>, <liquid:mana>, [<thaumcraft:stone_arcane>], true);
+mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_eldritch_tile>, <liquid:ic2uu_matter>, [<thaumcraft:stone_arcane>], true);
+// 邪术石 荒古石
+
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 20);
+mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ic2:resource:8>, <minecraft:iron_block>, 30);
+// 钢锭彩蛋魔改
