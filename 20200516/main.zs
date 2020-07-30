@@ -6,7 +6,6 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.AlloySmelter;
 import mods.thermalexpansion.Insolator;
-import mods.thermalexpansion.Transposer;
 
 // 32*sixaspect = <aspect:Terra>*32, <aspect:ignis>*32, <aspect:aqua>*32, <aspect:ordo>*32, <aspect:perditio>;
 // 2020.5.17 更新
