@@ -314,6 +314,7 @@ mods.thaumcraft.Infusion.registerRecipe("hechenghexing", "", <variedcommodities:
 mods.inworldcrafting.FluidToFluid.transform(<liquid:cryotheum>, <liquid:water>, [<thermalfoundation:material:1025>]);
 // 凛冰液体转化
 
+recipes.remove(<avaritia:extreme_crafting_table>);
 mods.inworldcrafting.FluidToItem.transform((<avaritia:extreme_crafting_table>), <liquid:cryotheum>, [<variedcommodities:spell_dark>], true);
 // 终极工作台
 
@@ -324,4 +325,13 @@ mods.thaumcraft.Crucible.registerRecipe("prismarine_shard", "", <minecraft:prism
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*2, <ore:dustRedstone>, <ore:dustGlowstone>, 400);
 mods.immersiveengineering.AlloySmelter.addRecipe(<modularmachinery:itemmodularium>*4, <ore:dustRedstone>*2, <ore:itemClayedGlowstone>, 200);
-//模块锭
+// 模块锭
+
+recipes.remove(<immersiveengineering:stone_decoration:10>);
+recipes.addShaped(<immersiveengineering:stone_decoration:10>, [[<minecraft:nether_brick>, <ic2:refractory_bricks>, <minecraft:nether_brick>], [<ic2:refractory_bricks>, <ic2:refractory_bricks>, <ic2:refractory_bricks>], [<minecraft:nether_brick>, <ic2:refractory_bricks>, <minecraft:nether_brick>]]);
+// 窑砖
+
+<thaumcraft:nugget:10>.addTooltip("§a开采无需熔炼的矿石或在炼狱熔炉熔炼矿物获得。");
+<thaumcraft:nugget:10>.addTooltip("§b掉率十分感人)");
+// 添加物品注释
+
