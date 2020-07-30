@@ -1,9 +1,14 @@
+import crafttweaker.item.IItemStack as IItemStack;
 import mods.thaumcraft.Infusion;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.item.IIngredient;
 
-// 稳定刷怪笼未ban
+// 稳定刷怪笼
+recipes.remove(<draconicevolution:draconic_spawner>);
 
 // UU四件套,分别为物质生成机,模式存储机,复制机,模式扫描机
-var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>] ;
+var UU = [<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:88>,<ic2:te:89>] as IItemStack[];
 for i, UU_machine in UU {
     var UU_machine = UU[i];
     recipes.remove(UU_machine);
@@ -64,7 +69,7 @@ recipes.remove(<forestry:stamp_collector>);
 recipes.remove(<forestry:rainmaker>);
 
 // 林业背包
-var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] ;
+var bags = [<forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:apiarist_bag>,<forestry:adventurer_bag>,<forestry:builder_bag>] as IItemStack[];
 for i, bag in bags {    
     var bag = bags[i];
     recipes.remove(bag);
@@ -214,15 +219,45 @@ recipes.remove(<enderio:item_soul_vial>);
 // 传送符咒收纳容器
 recipes.remove(<draconicevolution:dislocator_receptacle>);
 
-// 玄钢升级"存入"
-recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}));
-
-//  玄钢升级"旅行"
-recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
-
 // 信件
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 // 腐化瓶子
-mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:bottle_taint>);
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:bottle_taint>);
+
+// OP 玄钢升级
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}));
+recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}));
+
+// 奥术钻探机
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:turret>);
+
+// 奥术刷怪笼
+mods.thaumcraft.Infusion.removeRecipe(<thaumadditions:entity_summoner>);
+
+// 空白印记
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:seal>);
+
+// 无尽
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_pickaxe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_bow>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_shovel>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
+
+// 战利品表修改
+// 需添加LootTableTweaker MOD
+/*
+mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
+mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
+*/
