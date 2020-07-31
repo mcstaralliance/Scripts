@@ -257,6 +257,7 @@ mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolutio
 ]);
 
 <cuisine:food:16>.displayName = "§6充能柚子";
+<cuisine:food:16>.addShiftTooltip("加速火把!", "新人请说出常用模组");
 mods.thermalexpansion.Infuser.addRecipe(<cuisine:food:16>, <cuisine:food:10>, 10000);
 
 recipes.addShaped("Sentient", <enderio:item_material:44>, [
@@ -277,6 +278,14 @@ recipes.addShaped("endercrystal", <enderio:item_material:16>, [
     [null, <ore:itemVibrantPowder>, null]
 ]);
 
-mods.immersiveengineering.Squeezer.addRecipe(<enderio:item_material>, <liquid:glowstone>*1000, <ore:dustClay>*2, 2048);
+mods.immersiveengineering.Squeezer.addRecipe(<custommc:item688>, <liquid:glowstone>*1000, <ore:dustClay>*2, 2048);
 
 mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura.hot_spring_water>*3000, [<ore:crystalGlowstone>, <minecraft:dirt>, <ore:crystalGlowstone>], 2048);
+
+<ore:easterEggs>.add(<cuisine:food:16>, <ichunutil:compact_porkchop>, <thaumcraft:triple_meat_treat>);
+
+<ore:easterEggs>.addShiftTooltip(function(item) {
+    return "Yoho!" ~ item.name;
+}, function(item){
+    return "¿";
+});
