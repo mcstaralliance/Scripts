@@ -92,6 +92,7 @@ recipes.addShapeless(<thermalfoundation:material:2048>, [<ore:blockIce>, <ore:du
 // 2020.5.23 更新
 
 recipes.remove(<thermalexpansion:machine:6>);
+
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_6", <thermalexpansion:machine:6>, 
 [
     [null,null,null,null,null,null,null,null,null],
@@ -104,7 +105,7 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_6", <thermalexpansion:m
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null]
 ]);
-// 熔岩炉
+// 熔岩炉 
 
 recipes.remove(<thermalexpansion:machine:5>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_5", <thermalexpansion:machine:5>, 
@@ -119,7 +120,7 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_5", <thermalexpansion:m
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null]
 ]);
-// 压缩机
+// 压缩机 
 
 recipes.remove(<thermalexpansion:machine:3>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_3", <thermalexpansion:machine:3>, 
@@ -134,7 +135,7 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_3", <thermalexpansion:m
     [null,null,null,null,null,null,null,null,null], 
     [null,null,null,null,null,null,null,null,null]
 ]);
-// 感应炉
+// 感应炉 
 
 recipes.remove(<thermalexpansion:machine:1>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_1", <thermalexpansion:machine:1>, 
@@ -149,7 +150,7 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_1", <thermalexpansion:m
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null]
 ]);
-// 磨粉机
+// 磨粉机 
 
 recipes.remove(<thermalexpansion:machine>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine", <thermalexpansion:machine>, 
@@ -179,7 +180,7 @@ mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_8", <thermalexpansion:m
     [null,null,null,null,null,null,null,null,null],
     [null,null,null,null,null,null,null,null,null]
 ]);
-// 流体转置机
+// 流体转置机 
 
 recipes.remove(<thermalexpansion:machine:15>);
 mods.avaritia.ExtremeCrafting.addShaped("thermal_machine_15", <thermalexpansion:machine:15>, 
@@ -261,6 +262,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("jizuo", "", 10, [<aspect:i
 
 recipes.remove(<appliedenergistics2:part:220>);
 val icp = <enderio:item_conduit_probe>.anyDamage().transformDamage();
+
 mods.avaritia.ExtremeCrafting.addShaped("appliedenergistics2_part_220", <appliedenergistics2:part:220>, 
 [
     [null,null,null,null,null,null,null,null,null],
