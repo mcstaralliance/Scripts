@@ -280,6 +280,8 @@ recipes.addShaped("endercrystal", <enderio:item_material:16>, [
 
 mods.immersiveengineering.Squeezer.addRecipe(<custommc:item688>, <liquid:glowstone>*1000, <ore:dustClay>*2, 2048);
 
+<custommc:item688>.displayName = "荧石晶体";
+
 mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura.hot_spring_water>*3000, [<ore:crystalGlowstone>, <minecraft:dirt>, <ore:crystalGlowstone>], 2048);
 
 <ore:easterEggs>.add(<cuisine:food:16>, <ichunutil:compact_porkchop>, <thaumcraft:triple_meat_treat>);
