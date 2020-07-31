@@ -287,7 +287,7 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura
 <ore:easterEggs>.add(<cuisine:food:16>, <ichunutil:compact_porkchop>, <thaumcraft:triple_meat_treat>);
 
 <ore:easterEggs>.addShiftTooltip(function(item) {
-    return "Yoho!" ~ item.name;
+    return "Yoho! gmz" ~ item.name;
 }, function(item){
     return "¿";
 });
