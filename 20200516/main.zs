@@ -200,18 +200,18 @@ recipes.addShaped(<modularmachinery:blockcontroller>, [[<appliedenergistics2:par
 // 机械控制器
 
 recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[<appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:part:260>, <appliedenergistics2:smooth_sky_stone_chest>], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:3>, <modularmachinery:blockcasing:4> ], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>]]);
-// 白嫖超级物品输出入仓
+// 超级物品输出入仓
 
 recipes.addShaped(<modularmachinery:blockinputbus:6>, [[<appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:part:240>, <appliedenergistics2:smooth_sky_stone_chest>], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:3>, <modularmachinery:blockcasing:4> ], [<modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>, <modularmachinery:blockcasing:4>]]);
-// 白嫖超级物品输出入仓
+// 超级物品输出入仓
 
 recipes.remove(<modularmachinery:blockenergyinputhatch:7>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [[<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<modularmachinery:blockcasing:4>, <appliedenergistics2:part:260>, <modularmachinery:blockcasing:4>]]);
-// 白嫖能源输出仓
+// 能源输出仓
 
 recipes.remove(<modularmachinery:blockenergyinputhatch:7>);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [[<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<enderio:item_conduit_facade>, <thermalfoundation:material:1025>, <enderio:item_conduit_facade>], [<modularmachinery:blockcasing:4>, <appliedenergistics2:part:240>, <modularmachinery:blockcasing:4>]]);
-// 白嫖能源输入仓
+// 能源输入仓
 
 // 2020.5.24 更新
 
