@@ -10,6 +10,8 @@ import crafttweaker.data.IData;
 import crafttweaker.entity.IEntity;
 import crafttweaker.world.IWorld;
 import mods.thermalexpansion.Infuser;
+import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.Mixer;
 
 recipes.remove(<thermalexpansion:augment:401>);
 recipes.addShaped("Repair", <thermalexpansion:augment:401>, [
@@ -274,3 +276,7 @@ recipes.addShaped("endercrystal", <enderio:item_material:16>, [
     [<ore:itemVibrantPowder>, <ore:listAllfruit>, <ore:itemVibrantPowder>], 
     [null, <ore:itemVibrantPowder>, null]
 ]);
+
+mods.immersiveengineering.Squeezer.addRecipe(<enderio:item_material>, <liquid:glowstone>*1000, <ore:dustClay>*2, 2048);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura.hot_spring_water>*3000, [<ore:crystalGlowstone>, <minecraft:dirt>, <ore:crystalGlowstone>], 2048);
