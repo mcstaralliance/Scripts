@@ -253,11 +253,13 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
 
 // 战利品表修改
-// 需添加LootTableTweaker MOD
-/*
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
-*/
+
+// 流体球
+recipes.remove(<thermalexpansion:florb:0>);
+recipes.remove(<thermalexpansion:florb:1>);
+recipes.remove(<thermalexpansion:florb>);
