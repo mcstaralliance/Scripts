@@ -1,6 +1,7 @@
 {
     "registryname": "dragon",
     "localizedname": "龍力蒸发凝结机",
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -2,
@@ -31,7 +32,31 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "environmentaltech:thermal_cell@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:beacon@0"
             ]
         },
         {
@@ -43,32 +68,6 @@
             ]
         },
         {
-            "x": -4,
-            "y": 0,
-            "z": 0,
-            
-            "elements": [
-                "minecraft:beacon@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -4,
-            
-            "elements": [
-                "minecraft:beacon@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@3"
-            ]
-        },
-        {
             "x": -1,
             "y": -2,
             "z": 3,
@@ -77,19 +76,17 @@
             ]
         },
         {
-            "x": 0,
+            "x": 4,
             "y": 0,
-            "z": 4,
-            
+            "z": 0,
             "elements": [
                 "minecraft:beacon@0"
             ]
         },
         {
-            "x": 4,
+            "x": 0,
             "y": 0,
-            "z": 0,
-            
+            "z": 4,
             "elements": [
                 "minecraft:beacon@0"
             ]
@@ -119,14 +116,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": -2,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -2,
             "z": 3,
@@ -135,11 +124,27 @@
             ]
         },
         {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 6,
             "z": -1,
             "elements": [
                 "environmentaltech:kyronite@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -159,19 +164,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@3"
-            ]
-        },
-        {
             "x": 3,
             "y": -2,
             "z": 3,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -194,7 +191,6 @@
             "x": -2,
             "y": 5,
             "z": 2,
-            "nbt": {"BCManagedData":{"facing":"1b","lastCorePos":["0","0","0"],"singleItem":"0b","energy":"0L"},"id":"draconicevolution:crafting_injector"},
             "elements": [
                 "draconicevolution:crafting_injector@1"
             ]
@@ -235,7 +231,6 @@
             "x": 2,
             "y": 5,
             "z": 2,
-            "nbt": {"BCManagedData":{"facing":"1b","lastCorePos":["0","0","0"],"singleItem":"0b","energy":"0L"},"id":"draconicevolution:crafting_injector"},
             "elements": [
                 "draconicevolution:crafting_injector@1"
             ]
@@ -249,17 +244,17 @@
             ]
         },
         {
-            "x": 0,
+            "x": -4,
             "y": -1,
-            "z": -4,
+            "z": 0,
             "elements": [
                 "draconicevolution:draconium_block@0"
             ]
         },
         {
-            "x": -4,
+            "x": 0,
             "y": -1,
-            "z": 0,
+            "z": -4,
             "elements": [
                 "draconicevolution:draconium_block@0"
             ]
@@ -317,7 +312,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@5"
+                "environmentaltech:lightning_rod_insulated@0"
             ]
         },
         {
@@ -329,6 +324,14 @@
             ]
         },
         {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "ic2:wall@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 4,
             "z": 1,
@@ -337,19 +340,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -2,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@0"
+                "ic2:wall@0"
             ]
         },
         {
@@ -365,7 +360,15 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@0"
+                "ic2:wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "ic2:wall@0"
             ]
         },
         {
@@ -377,11 +380,11 @@
             ]
         },
         {
-            "x": -1,
+            "x": -2,
             "y": -2,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@0"
+                "ic2:wall@0"
             ]
         },
         {
@@ -389,15 +392,7 @@
             "y": 0,
             "z": -3,
             "elements": [
-                "extendedcrafting:table_basic@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "extendedcrafting:storage@0"
+                "environmentaltech:structure_frame_5@0"
             ]
         },
         {
@@ -410,14 +405,6 @@
         },
         {
             "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:table_elite@0"
-            ]
-        },
-        {
-            "x": -3,
             "y": -2,
             "z": 0,
             "elements": [
@@ -425,11 +412,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": -2,
-            "z": -4,
+            "x": -3,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "extendedcrafting:storage@5"
+                "environmentaltech:structure_frame_3@0"
             ]
         },
         {
@@ -437,7 +424,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@5"
+                "environmentaltech:lightning_rod_insulated@0"
             ]
         },
         {
@@ -445,7 +432,15 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "environmentaltech:lightning_rod_insulated@0"
             ]
         },
         {
@@ -477,7 +472,15 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "extendedcrafting:storage@0"
+                "ic2:wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:controller@0"
             ]
         },
         {
@@ -485,7 +488,7 @@
             "y": 0,
             "z": -3,
             "elements": [
-                "extendedcrafting:table_ultimate@0"
+                "environmentaltech:structure_frame_4@0"
             ]
         },
         {
@@ -497,11 +500,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": 2,
+            "x": 3,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "appliedenergistics2:controller@0"
+                "environmentaltech:structure_frame_2@0"
             ]
         },
         {
@@ -514,18 +517,10 @@
         },
         {
             "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:table_advanced@0"
-            ]
-        },
-        {
-            "x": 3,
             "y": -2,
             "z": 2,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -545,19 +540,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "environmentaltech:pladium@0"
-            ]
-        },
-        {
             "x": 3,
             "y": -1,
             "z": -3,
             "elements": [
                 "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "environmentaltech:pladium@0"
             ]
         },
         {
@@ -605,7 +600,15 @@
             "y": -2,
             "z": -3,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -614,14 +617,6 @@
             "z": 3,
             "elements": [
                 "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:storage@3"
             ]
         },
         {
@@ -649,14 +644,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "appliedenergistics2:controller@0"
-            ]
-        },
-        {
             "x": -1,
             "y": -2,
             "z": -3,
@@ -667,9 +654,17 @@
         {
             "x": -2,
             "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
             "z": -3,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -685,23 +680,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "extendedcrafting:storage@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
+                "ic2:wall@0"
             ]
         },
         {
@@ -710,6 +689,14 @@
             "z": 1,
             "elements": [
                 "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:stone_arcane@0"
             ]
         },
         {
@@ -729,19 +716,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "environmentaltech:ionite@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 3,
             "z": 3,
             "elements": [
                 "thaumcraft:candle_white@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "environmentaltech:ionite@0"
             ]
         },
         {
@@ -781,7 +768,7 @@
             "y": -2,
             "z": -2,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -790,6 +777,14 @@
             "z": 0,
             "elements": [
                 "environmentaltech:erodium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:controller@0"
             ]
         },
         {
@@ -801,19 +796,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "appliedenergistics2:controller@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -2,
             "z": -2,
             "elements": [
-                "extendedcrafting:storage@0"
+                "ic2:wall@0"
             ]
         },
         {
@@ -829,7 +816,7 @@
             "y": -2,
             "z": -2,
             "elements": [
-                "extendedcrafting:storage@3"
+                "environmentaltech:thermal_cell@0"
             ]
         },
         {
@@ -845,7 +832,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "extendedcrafting:storage@5"
+                "environmentaltech:lightning_rod_insulated@0"
             ]
         },
         {
@@ -945,14 +932,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "thaumcraft:log_silverwood@1"
-            ]
-        },
-        {
             "x": 2,
             "y": -2,
             "z": -1,
@@ -961,11 +940,11 @@
             ]
         },
         {
-            "x": -1,
+            "x": -2,
             "y": 4,
             "z": 2,
             "elements": [
-                "draconicevolution:infused_obsidian@0"
+                "thaumcraft:log_silverwood@1"
             ]
         },
         {
@@ -977,15 +956,7 @@
             ]
         },
         {
-            "x": 0,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "extendedcrafting:storage@0"
-            ]
-        },
-        {
-            "x": 0,
+            "x": -1,
             "y": 4,
             "z": 2,
             "elements": [
@@ -993,7 +964,15 @@
             ]
         },
         {
-            "x": 1,
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "ic2:wall@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 4,
             "z": 2,
             "elements": [
@@ -1006,6 +985,14 @@
             "z": -1,
             "elements": [
                 "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "draconicevolution:infused_obsidian@0"
             ]
         }
     ]}
