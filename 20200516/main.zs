@@ -309,8 +309,8 @@ mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <
 <ic2:wall>.addTooltip("§a使用相应颜色的刷子右键建筑泡沫墙");
 // 添加注释
 
-mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_ancient>, <liquid:mana>, [<thaumcraft:stone_arcane>], true);
-mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_eldritch_tile>, <liquid:ic2uu_matter>, [<thaumcraft:stone_arcane>], true);
+mods.thermalexpansion.Transposer.addFillRecipe(<thaumcraft:stone_ancient> , <thaumcraft:stone_arcane> , <liquid:mana>*10000,120000);
+mods.thermalexpansion.Transposer.addFillRecipe(<thaumcraft:stone_eldritch_tile> , <thaumcraft:stone_ancient> , <liquid:ic2uu_matter>*10000,120000);
 // 邪术石 荒古石
 
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 20);
