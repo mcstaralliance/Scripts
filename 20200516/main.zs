@@ -313,6 +313,3 @@ mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_ancient>, <liquid:m
 mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_eldritch_tile>, <liquid:ic2uu_matter>, [<thaumcraft:stone_arcane>], true);
 // 邪术石 荒古石
 
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 20);
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ic2:resource:8>, <minecraft:iron_block>, 30);
-// 钢锭彩蛋魔改
