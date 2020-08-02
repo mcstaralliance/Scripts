@@ -78,30 +78,6 @@ for i, bag in bags {
 // 区块加载器
 recipes.remove(<ic2:te:82>);
 
-// 玄钢头盔
-recipes.remove(<enderio:item_dark_steel_helmet>);
-
-// 玄钢胸甲
-recipes.remove(<enderio:item_dark_steel_chestplate>);
-
-// 玄钢护腿
-recipes.remove(<enderio:item_dark_steel_leggings>);
-
-// 玄钢靴子
-recipes.remove(<enderio:item_dark_steel_boots>);
-
-// 末影钢头盔
-recipes.remove(<enderio:item_end_steel_helmet>);
-
-// 末影钢胸甲
-recipes.remove(<enderio:item_end_steel_chestplate>);
-
-// 末影钢护腿
-recipes.remove(<enderio:item_end_steel_leggings>);
-
-// 末影钢靴子
-recipes.remove(<enderio:item_end_steel_boots>);
-
 // ME破坏面板
 recipes.remove(<appliedenergistics2:part:300>);
 
@@ -261,3 +237,6 @@ mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
 */
+
+// 展示框
+recipes.remove(<minecraft:item_frame>);
