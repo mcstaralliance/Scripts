@@ -1,13 +1,13 @@
 {
     "machine": "Tier3",
     "registryName": "Tier3_ore",
-    "recipeTime": 400,
+    "recipeTime": 100,
     "requirements": 
     [
     {
         "type": "energy",
         "io-type": "input",
-        "energyPerTick": 16384
+        "energyPerTick": 32768
     },
     {
         "type": "item",
