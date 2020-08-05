@@ -126,7 +126,28 @@
         "io-type": "output",
         "item": "environmentaltech:erodium_crystal",
         "amount": 1,
-        "chance": 0.5
+        "chance": 0.1
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "minecraft:emerald_ore",
+        "amount": 1,
+        "chance": 0.1
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "minecraft:coal_ore",
+        "amount": 2,
+        "chance": 0.2
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "environmentaltech:mica",
+        "amount": 3,
+        "chance": 0.2
     }
     ]
 }
