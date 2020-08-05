@@ -261,3 +261,6 @@ mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
 */
+
+// 热力背包
+recipes.remove(<thermalexpansion:satchel>);
