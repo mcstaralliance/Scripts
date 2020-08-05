@@ -1,7 +1,7 @@
 {
     "machine": "Tier1",
     "registryName": "Tier1_ore",
-    "recipeTime": 400,
+    "recipeTime": 1000,
     "requirements": 
     [
     {
