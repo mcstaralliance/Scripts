@@ -45,7 +45,7 @@ mods.avaritia.ExtremeCrafting.addShaped("structure_frame_1", <environmentaltech:
 
 <environmentaltech:structure_frame_2>.addTooltip("§6请使用注魔合成");
 recipes.remove(<environmentaltech:structure_frame_2>);
-mods.thaumcraft.Infusion.registerRecipe("tier2", "", <environmentaltech:structure_frame_2>, 3,[<aspect:aer>*8, <aspect:ignis>*8], <environmentaltech:structure_frame_1>, [<enderio:item_material>, <appliedenergistics2:material:12>, <appliedenergistics2:material:10>, <thaumicenergistics:coalescence_core>, <thaumicenergistics:diffusion_core>, <thaumicenergistics:essentia_component_4k>, <thaumcraft:plate>, <thaumcraft:metal_thaumium>]);
+mods.thaumcraft.Infusion.registerRecipe("tier2", "", <environmentaltech:structure_frame_2>, 3,[<aspect:aer>*8, <aspect:ignis>*8], <environmentaltech:structure_frame_1>, [<enderio:item_material>, <appliedenergistics2:material:12>, <appliedenergistics2:material:10>, <thaumicenergistics:coalescence_core>, <thaumicenergistics:diffusion_core>, <thaumcraft:plate>, <thaumcraft:metal_thaumium>]);
 // 二级结构方块 
 
 <environmentaltech:structure_frame_3>.addTooltip("§6请使用注魔合成");
