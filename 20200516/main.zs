@@ -323,4 +323,4 @@ mods.thaumcraft.Infusion.registerRecipe("pillar_eldritch", "", <thaumcraft:pilla
 // 邪术注魔柱
 
 recipes.addshaped(<immersiveengineering:metal_device1:13>*2, [[<advanced_solar_panels:crafting:6>, <modularmachinery:blockoutputbus:6>, <advanced_solar_panels:crafting:6>], [<environmentaltech:mica>, <forestry:humus>, <environmentaltech:mica>], [<sakura:maple_log>, <modularmachinery:blockfluidinputhatch:7>, <sakura:maple_log>]]);
-园艺玻璃罩
+// 园艺玻璃罩
