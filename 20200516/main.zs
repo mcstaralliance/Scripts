@@ -309,7 +309,15 @@ mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <
 <ic2:wall>.addTooltip("§a使用相应颜色的刷子右键建筑泡沫墙");
 // 添加注释
 
-mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_ancient>, <liquid:mana>, [<thaumcraft:stone_arcane>], true);
+mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_ancient>, <liquid:mana>, [<thaumcraft:stone_eldritch_tile>], true);
 mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_eldritch_tile>, <liquid:ic2uu_matter>, [<thaumcraft:stone_arcane>], true);
 // 邪术石 荒古石
 
+recipes.addShapeless(<thaumcraft:pillar_arcane>, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]);
+// 注魔柱
+
+mods.thaumcraft.Infusion.registerRecipe("pillar_ancient", "", <thaumcraft:pillar_ancient>*2, 20, [<aspect:perditio>*128, <aspect:vacuos>*128, <aspect:auram>*64, <aspect:herba>*64, <aspect:alienis>*128, <aspect:caeles>*64], <thaumcraft:stone_ancient>, [<thaumadditions:seal>, <thaumcraft:inlay>, <thaumcraft:inlay>, <thaumcraft:curio:1>, <thaumadditions:taintkin_lit>, <thaumcraft:void_seed>, <thaumcraft:metal_alchemical>, <thaumcraft:matrix_speed>]);
+// 荒古注魔柱
+
+mods.thaumcraft.Infusion.registerRecipe("pillar_eldritch", "", <thaumcraft:pillar_eldritch>*2, 20, [<aspect:aer>*600, <aspect:terra>*600, <aspect:ignis>*600, <aspect:aqua>*600, <aspect:ordo>*600, <aspect:perditio>*600], <thaumcraft:stone_eldritch_tile>, [<draconicevolution:chaos_shard:2>, <thaumcraft:mechanism_complex>, <thaumcraft:stabilizer>]);
+// 邪术注魔柱
