@@ -321,3 +321,6 @@ mods.thaumcraft.Infusion.registerRecipe("pillar_ancient", "", <thaumcraft:pillar
 
 mods.thaumcraft.Infusion.registerRecipe("pillar_eldritch", "", <thaumcraft:pillar_eldritch>*2, 20, [<aspect:aer>*600, <aspect:terra>*600, <aspect:ignis>*600, <aspect:aqua>*600, <aspect:ordo>*600, <aspect:perditio>*600], <thaumcraft:stone_eldritch_tile>, [<draconicevolution:chaos_shard:2>, <thaumcraft:mechanism_complex>, <thaumcraft:stabilizer>]);
 // 邪术注魔柱
+
+recipes.addshaped(<immersiveengineering:metal_device1:13>*2, [[<advanced_solar_panels:crafting:6>, <modularmachinery:blockoutputbus:6>, <advanced_solar_panels:crafting:6>], [<environmentaltech:mica>, <forestry:humus>, <environmentaltech:mica>], [<sakura:maple_log>, <modularmachinery:blockfluidinputhatch:7>, <sakura:maple_log>]]);
+园艺玻璃罩
