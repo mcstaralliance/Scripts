@@ -244,13 +244,13 @@ mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag
 <custommc:item705>.addTooltip("§7Mr.?????:他能听见我们说话……");
 mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolution:chaos_shard:3>, [
     [null,null,null,null,null,null,null,null,null],
-    [null,null, null, null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
-    [null,null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>,null], 
-    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
-    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, null,null], 
-    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, <ore:oreCrystalEntropy>, null,null], 
-    [null,<ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null,null], 
-    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null, null, null],
+    [null,null, null, null, null, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}),null], 
+    [null,null, null, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <appliedenergistics2:material:6>, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}),null], 
+    [null,null, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}),null], 
+    [null,null, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), null,null], 
+    [null,<thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), null,null], 
+    [null,<thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <appliedenergistics2:material:6>, <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), null, null,null], 
+    [null,<thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}), null, null, null, null],
     [null,null,null,null,null,null,null,null,null]
 ]);
 
