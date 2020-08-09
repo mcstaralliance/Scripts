@@ -218,6 +218,27 @@
         "item": "environmentaltech:mica",
         "amount": 2,
         "chance": 0.2
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:3",
+        "amount": 4,
+        "chance": 0.25
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:4",
+        "amount": 4,
+        "chance": 0.25
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "draconicevolution:draconium_ore",
+        "amount": 4,
+        "chance": 0.15
     }
     ]
 }
