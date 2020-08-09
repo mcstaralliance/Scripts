@@ -69,7 +69,7 @@ mods.avaritia.ExtremeCrafting.addShaped("myvenbow", <draconicevolution:wyvern_bo
     [null,null,null,null,null,null,null,null,null],
     [null,null, <ic2:te:41>, <thaumcraft:module:1>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVibrantAlloy>,null], 
     [null,<ic2:te:41>, <thermalfoundation:tool.bow_platinum>, <thaumcraft:turret:1>, <forge:bucketfilled>, null, <forestry:crafting_material:2>, null,null], 
-    [null,<thaumcraft:module:1>, <thaumcraft:turret:1>, <thaumcraft:seal:14>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null,null], 
+    [null,<thaumcraft:module:1>, <thaumcraft:turret:1>, <null>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null,null], 
     [null,<ore:ingotVoid>, <forge:bucketfilled>, <draconicevolution:wyvern_core>, <forestry:crafting_material:2>, null, null, null,null], 
     [null,<ore:ingotVoid>, null, <forestry:crafting_material:2>, null, null, null, null,null], 
     [null,<ore:ingotVoid>, <forestry:crafting_material:2>, null, null, null, null, null,null], 
@@ -218,6 +218,12 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "boots", mach
     .addItemInput(<draconicevolution:wyvern_boots>)
     .addItemInput(<draconicevolution:draconic_energy_core>)
     .build();
+
+// 神龙锄
+recipes.addShaped("DraconicHoe",<draconicevolution:draconic_hoe>,[[<null>,<minecraft:nether_star>,<null>],[<minecraft:nether_star>,<minecraft:diamond_hoe>,<minecraft:nether_star>],[<null>,<minecraft:nether_star>,<null>]]);
+
+<draconicevolution:draconic_hoe>.addTooltip("种植站的福音");
+<draconicevolution:draconic_hoe>.addTooltip("偷着乐去吧");
 
 // 龍权
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "power", machineName, recipesTickTime)

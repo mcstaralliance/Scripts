@@ -244,15 +244,18 @@ mods.avaritia.ExtremeCrafting.addShaped("Overletter", <custommc:item705>.withTag
 <custommc:item705>.addTooltip("§7Mr.???:我就说他会到达这里的");
 <custommc:item705>.addTooltip("§7Mr.?????:嘘~");
 <custommc:item705>.addTooltip("§7Mr.?????:他能听见我们说话……");
-mods.avaritia.ExtremeCrafting.addShaped("smallest_haos_shard", <draconicevolution:chaos_shard:3>, [
+
+val itemPod = <thaumadditions:vis_pod>.withTag({Aspect: "perditio"}) as IItemStack;
+
+mods.avaritia.ExtremeCrafting.addShaped("smallest_chaos_shard", <draconicevolution:chaos_shard:3>, [
     [null,null,null,null,null,null,null,null,null],
-    [null,null, null, null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
-    [null,null, null, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>,null], 
-    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>,null], 
-    [null,null, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, null,null], 
-    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, <ore:oreCrystalEntropy>, null,null], 
-    [null,<ore:oreCrystalEntropy>, <appliedenergistics2:material:6>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null,null], 
-    [null,<ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, <ore:oreCrystalEntropy>, null, null, null, null],
+    [null,null, null, null, null, itemPod, itemPod, itemPod,null], 
+    [null,null, null, itemPod, itemPod, itemPod, <appliedenergistics2:material:6>, itemPod,null], 
+    [null,null, itemPod, <appliedenergistics2:material:47>, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, itemPod, itemPod,null], 
+    [null,null, itemPod, <appliedenergistics2:material:6>, <thaumcraft:causality_collapser>, <appliedenergistics2:material:6>, itemPod, null,null], 
+    [null,itemPod, itemPod, <appliedenergistics2:material:6>, <appliedenergistics2:material:6>, <appliedenergistics2:material:47>, itemPod, null,null], 
+    [null,itemPod, <appliedenergistics2:material:6>, itemPod, itemPod, itemPod, null, null,null], 
+    [null,itemPod, itemPod, itemPod, null, null, null, null],
     [null,null,null,null,null,null,null,null,null]
 ]);
 
@@ -287,7 +290,8 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura
 <ore:easterEggs>.add(<cuisine:food:16>, <ichunutil:compact_porkchop>, <thaumcraft:triple_meat_treat>);
 
 <ore:easterEggs>.addShiftTooltip(function(item) {
-    return "Yoho! gmz" ~ item.name;
+    return "Yoho! 你发现了彩蛋" ~ item.name;
 }, function(item){
     return "¿";
 });
+
