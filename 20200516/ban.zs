@@ -183,9 +183,6 @@ recipes.remove(<draconicevolution:dislocator_bound:1>);
 // 绑定传送符咒(玩家)
 recipes.remove(<draconicevolution:dislocator_bound:2>);
 
-// 网络工具
-recipes.remove(<appliedenergistics2:network_tool>);
-
 // 觉醒物品传送符咒
 recipes.remove(<draconicevolution:magnet:1>);
 
