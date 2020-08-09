@@ -236,16 +236,9 @@
     {
         "type": "item",
         "io-type": "output",
-        "item": "thermalfoundation:ore_fluid:3",
-        "amount": 8,
-        "chance": 0.25
-    },
-    {
-        "type": "item",
-        "io-type": "output",
-        "item": "thermalfoundation:ore_fluid:4",
-        "amount": 8,
-        "chance": 0.25
+        "item": "environmentaltech:ionite_crystal",
+        "amount": 4,
+        "chance": 0.2
     },
     {
         "type": "item",
@@ -253,13 +246,6 @@
         "item": "draconicevolution:draconium_ore",
         "amount": 8,
         "chance": 0.15
-    },
-    {
-        "type": "item",
-        "io-type": "output",
-        "item": "environmentaltech:ionite_crystal",
-        "amount": 2,
-        "chance": 0.1
     }
     ]
 }
