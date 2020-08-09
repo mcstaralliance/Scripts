@@ -45,7 +45,7 @@ mods.avaritia.ExtremeCrafting.addShaped("structure_frame_1", <environmentaltech:
 
 <environmentaltech:structure_frame_2>.addTooltip("§6请使用注魔合成");
 recipes.remove(<environmentaltech:structure_frame_2>);
-mods.thaumcraft.Infusion.registerRecipe("tier2", "", <environmentaltech:structure_frame_2>, 3,[<aspect:aer>*8, <aspect:ignis>*8], <environmentaltech:structure_frame_1>, [<enderio:item_material>, <appliedenergistics2:material:12>, <appliedenergistics2:material:10>, <thaumicenergistics:coalescence_core>, <thaumicenergistics:diffusion_core>, <thaumcraft:plate>, <thaumcraft:metal_thaumium>]);
+mods.thaumcraft.Infusion.registerRecipe("tier2", "", <environmentaltech:structure_frame_2>, 3,[<aspect:aer>*8, <aspect:ignis>*8], <environmentaltech:structure_frame_1>, [<enderio:item_material>, <appliedenergistics2:material:12>, <appliedenergistics2:material:10>, <thaumicenergistics:coalescence_core>, <thaumicenergistics:diffusion_core>, <thaumicenergistics:essentia_component_1k>, <thaumcraft:plate>, <thaumcraft:metal_thaumium>]);
 // 二级结构方块 
 
 <environmentaltech:structure_frame_3>.addTooltip("§6请使用注魔合成");
@@ -316,12 +316,13 @@ mods.inworldcrafting.FluidToItem.transform(<thaumcraft:stone_eldritch_tile>, <li
 recipes.addShapeless(<thaumcraft:pillar_arcane>, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]);
 // 注魔柱
 
-mods.thaumcraft.Infusion.registerRecipe("pillar_ancient", "", <thaumcraft:pillar_ancient>*2, 20, [<aspect:perditio>*128, <aspect:vacuos>*128, <aspect:auram>*64, <aspect:herba>*64, <aspect:alienis>*128, <aspect:caeles>*64], <thaumcraft:stone_ancient>, [<thaumadditions:seal>, <thaumcraft:inlay>, <thaumcraft:inlay>, <thaumcraft:curio:1>, <thaumadditions:taintkin_lit>, <thaumcraft:void_seed>, <thaumcraft:metal_alchemical>, <thaumcraft:matrix_speed>]);
+mods.thaumcraft.Infusion.registerRecipe("pillar_ancient", "", <thaumcraft:pillar_ancient>*4, 20, [<aspect:perditio>*128, <aspect:vacuos>*128, <aspect:auram>*64, <aspect:herba>*64, <aspect:alienis>*128, <aspect:caeles>*64], <thaumcraft:stone_ancient>, [<thaumadditions:seal>, <thaumcraft:inlay>, <thaumcraft:inlay>, <thaumcraft:curio:1>, <thaumadditions:taintkin_lit>, <thaumcraft:void_seed>, <thaumcraft:metal_alchemical>, <thaumcraft:matrix_speed>]);
 // 荒古注魔柱
 
-mods.thaumcraft.Infusion.registerRecipe("pillar_eldritch", "", <thaumcraft:pillar_eldritch>*2, 20, [<aspect:aer>*600, <aspect:terra>*600, <aspect:ignis>*600, <aspect:aqua>*600, <aspect:ordo>*600, <aspect:perditio>*600], <thaumcraft:stone_eldritch_tile>, [<draconicevolution:chaos_shard:2>, <thaumcraft:mechanism_complex>, <thaumcraft:stabilizer>]);
+mods.thaumcraft.Infusion.registerRecipe("pillar_eldritch", "", <thaumcraft:pillar_eldritch>*4, 20, [<aspect:aer>*300, <aspect:terra>*300, <aspect:ignis>*300, <aspect:aqua>*300, <aspect:ordo>*300, <aspect:perditio>*300], <thaumcraft:stone_eldritch_tile>, [<draconicevolution:chaos_shard:2>, <thaumcraft:mechanism_complex>, <thaumcraft:stabilizer>]);
 // 邪术注魔柱
 
 recipes.remove(<immersiveengineering:metal_device1:13>);
 recipes.addShaped(<immersiveengineering:metal_device1:13>*2, [[<advanced_solar_panels:crafting:6>, <modularmachinery:blockoutputbus:6>, <advanced_solar_panels:crafting:6>], [<environmentaltech:mica>, <forestry:humus>, <environmentaltech:mica>], [<sakura:maple_log>, <modularmachinery:blockfluidinputhatch:7>, <sakura:maple_log>]]);
 // 园艺玻璃罩
+
