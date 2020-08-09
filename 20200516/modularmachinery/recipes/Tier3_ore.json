@@ -232,6 +232,34 @@
         "item": "environmentaltech:mica",
         "amount": 8,
         "chance": 0.4
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:3",
+        "amount": 8,
+        "chance": 0.25
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:4",
+        "amount": 8,
+        "chance": 0.25
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "draconicevolution:draconium_ore",
+        "amount": 8,
+        "chance": 0.15
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "environmentaltech:ionite_crystal",
+        "amount": 2,
+        "chance": 0.1
     }
     ]
 }
