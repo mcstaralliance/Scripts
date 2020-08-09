@@ -148,6 +148,20 @@
         "item": "environmentaltech:mica",
         "amount": 3,
         "chance": 0.2
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:3",
+        "amount": 1,
+        "chance": 0.25
+    },
+    {
+        "type": "item",
+        "io-type": "output",
+        "item": "thermalfoundation:ore_fluid:4",
+        "amount": 1,
+        "chance": 0.25
     }
     ]
 }
