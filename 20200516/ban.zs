@@ -263,3 +263,6 @@ mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
 recipes.remove(<thermalexpansion:florb:0>);
 recipes.remove(<thermalexpansion:florb:1>);
 recipes.remove(<thermalexpansion:florb>);
+
+// 热力背包
+recipes.remove(<thermalexpansion:satchel>);
