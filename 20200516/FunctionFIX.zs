@@ -295,3 +295,8 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:glowstone>*250, <liquid:sakura
     return "¿";
 });
 
+recipes.addShaped("godhoe", <minecraft:golden_hoe>.withTag({ench: [{lvl: 0, id: -1}], Unbreakable: 1, HideFlags: 4}), [
+    [<minecraft:nether_star>,<minecraft:nether_star>,null],
+    [null,<thaumadditions:void_elemental_hoe>,null],
+    [null,<ic2:crafting:30>,null]
+]);

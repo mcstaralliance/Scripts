@@ -219,12 +219,6 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "boots", mach
     .addItemInput(<draconicevolution:draconic_energy_core>)
     .build();
 
-// 神龙锄
-recipes.addShaped("DraconicHoe",<draconicevolution:draconic_hoe>,[[<null>,<minecraft:nether_star>,<null>],[<minecraft:nether_star>,<minecraft:diamond_hoe>,<minecraft:nether_star>],[<null>,<minecraft:nether_star>,<null>]]);
-
-<draconicevolution:draconic_hoe>.addTooltip("种植站的福音");
-<draconicevolution:draconic_hoe>.addTooltip("偷着乐去吧");
-
 // 龍权
 mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "power", machineName, recipesTickTime)
     .addEnergyPerTickInput(4096)
@@ -234,4 +228,136 @@ mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "power", mach
     .addItemInput(<draconicevolution:draconic_pick>)
     .addItemInput(<draconicevolution:draconic_axe>)
     .addItemInput(<draconicevolution:draconic_shovel>)
+    .build();
+
+// 升级统一
+var machineName = "update";
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "cap", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconium_capacitor:1>.withTag({DEUpgrades: {rfCap: 4 as byte}, Energy: 768000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconium_capacitor:1>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "axe", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_axe>.withTag({DEUpgrades: {digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_axe>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "pic", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_pick>.withTag({DEUpgrades: {digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte}, Energy: 256000000, Profile_0: {showDigAOE: 0 as byte, digDepth: 0, digSpeed: 100, aoeSafeMode: 0 as byte, digAOE: 0, junkNbtSens: 1)
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_pick>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "shovel", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_shovel>.withTag({DEUpgrades: {digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_shovel>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "staffofpower", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_staff_of_power>.withTag({DEUpgrades: {attackDmg: 3 as byte, digSpeed: 3 as byte, digAOE: 3 as byte, rfCap: 3 as byte, attackAOE: 3 as byte}, Energy: 768000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_staff_of_power>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "sword", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_sword>.withTag({DEUpgrades: {attackDmg: 3 as byte, rfCap: 3 as byte, attackAOE: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_sword>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "helm", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_helm>.withTag({DEUpgrades: {shieldRec: 3 as byte, shieldCap: 3 as byte, rfCap: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_helm>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "chest", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_chest>.withTag({DEUpgrades: {shieldRec: 3 as byte, shieldCap: 3 as byte, rfCap: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_chest>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "legs", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_legs>.withTag({DEUpgrades: {moveSpeed: 3 as byte, shieldRec: 3 as byte, shieldCap: 3 as byte, rfCap: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_legs>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
+    .build();
+    
+mods.modularmachinery.RecipeBuilder.newBuilder(machineName + "_" + "boots", "dragon", 300)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<draconicevolution:draconic_boots>.withTag({DEUpgrades: {shieldRec: 3 as byte, shieldCap: 3 as byte, rfCap: 3 as byte, jumpBoost: 3 as byte}, Energy: 256000000}))
+    .addItemInput(<draconicevolution:chaos_shard:3>)
+    .addItemInput(<draconicevolution:draconic_boots>)
+    .addItemInput(<minecraft:diamond_block>*8)
+    .addItemInput(<forestry:thermionic_tubes:12>*16)
+    .addItemInput(<draconicevolution:draconic_energy_core>)
+    .addItemInput(<minecraft:emerald_block>*8)
+    .addItemInput(<minecraft:nether_star>*4)
+    .addItemInput(<minecraft:golden_apple:1>*2)
     .build();
