@@ -252,6 +252,12 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_shovel>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_axe>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_hoe>);
 
+// 热力背包
+recipes.remove(<thermalexpansion:satchel>);
+
+// Mannequin(人偶)
+recipes.remove(<armourers_workshop:item.mannequin>);
+
 // 战利品表修改
 // 需添加LootTableTweaker MOD
 /*
@@ -261,6 +267,3 @@ mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
 */
-
-// 热力背包
-recipes.remove(<thermalexpansion:satchel>);
