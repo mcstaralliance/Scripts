@@ -1,14 +1,10 @@
 // 此魔改全周目通用
-import mods.thaumcraft.Infusion;
-import mods.thaumcraft.ArcaneWorkbench;
-import thaumcraft.aspect.CTAspectStack;
+
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
-import mods.immersiveengineering.AlloySmelter;
-import mods.thermalexpansion.Insolator;
 
-<custommc:item512>.displayName = "§b兰博顿晶体";
+<custommc:item512>.displayName = "§b兰波顿晶体";
 <enderio:item_material:18>.displayName = "§c能量晶体";
 
 var nl = <enderio:item_material:18>;
@@ -27,7 +23,7 @@ lbd.addTooltip("§a自动化合成专用物品");
 nl.addTooltip("§a自动化合成专用物品");
 
 recipes.addShaped(lbd, [[<ore:dustLapis>, <ic2:crafting:2>, <ore:dustLapis>], [<ore:dustLapis>, nl, <ore:dustLapis>], [<ore:dustLapis>, <ic2:crafting:2>, <ore:dustLapis>]]);
-// 兰博顿晶体
+// 兰波顿晶体
 
 recipes.addShaped(nl, [[<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>], [<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>], [<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>]]);
 // 能量水晶
