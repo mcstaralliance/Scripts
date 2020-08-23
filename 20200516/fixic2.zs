@@ -9,8 +9,8 @@ import crafttweaker.item.IItemStack;
 
 var nl = <enderio:item_material:18>;
 var lbd = <custommc:item512>;
-var goldcable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
-var ironcable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte});
+var goldCable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
+var ironCable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte});
 
 recipes.remove(<enderio:item_material:18>);
 recipes.remove(<ic2:lapotron_crystal:26>.withTag({}));
@@ -28,7 +28,7 @@ recipes.addShaped(lbd, [[<ore:dustLapis>, <ic2:crafting:2>, <ore:dustLapis>], [<
 recipes.addShaped(nl, [[<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>], [<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>], [<ic2:dust:6>, <ic2:dust:6>, <ic2:dust:6>]]);
 // 能量水晶
 
-recipes.addShaped(<ic2:te:74>.withTag({}), [[goldcable, nl, goldcable], [nl, <ic2:resource:12>, nl], [goldcable, nl, goldcable]]);
+recipes.addShaped(<ic2:te:74>.withTag({}), [[goldCable, nl, goldCable], [nl, <ic2:resource:12>, nl], [goldCable, nl, goldCable]]);
 // MFE
 
 recipes.addShaped(<ic2:energy_pack:26>.withTag({}), [[<ic2:crafting:2>, <ic2:casing:3>, <ic2:crafting:2>], [nl, <ic2:casing:3>, nl], [<ic2:casing:3>, null,<ic2:casing:3>]]);
@@ -40,5 +40,5 @@ recipes.addShaped(<ic2:mining_laser:26>.withTag({}), [[<ore:dustRedstone>, <ore:
 recipes.addShaped(<ic2:te:75>.withTag({}), [[lbd, <ic2:crafting:2>, lbd], [lbd, <immersiveengineering:metal_device1:5>, lbd], [lbd, <ic2:resource:13>, lbd]]);
 // MFSU
 
-recipes.addShaped(<ic2:te:80>, [[null,ironcable,null], [<ic2:crafting:2>, <ic2:te:79>, lbd], [null,ironcable,null]]);
+recipes.addShaped(<ic2:te:80>, [[null,ironCable,null], [<ic2:crafting:2>, <ic2:te:79>, lbd], [null,ironCable,null]]);
 // 超高压变压器
