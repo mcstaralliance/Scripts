@@ -3,7 +3,7 @@ import crafttweaker.event.IBlockEvent;
 var myGrey = <contenttweaker:grey_matter>;
 var myBrown = <contenttweaker:brown_matter>;
 var myGreen = <contenttweaker:green_matter>;
-var myYello = <contenttweaker:yellow_matter>;
+var myYellow = <contenttweaker:yellow_matter>;
 var myBlue = <contenttweaker:blue_matter>;
 var myRed = <contenttweaker:red_matter>;
 var myBlack = <contenttweaker:black_matter>;
@@ -47,7 +47,7 @@ recipes.addShaped(<minecraft:stone_slab> * 6,
 );
 // 砂砾
 recipes.addShaped(<minecraft:gravel> * 8, 
-    [[myYello, myBlack, myRed], 
+    [[myYellow, myBlack, myRed], 
     [myBlue, <contenttweaker:enriched_cobblestone>, myGreen], 
     [myBrown, <minecraft:planks:2>, myGrey]]
 );
