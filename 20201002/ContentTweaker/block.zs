@@ -15,3 +15,8 @@ TestBlock.blockSoundType = <soundtype:sand>;
 TestBlock.toolClass = "pickaxe";
 TestBlock.toolLevel = 1;
 TestBlock.register();
+
+var enrichedCobbleStone as Block = VanillaFactory.createBlock("enriched_cobblestone", <blockmaterial:rock>);
+enrichedCobbleStone.toolClass = "pickaxe";
+enrichedCobbleStone.toolLevel = 0;
+enrichedCobbleStone.register();
