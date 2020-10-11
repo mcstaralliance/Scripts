@@ -8,3 +8,5 @@ import crafttweaker.item.IItemStack;
 <contenttweaker:yellow_matter>.addTooltip("§b将黄色染料和灰色物质置于水中");
 <contenttweaker:red_matter>.addTooltip("§b将红色染料和灰色物质置于水中");
 <minecraft:gravel>.addTooltip("§b富含矿物");
+<ic2:te:10>.addTooltip("§b只能合成3次,请珍惜哦");
+<ic2:te:11>.addTooltip("§b只能合成3次,请珍惜哦");
