@@ -38,6 +38,11 @@ recipes.addShaped(<minecraft:sand> * 4,
     [[<ic2:dust:15>, <minecraft:flint>], 
     [<minecraft:stone>, <minecraft:planks:2>]]
 );
+// 熔岩粘滑泥泞
+recipes.addShaped(<tconstruct:soil:5> * 4, 
+    [[<ore:gunpowder>, <ore:dustRedstone>], 
+    [<minecraft:sand>, <contenttweaker:red_matter>]]
+);
 // 3×3合成
 // 石台阶
 recipes.addShaped(<minecraft:stone_slab> * 6, 
