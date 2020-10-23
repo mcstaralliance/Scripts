@@ -93,13 +93,3 @@ as IItemStack[];
 for i, myBuild in build {
     recipes.remove(myBuild);
 }
-
-// 战利品表修改
-// 需添加LootTableTweaker MOD
-/*
-mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_upgrade:1");
-mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial");
-mods.ltt.LootTable.removeGlobalItem("enderio:item_soul_vial:1");
-mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_pickaxe");
-mods.ltt.LootTable.removeGlobalItem("enderio:item_dark_steel_sword");
-*/
