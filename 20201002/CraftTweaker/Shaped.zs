@@ -43,6 +43,11 @@ recipes.addShaped(<tconstruct:soil:5> * 4,
     [[<ore:gunpowder>, <ore:dustRedstone>], 
     [<minecraft:sand>, <contenttweaker:red_matter>]]
 );
+// 矿渣
+recipes.addShaped(<immersiveengineering:material:7> * 4, 
+    [[<minecraft:flint>, <contenttweaker:enriched_cobblestone>], 
+    [<contenttweaker:enriched_cobblestone>, <minecraft:flint>]]
+);
 // 3×3合成
 // 石台阶
 recipes.addShaped(<minecraft:stone_slab> * 6, 
@@ -61,4 +66,38 @@ recipes.addShaped(<minecraft:dirt>,
     [[myBrown, myBrown, myBrown], 
     [myBrown, <minecraft:gravel>, myGreen], 
     [myGreen, myGreen, myGreen]]
+);
+// 设备框架
+recipes.remove(<thermalexpansion:frame:64>);
+recipes.addShaped(<thermalexpansion:frame:64>, 
+    [[<ore:ingotTin>, <tconstruct:clear_glass>, <ore:ingotTin>], 
+    [<tconstruct:clear_glass>, <forestry:impregnated_casing>, <tconstruct:clear_glass>], 
+    [<ore:ingotTin>, <tconstruct:clear_glass>, <ore:ingotTin>]]
+);
+// 灵魂协调涂抹粉末
+recipes.remove(<enderio:item_material:52>);
+recipes.addShaped(<enderio:item_material:52> * 2, 
+    [[<ore:dyeBrown>, <ore:dustNetherQuartz>, <ore:dyeBrown>], 
+    [<ore:dustNetherQuartz>, <ore:dyeBlack>, <ore:dustNetherQuartz>], 
+    [<ore:dyeBrown>, <ore:dustNetherQuartz>, <ore:dyeBrown>]]
+);
+// 红石接收线圈
+recipes.remove(<thermalfoundation:material:513>);
+recipes.addShaped(<thermalfoundation:material:513> * 2, 
+    [[<ore:dustRedstone>, <ic2:crafting:13>, <ore:nuggetGold>], 
+    [<ic2:crafting:13>, <ore:dustRedstone>, <ic2:crafting:13>], 
+    [<ore:nuggetGold>, <ic2:crafting:13>, <ore:dustRedstone>]]
+);
+// 彩虹发电机
+recipes.remove(<extrautils2:rainbowgenerator>);
+recipes.addShaped(<extrautils2:rainbowgenerator>, 
+    [[<advanced_solar_panels:machines:5>, <extrautils2:rainbowgenerator:2>, <draconicevolution:chaotic_core>], 
+    [<extrautils2:compressedcobblestone:7>, <extrautils2:decorativesolid:8>, <extrautils2:ingredients:16>], 
+    [<cuisine:food:16>, <extrautils2:rainbowgenerator:1>, <extrautils2:opinium:8>]]
+);
+// 石英
+recipes.addShaped(<minecraft:quartz>, 
+    [[<contenttweaker:grey_matter>, <contenttweaker:grey_matter>, <contenttweaker:grey_matter>], 
+    [<contenttweaker:grey_matter>, <extrautils2:decorativesolid:2>, <contenttweaker:grey_matter>], 
+    [<contenttweaker:grey_matter>, <contenttweaker:grey_matter>, <contenttweaker:grey_matter>]]
 );
