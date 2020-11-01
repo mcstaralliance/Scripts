@@ -10,4 +10,5 @@ import crafttweaker.item.IItemStack;
 <minecraft:gravel>.addTooltip("§b富含矿物");
 <ic2:te:10>.addTooltip("§b只能合成 3 次,请珍惜哦");
 <ic2:te:11>.addTooltip("§b只能合成 3 次,请珍惜哦");
-<ic2:dust:15>.addTooltip("破坏富集圆石");
+<ic2:dust:15>.addTooltip("§b破坏富集圆石");
+<enderio:item_material:20>.addTooltip("§b灼烧掉落的压缩圆石");

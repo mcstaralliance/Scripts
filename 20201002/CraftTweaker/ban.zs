@@ -39,7 +39,7 @@ var draconic = [<draconicevolution:draconic_spawner>,<draconicevolution:diss_enc
 <draconicevolution:dislocator_bound:2>,<draconicevolution:dislocator_pedestal>,<draconicevolution:dislocator_receptacle>]
 as IItemStack[];
 for i, myDraconic in draconic {
-    recipes.remove(myDraconicn);
+    recipes.remove(myDraconic);
 }
 
 var enderio = [<enderio:block_weather_obelisk>,<enderio:item_rod_of_return>,<enderio:item_travel_staff>,<enderio:block_killer_joe>,
