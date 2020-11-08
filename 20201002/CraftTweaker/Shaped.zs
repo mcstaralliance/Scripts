@@ -101,3 +101,92 @@ recipes.addShaped(<minecraft:quartz>,
     [<contenttweaker:grey_matter>, <extrautils2:decorativesolid:2>, <contenttweaker:grey_matter>], 
     [<contenttweaker:grey_matter>, <contenttweaker:grey_matter>, <contenttweaker:grey_matter>]]
 );
+// 彩虹石
+recipes.addShaped(<extrautils2:decorativesolid:8> * 4, 
+    [[<botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>], 
+    [<botania:bifrostperm>, <extrautils2:decorativesolid:3>, <botania:bifrostperm>], 
+    [<botania:bifrostperm>, <botania:bifrostperm>, <botania:bifrostperm>]]
+);
+// 粉碎机(exu2)
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), 
+    [[<extrautils2:ingredients:17>, <tconstruct:sharpening_kit>.withTag({Material: "xu_enchanted_metal"}), <extrautils2:ingredients:17>], 
+    [<extrautils2:ingredients:17>, <extrautils2:machine>, <extrautils2:ingredients:17>], 
+    [<extrautils2:ingredients:17>, <tconstruct:sharpening_kit>.withTag({Material: "xu_enchanted_metal"}), <extrautils2:ingredients:17>]]
+);
+// 龙芯
+recipes.remove(<draconicevolution:draconic_core>);
+recipes.addShaped(<draconicevolution:draconic_core>, 
+    [[<enderio:item_alloy_endergy_ingot:3>, <advanced_solar_panels:crafting:9>, <enderio:item_alloy_endergy_ingot:3>], 
+    [<enderio:item_material:8>, <draconicevolution:draconium_block>, <enderio:item_material:71>], 
+    [<tconstruct:large_plate>.withTag({Material: "cobalt"}), <botania:storage:1>, <tconstruct:large_plate>.withTag({Material: "cobalt"})]]
+);
+// 元始魔力粉
+recipes.addShaped(<thermalfoundation:material:1028> * 4, 
+    [[<thermalfoundation:material:1024>, <thermalfoundation:material:1024>, <thermalfoundation:material:1025>], 
+    [<thermalfoundation:material:1024>, <enderio:item_material:38>, <thermalfoundation:material:1025>], 
+    [<thermalfoundation:material:1024>, <thermalfoundation:material:1025>, <thermalfoundation:material:1025>]]
+);
+// 双足飞龙剑
+recipes.remove(<draconicevolution:wyvern_sword>);
+recipes.addShaped(<draconicevolution:wyvern_sword>, 
+    [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>], 
+    [<botania:manaresource:4>, <variedcommodities:mithril_sword>, <botania:manaresource:4>], 
+    [<botania:manaresource:9>, <draconicevolution:wyvern_core>, <botania:manaresource:9>]]
+);
+// 双足飞龙斧
+recipes.remove(<draconicevolution:wyvern_axe>);
+recipes.addShaped(<draconicevolution:wyvern_axe>, 
+    [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>], 
+    [<botania:manaresource:4>, <botania:terraaxe>, <botania:manaresource:4>], 
+    [<botania:manaresource:9>, <draconicevolution:wyvern_core>, <botania:manaresource:9>]]
+);
+// 双足飞龙弓
+recipes.remove(<draconicevolution:wyvern_bow>);
+recipes.addShaped(<draconicevolution:wyvern_bow>, 
+    [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>], 
+    [<botania:manaresource:4>, <extrautils2:compoundbow>, <botania:manaresource:4>], 
+    [<botania:manaresource:9>, <draconicevolution:wyvern_core>, <botania:manaresource:9>]]
+);
+// 双足飞龙镐
+recipes.remove(<draconicevolution:wyvern_pick>);
+recipes.addShaped(<draconicevolution:wyvern_pick>, 
+    [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>], 
+    [<botania:manaresource:4>, <botania:glasspick>, <botania:manaresource:4>], 
+    [<botania:manaresource:9>, <draconicevolution:wyvern_core>, <botania:manaresource:9>]]
+);
+// 双足飞龙铲
+recipes.remove(<draconicevolution:wyvern_shovel>);
+recipes.addShaped(<draconicevolution:wyvern_shovel>, 
+    [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>], 
+    [<botania:manaresource:4>, <cuisine:iron_spatula>, <botania:manaresource:4>], 
+    [<botania:manaresource:9>, <draconicevolution:wyvern_core>, <botania:manaresource:9>]]
+);
+// 双足飞龙头盔
+recipes.remove(<draconicevolution:wyvern_helm>);
+recipes.addShaped(<draconicevolution:wyvern_helm>, 
+    [[<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:draconic_core>, <enderio:item_alloy_endergy_ingot:2>], 
+    [<enderio:item_alloy_endergy_ingot:6>, <botania:terrasteelhelm>, <enderio:item_alloy_endergy_ingot:6>], 
+    [<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:wyvern_core>, <enderio:item_alloy_endergy_ingot:2>]]
+);
+// 双足飞龙胸甲
+recipes.remove(<draconicevolution:wyvern_chest>);
+recipes.addShaped(<draconicevolution:wyvern_chest>, 
+    [[<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:draconic_core>, <enderio:item_alloy_endergy_ingot:2>], 
+    [<enderio:item_alloy_endergy_ingot:6>, <botania:terrasteelchest>, <enderio:item_alloy_endergy_ingot:6>], 
+    [<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:wyvern_core>, <enderio:item_alloy_endergy_ingot:2>]]
+);
+// 双足飞龙护腿
+recipes.remove(<draconicevolution:wyvern_legs>);
+recipes.addShaped(<draconicevolution:wyvern_legs>, 
+    [[<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:draconic_core>, <enderio:item_alloy_endergy_ingot:2>], 
+    [<enderio:item_alloy_endergy_ingot:6>, <botania:terrasteellegs>, <enderio:item_alloy_endergy_ingot:6>], 
+    [<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:wyvern_core>, <enderio:item_alloy_endergy_ingot:2>]]
+);
+// 双足飞龙靴
+recipes.remove(<draconicevolution:wyvern_boots>);
+recipes.addShaped(<draconicevolution:wyvern_boots>, 
+    [[<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:draconic_core>, <enderio:item_alloy_endergy_ingot:2>], 
+    [<enderio:item_alloy_endergy_ingot:6>, <botania:terrasteelboots>, <enderio:item_alloy_endergy_ingot:6>], 
+    [<enderio:item_alloy_endergy_ingot:2>, <draconicevolution:wyvern_core>, <enderio:item_alloy_endergy_ingot:2>]]
+);
