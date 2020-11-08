@@ -102,7 +102,7 @@ for i, myAvaritia in avaritia {
 }
 
 // 建筑
-var build = [<buildcraftbuilders:quarry>,<buildcraftbuilders:architect>]
+var build = [<buildcraftbuilders:quarry>,<buildcraftbuilders:architect>,<buildcraftbuilders:pump>]
 as IItemStack[];
 for i, myBuild in build {
     recipes.remove(myBuild);
