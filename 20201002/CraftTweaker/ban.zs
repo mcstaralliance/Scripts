@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
+import mods.botania.Apothecary;
 
 // 工业2
 var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,<ic2:te:88>,
@@ -116,13 +117,12 @@ for i, myExtra in extra {
 }
 
 // 植物魔法
-var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botania:laputashard>.withTag({}),<botania:spawnermover>.withTag({}),
-<botania:astrolabe>.withTag({}),<botania:floatingspecialflower>.withTag({type: "rannuncarpus"}),<botania:floatingspecialflower>.withTag({type: "rannuncarpusChibi"}),
-<botania:specialflower>.withTag({type: "rannuncarpus"}),<botania:specialflower>.withTag({type: "rannuncarpusChibi"}),<botania:dirtrod>,<botania:cobblerod>,
-<botania:waterrod>,<botania:exchangerod>.withTag({}),<botania:smeltrod>,<botania:firerod>,<botania:missilerod>,<botania:diviningrod>,
-<botania:gravityrod>.withTag({dist: -1.0, ticksCooldown: 0, ticksTillExpire: -55, target: -1}),
-<botania:tornadorod>.withTag({flying: 0 as byte})]
+var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botania:laputashard>,<botania:spawnermover>,<botania:astrolabe>,<botania:dirtrod>,
+<botania:cobblerod>,<botania:waterrod>,<botania:exchangerod>,<botania:smeltrod>,<botania:firerod>,<botania:missilerod>,<botania:diviningrod>,<botania:gravityrod>,
+<botania:tornadorod>]
 as IItemStack[];
 for i, myBotania in botania {
     recipes.remove(myBotania);
 }
+
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
