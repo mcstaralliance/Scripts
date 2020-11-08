@@ -20,3 +20,10 @@ mods.modularmachinery.RecipeBuilder.newBuilder("Lava_stove", "alloy_stove", 6000
     .addFluidOutput(<liquid:lava>*1000)
     .addItemInput(<contenttweaker:grey_matter>*4)
     .build();
+
+recipes.remove(<modularmachinery:itemmodularium>);
+recipes.addShaped(<modularmachinery:itemmodularium>, 
+    [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
+    [<ore:ingotGold>, null, <minecraft:redstone>], 
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]
+);
