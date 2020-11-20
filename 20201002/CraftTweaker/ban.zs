@@ -133,7 +133,7 @@ for i, myExtra in extra {
 // 植物魔法
 var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botania:laputashard>,<botania:spawnermover>,<botania:astrolabe>,<botania:dirtrod>,
 <botania:cobblerod>,<botania:waterrod>,<botania:exchangerod>,<botania:smeltrod>,<botania:firerod>,<botania:missilerod>,<botania:diviningrod>,<botania:gravityrod>,
-<botania:tornadorod>]
+<botania:tornadorod>,<botania:teruterubozu>]
 as IItemStack[];
 for i, myBotania in botania {
     recipes.remove(myBotania);
