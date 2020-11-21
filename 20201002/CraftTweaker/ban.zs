@@ -9,6 +9,7 @@ var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2
 <ic2:te:89>] as IItemStack[];
 for i, myIndustrial in industrial {
     recipes.remove(myIndustrial);
+    myIndustrial.addTooltip(format.red("已被删除配方"));
 }
 
 // 热力
@@ -16,10 +17,12 @@ var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansi
 as IItemStack[];
 for i, myThermal in thermal {
     recipes.remove(myThermal);
+    myThermal.addTooltip(format.red("已被删除配方"));
 }
 
 // 匠魂2
 recipes.remove(<tconstruct:throwball>);
+<tconstruct:throwball>.addTooltip(format.red("已被删除配方"));
 
 // 应用能源
 var applied = [<appliedenergistics2:spatial_io_port>,<appliedenergistics2:spatial_pylon>,<appliedenergistics2:part:300>,<appliedenergistics2:part:302>,
@@ -28,6 +31,7 @@ var applied = [<appliedenergistics2:spatial_io_port>,<appliedenergistics2:spatia
 as IItemStack[];
 for i, myApplied in applied {
     recipes.remove(myApplied);
+    myApplied.addTooltip(format.red("已被删除配方"));
 }
 
 // 时装工坊
@@ -37,6 +41,7 @@ var armourer = [<armourers_workshop:tile.skin-library>,<armourers_workshop:tile.
 as IItemStack[];
 for i, myArmourer in armourer {
     recipes.remove(myArmourer);
+    myArmourer.addTooltip(format.red("已被删除配方"));
 }
 
 // 龙之研究/龙之进化
@@ -47,6 +52,7 @@ var draconic = [<draconicevolution:draconic_spawner>,<draconicevolution:diss_enc
 as IItemStack[];
 for i, myDraconic in draconic {
     recipes.remove(myDraconic);
+    myDraconic.addTooltip(format.red("已被删除配方"));
 }
 
 // 末影接口
@@ -65,6 +71,7 @@ var enderio = [<enderio:block_weather_obelisk>,<enderio:item_rod_of_return>,<end
 as IItemStack[];
 for i, myEnderIO in enderio {
     recipes.remove(myEnderIO);
+    myEnderIO.addTooltip(format.red("已被删除配方"));
 }
 
 // 林业
@@ -74,16 +81,19 @@ var forestry = [<forestry:mailbox>,<forestry:trade_station>,<forestry:stamp_coll
 as IItemStack[];
 for i, myForestry in forestry {
     recipes.remove(myForestry);
+    myForestry.addTooltip(format.red("已被删除配方"));
 }
 
 recipes.remove(<forestry:letters>);
 mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
+<forestry:letters>.addTooltip(format.red("已被删除配方"));
 
 // 更多元件
 val cells = [<extracells:part.base:5>,<extracells:part.base:6>]
 as IItemStack[];
 for i, extraCells in cells {
     recipes.remove(extraCells);
+    extraCells.addTooltip(format.red("已被删除配方"));
 }
 
 // 沉浸工程
@@ -91,6 +101,7 @@ val immersive = [<immersiveengineering:revolver>,<immersiveengineering:railgun>,
 as IItemStack[];
 for i, myImmersive in immersive {
     recipes.remove(myImmersive);
+    myImmersive.addTooltip(format.red("已被删除配方"));
 }
 
 // 无尽贪婪
@@ -99,13 +110,15 @@ var avaritia = [<avaritia:infinity_pickaxe>,<avaritia:skullfire_sword>,<avaritia
 as IItemStack[];
 for i, myAvaritia in avaritia {
     mods.avaritia.ExtremeCrafting.remove(myAvaritia);
+    myAvaritia.addTooltip(format.red("已被删除配方"));
 }
 
 // 建筑
-var build = [<buildcraftbuilders:quarry>,<buildcraftbuilders:architect>,<buildcraftbuilders:pump>]
+var build = [<buildcraftbuilders:quarry>,<buildcraftbuilders:architect>]
 as IItemStack[];
 for i, myBuild in build {
     recipes.remove(myBuild);
+    myBuild.addTooltip(format.red("已被删除配方"));
 }
 
 // 更多实用设备2
@@ -114,15 +127,18 @@ var extra = [<extrautils2:goldenlasso>,<extrautils2:goldenlasso:1>,<extrautils2:
 as IItemStack[];
 for i, myExtra in extra {
     recipes.remove(myExtra);
+    myExtra.addTooltip(format.red("已被删除配方"));
 }
 
 // 植物魔法
 var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botania:laputashard>,<botania:spawnermover>,<botania:astrolabe>,<botania:dirtrod>,
 <botania:cobblerod>,<botania:waterrod>,<botania:exchangerod>,<botania:smeltrod>,<botania:firerod>,<botania:missilerod>,<botania:diviningrod>,<botania:gravityrod>,
-<botania:tornadorod>]
+<botania:tornadorod>,<botania:teruterubozu>]
 as IItemStack[];
 for i, myBotania in botania {
     recipes.remove(myBotania);
+    myBotania.addTooltip(format.red("已被删除配方"));
 }
 
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
+<botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red("已被删除配方"));
