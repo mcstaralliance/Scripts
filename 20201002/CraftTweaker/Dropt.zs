@@ -5,7 +5,7 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 Dropt.list("matter_list")
     .priority(0)
     .add(Dropt.rule()
-        .matchBlocks(["minecraft:log2"])
+        .matchBlocks(["minecraft:log"])
         .addDrop(Dropt.drop()
             .items([<contenttweaker:brown_matter>])
         )
