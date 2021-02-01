@@ -27,5 +27,4 @@ recipes.addShaped(mySkull,
 ]);
 
 mySkull.addShiftTooltip(format.aqua("某星域世界玩家的头颅, 因缘分投机, 故出现在这里."));
-<minecraft:skull:3>.displayName = ("??????");
 <minecraft:skull:4>.addTooltip(format.aqua("用 3 个TNT与我合成!"));
