@@ -48,6 +48,53 @@ recipes.addShaped(<immersiveengineering:material:7> * 4,
     [[<minecraft:flint>, <contenttweaker:enriched_cobblestone>], 
     [<contenttweaker:enriched_cobblestone>, <minecraft:flint>]]
 );
+// 能源输入仓依次升级
+recipes.addShaped(<modularmachinery:blockinputbus:2>, 
+    [[<modularmachinery:blockinputbus:1>, <storagedrawers:upgrade_storage>],
+    [<storagedrawers:upgrade_storage>, <modularmachinery:blockinputbus:1>]]
+);
+recipes.addShaped(<modularmachinery:blockinputbus:3>, 
+    [[<modularmachinery:blockinputbus:2>, <storagedrawers:upgrade_storage:1>],
+    [<storagedrawers:upgrade_storage:1>, <modularmachinery:blockinputbus:2>]]
+);
+recipes.addShaped(<modularmachinery:blockinputbus:5>, 
+    [[<modularmachinery:blockinputbus:3>, <storagedrawers:upgrade_storage:2>],
+    [<storagedrawers:upgrade_storage:2>, <modularmachinery:blockinputbus:3>]]
+);
+recipes.addShaped(<modularmachinery:blockinputbus:6>, 
+    [[<modularmachinery:blockinputbus:5>, <storagedrawers:upgrade_storage:3>],
+    [<storagedrawers:upgrade_storage:3>, <modularmachinery:blockinputbus:5>]]
+);
+// 能源输出仓依次升级
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>, 
+    [[<modularmachinery:blockenergyoutputhatch:1>, <storagedrawers:upgrade_storage>],
+    [<storagedrawers:upgrade_storage>, <modularmachinery:blockenergyoutputhatch:1>]]
+);
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:3>, 
+    [[<modularmachinery:blockenergyoutputhatch:2>, <storagedrawers:upgrade_storage:1>],
+    [<storagedrawers:upgrade_storage:1>, <modularmachinery:blockenergyoutputhatch:2>]]
+);
+recipes.addShaped(<modularmachinery:blockenergyoutputhatch:4>, 
+    [[<modularmachinery:blockenergyoutputhatch:3>, <storagedrawers:upgrade_storage:2>],
+    [<storagedrawers:upgrade_storage:2>, <modularmachinery:blockenergyoutputhatch:3>]]
+);
+// 物品输出仓依次升级
+recipes.addShaped(<modularmachinery:blockoutputbus:2>, 
+    [[<modularmachinery:blockoutputbus:1>, <storagedrawers:upgrade_storage>], 
+    [<storagedrawers:upgrade_storage>, <modularmachinery:blockoutputbus:1>]]
+);
+recipes.addShaped(<modularmachinery:blockoutputbus:3>, 
+    [[<modularmachinery:blockoutputbus:2>, <storagedrawers:upgrade_storage:1>], 
+    [<storagedrawers:upgrade_storage:1>, <modularmachinery:blockoutputbus:2>]]
+);
+recipes.addShaped(<modularmachinery:blockoutputbus:5>, 
+    [[<modularmachinery:blockoutputbus:3>, <storagedrawers:upgrade_storage:2>], 
+    [<storagedrawers:upgrade_storage:2>, <modularmachinery:blockoutputbus:3>]]
+);
+recipes.addShaped(<modularmachinery:blockoutputbus:6>, 
+    [[<modularmachinery:blockoutputbus:5>, <storagedrawers:upgrade_storage:3>], 
+    [<storagedrawers:upgrade_storage:3>, <modularmachinery:blockoutputbus:5>]]
+);
 // 3×3合成
 // 石台阶
 recipes.addShaped(<minecraft:stone_slab> * 6, 
