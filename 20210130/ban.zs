@@ -121,3 +121,12 @@ for i, myBotania in botania {
 
 mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
 <botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red("已被删除配方"));
+
+// 暮色森林
+recipes.remove(<twilightforest:uncrafting_table>);
+
+var twilight = [<twilightforest:uncrafting_table>,<twilightforest:magic_beans>]
+as IItemStack[];
+for i, myTwilight in twilight {
+    myTwilight.addTooltip(format.red("已被删除配方"));
+}
