@@ -4,7 +4,6 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 var remove = [
     <minecraft:chest>,
-    <minecraft:stick>,
     <minecraft:furnace>,
     <botania:pylon:2>,
     <botania:runealtar>,
@@ -34,6 +33,7 @@ recipes.addShaped(<minecraft:chest>, [
 recipes.addShaped(<minecraft:stick> * 8, [
     [<contenttweaker:wooden_shears>.anyDamage().transformDamage(20), <ore:treeSapling>] 
 ]);
+<minecraft:stick>.addTooltip("查看合成表有惊喜");
 
 // 简易剪枝器
 recipes.addShaped(<contenttweaker:wooden_shears>, [
