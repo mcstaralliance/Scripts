@@ -54,3 +54,16 @@ mySkull.blockSoundType = <soundtype:wood>;
 mySkull.fullBlock = true;
 mySkull.creativeTab = <creativetab:tab>;
 mySkull.register();
+
+var myStone = VanillaFactory.createBlock("magic_stone", <blockmaterial:wood>);
+myStone.toolClass = "pickaxe";
+myStone.toolLevel = 1.0;
+myStone.blockSoundType = <soundtype:wood>;
+myStone.fullBlock = true;
+myStone.creativeTab = <creativetab:tab>;
+myStone.register();
+
+var myDust1 = VanillaFactory.createItem("calcium_carbonate_dust");
+myDust1.maxStackSize = 64;
+myDust1.creativeTab = <creativeTab:tab>;
+myDust1.register();
