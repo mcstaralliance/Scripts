@@ -16,7 +16,9 @@ var remove = [
     <enderio:item_material>,
     <ic2:resource:12>,
     <draconicevolution:wyvern_core>,
-    <draconicevolution:draconic_core>
+    <draconicevolution:draconic_core>,
+    <astralsorcery:blockblackmarble>,
+    <astralsorcery:blockaltar>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -261,3 +263,18 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(
     <draconicevolution:draconic_core>, 
     <draconicevolution:wyvern_core>, 
     <draconicevolution:wyvern_energy_core>]);
+    
+// 熏黑大理石
+mods.extendedcrafting.TableCrafting.addShaped(0, <astralsorcery:blockblackmarble> * 16, [
+    [<ore:stoneMarble>, <ore:stoneMarble>, <ore:coal>, <ore:stoneMarble>, <ore:stoneMarble>], 
+    [<ore:stoneMarble>, <ore:stoneMarble>, <ore:coal>, <ore:stoneMarble>, <ore:stoneMarble>], 
+    [<ore:coal>, <ore:coal>, <ore:coal>, <ore:coal>, <ore:coal>], 
+    [<ore:stoneMarble>, <ore:stoneMarble>, <ore:coal>, <ore:stoneMarble>, <ore:stoneMarble>], 
+    [<ore:stoneMarble>, <ore:stoneMarble>, <ore:coal>, <ore:stoneMarble>, <ore:stoneMarble>]
+]);
+
+// 大理石
+mods.thermalexpansion.Transposer.addFillRecipe(
+    <astralsorcery:blockmarble>, <contenttweaker:magic_stone>, <liquid:water> * 250, 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(
+    <astralsorcery:blockmarble>, <contenttweaker:calcium_carbonate_dust> * 4, <liquid:water> * 250, 1000);
