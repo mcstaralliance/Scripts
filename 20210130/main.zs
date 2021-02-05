@@ -280,3 +280,19 @@ mods.thermalexpansion.Transposer.addFillRecipe(
     <astralsorcery:blockmarble>, <contenttweaker:calcium_carbonate_dust> * 4, <liquid:water> * 250, 1000);
 
 <torchmaster:feral_flare_lantern>.addTooltip(format.red("可能会使附近的效应放大器失效，因为效应放大器需要足够的空间。"));
+
+// 蓝图
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Banana Pancakes"}), [
+    [<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>],
+    [<appliedenergistics2:material:1>, <enderio:item_material:77>, <appliedenergistics2:material:1>],
+    [<ore:plateLapis>, <ore:plateLapis>, <ore:plateLapis>]
+]);
+
+// 水晶石
+recipes.addShaped(rockMaxPro, [
+    [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>],
+    [<astralsorcery:blockinfusedwood>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:blockinfusedwood>],
+    [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>]
+]);
+
+
