@@ -89,7 +89,7 @@ mods.inworldcrafting.FluidToItem.transform(
 // 符文祭坛
 recipes.addShaped(<botania:runealtar>, [
     [<botania:rune:8>, <botania:rune:8>, <botania:rune:8>], 
-    [<botania:livingrock:1>, <advanced_solar_panels:crafting:11>, <botania:livingrock:1>],
+    [<botania:livingrock:1>, <super_solar_panels:crafting:12>, <botania:livingrock:1>],
     [<botania:livingrock:1>, <contenttweaker:magic_log>, <botania:livingrock:1>]
 ]);
 
@@ -191,9 +191,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_core>
 
 // 龙芯
 recipes.addShaped(<draconicevolution:draconic_core> * 2, [
-    [<draconicevolution:draconium_ingot>, <advanced_solar_panels:crafting:3>, <draconicevolution:draconium_ingot>], 
-    [<advanced_solar_panels:crafting:3>, <avaritia:resource>, <advanced_solar_panels:crafting:3>], 
-    [<draconicevolution:draconium_ingot>, <advanced_solar_panels:crafting:3>, <draconicevolution:draconium_ingot>]
+    [<draconicevolution:draconium_ingot>, <super_solar_panels:crafting:4>, <draconicevolution:draconium_ingot>], 
+    [<super_solar_panels:crafting:4>, <avaritia:resource>, <super_solar_panels:crafting:4>], 
+    [<draconicevolution:draconium_ingot>, <super_solar_panels:crafting:4>, <draconicevolution:draconium_ingot>]
 ]);
 
 // 双足飞龙能量核心
@@ -278,3 +278,5 @@ mods.thermalexpansion.Transposer.addFillRecipe(
     <astralsorcery:blockmarble>, <contenttweaker:magic_stone>, <liquid:water> * 250, 1000);
 mods.thermalexpansion.Transposer.addFillRecipe(
     <astralsorcery:blockmarble>, <contenttweaker:calcium_carbonate_dust> * 4, <liquid:water> * 250, 1000);
+
+<torchmaster:feral_flare_lantern>.addTooltip(format.red("可能会使附近的效应放大器失效，因为效应放大器需要足够的空间。"));
