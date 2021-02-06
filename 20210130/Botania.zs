@@ -12,7 +12,7 @@ mods.botania.PureDaisy.addRecipe(
 mods.botania.RuneAltar.addRecipe(
     <astralsorcery:blockaltar>, [<appliedenergistics2:material:7>, 
     <astralsorcery:blockmarble>, <extendedcrafting:crafting_table>, 
-    <astralsorcery:blockblackmarble>, <astralsorcery:itemrockcrystalsimple>], 
+    <astralsorcery:blockblackmarble>], 
     10000);
 
 // 注魔石
