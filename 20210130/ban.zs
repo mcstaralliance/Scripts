@@ -85,7 +85,7 @@ mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 <forestry:letters>.addTooltip(format.red("已被删除配方"));
 
 // 更多元件
-val cells = [<extracells:part.base:5>,<extracells:part.base:6>]
+var cells = [<extracells:part.base:5>,<extracells:part.base:6>,<extracells:part.base:12>]
 as IItemStack[];
 for i, extraCells in cells {
     recipes.remove(extraCells);
@@ -93,7 +93,7 @@ for i, extraCells in cells {
 }
 
 // 沉浸工程
-val immersive = [<immersiveengineering:revolver>,<immersiveengineering:railgun>,<immersiveengineering:chemthrower>,<immersiveengineering:toolbox>]
+var immersive = [<immersiveengineering:revolver>,<immersiveengineering:railgun>,<immersiveengineering:chemthrower>,<immersiveengineering:toolbox>]
 as IItemStack[];
 for i, myImmersive in immersive {
     recipes.remove(myImmersive);
