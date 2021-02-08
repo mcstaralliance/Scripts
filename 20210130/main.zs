@@ -3,7 +3,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 
 var remove = [
-    <minecraft:chest>,
     <minecraft:furnace>,
     <botania:pylon:2>,
     <botania:runealtar>,
@@ -23,13 +22,6 @@ var remove = [
 for myRemove in remove{
     recipes.remove(myRemove);
 }
-
-// 箱子
-recipes.addShaped(<minecraft:chest>, [
-    [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], 
-    [<minecraft:planks>, <ore:nuggetIron>, <minecraft:planks>], 
-    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
-]);
 
 // 木棍
 recipes.addShaped(<minecraft:stick> * 8, [
