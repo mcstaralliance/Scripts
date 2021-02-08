@@ -2,6 +2,15 @@
 
 import crafttweaker.item.IItemStack as IItemStack;
 
+val rockMaxPro = <astralsorcery:itemrockcrystalsimple>.withTag(
+    {astralsorcery: {
+        crystalProperties: {
+            collectiveCapability: 100, size: 400, fract: 0, purity: 100, sizeOverride: -1
+            }
+        }
+    }
+);
+
 var remove = [
     <minecraft:furnace>,
     <botania:pylon:2>,
