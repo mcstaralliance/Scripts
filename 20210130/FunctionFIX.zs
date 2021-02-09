@@ -50,7 +50,7 @@ recipes.addHiddenShapeless("Communistsunite!",<extrabotany:splashgrenade>.withTa
 
 recipes.addShaped("firstFractal",<extrabotany:firstfractal>.withTag({ench: [{lvl: 3 as short, id: 39 as short}, {lvl: 4 as short, id: 30 as short}, {lvl: 3 as short, id: 21 as short}, {lvl: 1 as short, id: 15 as short}, {lvl: 5 as short, id: 16 as short}, {lvl: 5 as short, id: 11 as short}]}),[
     [null,<extrabotany:cosmetic:9>.withTag({}),null],
-    [<astralsorcery:itemcraftingcomponent:4>,<extrabotany:cosmetic:8>.withTag({}),<astralsorcery:itemcraftingcomponent:4>],
+    [<astralsorcery:itemcraftingcomponent:4>,<extrabotany:firstfractal>,<astralsorcery:itemcraftingcomponent:4>],
     [null,<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),null]
 ]);
 //天顶剑的强化合成
