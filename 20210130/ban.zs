@@ -4,6 +4,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
 import mods.botania.Apothecary;
 import mods.immersiveengineering.Mixer;
+import mods.touhoulittlemaid.Altar;
 
 // 工业2
 var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,<ic2:te:88>,
@@ -143,3 +144,6 @@ for mySakura in sakura {
     recipes.remove(mySakura);
     mySakura.addTooltip(format.red("已被删除配方"));
 }
+
+// 车万女仆
+Altar.removeRecipe("touhou_little_maid:entity.passive.maid");
