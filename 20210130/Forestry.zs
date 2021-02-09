@@ -1,4 +1,4 @@
-#priority 100
+#priority 32766
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
@@ -78,9 +78,11 @@ var treeDateSapling = <forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome:
 var treeDateWood = <forestry:logs.4:2>;
 var treePoplarSapling = <forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.treePoplar", UID0: "forestry.treePoplar", Slot: 0 as byte}, {UID1: "forestry.heightSmall", UID0: "forestry.heightSmall", Slot: 1 as byte}, {UID1: "forestry.saplingsLower", UID0: "forestry.saplingsLower", Slot: 2 as byte}, {UID1: "forestry.fruitNone", UID0: "forestry.fruitNone", Slot: 3 as byte}, {UID1: "forestry.yieldLowest", UID0: "forestry.yieldLowest", Slot: 4 as byte}, {UID1: "forestry.sappinessLow", UID0: "forestry.sappinessLow", Slot: 5 as byte}, {UID1: "forestry.leavesNone", UID0: "forestry.leavesNone", Slot: 6 as byte}, {UID1: "forestry.maturationSlower", UID0: "forestry.maturationSlower", Slot: 7 as byte}, {UID1: "forestry.i1d", UID0: "forestry.i1d", Slot: 8 as byte}, {UID1: "forestry.fireproofFalse", UID0: "forestry.fireproofFalse", Slot: 9 as byte}]}});
 var treePoplarWood = <forestry:logs.4:1>;
+//以上为定义林业的基础材料
 
 var allSaplings = [treeAppleSapling,treeBlackOakSapling,treeBirchSapling,treeLimeSapling,treeWalnutSapling,treeChestnutSapling,treeCherrySapling,treeLemonSapling,treePlumSapling,treeMapleSapling,treeSpruceSapling,treeLarchSapling,treePineSapling,treeSequoiaSapling,treeGigantSapling,treeJungleSapling,treeTeakSapling,treeIpeSapling,treeKapokSapling,treeEbonySapling,treeZebrawoodSapling,treeMahogonySapling,treeAcaciaVanillaSapling,treeAcaciaSapling,treePadaukSapling,treeBalsaSapling,treeCocoboloSapling,treeWengeSapling,treeBaobabSapling,treeMahoeSapling,treeWillowSapling,treeSipiriSapling,treePapayaSapling,treeDateSapling,treePoplarSapling] as IItemStack[];
 var allWood = [treeAppleWood,treeBlackOakWood,treeBirchWood,treeLimeWood,treeWalnutWood,treeChestnutWood,treeCherryWood,treeLemonWood,treePlumWood,treeMapleWood,treeSpruceWood,treeLarchWood,treePineWood,treeSequoiaWood,treeGigantWood,treeJungleWood,treeTeakWood,treeIpeWood,treeKapokWood,treeEbonyWood,treeZebrawoodWood,treeMahogonyWood,treeAcaciaVanillaWood,treeAcaciaWood,treePadaukWood,treeBalsaWood,treeCocoboloWood,treeWengeWood,treeBaobabWood,treeMahoeWood,treeWillowWood,treeSipiriWood,treePapayaWood,treeDateWood,treePoplarWood] as IItemStack[];
+//声明材料进变量
 
 for i,sapling in allSaplings{
     recipes.addShaped("sapling"+i,sapling,[
@@ -89,3 +91,4 @@ for i,sapling in allSaplings{
         [null,allWood[i],null]
     ]);
 }
+//依次添加材料合成
