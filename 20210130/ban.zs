@@ -7,7 +7,7 @@ import mods.botania.Apothecary;
 // 工业2
 var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,<ic2:te:88>,
 <ic2:te:89>] as IItemStack[];
-for i, myIndustrial in industrial {
+for myIndustrial in industrial {
     recipes.remove(myIndustrial);
     myIndustrial.addTooltip(format.red("已被删除配方"));
 }
@@ -15,7 +15,7 @@ for i, myIndustrial in industrial {
 // 热力
 var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansion:satchel>]
 as IItemStack[];
-for i, myThermal in thermal {
+for myThermal in thermal {
     recipes.remove(myThermal);
     myThermal.addTooltip(format.red("已被删除配方"));
 }
@@ -25,7 +25,7 @@ var applied = [<appliedenergistics2:spatial_io_port>,<appliedenergistics2:spatia
 <appliedenergistics2:entropy_manipulator>,<appliedenergistics2:matter_cannon>,<appliedenergistics2:network_tool>,<appliedenergistics2:part:320>,
 <appliedenergistics2:part:321>,<appliedenergistics2:tiny_tnt>]
 as IItemStack[];
-for i, myApplied in applied {
+for myApplied in applied {
     recipes.remove(myApplied);
     myApplied.addTooltip(format.red("已被删除配方"));
 }
@@ -35,7 +35,7 @@ var armourer = [<armourers_workshop:tile.skin-library>,<armourers_workshop:tile.
 <armourers_workshop:tile.hologram-projector>,<armourers_workshop:tile.colour-mixer>,<armourers_workshop:tile.dye-table>,
 <armourers_workshop:tile.skinning-table>]
 as IItemStack[];
-for i, myArmourer in armourer {
+for myArmourer in armourer {
     recipes.remove(myArmourer);
     myArmourer.addTooltip(format.red("已被删除配方"));
 }
@@ -46,7 +46,7 @@ var draconic = [<draconicevolution:draconic_spawner>,<draconicevolution:diss_enc
 <draconicevolution:dislocator>,<draconicevolution:magnet>,<draconicevolution:magnet:1>,<draconicevolution:dislocator_bound:1>,
 <draconicevolution:dislocator_bound:2>,<draconicevolution:dislocator_pedestal>,<draconicevolution:dislocator_receptacle>]
 as IItemStack[];
-for i, myDraconic in draconic {
+for myDraconic in draconic {
     recipes.remove(myDraconic);
     myDraconic.addTooltip(format.red("已被删除配方"));
 }
@@ -65,7 +65,7 @@ var enderio = [<enderio:block_weather_obelisk>,<enderio:item_rod_of_return>,<end
 <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}),
 <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"})]
 as IItemStack[];
-for i, myEnderIO in enderio {
+for myEnderIO in enderio {
     recipes.remove(myEnderIO);
     myEnderIO.addTooltip(format.red("已被删除配方"));
 }
@@ -75,7 +75,7 @@ var forestry = [<forestry:mailbox>,<forestry:trade_station>,<forestry:stamp_coll
 <forestry:lepidopterist_bag>,<forestry:miner_bag>,<forestry:digger_bag>,<forestry:forester_bag>,<forestry:hunter_bag>,<forestry:adventurer_bag>,
 <forestry:builder_bag>]
 as IItemStack[];
-for i, myForestry in forestry {
+for myForestry in forestry {
     recipes.remove(myForestry);
     myForestry.addTooltip(format.red("已被删除配方"));
 }
@@ -87,7 +87,7 @@ mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 // 更多元件
 var cells = [<extracells:part.base:5>,<extracells:part.base:6>,<extracells:part.base:12>]
 as IItemStack[];
-for i, extraCells in cells {
+for extraCells in cells {
     recipes.remove(extraCells);
     extraCells.addTooltip(format.red("已被删除配方"));
 }
@@ -95,16 +95,16 @@ for i, extraCells in cells {
 // 沉浸工程
 var immersive = [<immersiveengineering:revolver>,<immersiveengineering:railgun>,<immersiveengineering:chemthrower>,<immersiveengineering:toolbox>]
 as IItemStack[];
-for i, myImmersive in immersive {
+for myImmersive in immersive {
     recipes.remove(myImmersive);
     myImmersive.addTooltip(format.red("已被删除配方"));
 }
 
 // 无尽贪婪
-var avaritia = [<avaritia:infinity_pickaxe>,<avaritia:skullfire_sword>,<avaritia:infinity_bow>,<avaritia:infinity_shovel>,<avaritia:infinity_axe>,
+var avaritia = [<avaritia:infinity_pickaxe>,<avaritia:skullfire_sword>,<avaritia:infinity_shovel>,<avaritia:infinity_axe>,
 <avaritia:infinity_hoe>]
 as IItemStack[];
-for i, myAvaritia in avaritia {
+for myAvaritia in avaritia {
     mods.avaritia.ExtremeCrafting.remove(myAvaritia);
     myAvaritia.addTooltip(format.red("已被删除配方"));
 }
@@ -114,7 +114,7 @@ var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botan
 <botania:cobblerod>,<botania:waterrod>,<botania:exchangerod>,<botania:smeltrod>,<botania:firerod>,<botania:missilerod>,<botania:diviningrod>,<botania:gravityrod>,
 <botania:tornadorod>,<botania:teruterubozu>]
 as IItemStack[];
-for i, myBotania in botania {
+for myBotania in botania {
     recipes.remove(myBotania);
     myBotania.addTooltip(format.red("已被删除配方"));
 }
@@ -127,6 +127,6 @@ recipes.remove(<twilightforest:uncrafting_table>);
 
 var twilight = [<twilightforest:uncrafting_table>,<twilightforest:magic_beans>]
 as IItemStack[];
-for i, myTwilight in twilight {
+for myTwilight in twilight {
     myTwilight.addTooltip(format.red("已被删除配方"));
 }
