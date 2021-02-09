@@ -15,7 +15,7 @@ for myIndustrial in industrial {
 }
 
 // 热力
-var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansion:satchel>]
+var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansion:satchel>,<thermalexpansion:reservoir>]
 as IItemStack[];
 for myThermal in thermal {
     recipes.remove(myThermal);
@@ -144,6 +144,9 @@ for mySakura in sakura {
     recipes.remove(mySakura);
     mySakura.addTooltip(format.red("已被删除配方"));
 }
+
+// 星辉魔法
+<astralsorcery:blockworldilluminator>.addTooltip(format.red("已被封禁物品"));
 
 // 车万女仆
 Altar.removeRecipe("touhou_little_maid:spawn_maid");
