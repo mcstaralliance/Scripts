@@ -149,5 +149,10 @@ for mySakura in sakura {
 <astralsorcery:blockworldilluminator>.addTooltip(format.red("已被封禁物品"));
 
 // 车万女仆
-Altar.removeRecipe("touhou_little_maid:spawn_maid");
-Altar.removeRecipe("touhou_little_maid:reborn_maid");
+var maid = [
+    "touhou_little_maid:spawn_maid",
+    "touhou_little_maid:reborn_maid",
+    "touhou_little_maid:craft_break_guide"] as string[];
+for removeMaid in maid{
+    Altar.removeRecipe(removeMaid);
+}
