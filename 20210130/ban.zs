@@ -146,4 +146,5 @@ for mySakura in sakura {
 }
 
 // 车万女仆
-Altar.removeRecipe("touhou_little_maid:entity.passive.maid");
+Altar.removeRecipe("touhou_little_maid:spawn_maid");
+Altar.removeRecipe("touhou_little_maid:reborn_maid");
