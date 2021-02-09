@@ -3,6 +3,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IIngredient;
 import mods.botania.Apothecary;
+import mods.immersiveengineering.Mixer;
+import mods.touhoulittlemaid.Altar;
 
 // 工业2
 var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,<ic2:te:88>,
@@ -13,7 +15,7 @@ for myIndustrial in industrial {
 }
 
 // 热力
-var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansion:satchel>]
+var thermal = [<thermalexpansion:morb>,<thermalexpansion:morb:1>,<thermalexpansion:satchel>,<thermalexpansion:reservoir>]
 as IItemStack[];
 for myThermal in thermal {
     recipes.remove(myThermal);
@@ -100,6 +102,10 @@ for myImmersive in immersive {
     myImmersive.addTooltip(format.red("已被删除配方"));
 }
 
+mods.immersiveengineering.Mixer.removeRecipe(<liquid:concrete>);
+var concreteBuckets = <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000});
+concreteBuckets.addTooltip(format.red("已被删除配方"));
+
 // 无尽贪婪
 var avaritia = [<avaritia:infinity_pickaxe>,<avaritia:skullfire_sword>,<avaritia:infinity_shovel>,<avaritia:infinity_axe>,
 <avaritia:infinity_hoe>]
@@ -129,4 +135,24 @@ var twilight = [<twilightforest:uncrafting_table>,<twilightforest:magic_beans>]
 as IItemStack[];
 for myTwilight in twilight {
     myTwilight.addTooltip(format.red("已被删除配方"));
+}
+
+// 樱
+var sakura = [<sakura:samurai_helmet>,<sakura:samurai_chest>,<sakura:samurai_pants>,<sakura:samurai_shoes>]
+as IItemStack[];
+for mySakura in sakura {
+    recipes.remove(mySakura);
+    mySakura.addTooltip(format.red("已被删除配方"));
+}
+
+// 星辉魔法
+<astralsorcery:blockworldilluminator>.addTooltip(format.red("已被封禁物品"));
+
+// 车万女仆
+var maid = [
+    "touhou_little_maid:spawn_maid",
+    "touhou_little_maid:reborn_maid",
+    "touhou_little_maid:craft_break_guide"] as string[];
+for removeMaid in maid{
+    Altar.removeRecipe(removeMaid);
 }
