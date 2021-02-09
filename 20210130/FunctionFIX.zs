@@ -8,25 +8,15 @@ import crafttweaker.data.IData;
 import crafttweaker.entity.IEntity;
 import crafttweaker.world.IWorld;
 
-var allNBTContainer = [<appliedenergistics2:storage_cell_1k>,<appliedenergistics2:storage_cell_4k>,<appliedenergistics2:storage_cell_16k>,<appliedenergistics2:storage_cell_64k>,<extracells:storage.physical>,<extracells:storage.physical:1>,<extracells:storage.physical:2>,<extracells:storage.physical:3>,<enderio:block_tank>,<enderio:block_tank:1>,<enderio:block_omni_reservoir>,<forge:bucketfilled>] as IItemStack[];
+var allNBTContainer = [<appliedenergistics2:storage_cell_1k>,<appliedenergistics2:storage_cell_4k>,<appliedenergistics2:storage_cell_16k>,<appliedenergistics2:storage_cell_64k>,<extracells:storage.physical>,<extracells:storage.physical:1>,<extracells:storage.physical:2>,<extracells:storage.physical:3>,<enderio:block_tank>,<enderio:block_tank:1>,<enderio:block_omni_reservoir>] as IItemStack[];
 //声明所有带有流体容器的bracket
 
 var wrench = <thermalfoundation:wrench>;
 for i, item in allNBTContainer {
-    if(item has <forge:bucketfilled>){
-        var bucket = <minecraft:bucket>;
-        recipes.addShaped("NBTContainerEliminater"+i, bucket, [
-            [wrench, item.marked("itemBucket")], 
-            [null, null]
-        ],null,function (out, info, player) {
-            player.update({doPlayerHasNBTBucket : true});
-        });
-    }else{
     recipes.addShaped("NBTContainerEliminater"+i, wrench, [
         [wrench, item.marked("item")], 
         [null, null]
     ],null,null);
-    }
 }
 //清理容器
 
@@ -50,7 +40,7 @@ recipes.addHiddenShapeless("Communistsunite!",<extrabotany:splashgrenade>.withTa
 
 recipes.addShaped("firstFractal",<extrabotany:firstfractal>.withTag({ench: [{lvl: 3 as short, id: 39 as short}, {lvl: 4 as short, id: 30 as short}, {lvl: 3 as short, id: 21 as short}, {lvl: 1 as short, id: 15 as short}, {lvl: 5 as short, id: 16 as short}, {lvl: 5 as short, id: 11 as short}]}),[
     [null,<extrabotany:cosmetic:9>.withTag({}),null],
-    [<astralsorcery:itemcraftingcomponent:4>,<extrabotany:firstfractal>,<astralsorcery:itemcraftingcomponent:4>],
+    [<astralsorcery:itemcraftingcomponent:4>,<extrabotany:cosmetic:8>.withTag({}),<astralsorcery:itemcraftingcomponent:4>],
     [null,<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),null]
 ]);
 //天顶剑的强化合成
@@ -64,15 +54,13 @@ recipes.addShaped("dyeblack",<thermalfoundation:dye>,[
     var meta = ins.thickeners.displayName;
     var forestryDetector as string = forestryClass[0]+forestryClass[1];
     ckData += cInfo.player.data;
-    if(ckData.doPlayerCommunist.asInt() > 1){
-        if(ckData.doPlayerHasNBTBucket.asInt()>0){
+    if(ckData.doPlayerCommunist.asInt() > 0){
             if (forestryDetector has ":") {
-                if (forestryClass[2] == "null") {
+                if (forestryClass[1] == "null") {
                     return itemUtils.getItem(forestryDetector);
                 }
                 return itemUtils.getItem(forestryDetector, meta);
             }
-        }
     }
     return out;
 }, null);
