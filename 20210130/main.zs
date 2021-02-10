@@ -162,11 +162,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame>, [
 ]);
 
 // 机器框架模具
-recipes.addShaped(<enderio:item_material>, [
-    [<ic2:fence>, <enderio:item_material:20>, <ic2:fence>],
-    [<enderio:item_material:20>, <ic2:resource:12>, <enderio:item_material:20>],
-    [<ic2:fence>, <enderio:item_material:20>, <ic2:fence>]
-]);
+mods.astralsorcery.Altar.addAttunementAltarRecipe(<enderio:item_material>, 1500, 200, [
+    <ic2:fence>, <enderio:item_material:20>, <ic2:fence>,
+    <enderio:item_material:20>, <ic2:resource:12>, <enderio:item_material:20>,
+    <ic2:fence>, <enderio:item_material:20>, <ic2:fence>,
+    <botania:manaresource:7>, <botania:manaresource:7>, <botania:manaresource:7>, <botania:manaresource:7>]);
 
 // 双足飞龙嬗变器
 mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:dragon> * 4, [
