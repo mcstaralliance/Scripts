@@ -26,7 +26,11 @@ var remove = [
     <draconicevolution:wyvern_core>,
     <draconicevolution:draconic_core>,
     <astralsorcery:blockblackmarble>,
-    <astralsorcery:blockaltar>
+    <astralsorcery:blockaltar>,
+    <draconicevolution:wyvern_helm>,
+    <draconicevolution:wyvern_chest>,
+    <draconicevolution:wyvern_legs>,
+    <draconicevolution:wyvern_boots>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
