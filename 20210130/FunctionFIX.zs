@@ -56,7 +56,7 @@ recipes.addShaped("dyeblack",<thermalfoundation:dye>,[
     ckData += cInfo.player.data;
     if(ckData.doPlayerCommunist.asInt() > 0){
             if (forestryDetector has ":") {
-                if (forestryClass[1] == "null") {
+                if (meta == "null") {
                     return itemUtils.getItem(forestryDetector);
                 }
                 return itemUtils.getItem(forestryDetector, meta);
