@@ -86,7 +86,7 @@ var allWood = [treeAppleWood,treeBlackOakWood,treeBirchWood,treeLimeWood,treeWal
 
 for i,sapling in allSaplings{
     recipes.addShaped("sapling"+i,sapling,[
-        [null,allWood[i],allWood[i]],
+        [allWood[i],allWood[i],allWood[i]],
         [null,allWood[i],null],
         [null,allWood[i],null]
     ]);
