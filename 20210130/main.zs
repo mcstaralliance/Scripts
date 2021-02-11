@@ -26,7 +26,6 @@ var remove = [
     <draconicevolution:wyvern_core>,
     <draconicevolution:draconic_core>,
     <astralsorcery:blockblackmarble>,
-    <astralsorcery:blockaltar>,
     <draconicevolution:wyvern_helm>,
     <draconicevolution:wyvern_chest>,
     <draconicevolution:wyvern_legs>,
