@@ -57,7 +57,7 @@ for myDraconic in draconic {
 var enderio = [<enderio:block_weather_obelisk>,<enderio:item_rod_of_return>,<enderio:item_travel_staff>,<enderio:block_killer_joe>,
 <enderio:item_dark_steel_helmet>,<enderio:item_dark_steel_chestplate>,<enderio:item_dark_steel_leggings>,<enderio:item_dark_steel_boots>,
 <enderio:item_end_steel_helmet>,<enderio:item_end_steel_chestplate>,<enderio:item_end_steel_leggings>,<enderio:item_end_steel_boots>,
-<enderio:block_powered_spawner>,<enderio:item_dark_steel_sword>,<enderio:block_experience_obelisk>,<enderio:block_tele_pad>,<enderio:item_soul_vial>,
+<enderio:block_powered_spawner>,<enderio:item_dark_steel_sword>,<enderio:block_tele_pad>,<enderio:item_soul_vial>,
 <enderio:block_crafter>,<enderio:block_enchanter>,<enderio:block_travel_anchor>,
 <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}),
 <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"}),
