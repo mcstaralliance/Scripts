@@ -27,6 +27,7 @@ recipes.addShaped(<super_solar_panels:machines:10>, [
     [<super_solar_panels:crafting:44>, <extrabotany:natureorb>, <super_solar_panels:crafting:44>], 
     [<extrabotany:material:3>, <super_solar_panels:crafting:0>, <extrabotany:material:3>]
 ]);
+//中子流体生成器
 
 var energyPlate = <forestry:chipsets:3>.withTag({T: 3 as short, "CA.I3": "forestry.electric.boost.2", "CA.I1": "forestry.electric.boost.2", "CA.I2": "forestry.electric.boost.2", "CA.I0": "forestry.electric.boost.2", LY: "forestry.engine.tin"});
 recipes.addShaped(<energyconverters:energy_producer_eu:4>, [
@@ -34,3 +35,4 @@ recipes.addShaped(<energyconverters:energy_producer_eu:4>, [
     [<ore:gearPlatinum>, <botania:manaresource:4>, energyPlate], 
     [<ore:blockIron>, <thermalexpansion:cell>, <ore:blockIron>]
 ]);
+//能量桥接器魔改
