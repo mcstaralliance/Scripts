@@ -13,8 +13,8 @@ var allNBTContainer = [<appliedenergistics2:storage_cell_1k>,<appliedenergistics
 
 var wrench = <thermalfoundation:wrench>;
 for i, item in allNBTContainer {
-    recipes.addShaped("NBTContainerEliminater"+i, wrench, [
-        [wrench, item.marked("item")], 
+    recipes.addShaped("NBTContainerEliminater"+i, item, [
+        [wrench.reuse();, item.marked("item")], 
         [null, null]
     ],null,null);
 }
