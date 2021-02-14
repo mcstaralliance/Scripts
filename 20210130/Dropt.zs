@@ -8,3 +8,17 @@ Dropt.list("remove")
             .items([<contenttweaker:calcium_carbonate_dust>])
         )
     );
+Dropt.list("ore_fix")
+    .add(Dropt.rule()
+        .matchBlocks([<super_solar_panels:iridium_ore>])
+        .addDrop(Dropt.drop()
+            .items([<thermalfoundation:material:71>])
+        )
+    );
+Dropt.list("ore_fix")
+    .add(Dropt.rule()
+        .matchBlocks([<super_solar_panels:platium_ore>])
+        .addDrop(Dropt.drop()
+            .items([<thermalfoundation:material:70>])
+        )
+    );
