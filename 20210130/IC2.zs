@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 var remove = [
     <super_solar_panels:machines:10>,
+    <super_solar_panels:crafting:31>,
     <energyconverters:energy_producer_eu:4>
 ] as IItemStack[];
 for myRemove in remove{
@@ -22,6 +23,13 @@ for myRemoveAndHide in removeAndHide{
     mods.jei.JEI.removeAndHide(myRemoveAndHide);
     recipes.remove(myRemoveAndHide);
 }
+
+recipes.addShaped(<super_solar_panels:machines:10>, [
+    [null, <super_solar_panels:crafting:32>, null], 
+    [null, <super_solar_panels:crafting:21>, null], 
+    [null, <super_solar_panels:crafting:32>, null]
+]);
+// Photonic 富集核心配方修复
 
 recipes.addShaped(<super_solar_panels:machines:10>, [
     [<extrabotany:material:3>, <super_solar_panels:crafting:0>, <extrabotany:material:3>], 
