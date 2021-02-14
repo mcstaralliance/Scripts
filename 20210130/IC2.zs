@@ -1,4 +1,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 var remove = [
     <super_solar_panels:machines:10>,
@@ -30,6 +32,8 @@ recipes.addShaped(<super_solar_panels:machines:10>, [
     [null, <super_solar_panels:crafting:32>, null]
 ]);
 // Photonic 富集核心配方修复
+
+<ore:oreIridium>.add(<super_solar_panels:iridium_ore>);
 
 recipes.addShaped(<super_solar_panels:machines:10>, [
     [<extrabotany:material:3>, <super_solar_panels:crafting:0>, <extrabotany:material:3>], 
