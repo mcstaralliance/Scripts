@@ -34,7 +34,7 @@ recipes.addShaped(<super_solar_panels:machines:10>, [
 // Photonic 富集核心配方修复
 
 <ore:oreIridium>.add(<super_solar_panels:iridium_ore>);
-
+<ore:orePlatinum>.add(<super_solar_panels:platium_ore>);
 recipes.addShaped(<super_solar_panels:machines:10>, [
     [<extrabotany:material:3>, <super_solar_panels:crafting:0>, <extrabotany:material:3>], 
     [<super_solar_panels:crafting:44>, <extrabotany:natureorb>, <super_solar_panels:crafting:44>], 
