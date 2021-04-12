@@ -10,6 +10,13 @@ val rockMaxPro = <astralsorcery:itemrockcrystalsimple>.withTag(
         }
     }
 );
+val beefRaw = <minecraft:beef>;
+val rabbitRaw = <minecraft:rabbit>;
+val chickenRaw = <minecraft:chicken>;
+val pigRaw = <minecraft:porkchop>;
+val fishRaw = <minecraft:fish>;
+val neutron = <avaritia:resource:2>;
+val cosmicMeatBall = <avaritia:cosmic_meatballs>;
 
 var remove = [
     <minecraft:furnace>,
@@ -298,5 +305,7 @@ recipes.addShaped(rockMaxPro, [
     [<astralsorcery:blockinfusedwood>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:blockinfusedwood>],
     [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>]
 ]);
+
+recipes.addShapeless(cosmicMeatBall,[neutron,chickenRaw,fishRaw,pigRaw,rabbitRaw,beefRaw]);
 
 
