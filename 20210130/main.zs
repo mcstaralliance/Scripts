@@ -17,6 +17,16 @@ val pigRaw = <minecraft:porkchop>;
 val fishRaw = <minecraft:fish>;
 val neutron = <avaritia:resource:2>;
 val cosmicMeatBall = <avaritia:cosmic_meatballs>;
+val ultimateStew = <avaritia:ultimate_stew>;
+val pumpkin = <minecraft:pumpkin>;
+val brownMushRoom = <minecraft:brown_mushroom>;
+val wheat = <minecraft:wheat>;
+val carrot = <minecraft:carrot>;
+val beetRoot = <minecraft:beetroot>;
+val apple = <minecraft:apple>;
+val potato = <minecraft:potato>;
+val melon = <minecraft:melon>;
+val cactus = <minecraft:cactus>;
 
 var remove = [
     <minecraft:furnace>,
@@ -306,6 +316,9 @@ recipes.addShaped(rockMaxPro, [
     [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>]
 ]);
 
-recipes.addShapeless(cosmicMeatBall,[neutron,chickenRaw,fishRaw,pigRaw,rabbitRaw,beefRaw]);
+// 寰宇肉丸
+recipes.addShapeless(cosmicMeatBall,[neutron, chickenRaw, fishRaw, pigRaw, rabbitRaw, beefRaw]);
 
+// 超级煲
+recipes.addShaped(ultimateStew*9,[[pumpkin, brownMushRoom, wheat],[beetRoot, neutron, apple,],[potato, melon, cactus]]);
 
