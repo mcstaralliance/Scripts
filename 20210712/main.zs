@@ -1,7 +1,36 @@
 #priority 1
 
 import crafttweaker.item.IItemStack;
+import mods.touhoulittlemaid.Altar;
+import mods.thaumcraft.Infusion;
 
+// mek导线
+var mekTooltip = [
+    <mekanism:transmitter>,
+    <mekanism:transmitter:1>,
+    <mekanism:transmitter:3>,
+    <mekanism:transmitter:2>
+] as IItemStack[];
+for myMekTooltip in mekTooltip{
+    myMekTooltip.addTooltip("§a不建议使用此类导线, 极大可能会引起卡服、卡端, 推荐使用热力导线或 Xnet 模组");
+}
+
+// EIO 导线
+var eioTooltip = [
+    <enderio:item_item_conduit>,
+    <enderio:item_liquid_conduit>,
+    <enderio:item_liquid_conduit:1>,
+    <enderio:item_liquid_conduit:2>,
+    <enderio:item_power_conduit>,
+    <enderio:item_power_conduit:1>,
+    <enderio:item_power_conduit:2>,
+    <enderio:item_redstone_conduit>
+] as IItemStack[];
+for myEioTooltip in eioTooltip{
+    myEioTooltip.addTooltip("§a不建议使用此类导线, 极大可能会引起卡服, 推荐使用热力导线或 Xnet 模组");
+}
+
+// 删除配方
 var remove = [
     <forestry:ingot_bronze>,
     <ic2:resource:12>,
@@ -26,6 +55,9 @@ var remove = [
 for myRemove in remove{
     recipes.remove(myRemove);
 }
+
+// 删除女仆生成
+Altar.removeRecipe("touhou_little_maid:spawn_maid");
 
 // 青铜
 recipes.addShapeless(<forestry:ingot_bronze> * 2, 
@@ -219,3 +251,18 @@ recipes.addShaped(<draconicevolution:wyvern_boots>,
     [<draconicevolution:wyvern_core>, <botania:terrasteelboots>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
+
+// 替身地藏
+mods.thaumcraft.Infusion.registerRecipe("tsdz", "", 
+<touhou_little_maid:substitute_jizo>, 
+2, [<aspect:caeles> * 30, <aspect:victus> * 50], 
+    <thaumadditions:mithminite_block>, 
+    [<thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>, 
+    <thaumcraft:charm_undying>
+]); 
