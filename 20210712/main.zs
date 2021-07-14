@@ -35,7 +35,6 @@ var remove = [
     <forestry:ingot_bronze>,
     <ic2:resource:12>,
     <cookingforblockheads:sink>,
-    <minecraft:chest>,
     <ic2:te:43>,
     <thermalexpansion:frame>,
     <mekanism:basicblock:8>,
@@ -99,14 +98,6 @@ recipes.addShaped(<cookingforblockheads:sink>,
     [<embers:ingot_dawnstone>, <embers:ingot_dawnstone>, <embers:ingot_dawnstone>],
     [<minecraft:hardened_clay>, <thaumcraft:everfull_urn>, <minecraft:hardened_clay>],
     [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]
-]);
-
-// 箱子
-recipes.addShaped(<minecraft:chest>, 
-[
-    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
-    [<ore:logWood>, <ore:nuggetIron>, <ore:logWood>], 
-    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
 ]);
 
 // 压缩机
