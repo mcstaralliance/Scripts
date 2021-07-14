@@ -72,12 +72,22 @@ myPaiMon.alwaysEdible = true;
 myPaiMon.creativeTab = <creativetab:tab>;
 myPaiMon.register();
 
-var myJiuChan = VanillaFactory.createItem("jiuchan");
-myJiuChan.maxStackSize = 10;
-myJiuChan.creativeTab = <creativetab:tab>;
-myJiuChan.register();
+var myEntanglement = VanillaFactory.createItem("jiuchan");
+myEntanglement.maxStackSize = 10;
+myEntanglement.creativeTab = <creativetab:tab>;
+myEntanglement.register();
 
 var myStar = VanillaFactory.createItem("star");
 myStar.maxStackSize = 64;
 myStar.creativeTab = <creativetab:tab>;
 myStar.register();
+
+var myPrimoGem = VanillaFactory.createItem("primogem");
+myPrimoGem.maxStackSize = 64;
+myPrimoGem.creativeTab = <creativetab:tab>;
+myPrimoGem.register();
+
+var myFate = VanillaFactory.createItem("xiangyu");
+myFate.maxStackSize = 10;
+myFate.creativeTab = <creativetab:tab>;
+myFate.register();
