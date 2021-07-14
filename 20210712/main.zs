@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 import mods.thaumcraft.Infusion;
 
-// mek导线
+// Mek 导线
 var mekTooltip = [
     <mekanism:transmitter>,
     <mekanism:transmitter:1>,
