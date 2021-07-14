@@ -12,7 +12,7 @@ var mekTooltip = [
     <mekanism:transmitter:2>
 ] as IItemStack[];
 for myMekTooltip in mekTooltip{
-    myMekTooltip.addTooltip("§a不建议使用此类导线, 极大可能会引起卡服、卡端, 推荐使用热力导线或 Xnet 模组");
+    myMekTooltip.addTooltip("§c不建议使用此类导线, 极大可能会引起卡服、卡端, 推荐使用热力膨胀导线或 XNet 模组");
 }
 
 // EIO 导线
@@ -27,7 +27,7 @@ var eioTooltip = [
     <enderio:item_redstone_conduit>
 ] as IItemStack[];
 for myEioTooltip in eioTooltip{
-    myEioTooltip.addTooltip("§a不建议使用此类导线, 极大可能会引起卡服, 推荐使用热力导线或 Xnet 模组");
+    myEioTooltip.addTooltip("§c不建议使用此类导线, 极大可能会引起卡服, 推荐使用热力膨胀导线或 XNet 模组");
 }
 
 // 删除配方
