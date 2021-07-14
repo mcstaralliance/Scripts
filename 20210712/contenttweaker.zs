@@ -81,3 +81,13 @@ var myStar = VanillaFactory.createItem("star");
 myStar.maxStackSize = 64;
 myStar.creativeTab = <creativetab:tab>;
 myStar.register();
+
+var myPrimoGem = VanillaFactory.createItem("primogem");
+myPrimoGem.maxStackSize = 64;
+myPrimoGem.creativeTab = <creativetab:tab>;
+myPrimoGem.register();
+
+var myXiangYu = VanillaFactory.createItem("xiangyu");
+myXiangYu.maxStackSize = 10;
+myXiangYu.creativeTab = <creativetab:tab>;
+myXiangYu.register();
