@@ -49,7 +49,8 @@ var remove = [
     <draconicevolution:wyvern_helm>,
     <draconicevolution:wyvern_chest>,
     <draconicevolution:wyvern_legs>,
-    <draconicevolution:wyvern_boots>
+    <draconicevolution:wyvern_boots>,
+    <techreborn:matter_fabricator>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -124,6 +125,12 @@ recipes.addShaped(<thermalexpansion:frame>,
     [<ic2:crafting:3>, <botania:managlass>, <ic2:crafting:3>],
     [<tconstruct:clear_glass>, <ic2:resource:12>, <tconstruct:clear_glass>],
     [<ic2:crafting:3>, <botania:managlass>, <ic2:crafting:3>]
+]);
+recipes,addShaped(<thermalexpansion:frame> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <thermalexpansion:frame>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
 ]);
 
 // 钢制机壳
@@ -258,3 +265,11 @@ mods.thaumcraft.Infusion.registerRecipe("tsdz", "",
     <thaumcraft:charm_undying>, 
     <thaumcraft:charm_undying>
 ]); 
+
+// 物质生成机
+recipes.addShaped(<techreborn:matter_fabricator>, 
+[
+    [<techreborn:part>, <threng:material:13>, <techreborn:part>],
+    [<techreborn:cable:8>, <mekanism:basicblock:8>, <techreborn:cable:8>],
+    [<draconicevolution:wyvern_core>, <techreborn:lapotronicorb>.withTag({energy: 0}), <draconicevolution:wyvern_core>]
+]);
