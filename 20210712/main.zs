@@ -49,7 +49,9 @@ var remove = [
     <draconicevolution:wyvern_helm>,
     <draconicevolution:wyvern_chest>,
     <draconicevolution:wyvern_legs>,
-    <draconicevolution:wyvern_boots>
+    <draconicevolution:wyvern_boots>,
+    <techreborn:matter_fabricator>,
+    <botania:altar>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -125,6 +127,12 @@ recipes.addShaped(<thermalexpansion:frame>,
     [<tconstruct:clear_glass>, <ic2:resource:12>, <tconstruct:clear_glass>],
     [<ic2:crafting:3>, <botania:managlass>, <ic2:crafting:3>]
 ]);
+recipes.addShaped(<thermalexpansion:frame> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <thermalexpansion:frame>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
+]);
 
 // 钢制机壳
 recipes.addShaped(<mekanism:basicblock:8>, 
@@ -132,6 +140,12 @@ recipes.addShaped(<mekanism:basicblock:8>,
     [<ore:ingotTungstensteel>, <ore:ingotTungstensteel>, <ore:ingotTungstensteel>],
     [<ore:ingotTungstensteel>, <techreborn:machine_frame:2>, <ore:ingotTungstensteel>],
     [<ore:ingotTungstensteel>, <ore:ingotTungstensteel>, <ore:ingotTungstensteel>]
+]);
+recipes.addShaped(<mekanism:basicblock:8> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <mekanism:basicblock:8>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
 ]);
 
 // 冶金灌注机
@@ -220,28 +234,29 @@ recipes.addShaped(<draconicevolution:wyvern_energy_core>,
 // 双足飞龙套
 recipes.addShaped(<draconicevolution:wyvern_helm>, 
 [
-    [<avaritia:resource:1>, <thaumadditions:mithrillium_resonator>, <avaritia:resource:1>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelhelm>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_chest>, 
 [
-    [<avaritia:resource:1>, <thaumadditions:mithrillium_resonator>, <avaritia:resource:1>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelchest>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_legs>, 
 [
-    [<avaritia:resource:1>, <thaumadditions:mithrillium_resonator>, <avaritia:resource:1>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteellegs>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_boots>, 
 [
-    [<avaritia:resource:1>, <thaumadditions:mithrillium_resonator>, <avaritia:resource:1>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelboots>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
+
 
 // 替身地藏
 mods.thaumcraft.Infusion.registerRecipe("tsdz", "", 
@@ -257,3 +272,47 @@ mods.thaumcraft.Infusion.registerRecipe("tsdz", "",
     <thaumcraft:charm_undying>, 
     <thaumcraft:charm_undying>
 ]); 
+
+// 物质生成机
+recipes.addShaped(<techreborn:matter_fabricator>, 
+[
+    [<techreborn:part>, <threng:material:13>, <techreborn:part>],
+    [<techreborn:cable:8>, <mekanism:basicblock:8>, <techreborn:cable:8>],
+    [<draconicevolution:wyvern_core>, <techreborn:lapotronicorb>.withTag({energy: 0}), <draconicevolution:wyvern_core>]
+]);
+
+// 高级机器框架
+recipes.addShaped(<techreborn:machine_frame:2> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:machine_frame:2>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
+]);
+
+// 花药台
+recipes.addShaped(<botania:altar>, 
+[
+    [<contenttweaker:magic_stone>, <thaumcraft:alumentum>, <contenttweaker:magic_stone>],
+    [null, <contenttweaker:magic_stone>, null],
+    [<contenttweaker:magic_stone>, <contenttweaker:magic_stone>, <contenttweaker:magic_stone>]
+]);
+
+// 邪术注魔柱
+mods.thaumcraft.Infusion.registerRecipe("xs", "", 
+<thaumcraft:pillar_eldritch>, 
+2, [<aspect:praecantatio> * 50, <aspect:alienis> * 50], 
+    <draconicevolution:infused_obsidian>, 
+    [<thaumcraft:salis_mundus>,  
+    <thaumcraft:pillar_ancient>
+]); 
+
+
+// 荒古注魔柱
+mods.thaumcraft.Infusion.registerRecipe("hg", "", 
+<thaumcraft:pillar_ancient>, 
+2, [<aspect:praecantatio> * 50, <aspect:vacuos> * 50], 
+    <draconicevolution:infused_obsidian>, 
+    [<thaumcraft:salis_mundus>,  
+    <thaumcraft:metal_thaumium>
+]); 
+
