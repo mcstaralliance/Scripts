@@ -279,3 +279,12 @@ recipes.addShaped(<techreborn:matter_fabricator>,
     [<techreborn:cable:8>, <mekanism:basicblock:8>, <techreborn:cable:8>],
     [<draconicevolution:wyvern_core>, <techreborn:lapotronicorb>.withTag({energy: 0}), <draconicevolution:wyvern_core>]
 ]);
+
+
+// 高级机器框架
+recipes.addShaped(<techreborn:machine_frame:2> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:machine_frame:2>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
+]);
