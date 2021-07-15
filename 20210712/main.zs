@@ -280,7 +280,6 @@ recipes.addShaped(<techreborn:matter_fabricator>,
     [<draconicevolution:wyvern_core>, <techreborn:lapotronicorb>.withTag({energy: 0}), <draconicevolution:wyvern_core>]
 ]);
 
-
 // 高级机器框架
 recipes.addShaped(<techreborn:machine_frame:2> * 2, 
 [
