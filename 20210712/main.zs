@@ -234,25 +234,25 @@ recipes.addShaped(<draconicevolution:wyvern_energy_core>,
 // 双足飞龙套
 recipes.addShaped(<draconicevolution:wyvern_helm>, 
 [
-    [<embers:wildfire_core>, <thaumadditions:mithrillium_resonator>, <embers:wildfire_core>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelhelm>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_chest>, 
 [
-    [<embers:wildfire_core>, <thaumadditions:mithrillium_resonator>, <embers:wildfire_core>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelchest>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_legs>, 
 [
-    [<embers:wildfire_core>, <thaumadditions:mithrillium_resonator>, <embers:wildfire_core>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteellegs>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
 recipes.addShaped(<draconicevolution:wyvern_boots>, 
 [
-    [<embers:wildfire_core>, <thaumadditions:mithrillium_resonator>, <embers:wildfire_core>],
+    [<embers:wildfire_core>, <forestry:royal_jelly>, <embers:wildfire_core>],
     [<draconicevolution:wyvern_core>, <botania:terrasteelboots>, <draconicevolution:wyvern_core>],
     [<draconicevolution:wyvern_energy_core>, <super_solar_panels:crafting:21>, <draconicevolution:wyvern_energy_core>]
 ]);
