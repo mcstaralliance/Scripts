@@ -126,7 +126,7 @@ recipes.addShaped(<thermalexpansion:frame>,
     [<tconstruct:clear_glass>, <ic2:resource:12>, <tconstruct:clear_glass>],
     [<ic2:crafting:3>, <botania:managlass>, <ic2:crafting:3>]
 ]);
-recipes,addShaped(<thermalexpansion:frame> * 2, 
+recipes.addShaped(<thermalexpansion:frame> * 2, 
 [
     [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
     [<techreborn:uumatter>, <thermalexpansion:frame>, <techreborn:uumatter>],
@@ -139,6 +139,12 @@ recipes.addShaped(<mekanism:basicblock:8>,
     [<ore:ingotTungstensteel>, <ore:ingotTungstensteel>, <ore:ingotTungstensteel>],
     [<ore:ingotTungstensteel>, <techreborn:machine_frame:2>, <ore:ingotTungstensteel>],
     [<ore:ingotTungstensteel>, <ore:ingotTungstensteel>, <ore:ingotTungstensteel>]
+]);
+recipes.addShaped(<mekanism:basicblock:8> * 2, 
+[
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <mekanism:basicblock:8>, <techreborn:uumatter>],
+    [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
 ]);
 
 // 冶金灌注机
