@@ -30,6 +30,8 @@ for myEioTooltip in eioTooltip{
     myEioTooltip.addTooltip("§c不建议使用此类导线, 极大可能会引起卡服, 推荐使用热力膨胀导线或 XNet 模组");
 }
 
+<contenttweaker:paimon>.Tooltip("§f最 好 的 伙 伴");
+
 // 删除配方
 var remove = [
     <forestry:ingot_bronze>,
