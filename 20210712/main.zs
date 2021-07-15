@@ -50,7 +50,8 @@ var remove = [
     <draconicevolution:wyvern_chest>,
     <draconicevolution:wyvern_legs>,
     <draconicevolution:wyvern_boots>,
-    <techreborn:matter_fabricator>
+    <techreborn:matter_fabricator>,
+    <botania:altar>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -287,3 +288,12 @@ recipes.addShaped(<techreborn:machine_frame:2> * 2,
     [<techreborn:uumatter>, <techreborn:machine_frame:2>, <techreborn:uumatter>],
     [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]
 ]);
+
+// 花药台
+recipes.addShaped(<botania:altar>, 
+[
+    [<contenttweaker:magic_stone>, <thaumcraft:alumentum>, <contenttweaker:magic_stone>],
+    [null, <contenttweaker:magic_stone>, null],
+    [<contenttweaker:magic_stone>, <contenttweaker:magic_stone>, <contenttweaker:magic_stone>]
+]);
+
