@@ -297,3 +297,22 @@ recipes.addShaped(<botania:altar>,
     [<contenttweaker:magic_stone>, <contenttweaker:magic_stone>, <contenttweaker:magic_stone>]
 ]);
 
+// 邪术注魔柱
+mods.thaumcraft.Infusion.registerRecipe("xs", "", 
+<thaumcraft:pillar_eldritch>, 
+2, [<aspect:praecantatio> * 50, <aspect:alienis> * 50], 
+    <draconicevolution:infused_obsidian>, 
+    [<thaumcraft:salis_mundus>,  
+    <thaumcraft:pillar_ancient>
+]); 
+
+
+// 荒古注魔柱
+mods.thaumcraft.Infusion.registerRecipe("hg", "", 
+<thaumcraft:pillar_ancient>, 
+2, [<aspect:praecantatio> * 50, <aspect:vacuos> * 50], 
+    <draconicevolution:infused_obsidian>, 
+    [<thaumcraft:salis_mundus>,  
+    <thaumcraft:metal_thaumium>
+]); 
+
