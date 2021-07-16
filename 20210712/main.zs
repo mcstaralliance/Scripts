@@ -12,7 +12,7 @@ var mekTooltip = [
     <mekanism:transmitter:2>
 ] as IItemStack[];
 for myMekTooltip in mekTooltip{
-    myMekTooltip.addTooltip("§c不建议使用此类导线, 极大可能会引起卡服、卡端, 推荐使用热力膨胀导线或 XNet 模组");
+    myMekTooltip.addTooltip("§c不建议使用此导线, 大概率会引起卡服、卡端, 推荐使用热力膨胀导线或 XNet 模组");
 }
 
 // EIO 导线
@@ -27,7 +27,7 @@ var eioTooltip = [
     <enderio:item_redstone_conduit>
 ] as IItemStack[];
 for myEioTooltip in eioTooltip{
-    myEioTooltip.addTooltip("§c不建议使用此类导线, 极大可能会引起卡服, 推荐使用热力膨胀导线或 XNet 模组");
+    myEioTooltip.addTooltip("§c不建议使用此类导线, 大概率会引起卡服, 推荐使用热力膨胀导线或 XNet 模组");
 }
 
 <contenttweaker:paimon>.Tooltip("§f最 好 的 伙 伴");
@@ -317,4 +317,13 @@ mods.thaumcraft.Infusion.registerRecipe("hg", "",
     [<thaumcraft:salis_mundus>,  
     <thaumcraft:metal_thaumium>
 ]); 
+
+// 电力喷气背包
+recipes.remove(<ic2:jetpack_electric:26>);
+recipes.addShaped(<ic2:jetpack_electric:26>,
+[
+    [<ic2:casing:3>, <ore:circuitAdvanced>, <ic2:casing:3>],
+    [<ic2:casing:3>, <ic2:te:72>, <ic2:casing:3>],
+    [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>
+]);
 
