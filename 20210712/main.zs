@@ -53,7 +53,8 @@ var remove = [
     <draconicevolution:wyvern_legs>,
     <draconicevolution:wyvern_boots>,
     <techreborn:matter_fabricator>,
-    <botania:altar>
+    <botania:altar>,
+    <ic2:jetpack_electric:26>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -319,7 +320,6 @@ mods.thaumcraft.Infusion.registerRecipe("hg", "",
 ]); 
 
 // 电力喷气背包
-recipes.remove(<ic2:jetpack_electric:26>);
 recipes.addShaped(<ic2:jetpack_electric:26>,
 [
     [<ic2:casing:3>, <ore:circuitAdvanced>, <ic2:casing:3>],
