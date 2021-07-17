@@ -54,7 +54,8 @@ var remove = [
     <draconicevolution:wyvern_boots>,
     <techreborn:matter_fabricator>,
     <botania:altar>,
-    <ic2:jetpack_electric:26>
+    <ic2:jetpack_electric:26>,
+    <ic2:te:3>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -327,3 +328,10 @@ recipes.addShaped(<ic2:jetpack_electric:26>,
     [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>]
 ]);
 
+// Fix 火力发电机
+recipes.addShaped(<ic2:te:3>, 
+[
+    [null, <ore:reBattery>, null],
+    [null, <ic2:resource:12>, null],
+    [null, <minecraft:furnace>, null]
+]);
