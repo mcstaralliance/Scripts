@@ -324,6 +324,6 @@ recipes.addShaped(<ic2:jetpack_electric:26>,
 [
     [<ic2:casing:3>, <ore:circuitAdvanced>, <ic2:casing:3>],
     [<ic2:casing:3>, <ic2:te:72>, <ic2:casing:3>],
-    [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>
+    [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>]
 ]);
 
