@@ -151,7 +151,7 @@ recipes.remove(<conarm:travel_sack>);
 <conarm:travel_sack>.addTooltip(format.red("配方已删除"));
 
 // 科技复兴
-var tech = [<techreborn:chunk_loader>,<techreborn:fluid_replicator>]
+var tech = [<techreborn:chunk_loader>,<techreborn:fluid_replicator>,<techreborn:rolling_machine>]
 as IItemStack[];
 for myTech in tech {
     recipes.remove(myTech);
