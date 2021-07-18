@@ -26,3 +26,27 @@ recipes.addShaped(<techreborn:part:29>,
 
 // 修复 能量水晶 粉碎机配方
 Lib.addGrinder(<techreborn:energycrystal>,<ic2:dust:6>*3,5,2048);
+
+// 白铜线圈
+recipes.addShaped(<techreborn:part:13> * 2, 
+[
+    [<ore:ingotNickel>, <ore:ingotCopper>, <ore:ingotNickel>],
+    [<ore:ingotCopper>, null, <ore:ingotCopper>],
+    [<ore:ingotNickel>, <ore:ingotCopper>, <ore:ingotNickel>]
+]);
+
+// 镍铬合金线圈
+recipes.addShaped(<techreborn:part:14> * 2, 
+[
+    [null, <ore:ingotNickel>, null],
+    [<ore:ingotNickel>, <ore:ingotChrome>, <ore:ingotNickel>],
+    [null, <ore:ingotNickel>, null]
+]);
+
+// 坝塔尔合金线圈
+recipes.addShaped(<techreborn:part:15> * 2, 
+[
+    [<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, <ore:ingotRefinedIron>],
+    [<ore:ingotChrome>, <ore:ingotChrome>, <ore:ingotAluminum>],
+    [<ore:ingotChrome>, <ore:ingotAluminum>, <ore:ingotAluminum>]
+]);
