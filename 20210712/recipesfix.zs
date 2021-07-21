@@ -71,12 +71,15 @@ recipes.addShaped("gemTotoly",<techreborn:gem> * 2,
     var cast as string[] = [ins.anyCast.displayName,ins.anyChannel.displayName];
     var item_tconstruct_clay_cast_blank_damage = ins.ballDamageTransformor.displayName;
     var castReborn as string = cast[0]+cast[1];
-    if (cInfo.inventory.player.currentItem.definition.id == ins.anyCast.definition.id){
-        if (cast has ":") {
-            if (item_tconstruct_clay_cast_blank_damage == "0") {
-                return itemUtils.getItem(castReborn);
+    if(!isNull(cInfo.inventory.player.currentItem)){
+        if (cInfo.inventory.player.currentItem.definition.id == <tconstruct:cast_custom:2>.definition.id){
+            if (castReborn has ":") {
+                if (item_tconstruct_clay_cast_blank_damage == "0") {
+                    return itemUtils.getItem(castReborn);
+                }
+                return itemUtils.getItem(castReborn, item_tconstruct_clay_cast_blank_damage);
             }
-            return itemUtils.getItem(castReborn, item_tconstruct_clay_cast_blank_damage);
+            return out;
         }
         return out;
     }
