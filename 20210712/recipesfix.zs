@@ -86,13 +86,13 @@ recipes.addShaped("gemTotoly",<techreborn:gem> * 2,
     return out;
 }, null);
 
-// 修复tr橡胶木合成
+// 修复 tr 橡胶木合成
 recipes.addShapeless(<minecraft:log2>, 
 [
     <techreborn:rubber_log>
 ]);
 
-// 奥数工作台 脱氧核糖核苷酸球
+// 奥数工作台 DNA 球
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:dna_sample>);
 
 // 虚空种子于命运骰子回收
