@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 import mods.botania.Apothecary;
 import mods.immersiveengineering.Mixer;
 import mods.touhoulittlemaid.Altar;
+import mods.techreborn.centrifuge;
 
 // 工业2
 var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,
@@ -151,12 +152,18 @@ recipes.remove(<conarm:travel_sack>);
 <conarm:travel_sack>.addTooltip(format.red("配方已删除"));
 
 // 科技复兴
-var tech = [<techreborn:chunk_loader>,<techreborn:fluid_replicator>,<techreborn:rolling_machine>,<techreborn:wire_mill>]
+var tech = [<techreborn:chunk_loader>,<techreborn:fluid_replicator>,<techreborn:rolling_machine>,<techreborn:wire_mill>,<techreborn:chemical_reactor>]
 as IItemStack[];
 for myTech in tech {
     recipes.remove(myTech);
     myTech.addTooltip(format.red("配方已删除"));
 }
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*16,null);
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*16,null);
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*4,null);
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*4,null);
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*1,null);
+mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dynamiccell>*1,null);
 
 // 通用机械
 var mek = [<mekanism:anchorupgrade>,<mekanism:machineblock:4>,<mekanism:obsidiantnt>,<mekanism:cardboardbox>]
