@@ -24,8 +24,8 @@ for myThermal in thermal {
 }
 
 // 应用能源
-var applied = [<appliedenergistics2:spatial_io_port>,<appliedenergistics2:spatial_pylon>,<appliedenergistics2:part:300>,<appliedenergistics2:part:302>,
-<appliedenergistics2:entropy_manipulator>,<appliedenergistics2:matter_cannon>,<appliedenergistics2:network_tool>,<appliedenergistics2:part:320>,
+var applied = [<appliedenergistics2:spatial_io_port>,<appliedenergistics2:spatial_pylon>,<appliedenergistics2:part:302>,
+<appliedenergistics2:entropy_manipulator>,<appliedenergistics2:matter_cannon>,<appliedenergistics2:network_tool>,
 <appliedenergistics2:part:321>,<appliedenergistics2:tiny_tnt>]
 as IItemStack[];
 for myApplied in applied {
