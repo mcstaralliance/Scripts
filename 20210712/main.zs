@@ -54,7 +54,7 @@ var remove = [
     <draconicevolution:wyvern_boots>,
     <techreborn:matter_fabricator>,
     <botania:altar>,
-    <ic2:jetpack_electric:26>,
+    <ic2:jetpack_electric:*>,
     <ic2:te:3>
 ] as IItemStack[];
 for myRemove in remove{
