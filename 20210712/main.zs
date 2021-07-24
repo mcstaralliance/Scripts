@@ -328,10 +328,10 @@ recipes.addShaped(<ic2:jetpack_electric:26>,
     [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>]
 ]);
 
-// Fix 火力发电机
+// 修复火力发电机无法自动合成
 recipes.addShaped(<ic2:te:3>, 
 [
-    [null, <ore:reBattery>, null],
+    [null, <ic2:re_battery:26>, null],
     [null, <ic2:resource:12>, null],
     [null, <minecraft:furnace>, null]
 ]);
