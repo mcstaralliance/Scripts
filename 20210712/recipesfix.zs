@@ -10,15 +10,6 @@ import crafttweaker.recipes.ICraftingInventory;
 import mods.thaumcraft.ArcaneWorkbench;
 import crafttweaker.data.IData;
 
-// ic2 火力发电机修复
-recipes.remove(<ic2:te:3>);
-recipes.addShaped(<ic2:te:3>, 
-[
-    [null, <ore:reBattery>, null],
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-    [null, <ic2:te:46>, null]
-]);
-
 // 修复 碳酸钙单元 的合成表问题
 val carbonCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}});
 val calciumCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcalcium", Amount: 1000}});
@@ -108,3 +99,21 @@ recipes.addShaped("diceCyc",<thaumcraft:void_seed> * 2,
     cInfo.inventory.player.sendChat("You must own the dice. 你必须是此骰子的拥有者。");
     return null;
 }, null);
+
+// 氘单元 & 压缩空气单元
+val deuteriumCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluiddeuterium", Amount: 1000}});
+val compressedairCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}});
+val drogenCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhydrogen", Amount: 1000}});
+mods.thermalexpansion.Centrifuge.addRecipe(
+    [(deuteriumCell), compressedairCell % 10], 
+    drogenCell, 
+    <liquid:liquidfusionfuel> * 10, 2000
+);
+
+// 火力发电机
+recipes.addShaped(<ic2:te:3>, 
+[
+    [null, <minecraft:furnace>, null],
+    [<ore:alloyBasic>, <ore:machineBlockBasic>, <ore:alloyBasic>],
+    [<ore:alloyBasic>, <minecraft:furnace>, <ore:alloyBasic>]
+]);
