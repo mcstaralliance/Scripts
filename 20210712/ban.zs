@@ -116,7 +116,7 @@ for myAvaritia in avaritia {
 
 // 植物魔法
 var botania = [<botania:enderhand>,<botania:starfield>,<botania:manabomb>,<botania:laputashard>,<botania:spawnermover>,<botania:astrolabe>,
-<botania:waterrod>,<botania:exchangerod>]
+<botania:waterrod>,<botania:exchangerod>,<botania:blackholetalisman>]
 as IItemStack[];
 for myBotania in botania {
     recipes.remove(myBotania);
