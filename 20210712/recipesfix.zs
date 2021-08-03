@@ -91,14 +91,7 @@ recipes.addShaped("diceCyc",<thaumcraft:void_seed> * 2,
 [
     [<botania:enderdagger>.anyDamage().transformDamage(20), null],
     [<botania:dice>.marked("nbt"), null]
-],function(out, ins, cInfo) {
-    var playerUuid as string = cInfo.inventory.player.uuid;
-    if (playerUuid == ins.nbt.tag.soulbindUUID){
-        return <thaumcraft:void_seed> * 2;
-    }
-    cInfo.inventory.player.sendChat("You must own the dice. 你必须是此骰子的拥有者。");
-    return null;
-}, null);
+]);
 
 // 氘单元 & 压缩空气单元
 val deuteriumCell = <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluiddeuterium", Amount: 1000}});
