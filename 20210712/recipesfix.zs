@@ -110,3 +110,10 @@ recipes.addShaped(<ic2:te:3>,
     [<ore:alloyBasic>, <ore:machineBlockBasic>, <ore:alloyBasic>],
     [<ore:alloyBasic>, <minecraft:furnace>, <ore:alloyBasic>]
 ]);
+
+// 淡水
+recipes.remove(<harvestcraft:freshwateritem>);
+recipes.addShaped(<harvestcraft:freshwateritem>,
+[
+    [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>)],
+]);
