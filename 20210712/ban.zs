@@ -8,7 +8,7 @@ import mods.touhoulittlemaid.Altar;
 import mods.techreborn.centrifuge;
 
 // 工业2
-var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:61>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,
+var industrial = [<ic2:te:1>,<ic2:te:2>,<ic2:te:40>,<ic2:te:57>,<ic2:te:60>,<ic2:te:62>,<ic2:te:63>,<ic2:te:64>,<ic2:te:82>,
 <ic2:te:89>] as IItemStack[];
 for myIndustrial in industrial {
     recipes.remove(myIndustrial);
