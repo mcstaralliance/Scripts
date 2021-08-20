@@ -4,6 +4,24 @@ import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 import mods.thaumcraft.Infusion;
 
+val beefRaw = <minecraft:beef>;
+val rabbitRaw = <minecraft:rabbit>;
+val chickenRaw = <minecraft:chicken>;
+val pigRaw = <minecraft:porkchop>;
+val fishRaw = <minecraft:fish>;
+val neutron = <avaritia:resource:2>;
+val cosmicMeatBall = <avaritia:cosmic_meatballs>;
+val ultimateStew = <avaritia:ultimate_stew>;
+val pumpkin = <minecraft:pumpkin>;
+val brownMushRoom = <minecraft:brown_mushroom>;
+val wheat = <minecraft:wheat>;
+val carrot = <minecraft:carrot>;
+val beetRoot = <minecraft:beetroot>;
+val apple = <minecraft:apple>;
+val potato = <minecraft:potato>;
+val melon = <minecraft:melon>;
+val cactus = <minecraft:cactus>;
+
 // Mek 导线
 var mekTooltip = [
     <mekanism:transmitter>,
@@ -327,3 +345,18 @@ recipes.addShaped(<ic2:jetpack_electric:26>,
     [<ic2:casing:3>, <ic2:te:72>, <ic2:casing:3>],
     [<minecraft:glowstone_dust>, <minecraft:elytra>, <minecraft:glowstone_dust>]
 ]);
+
+// 无尽之锭
+mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
+recipes.addShaped(<avaritia:resource:6>*3, 
+[
+    [<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>],
+    [<avaritia:resource:1>, <avaritia:resource:5>, <avaritia:resource:1>],
+    [<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>]
+]);
+
+// 寰宇肉丸
+recipes.addShapeless(cosmicMeatBall,[neutron, chickenRaw, fishRaw, pigRaw, rabbitRaw, beefRaw]);
+
+// 超级煲
+recipes.addShaped(ultimateStew*9,[[pumpkin, brownMushRoom, wheat],[beetRoot, neutron, apple,],[potato, melon, cactus]]);
