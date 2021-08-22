@@ -360,3 +360,32 @@ recipes.addShapeless(cosmicMeatBall,[neutron, chickenRaw, fishRaw, pigRaw, rabbi
 
 // 超级煲
 recipes.addShaped(ultimateStew*9,[[pumpkin, brownMushRoom, wheat],[beetRoot, neutron, apple,],[potato, melon, cactus]]);
+
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_helm>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_chest>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_pants>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_legs>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_boots>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_boots>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
