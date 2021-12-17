@@ -1,0 +1,15 @@
+#PARSE_ESCAPES
+item.contenttweaker.wooden_shears.name=\u7b80\u6613\u526a\u679d\u5668
+item.contenttweaker.clay_furnace.name=\u7194\u7089\u6a21\u578b
+item.contenttweaker.hammer.name=\u9524
+tile.contenttweaker.magic_log.name=\u81ea\u7136\u6728
+itemGroup.tab=\u81ea\u6dfb\u52a0\u7269\u54c1
+item.contenttweaker.processor.name=\u4e07\u7528\u5904\u7406\u5668
+item.contenttweaker.dragon.name=\u53cc\u8db3\u98de\u9f99\u5b17\u53d8\u5242
+tile.contenttweaker.skull_block.name=?????(Shift)
+tile.contenttweaker.magic_stone.name=\u6ce8\u9b54\u77f3
+item.contenttweaker.paimon.name=\u6d3e\u8499
+item.contenttweaker.jiuchan.name=\u7ea0\u7f20\u4e4b\u7f18
+item.contenttweaker.star.name=\u661f
+item.contenttweaker.xiangyu.name=\u76f8\u9047\u4e4b\u7f18
+item.contenttweaker.primogem.name=\u539f\u77f3
