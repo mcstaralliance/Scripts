@@ -2,6 +2,7 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlock;
 
+// 设置方块掉落
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if (!event.world.remote) { 
         if (event.drops.length == 0 || event.silkTouch) {
