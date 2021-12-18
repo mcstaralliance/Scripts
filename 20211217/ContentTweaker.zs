@@ -91,3 +91,11 @@ var myFate = VanillaFactory.createItem("xiangyu");
 myFate.maxStackSize = 10;
 myFate.creativeTab = <creativetab:tab>;
 myFate.register();
+
+var myDualVectorFoil = VanillaFactory.createItem("artificialfoil");
+myDualVectorFoil.creativeTab = <creativetab:tab>;
+myDualVectorFoil.register();
+
+var myDust = VanillaFactory.createItem("soildust");
+myDust.creativeTab = <creativetab:tab>;
+myDust.register();
