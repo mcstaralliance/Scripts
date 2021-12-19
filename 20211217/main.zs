@@ -3,15 +3,23 @@
 import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 
-var myLogs = 
-[<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>] as IItemStack[];
-var myPlanks = 
-[<minecraft:planks>,<minecraft:planks:1>,<minecraft:planks:2>,<minecraft:planks:3>,<minecraft:planks:4>,<minecraft:planks:5>] as IItemStack[];
+var myLogs = [<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>] as IItemStack[];
+var myPlanks = [<minecraft:planks>,<minecraft:planks:1>,<minecraft:planks:2>,<minecraft:planks:3>,<minecraft:planks:4>,<minecraft:planks:5>] as IItemStack[];
+var stoneAxe = <minecraft:stone_axe>.anyDamage().transformDamage();
+var ironAxe = <minecraft:iron_axe>.anyDamage().transformDamage();
+var goldenAxe = <minecraft:golden_axe>.anyDamage().transformDamage();
+var diamondAxe = <minecraft:diamond_axe>.anyDamage().transformDamage();
 
 for i, log in myLogs {
     var plank = myPlanks[i];
     recipes.remove(plank);
-    recipes.addShapeless(plank * 3,[log]);
+    plank.addTooltip("不同等级的斧头合成效果不同");
+    log.addTooltip("不同等级的斧头合成效果不同");
+    recipes.addShapeless(plank , [log]);
+    recipes.addShapeless(plank*2,[log,stoneAxe]);
+    recipes.addShapeless(plank*2,[log,goldenAxe]);
+    recipes.addShapeless(plank*3,[log,ironAxe]);
+    recipes.addShapeless(plank*4,[log,diamondAxe]);
     }
 
 <contenttweaker:paimon>.addTooltip("§f最 好 的 伙 伴");
