@@ -17,3 +17,9 @@ recipes.addShapeless(<contenttweaker:soildust> * 4, [
     <ore:clay>, <ore:clay>, <ore:sand>, <ore:gravel>
 ]);
 
+// 星
+recipes.addShaped(<contenttweaker:star>, [
+    [null, <threng:material:9>, null],
+    [<threng:material:9>, <thermalfoundation:material:1028>, <threng:material:9>],
+    [null, <threng:material:9>, null]
+]);
