@@ -2,6 +2,7 @@
 
 import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
+import mods.botaniatweaks.Agglomeration;
 
 var myLogs = [<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>] as IItemStack[];
 var myPlanks = [<minecraft:planks>,<minecraft:planks:1>,<minecraft:planks:2>,<minecraft:planks:3>,<minecraft:planks:4>,<minecraft:planks:5>] as IItemStack[];
@@ -23,13 +24,27 @@ for i, log in myLogs {
     }
 
 <contenttweaker:paimon>.addTooltip("§f最 好 的 伙 伴");
+<contenttweaker:skull_block>.addTooltip("§f破坏黑色羊毛");
+<botania:manaresource:4>.addTooltip("§a大约需要四分之一池魔力");
+<avaritia:resource:1>.addTooltip("§a大约需要四分之一池魔力");
+<ic2:resource:12>.addTooltip("§f每手搓一个框架, 世界上就会有一个新月锤消失");
 
 // 删除配方
 var remove = [
     <tconstruct:soil>,
     <botania:altar>,
     <botania:pool>,
-    <forestry:ingot_bronze>
+    <forestry:ingot_bronze>,
+    <botania:pylon>,
+    <botania:manaresource:14>,
+    <appliedenergistics2:controller>,
+    <ic2:resource:12>,
+    <enderio:item_material>,
+    <thermalexpansion:frame>,
+    <immersiveengineering:stone_decoration:1>,
+    <draconicevolution:draconic_core>,
+    <contenttweaker:dragon>,
+    <draconicevolution:wyvern_core>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -125,3 +140,91 @@ recipes.addShapeless(<forestry:ingot_bronze> * 9,
 [
     <ore:blockBronze>
 ]);
+
+
+// 水晶矩阵锭
+Agglomeration.addRecipe(<avaritia:resource:1>,[<minecraft:ender_pearl>, <ore:ingotIron>, <thermalfoundation:material:1028>], 250000);
+
+// 泰拉钢锭
+Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
+Agglomeration.addRecipe(<botania:manaresource:4>,[<avaritia:resource:1>, <contenttweaker:star>], 250000, 0xBCFFFF, 0x56FF0A, 
+<contenttweaker:skull_block>, <botania:storage>, <contenttweaker:magic_stone>
+);
+
+// 魔力水晶
+Agglomeration.addRecipe(<botania:pylon>,[<botania:manaresource> * 2, <minecraft:diamond>, <minecraft:gold_ingot> * 2], 50000);
+
+// 盖亚魂锭
+Agglomeration.addRecipe(<botania:manaresource:14>,[<botania:manaresource:4>, <botania:manaresource:5> * 8], 500000, 0x56FF0A, 0xBAF8D7, 
+<contenttweaker:skull_block>, <botania:storage>, <contenttweaker:magic_stone>
+);
+
+// ME控制器
+mods.threng.Aggregator.addRecipe(<appliedenergistics2:controller>, <thermalexpansion:frame> * 1, <threng:material:6>*8, <appliedenergistics2:material:6> * 64);
+
+// 基础机器框架
+recipes.addShaped(<ic2:resource:12>, [
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+    [<ore:plateIron>, <thermalfoundation:wrench>, <ore:plateIron>], 
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
+]);
+
+// 简易机器框架
+mods.tconstruct.Casting.addBasinRecipe(<enderio:item_material>, <ic2:resource:12>, <liquid:iron>, 1000, true, 100);
+recipes.addShaped(<enderio:item_material>, [
+    [<ic2:fence>, <enderio:item_alloy_ingot:9>, <ic2:fence>],
+    [<enderio:item_alloy_ingot:9>, <enderio:item_material:20>, <enderio:item_alloy_ingot:9>],
+    [<ic2:fence>, <enderio:item_alloy_ingot:9>, <ic2:fence>]
+]);
+
+// 机器框架
+recipes.addShaped(<thermalexpansion:frame>, [
+    [<enderio:item_alloy_ingot:3>, <ore:blockGlass>, <enderio:item_alloy_ingot:3>],
+    [<thermalfoundation:material:257>, <enderio:item_material>, <thermalfoundation:material:257>],
+    [<enderio:item_alloy_ingot:3>, <ore:blockGlass>, <enderio:item_alloy_ingot:3>]
+]);
+
+// 高炉砖
+recipes.addShaped(<immersiveengineering:stone_decoration:1>, [
+    [<quark:charred_nether_bricks>, <minecraft:blaze_powder>, <quark:charred_nether_bricks>],
+    [<minecraft:blaze_powder>, <contenttweaker:clay_furnace>, <minecraft:blaze_powder>],
+    [<quark:charred_nether_bricks>, <minecraft:blaze_powder>, <quark:charred_nether_bricks>]
+]);
+
+// 龙芯
+mods.avaritia.ExtremeCrafting.addShaped("Draconic", <draconicevolution:draconic_core> * 1, [
+    [<ebwizardry:crystal_block:0>, null, null, null, <draconicevolution:draconium_block:0>, null, null, null, <ebwizardry:crystal_block:0>], 
+    [null, <threng:material:2>, <threng:material:2>, null, <draconicevolution:draconium_ingot>, null, <threng:material:2>, <threng:material:2>, null],
+    [null, <threng:material:2>, <botania:rune:15>, <draconicevolution:draconium_ingot>, <botania:storage:4>, <draconicevolution:draconium_ingot>, <botania:rune:14>, <threng:material:2>, null],
+    [null, null, <draconicevolution:draconium_ingot>, <threng:material:11>, <threng:material:12>, <threng:material:11>, <draconicevolution:draconium_ingot>, null, null],
+    [<draconicevolution:draconium_block:0>, <draconicevolution:draconium_ingot>, <botania:storage:4>, <threng:material:13>, <threng:material:14>, <threng:material:13>, <botania:storage:4>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_block:0>],
+    [null, null, <draconicevolution:draconium_ingot>, <threng:material:11>, <threng:material:12>, <threng:material:11>, <draconicevolution:draconium_ingot>, null, null],
+    [null, <threng:material:2>, <botania:rune:12>, <draconicevolution:draconium_ingot>, <botania:storage:4>, <draconicevolution:draconium_ingot>, <botania:rune:13>, <threng:material:2>, null],
+    [null, <threng:material:2>, <threng:material:2>, null, <draconicevolution:draconium_ingot>, null, <threng:material:2>, <threng:material:2>, null],
+    [<ebwizardry:crystal_block:0>, null, null, null, <draconicevolution:draconium_block:0>, null, null, null, <ebwizardry:crystal_block:0>]
+]);
+
+// 双足飞龙嬗变器
+mods.avaritia.ExtremeCrafting.addShaped("Dragon", <contenttweaker:dragon> * 2, [
+    [null, null, null, null, <super_solar_panels:crafting:29>, null, null, null, null], 
+    [null, <botania:rune:8>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:29>, null, <super_solar_panels:crafting:0>, <botania:rune:11>, null],
+    [null, <super_solar_panels:crafting:0>, <super_solar_panels:crafting:21>, <threng:material:1>, <threng:material:1>, <threng:material:1>, <super_solar_panels:crafting:21>, <super_solar_panels:crafting:0>, null],
+    [null, null, <threng:material:1>, <botania:alchemycatalyst>, <draconicevolution:draconic_core>, <botania:alchemycatalyst>, <threng:material:1>, null, null],
+    [<super_solar_panels:crafting:29>, <super_solar_panels:crafting:29>, <threng:material:1>, <botania:manaresource:5>, <super_solar_panels:crafting:13>, <botania:manaresource:5>, <threng:material:1>, <super_solar_panels:crafting:29>, <super_solar_panels:crafting:29>],
+    [null, null, <threng:material:1>, <botania:alchemycatalyst>, <draconicevolution:draconic_core>, <botania:alchemycatalyst>, <threng:material:1>, null, null],
+    [null, <super_solar_panels:crafting:0>, <super_solar_panels:crafting:21>, <threng:material:1>, <threng:material:1>, <threng:material:1>, <super_solar_panels:crafting:21>, <super_solar_panels:crafting:0>, null],
+    [null, <botania:rune:9>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:29>, null, <super_solar_panels:crafting:0>, <botania:rune:10>, null],
+    [null, null, null, null, <super_solar_panels:crafting:29>, null, null, null, null]
+]);
+
+// 双足飞龙核心
+mods.avaritia.ExtremeCrafting.addShaped("Core", <draconicevolution:wyvern_core> * 4, [
+    [<botania:rune:15>, <botania:rune:14>, <botania:rune:13>, null, null, null, <avaritia:block_resource:2>, <super_solar_panels:crafting:0>, <appliedenergistics2:material:6>], 
+    [<botania:rune:12>, <botania:rune:11>, <botania:rune:10>, null, null, null, <appliedenergistics2:material:47>, <appliedenergistics2:material:57>, <appliedenergistics2:material:38>],
+    [<botania:rune:9>, <quark:rune:16>, <botania:blacklotus:0>, <vehicle:large_engine:4>, <vehicle:large_engine:4>, <vehicle:large_engine:4>, <threng:material:14>, <threng:material:13>, <threng:material:6>],
+    [null, null, <vehicle:large_engine:4>, <avaritia:cosmic_meatballs>, <ebwizardry:astral_diamond>, <avaritia:resource:7>, <vehicle:electric_engine:4>, null, null],
+    [null, null, <vehicle:large_engine:4>, <contenttweaker:dragon>, <draconicevolution:dragon_heart>, <contenttweaker:dragon>, <vehicle:electric_engine:4>, null, null],
+    [null, null, <vehicle:large_engine:4>, <botania_tweaks:dire_crafty_crate>, <ebwizardry:astral_diamond>, <botania_tweaks:compressed_tiny_potato_6>, <vehicle:electric_engine:4>, null, null],
+    [<ebwizardry:crystal_block:6>, <ebwizardry:crystal_block:3>, <avaritia:block_resource:0>, <vehicle:electric_engine:4>, <vehicle:electric_engine:4>, <vehicle:electric_engine:4>, <contenttweaker:paimon>, <contenttweaker:magic_stone:0>, <contenttweaker:soildust>],
+    [<ebwizardry:crystal_block:2>, <ic2:nuclear:3>, <ebwizardry:crystal_block:4>, null, null, null, <contenttweaker:star>, <contenttweaker:skull_block:0>, <contenttweaker:artificialfoil>],
+    [<ebwizardry:crystal_block:5>, <ebwizardry:crystal_block:1>, <ebwizardry:crystal_block:7>, null, null, null, <draconicevolution:infused_obsidian>, <draconicevolution:draconium_block:0>, <forestry:royal_jelly>]]);
