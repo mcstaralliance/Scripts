@@ -269,7 +269,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Core", <draconicevolution:wyvern_core> 
 ]);
 
 // 三级结构方块
-mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:structure_frame_3> * 2, [
+mods.avaritia.ExtremeCrafting.addShaped("TierIII", <environmentaltech:structure_frame_3> * 2, [
     [null, null, null, null, null, null, null, null, null], 
     [null, null, null, null, null, null, null, null, null],
     [null, null, null, <minecraft:emerald>, <super_solar_panels:crafting:1>, <minecraft:emerald>, null, null, null],
@@ -281,7 +281,7 @@ mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:st
     [null, null, null, null, null, null, null, null, null]]);
 
 // 四级结构方块
-mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:structure_frame_4> * 2, [
+mods.avaritia.ExtremeCrafting.addShaped("TierIV", <environmentaltech:structure_frame_4> * 2, [
     [null, null, null, null, null, null, null, null, null], 
     [null, null, null, <super_solar_panels:crafting:20>, <super_solar_panels:crafting:20>, <super_solar_panels:crafting:20>, null, null, null],
     [null, null, <super_solar_panels:crafting:41>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <super_solar_panels:crafting:41>, null, null],
