@@ -109,11 +109,11 @@ recipes.addShapeless(<botania:manaresource:23>, [
 ]);
 
 // 元始魔力粉
-furnace.addRecipe(<thermalfoundation:material:1028> * 1, <botania:manaresource:23> * 4);
+furnace.addRecipe(<thermalfoundation:material:1028> * 1, <botania:manaresource:23> * 1);
 
 // 花药台
 recipes.addShaped(<botania:altar>, [
-    [<minecraft:stone:6>, <thermalfoundation:material:1028>, <minecraft:stone:6>],
+    [<minecraft:stone:6>, <thermalfoundation:geode>, <minecraft:stone:6>],
     [null, <minecraft:stone:6>, null],
     [<minecraft:stone:6>, <minecraft:stone:6>, <minecraft:stone:6>]
 ]);
@@ -121,7 +121,7 @@ recipes.addShaped(<botania:altar>, [
 // 注魔石
 recipes.addShaped(<contenttweaker:magic_stone> * 5, [
     [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
-    [<minecraft:stone:4>, <thermalfoundation:material:1028>, <minecraft:stone:4>],
+    [<minecraft:stone:4>, <thermalfoundation:geode>, <minecraft:stone:4>],
     [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]
 ]);
 
@@ -151,7 +151,7 @@ recipes.addShapeless(<forestry:ingot_bronze> * 9,
 
 
 // 水晶矩阵锭
-Agglomeration.addRecipe(<avaritia:resource:1>,[<minecraft:ender_pearl>, <ore:ingotIron>, <thermalfoundation:material:1028>], 250000);
+Agglomeration.addRecipe(<avaritia:resource:1>,[<minecraft:ender_pearl>, <ore:ingotIron>, <thermalfoundation:geode>], 250000);
 
 // 泰拉钢锭
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
@@ -263,3 +263,8 @@ mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:st
 
 // 原木条
 recipes.addShapeless(<cfm:item_log> * 8, [<minecraft:log>]);
+
+// 元始结晶
+recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, null, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
+
+
