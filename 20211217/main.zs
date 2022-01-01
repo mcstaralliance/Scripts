@@ -58,6 +58,17 @@ for myRemove in remove{
     recipes.remove(myRemove);
 }
 
+var removeSolarPanels = [
+    <super_solar_panels:machines:1>,
+    <super_solar_panels:machines:2>,
+    <super_solar_panels:machines:3>,
+    <super_solar_panels:machines:4>
+] as IItemStack[];
+for panels in removeSolarPanels{
+    recipes.remove(panels);
+    panels.addTooltip(format.red("该物品为计划删除 Mod 物品，请使用其它物品代替"));
+}
+
 // 删除女仆生成
 Altar.removeRecipe("touhou_little_maid:spawn_maid");
 
