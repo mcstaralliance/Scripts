@@ -73,12 +73,20 @@ var eioTooltip = [
     <enderio:item_redstone_conduit>
 ] as IItemStack[];
 for myEioTooltip in eioTooltip{
-    myEioTooltip.addTooltip("§c我们不建议玩家使用该导线, 因为大概率会引起卡服, 我们推荐使用热力膨胀 Mod 或 XNet Mod中的导线。");
+    myEioTooltip.addTooltip("§c我们不建议玩家使用该导线, 因为大概率会引起卡服, 我们推荐使用热力膨胀 Mod 或 XNet Mod 中的导线。");
 }
 
-val commonCoin = <custommc:item970>;
+val commonCoin = <custommc:item961>;
 commonCoin.displayName = "硬币";
-commonCoin.addTooltip("Vaule: 100");
+commonCoin.addTooltip("价值: 10");
+
+val advancedCoin = <custommc:item927>;
+advancedCoin.displayName = "硬币";
+advancedCoin.addTooltip("价值: 100");
+
+val ultraCoin = <custommc:item970>;
+ultraCoin.displayName = "硬币";
+ultraCoin.addTooltip("价值: 1000");
 
 // 伪劣雪浪纸
 recipes.addShaped(<contenttweaker:artificialfoil> * 4, [

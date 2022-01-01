@@ -2,4 +2,4 @@
 
 于 2021/12/17 动工。
 
-`resource` 内包含 ContentTweaker 使用到的内容。
+`resources` 内包含 ContentTweaker 使用到的内容。
