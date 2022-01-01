@@ -78,15 +78,15 @@ for myEioTooltip in eioTooltip{
 
 val commonCoin = <custommc:item961>;
 commonCoin.displayName = "硬币";
-commonCoin.addTooltip("Vaule: 10");
+commonCoin.addTooltip("价值: 10");
 
 val advancedCoin = <custommc:item927>;
 advancedCoin.displayName = "硬币";
-advancedCoin.addTooltip("Vaule: 100");
+advancedCoin.addTooltip("价值: 100");
 
 val ultraCoin = <custommc:item970>;
 ultraCoin.displayName = "硬币";
-ultraCoin.addTooltip("Vaule: 1000");
+ultraCoin.addTooltip("价值: 1000");
 
 // 伪劣雪浪纸
 recipes.addShaped(<contenttweaker:artificialfoil> * 4, [
