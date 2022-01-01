@@ -62,7 +62,13 @@ var removeSolarPanels = [
     <super_solar_panels:machines:1>,
     <super_solar_panels:machines:2>,
     <super_solar_panels:machines:3>,
-    <super_solar_panels:machines:4>
+    <super_solar_panels:machines:4>,
+    <super_solar_panels:machines:5>,
+    <super_solar_panels:machines:11>,
+    <super_solar_panels:machines:6>,
+    <super_solar_panels:machines:7>,
+    <super_solar_panels:machines:8>,
+    <super_solar_panels:machines:9>
 ] as IItemStack[];
 for panels in removeSolarPanels{
     recipes.remove(panels);
