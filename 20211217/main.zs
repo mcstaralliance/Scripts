@@ -1,3 +1,8 @@
+/**
+* @author 星域联盟
+* @version 12.2.1-dev
+*/
+
 #priority 1
 
 import crafttweaker.item.IItemStack;
@@ -44,7 +49,10 @@ var remove = [
     <immersiveengineering:stone_decoration:1>,
     <draconicevolution:draconic_core>,
     <contenttweaker:dragon>,
-    <draconicevolution:wyvern_core>
+    <draconicevolution:wyvern_core>,
+    <environmentaltech:structure_frame_3>,
+    <environmentaltech:structure_frame_4>,
+    <cfm:item_log>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -101,11 +109,11 @@ recipes.addShapeless(<botania:manaresource:23>, [
 ]);
 
 // 元始魔力粉
-furnace.addRecipe(<thermalfoundation:material:1028> * 1, <botania:manaresource:23> * 4);
+furnace.addRecipe(<thermalfoundation:material:1028> * 1, <botania:manaresource:23> * 1);
 
 // 花药台
 recipes.addShaped(<botania:altar>, [
-    [<minecraft:stone:6>, <thermalfoundation:material:1028>, <minecraft:stone:6>],
+    [<minecraft:stone:6>, <thermalfoundation:geode>, <minecraft:stone:6>],
     [null, <minecraft:stone:6>, null],
     [<minecraft:stone:6>, <minecraft:stone:6>, <minecraft:stone:6>]
 ]);
@@ -113,7 +121,7 @@ recipes.addShaped(<botania:altar>, [
 // 注魔石
 recipes.addShaped(<contenttweaker:magic_stone> * 5, [
     [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],
-    [<minecraft:stone:4>, <thermalfoundation:material:1028>, <minecraft:stone:4>],
+    [<minecraft:stone:4>, <thermalfoundation:geode>, <minecraft:stone:4>],
     [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]
 ]);
 
@@ -143,7 +151,7 @@ recipes.addShapeless(<forestry:ingot_bronze> * 9,
 
 
 // 水晶矩阵锭
-Agglomeration.addRecipe(<avaritia:resource:1>,[<minecraft:ender_pearl>, <ore:ingotIron>, <thermalfoundation:material:1028>], 250000);
+Agglomeration.addRecipe(<avaritia:resource:1>,[<minecraft:ender_pearl>, <ore:ingotIron>, <thermalfoundation:geode>], 250000);
 
 // 泰拉钢锭
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
@@ -175,6 +183,11 @@ recipes.addShaped(<enderio:item_material>, [
     [<ic2:fence>, <enderio:item_alloy_ingot:9>, <ic2:fence>],
     [<enderio:item_alloy_ingot:9>, <enderio:item_material:20>, <enderio:item_alloy_ingot:9>],
     [<ic2:fence>, <enderio:item_alloy_ingot:9>, <ic2:fence>]
+]);
+recipes.addShaped(<ic2:resource:12>, [
+    [null, <ore:plateIron>, null],
+    [<ore:plateIron>, <appliedenergistics2:material:6>, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
 ]);
 
 // 机器框架
@@ -227,4 +240,38 @@ mods.avaritia.ExtremeCrafting.addShaped("Core", <draconicevolution:wyvern_core> 
     [null, null, <vehicle:large_engine:4>, <botania_tweaks:dire_crafty_crate>, <ebwizardry:astral_diamond>, <botania_tweaks:compressed_tiny_potato_6>, <vehicle:electric_engine:4>, null, null],
     [<ebwizardry:crystal_block:6>, <ebwizardry:crystal_block:3>, <avaritia:block_resource:0>, <vehicle:electric_engine:4>, <vehicle:electric_engine:4>, <vehicle:electric_engine:4>, <contenttweaker:paimon>, <contenttweaker:magic_stone:0>, <contenttweaker:soildust>],
     [<ebwizardry:crystal_block:2>, <ic2:nuclear:3>, <ebwizardry:crystal_block:4>, null, null, null, <contenttweaker:star>, <contenttweaker:skull_block:0>, <contenttweaker:artificialfoil>],
-    [<ebwizardry:crystal_block:5>, <ebwizardry:crystal_block:1>, <ebwizardry:crystal_block:7>, null, null, null, <draconicevolution:infused_obsidian>, <draconicevolution:draconium_block:0>, <forestry:royal_jelly>]]);
+    [<ebwizardry:crystal_block:5>, <ebwizardry:crystal_block:1>, <ebwizardry:crystal_block:7>, null, null, null, <draconicevolution:infused_obsidian>, <draconicevolution:draconium_block:0>, <forestry:royal_jelly>]
+]);
+
+// 三级结构方块
+mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:structure_frame_3> * 2, [
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, <minecraft:emerald>, <super_solar_panels:crafting:1>, <minecraft:emerald>, null, null, null],
+    [null, null, <minecraft:emerald>, <environmentaltech:erodium_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:erodium_crystal>, <minecraft:emerald>, null, null],
+    [null, null, <super_solar_panels:crafting:5>, <environmentaltech:kyronite_crystal>, <environmentaltech:structure_frame_2>, <environmentaltech:kyronite_crystal>, <super_solar_panels:crafting:5>, null, null],
+    [null, null, <minecraft:emerald>, <environmentaltech:erodium_crystal>, <environmentaltech:kyronite_crystal>, <environmentaltech:erodium_crystal>, <minecraft:emerald>, null, null],
+    [null, null, null, <minecraft:emerald>, <super_solar_panels:crafting:0>, <minecraft:emerald>, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]]);
+
+// 四级结构方块
+mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:structure_frame_4> * 2, [
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, <super_solar_panels:crafting:20>, <super_solar_panels:crafting:20>, <super_solar_panels:crafting:20>, null, null, null],
+    [null, null, <super_solar_panels:crafting:41>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <super_solar_panels:crafting:41>, null, null],
+    [null, <super_solar_panels:crafting:19>, <super_solar_panels:crafting:23>, <super_solar_panels:crafting:22>, <environmentaltech:structure_frame_3>, <super_solar_panels:crafting:21>, <super_solar_panels:crafting:23>, <super_solar_panels:crafting:18>, null],
+    [null, <super_solar_panels:crafting:19>, <super_solar_panels:crafting:23>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium>, <environmentaltech:pladium_crystal>, <super_solar_panels:crafting:23>, <super_solar_panels:crafting:18>, null],
+    [null, <super_solar_panels:crafting:19>, <super_solar_panels:crafting:23>, <super_solar_panels:crafting:21>, <environmentaltech:structure_frame_3>, <super_solar_panels:crafting:22>, <super_solar_panels:crafting:23>, <super_solar_panels:crafting:18>, null],
+    [null, null, <super_solar_panels:crafting:41>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <environmentaltech:pladium_crystal>, <super_solar_panels:crafting:41>, null, null],
+    [null, null, null, <super_solar_panels:crafting:7>, <super_solar_panels:crafting:7>, <super_solar_panels:crafting:7>, null, null, null],
+    [null, null, null, null, null, null, null, null, null]]);
+
+// 原木条
+recipes.addShapeless(<cfm:item_log> * 8, [<minecraft:log>]);
+
+// 元始结晶
+recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, null, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
+
+
+
