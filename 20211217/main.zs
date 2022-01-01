@@ -296,7 +296,7 @@ mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <environmentaltech:st
 recipes.addShapeless(<cfm:item_log> * 8, [<minecraft:log>]);
 
 // 元始结晶
-recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, null, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
+recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
 
 
 
