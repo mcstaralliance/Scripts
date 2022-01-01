@@ -176,6 +176,11 @@ recipes.addShaped(<ic2:resource:12>, [
     [<ore:plateIron>, <thermalfoundation:wrench>, <ore:plateIron>], 
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ]);
+recipes.addShaped(<ic2:resource:12>, [
+    [null, <ore:plateIron>, null],
+    [<ore:plateIron>, <appliedenergistics2:material:6>, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
+]);
 
 // 简易机器框架
 mods.tconstruct.Casting.addBasinRecipe(<enderio:item_material>, <ic2:resource:12>, <liquid:iron>, 1000, true, 100);
