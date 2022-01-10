@@ -150,7 +150,7 @@ recipes.remove(<tconstruct:throwball>);
 recipes.remove(<conarm:travel_sack>);
 <conarm:travel_sack>.addTooltip(format.red("配方已删除"));
 
-// PreFab
+// Prefab
 var prefab = [
     <prefab:item_start_house>,
     <prefab:item_instant_bridge>,
@@ -185,7 +185,7 @@ var prefab = [
     <prefab:item_tree_farm>,
     <prefab:block_boundary>
 ] as IItemStack[];
-for myPreFab in prefab {
-    recipes.remove(myPreFab);
-    myPreFab.addTooltip(format.red("配方已删除"));
+for myPrefab in prefab {
+    recipes.remove(myPrefab);
+    myPrefab.addTooltip(format.red("配方已删除"));
 }
