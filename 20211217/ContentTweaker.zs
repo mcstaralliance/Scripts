@@ -99,3 +99,39 @@ myDualVectorFoil.register();
 var myDust = VanillaFactory.createItem("soildust");
 myDust.creativeTab = <creativetab:tab>;
 myDust.register();
+
+var myAluminium = VanillaFactory.createItem("aluminium_ingot");
+myAluminium.creativeTab = <creativetab:tab>;
+myAluminium.register();
+
+var myCopper = VanillaFactory.createItem("copper_ingot");
+myCopper.creativeTab = <creativetab:tab>;
+myCopper.register();
+
+var myIridium = VanillaFactory.createItem("iridium_ingot");
+myIridium.creativeTab = <creativetab:tab>;
+myIridium.register();
+
+var myLead = VanillaFactory.createItem("lead_ingot");
+myLead.creativeTab = <creativetab:tab>;
+myLead.register();
+
+var myNickel = VanillaFactory.createItem("nickel_ingot");
+myNickel.creativeTab = <creativetab:tab>;
+myNickel.register();
+
+var myPlatinum = VanillaFactory.createItem("platinum_ingot");
+myPlatinum.creativeTab = <creativetab:tab>;
+myPlatinum.register();
+
+var mySilver = VanillaFactory.createItem("silver_ingot");
+mySilver.creativeTab = <creativetab:tab>;
+mySilver.register();
+
+var myTin = VanillaFactory.createItem("tin_ingot");
+myTin.creativeTab = <creativetab:tab>;
+myTin.register();
+
+var myUranium = VanillaFactory.createItem("uranium_ingot");
+myUranium.creativeTab = <creativetab:tab>;
+myUranium.register();
