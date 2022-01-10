@@ -149,3 +149,43 @@ recipes.remove(<tconstruct:throwball>);
 // 匠魂装甲
 recipes.remove(<conarm:travel_sack>);
 <conarm:travel_sack>.addTooltip(format.red("配方已删除"));
+
+// PreFab
+var prefab = [
+    <prefab:item_start_house>,
+    <prefab:item_instant_bridge>,
+    <prefab:item_moderate_house>,
+    <prefab:item_bulldozer>,
+    <prefab:item_creative_bulldozer>,
+    <prefab:item_structure_part>,
+    <prefab:item_advanced_chicken_coop>,
+    <prefab:item_advanced_horse_stable>,
+    <prefab:item_barn>,
+    <prefab:item_machinery_tower>,
+    <prefab:item_defense_bunker>,
+    <prefab:item_mineshaft_entrance>,
+    <prefab:item_ender_gateway>,
+    <prefab:item_aqua_base>,
+    <prefab:item_grassy_plain>,
+    <prefab:item_magic_temple>,
+    <prefab:item_green_house>,
+    <prefab:item_watch_tower>,
+    <prefab:item_welcome_center>,
+    <prefab:item_jail>,
+    <prefab:item_saloon>,
+    <prefab:item_nether_gate>,
+    <prefab:item_warehouse>,
+    <prefab:item_fish_pond>,
+    <prefab:item_advanced_warehouse>,
+    <prefab:item_monster_masher>,
+    <prefab:item_horse_stable>,
+    <prefab:item_villager_houses>,
+    <prefab:item_chicken_coop>,
+    <prefab:item_produce_farm>,
+    <prefab:item_tree_farm>,
+    <prefab:block_boundary>
+] as IItemStack[];
+for myPreFab in prefab {
+    recipes.remove(myPreFab);
+    myPreFab.addTooltip(format.red("配方已删除"));
+}
