@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 // 派蒙
 recipes.addShaped(<contenttweaker:paimon> * 16, [
     [<ore:cropApple>, <ore:cropApple>, <ore:cropApple>],
