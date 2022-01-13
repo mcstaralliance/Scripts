@@ -1,3 +1,8 @@
+/**
+ * @author 星域联盟
+ * @version 22.1.13
+ */
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlock;

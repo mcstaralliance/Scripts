@@ -1,3 +1,8 @@
+/**
+ * @author 星域联盟
+ * @version 22.1.13
+ */
+
 import crafttweaker.item.IItemStack;
 
 // 派蒙

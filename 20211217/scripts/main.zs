@@ -1,7 +1,7 @@
 /**
-* @author 星域联盟
-* @version 12.2.1-dev
-*/
+ * @author 星域联盟
+ * @version 22.1.13
+ */
 
 #priority 1
 
@@ -52,7 +52,8 @@ var remove = [
     <draconicevolution:wyvern_core>,
     <environmentaltech:structure_frame_3>,
     <environmentaltech:structure_frame_4>,
-    <cfm:item_log>
+    <cfm:item_log>,
+    <ic2:te:45>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -298,5 +299,7 @@ recipes.addShapeless(<cfm:item_log> * 8, [<minecraft:log>]);
 // 元始结晶
 recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
 
+// 提取机硬币试验
+recipes.addShaped(<ic2:te:45>*1,[[<custommc:item927>,<custommc:item927>,<custommc:item927>],[<ic2:treetap>,<ic2:resource:12>,<ic2:treetap>],[<ic2:treetap>,<ic2:crafting:1>,<ic2:treetap>]]);
 
 
