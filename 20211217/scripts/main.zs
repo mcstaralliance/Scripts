@@ -301,15 +301,15 @@ recipes.addShapeless(<cfm:item_log> * 8, [<minecraft:log>]);
 recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>, <thermalfoundation:material:1028>]);
 
 // 提取机硬币试验
-recipes.addShaped(<ic2:te:45>*1,[[<custommc:item927>,<custommc:item927>,<custommc:item927>],[<ic2:treetap>,<ic2:resource:12>,<ic2:treetap>],[<ic2:treetap>,<ic2:crafting:1>,<ic2:treetap>]]);
+recipes.addShaped(<ic2:te:45>*1,[[advancedCoin,advancedCoin,advancedCoin],[<ic2:treetap>,<ic2:resource:12>,<ic2:treetap>],[<ic2:treetap>,<ic2:crafting:1>,<ic2:treetap>]]);
 
 // 水槽
 recipes.addShaped(<cookingforblockheads:sink>, [
-    [<custommc:item927>, <custommc:item961>, <custommc:item927>], 
-    [<custommc:item970>, <custommc:item927>, <custommc:item970>],
-    [<custommc:item970>, <custommc:item970>, <custommc:item970>]
+    [advancedCoin, commonCoin, advancedCoin], 
+    [ultraCoin, advancedCoin, ultraCoin],
+    [ultraCoin, ultraCoin, ultraCoin]
 ]);
 
 // 硬币
-recipes.addShapeless(<custommc:item961> * 10, [<custommc:item927>]);
-recipes.addShapeless(<custommc:item927> * 10, [<custommc:item970>]);
+recipes.addShapeless(commonCoin * 10, [advancedCoin]);
+recipes.addShapeless(advancedCoin * 10, [ultraCoin]);
