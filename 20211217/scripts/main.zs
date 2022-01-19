@@ -53,7 +53,8 @@ var remove = [
     <environmentaltech:structure_frame_3>,
     <environmentaltech:structure_frame_4>,
     <cfm:item_log>,
-    <ic2:te:45>
+    <ic2:te:45>,
+    <cookingforblockheads:sink>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -302,4 +303,13 @@ recipes.addShapeless(<thermalfoundation:geode> * 1, [<thermalfoundation:material
 // 提取机硬币试验
 recipes.addShaped(<ic2:te:45>*1,[[<custommc:item927>,<custommc:item927>,<custommc:item927>],[<ic2:treetap>,<ic2:resource:12>,<ic2:treetap>],[<ic2:treetap>,<ic2:crafting:1>,<ic2:treetap>]]);
 
+// 水槽
+recipes.addShaped(<cookingforblockheads:sink>, [
+    [<custommc:item927>, <custommc:item961>, <custommc:item927>], 
+    [<custommc:item970>, <custommc:item927>, <custommc:item970>],
+    [<custommc:item970>, <custommc:item970>, <custommc:item970>]
+]);
 
+// 硬币
+recipes.addShapeless(<custommc:item961> * 10, [<custommc:item927>]);
+recipes.addShapeless(<custommc:item927> * 10, [<custommc:item970>]);
