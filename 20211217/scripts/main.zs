@@ -54,7 +54,18 @@ var remove = [
     <environmentaltech:structure_frame_4>,
     <cfm:item_log>,
     <ic2:te:45>,
-    <cookingforblockheads:sink>
+    <cookingforblockheads:sink>,
+    <thermalexpansion:machine>,
+    <thermalexpansion:machine:1>,
+    <thermalexpansion:machine:5>,
+    <thermalexpansion:machine:6>,
+    <thermalexpansion:machine:8>,
+    <enderio:block_slice_and_splice>,
+    <enderio:block_enhanced_alloy_smelter>,
+    <environmentaltech:laser_core>,
+    <advgenerators:turbine_enderium>,
+    <advgenerators:turbine_manyullyn>,
+    <advgenerators:turbine_adv_alloy>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -313,3 +324,87 @@ recipes.addShaped(<cookingforblockheads:sink>, [
 // 硬币
 recipes.addShapeless(commonCoin * 10, [advancedCoin]);
 recipes.addShapeless(advancedCoin * 10, [ultraCoin]);
+
+// 红石炉
+recipes.addShaped(<thermalexpansion:machine>, [
+    [advancedCoin, <ore:dustRedstone>, advancedCoin], 
+    [<minecraft:brick_block>, <thermalexpansion:frame>, <minecraft:brick_block>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 磨粉机
+recipes.addShaped(<thermalexpansion:machine:1>, [
+    [advancedCoin, <minecraft:piston>, advancedCoin], 
+    [<minecraft:flint>, <thermalexpansion:frame>, <minecraft:flint>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 压缩机
+recipes.addShaped(<thermalexpansion:machine:5>, [
+    [advancedCoin, <minecraft:piston>, advancedCoin], 
+    [<ore:ingotBronze>, <thermalexpansion:frame>, <ore:ingotBronze>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 熔岩炉
+recipes.addShaped(<thermalexpansion:machine:6>, [
+    [advancedCoin, <ore:blockGlassHardened>, advancedCoin], 
+    [<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 流体转置机
+recipes.addShaped(<thermalexpansion:machine:8>, [
+    [advancedCoin, <minecraft:bucket>, advancedCoin], 
+    [<ore:blockGlass>, <thermalexpansion:frame>, <ore:blockGlass>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 头颅装配机
+recipes.addShaped(<enderio:block_slice_and_splice>, [
+    [<ore:ingotSoularium>, <ore:itemSkull>, <ore:ingotSoularium>], 
+    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>], 
+    [<ore:gearEnergized>, ultraCoin, <ore:gearEnergized>]
+]);
+
+// 强化合金炉
+recipes.addShaped(<enderio:block_enhanced_alloy_smelter>, [
+    [ultraCoin, ultraCoin, ultraCoin],
+    [<ore:ingotEndSteel>, <enderio:block_alloy_smelter>, <ore:ingotEndSteel>], 
+    [<ore:gearVibrant>, <ore:itemEnhancedMachineChassi>, <ore:gearVibrant>]
+]);
+
+// 强化 SAG 磨粉机
+recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
+    [ultraCoin, ultraCoin, ultraCoin],
+    [<ore:ingotEndSteel>, <enderio:block_sag_mill>, <ore:ingotEndSteel>], 
+    [<ore:gearVibrant>, <ore:itemEnhancedMachineChassi>, <ore:gearVibrant>]
+]);
+
+// 激光核心
+recipes.addShaped(<environmentaltech:laser_core>, [
+    [ultraCoin, ultraCoin, ultraCoin],
+    [advancedCoin, ultraCoin, advancedCoin],
+    [advancedCoin, ultraCoin, advancedCoin]
+]);
+
+// 末影锭涡轮机
+recipes.addShaped(<advgenerators:turbine_enderium>, [
+    [ultraCoin, <advgenerators:iron_tubing>, ultraCoin], 
+    [<advgenerators:iron_wiring>, <advgenerators:turbine_rotor_enderium>, <advgenerators:iron_wiring>], 
+    [ultraCoin, <advgenerators:iron_tubing>, ultraCoin]
+]);
+
+// 玛玉灵涡轮机
+recipes.addShaped(<advgenerators:turbine_manyullyn>, [
+    [ultraCoin, <advgenerators:iron_tubing>, ultraCoin], 
+    [<advgenerators:iron_wiring>, <advgenerators:turbine_rotor_manyullyn>, <advgenerators:iron_wiring>], 
+    [ultraCoin, <advgenerators:iron_tubing>, ultraCoin]
+]);
+
+// 高级合金涡轮机
+recipes.addShaped(<advgenerators:turbine_adv_alloy>, [
+    [ultraCoin, <advgenerators:iron_tubing:*>, ultraCoin], 
+    [<advgenerators:iron_wiring:*>, <advgenerators:turbine_rotor_adv_alloy:*>, <advgenerators:iron_wiring:*>], 
+    [ultraCoin, <advgenerators:iron_tubing:*>, ultraCoin]
+]);
