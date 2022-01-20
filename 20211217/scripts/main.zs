@@ -8,6 +8,7 @@
 import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 import mods.botaniatweaks.Agglomeration;
+import mods.ic2.Extractor;
 
 var myLogs = [<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>] as IItemStack[];
 var myPlanks = [<minecraft:planks>,<minecraft:planks:1>,<minecraft:planks:2>,<minecraft:planks:3>,<minecraft:planks:4>,<minecraft:planks:5>] as IItemStack[];
@@ -65,7 +66,12 @@ var remove = [
     <environmentaltech:laser_core>,
     <advgenerators:turbine_enderium>,
     <advgenerators:turbine_manyullyn>,
-    <advgenerators:turbine_adv_alloy>
+    <advgenerators:turbine_adv_alloy>,
+    <appliedenergistics2:drive>,
+    <appliedenergistics2:interface>,
+    <appliedenergistics2:condenser>,
+    <appliedenergistics2:material:35>,
+    <appliedenergistics2:material:38>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
