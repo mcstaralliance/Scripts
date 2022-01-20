@@ -445,13 +445,15 @@ recipes.addShaped(<appliedenergistics2:material:38>, [
 ]);
 
 // 硬币便携购买
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotCopper> * 10, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotTin> * 10, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotSilver> * 5, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotIridium> * 5, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotPlatinum> * 4, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotAluminum> * 7, 10);
-mods.botania.ManaInfusion.addInfusion(commonCoin, <ore:ingotNickel> * 7, 10);
-mods.botania.ManaInfusion.addInfusion(advancedCoin, commonCoin * 10, 10);
-mods.botania.ManaInfusion.addInfusion(ultraCoin, advancedCoin * 10, 10);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
+mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]);
+mods.botania.ElvenTrade.addRecipe([advancedCoin], [commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin]);
+mods.botania.ElvenTrade.addRecipe([ultraCoin], [advancedCoin * 10]);
+
+
 
