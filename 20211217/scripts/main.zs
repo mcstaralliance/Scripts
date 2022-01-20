@@ -444,13 +444,13 @@ recipes.addShaped(<appliedenergistics2:material:38>, [
     [advancedCoin, <appliedenergistics2:material:37>, advancedCoin]
 ]);
 
-// 硬币便携购买
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]);
-mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]);
-mods.botania.ElvenTrade.addRecipe([advancedCoin], [commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin]);
-mods.botania.ElvenTrade.addRecipe([ultraCoin], [advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin]);
+// 硬币获取
+Compressor.addRecipe(commonCoin, <ore:ingotCopper> * 10);
+Compressor.addRecipe(commonCoin, <ore:ingotTin> * 10);
+Compressor.addRecipe(commonCoin, <ore:ingotSilver> * 5);
+Compressor.addRecipe(commonCoin, <ore:ingotIridium> * 5);
+Compressor.addRecipe(commonCoin, <ore:ingotPlatinum> * 4);
+Compressor.addRecipe(commonCoin, <ore:ingotAluminum> * 7);
+Compressor.addRecipe(commonCoin, <ore:ingotNickel> * 7);
+Compressor.addRecipe(advancedCoin, commonCoin * 10);
+Compressor.addRecipe(ultraCoin, advancedCoin * 10);
