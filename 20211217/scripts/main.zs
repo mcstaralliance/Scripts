@@ -54,7 +54,18 @@ var remove = [
     <environmentaltech:structure_frame_4>,
     <cfm:item_log>,
     <ic2:te:45>,
-    <cookingforblockheads:sink>
+    <cookingforblockheads:sink>,
+    <thermalexpansion:machine>,
+    <thermalexpansion:machine:1>,
+    <thermalexpansion:machine:5>,
+    <thermalexpansion:machine:6>,
+    <thermalexpansion:machine:8>,
+    <enderio:block_slice_and_splice>,
+    <enderio:block_enhanced_alloy_smelter>,
+    <environmentaltech:laser_core>,
+    <advgenerators:turbine_enderium>,
+    <advgenerators:turbine_manyullyn>,
+    <advgenerators:turbine_adv_alloy>
 ] as IItemStack[];
 for myRemove in remove{
     recipes.remove(myRemove);
@@ -93,7 +104,7 @@ var eioTooltip = [
     <enderio:item_redstone_conduit>
 ] as IItemStack[];
 for myEioTooltip in eioTooltip{
-    myEioTooltip.addTooltip("§c我们不建议玩家使用该导线, 因为大概率会引起卡服, 我们推荐使用热力膨胀 Mod 或 XNet Mod 中的导线。");
+    myEioTooltip.addTooltip("§c我们不建议玩家在一格内放置三个及以上数量的导线。");
 }
 
 val commonCoin = <custommc:item961>;
@@ -314,3 +325,133 @@ recipes.addShaped(<cookingforblockheads:sink>, [
 // 硬币
 recipes.addShapeless(commonCoin * 10, [advancedCoin]);
 recipes.addShapeless(advancedCoin * 10, [ultraCoin]);
+
+// 红石炉
+recipes.addShaped(<thermalexpansion:machine>, [
+    [advancedCoin, <ore:dustRedstone>, advancedCoin], 
+    [<minecraft:brick_block>, <thermalexpansion:frame>, <minecraft:brick_block>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 磨粉机
+recipes.addShaped(<thermalexpansion:machine:1>, [
+    [advancedCoin, <minecraft:piston>, advancedCoin], 
+    [<minecraft:flint>, <thermalexpansion:frame>, <minecraft:flint>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 压缩机
+recipes.addShaped(<thermalexpansion:machine:5>, [
+    [advancedCoin, <minecraft:piston>, advancedCoin], 
+    [<ore:ingotBronze>, <thermalexpansion:frame>, <ore:ingotBronze>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 熔岩炉
+recipes.addShaped(<thermalexpansion:machine:6>, [
+    [advancedCoin, <ore:blockGlassHardened>, advancedCoin], 
+    [<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 流体转置机
+recipes.addShaped(<thermalexpansion:machine:8>, [
+    [advancedCoin, <minecraft:bucket>, advancedCoin], 
+    [<ore:blockGlass>, <thermalexpansion:frame>, <ore:blockGlass>], 
+    [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]
+]);
+
+// 头颅装配机
+recipes.addShaped(<enderio:block_slice_and_splice>, [
+    [<ore:ingotSoularium>, <ore:itemSkull>, <ore:ingotSoularium>], 
+    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>], 
+    [<ore:gearEnergized>, ultraCoin, <ore:gearEnergized>]
+]);
+
+// 强化合金炉
+recipes.addShaped(<enderio:block_enhanced_alloy_smelter>, [
+    [advancedCoin, ultraCoin, advancedCoin],
+    [<ore:ingotEndSteel>, <enderio:block_alloy_smelter>, <ore:ingotEndSteel>], 
+    [<ore:gearVibrant>, <ore:itemEnhancedMachineChassi>, <ore:gearVibrant>]
+]);
+
+// 强化 SAG 磨粉机
+recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
+    [advancedCoin, ultraCoin, advancedCoin],
+    [<ore:ingotEndSteel>, <enderio:block_sag_mill>, <ore:ingotEndSteel>], 
+    [<ore:gearVibrant>, <ore:itemEnhancedMachineChassi>, <ore:gearVibrant>]
+]);
+
+// 激光核心
+recipes.addShaped(<environmentaltech:laser_core>, [
+    [ultraCoin, ultraCoin, ultraCoin],
+    [advancedCoin, ultraCoin, advancedCoin],
+    [advancedCoin, ultraCoin, advancedCoin]
+]);
+
+// 末影锭涡轮机
+recipes.addShaped(<advgenerators:turbine_enderium>, [
+    [advancedCoin, <advgenerators:iron_tubing>, advancedCoin], 
+    [<advgenerators:iron_wiring>, <advgenerators:turbine_rotor_enderium>, <advgenerators:iron_wiring>], 
+    [advancedCoin, <advgenerators:iron_tubing>, advancedCoin]
+]);
+
+// 玛玉灵涡轮机
+recipes.addShaped(<advgenerators:turbine_manyullyn>, [
+    [ultraCoin, <advgenerators:iron_tubing>, advancedCoin], 
+    [<advgenerators:iron_wiring>, <advgenerators:turbine_rotor_manyullyn>, <advgenerators:iron_wiring>], 
+    [ultraCoin, <advgenerators:iron_tubing>, advancedCoin]
+]);
+
+// 高级合金涡轮机
+recipes.addShaped(<advgenerators:turbine_adv_alloy>, [
+    [advancedCoin, <advgenerators:iron_tubing:*>, advancedCoin], 
+    [<advgenerators:iron_wiring:*>, <advgenerators:turbine_rotor_adv_alloy:*>, <advgenerators:iron_wiring:*>], 
+    [advancedCoin, <advgenerators:iron_tubing:*>, advancedCoin]
+]);
+
+// ME 驱动器
+recipes.addShaped(<appliedenergistics2:drive>, [
+    [<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>], 
+    [<appliedenergistics2:part:16>, ultraCoin, <appliedenergistics2:part:16>], 
+    [<ore:ingotIron>, <appliedenergistics2:material:24>, <ore:ingotIron>]
+]);
+
+// ME 接口
+recipes.addShaped(<appliedenergistics2:interface>, [
+    [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>], 
+    [<appliedenergistics2:material:44>, advancedCoin, <appliedenergistics2:material:43>], 
+    [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>]
+]);
+
+// 物质聚合器
+recipes.addShaped(<appliedenergistics2:condenser>, [
+    [<ore:ingotIron>, advancedCoin, <ore:ingotIron>], 
+    [advancedCoin, ultraCoin, advancedCoin], 
+    [<ore:ingotIron>, advancedCoin, <ore:ingotIron>]
+]);
+
+// 1k-ME存储组件
+recipes.addShaped(<appliedenergistics2:material:35>, [
+    [commonCoin, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, commonCoin], 
+    [<ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <appliedenergistics2:material:22>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>], 
+    [commonCoin, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, commonCoin]
+]);
+
+// 64k-ME存储组件
+recipes.addShaped(<appliedenergistics2:material:38>, [
+    [advancedCoin, <appliedenergistics2:material:23>, advancedCoin], 
+    [<appliedenergistics2:material:37>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:37>], 
+    [advancedCoin, <appliedenergistics2:material:37>, advancedCoin]
+]);
+
+// 硬币获取
+Extractor.addRecipe(commonCoin, <contenttweaker:copper_ingot> * 10);
+Extractor.addRecipe(commonCoin, <contenttweaker:tin_ingot> * 10);
+Extractor.addRecipe(commonCoin, <contenttweaker:silver_ingot> * 5);
+Extractor.addRecipe(commonCoin, <contenttweaker:iridium_ingot> * 5);
+Extractor.addRecipe(commonCoin, <contenttweaker:platinum_ingot> * 4);
+Extractor.addRecipe(commonCoin, <contenttweaker:aluminium_ingot> * 7);
+Extractor.addRecipe(commonCoin, <contenttweaker:nickel_ingot> * 7);
+Extractor.addRecipe(advancedCoin, commonCoin * 10);
+Extractor.addRecipe(ultraCoin, advancedCoin * 10);
