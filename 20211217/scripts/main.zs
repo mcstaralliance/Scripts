@@ -454,7 +454,3 @@ mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotAluminum>, <ore:ingot
 mods.botania.ElvenTrade.addRecipe([commonCoin], [<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]);
 mods.botania.ElvenTrade.addRecipe([advancedCoin], [commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin, commonCoin]);
 mods.botania.ElvenTrade.addRecipe([ultraCoin], [advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin, advancedCoin]);
-
-
-
-
