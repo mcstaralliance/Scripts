@@ -445,12 +445,12 @@ recipes.addShaped(<appliedenergistics2:material:38>, [
 ]);
 
 // 硬币获取
-Compressor.addRecipe(commonCoin, <ore:ingotCopper> * 10);
-Compressor.addRecipe(commonCoin, <ore:ingotTin> * 10);
-Compressor.addRecipe(commonCoin, <ore:ingotSilver> * 5);
-Compressor.addRecipe(commonCoin, <ore:ingotIridium> * 5);
-Compressor.addRecipe(commonCoin, <ore:ingotPlatinum> * 4);
-Compressor.addRecipe(commonCoin, <ore:ingotAluminum> * 7);
-Compressor.addRecipe(commonCoin, <ore:ingotNickel> * 7);
-Compressor.addRecipe(advancedCoin, commonCoin * 10);
-Compressor.addRecipe(ultraCoin, advancedCoin * 10);
+Extractor.addRecipe(commonCoin, <ore:ingotCopper> * 10);
+Extractor.addRecipe(commonCoin, <ore:ingotTin> * 10);
+Extractor.addRecipe(commonCoin, <ore:ingotSilver> * 5);
+Extractor.addRecipe(commonCoin, <ore:ingotIridium> * 5);
+Extractor.addRecipe(commonCoin, <ore:ingotPlatinum> * 4);
+Extractor.addRecipe(commonCoin, <ore:ingotAluminum> * 7);
+Extractor.addRecipe(commonCoin, <ore:ingotNickel> * 7);
+Extractor.addRecipe(advancedCoin, commonCoin * 10);
+Extractor.addRecipe(ultraCoin, advancedCoin * 10);
