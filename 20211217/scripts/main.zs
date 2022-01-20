@@ -75,6 +75,7 @@ var removeSolarPanels = [
 for panels in removeSolarPanels{
     recipes.remove(panels);
     panels.addTooltip(format.red("该物品为计划删除 Mod 物品，请使用其它物品代替"));
+    panels.addTooltip(format.red("我们畏惧改变，但改变是前进的动力。"));
 }
 
 // 删除女仆生成
