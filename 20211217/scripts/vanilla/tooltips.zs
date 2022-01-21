@@ -46,7 +46,7 @@ for exRemoveTooltip in exRemoveTooltips {
 }
 
 // even more
-<contenttweaker:paimon>.addTooltip(game.localize("tooltip.best_frients"));
+<contenttweaker:paimon>.addTooltip(game.localize("tooltip.best_friends"));
 <contenttweaker:skull_block>.addTooltip(game.localize("tooltip.break_black_wool"));
 <botania:manaresource:4>.addTooltip(game.localize("tooltip.about_a_quarter"));
 <avaritia:resource:1>.addTooltip(game.localize("tooltip.about_a_quarter"));
