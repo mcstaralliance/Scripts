@@ -294,3 +294,8 @@ recipes.addShaped(<appliedenergistics2:material:38>, [
     [<appliedenergistics2:material:37>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:material:37>], 
     [ADVANCEDCOIN, <appliedenergistics2:material:37>, ADVANCEDCOIN]
 ]);
+
+// 铁质框架
+recipes.addShaped(<advgenerators:iron_frame> * 2, 
+    utils.createCrossWithCore(null, <ore:ingotIron>, null)
+);

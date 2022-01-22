@@ -33,6 +33,7 @@ tooltip.uniingot=§bUniIngot of StarCraft
 tooltip.logs_and_planks=The effect of using different levels of axes for crafting varies.
 tooltip.best_friends=§fB E S T  F R I E N D S
 tooltip.break_black_wool=§fBreak the black wool.
+tooltip.satchel=Please do not use the number keys to move the satchel.
 tooltip.about_a_quarter=§aAbout a quarter of a pool of mana is needed.
 tooltip.hammer_for_frame=§fFor every frame, a Crescent Hammer will disappear from the world.
 tooltip.coin_value=Value: 

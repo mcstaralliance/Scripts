@@ -225,7 +225,8 @@ var toRemove as IItemStack[] = [
     <advgenerators:turbine_enderium>,
     <advgenerators:turbine_manyullyn>,
     <advgenerators:turbine_adv_alloy>,
-
+    <advgenerators:iron_frame>
+    
 ];
 
 for ban in toBan {
