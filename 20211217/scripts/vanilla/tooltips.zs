@@ -45,6 +45,20 @@ for exRemoveTooltip in exRemoveTooltips {
     exRemoveTooltip.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 }
 
+// satchel tooltip
+var satchelTooltips as IItemStack[] = [
+    <thermalexpansion:satchel>, 
+    <thermalexpansion:satchel:1>, 
+    <thermalexpansion:satchel:2>, 
+    <thermalexpansion:satchel:3>, 
+    <thermalexpansion:satchel:4>, 
+    <thermalexpansion:satchel:100>
+];
+
+for satchelTooltip in satchelTooltips {
+    satchelTooltip.addTooltip(format.green(game.localize("tooltip.satchel")));
+}
+
 // even more
 <contenttweaker:paimon>.addTooltip(game.localize("tooltip.best_friends"));
 <contenttweaker:skull_block>.addTooltip(game.localize("tooltip.break_black_wool"));
