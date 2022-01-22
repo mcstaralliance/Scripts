@@ -134,13 +134,13 @@ recipes.addShaped(<ic2:resource:12>,
     utils.createSurround(<thermalfoundation:wrench>, <ore:plateIron>)
 );
 
+recipes.addShaped(<ic2:resource:12>, 
+    utils.createSurround(<appliedenergistics2:material:6>, <ore:plateIron>)
+);
+
 // 简易机器框架
 recipes.addShaped(<enderio:item_material>,
     utils.createCrossWithCore(<enderio:item_material:20>, <ic2:fence>, <enderio:item_alloy_ingot:9>)
-);
-
-recipes.addShaped(<ic2:resource:12>, 
-    utils.createCrossWithCore(<appliedenergistics2:material:6>, null, <ore:plateIron>)
 );
 
 // 机器框架
