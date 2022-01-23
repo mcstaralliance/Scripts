@@ -15,7 +15,7 @@ function uniBan(item as IItemStack) {
 }
 
 static ingotNameList as string[] = [
-    "nickel", "copper", "tin", "aluminium", "lead", "silver", "uranium", "iridium", "platinum"
+    "nickel", "copper", "tin", "aluminum", "lead", "silver", "uranium", "iridium", "platinum"
 ];
 
 
