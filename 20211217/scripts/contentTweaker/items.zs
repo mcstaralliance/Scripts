@@ -4,6 +4,15 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.Item;
 
+function itemBuilder(name as string, maxStackSize as int, maxDamage as int, glowing as bool) {
+    var item as Item = VanillaFactory.createItem(name);
+    item.creativeTab = <creativetab:tab>;
+    item.maxStackSize = maxStackSize;
+    item.maxDamage = maxDamage;
+    item.glowing = glowing;
+    item.register();
+}
+
 var myPaiMon = VanillaFactory.createItemFood("paimon", 4);
 myPaiMon.maxStackSize = 16;
 myPaiMon.wolfFood = true;
@@ -12,66 +21,26 @@ myPaiMon.alwaysEdible = true;
 myPaiMon.creativeTab = <creativetab:tab>;
 myPaiMon.register();
 
-var ws = VanillaFactory.createItem("wooden_shears");
-ws.maxStackSize = 1;
-ws.maxDamage = 233;
-ws.creativeTab = <creativetab:tab>;
-ws.register();
+itemBuilder("xiangyu", 10, -1, false);
+itemBuilder("jiuchan", 10, -1, false);
+itemBuilder("dragon", 8, -1, true);
+itemBuilder("wooden_shears", 1, 233, false);
+itemBuilder("clay_furnace", 16, -1, false);
+itemBuilder("hammer", 1, 1000, false);
+itemBuilder("processor", 64, -1, true);
 
-var cf = VanillaFactory.createItem("clay_furnace");
-cf.maxStackSize = 16;
-cf.creativeTab = <creativetab:tab>;
-cf.register();
 
-var mh = VanillaFactory.createItem("hammer");
-mh.maxStackSize = 1;
-mh.maxDamage = 1000;
-mh.creativeTab = <creativeTab:tab>;
-mh.register();
+val itemNames as string[] = [
+    "star", "primogem", "artificialfoil", "soildust"
+];
 
-var mp = VanillaFactory.createItem("processor");
-mp.maxStackSize = 64;
-mp.creativeTab = <creativeTab:tab>;
-mp.glowing = true;
-mp.register();
-
-var dc = VanillaFactory.createItem("dragon");
-dc.maxStackSize = 8;
-dc.creativeTab = <creativeTab:tab>;
-dc.glowing = true;
-dc.register();
-
-var myEntanglement = VanillaFactory.createItem("jiuchan");
-myEntanglement.maxStackSize = 10;
-myEntanglement.creativeTab = <creativetab:tab>;
-myEntanglement.register();
-
-var myStar = VanillaFactory.createItem("star");
-myStar.maxStackSize = 64;
-myStar.creativeTab = <creativetab:tab>;
-myStar.register();
-
-var myPrimoGem = VanillaFactory.createItem("primogem");
-myPrimoGem.maxStackSize = 64;
-myPrimoGem.creativeTab = <creativetab:tab>;
-myPrimoGem.register();
-
-var myFate = VanillaFactory.createItem("xiangyu");
-myFate.maxStackSize = 10;
-myFate.creativeTab = <creativetab:tab>;
-myFate.register();
-
-var myDualVectorFoil = VanillaFactory.createItem("artificialfoil");
-myDualVectorFoil.creativeTab = <creativetab:tab>;
-myDualVectorFoil.register();
-
-var myDust = VanillaFactory.createItem("soildust");
-myDust.creativeTab = <creativetab:tab>;
-myDust.register();
+for itemName in itemNames {
+    itemBuilder(itemName, 64, -1, false);
+}
 
 
 var ingotNameList as string[] = [
-    "nickel", "copper", "tin", "aluminium", "lead", "silver", "uranium", "iridium", "platinum"
+    "nickel", "copper", "tin", "aluminum", "lead", "silver", "uranium", "iridium", "platinum"
 ];
 
 for name in ingotNameList {
