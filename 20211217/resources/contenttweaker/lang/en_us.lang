@@ -25,7 +25,7 @@ item.contenttweaker.silver_ingot.name=Silver Ingot
 item.contenttweaker.tin_ingot.name=Tin Ingot
 item.contenttweaker.uranium_ingot.name=Uranium 235 Ingot
 
-item.coin.name=Coin
+item.starcraft.coin.name=Coin
 
 tooltip.recipe_deleted=Recipe deleted.
 tooltip.not_suggested=§cWe do not recommend that players place three or more numbers of wires in one block.

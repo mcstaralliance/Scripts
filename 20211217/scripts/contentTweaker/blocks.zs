@@ -10,7 +10,7 @@ function blockBuilder(name as string, toolClass as string) {
     block.toolClass = toolClass;
     block.toolLevel = 1.0;
     block.fullBlock = true;
-    block.register();   
+    block.register();
 }
 
 blockBuilder("magic_log", "axe");

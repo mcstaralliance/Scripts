@@ -2,13 +2,13 @@
 
 import crafttweaker.item.IItemStack;
 
-COMMONCOIN.displayName = game.localize("item.coin.name");
+COMMONCOIN.displayName = game.localize("item.starcraft.coin.name");
 COMMONCOIN.addTooltip(game.localize("tooltip.coin_value") ~ "10");
 
-ADVANCEDCOIN.displayName = game.localize("item.coin.name");
+ADVANCEDCOIN.displayName = game.localize("item.starcraft.coin.name");
 ADVANCEDCOIN.addTooltip(game.localize("tooltip.coin_value") ~ "100");
 
-ULTRACOIN.displayName = game.localize("item.coin.name");
+ULTRACOIN.displayName = game.localize("item.starcraft.coin.name");
 ULTRACOIN.addTooltip(game.localize("tooltip.coin_value") ~ "1000");
 
 var removeSolarPanels as IItemStack[] = [

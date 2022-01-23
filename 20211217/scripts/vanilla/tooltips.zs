@@ -24,7 +24,7 @@ var ingots as IItemStack[] = [
     <contenttweaker:uranium_ingot>,
     <contenttweaker:silver_ingot>,
     <contenttweaker:iridium_ingot>,
-    <contenttweaker:aluminium_ingot>,
+    <contenttweaker:aluminum_ingot>,
     <contenttweaker:nickel_ingot>,
     <contenttweaker:copper_ingot>,
     <contenttweaker:platinum_ingot>,

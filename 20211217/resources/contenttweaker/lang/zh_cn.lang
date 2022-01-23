@@ -25,7 +25,7 @@ item.contenttweaker.silver_ingot.name=\u94f6\u952d
 item.contenttweaker.tin_ingot.name=\u9521\u952d
 item.contenttweaker.uranium_ingot.name=\u94c0\u952d
 
-item.coin.name=\u786c\u5e01
+item.starcraft.coin.name=\u786c\u5e01
 
 tooltip.recipe_deleted=\u914d\u65b9\u5df2\u5220\u9664\u3002
 tooltip.not_suggested=§c\u6211\u4eec\u4e0d\u5efa\u8bae\u73a9\u5bb6\u5728\u4e00\u683c\u5185\u653e\u7f6e\u4e09\u4e2a\u53ca\u4ee5\u4e0a\u6570\u91cf\u7684\u5bfc\u7ebf\u3002
