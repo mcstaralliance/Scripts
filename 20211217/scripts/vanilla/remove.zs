@@ -217,6 +217,7 @@ var toRemove as IItemStack[] = [
 
     // cfm
     <cfm:item_log>,
+    <cfm:printer>,
 
     // cookingforblockheads
     <cookingforblockheads:sink>,
