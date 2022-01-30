@@ -4,10 +4,28 @@ import crafttweaker.item.IItemStack;
 
 import mods.avaritia.ExtremeCrafting;
 
+// define
+val beefRaw = <minecraft:beef>;
+val rabbitRaw = <minecraft:rabbit>;
+val chickenRaw = <minecraft:chicken>;
+val pigRaw = <minecraft:porkchop>;
+val fishRaw = <minecraft:fish>;
+val neutron = <avaritia:resource:2>;
+val cosmicMeatBall = <avaritia:cosmic_meatballs>;
+val ultimateStew = <avaritia:ultimate_stew>;
+val pumpkin = <minecraft:pumpkin>;
+val brownMushRoom = <minecraft:brown_mushroom>;
+val wheat = <minecraft:wheat>;
+val carrot = <minecraft:carrot>;
+val beetRoot = <minecraft:beetroot>;
+val apple = <minecraft:apple>;
+val potato = <minecraft:potato>;
+val melon = <minecraft:melon>;
+val cactus = <minecraft:cactus>;
+
 // remove
 var toRemove as IItemStack[] = [
     <avaritia:infinity_pickaxe>,
-    <avaritia:skullfire_sword>,
     <avaritia:infinity_shovel>,
     <avaritia:infinity_axe>,
     <avaritia:infinity_hoe>
@@ -18,6 +36,8 @@ for remove in toRemove {
     remove.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 }
 
+ExtremeCrafting.remove(cosmicMeatBall);
+ExtremeCrafting.remove(ultimateStew);
 
 // add
 // 龙芯
@@ -84,3 +104,9 @@ ExtremeCrafting.addShaped("TierIV", <environmentaltech:structure_frame_4> * 2, [
     [null, null, null, <super_solar_panels:crafting:7>, <super_solar_panels:crafting:7>, <super_solar_panels:crafting:7>, null, null, null],
     [null, null, null, null, null, null, null, null, null]
 ]);
+
+// 寰宇肉丸
+recipes.addShapeless(cosmicMeatBall,[neutron, chickenRaw, fishRaw, pigRaw, rabbitRaw, beefRaw, rabbitRaw, rabbitRaw, rabbitRaw]);
+
+// 超级煲
+recipes.addShaped(ultimateStew*9,[[pumpkin, brownMushRoom, wheat],[beetRoot, neutron, apple,],[potato, melon, cactus]]);

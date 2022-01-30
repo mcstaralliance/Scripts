@@ -2,6 +2,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.avaritia.ExtremeCrafting;
 
 import scripts.utils;
 

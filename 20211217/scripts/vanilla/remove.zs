@@ -1,6 +1,8 @@
 #priority 3000
 
 import crafttweaker.item.IItemStack;
+import mods.avaritia.ExtremeCrafting;
+
 
 import scripts.utils.uniBan;
 
@@ -230,10 +232,22 @@ var toRemove as IItemStack[] = [
     
 ];
 
+var extremeRemove as IItemStack[] = [
+    <avaritia:infinity_pickaxe>,
+    <avaritia:skullfire_sword>,
+    <avaritia:infinity_shovel>,
+    <avaritia:infinity_axe>,
+    <avaritia:infinity_hoe>
+];
+
 for ban in toBan {
     uniBan(ban);
 }
 
 for remove in toRemove{
     recipes.remove(remove);
+}
+
+for remove in extremeRemove{
+    ExtremeCrafting.remove(remove);
 }
