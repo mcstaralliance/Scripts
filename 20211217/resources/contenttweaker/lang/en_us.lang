@@ -39,3 +39,5 @@ tooltip.hammer_for_frame=§fFor every frame, a Crescent Hammer will disappear fr
 tooltip.coin_value=Value: 
 tooltip.scheduled_for_deletion=This item is a Mod item scheduled for deletion, please use another item instead.
 tooltip.dread_change=We dread change, but change is the driving force behind moving forward.
+tooltip.maid=Maid spawning and resurrection recipes have been removed.
+tooltip.wizardry=This spell has been disabled by plugins.

@@ -59,6 +59,28 @@ for satchelTooltip in satchelTooltips {
     satchelTooltip.addTooltip(format.green(game.localize("tooltip.satchel")));
 }
 
+// Touhou Little Maid
+var maidTooltips as IItemStack[] = [
+    <touhou_little_maid:garage_kit>,
+    <touhou_little_maid:smart_slab>,
+    <touhou_little_maid:smart_slab:1>
+];
+
+for maidTooltip in maidTooltips {
+    maidTooltip.addTooltip(format.red(game.localize("tooltip.maid")));
+}
+
+// Electroblob's Wizardry
+var wizardryTooltips as IItemStack[] = [
+    <ebwizardry:spell_book:11>,
+    <ebwizardry:spell_book:159>,
+    <ebwizardry:spell_book:170>
+];
+
+for wizardryTooltip in wizardryTooltips {
+    wizardryTooltip.addTooltip(format.red(game.localize("tooltip.wizardry")));
+}
+
 // even more
 <contenttweaker:paimon>.addTooltip(game.localize("tooltip.best_friends"));
 <contenttweaker:skull_block>.addTooltip(game.localize("tooltip.break_black_wool"));
