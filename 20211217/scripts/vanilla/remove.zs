@@ -158,7 +158,10 @@ var toBan as IItemStack[] = [
     <tconstruct:throwball>,
     
     // conarm
-    <conarm:travel_sack>
+    <conarm:travel_sack>,
+    
+    // quark
+    <quark:pickarang>
 ];
 
 // remove
