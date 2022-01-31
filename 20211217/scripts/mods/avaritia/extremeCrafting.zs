@@ -55,15 +55,15 @@ ExtremeCrafting.addShaped("Draconic", <draconicevolution:draconic_core> * 1, [
 
 // 双足飞龙嬗变器
 ExtremeCrafting.addShaped("Dragon", <contenttweaker:dragon> * 2, [
-    [null, null, null, null, <super_solar_panels:crafting:29>, null, null, null, null], 
-    [null, <botania:rune:8>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:29>, null, <super_solar_panels:crafting:0>, <botania:rune:11>, null],
+    [null, null, null, null, <super_solar_panels:crafting:28>, null, null, null, null], 
+    [null, <botania:rune:8>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:28>, null, <super_solar_panels:crafting:0>, <botania:rune:11>, null],
     [null, <super_solar_panels:crafting:0>, <super_solar_panels:crafting:21>, <threng:material:1>, <threng:material:1>, <threng:material:1>, <super_solar_panels:crafting:21>, <super_solar_panels:crafting:0>, null],
     [null, null, <threng:material:1>, <botania:alchemycatalyst>, <draconicevolution:draconic_core>, <botania:alchemycatalyst>, <threng:material:1>, null, null],
-    [<super_solar_panels:crafting:29>, <super_solar_panels:crafting:29>, <threng:material:1>, <botania:manaresource:5>, <super_solar_panels:crafting:13>, <botania:manaresource:5>, <threng:material:1>, <super_solar_panels:crafting:29>, <super_solar_panels:crafting:29>],
+    [<super_solar_panels:crafting:28>, <super_solar_panels:crafting:28>, <threng:material:1>, <botania:manaresource:5>, <super_solar_panels:crafting:13>, <botania:manaresource:5>, <threng:material:1>, <super_solar_panels:crafting:28>, <super_solar_panels:crafting:28>],
     [null, null, <threng:material:1>, <botania:alchemycatalyst>, <draconicevolution:draconic_core>, <botania:alchemycatalyst>, <threng:material:1>, null, null],
     [null, <super_solar_panels:crafting:0>, <super_solar_panels:crafting:21>, <threng:material:1>, <threng:material:1>, <threng:material:1>, <super_solar_panels:crafting:21>, <super_solar_panels:crafting:0>, null],
-    [null, <botania:rune:9>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:29>, null, <super_solar_panels:crafting:0>, <botania:rune:10>, null],
-    [null, null, null, null, <super_solar_panels:crafting:29>, null, null, null, null]
+    [null, <botania:rune:9>, <super_solar_panels:crafting:0>, null, <super_solar_panels:crafting:28>, null, <super_solar_panels:crafting:0>, <botania:rune:10>, null],
+    [null, null, null, null, <super_solar_panels:crafting:28>, null, null, null, null]
 ]);
 
 // 双足飞龙核心
