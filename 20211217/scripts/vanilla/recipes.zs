@@ -300,3 +300,8 @@ recipes.addShaped(<appliedenergistics2:material:38>, [
 recipes.addShaped(<advgenerators:iron_frame> * 2, 
     utils.createCrossWithCore(null, <ore:ingotIron>, null)
 );
+
+// 星芒宝钻
+recipes.addShaped(<ebwizardry:astral_diamond>, 
+    utils.createCrossWithCore(<contenttweaker:primogem>, <contenttweaker:star>, ULTRACOIN)
+);

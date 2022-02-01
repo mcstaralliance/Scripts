@@ -87,3 +87,4 @@ for wizardryTooltip in wizardryTooltips {
 <botania:manaresource:4>.addTooltip(game.localize("tooltip.about_a_quarter"));
 <avaritia:resource:1>.addTooltip(game.localize("tooltip.about_a_quarter"));
 <ic2:resource:12>.addTooltip(game.localize("tooltip.hammer_for_frame"));
+<contenttweaker:primogem>.addTooltip(game.localize("tooltip.primogem"));
