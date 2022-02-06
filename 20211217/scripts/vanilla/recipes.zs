@@ -305,3 +305,54 @@ recipes.addShaped(<advgenerators:iron_frame> * 2,
 recipes.addShaped(<ebwizardry:astral_diamond>, 
     utils.createCrossWithCore(<contenttweaker:primogem>, <contenttweaker:star>, ULTRACOIN)
 );
+
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, 
+    utils.createCustomRecipe(
+        <avaritia:block_resource>, 
+        <eternalsingularity:eternal_singularity>, 
+        <avaritia:resource:5>, 
+        <draconicevolution:wyvern_helm>, 
+        <super_solar_panels:crafting:29>, 
+        <draconicevolution:chaotic_core>)
+);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, 
+    utils.createCustomRecipe(
+        <avaritia:block_resource>, 
+        <eternalsingularity:eternal_singularity>, 
+        <avaritia:resource:5>, 
+        <draconicevolution:wyvern_chest>, 
+        <super_solar_panels:crafting:29>, 
+        <draconicevolution:chaotic_core>)
+);
+
+recipes.addShaped(<avaritia:infinity_pants>, 
+    utils.createCustomRecipe(
+        <avaritia:block_resource>, 
+        <eternalsingularity:eternal_singularity>, 
+        <avaritia:resource:5>, 
+        <draconicevolution:wyvern_legs>, 
+        <super_solar_panels:crafting:29>, 
+        <draconicevolution:chaotic_core>)
+);
+
+recipes.addShaped(<avaritia:infinity_boots>, 
+    utils.createCustomRecipe(
+        <avaritia:block_resource>, 
+        <eternalsingularity:eternal_singularity>, 
+        <avaritia:resource:5>, 
+        <draconicevolution:wyvern_boots>, 
+        <super_solar_panels:crafting:29>, 
+        <draconicevolution:chaotic_core>)
+);
+
+recipes.addShaped(<avaritia:infinity_sword>, 
+    utils.createCustomRecipe(
+        <avaritia:block_resource>, 
+        <eternalsingularity:eternal_singularity>, 
+        <avaritia:resource:5>, 
+        <avaritia:skullfire_sword>, 
+        <super_solar_panels:crafting:29>, 
+        <draconicevolution:chaotic_core>)
+);
