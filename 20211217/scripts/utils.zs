@@ -60,3 +60,11 @@ function createRightSlash(input as IIngredient) as IIngredient[][] {
     [null, input, null],
     [input, null, null]];
 }
+
+function createSpecialCross(a as IIngredient, b as IIngredient, c as IIngredient, d as IIngredient, e as IIngredient, f as IIngredient) as IIngredient[][] {
+    return [
+        [a, b, a], 
+        [c, d, c], 
+        [e, f, e]
+    ];
+} 
