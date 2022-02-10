@@ -147,6 +147,7 @@ var toBan as IItemStack[] = [
     <botania:waterrod>,
     <botania:exchangerod>,
     <botania:blackholetalisman>,
+    <botania:lens:7>,
 
     // sakura
     <sakura:samurai_helmet>,
@@ -161,7 +162,11 @@ var toBan as IItemStack[] = [
     <conarm:travel_sack>,
     
     // quark
-    <quark:pickarang>
+    <quark:pickarang>,
+    
+    // cfm
+    <cfm:item_package>,
+    <cfm:present>
 ];
 
 // remove
