@@ -308,7 +308,7 @@ recipes.addShaped(<ebwizardry:astral_diamond>,
 
 // 无尽套
 recipes.addShaped(<avaritia:infinity_helmet>, 
-    utils.createCustomRecipe(
+    utils.createSpecialCross(
         <avaritia:block_resource>, 
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
@@ -318,7 +318,7 @@ recipes.addShaped(<avaritia:infinity_helmet>,
 );
 
 recipes.addShaped(<avaritia:infinity_chestplate>, 
-    utils.createCustomRecipe(
+    utils.createSpecialCross(
         <avaritia:block_resource>, 
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
@@ -328,7 +328,7 @@ recipes.addShaped(<avaritia:infinity_chestplate>,
 );
 
 recipes.addShaped(<avaritia:infinity_pants>, 
-    utils.createCustomRecipe(
+    utils.createSpecialCross(
         <avaritia:block_resource>, 
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
@@ -338,7 +338,7 @@ recipes.addShaped(<avaritia:infinity_pants>,
 );
 
 recipes.addShaped(<avaritia:infinity_boots>, 
-    utils.createCustomRecipe(
+    utils.createSpecialCross(
         <avaritia:block_resource>, 
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
@@ -348,7 +348,7 @@ recipes.addShaped(<avaritia:infinity_boots>,
 );
 
 recipes.addShaped(<avaritia:infinity_sword>, 
-    utils.createCustomRecipe(
+    utils.createSpecialCross(
         <avaritia:block_resource>, 
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
