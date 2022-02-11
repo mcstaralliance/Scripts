@@ -313,7 +313,7 @@ recipes.addShaped(<avaritia:infinity_helmet>,
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
         <draconicevolution:wyvern_helm>, 
-        <super_solar_panels:crafting:29>, 
+        <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
 
@@ -323,7 +323,7 @@ recipes.addShaped(<avaritia:infinity_chestplate>,
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
         <draconicevolution:wyvern_chest>, 
-        <super_solar_panels:crafting:29>, 
+        <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
 
@@ -333,7 +333,7 @@ recipes.addShaped(<avaritia:infinity_pants>,
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
         <draconicevolution:wyvern_legs>, 
-        <super_solar_panels:crafting:29>, 
+        <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
 
@@ -343,7 +343,7 @@ recipes.addShaped(<avaritia:infinity_boots>,
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
         <draconicevolution:wyvern_boots>, 
-        <super_solar_panels:crafting:29>, 
+        <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
 
@@ -353,6 +353,6 @@ recipes.addShaped(<avaritia:infinity_sword>,
         <eternalsingularity:eternal_singularity>, 
         <avaritia:resource:5>, 
         <avaritia:skullfire_sword>, 
-        <super_solar_panels:crafting:29>, 
+        <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
