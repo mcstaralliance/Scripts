@@ -38,6 +38,9 @@ var diamondAxe as IItemStack= <minecraft:diamond_axe>.anyDamage().transformDamag
 // 元始魔力粉
 furnace.addRecipe(<thermalfoundation:material:1028> * 1, <botania:manaresource:23> * 1);
 
+// 陨石
+furnace.addRecipe(<appliedenergistics2:sky_stone_block> * 1, <minecraft:stone> * 1);
+
 
 
 // cot items
@@ -356,3 +359,16 @@ recipes.addShaped(<avaritia:infinity_sword>,
         <avaritia:block_resource:1>, 
         <draconicevolution:chaotic_core>)
 );
+
+// 无尽催化剂
+recipes.addShapeless(<avaritia:resource:5>, [
+    <avaritia:resource>, 
+    <avaritia:resource:1>, 
+    <avaritia:resource:4>, 
+    <avaritia:ultimate_stew>, 
+    <avaritia:cosmic_meatballs>, 
+    <avaritia:endest_pearl>, 
+    <avaritia:resource:7>, 
+    <eternalsingularity:eternal_singularity>, 
+    <thermalfoundation:storage_alloy:7>
+]);
