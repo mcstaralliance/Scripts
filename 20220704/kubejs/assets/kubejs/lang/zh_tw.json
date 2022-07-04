@@ -1,0 +1,21 @@
+{
+    "item.kubejs.nickel_ingot": "鎳錠",
+    "item.kubejs.copper_ingot": "銅錠",
+    "item.kubejs.tin_ingot": "鋅錠",
+    "item.kubejs.aluminum_ingot": "鋁錠",
+    "item.kubejs.silver_ingot": "銀錠",
+    "item.kubejs.uranium_ingot": "鈾錠",
+    "item.kubejs.iridium_ingot": "銥錠",
+    "item.kubejs.platinum_ingot": "鉑錠",
+    "item.kubejs.lead_ingot": "鉛錠",
+    "item.kubejs.star": "星",
+    "item.kubejs.primogem": "原石",
+    "item.kubejs.intertwined_fate": "糾纏之緣",
+    "item.kubejs.acquaint_fate": "相遇之緣",
+    "item.kubejs.clay_furnace": "熔爐模型",
+    "item.kubejs.paimon": "派蒙",
+    "item.kubejs.dragon_catalyst": "龍催化劑",
+    "block.kubejs.magic_log": "自然木",
+    "block.kubejs.skull_block": "或許他不是 Ecaree",
+    "block.kubejs.magic_stone": "蘊魔石"
+}
