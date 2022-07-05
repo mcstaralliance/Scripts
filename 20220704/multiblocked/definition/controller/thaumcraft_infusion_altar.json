@@ -1,0 +1,232 @@
+{
+  "catalyst": "{id:\"minecraft:air\",Count:0b}",
+  "consumeCatalyst": true,
+  "location": "thaumcraft:infusion_altar",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 86,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 33,
+        "y": 111,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 50,
+        "y": 39,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 77,
+        "y": 39,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 103,
+        "y": 39,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 123,
+        "y": 61,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 123,
+        "y": 85,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 123,
+        "y": 111,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 77,
+        "y": 133,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "kubejs:infuser_normal",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "kubejs:working_infuser",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "properties": {
+    "isOpaque": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "harvestLevel": 1,
+    "lightEmissive": 0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "hasCollision": true,
+    "tabGroup": "multiblocked.all",
+    "stackSize": 64
+  },
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        "       "
+      ],
+      [
+        "  BBB  ",
+        "       "
+      ],
+      [
+        " BCBCBA",
+        "       "
+      ],
+      [
+        "ABBBBBA",
+        "   @   "
+      ],
+      [
+        " BCBCBA",
+        "       "
+      ],
+      [
+        "  BBB  ",
+        "       "
+      ],
+      [
+        "  AAA  ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "uusi-aurinko:item_pedestal"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "thaumcraft:infusion_altar",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "minecraft:redstone_wire"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "kubejs:pillar_ancient"
+          }
+        ],
+        "type": "blocks"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "cfb38cd5-efe6-48af-8ce8-36620399cef1"
+}
