@@ -8,7 +8,7 @@ onEvent('item.registry', event => {
 })
 
 onEvent('item.registry', event => {
-	const addEpicItem = ['star', 'primogem', 'dragon_catalyst', 'intertwined_fate', 'acquaint_fate', "clay_furnace"]
+	const addEpicItem = ['star', 'primogem', 'dragon_catalyst', 'intertwined_fate', 'acquaint_fate', 'clay_furnace', 'salis_mundus']
 	for (i = 0; i < addEpicItem.length; i++) {
 		event.create(addEpicItem[i])
 	}
@@ -21,7 +21,7 @@ onEvent('item.registry', event => {
 })
 
 onEvent('block.registry', event => {
-	const addBlock = ["magic_log", "skull_block", "magic_stone"]
+	const addBlock = ['magic_log', 'skull_block', 'magic_stone', 'pillar_ancient', 'infuser_normal', 'working_infuser']
 	for (i = 0; i < addBlock.length; i++) {
 		event.create(addBlock[i])
 	}
