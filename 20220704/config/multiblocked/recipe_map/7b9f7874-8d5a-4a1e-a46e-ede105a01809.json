@@ -1,0 +1,3854 @@
+{
+  "name": "tfc_mineral_process",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "f4831555-2fa4-4fc3-a817-40b6121e926c",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cassiterite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tin\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "988f0b7c-5864-47b3-9c22-33af09bf68af",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_platinum\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/platinum\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3d2311a3-c4f1-4602-aedb-9ece543b5232",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_platinum\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/platinum\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "65d4e354-3244-4878-b90a-0530c965f81e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/pyrolusite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/manganese\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0f1d2298-6317-42a2-ad8c-d92a792e8ac8",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bismuthinite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "07bc3907-76e8-4e30-99cb-97c51b7626d1",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/bismuthinite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "435cfb61-ade1-4b84-b1a8-e6740f34c5b0",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_gold\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/gold\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "66799b39-6967-4fd9-90d0-d489a65c56db",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_gold\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/gold\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4a775e7a-2d25-4a2b-8fef-4326d77ee211",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/galena\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lead\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "18e64040-5d61-439a-a8d3-7791fdb36078",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/wolframite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tungsten\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "67e3fd9e-9aa7-4962-a10f-7090740de3c8",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/magnesite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/magnesium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "39c9185a-3c21-4028-a2d2-bbe61d74a7c2",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/galena\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lead\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1861a3ae-345f-473b-8f8c-bcd042d09f76",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/spodumene\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lithium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0f96adca-c8d6-4f4c-8a0a-f4e6657fcaff",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_ardite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/ardite\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "586d9ee8-69ef-494e-a863-0892aba0a611",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/cobaltite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/cobalt\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5695d006-ac57-4eb3-b984-6e239c476d45",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/malachite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e26aff58-2f83-4e12-afaf-06657f0281b9",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/native_osmium\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/osmium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ef79bf47-e2cb-4cfe-b826-2047aa8da5d3",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/malachite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f3bc0dae-d128-48f1-83bd-6fb15050600e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/malachite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "18d5db7d-a63a-44ed-bbcf-3b30784f8efc",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/rutile\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/titanium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aa32a3cc-ecc4-4366-b7f1-15d303f99071",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/wolframite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tungsten\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b1aff066-20aa-4902-b9bc-b11f29fa7c3f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/thorianite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/thorium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1f760667-d4e1-4a40-b384-815e37df468e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/malachite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "aa163443-7bd1-4f81-87cf-70c1b8bcd78f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnetite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/pig_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8480fec6-bff7-4187-b728-910631f88299",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/rutile\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/titanium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "edbf9d98-e11a-44df-a966-fb4021fecbdf",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/zircon\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zirconium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b3a55030-af7c-4d6a-8084-9014e89ee92c",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnetite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/pig_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "538fe7e1-1f59-4e0a-aee8-c542c925183d",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_copper\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "24a1de24-fa04-4c39-924b-2e1070fb3107",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/magnetite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/pig_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d22fbe2a-82eb-438f-a2f1-f838e5f8a0d5",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/limonite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "eca85ea4-da5f-4344-ab22-0149a67ad873",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/stibnite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/antimony\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a1a6bd52-073e-44d9-96c2-111bfbb9f0a3",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnesite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/magnesium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4cd304ae-5cfe-48ac-93b7-7d6cf4c28262",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_copper\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "29a2ee27-c7e7-4495-b600-2b89bd56ab27",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_osmium\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/osmium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f4c7b7ff-551c-4b4a-905c-1f0b001e60cf",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/wolframite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tungsten\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "04a027f5-f2b5-4752-abe3-ad91ea53ceb3",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/garnierite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/nickel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "46110d84-d65c-4e58-ade0-cfabb9b02e7f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/garnierite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/nickel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "00ab9124-18e8-418b-8dde-035416e00ae3",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/garnierite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/nickel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "31d65549-37e1-4bdd-a9cb-444c23380416",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_osmium\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/osmium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "06db3dbb-6f53-4e47-a1e5-4252ca699cfe",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/zircon\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zirconium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5028ccc9-a8c1-43dd-9e10-27b13629af56",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/sphalerite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zinc\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8717229a-0ed0-4db2-8da1-74199e2444b4",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/tetrahedrite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f52639cb-4026-4e3c-a816-6914c7c21743",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/rutile\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/titanium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e7fbbe81-155d-4fe8-a8cb-984daddd9d39",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/hematite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "53aac635-c827-4cfa-83d3-d2a1bfb7c42e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/hematite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "faf16c3a-397b-4b90-9ca3-3ed6272316d8",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bauxite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/aluminium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c17955c7-08e5-4d7d-9338-6102a6438d50",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/rutile\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/titanium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "daaf803b-e16e-4760-ad56-136e44e61661",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/tetrahedrite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cf6740f0-8965-42d0-9027-cf1ee59cc6e6",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/tetrahedrite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5fec928c-9040-47a2-a1b6-ba0b002955cb",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/native_silver\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/silver\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "041fca31-ae9a-46c0-a235-0eb313f5eba9",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/thorianite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/thorium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4a6e7c6b-71b1-4d2b-93f1-c5e0467737c0",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_copper\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "05d22910-6824-4ad2-81c3-9798f1dc7f60",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/spodumene\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lithium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d0be7bc1-afec-457d-8553-ddad38a30463",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_silver\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/silver\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d44e9893-0ab6-495f-a585-9794925ca293",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cassiterite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tin\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e2c4d98e-cafb-4ee1-b0ec-e9cb8e21c5e6",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/wolframite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tungsten\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ddde2c5c-a1ec-4d17-aa4c-af38aaf1989c",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_ardite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/ardite\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ad5f5f0c-86b8-4839-acad-445217edd0c6",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/thorianite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/thorium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "355fa005-1c5f-4298-bd9e-833d3830af9f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cassiterite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tin\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4b4c9422-ea09-4c73-8815-f89348072525",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_copper\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "72c6f2c2-55d5-407e-b497-f235eca7a2e5",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/cassiterite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/tin\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8c5d55c6-13a1-4908-b4e6-597347561aa1",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bauxite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/aluminium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2eef1bb6-d86e-4f32-b5cb-3a00bfca87e4",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bismuthinite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ac04d2df-3669-4926-9066-74c836ab26c7",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bismuthinite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b80ce383-0a56-4c00-9ffd-a8d92437bbf7",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/thorianite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/thorium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6147148e-af01-443f-9f4c-ba4f87c369a1",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_gold\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/gold\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0b6cfac4-5ebb-4997-af8f-05ca35fb4908",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/native_gold\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/gold\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1bdd7d3d-6bd1-4614-a118-e98a39632a8c",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/galena\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lead\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "55c093b1-c161-4d3a-9d26-042e7badbbbf",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/galena\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lead\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ec8f319f-777c-47b1-ba70-293148b7c4fe",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnesite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/magnesium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cdfdcf65-29db-4844-b4d9-70e78e159193",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_silver\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/silver\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "22f17220-aadb-4186-9f75-3c120b1c73d0",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/native_ardite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/ardite\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ceaba9ff-4b93-49d5-ade7-7fc91cd82559",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/spodumene\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lithium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9090cd84-882b-4341-8452-3bfb4b6dcc3b",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnetite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/pig_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "82dd1d03-8f1c-4656-9cf9-759db318f568",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_platinum\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/platinum\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "12c29caa-2f14-4af3-a201-b2f7ec492b1f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/pyrolusite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/manganese\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "30f743fc-393e-4c7f-8ced-f0f0349997dd",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cobaltite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/cobalt\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "08b59be6-3ee2-4e54-83a1-7892b1d39e71",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/limonite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "469896e7-bea1-4f74-9b58-fef9102b1e0b",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/spodumene\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/lithium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "056dd4c5-0894-4961-bd06-9c36f4aa5aa9",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/limonite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "58205812-23b8-426c-9d52-ff044d42dbc5",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/bauxite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/aluminium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d8c09050-0d61-49f6-82b2-9227b36760b7",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/native_platinum\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/platinum\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ea57c95f-8f29-4aa8-8d6d-d81aab9b23c9",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_ardite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/ardite\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "15443386-b436-4498-ab4b-c3dfcb2fc0ef",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/limonite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f19e55c8-c084-4630-8434-011a3f223e85",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/stibnite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/antimony\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "46e1ead9-3b28-49f3-b220-e31c17d5535a",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/garnierite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/nickel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b2d66be1-c30d-4b22-b166-df3045a66b7b",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/magnesite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/magnesium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "dccc7dce-6ca4-4ae5-a040-182179598c12",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/pyrolusite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/manganese\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1596add6-31f0-4425-975b-1f89f961ad3e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cobaltite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/cobalt\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ae18950b-81e7-49a6-a7f4-81743eb08d3f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/pyrolusite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/manganese\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1d929fe0-abdf-48e5-86a0-171d343a63e5",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_osmium\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/osmium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7bf4f736-ec26-48c4-ae0c-dbe41a9b5c33",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/stibnite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/antimony\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e99db291-a121-4d27-ab0d-ce88dc352ff6",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/sphalerite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zinc\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "837601d5-c4af-48b9-8b9e-3515ce6f561e",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/sphalerite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zinc\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "dc233e1c-abad-4a8c-8ff3-f7018ecdf3a2",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/sphalerite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zinc\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "de3279db-d9ee-4982-b8b5-d55ff927db05",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/stibnite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/antimony\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4bcfa9c3-d9d5-4375-b25d-9a0838573edb",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/hematite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2c7347a2-2e7b-4754-bd80-6ae9b4515292",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/tetrahedrite\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/copper\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2c8c8f34-115e-4f01-a7e7-694755d917c1",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/hematite\",Count:3b,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/wrought_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f788e296-9849-456e-9891-560be5c0671b",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/cobaltite\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/cobalt\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fb9c8c97-878a-4d9e-a249-137c53dccd3f",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/zircon\",Count:4b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zirconium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b8aa004b-d120-4221-97f9-5c93e2586c83",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/bauxite\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/aluminium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "020ba5c7-3e0a-4e62-a8fd-f94dcce3d639",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/small/zircon\",Count:10b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/zirconium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4f786d76-f1dc-4b6b-9f64-ab85bb5d5fad",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gemCoal"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 7,
+              "matches": [
+                "{ForgeCaps:{Parent:{heat:0.0f,ticks:-1L},\"customnpcs:itemscripteddata\":{}},id:\"tfc:ore/native_silver\",Count:7b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/silver\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
