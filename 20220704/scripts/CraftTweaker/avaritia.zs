@@ -1,5 +1,4 @@
 // 龙芯
-recipes.remove(<draconicevolution:draconic_core>);
 mods.avaritia.ExtremeCrafting.addShaped("draconic_core", <draconicevolution:draconic_core> * 1, [
     [null, null, null, null, null, null, null, null, null], 
     [null, <techreborn:part:1>, <techreborn:plates:33>, <techreborn:plates:33>, <techreborn:part:17>, <techreborn:plates:33>, <techreborn:plates:33>, <techreborn:part:1>, null],
@@ -12,7 +11,6 @@ mods.avaritia.ExtremeCrafting.addShaped("draconic_core", <draconicevolution:drac
     [null, null, null, null, null, null, null, null, null]]);
 
 // 双足飞龙核心
-recipes.remove(<draconicevolution:wyvern_core>);
 mods.avaritia.ExtremeCrafting.addShaped("wyvern_core", <draconicevolution:wyvern_core> * 2, [
     [null, null, null, null, null, null, null, null, null], 
     [null, <refinedstorage:storage_part:3>, null, null, <avaritia:resource:1>, null, null, <refinedstorage:fluid_storage_part:3>, null],
