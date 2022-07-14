@@ -1,3 +1,10 @@
 itemGroup.example_tab=MultiBlocked
 tile.starcraft.ore_furnace.name=星之炉
+tile.starcraft.star_miner.name=星力开采器I
+tile.starcraft.input_fe.name=能量输入口
+tile.starcraft.star_miner_tier2.name=星力开采器II
 multiblocked.recipe_map.tfc_mineral_process=熔炼
+multiblocked.recipe_map.mineral_formation_tier2=矿物开采II
+multiblocked.recipe_map.mineral_formation=矿物开采I
+star_miner.name=星力开采器I
+star_miner_tier2.name=星力开采器II

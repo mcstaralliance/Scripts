@@ -1,0 +1,292 @@
+{
+  "name": "mineral_formation",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "1f08e4f3-375f-49a7-8590-f4382ee718f9",
+      "duration": 400,
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:gold_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:iron_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:coal_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:lapis_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:diamond_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:redstone_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:emerald_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:quartz_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"draconicevolution:draconium_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"forestry:resources\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"rftools:dimensional_shard_ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"immersiveengineering:ore\",Count:1b,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:3s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:4s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:7s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:8s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:12s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"thermalfoundation:ore\",Count:1b,Damage:6s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore2\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"techreborn:ore2\",Count:1b,Damage:1s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.035,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"thermalfoundation:ore\",Count:1b,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    }
+  ]
+}
