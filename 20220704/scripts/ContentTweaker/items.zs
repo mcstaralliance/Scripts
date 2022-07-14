@@ -3,6 +3,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.Item;
+import scripts.utils;
 
 var myPaiMon = VanillaFactory.createItemFood("paimon", 4);
 myPaiMon.maxStackSize = 16;
