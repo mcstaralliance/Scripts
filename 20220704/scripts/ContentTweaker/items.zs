@@ -1,9 +1,18 @@
 #loader contenttweaker
 #priority 10000000
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.Item;
-import scripts.utils;
+
+function itemBuilder(name as string, maxStackSize as int, maxDamage as int, glowing as bool) {
+    var item as Item = VanillaFactory.createItem(name);
+    item.creativeTab = <creativetab:tab>;
+    item.maxStackSize = maxStackSize;
+    item.maxDamage = maxDamage;
+    item.glowing = glowing;
+    item.register();
+}
 
 var myPaiMon = VanillaFactory.createItemFood("paimon", 4);
 myPaiMon.maxStackSize = 16;
