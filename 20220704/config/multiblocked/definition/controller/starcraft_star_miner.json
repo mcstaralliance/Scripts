@@ -1,0 +1,209 @@
+{
+  "consumeCatalyst": false,
+  "location": "starcraft:star_miner",
+  "traits": {},
+  "allowRotate": false,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "refinedstorage:controller",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "     ",
+        "     ",
+        " A@A ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "     ",
+        "  B  ",
+        "A C A",
+        " DDD ",
+        "  E  ",
+        "     "
+      ],
+      [
+        "  B  ",
+        " B B ",
+        "AC CA",
+        " FGF ",
+        " EEE ",
+        "  H  "
+      ],
+      [
+        "     ",
+        "  B  ",
+        "A C A",
+        " III ",
+        "  E  ",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        " AAA ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "techreborn:machine_casing",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "starcraft:star_miner",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "techreborn:machine_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "fe_input": {
+        "location": "starcraft:input_fe",
+        "type": "component"
+      },
+      "item_output": {
+        "capability": "item",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "item_output"
+      ],
+      "I": [
+        "fe_input"
+      ]
+    }
+  },
+  "recipeMap": "mineral_formation"
+}

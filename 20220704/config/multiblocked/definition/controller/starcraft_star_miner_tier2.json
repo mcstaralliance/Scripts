@@ -1,0 +1,302 @@
+{
+  "consumeCatalyst": false,
+  "location": "starcraft:star_miner_tier2",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "botania:storage",
+      "meta": 3
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "techreborn:computer_cube",
+      "meta": 4
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        "       ",
+        "   B   ",
+        " AAAAA ",
+        "  CCC  ",
+        "  DDD  ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        "   E   ",
+        "  EFE  ",
+        " AGGGA ",
+        " HIIIC ",
+        " DDDDD ",
+        "  JKJ  ",
+        "       "
+      ],
+      [
+        "   F   ",
+        "   F   ",
+        "  E E  ",
+        " BF FB ",
+        "AAG GAA",
+        " HI IC ",
+        " DD DD ",
+        "  KL@  ",
+        "   M   "
+      ],
+      [
+        "       ",
+        "       ",
+        "   E   ",
+        "  EFE  ",
+        " AGGGA ",
+        " HIIIC ",
+        " DDDDD ",
+        "  JKJ  ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        "       ",
+        "   B   ",
+        " AAAAA ",
+        "  CCC  ",
+        "  DDD  ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "techreborn:machine_casing",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "starcraft:star_miner_tier2",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "techreborn:storage2",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "techreborn:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "refinedstorage:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "fe_input": {
+        "location": "starcraft:input_fe",
+        "type": "component"
+      },
+      "output": {
+        "capability": "item",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "fe_input"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "output"
+      ]
+    }
+  },
+  "recipeMap": "mineral_formation_tier2"
+}

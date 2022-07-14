@@ -1,0 +1,35 @@
+{
+  "canShared": true,
+  "location": "starcraft:input_fe",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 8,
+      "y": 72,
+      "width": 160,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 163840,
+      "maxReceive": 16384,
+      "maxExtract": 16384
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:redstone_lamp",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "workingRenderer": {
+    "state": {
+      "id": "quark:lit_lamp",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}
