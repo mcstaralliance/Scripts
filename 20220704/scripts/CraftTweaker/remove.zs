@@ -160,9 +160,6 @@ var ban as IItemStack[] = [
  
     // techreborn
     <techreborn:chunk_loader>,
-    <techreborn:fluid_replicator>,
-    <techreborn:rolling_machine>,
-    <techreborn:wire_mill>,
     <techreborn:chemical_reactor>,
     <techreborn:nuke>,
     
