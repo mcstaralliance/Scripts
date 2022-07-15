@@ -117,8 +117,56 @@ recipes.addShaped(<draconicevolution:wyvern_boots>,
 );
 
 // 粘液球
-recipes.addShaped(<minecraft:slime_ball>, [
+recipes.addShaped(<minecraft:slime_ball> * 4, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
     [<minecraft:clay_ball>, null, <minecraft:clay_ball>],
     [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]
+]);
+
+// 过硫酸钠
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodiumpersulfate", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodiumsulfide", Amount: 1000}}), 
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}})
+]);
+
+// 硝基燃油
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrofuel", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidoil", Amount: 1000}}), 
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrogen", Amount: 1000}})
+]);
+
+// 硝基碳
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocarbon", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrogen", Amount: 1000}}),
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})
+]);
+
+// 硝基煤油
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocoalfuel", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}),
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})
+]);
+
+// 硝基柴油
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrodiesel", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluiddiesel", Amount: 1000}}),
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}})
+]);
+
+// 硝化甘油
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidglyceryl", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), 
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocarbon", Amount: 1000}})
+]);
+
+// 硫化钠
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodiumsulfide", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsulfur", Amount: 1000}}),
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}})
+]);
+
+// 甲烷单元
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidmethane", Amount: 1000}}), [
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhydrogen", Amount: 1000}}), 
+    <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})
 ]);
