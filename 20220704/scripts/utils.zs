@@ -14,6 +14,10 @@ function uniBan(item as IItemStack) {
     item.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 }
 
+function techBan(item as IItemStack) {
+    mods.techreborn.centrifuge.removeInputRecipe(item,null);
+}
+
 // the following "create" functions were quoted from
 // https://github.com/friendlyhj/GrassUtils/blob/master/main/RecipeUtils.zs, under MIT License.
 function createSurround(core as IIngredient,surrounded as IIngredient) as IIngredient[][] {
