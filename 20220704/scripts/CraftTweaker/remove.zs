@@ -21,7 +21,8 @@ var remove as IItemStack[] = [
     <draconicevolution:wyvern_legs>,
     <draconicevolution:wyvern_boots>,
     <draconicevolution:wyvern_core>,
-    <draconicevolution:draconic_core>
+    <draconicevolution:draconic_core>,
+    <cookingforblockheads:sink>
 ];
 
 var ban as IItemStack[] = [
