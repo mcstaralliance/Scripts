@@ -88,7 +88,7 @@ var ban as IItemStack[] = [
     <draconicevolution:dislocator_pedestal>,
     <draconicevolution:dislocator_receptacle>,
 
-    // eio
+    // EnderIO
     <enderio:block_weather_obelisk>,
     <enderio:item_rod_of_return>,
     <enderio:item_travel_staff>,
