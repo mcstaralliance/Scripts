@@ -177,3 +177,6 @@ recipes.addShaped(<cookingforblockheads:sink>, [
     [ULTRACOIN, ADVANCEDCOIN, ULTRACOIN],
     [ULTRACOIN, ULTRACOIN, ULTRACOIN]
 ]);
+
+// 青铜锭
+recipes.addShapeless(<forestry:ingot_bronze> * 9, [<ore:blockBronze>]);
