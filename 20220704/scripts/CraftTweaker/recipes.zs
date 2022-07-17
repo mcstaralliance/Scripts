@@ -180,3 +180,8 @@ recipes.addShaped(<cookingforblockheads:sink>, [
 
 // 青铜锭
 recipes.addShapeless(<forestry:ingot_bronze> * 9, [<ore:blockBronze>]);
+
+// 煤炭块
+recipes.addShaped(<minecraft:coal_block>, 
+    utils.createFull3(<minecraft:coal>)
+);
