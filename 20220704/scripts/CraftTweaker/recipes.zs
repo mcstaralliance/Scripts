@@ -170,3 +170,10 @@ recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluid
     <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhydrogen", Amount: 1000}}), 
     <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbon", Amount: 1000}})
 ]);
+
+// 水槽
+recipes.addShaped(<cookingforblockheads:sink>, [
+    [ADVANCEDCOIN, COMMONCOIN, ADVANCEDCOIN], 
+    [ULTRACOIN, ADVANCEDCOIN, ULTRACOIN],
+    [ULTRACOIN, ULTRACOIN, ULTRACOIN]
+]);
