@@ -153,6 +153,7 @@ var ban as IItemStack[] = [
     // cfm
     <cfm:item_package>,
     <cfm:present>,
+    <cfm:item_envelope>,
     
     // rftools
     <rftools:builder>,
