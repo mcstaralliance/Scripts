@@ -200,4 +200,10 @@ recipes.addShaped(<minecraft:brewing_stand>, [
     [null, null, null],
     [null, <minecraft:blaze_rod>, null],
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+    
+// 木鱼杆
+recipes.addShaped(<minecraft:fishing_rod>, [
+    [null, null, <ore:stickWood>],
+    [null, <ore:stickWood>, <ore:string>],
+    [<ore:stickWood>, null, <ore:string>]
 ]);

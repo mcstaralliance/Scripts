@@ -1,9 +1,12 @@
 import mods.techreborn.alloySmelter;
+import mods.techreborn.extractor;
 import scripts.utils;
 
 mods.techreborn.alloySmelter.addRecipe(<minecraft:ender_eye>, <ore:dustBlaze>, <ore:enderpearl>, 100, 100);
 mods.techreborn.alloySmelter.addRecipe(<minecraft:end_crystal>, <ore:netherStar>, <ore:enderpearl>, 400, 100);
 mods.techreborn.alloySmelter.addRecipe(<minecraft:beacon>, <minecraft:nether_star>, <ore:obsidian>, 800, 100);
+
+mods.techreborn.extractor.addRecipe(<minecraft:glowstone_dust>, <ore:sand>, 100, 100);
 
 <ore:dustChrome>.add(<tfc:ore/chromite>);
 <ore:ingotIron>.add(<tfc:metal/ingot/pig_iron>, <tfc:metal/ingot/wrought_iron>);
