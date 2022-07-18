@@ -186,6 +186,21 @@ recipes.addShaped(<minecraft:coal_block>,
     utils.createFull3(<minecraft:coal>)
 );
 
+// 工作台
+recipes.addShapeless(<minecraft:crafting_table>, [<ore:workbench>]);
+
+// 木板
+recipes.addShapeless(<minecraft:planks>, [<ore:plankWood>]);
+
+// 未加工大理岩
+recipes.addShapeless(<tfc:raw/marble>, [<tfc:metal/hammer/copper>.anyDamage().transformDamage(1), <ore:cobblestone>]);
+
+// 炼药台
+recipes.addShaped(<minecraft:brewing_stand>, [
+    [null, null, null],
+    [null, <minecraft:blaze_rod>, null],
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+    
 // 木鱼杆
 recipes.addShaped(<minecraft:fishing_rod>, [
     [null, null, <ore:stickWood>],
