@@ -185,3 +185,10 @@ recipes.addShapeless(<forestry:ingot_bronze> * 9, [<ore:blockBronze>]);
 recipes.addShaped(<minecraft:coal_block>, 
     utils.createFull3(<minecraft:coal>)
 );
+
+// 木鱼杆
+recipes.addShaped(<minecraft:fishing_rod>, [
+    [null, null, <ore:stickWood>],
+    [null, <ore:stickWood>, <ore:string>],
+    [<ore:stickWood>, null, <ore:string>]
+]);
