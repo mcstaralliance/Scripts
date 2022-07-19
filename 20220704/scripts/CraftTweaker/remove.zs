@@ -24,7 +24,8 @@ var remove as IItemStack[] = [
     <draconicevolution:draconic_core>,
     <cookingforblockheads:sink>,
     <forestry:ingot_bronze>,
-    <harvestcraft:freshwateritem>
+    <harvestcraft:freshwateritem>,
+    <advgenerators:iron_frame>
 ];
 
 var ban as IItemStack[] = [
