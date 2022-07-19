@@ -208,3 +208,6 @@ recipes.addShaped(<minecraft:fishing_rod>, [
     [null, <ore:stickWood>, <ore:string>],
     [<ore:stickWood>, null, <ore:string>]
 ]);
+
+// 淡水
+recipes.addShapeless(<harvestcraft:freshwateritem> * 8, [<minecraft:water_bucket>]);
