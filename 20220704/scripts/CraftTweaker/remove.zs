@@ -23,7 +23,8 @@ var remove as IItemStack[] = [
     <draconicevolution:wyvern_core>,
     <draconicevolution:draconic_core>,
     <cookingforblockheads:sink>,
-    <forestry:ingot_bronze>
+    <forestry:ingot_bronze>,
+    <harvestcraft:freshwateritem>
 ];
 
 var ban as IItemStack[] = [
@@ -165,6 +166,7 @@ var ban as IItemStack[] = [
     <techreborn:chunk_loader>,
     <techreborn:chemical_reactor>,
     <techreborn:nuke>,
+    <techreborn:matter_fabricator>,
     
     // tfc
     <tfc:powderkeg>
@@ -213,3 +215,6 @@ Carpenter.removeRecipe(<forestry:letters>);
 // banBotania
 Apothecary.removeRecipe("rannuncarpus");
 <botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
+
+// removeLootTable
+LootTable.removeModTable("minecraft");
