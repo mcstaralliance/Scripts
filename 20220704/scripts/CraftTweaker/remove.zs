@@ -219,3 +219,4 @@ Apothecary.removeRecipe("rannuncarpus");
 
 // removeLootTable
 LootTable.removeModTable("minecraft");
+LootTable.removeModTable("quark");
