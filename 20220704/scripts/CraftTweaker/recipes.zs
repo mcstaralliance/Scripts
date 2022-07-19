@@ -208,3 +208,19 @@ recipes.addShaped(<minecraft:fishing_rod>, [
     [null, <ore:stickWood>, <ore:string>],
     [<ore:stickWood>, null, <ore:string>]
 ]);
+
+// 淡水
+recipes.addShapeless(<harvestcraft:freshwateritem> * 8, [<minecraft:water_bucket>]);
+
+// 铁框架
+recipes.addShaped(<advgenerators:iron_frame> * 2, [
+    [null, <ore:stickIron>, null],
+    [<ore:stickIron>, null, <ore:stickIron>],
+    [null, <ore:stickIron>, null]
+]);
+
+//精炼铁锭
+recipes.addShapeless(<techreborn:ingot:19>, [<ore:ingotIron>, <ore:ingotIron>]);
+
+// 海晶碎片
+recipes.addShapeless(<minecraft:prismarine_shard> * 2, [<ore:gemLapis>, <ore:quartzMana>]);
