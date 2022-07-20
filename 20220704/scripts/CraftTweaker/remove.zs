@@ -217,6 +217,3 @@ Carpenter.removeRecipe(<forestry:letters>);
 Apothecary.removeRecipe("rannuncarpus");
 <botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 
-// removeLootTable
-mods.ltt.LootTable.removeModTable("minecraft");
-mods.ltt.LootTable.removeModTable("quark");
