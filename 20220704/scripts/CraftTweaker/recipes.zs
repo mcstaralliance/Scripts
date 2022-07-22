@@ -231,3 +231,15 @@ recipes.addShapeless(bee, [<forestry:bee_drone_ge>, <minecraft:sand>, <minecraft
 
 // 甘蔗
 recipes.addShapeless(<minecraft:reeds>, [<tfc:food/sugarcane>]);
+
+// 活塞
+recipes.addShaped(<minecraft:piston>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:cobblestone>, <ore:stickIron>, <ore:cobblestone>],
+    [<ore:cobblestone>, <ore:gearBronze>, <ore:cobblestone>]
+]);
+
+// 熔炉
+recipes.addShaped(<minecraft:furnace>, 
+    utils.createSurround(<enderio:item_material:14>, <ore:cobblestone>)
+);
