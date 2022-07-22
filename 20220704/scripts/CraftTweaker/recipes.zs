@@ -243,3 +243,16 @@ recipes.addShaped(<minecraft:piston>, [
 recipes.addShaped(<minecraft:furnace>, 
     utils.createSurround(<enderio:item_material:14>, <ore:cobblestone>)
 );
+
+// 温和蜂巢
+recipes.addShapeless(<forestry:beehives:2>, [<forestry:apiary>, <forestry:bee_princess_ge>, <forestry:bee_drone_ge>, <minecraft:flint_and_steel>.anyDamage().transformDamage(1)]);
+
+// 凛冬蜂巢
+recipes.addShapeless(<forestry:beehives:5>, [<forestry:apiary>, <forestry:bee_princess_ge>, <forestry:bee_drone_ge>, <minecraft:snow>]);
+
+// 玻璃瓶
+recipes.addShaped(<minecraft:glass_bottle>, [
+    [null, null, null],
+    [<ore:blockGlass>, null, <ore:blockGlass>],
+    [null, <ore:blockGlass>, null]
+]);
