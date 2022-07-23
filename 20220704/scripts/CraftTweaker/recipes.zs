@@ -256,3 +256,18 @@ recipes.addShaped(<minecraft:glass_bottle>, [
     [<ore:blockGlass>, null, <ore:blockGlass>],
     [null, <ore:blockGlass>, null]
 ]);
+
+// 原木配方
+recipes.addShapeless(<minecraft:planks> * 4, [<minecraft:log>]);
+recipes.addShapeless(<minecraft:planks:1> * 4, [<minecraft:log:1>]);
+recipes.addShapeless(<minecraft:planks:2> * 4, [<minecraft:log:2>]);
+recipes.addShapeless(<minecraft:planks:3> * 4, [<minecraft:log:3>]);
+recipes.addShapeless(<minecraft:planks:4> * 4, [<minecraft:log2>]);
+recipes.addShapeless(<minecraft:planks:5> * 4, [<minecraft:log2:1>]);
+
+// 流体复制机
+recipes.addShaped(<techreborn:fluid_replicator>, [
+    [<techreborn:plates:33>, <techreborn:part>, <techreborn:plates:33>],
+    [<techreborn:part>, <techreborn:machine_frame:2>, <techreborn:part>],
+    [<refinedstorage:fluid_storage_part:2>, <techreborn:part:17>, <refinedstorage:fluid_storage_part:2>]
+]);

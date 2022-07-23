@@ -25,7 +25,8 @@ var remove as IItemStack[] = [
     <cookingforblockheads:sink>,
     <forestry:ingot_bronze>,
     <harvestcraft:freshwateritem>,
-    <advgenerators:iron_frame>
+    <advgenerators:iron_frame>,
+    <techreborn:fluid_replicator>
 ];
 
 var ban as IItemStack[] = [
