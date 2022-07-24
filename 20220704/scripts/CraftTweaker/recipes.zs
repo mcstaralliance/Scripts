@@ -251,7 +251,7 @@ recipes.addShapeless(<forestry:beehives:2>, [<forestry:apiary>, <forestry:bee_pr
 recipes.addShapeless(<forestry:beehives:5>, [<forestry:apiary>, <forestry:bee_princess_ge>, <forestry:bee_drone_ge>, <minecraft:snow>]);
 
 // 玻璃瓶
-recipes.addShaped(<minecraft:glass_bottle>, [
+recipes.addShaped(<minecraft:glass_bottle> * 3, [
     [null, null, null],
     [<ore:blockGlass>, null, <ore:blockGlass>],
     [null, <ore:blockGlass>, null]
