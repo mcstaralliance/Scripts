@@ -271,3 +271,31 @@ recipes.addShaped(<techreborn:fluid_replicator>, [
     [<techreborn:part>, <techreborn:machine_frame:2>, <techreborn:part>],
     [<refinedstorage:fluid_storage_part:2>, <techreborn:part:17>, <refinedstorage:fluid_storage_part:2>]
 ]);
+
+// 钻石工具
+recipes.addShaped(<minecraft:diamond_sword>, [
+    [null, <ore:gemDiamond>, null],
+    [null, <ore:gemDiamond>, null],
+    [null, <ore:stickWood>, null]
+]);
+recipes.addShaped(<minecraft:diamond_shovel>, [
+    [null, <ore:gemDiamond>, null],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null]
+]);
+recipes.addShaped(<minecraft:diamond_pickaxe>, [
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null]
+]);
+recipes.addShaped(<minecraft:diamond_axe>, [
+    [null, <ore:gemDiamond>, <ore:gemDiamond>],
+    [null, <ore:stickWood>, <ore:gemDiamond>],
+    [null, <ore:stickWood>, null]
+]);
+recipes.addShaped(<minecraft:diamond_hoe>, [
+    [null, <ore:gemDiamond>, <ore:gemDiamond>],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null]
+]);
+
