@@ -225,6 +225,41 @@
       }
     },
     {
+      "uid": "a59bc70b-1064-4f51-ad6c-8272aac9239a",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "ore": "ingotSilver"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "ore": "ingotCopper"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/sterling_silver\",Count:5b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "435cfb61-ade1-4b84-b1a8-e6740f34c5b0",
       "duration": 200,
       "inputs": {
@@ -995,6 +1030,48 @@
               "amount": 1,
               "matches": [
                 "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/pig_iron\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f7dd12ee-f3e1-456e-ae40-581b56f029ae",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "ore": "ingotCopper"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotGold"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotSilver"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/black_bronze\",Count:5b,Damage:0s}"
               ]
             }
           }
@@ -2297,6 +2374,50 @@
       }
     },
     {
+      "uid": "0fa8c33d-f1e0-458b-ae5d-a286a1e74b56",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "ore": "ingotSteel"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotNickel"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/black_bronze\",Count:2b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/weak_steel\",Count:5b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "2eef1bb6-d86e-4f32-b5cb-3a00bfca87e4",
       "duration": 200,
       "inputs": {
@@ -2401,6 +2522,82 @@
               "amount": 1,
               "matches": [
                 "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/thorium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5dbdccfc-2f38-4376-8d20-cc285ec60814",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/weak_steel\",Count:2b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotIron"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/black_steel\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1fa72246-37a9-49b5-90e0-1153e60420c3",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/weak_blue_steel\",Count:2b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/black_steel\",Count:2b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/blue_steel\",Count:1b,Damage:0s}"
               ]
             }
           }
@@ -2586,6 +2783,63 @@
               "amount": 1,
               "matches": [
                 "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/magnesium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3f00dce6-f891-4d2f-81be-cb1ae10ae9e3",
+      "duration": 2000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 11,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/black_steel\",Count:11b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/steel\",Count:5b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth_bronze\",Count:2b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/sterling_silver\",Count:2b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 10,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/weak_blue_steel\",Count:10b,Damage:0s}"
               ]
             }
           }
@@ -2993,6 +3247,48 @@
               "amount": 1,
               "matches": [
                 "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/aluminium\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e5d9bff5-a142-41db-95fe-2095834b90eb",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotZinc"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "ore": "ingotCopper"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "ore": "ingotBismuth"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/bismuth_bronze\",Count:5b,Damage:0s}"
               ]
             }
           }
