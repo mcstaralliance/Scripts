@@ -318,13 +318,11 @@ recipes.addShaped(<minecraft:brewing_stand>, [
 
 // 科技复兴线圈
 recipes.addShaped(<techreborn:part:13> * 3,
-    utils.createSurround(null, <ore:ingotNickel>, <forestry:ingot_copper>)
+    utils.createCrossWithCore(null, <ore:ingotNickel>, <forestry:ingot_copper>)
 );
-// 科技复兴线圈
 recipes.addShaped(<techreborn:part:14> * 3,
-    utils.createSurround(null, <ore:ingotNickel>, <ore:ingotChrome>)
+    utils.createCrossWithCore(null, <ore:ingotNickel>, <ore:ingotChrome>)
 );
-// 科技复兴线圈
 recipes.addShaped(<techreborn:part:15> * 3,
-    utils.createSurround(<ore:ingotAluminum>, <ore:ingotChrome>, <ore:ingotRefinedIron>)
+    utils.createCrossWithCore(<ore:ingotAluminum>, <ore:ingotChrome>, <ore:ingotRefinedIron>)
 );
