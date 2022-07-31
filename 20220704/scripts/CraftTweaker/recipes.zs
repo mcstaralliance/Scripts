@@ -301,3 +301,30 @@ recipes.addShaped(<minecraft:diamond_hoe>, [
 
 // 高级加压阀门
 recipes.addShapeless(<advgenerators:advanced_pressure_valve>, [<advgenerators:pressure_valve>, <thermalfoundation:upgrade:35>]);
+
+// 空间传送器
+recipes.addShaped(<enderio:block_transceiver>, [
+    [<enderio:item_alloy_ingot>, <enderio:item_material:43>, <enderio:item_alloy_ingot>],
+    [<ore:blockGlassHardened>, <enderio:item_material:15>, <ore:blockGlassHardened>],
+    [<enderio:item_alloy_ingot>, <enderio:item_basic_capacitor:2>, <enderio:item_alloy_ingot>]
+]);
+
+// 酿造台
+recipes.addShaped(<minecraft:brewing_stand>, [
+    [null, null, null],
+    [null, <ore:rodBlaze>, null],
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
+
+// 科技复兴线圈
+recipes.addShaped(<techreborn:part:13> * 3,
+    utils.createSurround(null, <ore:ingotNickel>, <forestry:ingot_copper>)
+);
+// 科技复兴线圈
+recipes.addShaped(<techreborn:part:14> * 3,
+    utils.createSurround(null, <ore:ingotNickel>, <ore:ingotChrome>)
+);
+// 科技复兴线圈
+recipes.addShaped(<techreborn:part:15> * 3,
+    utils.createSurround(<ore:ingotAluminum>, <ore:ingotChrome>, <ore:ingotRefinedIron>)
+);

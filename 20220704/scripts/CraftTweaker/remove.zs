@@ -26,7 +26,8 @@ var remove as IItemStack[] = [
     <forestry:ingot_bronze>,
     <harvestcraft:freshwateritem>,
     <advgenerators:iron_frame>,
-    <techreborn:fluid_replicator>
+    <techreborn:fluid_replicator>,
+    <enderio:block_transceiver>
 ];
 
 var ban as IItemStack[] = [
@@ -169,6 +170,7 @@ var ban as IItemStack[] = [
     <techreborn:chemical_reactor>,
     <techreborn:nuke>,
     <techreborn:matter_fabricator>,
+    <techreborn:rolling_machine>,
     
     // tfc
     <tfc:powderkeg>
