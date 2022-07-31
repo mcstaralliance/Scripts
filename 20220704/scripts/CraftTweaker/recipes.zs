@@ -299,3 +299,5 @@ recipes.addShaped(<minecraft:diamond_hoe>, [
     [null, <ore:stickWood>, null]
 ]);
 
+// 高级加压阀门
+recipes.addShapeless(<advgenerators:advanced_pressure_valve>, [<advgenerators:pressure_valve>, <thermalfoundation:upgrade:35>]);
