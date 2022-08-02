@@ -326,3 +326,10 @@ recipes.addShaped(<techreborn:part:14> * 3,
 recipes.addShaped(<techreborn:part:15> * 3,
     utils.createCrossWithCore(<ore:ingotAluminum>, <ore:ingotChrome>, <ore:ingotRefinedIron>)
 );
+
+// 桶
+recipes.addShaped(<minecraft:bucket>, [
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
+]);
