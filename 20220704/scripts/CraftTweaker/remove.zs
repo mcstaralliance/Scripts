@@ -27,7 +27,8 @@ var remove as IItemStack[] = [
     <harvestcraft:freshwateritem>,
     <advgenerators:iron_frame>,
     <techreborn:fluid_replicator>,
-    <enderio:block_transceiver>
+    <enderio:block_transceiver>,
+    <minecraft:bucket>
 ];
 
 var ban as IItemStack[] = [
