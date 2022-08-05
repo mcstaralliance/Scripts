@@ -240,7 +240,7 @@
             "chance": 1.0,
             "content": {
               "amount": 4,
-              "ore": "ingotCopper"
+              "ore": "ingotZinc"
             }
           }
         ]
@@ -1038,7 +1038,7 @@
     },
     {
       "uid": "f7dd12ee-f3e1-456e-ae40-581b56f029ae",
-      "duration": 1000,
+      "duration": 500,
       "inputs": {
         "item": [
           {
@@ -2375,7 +2375,7 @@
     },
     {
       "uid": "0fa8c33d-f1e0-458b-ae5d-a286a1e74b56",
-      "duration": 1000,
+      "duration": 500,
       "inputs": {
         "item": [
           {
@@ -2791,7 +2791,7 @@
     },
     {
       "uid": "3f00dce6-f891-4d2f-81be-cb1ae10ae9e3",
-      "duration": 2000,
+      "duration": 1000,
       "inputs": {
         "item": [
           {
@@ -2807,9 +2807,7 @@
             "chance": 1.0,
             "content": {
               "amount": 5,
-              "matches": [
-                "{ForgeCaps:{\"tfc:item_forge\":{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},Parent:{heat:0.0f,ticks:-1L,forge:{work:0,steps:{last:-1,third:-1,second:-1}}},\"customnpcs:itemscripteddata\":{}},id:\"tfc:metal/ingot/steel\",Count:5b,Damage:0s}"
-              ]
+              "ore": "ingotSteel"
             }
           },
           {
@@ -3255,7 +3253,7 @@
     },
     {
       "uid": "e5d9bff5-a142-41db-95fe-2095834b90eb",
-      "duration": 1000,
+      "duration": 500,
       "inputs": {
         "item": [
           {
