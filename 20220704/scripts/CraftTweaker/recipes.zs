@@ -333,3 +333,6 @@ recipes.addShaped(<minecraft:bucket>, [
     [<ore:plateIron>, null, <ore:plateIron>],
     [null, <ore:plateIron>, null]
 ]);
+
+// 氘单元
+recipes.addShapeless(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluiddeuterium", Amount: 1000}}), [<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhydrogen", Amount: 1000}})]);
