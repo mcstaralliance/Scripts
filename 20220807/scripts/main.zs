@@ -77,7 +77,7 @@ AssemblyTable.addRecipe("ae2_charger", <appliedenergistics2:charger>, 100000,
 
 // 晶体催生器
 AssemblyTable.addRecipe("ae2_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, 100000, 
-[<appliedenergistics2:quartz_vibrant_glass> * 2, <appliedenergistics2:fluix_block>, <appliedenergistics2:energy_cell>, <appliedenergistics2:quartz_block>, <appliedenergistics2:smooth_sky_stone_chest> * 2, <appliedenergistics2:quartz_fixture> * 2);
+[<appliedenergistics2:quartz_vibrant_glass> * 2, <appliedenergistics2:fluix_block>, <appliedenergistics2:energy_cell>, <appliedenergistics2:quartz_block>, <appliedenergistics2:smooth_sky_stone_chest> * 2, <appliedenergistics2:quartz_fixture> * 2]);
 
 // 魔力销毁器
 recipes.addShaped(<botania:manavoid>, [
