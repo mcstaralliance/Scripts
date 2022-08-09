@@ -12,7 +12,13 @@ var remove as IItemStack[] = [
     <buildcrafttransport:pipe_stripes_item>,
     <appliedenergistics2:security_station>,
     <appliedenergistics2:quartz_growth_accelerator>,
-    <appliedenergistics2:charger>
+    <appliedenergistics2:charger>,
+    <ic2:crafting:6>,
+    <appliedenergistics2:drive>,
+    <appliedenergistics2:part:260>,
+    <appliedenergistics2:part:241>,
+    <enderio:block_simple_sag_mill>,
+    <enderio:block_sag_mill>
 ];
 
 for myRemove in remove{

@@ -92,3 +92,43 @@ recipes.addShaped(<buildcraftsilicon:laser>, [
     [<ic2:single_use_battery>, <avaritia:resource>, <avaritia:resource>],
     [<ic2:single_use_battery>, <ic2:single_use_battery>, <botania:manavoid>]
 ]);
+
+// 电动马达
+recipes.addShaped(<ic2:crafting:6>,
+    utils.createCrossWithCore(<ore:ingotIron>, <ore:ingotTin>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}))
+);
+
+// ME 驱动器
+recipes.addShaped(<appliedenergistics2:drive>, [
+    [<minecraft:iron_block>, <appliedenergistics2:biometric_card>, <minecraft:iron_block>],
+    [<appliedenergistics2:part:56>, <ic2:crafting:6>, <appliedenergistics2:part:56>],
+    [<minecraft:iron_block>, <appliedenergistics2:biometric_card>, <minecraft:iron_block>]
+]);
+
+// ME 输入总线
+recipes.addShaped(<appliedenergistics2:part:260>, [
+    [<buildcrafttransport:pipe_wood_power>, <minecraft:hopper>, <buildcrafttransport:pipe_wood_power>],
+    [<minecraft:tripwire_hook>, <appliedenergistics2:material:43>, <minecraft:tripwire_hook>],
+    [null, <minecraft:piston>, null]
+]);
+
+// ME 液体输入总线
+recipes.addShaped(<appliedenergistics2:part:260>, [
+    [<buildcrafttransport:pipe_wood_power>, <minecraft:hopper>, <buildcrafttransport:pipe_wood_power>],
+    [<minecraft:tripwire_hook>, <appliedenergistics2:material:44>, <minecraft:tripwire_hook>],
+    [<minecraft:lapis_block>, <minecraft:sticky_piston>, <minecraft:lapis_block>]
+]);
+
+// 简易 SAG 磨粉机
+recipes.addShaped(<enderio:block_simple_sag_mill>, [
+    [<minecraft:comparator>, <minecraft:flint>, <minecraft:comparator>],
+    [<minecraft:daylight_detector>, <thermalexpansion:frame>, <minecraft:daylight_detector>],
+    [<minecraft:lapis_block>, <ic2:te:47>, <minecraft:lapis_block>]
+]);
+
+// SAG 磨粉机
+recipes.addShaped(<enderio:block_sag_mill>, [
+    [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ball:6>, <enderio:item_alloy_ingot:6>],
+    [<minecraft:daylight_detector>, <enderio:item_material:1>, <minecraft:daylight_detector>],
+    [<enderio:item_material:73>, <enderio:block_simple_sag_mill>, <enderio:item_material:73>]
+]);
