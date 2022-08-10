@@ -2,6 +2,8 @@
 
 import crafttweaker.item.IIngredient;
 
+// 引用自 https://github.com/friendlyhj/GrassUtils/blob/master/main/RecipeUtils.zs，遵循 MIT 许可证
+
 function coreSurroundCross(core as IIngredient, a as IIngredient, b as IIngredient) as IIngredient[][] {
     return [
         [b, a, b],

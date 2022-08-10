@@ -1,8 +1,25 @@
 import scripts.utils;
-import mods.buildcraft.AssemblyTable;
+import crafttweaker.item.IItemStack;
+
+val beefRaw = <minecraft:beef>;
+val rabbitRaw = <minecraft:rabbit>;
+val chickenRaw = <minecraft:chicken>;
+val pigRaw = <minecraft:porkchop>;
+val fishRaw = <minecraft:fish>;
+val neutron = <avaritia:resource:2>;
+val cosmicMeatBall = <avaritia:cosmic_meatballs>;
+val ultimateStew = <avaritia:ultimate_stew>;
+val pumpkin = <minecraft:pumpkin>;
+val brownMushRoom = <minecraft:brown_mushroom>;
+val wheat = <minecraft:wheat>;
+val carrot = <minecraft:carrot>;
+val beetRoot = <minecraft:beetroot>;
+val apple = <minecraft:apple>;
+val potato = <minecraft:potato>;
+val melon = <minecraft:melon>;
+val cactus = <minecraft:cactus>;
 
 // 钢制机壳
-
 recipes.addShaped(<mekanism:basicblock:8>, 
     utils.coreSurroundCross(<ic2:resource:13>, <ore:ingotOsmium>, <ore:ingotSteel>)
 );
@@ -22,11 +39,11 @@ recipes.addShaped(<ic2:te:44>, [
 // 基础机械外壳
 recipes.addShaped(<ic2:resource:12>, [
     [<ic2:plate:3>, <appliedenergistics2:smooth_sky_stone_chest>, <ic2:plate:3>],
-    [<ic2:plate:3>, <minecraft:golden_pickaxe>, <ic2:plate:3>],
+    [<ic2:plate:3>, <minecraft:golden_pickaxe>.transformDamage(8), <ic2:plate:3>],
     [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]
 ]);
 
-// 金属成型机
+// 电炉
 recipes.addShaped(<ic2:te:44>, [
     [<minecraft:nether_wart>, <minecraft:nether_wart>, <minecraft:nether_wart>],
     [<minecraft:nether_wart>, <ore:circuitBasic>, <minecraft:nether_wart>],
@@ -66,31 +83,11 @@ recipes.addShaped(<appliedenergistics2:security_station>,
     utils.createSurround(<minecraft:trapped_chest>, <ic2:plate:12>)
 );
 
-// ME 存储外壳
-mods.botania.ElvenTrade.addRecipe([<appliedenergistics2:material:39>], 
-[<appliedenergistics2:quartz_vibrant_glass> * 2, <appliedenergistics2:material:52>, <ic2:crafting:3> * 2, <botania:manaresource:6>, <immersiveengineering:metal_decoration0:3>, <minecraft:repeater>]
-);
-
-// 充能器
-AssemblyTable.addRecipe("ae2_charger", <appliedenergistics2:charger>, 100000, 
-[<appliedenergistics2:smooth_sky_stone_chest>, <mekanism:crystal:2>, <ic2:resource:8>, <appliedenergistics2:material:7> * 2, <buildcraftcore:gear_diamond>, <buildcraftsilicon:redstone_chipset> * 2, <mekanism:atomicalloy>]);
-
-// 晶体催生器
-AssemblyTable.addRecipe("ae2_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, 100000, 
-[<appliedenergistics2:quartz_vibrant_glass> * 2, <appliedenergistics2:fluix_block>, <appliedenergistics2:energy_cell>, <appliedenergistics2:quartz_block>, <appliedenergistics2:smooth_sky_stone_chest> * 2, <appliedenergistics2:quartz_fixture> * 2]);
-
 // 魔力销毁器
 recipes.addShaped(<botania:manavoid>, [
     [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>],
     [<minecraft:obsidian>, <minecraft:chorus_fruit_popped>, <minecraft:obsidian>],
     [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]
-]);
-
-// 镭射器
-recipes.addShaped(<buildcraftsilicon:laser>, [
-    [<ic2:single_use_battery>, <ic2:single_use_battery>, <botania:manavoid>],
-    [<ic2:single_use_battery>, <avaritia:resource>, <avaritia:resource>],
-    [<ic2:single_use_battery>, <ic2:single_use_battery>, <botania:manavoid>]
 ]);
 
 // 电动马达
@@ -132,3 +129,162 @@ recipes.addShaped(<enderio:block_sag_mill>, [
     [<minecraft:daylight_detector>, <enderio:item_material:1>, <minecraft:daylight_detector>],
     [<enderio:item_material:73>, <enderio:block_simple_sag_mill>, <enderio:item_material:73>]
 ]);
+
+// 简易机器框架
+recipes.addShaped(<enderio:item_material>, 
+    utils.createCrossWithCore(<enderio:item_material:11>, <ore:ingotInvar>, <galacticraftcore:grating>)
+);
+
+// 冶金灌注机
+recipes.addShaped(<mekanism:machineblock:8>, [
+    [<mekanism:ingot:1>, <minecraft:observer>, <mekanism:ingot:1>],
+    [<ic2:te:46>, <mekanism:basicblock:8>, <ic2:te:46>],
+    [<mekanism:ingot:1>, <minecraft:piston>, <mekanism:ingot:1>]
+]);
+
+// 机器框架
+recipes.addShaped(<thermalexpansion:frame>, 
+    utils.createCrossWithCore(<ic2:resource:12>, <ore:ingotTin>, <ore:ingotSteel>)
+);
+
+// 简易合金炉
+recipes.addShaped(<enderio:block_simple_alloy_smelter>, [
+    [<enderio:item_basic_capacitor>, <ic2:te:44>, <enderio:item_basic_capacitor>],
+    [<ic2:te:44>, <thermalexpansion:frame>, <ic2:te:44>],
+    [<enderio:item_material:11>, <enderio:item_material:11>, <enderio:item_material:11>]
+]);
+
+// 工业涂料
+recipes.addShapeless(<enderio:item_material:51>, [<ore:dustCoal>, <ore:dustNetherQuartz>, <ore:dustLapis>, <ore:dyeGreen>, <ore:dustGold>, <ore:dustBedrock>]);
+
+// 锇压缩机
+recipes.addShaped(<mekanism:machineblock:1>, [
+    [<mekanism:enrichedalloy>, <mekanism:controlcircuit:2>, <mekanism:enrichedalloy>],
+    [<mekanism:machineblock2:11>, <mekanism:basicblock:8>, <mekanism:machineblock2:11>],
+    [<mekanism:enrichedalloy>, <mekanism:controlcircuit:2>, <mekanism:enrichedalloy>]
+]);
+
+// 富集仓
+recipes.addShaped(<mekanism:machineblock>, [
+    [<minecraft:redstone_ore>, <ore:blockGlass>, <minecraft:redstone_ore>],
+    [<mekanism:ingot:1>, <mekanism:controlcircuit:3>, <mekanism:ingot:1>],
+    [<minecraft:redstone_ore>, <ore:blockGlass>, <minecraft:redstone_ore>]
+]);
+
+// 融合机
+recipes.addShaped(<mekanism:machineblock:2>, 
+    utils.createCrossWithCore(<mekanism:basicblock:8>, <mekanism:reinforcedalloy>, <mekanism:enrichedalloy>)
+);
+
+// 反应堆框架
+recipes.addShaped(<mekanismgenerators:reactor:1>, 
+    utils.createCrossWithCore(<enderio:block_transceiver>, <mekanism:controlcircuit:3>, <enderio:block_infinity>)
+);
+
+// 魔力水晶
+recipes.addShaped(<botania:pylon>, [
+    [<botania:managlass>, <botania:manaresource>, <botania:managlass>],
+    [<botania:manaresource:1>, <botania:manaresource:2>, <botania:manaresource:1>],
+    [<botania:managlass>, <botania:manaresource>, <botania:managlass>]
+]);
+
+// 自然水晶
+recipes.addShaped(<botania:pylon:1>, [
+    [<thaumadditions:crystal_block>, <botania:manaresource:18>, <thaumadditions:crystal_block>],
+    [<botania:manaresource:18>, <botania:pylon>, <botania:manaresource:18>],
+    [<thaumadditions:crystal_block>, <minecraft:ender_eye>, <thaumadditions:crystal_block>]
+]);
+
+// 知识共享卷轴
+recipes.addShapeless(<astralsorcery:itemknowledgeshare>, [<astralsorcery:itemcraftingcomponent:5>, <thaumadditions:adaminite_ingot>]);
+
+// 魔力池
+recipes.addShaped(<botania:pool>, [
+    [<ore:ingotBrass>, null, <ore:ingotThaumium>],
+    [<ore:livingrock>, null, <ore:livingrock>],
+    [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]
+]);
+
+// 魔力发射器
+recipes.addShaped(<botania:spreader>, [
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
+    [<ore:dustAstralStarmetal>, <astralsorcery:itemcraftingcomponent>, null],
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]
+]);
+
+// 荒古注魔柱
+recipes.addShaped(<thaumcraft:pillar_ancient>, [
+    [null, <thaumcraft:stone_ancient>, null],
+    [null, <thaumcraft:stone_ancient>, null],
+    [null, <thaumcraft:stone_ancient>, null]
+]);
+
+// 邪术注魔柱
+recipes.addShaped(<thaumcraft:pillar_eldritch>, [
+    [null, <thaumcraft:stone_eldritch_tile>, null],
+    [null, <thaumcraft:stone_eldritch_tile>, null],
+    [null, <thaumcraft:stone_eldritch_tile>, null]
+]);
+
+// 无尽之锭
+recipes.addShaped(<avaritia:resource:6>*3, 
+[
+    [<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>],
+    [<avaritia:resource:1>, <avaritia:resource:5>, <avaritia:resource:1>],
+    [<avaritia:resource:4>, <avaritia:resource:4>, <avaritia:resource:4>]
+]);
+
+// 寰宇肉丸
+recipes.addShapeless(cosmicMeatBall,[neutron, chickenRaw, fishRaw, pigRaw, rabbitRaw, beefRaw]);
+
+// 超级煲
+recipes.addShaped(ultimateStew*9,[[pumpkin, brownMushRoom, wheat],[beetRoot, neutron, apple,],[potato, melon, cactus]]);
+
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_helm>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_chest>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_pants>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_legs>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+recipes.addShaped(<avaritia:infinity_boots>, 
+[
+    [<avaritia:block_resource:1>, <avaritia:block_resource>, <avaritia:block_resource:1>],
+    [<avaritia:block_resource>, <draconicevolution:draconic_boots>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <avaritia:block_resource>, <avaritia:resource:5>]
+]);
+
+// 花瓣
+for i in 0 to 16{
+    var mysticalPetal as IItemStack = <botania:petal>.definition.makeStack(i);
+    recipes.addShapeless("petal_duplication" + i, mysticalPetal * 4, [mysticalPetal, <minecraft:dye:15>]);
+}
+
+// DE 能量水晶
+recipes.addShaped(<draconicevolution:energy_crystal:6>, 
+    utils.createSurround(<draconicevolution:draconium_ingot>, <mekanism:transmitter>.withTag({tier: 1})
+));
+recipes.addShaped(<draconicevolution:energy_crystal:1>, 
+    utils.createSurround(<draconicevolution:draconium_ingot>, <mekanism:transmitter>.withTag({tier: 2})
+));
+recipes.addShaped(<draconicevolution:energy_crystal:8>, 
+    utils.createSurround(<draconicevolution:draconium_ingot>, <mekanism:transmitter>.withTag({tier: 3})
+));
+
+// 水晶绑定扳手
+recipes.addShapeless(<draconicevolution:crystal_binder>, [<astralsorcery:itemwand>, <draconicevolution:draconium_ingot>]);
