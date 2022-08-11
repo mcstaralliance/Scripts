@@ -65,7 +65,50 @@ var removeRuneAltar as IItemStack[] = [
 ];
 
 var toBan as IItemStack[] = [
+    <cyclicmagic:chest_sack_empty>,
+    <cyclicmagic:inventory_food>,
+    <cyclicmagic:dynamite_mining>,
+    <armourers_workshop:tile.skin-library>,
+    <appliedenergistics2:spatial_io_port>,
+    <tconstruct:throwball:1>,
+    <cyclicmagic:robot_spawner>,
+    <armourers_workshop:item.mannequin>,
+    <cyclicmagic:builder_pattern>,
+    <cyclicmagic:uncrafting_block>,
+    <cyclicmagic:block_miner_smart>,
+    <armourers_workshop:tile.armourer>,
+    <buildcraftbuilders:architect>,
+    <botania:manabomb>,
+    <openblocks:block_breaker>,
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}),
+    <buildcraftbuilders:quarry>,
+    <immersiveengineering:chemthrower>,
+    <appliedenergistics2:tiny_tnt>,
+    <appliedenergistics2:material:32>,
+    <appliedenergistics2:spatial_pylon>,
+    <ic2:te:60>,
+    <rftools:spawner>,
+    <enderio:block_weather_obelisk>,
+    <buildcraftfactory:mining_well>,
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}),
+    <enderio:block_powered_spawner>,
+    <botania:exchangerod>,
+    <ic2:te:82>,
+    <draconicevolution:dislocator_receptacle>,
+    <immersiveengineering:toolbox>,
+    <ic2:dynamite>,
+    <botania:astrolabe>,
+    <openblocks:dev_null>,
+    <extrabotany:masterhandbag>,
+    <ic2:te:40>,
+    <tconstruct:throwball>,
+    <ic2:te:89>,
+    <ic2:te:88>,
+    <draconicevolution:celestial_manipulator>,
+    <botania:spawnermover>
 ];
+
+mods.botania.Apothecary.removeRecipe("rannuncarpus");
 
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
@@ -75,11 +118,13 @@ mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/
 
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:knowledge_tome>);
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:dna_sample>);
 
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource>, <botania:manaresource:1>]);
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
 
 for myRemoveRuneAltar in removeRuneAltar{
     mods.botania.RuneAltar.removeRecipe(myRemoveRuneAltar);
