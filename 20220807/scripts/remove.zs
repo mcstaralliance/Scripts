@@ -54,7 +54,8 @@ var remove as IItemStack[] = [
     <draconicevolution:energy_crystal:1>,
     <draconicevolution:energy_crystal:6>,
     <draconicevolution:energy_crystal:8>,
-    <draconicevolution:crystal_binder>
+    <draconicevolution:crystal_binder>,
+    <rftools:storage_module_tablet:1>.withTag({childDamage: 0})
 ];
 
 var removeRuneAltar as IItemStack[] = [
