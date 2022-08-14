@@ -123,7 +123,6 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumadditions:dna_sample>);
 
 Agglomeration.removeRecipe(<botania:manaresource:4>, [<botania:manaresource:2>, <botania:manaresource>, <botania:manaresource:1>]);
 
-mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:skullfire_sword>);
 

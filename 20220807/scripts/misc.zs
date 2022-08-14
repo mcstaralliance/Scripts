@@ -80,10 +80,18 @@ AssemblyTable.addRecipe("ae2_growth_accelerator", <appliedenergistics2:quartz_gr
 [<appliedenergistics2:quartz_vibrant_glass> * 2, <appliedenergistics2:fluix_block>, <appliedenergistics2:energy_cell>, <appliedenergistics2:quartz_block>, <appliedenergistics2:smooth_sky_stone_chest> * 2, <appliedenergistics2:quartz_fixture> * 2]);
 
 // 无尽催化剂修复
-mods.avaritia.ExtremeCrafting.addShaped("resource_5",<avaritia:resource:5>,
-[[<avaritia:resource:1>,<avaritia:resource>,<avaritia:resource:2>,<avaritia:resource:3>,<avaritia:resource:4>,<avaritia:resource:7>,<avaritia:endest_pearl>,<avaritia:cosmic_meatballs>,<avaritia:singularity:8>],
-[<avaritia:singularity:10>,<avaritia:singularity:7>,<avaritia:singularity:6>,<avaritia:singularity:5>,<avaritia:singularity:4>,<avaritia:singularity:3>,<avaritia:singularity:2>,<avaritia:singularity:1>,<avaritia:singularity>],
-[<enderio:block_alloy:6>,<ic2:resource:8>,<thermalfoundation:storage_alloy:7>,<avaritia:singularity:11>,<avaritia:singularity:9>, <thaumadditions:adaminite_block>, <extrabotany:blockorichalcos>, <extraplanets:tier11_items:4>]]);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
+mods.avaritia.ExtremeCrafting.addShaped("resource_5", <avaritia:resource:5>, [
+    [<avaritia:resource:1>,<avaritia:resource>,<avaritia:resource:2>,<avaritia:resource:3>,<avaritia:resource:4>,<avaritia:resource:7>,<avaritia:endest_pearl>,<avaritia:cosmic_meatballs>,<avaritia:singularity:8>],
+    [<avaritia:singularity:10>,<avaritia:singularity:7>,<avaritia:singularity:6>,<avaritia:singularity:5>,<avaritia:singularity:4>,<avaritia:singularity:3>,<avaritia:singularity:2>,<avaritia:singularity:1>,<avaritia:singularity>],
+    [<enderio:block_alloy:6>,<ic2:resource:8>,<thermalfoundation:storage_alloy:7>,<avaritia:singularity:11>,<avaritia:singularity:9>, <thaumadditions:adaminite_block>, <extrabotany:blockorichalcos>, <extraplanets:tier11_items:4>],
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null, null, null]
+]);
 
 // 龙芯
 recipes.remove(<draconicevolution:draconic_core>);
