@@ -39,7 +39,7 @@ recipes.addShaped(<ic2:te:44>, [
 // 基础机械外壳
 recipes.addShaped(<ic2:resource:12>, [
     [<ic2:plate:3>, <appliedenergistics2:smooth_sky_stone_chest>, <ic2:plate:3>],
-    [<ic2:plate:3>, <minecraft:golden_pickaxe>.transformDamage(8), <ic2:plate:3>],
+    [<ic2:plate:3>, <minecraft:golden_pickaxe>.anyDamage().transformDamage(8), <ic2:plate:3>],
     [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]
 ]);
 
