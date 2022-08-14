@@ -139,3 +139,9 @@ for ban in toBan{
     recipes.remove(ban);
     ban.addTooltip(format.red("配方已删除。"));
 }
+
+// rftools
+recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_module_tablet>, <rftools:storage_module>]]);
+recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_module_tablet>, <rftools:storage_module:1>]]);
+recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_module_tablet>, <rftools:storage_module:2>]]);
+<rftools:storage_module_tablet:1>.addTooltip(format.red("带存储仓的手持式存储模块配方已删除。"));
