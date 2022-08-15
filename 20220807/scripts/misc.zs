@@ -25,7 +25,7 @@ mods.thaumcraft.Infusion.registerRecipe("itemwand", "",<astralsorcery:itemwand>,
     <aspect:auram> * 20, <aspect:vacuos> * 50, <aspect:ordo> * 30, <aspect:praecantatio> * 30, <aspect:cognitio> * 100
     ], 
     <botania:twigwand>, [
-        <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemcraftingcomponent:3>
+        <minecraft:dye:4>, <quark:root_dye:1>, <minecraft:glowstone>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemcraftingcomponent>
     ]
 );
 
