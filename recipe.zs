@@ -1,0 +1,1 @@
+furnace.addRecipe(<gregtech:meta_ingot:335>, <ore:ingotIron>);
