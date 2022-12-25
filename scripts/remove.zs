@@ -1,3 +1,5 @@
+#priority 1
+
 import crafttweaker.item.IItemStack;
 
 var removeRecipe as IItemStack[] = [
@@ -21,7 +23,12 @@ var removeRecipe as IItemStack[] = [
     <integrateddynamics:crystalized_menril_block>,
     <minecraft:clock>,
     <randomthings:timeinabottle>,
-    <cyberware:surgery_chamber>
+    <cyberware:surgery_chamber>,
+    <scannable:scanner>,
+    <thermalexpansion:frame:64>,
+    <thermalexpansion:frame>,
+    <enderio:item_material:20>,
+    <rftools:machine_frame>
 ];
 
 for myRemoveRecipes in removeRecipe{
