@@ -28,7 +28,9 @@ var removeRecipe as IItemStack[] = [
     <thermalexpansion:frame:64>,
     <thermalexpansion:frame>,
     <enderio:item_material:20>,
-    <rftools:machine_frame>
+    <rftools:machine_frame>,
+    <scannable:module_blank>,
+    <fluxnetworks:fluxcontroller>
 ];
 
 for myRemoveRecipes in removeRecipe{
