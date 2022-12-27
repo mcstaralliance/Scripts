@@ -1,0 +1,34 @@
+{
+  "weight": 120,
+  "density": 0.2,
+  "max_height": 20,
+  "min_height": 10,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "rockcrystal"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      6,
+      6
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:rockcrystal"
+      },
+      {
+        "secondary": "ore:rockcrystal"
+      },
+      {
+        "between": "ore:rockcrystal"
+      },
+      {
+        "sporadic": "ore:rockcrystal"
+      }
+    ]
+  }
+}
