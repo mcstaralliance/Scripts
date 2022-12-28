@@ -1,5 +1,6 @@
 import mods.gregtech.recipe.RecipeMap;
 
+// 水晶石
 autoclave.recipeBuilder()
     .inputs(<gregtech:meta_dust:32001> * 8)
     .fluidInputs([<liquid:air> * 5000])

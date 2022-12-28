@@ -1,8 +1,6 @@
 import mods.gregtech.recipe.RecipeMap;
 
 // 间接产物处理
-print("------------鸡蛋产线初始化------------");
-
 centrifuge.recipeBuilder()
     .inputs(<contenttweaker:slag_egg>)
     .outputs(<thermalfoundation:material:864>)
@@ -166,5 +164,3 @@ centrifuge.recipeBuilder()
     .duration(100)
     .EUt(256)
     .buildAndRegister();
-
-print("------------鸡蛋产线注册完毕------------");
