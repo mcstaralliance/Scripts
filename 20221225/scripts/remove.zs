@@ -20,7 +20,6 @@ var removeRecipe as IItemStack[] = [
     <ironchest:iron_chest:6>,
     <enderio:item_material:51>,
     <enderio:item_material>,
-    <integrateddynamics:crystalized_menril_block>,
     <minecraft:clock>,
     <randomthings:timeinabottle>,
     <cyberware:surgery_chamber>,
@@ -30,7 +29,24 @@ var removeRecipe as IItemStack[] = [
     <enderio:item_material:20>,
     <rftools:machine_frame>,
     <scannable:module_blank>,
-    <fluxnetworks:fluxcontroller>
+    <fluxnetworks:fluxcontroller>,
+    <deepmoblearning:deep_learner>,
+    <apotheosis:hellshelf>,
+    <botania:runealtar>,
+    <botania:spreader>,
+    <botania:spreader:3>,
+    <deepmoblearning:extraction_chamber>,
+    <threng:big_assembler:1>,
+    <appliedenergistics2:material:35>,
+    <appliedenergistics2:material:54>,
+    <draconicevolution:draconic_core>,
+    <draconicevolution:wyvern_core>,
+    <draconicevolution:wyvern_energy_core>,
+    <draconicevolution:wyvern_helm>,
+    <draconicevolution:wyvern_chest>,
+    <draconicevolution:wyvern_legs>,
+    <draconicevolution:wyvern_boots>,
+    <deepmoblearning:polymer_clay>
 ];
 
 for myRemoveRecipes in removeRecipe{
@@ -38,7 +54,17 @@ for myRemoveRecipes in removeRecipe{
 }
 
 var ban as IItemStack[] = [
-    <cyclicmagic:uncrafting_block>
+    <cyclicmagic:uncrafting_block>,
+    <randomthings:playerinterface>,
+    <randomthings:blockdestabilizer>,
+    <randomthings:weatheregg:1>,
+    <randomthings:weatheregg:2>,
+    <randomthings:eclipsedclock>,
+    <cyclicmagic:tool_push>,
+    <cyclicmagic:chest_sack_empty>,
+    <cyclicmagic:corrupted_chorus>,
+    <draconicevolution:draconic_energy_core>,
+    <appliedenergistics2:controller>
 ];
 
 for toBan in ban{
@@ -53,3 +79,5 @@ recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_modul
 recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_module_tablet>, <rftools:storage_module:1>]]);
 recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_module_tablet>, <rftools:storage_module:2>]]);
 <rftools:storage_module_tablet:1>.addTooltip(format.red(game.localize("tooltip.tablet_deleted")));
+
+mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);

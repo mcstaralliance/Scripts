@@ -8,3 +8,12 @@ mixer.recipeBuilder()
     .EUt(32)
     .duration(100)
     .buildAndRegister();
+
+// 炼狱书架
+mixer.recipeBuilder()
+    .inputs(<ore:bookshelf>, <botania:rune:8>, <botania:blacklotus>, <botania:manaresource:4>, <touhou_little_maid:power_point> * 8)
+    .fluidInputs([<liquid:xpjuice> * 2000])
+    .outputs(<apotheosis:hellshelf>)
+    .EUt(128)
+    .duration(400)
+    .buildAndRegister();

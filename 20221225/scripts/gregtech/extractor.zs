@@ -8,5 +8,3 @@ extractor.recipeBuilder()
     .EUt(32)
     .duration(100)
     .buildAndRegister();
-
-print("extractor tweak successful");
