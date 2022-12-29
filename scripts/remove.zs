@@ -46,7 +46,10 @@ var removeRecipe as IItemStack[] = [
     <draconicevolution:wyvern_chest>,
     <draconicevolution:wyvern_legs>,
     <draconicevolution:wyvern_boots>,
-    <deepmoblearning:polymer_clay>
+    <deepmoblearning:polymer_clay>,
+    <minecraft:brick>,
+    <minecraft:experience_bottle>,
+    <minecraft:enchanting_table>
 ];
 
 for myRemoveRecipes in removeRecipe{

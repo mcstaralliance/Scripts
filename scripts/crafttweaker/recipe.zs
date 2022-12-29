@@ -1,3 +1,16 @@
+#priority 500
+
+import crafttweaker.item.IItemStack;
+import scripts.utils;
+
+val COMMONCOIN = <custommc:item961>;
+val ADVANCEDCOIN = <custommc:item927>;
+val ULTRACOIN = <custommc:item930>;
+
+utils.constructCoin(COMMONCOIN, game.localize("item.starcraft.COMMONCOIN"), 50);
+utils.constructCoin(ADVANCEDCOIN, game.localize("item.starcraft.ADVANCEDCOIN"), 600);
+utils.constructCoin(ULTRACOIN, game.localize("item.starcraft.ULTRACOIN"), 1200);
+
 // 扫描器
 recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}), [
     [<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>],
@@ -39,3 +52,6 @@ recipes.addShaped(<draconicevolution:wyvern_core>, [
     [<draconicevolution:draconic_core>, <gregtech:meta_item_1:282>, <draconicevolution:draconic_core>],
     [<gregtech:meta_ingot:125>, <draconicevolution:draconic_core>, <gregtech:meta_ingot:125>]
 ]);
+
+mods.inworldcrafting.FireCrafting.addRecipe(<minecraft:brick>, <minecraft:clay_ball> * 2, 20);
+<contenttweaker:paimon>.addTooltip(format.gray(game.localize("tooltip.best_friend")));

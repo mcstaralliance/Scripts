@@ -1,6 +1,8 @@
 #PARSE_ESCAPES
 tooltip.tablet_deleted=\u5e26\u5b58\u50a8\u4ed3\u7684\u624b\u6301\u5f0f\u5b58\u50a8\u6a21\u5757\u914d\u65b9\u5df2\u5220\u9664\u3002
 tooltip.recipe_deleted=\u914d\u65b9\u5df2\u5220\u9664
+tooltip.best_friend=\u6700\u597d\u7684\u4f19\u4f34
+tooltip.coin_value=\u9762\u503c\uff1a
 entity.quartz.name=\u8d5b\u7279\u65af\u77f3\u82f1\u9e21
 entity.ikun.name=\u5764\u5764
 entity.neutronium.name=\u4e2d\u5b50\u9e21
@@ -45,3 +47,8 @@ item.contenttweaker.aluminum_egg.name=\u94dd\u86cb
 item.contenttweaker.wood_egg.name=\u6a61\u6728\u86cb
 item.contenttweaker.gold_egg.name=\u91d1\u86cb
 item.contenttweaker.tin_egg.name=\u9521\u86cb
+item.contenttweaker.paimon.name=\u6d3e\u8499
+itemGroup.tab=\u6d3e\u8499
+item.starcraft.COMMONCOIN=\u94dc\u5e01
+item.starcraft.ADVANCEDCOIN=\u94f6\u5e01
+item.starcraft.ULTRACOIN=\u91d1\u5e01
