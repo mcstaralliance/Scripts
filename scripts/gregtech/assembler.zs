@@ -67,7 +67,7 @@ assembler.recipeBuilder()
 
 // 简易机器框架
 assembler.recipeBuilder()
-    .inputs(<gregtech:machine_casing:3>, <ore:dustBedrock>)
+    .inputs(<gregtech:machine_casing:2>, <ore:dustBedrock>)
     .outputs(<enderio:item_material>)
     .EUt(128)
     .duration(400)
