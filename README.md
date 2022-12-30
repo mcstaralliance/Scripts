@@ -43,3 +43,10 @@
 - **扫描器**
 - **随意微调**
 - **遗迹**
+
+魔改专用 Mod：
+
+- CraftTweaker
+- ModTweaker
+- LootTableTweaker
+- InWorldCrafting
