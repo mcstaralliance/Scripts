@@ -84,4 +84,3 @@ recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_modul
 <rftools:storage_module_tablet:1>.addTooltip(format.red(game.localize("tooltip.tablet_deleted")));
 
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
-mods.ltt.LootTable.removeModTable("minecraft");
