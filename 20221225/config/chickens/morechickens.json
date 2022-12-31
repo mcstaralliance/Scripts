@@ -107,11 +107,11 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "draconicevolution:draconium_ingot",
+      "itemID": "contenttweaker:draconium_egg",
       "metaID": 0
     },
     "drop_item": {
-      "itemID": "draconicevolution:draconium_ingot",
+      "itemID": "contenttweaker:draconium_egg",
       "metaID": 0
     },
     "spawn_type": "NONE",
