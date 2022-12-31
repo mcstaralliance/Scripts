@@ -49,7 +49,8 @@ var removeRecipe as IItemStack[] = [
     <deepmoblearning:polymer_clay>,
     <minecraft:brick>,
     <minecraft:experience_bottle>,
-    <minecraft:enchanting_table>
+    <minecraft:enchanting_table>,
+    <roost:breeder>
 ];
 
 for myRemoveRecipes in removeRecipe{
