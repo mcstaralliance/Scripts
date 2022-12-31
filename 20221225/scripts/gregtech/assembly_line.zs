@@ -2,7 +2,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 // 龙芯
 assembly_line.recipeBuilder()
-    .inputs(<draconicevolution:draconium_block> * 4, <avaritia:resource:4> * 2, <gregtech:meta_item_1:637> * 2, <gregtech:meta_item_1:639>, <threng:material:4>, <botania:manaresource:14>, <astralsorcery:itemperkgem> | <astralsorcery:itemperkgem:1> | <astralsorcery:itemperkgem:2>, <gregtech:meta_item_1:631>)
+    .inputs(<draconicevolution:draconium_block> * 4, <avaritia:resource:4> * 2, <gregtech:meta_item_1:637> * 2, <threng:material:4>, <botania:manaresource:14>, <astralsorcery:itemperkgem> | <astralsorcery:itemperkgem:1> | <astralsorcery:itemperkgem:2>, <gregtech:meta_item_1:631>)
     .fluidInputs([<liquid:niobium_titanium> * 648, <liquid:sodium_potassium> * 500, <liquid:samarium_iron_arsenic_oxide> * 648])
     .outputs(<draconicevolution:draconic_core> * 4)
     .EUt(8000)
