@@ -9,15 +9,21 @@ var commonCoin = <custommc:item961>;
 var advancedCoin = <custommc:item927>;
 var ultraCoin = <custommc:item930>;
 var YUS_REDPACKET =<custommc:item102>;
+var YUS_APPROVAL = <custommc:item129>;
 var expBottle = <minecraft:experience_bottle>;
 var hayDiamond = <custommc:item997>;
 // don't use val or global there.
+var sink = <cookingforblockheads:sink>;
+var sinkCore = <custommc:item75>;
 
 YUS_REDPACKET.displayName = game.localize("item.starcraft.yusredpacket");
 YUS_REDPACKET.addTooltip(format.gray(game.localize("tooltip.redpacket_in_blacksmith")));
 var villageTable = LootTweaker.getTable("minecraft:chests/village_blacksmith");
 var redpacketPool = villageTable.addPool("redpacket", 1, 2, 0, 1);
 redpacketPool.addItemEntry(YUS_REDPACKET, 5);
+
+YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
+YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
 
 utils.constructCoin(commonCoin, game.localize("item.starcraft.commonCoin"), 50);
 utils.constructCoin(advancedCoin, game.localize("item.starcraft.advancedCoin"), 600);
@@ -26,7 +32,10 @@ utils.constructCoin(ultraCoin, game.localize("item.starcraft.ultraCoin"), 1200);
 hayDiamond.displayName = game.localize("item.starcraft.haydiamond");
 // don't try to add colorful displayname.
 hayDiamond.addTooltip(format.gray(game.localize("tooltip.haydiamond")));
+hayDiamond.addTooltip(format.gray(game.localize("tooltip.haydiamond_2")));
 FluidToItem.transform(hayDiamond, <liquid:water>, [<minecraft:hay_block> * 4], true);
+
+sinkCore.displayName = game.localize("item.starcraft.sinkcore");
 
 // 扫描器
 recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}), [
@@ -86,3 +95,15 @@ recipes.addShaped(<contenttweaker:paimon>, [
     [<minecraft:apple>, null, null],
     [null, null, null]
 ]);
+
+// 水槽核心
+recipes.addShaped(sinkCore, [
+    [expBottle, <thermaldynamics:duct_0>, expBottle],
+    [<minecraft:concrete_powder:12>, <minecraft:beacon>, <minecraft:concrete_powder:12>],
+    [<minecraft:concrete_powder:12>, <quark:blaze_lantern>, <minecraft:concrete_powder:12>]
+]);
+
+// 水槽
+recipes.addShaped(sink, 
+    utils.coreSurroundCross(sinkCore, advancedCoin, expBottle)
+);
