@@ -4,6 +4,7 @@ var commonCoin = <custommc:item961>;
 var advancedCoin = <custommc:item927>;
 var ultraCoin = <custommc:item930>;
 var YUS_REDPACKET =<custommc:item102>;
+var expBottle = <minecraft:experience_bottle>;
 
 // 箱子升级木->铁
 assembler.recipeBuilder()
@@ -141,7 +142,7 @@ assembler.recipeBuilder()
 
 // ME 控制器
 assembler.recipeBuilder()
-    .inputs(<appliedenergistics2:sky_stone_brick> * 4, <gregtech:meta_item_1:624> * 2, <appliedenergistics2:material:12> * 2, <botania:manaresource:4>, <gregtech:meta_item_1:371>, ultraCoin, YUS_REDPACKET)
+    .inputs(<appliedenergistics2:sky_stone_brick> * 4, <gregtech:meta_item_1:624> * 2, <appliedenergistics2:material:12> * 2, <botania:manaresource:4>, <gregtech:meta_item_1:371>, ultraCoin, YUS_REDPACKET, expBottle)
     .fluidInputs([<liquid:nitration_mixture> * 1000])
     .outputs(<appliedenergistics2:controller>)
     .EUt(128)
