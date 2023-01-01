@@ -51,8 +51,15 @@ var removeRecipe as IItemStack[] = [
     <minecraft:experience_bottle>,
     <minecraft:enchanting_table>,
     <roost:breeder>,
+    <draconicevolution:draconic_energy_core>,
     <appliedenergistics2:controller>,
-    <draconicevolution:draconic_energy_core>
+    <gregtech:machine:1>,
+    <minecraft:beacon>,
+    <gregtech:machine:3>,
+    <gregtech:machine:17>,
+    <gregtech:machine:1000>,
+    <gregtech:machine:1647>,
+    <gregtech:machine:305>
 ];
 
 for myRemoveRecipes in removeRecipe{
