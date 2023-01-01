@@ -147,7 +147,7 @@ recipes.addShaped(<gregtech:machine:17>, [
 
 // 土高炉
 recipes.addShaped(<gregtech:machine:1000>, [
-    [<gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "neutronium"}}).transformDamage(1), <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
+    [<ore:craftingToolHardHammer>.transformDamage(1), <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
     [<ore:plateIron>, <gregtech:steam_casing:1>, commonCoin],
     [<ore:craftingToolScrewdriver>.transformDamage(1), <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
 ]);
