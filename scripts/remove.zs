@@ -52,7 +52,7 @@ var removeRecipe as IItemStack[] = [
     <minecraft:enchanting_table>,
     <roost:breeder>,
     <appliedenergistics2:controller>,
-    <draconicevolution:draconic_energy_core>,
+    <draconicevolution:draconic_energy_core>
 ];
 
 for myRemoveRecipes in removeRecipe{
