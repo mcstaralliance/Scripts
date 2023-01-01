@@ -51,14 +51,15 @@ var removeRecipe as IItemStack[] = [
     <minecraft:experience_bottle>,
     <minecraft:enchanting_table>,
     <roost:breeder>,
+    <draconicevolution:draconic_energy_core>,
+    <appliedenergistics2:controller>,
     <gregtech:machine:1>,
     <minecraft:beacon>,
     <gregtech:machine:3>,
     <gregtech:machine:17>,
     <gregtech:machine:1000>,
     <gregtech:machine:1647>,
-    <gregtech:machine:305>,
-    <appliedenergistics2:controller>
+    <gregtech:machine:305>
 ];
 
 for myRemoveRecipes in removeRecipe{
@@ -74,8 +75,7 @@ var ban as IItemStack[] = [
     <randomthings:eclipsedclock>,
     <cyclicmagic:tool_push>,
     <cyclicmagic:chest_sack_empty>,
-    <cyclicmagic:corrupted_chorus>,
-    <draconicevolution:draconic_energy_core>
+    <cyclicmagic:corrupted_chorus>
 ];
 
 for toBan in ban{
