@@ -117,10 +117,11 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/alt
             <minecraft:iron_ingot>, <astralsorcery:itemcraftingcomponent>, <minecraft:iron_ingot>,
             <enderio:item_material:20>, YUS_REDPACKET, <enderio:item_material:20>]);
 
+// DONT USE GT WRENCH'S OREDICT!!!
 // 小型燃煤锅炉
 recipes.addShaped(<gregtech:machine:1>, [
     [<ore:plateBronze>, YUS_APPROVAL, <ore:plateBronze>],
-    [<ore:plateBronze>, <ore:craftingToolWrench>.transformDamage(1), <ore:plateBronze>],
+    [<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>],
     [<minecraft:brick_block>, <quark:blaze_lantern>, <minecraft:brick_block>]
 ]);
 
@@ -147,16 +148,16 @@ recipes.addShaped(<gregtech:machine:17>, [
 
 // 土高炉
 recipes.addShaped(<gregtech:machine:1000>, [
-    [<ore:craftingToolHardHammer>.transformDamage(1), <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
+    [<ore:craftingToolHardHammer>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
     [<ore:plateIron>, <gregtech:steam_casing:1>, commonCoin],
-    [<ore:craftingToolScrewdriver>.transformDamage(1), <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
+    [<ore:craftingToolScrewdriver>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
 ]);
 
 // 合成站
 recipes.addShaped(<gregtech:machine:1647>, [
     [<ore:chestWood>, <minecraft:wooden_slab:*>, <ore:chestWood>],
     [<ore:plankWood>, <minecraft:crafting_table>, commonCoin],
-    [<ore:plankWood>, <ore:craftingToolSaw>.transformDamage(1), <ore:plankWood>]
+    [<ore:plankWood>, <ore:craftingToolSaw>, <ore:plankWood>]
 ]);
 
 // 基础提取机
