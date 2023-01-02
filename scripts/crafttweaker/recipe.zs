@@ -148,16 +148,16 @@ recipes.addShaped(<gregtech:machine:17>, [
 
 // 土高炉
 recipes.addShaped(<gregtech:machine:1000>, [
-    [<ore:craftingToolHardHammer>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
+    [<gregtech:meta_tool:6>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
     [<ore:plateIron>, <gregtech:steam_casing:1>, commonCoin],
-    [<ore:craftingToolScrewdriver>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
+    [<gregtech:meta_tool:11>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
 ]);
 
 // 合成站
 recipes.addShaped(<gregtech:machine:1647>, [
     [<ore:chestWood>, <minecraft:wooden_slab:*>, <ore:chestWood>],
     [<ore:plankWood>, <minecraft:crafting_table>, commonCoin],
-    [<ore:plankWood>, <ore:craftingToolSaw>, <ore:plankWood>]
+    [<ore:plankWood>, <gregtech:meta_tool:5>, <ore:plankWood>]
 ]);
 
 // 基础提取机
