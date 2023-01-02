@@ -173,3 +173,85 @@ recipes.addShaped(<rftools:environmental_controller>, [
     [YUS_APPROVAL, YUS_REDPACKET, <minecraft:beacon>],
     [<minecraft:gold_block>, <minecraft:emerald_block>, <rftools:machine_frame>]
 ]);
+
+// 模拟室
+recipes.addShaped(<deepmoblearning:simulation_chamber>, [
+    [YUS_REDPACKET, <cyclicmagic:block_disenchanter>, YUS_APPROVAL],
+    [<cyclicmagic:block_user>, <deepmoblearning:machine_casing>, ultraCoin],
+    [<minecraft:observer>, <minecraft:comparator>, <minecraft:sticky_piston>]
+]);
+
+// 通量接入点
+recipes.addShapeless("fluxnetworks:tile.fluxnetworks.fluxplugs", <fluxnetworks:fluxplug>, [<fluxnetworks:fluxplug:*>]);
+recipes.addShaped(<fluxnetworks:fluxplug>, [
+    [commonCoin, <fluxnetworks:fluxcore:*>, expBottle],
+    [<fluxnetworks:fluxcore:*>, <fluxnetworks:fluxblock:*>, <fluxnetworks:fluxcore:*>],
+    [null, <fluxnetworks:fluxcore:*>, null]
+]);
+
+// 通量接出点
+recipes.addShapeless("fluxnetworks:tile.fluxnetworks.fluxpoints", <fluxnetworks:fluxpoint>, [<fluxnetworks:fluxpoint:*>]);
+recipes.addShaped(<fluxnetworks:fluxpoint>, [
+    [commonCoin, <fluxnetworks:fluxcore:*>, expBottle],
+    [<fluxnetworks:fluxcore:*>, <minecraft:redstone_block:*>, <fluxnetworks:fluxcore:*>],
+    [null, <fluxnetworks:fluxcore:*>, null]
+]);
+
+// 花药台
+recipes.addShaped(<botania:altar>, [[<ore:slabCobblestone>, <ore:petalWhite> | <ore:petalOrange> | <ore:petalMagenta> | <ore:petalLightBlue> | <ore:petalYellow> | <ore:petalLime> | <ore:petalPink> | <ore:petalGray> | <ore:petalLightGray> | <ore:petalCyan> | <ore:petalPurple> | <ore:petalBlue> | <ore:petalBrown> | <ore:petalGreen> | <ore:petalRed> | <ore:petalBlack>, <ore:slabCobblestone>], [commonCoin, <ore:cobblestone>, commonCoin], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+// 大储物袋
+recipes.addShaped(<cyclicmagic:storage_bag>, [
+    [expBottle, advancedCoin, expBottle],
+    [<minecraft:leather>, <minecraft:coal>, <minecraft:leather>],
+    [<minecraft:leather>, YUS_APPROVAL, <minecraft:leather>]
+]);
+
+// 红石护甲防护板
+recipes.addShaped(<redstonearsenal:material:224>, [
+    [expBottle, <ore:plateElectrumFlux>, expBottle],
+    [<ore:plateElectrumFlux>, <ore:gemCrystalFlux>, <ore:plateElectrumFlux>],
+    [commonCoin, <ore:plateElectrumFlux>, commonCoin]
+]);
+
+// 通量充能器
+recipes.addShaped(<randomthings:spectrecharger>, [
+    [ultraCoin, <gregtech:machine:986>, <randomthings:ingredient:12>],
+    [<gregtech:machine:986>, <randomthings:ingredient:3>, <gregtech:machine:986>],
+    [<randomthings:ingredient:12>, <gregtech:machine:986>, expBottle]
+]);
+
+// 收割机
+recipes.addShaped(<cyclicmagic:harvester_block>, [
+    [<ore:gemEmerald>, <minecraft:dispenser:*>, <ore:gemEmerald>],
+    [advancedCoin, YUS_APPROVAL, <ore:gemQuartz>],
+    [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+]);
+
+// 红石伺服器
+recipes.addShaped(<thermalfoundation:material:512>, [
+    [<ore:plateGold>, <ore:dustRedstone>, <ore:plateGold>],
+    [<ore:nuggetGold>, <ore:ingotIron>, <ore:nuggetGold>],
+    [commonCoin, <ore:dustRedstone>, commonCoin]
+]);
+
+// 充能黑曜石手柄
+recipes.addShaped(<redstonearsenal:material:193>, [
+    [<appliedenergistics2:material:1>, <minecraft:redstone_torch>, <ore:gemCrystalFlux>],
+    [<minecraft:tripwire_hook>, <redstonearsenal:material:192>, <minecraft:stone_button>],
+    [<ore:gemCrystalFlux>, commonCoin, <appliedenergistics2:material:1>]
+]);
+
+// 泥炭发电机
+recipes.addShaped(<cyclicmagic:peat_generator>, [
+    [<cyclicmagic:peat_fuel:*>, YUS_APPROVAL, <cyclicmagic:peat_fuel:*>],
+    [<ore:blockCoal>, commonCoin, <gregtech:machine:986>],
+    [<cyclicmagic:peat_fuel:*>, <minecraft:piston>, <cyclicmagic:peat_fuel:*>]
+]);
+
+// 绊线钩
+recipes.addShaped(<minecraft:tripwire_hook> * 2, [
+    [<ore:ingotIron>],
+    [<ore:stickWood>],
+    [<quark:reed_block>]
+]);

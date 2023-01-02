@@ -61,7 +61,19 @@ var removeRecipe as IItemStack[] = [
     <gregtech:machine:1647>,
     <gregtech:machine:305>,
     <rftools:environmental_controller>,
-    <cookingforblockheads:sink>
+    <cookingforblockheads:sink>,
+    <deepmoblearning:simulation_chamber>,
+    <fluxnetworks:fluxplug>,
+    <fluxnetworks:fluxpoint>,
+    <botania:altar>,
+    <cyclicmagic:storage_bag>,
+    <redstonearsenal:material:224>,
+    <randomthings:spectrecharger>,
+    <cyclicmagic:harvester_block>,
+    <thermalfoundation:material:512>,
+    <redstonearsenal:material:193>,
+    <cyclicmagic:peat_generator>,
+    <minecraft:tripwire_hook>
 ];
 
 for myRemoveRecipes in removeRecipe{
