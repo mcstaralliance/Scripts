@@ -59,7 +59,8 @@ var removeRecipe as IItemStack[] = [
     <gregtech:machine:17>,
     <gregtech:machine:1000>,
     <gregtech:machine:1647>,
-    <gregtech:machine:305>
+    <gregtech:machine:305>,
+    <rftools:environmental_controller>
 ];
 
 for myRemoveRecipes in removeRecipe{

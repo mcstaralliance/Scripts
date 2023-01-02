@@ -166,3 +166,9 @@ recipes.addShaped(<gregtech:machine:305>, [
     [<ore:cableGtSingleTin>, <ore:circuitLv>, <ore:cableGtSingleTin>]
 ]);
 
+// 环境控制器
+recipes.addShaped(<rftools:environmental_controller>, [
+    [advancedCoin, <minecraft:diamond_block>, <minecraft:ender_pearl>],
+    [YUS_APPROVAL, YUS_REDPACKET, <minecraft:beacon>],
+    [<minecraft:gold_block>, <minecraft:emerald_block>, <rftools:machine_frame>]
+]);
