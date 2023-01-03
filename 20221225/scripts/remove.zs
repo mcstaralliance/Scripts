@@ -149,3 +149,10 @@ recipes.removeShaped(<rftools:storage_module_tablet:1>, [[<rftools:storage_modul
 <rftools:storage_module_tablet:1>.addTooltip(format.red(game.localize("tooltip.tablet_deleted")));
 
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
+
+Altar.removeRecipe("touhou_little_maid:spawn_maid");
+Altar.removeRecipe("touhou_little_maid:reborn_maid");
+Altar.removeRecipe("touhou_little_maid:craft_break_guide");
+
+Apothecary.removeRecipe("rannuncarpus");
+<botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
