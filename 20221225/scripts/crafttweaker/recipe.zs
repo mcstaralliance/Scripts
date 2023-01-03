@@ -39,7 +39,7 @@ FluidToItem.transform(hayDiamond, <liquid:water>, [<minecraft:hay_block> * 4], t
 
 sinkCore.displayName = game.localize("item.starcraft.sinkcore");
 
-// 储存检测器
+// 存储检测器
 <rftools:storage_scanner>.addTooltip(format.green(game.localize("tooltip.scanner")));
 
 // 扫描器
