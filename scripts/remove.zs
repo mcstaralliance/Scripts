@@ -73,7 +73,8 @@ var removeRecipe as IItemStack[] = [
     <thermalfoundation:material:512>,
     <redstonearsenal:material:193>,
     <cyclicmagic:peat_generator>,
-    <minecraft:tripwire_hook>
+    <minecraft:tripwire_hook>,
+    <cyclicmagic:beacon_potion>
 ];
 
 for myRemoveRecipes in removeRecipe{
