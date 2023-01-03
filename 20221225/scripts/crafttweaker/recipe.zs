@@ -19,10 +19,13 @@ var sink = <cookingforblockheads:sink>;
 var sinkCore = <custommc:item75>;
 
 YUS_REDPACKET.displayName = game.localize("item.starcraft.yusredpacket");
-YUS_REDPACKET.addTooltip(format.gray(game.localize("tooltip.redpacket_in_blacksmith")));
+YUS_REDPACKET.addTooltip(format.gray(game.localize("tooltip.redpacket_location")));
 var villageTable = LootTweaker.getTable("minecraft:chests/village_blacksmith");
-var redpacketPool = villageTable.addPool("redpacket", 1, 2, 0, 1);
-redpacketPool.addItemEntry(YUS_REDPACKET, 5);
+var pyramidTable = LootTweaker.getTable("minecraft:chests/desert_pyramid");
+var redpacketVillagePool = villageTable.addPool("redpacket", 1, 2, 0, 1);
+var redpacketPyramidPool = pyramidTable.addPool("redpacket", 1, 2, 0, 1);
+redpacketVillagePool.addItemEntry(YUS_REDPACKET, 5);
+redpacketPyramidPool.addItemEntry(YUS_REDPACKET, 5);
 
 YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
 YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
@@ -135,7 +138,7 @@ recipes.addShaped(<minecraft:beacon>, [
 // 简易太阳能锅炉
 recipes.addShaped(<gregtech:machine:3>, [
     [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
-    [<ore:plateSilver>, YUS_REDPACKET, <ore:plateSilver>],
+    [<ore:plateSilver>, YUS_APPROVAL, <ore:plateSilver>],
     [<gregtech:fluid_pipe_small:260>, <gregtech:steam_casing:1>, <gregtech:fluid_pipe_small:260>]
 ]);
 
@@ -182,7 +185,7 @@ recipes.addShaped(<deepmoblearning:simulation_chamber>, [
 ]);
 
 // 通量接入点
-recipes.addShapeless("fluxnetworks:tile.fluxnetworks.fluxplugs", <fluxnetworks:fluxplug>, [<fluxnetworks:fluxplug:*>]);
+recipes.addShapeless(<fluxnetworks:fluxplug>, [<fluxnetworks:fluxplug:*>]);
 recipes.addShaped(<fluxnetworks:fluxplug>, [
     [commonCoin, <fluxnetworks:fluxcore:*>, expBottle],
     [<fluxnetworks:fluxcore:*>, <fluxnetworks:fluxblock:*>, <fluxnetworks:fluxcore:*>],
@@ -190,7 +193,7 @@ recipes.addShaped(<fluxnetworks:fluxplug>, [
 ]);
 
 // 通量接出点
-recipes.addShapeless("fluxnetworks:tile.fluxnetworks.fluxpoints", <fluxnetworks:fluxpoint>, [<fluxnetworks:fluxpoint:*>]);
+recipes.addShapeless(<fluxnetworks:fluxpoint>, [<fluxnetworks:fluxpoint:*>]);
 recipes.addShaped(<fluxnetworks:fluxpoint>, [
     [commonCoin, <fluxnetworks:fluxcore:*>, expBottle],
     [<fluxnetworks:fluxcore:*>, <minecraft:redstone_block:*>, <fluxnetworks:fluxcore:*>],
@@ -254,4 +257,11 @@ recipes.addShaped(<minecraft:tripwire_hook> * 2, [
     [<ore:ingotIron>],
     [<ore:stickWood>],
     [<quark:reed_block>]
+]);
+
+// 药水信标
+recipes.addShaped(<cyclicmagic:beacon_potion>, [
+    [<minecraft:end_stone:*>, <minecraft:end_stone:*>, <minecraft:end_stone:*>],
+    [<minecraft:end_stone:*>, <minecraft:beacon>, <minecraft:end_stone:*>],
+    [<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]
 ]);
