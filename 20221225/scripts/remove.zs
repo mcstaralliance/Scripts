@@ -1,6 +1,8 @@
 #priority 1
 
 import crafttweaker.item.IItemStack;
+import mods.touhoulittlemaid.Altar;
+import mods.botania.Apothecary;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
@@ -133,7 +135,10 @@ var ban as IItemStack[] = [
     <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}),
     <draconicevolution:draconic_spawner>,
     <enderio:item_rod_of_return>,
-    <cyclicmagic:block_miner_smart>
+    <cyclicmagic:block_miner_smart>,
+    <randomthings:blazeandsteel>,
+    <cyclicmagic:fluid_drain>,
+    <endreborn:entropy_user>
 ];
 
 for toBan in ban{
