@@ -107,7 +107,6 @@ var ban as IItemStack[] = [
     <botania:laputashard>,
     <botania:laputashard:4>,
     <armourers_workshop:tile.colour-mixer>,
-    <cyclicmagic:chest_sack_empty>,
     <appliedenergistics2:spatial_storage_cell_16_cubed>,
     <appliedenergistics2:matter_cannon>,
     <appliedenergistics2:tiny_tnt>,
@@ -138,15 +137,7 @@ var ban as IItemStack[] = [
     <cyclicmagic:block_miner_smart>,
     <randomthings:blazeandsteel>,
     <cyclicmagic:fluid_drain>,
-    <endreborn:entropy_user>,
-    <gregtech:machine:1390>,
-    <gregtech:machine:1391>,
-    <gregtech:machine:1392>,
-    <gregtech:machine:1393>,
-    <gregtech:machine:1394>,
-    <gregtech:machine:1395>,
-    <gregtech:machine:1396>,
-    <gregtech:machine:1397>
+    <endreborn:entropy_user>
 ];
 
 for toBan in ban{
@@ -170,3 +161,5 @@ Altar.removeRecipe("touhou_little_maid:craft_break_guide");
 
 Apothecary.removeRecipe("rannuncarpus");
 <botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
+
+<ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
