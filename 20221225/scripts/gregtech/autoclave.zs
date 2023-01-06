@@ -8,3 +8,13 @@ autoclave.recipeBuilder()
     .EUt(64)
     .duration(400)
     .buildAndRegister();
+
+// 空气
+autoclave.recipeBuilder()
+    .inputs(<ore:logWood>)
+    .fluidInputs([<liquid:water> * 500])
+    .outputs(<gregtech:meta_dust_tiny:1617>)
+    .fluidOutputs([<liquid:air> * 2500])
+    .EUt(32)
+    .duration(40)
+    .buildAndRegister();
