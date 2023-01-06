@@ -271,4 +271,4 @@ recipes.addShaped(<cyclicmagic:beacon_potion>, [
 
 furnace.addRecipe(<gregtech:meta_ingot:335>, <ore:ingotIron>);
 
-mods.botania.PureDaisy.addRecipe(<randomthings:spectrelog>, <botania:livingwood>, 20);
+mods.botania.PureDaisy.addRecipe(<randomthings:spectreplank>, <botania:livingwood>, 20);
