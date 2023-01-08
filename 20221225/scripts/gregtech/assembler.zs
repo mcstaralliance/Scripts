@@ -90,7 +90,7 @@ assembler.recipeBuilder()
 
 // 手术仓
 assembler.recipeBuilder()
-    .inputs(<ore:plateIron> * 7, <ore:craftingToolBlade>, <minecraft:iron_door>, ultraCoin)
+    .inputs(<cyberware:surgery>, ultraCoin)
     .fluidInputs([<liquid:ethanol> * 1296])
     .outputs(<cyberware:surgery_chamber>)
     .EUt(64)
