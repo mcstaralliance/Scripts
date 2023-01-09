@@ -2,7 +2,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 // 基岩粉
 electric_blast_furnace.recipeBuilder()
-    .inputs(<ore:dustObsidian>, <gregtech:meta_item_1:461>.withTag({Configuration: 6}))
+    .inputs(<ore:dustObsidian>)
     .fluidInputs([<liquid:astralsorcery.liquidstarlight> * 250])
     .outputs(<enderio:item_material:20> * 2)
     .duration(200)
