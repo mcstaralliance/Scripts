@@ -272,3 +272,6 @@ recipes.addShaped(<cyclicmagic:beacon_potion>, [
 furnace.addRecipe(<gregtech:meta_ingot:335>, <ore:ingotIron>);
 
 mods.botania.PureDaisy.addRecipe(<randomthings:spectreplank>, <botania:livingwood>, 20);
+
+<ore:crystalCertusQuartz>.add(<appliedenergistics2:material:1>);
+<ore:oreAluminium>.add(<thermalfoundation:ore:4>);
