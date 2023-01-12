@@ -2,9 +2,9 @@ import mods.gregtech.recipe.RecipeMap;
 
 // 橡胶
 extractor.recipeBuilder()
-    .inputs(<gregtech:rubber_log>)
+    .inputs(<gregtech:planks> * 2)
     .outputs(<gregtech:meta_dust_small:1617>)
-    .fluidOutputs([<liquid:rubber> * 144])
-    .EUt(32)
-    .duration(100)
+    .fluidOutputs([<liquid:rubber> * 72])
+    .EUt(16)
+    .duration(40)
     .buildAndRegister();
