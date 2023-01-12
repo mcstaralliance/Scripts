@@ -6,63 +6,6 @@ var ultraCoin = <custommc:item930>;
 var YUS_REDPACKET =<custommc:item102>;
 var expBottle = <minecraft:experience_bottle>;
 
-// 箱子升级木->铁
-assembler.recipeBuilder()
-    .inputs(<ore:plankWood>, <ore:plateIron> * 8, advancedCoin)
-    .outputs(<ironchest:wood_iron_chest_upgrade> * 2)
-    .EUt(16)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级木->铜
-assembler.recipeBuilder()
-    .inputs(<ore:plankWood>, <ore:plateCopper> * 8, commonCoin)
-    .outputs(<ironchest:wood_copper_chest_upgrade> * 2)
-    .EUt(16)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级铜->铁
-assembler.recipeBuilder()
-    .inputs(<ore:ingotCopper>, <ore:plateIron> * 4, advancedCoin)
-    .outputs(<ironchest:copper_iron_chest_upgrade> * 2)
-    .EUt(16)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级铜->银
-assembler.recipeBuilder()
-.inputs(<ore:ingotCopper>, <ore:plateSilver> * 4, commonCoin)
-    .outputs(<ironchest:copper_silver_chest_upgrade> * 2)
-    .EUt(16)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级银->金
-assembler.recipeBuilder()
-    .inputs(<ore:ingotSilver>, <ore:plateGold> * 8, commonCoin)
-    .outputs(<ironchest:silver_gold_chest_upgrade> * 2)
-    .EUt(28)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级铁->金
-assembler.recipeBuilder()
-    .inputs(<ore:ingotIron>, <ore:plateGold> * 8, advancedCoin)
-    .outputs(<ironchest:iron_gold_chest_upgrade> * 2)
-    .EUt(28)
-    .duration(200)
-    .buildAndRegister();
-
-// 箱子升级金->钻石
-assembler.recipeBuilder()
-    .inputs(<minecraft:gold_ingot>, <ore:plateDiamond> * 8, commonCoin)
-    .fluidInputs([<liquid:water> * 1000])
-    .outputs(<ironchest:gold_diamond_chest_upgrade> * 2)
-    .EUt(32)
-    .duration(200)
-    .buildAndRegister();
-
 // 树场
 assembler.recipeBuilder()
     .inputs([<gregtech:machine_casing:2>, <ore:craftingFurnace> * 3, <minecraft:sapling:4>, <minecraft:sapling:1>, <minecraft:sapling:2>, <minecraft:sapling:3>, <minecraft:sapling>, <minecraft:sapling:5>, <teastory:soil_detection_meter>])

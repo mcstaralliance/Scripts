@@ -6,20 +6,6 @@ import mods.botania.Apothecary;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
-    <ironchest:wood_iron_chest_upgrade>,
-    <ironchest:wood_copper_chest_upgrade>,
-    <ironchest:copper_iron_chest_upgrade>,
-    <ironchest:copper_silver_chest_upgrade>,
-    <ironchest:silver_gold_chest_upgrade>,
-    <ironchest:iron_gold_chest_upgrade>,
-    <ironchest:gold_diamond_chest_upgrade>,
-    <ironchest:iron_chest>,
-    <ironchest:iron_chest:1>,
-    <ironchest:iron_chest:2>,
-    <ironchest:iron_chest:3>,
-    <ironchest:iron_chest:4>,
-    <ironchest:iron_chest:5>,
-    <ironchest:iron_chest:6>,
     <enderio:item_material:51>,
     <enderio:item_material>,
     <minecraft:clock>,
@@ -137,7 +123,18 @@ var ban as IItemStack[] = [
     <cyclicmagic:block_miner_smart>,
     <randomthings:blazeandsteel>,
     <cyclicmagic:fluid_drain>,
-    <endreborn:entropy_user>
+    <endreborn:entropy_user>,
+    <cyclicmagic:block_user>,
+    <cfm:printer>,
+    <gregtech:machine:1390>,
+    <gregtech:machine:1391>,
+    <gregtech:machine:1392>,
+    <gregtech:machine:1393>,
+    <gregtech:machine:1394>,
+    <gregtech:machine:1395>,
+    <gregtech:machine:1396>,
+    <gregtech:machine:1397>,
+    <armourers_workshop:tile.global-skin-library>
 ];
 
 for toBan in ban{
