@@ -183,7 +183,7 @@ recipes.addShaped(<rftools:environmental_controller>, [
 // 模拟室
 recipes.addShaped(<deepmoblearning:simulation_chamber>, [
     [YUS_REDPACKET, <cyclicmagic:block_disenchanter>, YUS_APPROVAL],
-    [<cyclicmagic:block_user>, <deepmoblearning:machine_casing>, ultraCoin],
+    [<botania:elementiumsword>, <deepmoblearning:machine_casing>, ultraCoin],
     [<minecraft:observer>, <minecraft:comparator>, <minecraft:sticky_piston>]
 ]);
 
