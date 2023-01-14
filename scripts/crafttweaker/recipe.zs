@@ -127,7 +127,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/alt
 // 小型燃煤锅炉
 recipes.addShaped(<gregtech:machine:1>, [
     [<ore:plateBronze>, YUS_APPROVAL, <ore:plateBronze>],
-    [<ore:plateBronze>, <gregtech:meta_tool:8>, <ore:plateBronze>],
+    [<ore:plateBronze>, <gregtech:wrench>, <ore:plateBronze>],
     [<minecraft:brick_block>, <quark:blaze_lantern>, <minecraft:brick_block>]
 ]);
 
@@ -154,16 +154,16 @@ recipes.addShaped(<gregtech:machine:17>, [
 
 // 土高炉
 recipes.addShaped(<gregtech:machine:1000>, [
-    [<gregtech:meta_tool:6>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
+    [<gregtech:hammer>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>],
     [<ore:plateIron>, <gregtech:steam_casing:1>, commonCoin],
-    [<gregtech:meta_tool:11>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
+    [<gregtech:screwdriver>, <gregtech:meta_stick:51>, <gregtech:meta_screw:51>]
 ]);
 
 // 合成站
 recipes.addShaped(<gregtech:machine:1647>, [
     [<ore:chestWood>, <minecraft:wooden_slab:*>, <ore:chestWood>],
     [<ore:plankWood>, <minecraft:crafting_table>, commonCoin],
-    [<ore:plankWood>, <gregtech:meta_tool:5>, <ore:plankWood>]
+    [<ore:plankWood>, <gregtech:saw>, <ore:plankWood>]
 ]);
 
 // 基础提取机
