@@ -3,6 +3,7 @@
 import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 import mods.botania.Apothecary;
+import mods.thermalexpansion.Factorizer;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
@@ -160,3 +161,5 @@ Apothecary.removeRecipe("rannuncarpus");
 <botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 
 <ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
+
+Factorizer.removeRecipeSplit(<minecraft:clay>);
