@@ -162,4 +162,4 @@ Apothecary.removeRecipe("rannuncarpus");
 
 <ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
 
-mods.thermalexpansion.Factorizer.removeRecipeSplit(<minecraft:clay>);
+Factorizer.removeRecipeSplit(<minecraft:clay>);
