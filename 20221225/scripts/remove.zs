@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.touhoulittlemaid.Altar;
 import mods.botania.Apothecary;
 import mods.thermalexpansion.Factorizer;
+import mods.thermalexpansion.Transposer;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
@@ -163,3 +164,5 @@ Apothecary.removeRecipe("rannuncarpus");
 <ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
 
 Factorizer.removeRecipeSplit(<minecraft:clay>);
+Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:xpjuice>);
+Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:experience>);
