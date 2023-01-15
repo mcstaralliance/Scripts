@@ -136,7 +136,8 @@ var ban as IItemStack[] = [
     <gregtech:machine:1395>,
     <gregtech:machine:1396>,
     <gregtech:machine:1397>,
-    <armourers_workshop:tile.global-skin-library>
+    <armourers_workshop:tile.global-skin-library>,
+    <rftools:builder>
 ];
 
 for toBan in ban{
