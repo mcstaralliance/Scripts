@@ -93,7 +93,6 @@ electric_blast_furnace.recipeBuilder()
 // 聚合粘土鸡
 electric_blast_furnace.recipeBuilder()
     .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}), <deepmoblearning:polymer_clay> * 64)
-    .fluidInputs([<liquid:xpjuice> * 1000])
     .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:polymerclay", Gain: 1, Strength: 1}))
     .duration(1800)
     .EUt(128)
