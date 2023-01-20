@@ -7,6 +7,24 @@ import mods.inworldcrafting.FluidToItem;
 import mods.astralsorcery.Altar;
 import crafttweaker.item.IItemCondition;
 
+val infinitySwordPlus = <avaritia:infinity_sword>.withTag({ench: [
+    {lvl: 50 as short, id: 59 as short}, 
+    {lvl: 50 as short, id: 16 as short}, 
+    {lvl: 50 as short, id: 60 as short}, 
+    {lvl: 50 as short, id: 14 as short}, 
+    {lvl: 50 as short, id: 34 as short}, 
+    {lvl: 50 as short, id: 82 as short}, 
+    {lvl: 50 as short, id: 74 as short}, 
+    {lvl: 50 as short, id: 66 as short}, 
+    {lvl: 50 as short, id: 79 as short}, 
+    {lvl: 50 as short, id: 67 as short}, 
+    {lvl: 50 as short, id: 54 as short}, 
+    {lvl: 50 as short, id: 11 as short}, 
+    {lvl: 50 as short, id: 22 as short}, 
+    {lvl: 50 as short, id: 69 as short}], 
+    RepairCost: 114514}
+);
+
 var commonCoin = <custommc:item961>;
 var advancedCoin = <custommc:item927>;
 var ultraCoin = <custommc:item930>;
