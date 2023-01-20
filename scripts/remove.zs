@@ -165,5 +165,6 @@ Apothecary.removeRecipe("rannuncarpus");
 <ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
 
 Factorizer.removeRecipeSplit(<minecraft:clay>);
+Factorizer.removeRecipeSplit(<minecraft:brick_block>);
 Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:xpjuice>);
 Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:experience>);
