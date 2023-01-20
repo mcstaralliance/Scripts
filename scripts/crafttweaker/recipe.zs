@@ -268,6 +268,41 @@ recipes.addShaped(<cyclicmagic:beacon_potion>, [
     [<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]
 ]);
 
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, [
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [null, null, null]
+]);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, [
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>]
+]);
+
+recipes.addShaped(<avaritia:infinity_pants>, [
+    [<gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>]
+]);
+
+recipes.addShaped(<avaritia:infinity_boots>, [
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [null, null, null]
+]);
+
+// 寰宇支配之剑
+recipes.addShapeless(infinitySwordPlus, [
+    <draconicevolution:draconic_staff_of_power>.giveBack(), <gregtech:meta_item_1:753>
+]);
+
+// 毕业凭证
+recipes.addShapeless(<gregtech:meta_item_1:1000>, [
+    <avaritia:infinity_sword>.giveBack()
+]);
+
 furnace.addRecipe(<gregtech:meta_ingot:335>, <ore:ingotIron>);
 
 mods.botania.PureDaisy.addRecipe(<randomthings:spectreplank>, <botania:livingwood>, 20);
