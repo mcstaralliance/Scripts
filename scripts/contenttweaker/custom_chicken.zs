@@ -49,3 +49,7 @@ chickenSpecialRubber.register();
 var chickenPolymerClay = ChickenFactory.createChicken("polymerclay", Color.fromInt(0x3D7382), <item:contenttweaker:polymerclay_egg>);
 chickenPolymerClay.setForegroundColor(Color.fromInt(0x598088));
 chickenPolymerClay.register();
+
+var chickenTrinium = ChickenFactory.createChicken("trinium", Color.fromInt(0x8866A7), <item:contenttweaker:trinium_egg>);
+chickenTrinium.setForegroundColor(Color.fromInt(0xE3D9ED));
+chickenTrinium.register();

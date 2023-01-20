@@ -168,3 +168,5 @@ Factorizer.removeRecipeSplit(<minecraft:clay>);
 Factorizer.removeRecipeSplit(<minecraft:brick_block>);
 Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:xpjuice>);
 Transposer.removeFillRecipe(<minecraft:glass_bottle>, <liquid:experience>);
+
+<recipemap:extruder>.findRecipe(7, [<metaitem:blockNeutronium> * 64, <metaitem:blockNeutronium> * 64], null).remove();

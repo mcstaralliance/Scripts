@@ -7,6 +7,24 @@ import mods.inworldcrafting.FluidToItem;
 import mods.astralsorcery.Altar;
 import crafttweaker.item.IItemCondition;
 
+val infinitySwordPlus = <avaritia:infinity_sword>.withTag({ench: [
+    {lvl: 50 as short, id: 59 as short}, 
+    {lvl: 50 as short, id: 16 as short}, 
+    {lvl: 50 as short, id: 60 as short}, 
+    {lvl: 50 as short, id: 14 as short}, 
+    {lvl: 50 as short, id: 34 as short}, 
+    {lvl: 50 as short, id: 82 as short}, 
+    {lvl: 50 as short, id: 74 as short}, 
+    {lvl: 50 as short, id: 66 as short}, 
+    {lvl: 50 as short, id: 79 as short}, 
+    {lvl: 50 as short, id: 67 as short}, 
+    {lvl: 50 as short, id: 54 as short}, 
+    {lvl: 50 as short, id: 11 as short}, 
+    {lvl: 50 as short, id: 22 as short}, 
+    {lvl: 50 as short, id: 69 as short}], 
+    RepairCost: 114514}
+);
+
 var commonCoin = <custommc:item961>;
 var advancedCoin = <custommc:item927>;
 var ultraCoin = <custommc:item930>;
@@ -266,6 +284,41 @@ recipes.addShaped(<cyclicmagic:beacon_potion>, [
     [<minecraft:end_stone:*>, <minecraft:end_stone:*>, <minecraft:end_stone:*>],
     [<minecraft:end_stone:*>, <minecraft:beacon>, <minecraft:end_stone:*>],
     [<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]
+]);
+
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, [
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [null, null, null]
+]);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, [
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>]
+]);
+
+recipes.addShaped(<avaritia:infinity_pants>, [
+    [<gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>]
+]);
+
+recipes.addShaped(<avaritia:infinity_boots>, [
+    [<gregtech:meta_ingot:432>, null, <gregtech:meta_ingot:432>],
+    [<gregtech:meta_ingot:432>, <avaritia:resource:5>, <gregtech:meta_ingot:432>],
+    [null, null, null]
+]);
+
+// 寰宇支配之剑
+recipes.addShapeless(infinitySwordPlus, [
+    <draconicevolution:draconic_staff_of_power>.giveBack(), <gregtech:meta_item_1:753>
+]);
+
+// 毕业凭证
+recipes.addShapeless(<gregtech:meta_item_1:1000>, [
+    <avaritia:infinity_sword>.giveBack()
 ]);
 
 furnace.addRecipe(<gregtech:meta_ingot:335>, <ore:ingotIron>);

@@ -244,3 +244,14 @@ electric_blast_furnace.recipeBuilder()
     .EUt(120)
     .property("temperature", 2700)
     .buildAndRegister();
+    
+// 凯金鸡
+electric_blast_furnace.recipeBuilder()
+    .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}))
+    .fluidInputs([<liquid:trinium> * 11664])
+    .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:trinium", Gain: 1, Strength: 1}))
+    .duration(2000)
+    .EUt(30720)
+    .property("temperature", 7200)
+    .buildAndRegister();
+
