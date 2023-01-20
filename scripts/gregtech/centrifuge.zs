@@ -164,3 +164,11 @@ centrifuge.recipeBuilder()
     .duration(100)
     .EUt(256)
     .buildAndRegister();
+    
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:trinium_egg>)
+    .circuit(1)
+    .outputs(<gregtech:meta_ingot:130>)
+    .duration(60)
+    .EUt(30720)
+    .buildAndRegister();
