@@ -17,3 +17,12 @@ mixer.recipeBuilder()
     .EUt(128)
     .duration(400)
     .buildAndRegister();
+    
+// 超级煲
+mixer.recipeBuilder()
+    .inputs(<gregtechfoodoption:gtfo_meta_item:194>, <sakura:maple_cauldron>)
+    .fluidInputs([<liquid:dye_magenta> * 16000])
+    .outputs(<avaritia:ultimate_stew>)
+    .EUt(57257)
+    .duration(2)
+    .buildAndRegister();
