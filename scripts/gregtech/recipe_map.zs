@@ -11,3 +11,4 @@ global centrifuge as RecipeMap = <recipemap:centrifuge>;
 global autoclave as RecipeMap = <recipemap:autoclave>;
 global alloy_smelter as RecipeMap = <recipemap:alloy_smelter>;
 global assembly_line as RecipeMap = <recipemap:assembly_line>;
+global chemical_reactor as RecipeMap = <recipemap:chemical_reactor>;
