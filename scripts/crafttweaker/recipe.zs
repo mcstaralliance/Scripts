@@ -7,6 +7,24 @@ import mods.inworldcrafting.FluidToItem;
 import mods.astralsorcery.Altar;
 import crafttweaker.item.IItemCondition;
 
+val beefRaw = <minecraft:beef>;
+val rabbitRaw = <minecraft:rabbit>;
+val chickenRaw = <minecraft:chicken>;
+val pigRaw = <minecraft:porkchop>;
+val fishRaw = <minecraft:fish>;
+val neutron = <avaritia:resource:2>;
+val cosmicMeatBall = <avaritia:cosmic_meatballs>;
+val ultimateStew = <avaritia:ultimate_stew>;
+val pumpkin = <minecraft:pumpkin>;
+val brownMushRoom = <minecraft:brown_mushroom>;
+val wheat = <minecraft:wheat>;
+val carrot = <minecraft:carrot>;
+val beetRoot = <minecraft:beetroot>;
+val apple = <minecraft:apple>;
+val potato = <minecraft:potato>;
+val melon = <minecraft:melon>;
+val cactus = <minecraft:cactus>;
+
 val infinitySwordPlus = <avaritia:infinity_sword>.withTag({ench: [
     {lvl: 50 as short, id: 59 as short}, 
     {lvl: 50 as short, id: 16 as short}, 
@@ -327,3 +345,8 @@ mods.botania.PureDaisy.addRecipe(<randomthings:spectreplank>, <botania:livingwoo
 
 <ore:crystalCertusQuartz>.add(<appliedenergistics2:material:1>);
 <ore:oreAluminium>.add(<thermalfoundation:ore:4>);
+
+// 寰宇肉丸
+mods.avaritia.ExtremeCrafting.remove(cosmicMeatBall);
+mods.avaritia.ExtremeCrafting.addShapeless("cosmicMeatBall", cosmicMeatBall,
+[neutron, beefRaw, fishRaw, rabbitRaw, pigRaw, expBottle, expBottle, YUS_APPROVAL, YUS_REDPACKET, YUS_REDPACKET, YUS_REDPACKET, YUS_REDPACKET, YUS_REDPACKET, YUS_REDPACKET, YUS_REDPACKET, ultraCoin, <cookingforblockheads:recipe_book>, <rftoolscontrol:rftoolscontrol_manual>, <xnet:xnet_manual>, <patchouli:guide_book>.withTag({"patchouli:book": "endreborn:book"}), <patchouli:guide_book>.withTag({"patchouli:book": "sakura:sakura_guide"}), <patchouli:guide_book>.withTag({"patchouli:book": "touhou_little_maid:memorizable_gensokyo"}), <ftbquests:book>, <botania:lexicon>.withTag({}), <botania_tweaks:compressed_tiny_potato_3>, <endreborn:item_advanced_ender_pearl>, <contenttweaker:paimon>, <teastory:porkchop_rice>, <torchmaster:frozen_pearl>, <minecraft:slime>, <quark:glass_item_frame>, <minecraft:light_weighted_pressure_plate>, <cyclicmagic:beacon_potion>, <quark:cooked_crab_leg>, <quark:cooked_frog_leg>]);
