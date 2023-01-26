@@ -41,3 +41,31 @@ assembly_line.recipeBuilder()
     .EUt(8000)
     .duration(3600)
     .buildAndRegister();
+
+// LuV电动泵
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:132>, <gregtech:fluid_pipe_small:296>, <gregtech:meta_plate:2520> * 2, <gregtech:meta_screw:2520> * 8, <gregtech:meta_ring:1004> * 4, <gregtech:meta_rotor:2520>, <gregtech:cable_single:296> * 2)
+    .fluidInputs([<liquid:soldering_alloy> * 144, <liquid:lubricant> * 250])
+    .outputs(<gregtech:meta_item_1:147>)
+    .EUt(6000)
+    .duration(600)
+    .buildAndRegister();
+
+// ZPM电动泵
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:133>, <gregtech:fluid_pipe_normal:1010>, <gregtech:meta_plate:344> * 2, <gregtech:meta_screw:344> * 8, <gregtech:meta_ring:1004> * 8, <gregtech:meta_rotor:344>, <gregtech:cable_single:334> * 2)
+    .fluidInputs([<liquid:soldering_alloy> * 288, <liquid:lubricant> * 500])
+    .outputs(<gregtech:meta_item_1:148>)
+    .EUt(24000)
+    .duration(600)
+    .buildAndRegister();
+
+// UV电动泵
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:134>, <gregtech:fluid_pipe_large:124>, <gregtech:meta_plate:128> * 2, <gregtech:meta_screw:128> * 8, <gregtech:meta_ring:1004> * 16, <gregtech:meta_rotor:2042>, <gregtech:cable_single:338> * 2)
+    .fluidInputs([<liquid:soldering_alloy> * 576, <liquid:lubricant> * 1000, <liquid:naquadria> * 576])
+    .outputs(<gregtech:meta_item_1:149>)
+    .EUt(100000)
+    .duration(600)
+    .buildAndRegister();
+    
