@@ -68,4 +68,3 @@ assembly_line.recipeBuilder()
     .EUt(100000)
     .duration(600)
     .buildAndRegister();
- 
