@@ -25,7 +25,9 @@ val itemNames as string[] = [
     "tungstensteel", "rhodiumplatedpalladium", 
     "radon", "soldering_alloy", 
     "specialrubber", "polymerclay",
-    "trinium"
+    "trinium","ender_air",
+    "air","nether_air",
+    "fluorine"
 ];
 
 for itemName in itemNames {

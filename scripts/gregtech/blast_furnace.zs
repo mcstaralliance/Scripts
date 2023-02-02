@@ -255,3 +255,42 @@ electric_blast_furnace.recipeBuilder()
     .property("temperature", 7200)
     .buildAndRegister();
 
+// 氟鸡
+electric_blast_furnace.recipeBuilder()
+    .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}))
+    .fluidInputs([<liquid:fluorine> * 32000])
+    .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:fluorine", Gain: 1, Strength: 1}))
+    .duration(2000)
+    .EUt(122880)
+    .property("temperature", 9000)
+    .buildAndRegister();
+
+// 空气鸡
+electric_blast_furnace.recipeBuilder()
+    .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}))
+    .fluidInputs([<liquid:air> * 16000])
+    .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:air", Gain: 1, Strength: 1}))
+    .duration(2000)
+    .EUt(360)
+    .property("temperature", 3600)
+    .buildAndRegister();
+
+// 末地空气鸡
+electric_blast_furnace.recipeBuilder()
+    .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}))
+    .fluidInputs([<liquid:ender_air> * 16000])
+    .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:ender_air", Gain: 1, Strength: 1}))
+    .duration(2000)
+    .EUt(360)
+    .property("temperature", 3600)
+    .buildAndRegister();
+
+// 地狱空气鸡
+electric_blast_furnace.recipeBuilder()
+    .inputs(<roost:chicken>.withTag({Growth: 10, Chicken: "contenttweaker:ikun", Gain: 10, Strength: 10}))
+    .fluidInputs([<liquid:nether_air> * 16000])
+    .outputs(<roost:chicken>.withTag({Growth: 1, Chicken: "contenttweaker:nether_air", Gain: 1, Strength: 1}))
+    .duration(2000)
+    .EUt(360)
+    .property("temperature", 3600)
+    .buildAndRegister();

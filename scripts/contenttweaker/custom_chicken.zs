@@ -53,3 +53,23 @@ chickenPolymerClay.register();
 var chickenTrinium = ChickenFactory.createChicken("trinium", Color.fromInt(0x8866A7), <item:contenttweaker:trinium_egg>);
 chickenTrinium.setForegroundColor(Color.fromInt(0xE3D9ED));
 chickenTrinium.register();
+
+// 氟鸡
+var chickenFluorine = ChickenFactory.createChicken("fluorine", Color.fromInt(0x8866A9), <item:contenttweaker:fluorine_egg>);
+chickenFluorine.setForegroundColor(Color.fromInt(0x93D9ED));
+chickenFluorine.register();
+
+// 空气鸡
+var chickenAir = ChickenFactory.createChicken("air", Color.fromInt(0x8867A9), <item:contenttweaker:air_egg>);
+chickenAir.setForegroundColor(Color.fromInt(0x93D7ED));
+chickenAir.register();
+
+// 地狱空气鸡
+var chickenNether_air = ChickenFactory.createChicken("nether_air", Color.fromInt(0x8967A9), <item:contenttweaker:nether_air_egg>);
+chickenNether_air.setForegroundColor(Color.fromInt(0x99D7ED));
+chickenNether_air.register();
+
+// 末地空气鸡
+var chickenEnder_air = ChickenFactory.createChicken("ender_air", Color.fromInt(0x6867A9), <item:contenttweaker:ender_air_egg>);
+chickenEnder_air.setForegroundColor(Color.fromInt(0x83D7ED));
+chickenEnder_air.register();

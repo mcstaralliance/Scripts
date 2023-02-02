@@ -172,3 +172,35 @@ centrifuge.recipeBuilder()
     .duration(60)
     .EUt(30720)
     .buildAndRegister();
+
+// 氟蛋处理
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:fluorine_egg>)
+    .fluidOutputs([<liquid:fluorine> * 144])
+    .duration(20)
+    .EUt(30720)
+    .buildAndRegister();
+
+// 空气蛋
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:air_egg>)
+    .fluidOutputs([<liquid:air> * 1600])
+    .duration(100)
+    .EUt(256)
+    .buildAndRegister();
+
+// 地狱空气蛋
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:nether_air_egg>)
+    .fluidOutputs([<liquid:nether_air> * 1600])
+    .duration(100)
+    .EUt(256)
+    .buildAndRegister();    
+
+// 末地空气蛋
+centrifuge.recipeBuilder()
+    .inputs(<contenttweaker:ender_air_egg>)
+    .fluidOutputs([<liquid:ender_air> * 1600])
+    .duration(100)
+    .EUt(256)
+    .buildAndRegister();      
