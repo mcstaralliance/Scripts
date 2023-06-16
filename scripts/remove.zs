@@ -75,7 +75,6 @@ var ban as IItemStack[] = [
     <cyclicmagic:block_miner_smart>,
     <randomthings:blazeandsteel>,
     <cyclicmagic:fluid_drain>,
-    <endreborn:entropy_user>,
     <cyclicmagic:block_user>,
     <cfm:printer>,
     <armourers_workshop:tile.global-skin-library>,
