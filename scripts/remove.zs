@@ -78,14 +78,6 @@ var ban as IItemStack[] = [
     <endreborn:entropy_user>,
     <cyclicmagic:block_user>,
     <cfm:printer>,
-    <gregtech:machine:1390>,
-    <gregtech:machine:1391>,
-    <gregtech:machine:1392>,
-    <gregtech:machine:1393>,
-    <gregtech:machine:1394>,
-    <gregtech:machine:1395>,
-    <gregtech:machine:1396>,
-    <gregtech:machine:1397>,
     <armourers_workshop:tile.global-skin-library>,
     <rftools:builder>
 ];
