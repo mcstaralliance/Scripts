@@ -1,6 +1,7 @@
 #priority 1
 
 import crafttweaker.item.IItemStack;
+import mods.astralsorcery.Altar;
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
     <randomthings:ingredient:12>,
@@ -78,7 +79,11 @@ var ban as IItemStack[] = [
     <cyclicmagic:block_user>,
     <cfm:printer>,
     <armourers_workshop:tile.global-skin-library>,
-    <rftools:builder>
+    <rftools:builder>,
+    <gb:gring11>,
+    <gb:gring14>,
+    <gb:gring15>,
+    <industrialforegoing:enchantment_extractor>
 ];
 
 for toBan in ban{
@@ -87,3 +92,4 @@ for toBan in ban{
 }
 
 furnace.remove(<variedcommodities:ingot_steel>);
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
