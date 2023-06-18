@@ -92,4 +92,4 @@ for toBan in ban{
 }
 
 furnace.remove(<variedcommodities:ingot_steel>);
-mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
