@@ -94,8 +94,15 @@ for toBan in ban{
     toBan.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 }
 
+var specialBan as IItemStack[] = [
+    <astralsorcery:blockborehead>,
+    <botania:specialflower>.withTag({type: "rannuncarpus"})
+];
+
+for toSpecialBan in specialBan{
+    toSpecialBan.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
+} 
+
 furnace.remove(<variedcommodities:ingot_steel>);
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
-<astralsorcery:blockborehead>.addTooltip(format.red("已被删除配方"));
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
-<botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red("已被删除配方"));
