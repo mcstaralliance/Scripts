@@ -2,6 +2,8 @@
 
 import crafttweaker.item.IItemStack;
 import mods.astralsorcery.Altar;
+import mods.botania.Apothecary;
+
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
     <randomthings:ingredient:12>,
@@ -93,3 +95,6 @@ for toBan in ban{
 
 furnace.remove(<variedcommodities:ingot_steel>);
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
+<astralsorcery:blockborehead>.addTooltip(format.red("已被删除配方"));
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
+<botania:specialflower>.withTag({type: "rannuncarpus"}).addTooltip(format.red("已被删除配方"));
