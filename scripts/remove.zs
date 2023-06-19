@@ -7,17 +7,21 @@ import mods.botania.Apothecary;
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
     <randomthings:ingredient:12>,
-    <tconstruct:materials:15>,
-    <botania:altar>,
-    <cookingforblockheads:sink>,
-    <botania:runealtar>,
-    <botania:felpumpkin>,
-    <botania:manaresource:3>,
-    <botania:manaresource:14>,
     <botania:pool>,
     <draconicevolution:draconic_core>,
+    <ic2:resource:12>,
+    <botania:altar>,
+    <tconstruct:materials:15>,
+    <cookingforblockheads:sink>,
+    <botania:felpumpkin>,
+    <botania:runealtar>,
+    <botania:manaresource:3>,
+    <botania:manaresource:14>,
     <appliedenergistics2:sky_compass>,
-    <ic2:resource:12>
+    <botania:pool:2>,
+    <botania:spreader>,
+    <bloodmagic:soul_snare>,
+    <bloodmagic:sentient_sword>
 ];
 
 for myRemoveRecipes in removeRecipe{
