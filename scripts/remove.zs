@@ -1,6 +1,9 @@
 #priority 1
 
 import crafttweaker.item.IItemStack;
+import mods.astralsorcery.Altar;
+import mods.botania.Apothecary;
+
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
     <randomthings:ingredient:12>,
@@ -82,7 +85,12 @@ var ban as IItemStack[] = [
     <cyclicmagic:block_user>,
     <cfm:printer>,
     <armourers_workshop:tile.global-skin-library>,
-    <rftools:builder>
+    <rftools:builder>,
+    <gb:gring11>,
+    <gb:gring14>,
+    <gb:gring15>,
+    <industrialforegoing:enchantment_extractor>,
+    <industrialupgrade:basemachine:8>
 ];
 
 for toBan in ban{
@@ -90,4 +98,15 @@ for toBan in ban{
     toBan.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
 }
 
+var specialBan as IItemStack[] = [
+    <astralsorcery:blockborehead>,
+    <botania:specialflower>.withTag({type: "rannuncarpus"})
+];
+
+for toSpecialBan in specialBan{
+    toSpecialBan.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
+} 
+
 furnace.remove(<variedcommodities:ingot_steel>);
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
+Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
