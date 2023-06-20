@@ -89,8 +89,7 @@ var ban as IItemStack[] = [
     <gb:gring11>,
     <gb:gring14>,
     <gb:gring15>,
-    <industrialforegoing:enchantment_extractor>,
-    <industrialupgrade:basemachine:8>
+    <industrialforegoing:enchantment_extractor>
 ];
 
 for toBan in ban{
