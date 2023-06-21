@@ -86,11 +86,7 @@ var ban as IItemStack[] = [
     <cfm:printer>,
     <armourers_workshop:tile.global-skin-library>,
     <rftools:builder>,
-    <gb:gring11>,
-    <gb:gring14>,
-    <gb:gring15>,
-    <industrialforegoing:enchantment_extractor>,
-    <industrialupgrade:basemachine:8>
+    <industrialforegoing:enchantment_extractor>
 ];
 
 for toBan in ban{
