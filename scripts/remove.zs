@@ -1,8 +1,9 @@
 #priority 1
 
-import crafttweaker.item.IItemStack;
 import mods.astralsorcery.Altar;
 import mods.botania.Apothecary;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
@@ -21,7 +22,58 @@ var removeRecipe as IItemStack[] = [
     <botania:pool:2>,
     <botania:spreader>,
     <bloodmagic:soul_snare>,
-    <bloodmagic:sentient_sword>
+    <bloodmagic:sentient_sword>,
+    <appliedenergistics2:drive>,
+    <appliedenergistics2:security_station>,
+    <appliedenergistics2:controller>,
+    <appliedenergistics2:material:35>,
+    <appliedenergistics2:material:54>,
+    <thermalexpansion:frame>,
+    <scannable:module_blank>,
+    <thermalexpansion:frame:64>,
+    <deepmoblearning:deep_learner>,
+    <botania:spreader:3>,
+    <ic2:crafting:2>,
+    <ic2:crafting:1>,
+    <projectred-core:resource_item>,
+    <rftools:environmental_controller>,
+    <fluxnetworks:fluxpoint>,
+    <fluxnetworks:fluxplug>,
+    <cyclicmagic:storage_bag>,
+    <cyclicmagic:harvester_block>,
+    <minecraft:tripwire_hook>,
+    <cyclicmagic:beacon_potion>,
+    <scannable:scanner>,
+    <redstonearsenal:material:224>,
+    <redstonearsenal:material:193>,
+    <advanced_solar_panels:machines:3>,
+    <advanced_solar_panels:machines:4>,
+    <advanced_solar_panels:machines:5>,
+    <botania:terrasteelhelm>,
+    <botania:terrasteelchest>,
+    <botania:terrasteellegs>,
+    <botania:terrasteelboots>,
+    <botania:elementiumhelm>,
+    <botania:elementiumchest>,
+    <botania:elementiumlegs>,
+    <botania:elementiumboots>,
+    <ic2:quantum_helmet>,
+    <ic2:quantum_chestplate>,
+    <ic2:quantum_leggings>,
+    <ic2:quantum_boots>,
+    <draconicevolution:draconic_helm>,
+    <draconicevolution:draconic_chest>,
+    <draconicevolution:draconic_legs>,
+    <draconicevolution:draconic_boots>,
+    <draconicevolution:wyvern_helm>,
+    <draconicevolution:wyvern_chest>,
+    <draconicevolution:wyvern_legs>,
+    <draconicevolution:wyvern_boots>,
+    <botania:manasteelhelm>,
+    <botania:manasteelchest>,
+    <botania:manasteellegs>,
+    <botania:manasteelboots>
+
 ];
 
 for myRemoveRecipes in removeRecipe{
@@ -104,5 +156,7 @@ for toSpecialBan in specialBan{
 } 
 
 furnace.remove(<variedcommodities:ingot_steel>);
+furnace.remove(<minecraft:brick>);
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
+
