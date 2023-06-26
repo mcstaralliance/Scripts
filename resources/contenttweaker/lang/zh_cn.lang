@@ -11,3 +11,7 @@ item.starcraft.advancedCoin=\u94f6\u5e01
 item.starcraft.ultraCoin=\u91d1\u5e01
 item.starcraft.yusredpacket=\u5c0f\u57df\u7684\u7ea2\u5305
 item.starcraft.yusapproval=\u5c0f\u57df\u7684\u8ba4\u53ef
+tile.minecraft.starcraft_assembler_mki_controller.name=\u661f\u4e4b\u7ec4\u88c5\u53f0 MKI
+tile.minecraft.starcraft_energy_lamp.name=\u80fd\u91cf\u8f93\u5165\u7aef\u53e3
+starcraft_assembler_mki_controller.name=\u661f\u4e4b\u7ec4\u88c5\u53f0
+multiblocked.recipe_map.08395aa0-337b-420a-9ea1-c8eb2d4d381b=\u661f\u529b\u7ec4\u88c5\u914d\u65b9
