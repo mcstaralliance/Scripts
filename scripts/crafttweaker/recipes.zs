@@ -2,34 +2,10 @@
 
 import crafttweaker.item.IItemStack;
 import scripts.utils;
-import loottweaker.LootTweaker;
-import mods.botaniatweaks.Agglomeration;
-import mods.inworldcrafting.FireCrafting;
-import mods.astralsorcery.Altar;
-import mods.avaritia.ExtremeCrafting;
-import mods.inworldcrafting.FluidToItem;
-import mods.botania.RuneAltar;
-
-var commonCoin = <custommc:item961>;
-var advancedCoin = <custommc:item927>;
-var ultraCoin = <custommc:item930>;
-var YUS_APPROVAL = <custommc:item129>;
-var cosmicMeatBall = <avaritia:cosmic_meatballs>;
-var beefRaw = <minecraft:beef>;
-var rabbitRaw = <minecraft:rabbit>;
-var chickenRaw = <minecraft:chicken>;
-var pigRaw = <minecraft:porkchop>;
-var fishRaw = <minecraft:fish>;
-var neutron = <avaritia:resource:2>;
 
 utils.constructCoin(commonCoin, game.localize("item.starcraft.commonCoin"), 50);
 utils.constructCoin(advancedCoin, game.localize("item.starcraft.advancedCoin"), 600);
 utils.constructCoin(ultraCoin, game.localize("item.starcraft.ultraCoin"), 1200);
-
-YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
-YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
-
-<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
 
 // 花药台
 recipes.addShaped(<botania:altar>, [
@@ -60,9 +36,9 @@ recipes.addShaped(<botania:felpumpkin>, [
 ]);
 
 // 活木枝
-recipes.addShaped(<botania:manaresource:3>, [
-    [null, commonCoin, null],
+recipes.addShaped(<botania:manaresource:3> * 2, [
     [null, <ore:livingwood>, null],
+    [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>],
     [null, <ore:livingwood>, null]
 ]);
 
@@ -102,9 +78,6 @@ recipes.addShaped(<botania:pool:2> * 2, [
     [<botania:livingrock:3>, <botania:livingrock:3>, <botania:livingrock:3>]
 ]);
 
-// TODO:海晶灯作为控制器，远古海晶灯作为未工作状态，添加远古海晶石获取图鉴，添加海晶石碎片，海晶石砂砾简配方 
-// TODO:汉化多方块[部件，控制器，多方块，配方名]，直接让 CoT 进行资源加载，添加部件配方，控制器配方
-
 // 魔力发射器
 recipes.addShaped(<botania:spreader>, [
     [<botania:livingwood:5>, <botania:livingwood:5>, <botania:livingwood:5>],
@@ -124,18 +97,11 @@ recipes.addShapeless(<botania:overgrowthseed> * 2, [
     <botania:grassseeds>, <botania:cosmetic:16>, <randomthings:pitcherplant>
 ]);
 
-// 基础机械外壳
-recipes.addShaped(<ic2:resource:12>, [
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-    [<ore:plateIron>, commonCoin, <ore:plateIron>],
-    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
-]);
-
 // ME 驱动器
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<ic2:ingot:5>, <appliedenergistics2:material:39>, <ic2:ingot:5>],
+    [<ore:ingotSteel>, <appliedenergistics2:material:39>, <ore:ingotSteel>],
     [<appliedenergistics2:part:16>, advancedCoin, <appliedenergistics2:part:16>],
-    [<ic2:ingot:5>, <appliedenergistics2:material:24>, <ic2:ingot:5>]
+    [<ore:ingotSteel>, <appliedenergistics2:material:24>, <ore:ingotSteel>]
 ]);
 
 // ME 安全终端
@@ -145,9 +111,6 @@ recipes.addShaped(<appliedenergistics2:security_station>, [
     [<minecraft:iron_bars>, <appliedenergistics2:part:140>, <minecraft:iron_bars>]
 ]);
 
-// ME 控制器
-Agglomeration.addRecipe(<appliedenergistics2:controller>,
-    [<botania:manaresource:4>, <botania:manaresource:14>, <ic2:crafting:30>, <appliedenergistics2:material:24>, <advanced_solar_panels:crafting:9>, <appliedenergistics2:material:12> * 4, <appliedenergistics2:smooth_sky_stone_block> * 4], 50000);
 
 // 1k-ME 存储组件
 recipes.addShaped(<appliedenergistics2:material:35>, [
@@ -164,28 +127,21 @@ recipes.addShaped(<appliedenergistics2:material:54>, [
 ]);
 
 // 机器框架
-recipes.addShaped(<thermalexpansion:frame>, [
-    [<draconicevolution:draconium_dust>, <tconstruct:ingots:2>, <botania:manabottle>],
-    [<cyclicmagic:fluid_pipe>, advancedCoin, <cyclicmagic:cable_wireless_energy>],
-    [<appliedenergistics2:material:2>, <ic2:crafting:2>, <minecraft:slime_ball>]
-]);
+recipes.addShaped(<thermalexpansion:frame>, 
+    (utils.coreSurroundCross(<ic2:resource:12>, <tconstruct:shard>.withTag({Material: "conductive_iron"}), <ore:plateGold>))
+);
 
 // 设备框架
-recipes.addShaped(<thermalexpansion:frame:64>, [
-    [<draconicevolution:draconium_dust>, <randomthings:slimecube>, <draconicevolution:draconium_block>],
-    [<randomthings:spectrecoil_redstone>, advancedCoin, <thermalfoundation:storage:8>],
-    [<appliedenergistics2:material:2>, <mets:super_circuit>, <minecraft:sponge>]
-]);
+recipes.addShaped(<thermalexpansion:frame:64>, 
+    (utils.coreSurroundCross(<ic2:resource:12>, <tconstruct:shard>.withTag({Material: "vibrant_alloy"}), <ore:plateSilver>))
+);
 
 // 空白扫描模块
-recipes.addShaped(<scannable:module_blank>, [
-    [<astralsorcery:itemcraftingcomponent:3>, <theoneprobe:probe_goggles>, <nuclearcraft:dominos>],
-    [<appliedenergistics2:material:52>, commonCoin, <packagedauto:package_component>],
-    [<projectred-core:resource_item:4>, <projectred-core:resource_item:342>, <projectred-core:resource_item:4>]
+recipes.addShaped(<scannable:module_blank> * 3, [
+    [<theoneprobe:probe_goggles>, <custommc:item927>, <theoneprobe:probe_goggles>],
+    [<projectred-core:resource_item:4>, <projectred-core:resource_item:4>, <projectred-core:resource_item:4>],
+    [<astralsorcery:itemcraftingcomponent:3>, <custommc:item927>, <astralsorcery:itemcraftingcomponent:3>]
 ]);
-
-// 红石计划电路板
-furnace.addRecipe(<projectred-core:resource_item>, <ic2:crafting:1>, 1);
 
 // 深度学习器
 recipes.addShaped(<deepmoblearning:deep_learner>, [
@@ -196,7 +152,7 @@ recipes.addShaped(<deepmoblearning:deep_learner>, [
 
 // 符文祭坛
 recipes.addShaped(<botania:runealtar>, [
-    [<ic2:crafting:3>, advancedCoin ,<ic2:crafting:3>], 
+    [<enderio:item_material:20>, advancedCoin ,<enderio:item_material:20>], 
     [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>],
     [<ore:livingrock>, <randomthings:ingredient:2>, <ore:livingrock>]
 ]);
@@ -208,34 +164,27 @@ recipes.addShaped(<botania:spreader:3>, [
     [null, <minecraft:nether_star>, null]
 ]);
 
-// 砖
-FireCrafting.addRecipe(<minecraft:brick>, <minecraft:clay_ball> * 2, 20);
-
-// 辉光粉
-Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
-Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/altar/illuminationpowder", <astralsorcery:itemusabledust> * 16, 200, 200, [
-            <minecraft:glowstone>, YUS_APPROVAL, <minecraft:iron_ingot>,
-            <appliedenergistics2:material:16>, <astralsorcery:itemcraftingcomponent>, <appliedenergistics2:material:18>,
-            <enderio:item_material:20>, commonCoin, <enderio:item_material:20>]);
-
 // 高级电路板
-recipes.addShaped(<ic2:crafting:2>, [
-    [<appliedenergistics2:material:23>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>],
-    [commonCoin, <ic2:crafting:1>, commonCoin],
-    [<projectred-core:resource_item:21>, <botania:manaresource:9>, <appliedenergistics2:material:9>]
+recipes.addShaped(<ic2:crafting:2> * 2, [
+    [<ore:plateAdvancedAlloy>, <enderio:item_basic_capacitor:1>, <ore:plateAdvancedAlloy>],
+    [<ic2:crafting:1>, <ic2:crafting:1>, <ic2:crafting:1>],
+    [<ore:plateAdvancedAlloy>, <enderio:item_basic_capacitor:1>, <ore:plateAdvancedAlloy>]
+]);
+recipes.addShapeless(<ic2:crafting:2>, [
+    <projectred-core:resource_item:21>, <projectred-core:resource_item:21>
 ]);
 
 // 电路板
 recipes.addShaped(<ic2:crafting:1>, [
-    [<appliedenergistics2:material:20>, <appliedenergistics2:material:24>, <appliedenergistics2:material:20>],
+    [<appliedenergistics2:material:20>, <appliedenergistics2:material:17>, <appliedenergistics2:material:20>],
     [<ic2:cable:4>, <ic2:plate:3>, <ic2:cable:4>],
     [<ic2:cable:4>, <ic2:cable:4>, <ic2:cable:4>]
 ]);
 
 // 环境控制器
 recipes.addShaped(<rftools:environmental_controller>, [
-    [advancedCoin, <minecraft:diamond_block>, <minecraft:ender_pearl>],
-    [YUS_APPROVAL, <minecraft:nether_star>, <minecraft:beacon>],
+    [ultraCoin, <minecraft:diamond_block>, <bloodmagic:component:16>],
+    [YUS_APPROVAL, <minecraft:nether_star>, <cyclicmagic:beacon_potion>],
     [<minecraft:gold_block>, <minecraft:emerald_block>, <rftools:machine_frame>]
 ]);
 
@@ -244,7 +193,7 @@ recipes.addShapeless(<fluxnetworks:fluxplug>, [<fluxnetworks:fluxplug:*>]);
 recipes.addShaped(<fluxnetworks:fluxplug>, [
     [commonCoin, <fluxnetworks:fluxcore:*>, commonCoin],
     [<fluxnetworks:fluxcore:*>, <fluxnetworks:fluxblock:*>, <fluxnetworks:fluxcore:*>],
-    [null, <fluxnetworks:fluxcore:*>, null]
+    [<cyclicmagic:cable_wireless_energy>, <fluxnetworks:fluxcore:*>, <cyclicmagic:cable_wireless_energy>]
 ]);
 
 // 通量接出点
@@ -252,7 +201,7 @@ recipes.addShapeless(<fluxnetworks:fluxpoint>, [<fluxnetworks:fluxpoint:*>]);
 recipes.addShaped(<fluxnetworks:fluxpoint>, [
     [commonCoin, <fluxnetworks:fluxcore:*>, commonCoin],
     [<fluxnetworks:fluxcore:*>, <minecraft:redstone_block:*>, <fluxnetworks:fluxcore:*>],
-    [null, <fluxnetworks:fluxcore:*>, null]
+    [<cyclicmagic:cable_wireless_energy>, <fluxnetworks:fluxcore:*>, <cyclicmagic:cable_wireless_energy>]
 ]);
 
 // 大储物袋
@@ -265,7 +214,7 @@ recipes.addShaped(<cyclicmagic:storage_bag>, [
 // 收割机
 recipes.addShaped(<cyclicmagic:harvester_block>, [
     [<ore:gemEmerald>, advancedCoin, <ore:gemEmerald>],
-    [null, <minecraft:nether_star>, null],
+    [<teastory:sickle>, <minecraft:nether_star>, <minecraft:dispenser>],
     [<ore:obsidian>, <ic2:crafting:2>, <ore:obsidian>]
 ]);
 
@@ -278,15 +227,10 @@ recipes.addShaped(<minecraft:tripwire_hook> * 2, [
 
 // 药水信标
 recipes.addShaped(<cyclicmagic:beacon_potion>, [
-    [<minecraft:end_stone:*>, <minecraft:end_stone:*>, <minecraft:end_stone:*>],
+    [<minecraft:end_stone:*>, <minecraft:elytra>, <minecraft:end_stone:*>],
     [<minecraft:end_stone:*>, <minecraft:beacon>, <minecraft:end_stone:*>],
     [<ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>]
 ]);
-
-// 寰宇肉丸
-ExtremeCrafting.remove(cosmicMeatBall);
-ExtremeCrafting.addShapeless("cosmicMeatBall", cosmicMeatBall,
-[neutron, beefRaw, fishRaw, rabbitRaw, pigRaw, commonCoin, advancedCoin, YUS_APPROVAL, ultraCoin, <cookingforblockheads:recipe_book>, <rftoolscontrol:rftoolscontrol_manual>, <xnet:xnet_manual>, <patchouli:guide_book>.withTag({"patchouli:book": "sakura:sakura_guide"}), <patchouli:guide_book>.withTag({"patchouli:book": "touhou_little_maid:memorizable_gensokyo"}), <ftbquests:book>, <botania:lexicon>.withTag({}), <botania_tweaks:compressed_tiny_potato_3>, <rftools:infused_enderpearl>,<teastory:porkchop_rice>, <torchmaster:frozen_pearl>, <minecraft:slime>, <quark:glass_item_frame>, <minecraft:light_weighted_pressure_plate>, <cyclicmagic:beacon_potion>, <quark:cooked_crab_leg>, <quark:cooked_frog_leg>]);
 
 // 存储检测器
 <rftools:storage_scanner>.addTooltip(format.green(game.localize("tooltip.scanner")));
@@ -294,12 +238,12 @@ ExtremeCrafting.addShapeless("cosmicMeatBall", cosmicMeatBall,
 // 扫描器
 recipes.addShaped(<scannable:scanner>.withTag({energy: 5000}), [
     [<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>],
-    [<appliedenergistics2:material:9>, <ic2:crafting:2>, <appliedenergistics2:material:9>],
+    [<appliedenergistics2:material:9>, <projectred-core:resource_item>, <appliedenergistics2:material:9>],
     [<ore:gemQuartz>, advancedCoin, <ore:gemQuartz>]
 ]);
 
 // 红石护甲防护板
-recipes.addShaped(<redstonearsenal:material:224>, [
+recipes.addShaped(<redstonearsenal:material:224> * 3, [
     [commonCoin, <ore:plateElectrumFlux>, commonCoin],
     [<ore:plateElectrumFlux>, <ore:gemCrystalFlux>, <ore:plateElectrumFlux>],
     [commonCoin, <ore:plateElectrumFlux>, commonCoin]
@@ -319,13 +263,6 @@ recipes.addShaped(<advanced_solar_panels:machines:3>, [
     [<ic2:crafting:2>, <ic2:crafting:4>, <ic2:crafting:2>]
 ]);
 <advanced_solar_panels:machines:3>.addTooltip(format.red(game.localize("tooltip.mixed_solar_panel")));
-
-// 终极混合太阳能
-Agglomeration.addRecipe(<advanced_solar_panels:machines:4>,
-    [ultraCoin, YUS_APPROVAL, <botania:storage:1>, <tconstruct:metal:2>, <ic2:crafting:4> * 4, <ic2:crafting:2> * 4, <appliedenergistics2:material:12> * 4, <botania:manaresource:14> * 4, <appliedenergistics2:material:38>], 1000000);
-
-// 量子太阳能
-FluidToItem.transform(<advanced_solar_panels:machines:5>, <liquid:ic2uu_matter>, [<advanced_solar_panels:machines:4> * 8, <advanced_solar_panels:crafting:13>, <appliedenergistics2:material:48>], true);
 
 // 魔钢套
 recipes.addShaped(<botania:manasteelhelm>, [
@@ -377,8 +314,72 @@ recipes.addShaped(<botania:elementiumboots>, [
     [null, <ic2:sheet:1>, null]
 ]);
 
-// 纳米套
-RuneAltar.addRecipe(<ic2:nano_helmet>, [<ic2:resource:13>, <ic2:nightvision_goggles>.anyDamage(), <botania:elementiumhelm>, <ic2:energy_crystal>.anyDamage(), commonCoin], 200000);
-RuneAltar.addRecipe(<ic2:nano_chestplate>, [<ic2:resource:13>, <ic2:crafting:34>, <avaritia:resource>, <botania:elementiumchest>, <ic2:energy_crystal>.anyDamage(), advancedCoin], 200000);
-RuneAltar.addRecipe(<ic2:nano_leggings>, [<ic2:resource:13>, <minecraft:nether_star>, <avaritia:resource>, <botania:elementiumlegs>, <ic2:energy_crystal>.anyDamage(), commonCoin], 200000);
-RuneAltar.addRecipe(<ic2:nano_boots>, [<ic2:resource:13>, <minecraft:end_rod>, <avaritia:resource>, <botania:elementiumboots>, <ic2:energy_crystal>.anyDamage(), commonCoin], 200000);
+// 物质聚合器
+recipes.addShaped(<appliedenergistics2:condenser>, 
+    utils.createSurround(<industrialforegoing:black_hole_unit>, <appliedenergistics2:material:54>)
+);
+
+// 红石计划电路板
+furnace.addRecipe(<projectred-core:resource_item>, <ic2:crafting:1>, 1);
+
+// 机器框架 (RFTOOL)
+recipes.addShaped(<rftools:machine_frame>, 
+    utils.coreSurroundCross(<nuclearcraft:part:10>, <quark:root_dye>, <minecraft:gold_nugget>)
+);
+
+// 星之组装台
+recipes.addShaped(<minecraft:starcraft_assembler_mki_controller>, [
+    [<appliedenergistics2:part:140>, <valkyrielib:modifier_component>, <appliedenergistics2:part:140>],
+    [<ic2:crafting:1>, <quark:elder_sea_lantern>, <appliedenergistics2:material:46>],
+    [<appliedenergistics2:part:140>, <valkyrielib:modifier_component>, <appliedenergistics2:part:140>]
+]);
+
+// 能量输入端口
+recipes.addShapeless(<minecraft:starcraft_energy_lamp>, [<cyclicmagic:cable_wireless_energy>, <environmentaltech:connector>, <minecraft:redstone_lamp>]);
+
+// 物品输入仓
+recipes.addShaped(<multiblocked:item_input>, [
+    [null, <minecraft:hopper>, null],
+    [<ore:plateIron>, <ic2:resource:12>, <ore:plateIron>],
+    [<ore:chestWood>, <ore:plateIron>, <ore:chestWood>]
+]);
+recipes.addShapeless(<multiblocked:item_input>, [<multiblocked:item_output>]);
+
+// 物品输出仓
+recipes.addShaped(<multiblocked:item_output>, [
+    [<ore:chestWood>, <minecraft:hopper>, <ore:chestWood>],
+    [<ore:plateIron>, <ic2:resource:12>, <ore:plateIron>],
+    [null, <minecraft:hopper>, null]
+]);
+recipes.addShapeless(<multiblocked:item_output>, [<multiblocked:item_input>]);
+
+// 流体输入仓
+recipes.addShaped(<multiblocked:fluid_input>, [
+    [null, <minecraft:hopper>, null],
+    [<ore:plateIron>, <ic2:resource:12>, <ore:plateIron>],
+    [<thermalexpansion:tank>, <ore:plateIron>, <thermalexpansion:tank>]
+]);
+recipes.addShapeless(<multiblocked:fluid_input>, [<multiblocked:fluid_output>]);
+
+// 流体输出仓
+recipes.addShaped(<multiblocked:fluid_output>, [
+    [<thermalexpansion:tank>, <minecraft:hopper>, <thermalexpansion:tank>],
+    [<ore:plateIron>, <ic2:resource:12>, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
+]);
+recipes.addShapeless(<multiblocked:fluid_output>, [<multiblocked:fluid_input>]);
+
+// 农贸市场
+recipes.addShaped(<farmingforblockheads:market>,[
+    [<ore:woolRed>, <ore:woolRed>, <ore:woolRed>],
+    [<astralsorcery:blockinfusedwood>, <ore:gemEmerald>, <astralsorcery:blockinfusedwood>],
+    [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>]
+]);
+
+//TODO:METS部分后期物品增产配方，避免算力溢出卡顿
+//TODO:星力组装多方块结构 MK II 和 MK III
+//TODO:环境矿机配方安排
+//TODO:星辉四级祭坛作为各阶段安排
+//TODO:一些彩蛋物品
+//TODO:核电工艺爆改(材料变为机器处理，或MK II 组装获得)
+//TODO:简简单单的龙研
