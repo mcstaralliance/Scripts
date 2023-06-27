@@ -11,9 +11,9 @@ Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/altar/illuminationpowd
 
 // 星辉祭坛
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("starcraft:shaped/internal/altar/upgrader1", <astralsorcery:blockaltar:1>, 200, 200, [
-	starLight, <astralsorcery:itemcraftingcomponent:2>, starLight,
-	<projectred-core:resource_item>, <botania:storage>, <projectred-core:resource_item>,
-	<astralsorcery:blockmarble:6>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:blockmarble:6>]
+    starLight, <astralsorcery:itemcraftingcomponent:2>, starLight,
+    <projectred-core:resource_item>, <botania:storage>, <projectred-core:resource_item>,
+    <astralsorcery:blockmarble:6>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:blockmarble:6>]
 );
 
 // 天辉祭坛
