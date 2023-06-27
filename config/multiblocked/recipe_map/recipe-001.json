@@ -4,6 +4,109 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
+      "uid": "f9866611-72c3-4b90-b7a6-1baf17630fab",
+      "duration": 60,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:4b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:2b,Damage:513s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:1b,Damage:24s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:3b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.05,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 250
+          }
+        ]
+      }
+    },
+    {
+      "uid": "123b22fb-454d-464a-8c4c-88618186a8ee",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"botania:livingrock\",Count:5b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"botania:pool\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100
+          }
+        ]
+      }
+    },
+    {
       "uid": "977003ff-d7df-4921-816e-3781a6ab770f",
       "duration": 2000,
       "inputs": {
@@ -87,6 +190,385 @@
           }
         }
       ]
+    },
+    {
+      "uid": "d770532f-7fd1-44f3-b203-e4270bef74ac",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"enderio:item_alloy_ingot\",Count:6b,Damage:9s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:12s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3e366895-7a3a-4071-9925-1da67fa878c4",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"thermalfoundation:rockwool\",Count:2b,Damage:15s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:1b,Damage:5s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"alumina\",Amount:1296}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"environmentaltech:mica\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e9016870-b689-4fc6-a48d-db89f4827bfe",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"ic2:plate\",Count:4b,Damage:13s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"ic2:misc_resource\",Count:2b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"redstonearsenal:material\",Count:2b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:4b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:2b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4d2e80e9-0aa6-4ec9-88ee-3f9f7593857e",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"custommc:item961\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:3b,Damage:10s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:1b,Damage:22s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"advanced_solar_panels:crafting\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4b,Damage:35s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a2c6016e-e5ac-4c0c-a226-195f20418354",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:3b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:12s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:2b,Damage:15s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:13s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:12s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4ce57927-2ded-4324-8109-f3949825b543",
+      "duration": 120,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"enderio:item_alloy_ingot\",Count:2b,Damage:9s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:quartz_glass\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"advanced_solar_panels:crafting\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:4b,Damage:52s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e06151af-4488-48ef-982e-95df350da46a",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"minecraft:gold_ingot\",Count:3b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"deepmoblearning:glitch_fragment\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 5000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"deepmoblearning:glitch_infused_ingot\",Count:3b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      }
     }
   ]
 }
