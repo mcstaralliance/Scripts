@@ -41,3 +41,40 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("starcraft:shaped/internal/alt
     <enderio:item_material:43>, <enderio:item_material:43>, <enderio:item_basic_capacitor:2>, <enderio:item_basic_capacitor:2>,
     <botania:manaresource:14>, <botania:manaresource:14>, <mahoutsukai:fae_essence>, <mahoutsukai:fae_essence>
 ]);
+
+// 一级虚空采矿控制器
+Altar.addDiscoveryAltarRecipe("starcraft:shaped/internal/custom/environmental_ore_miner_tier1", <environmentaltech:void_ore_miner_cont_1>, 200, 200, [
+    <environmentaltech:interconnect>, <botania:storage:3>, <environmentaltech:interconnect>,
+    <environmentaltech:interconnect>, <ore:netherStar>, <environmentaltech:interconnect>,
+    <environmentaltech:litherite>, <ore:etLaserLens>, <environmentaltech:litherite>
+]);
+
+// 星之装配台 MK II
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/assemblermkii", <minecraft:starcraft_assembler_mkii_controller>, 500, 300, [
+    <ore:gaiaIngot>, <mets:super_circuit>, <ore:gaiaIngot>,
+    <ore:gaiaIngot>, <ic2:resource:13>, <ore:gaiaIngot>,
+    <environmentaltech:mica>, <environmentaltech:mica>, <environmentaltech:mica>,
+    <ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>, <ore:plateEnderium>, 
+]);
+
+// 星之装配台 MK III
+Altar.addConstellationAltarRecipe("starcraft:shaped/internal/custom/assemblermkiii", <minecraft:starcraft_assembler_mkiii_controller>, 2000, 200, [
+    <thermalfoundation:upgrade:35>, <deepmoblearning:glitch_heart>, <thermalfoundation:upgrade:35>,
+    <threng:material:6>, <astralsorcery:blockcelestialcollectorcrystal>, <threng:material:6>,
+    <nuclearcraft:gem:1>, <deepmoblearning:glitch_heart>, <nuclearcraft:gem:1>,
+    <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>,
+    <threng:material:4>, <threng:material:4>, 
+    <mahoutsukai:fae_essence>, <mahoutsukai:fae_essence>, 
+]);
+
+// 双足飞龙核心
+Altar.addTraitAltarRecipe("starcraft:shaped/internal/custom/wyvern_core", <draconicevolution:wyvern_core>, 4500, 400,[
+    <mets:field_generator>, <cyclicmagic:soulstone>, <mets:field_generator>, 
+    <cyclicmagic:soulstone>, <draconicevolution:draconic_core>, <cyclicmagic:soulstone>, 
+    <mets:field_generator>, <cyclicmagic:soulstone>, <mets:field_generator>,
+    <botania:pylon:2>, <botania:pylon:2>, <botania:pylon:2>, <botania:pylon:2>, 
+    <projectred-core:resource_item:200>, <projectred-core:resource_item:200>, <projectred-core:resource_item:200>, <projectred-core:resource_item:200>, 
+    <projectred-core:resource_item:201>, <projectred-core:resource_item:201>, <projectred-core:resource_item:201>, <projectred-core:resource_item:201>,
+    <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>,
+    <draconicevolution:draconium_dust>, <astralsorcery:itemcraftingcomponent:2>, <mahoutsukai:fae_essence>, <astralsorcery:itemcraftingcomponent:2>, <draconicevolution:draconium_dust>
+]);
