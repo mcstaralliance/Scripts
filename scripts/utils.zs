@@ -3,6 +3,18 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+global commonCoin as IItemStack = <custommc:item961>;
+global advancedCoin as IItemStack = <custommc:item927>;
+global ultraCoin as IItemStack = <custommc:item930>;
+global YUS_APPROVAL as IItemStack = <custommc:item129>;
+global cosmicMeatBall as IItemStack = <avaritia:cosmic_meatballs>;
+global beefRaw as IItemStack = <minecraft:beef>;
+global rabbitRaw as IItemStack = <minecraft:rabbit>;
+global chickenRaw as IItemStack = <minecraft:chicken>;
+global pigRaw as IItemStack = <minecraft:porkchop>;
+global fishRaw as IItemStack = <minecraft:fish>;
+global neutron as IItemStack = <avaritia:resource:2>;
+
 function constructCoin(mat as IItemStack, name as string, value as string){
     mat.displayName = name;
     mat.addTooltip(game.localize("tooltip.coin_value") + value);

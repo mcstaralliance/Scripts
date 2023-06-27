@@ -1,0 +1,593 @@
+{
+  "version": 2,
+  "location": "minecraft:starcraft_assembler_mkiii_controller",
+  "traits": {},
+  "properties": {
+    "rotationState": "NONE",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "astralsorcery:blockrituallink",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "astralsorcery:blockcollectorcrystal",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "recipe-003",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "           ",
+        "     A     ",
+        "     A     ",
+        "     A     ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        " BBCDADCBB ",
+        " EFGF FGFE ",
+        " HGI   IGH ",
+        " JII   IIJ ",
+        " JI  A  IJ ",
+        " I       I ",
+        " K       K "
+      ],
+      [
+        " BLMNONPLB ",
+        " FQ     QF ",
+        " GR     RG ",
+        " I       I ",
+        " I       I ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " CMSTUTSPC ",
+        " G  V V  G ",
+        " I       I ",
+        " I       I ",
+        "           ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " DNTWOXTND ",
+        " F V   V F ",
+        "           ",
+        "           ",
+        "           ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " AOUOYOUOA ",
+        "A         A",
+        "A         A",
+        "A    @    A",
+        " A       A ",
+        "  AAAZAAA  ",
+        "     [     "
+      ],
+      [
+        " DNT\\O]TND ",
+        " F V   V F ",
+        "           ",
+        "           ",
+        "           ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " C^STUTS_C ",
+        " G  V V  G ",
+        " I       I ",
+        " I       I ",
+        "           ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " BL^NON_LB ",
+        " FQ     QF ",
+        " GR     RG ",
+        " I       I ",
+        " I       I ",
+        "     A     ",
+        "           "
+      ],
+      [
+        " BBCDADCBB ",
+        " EFGF FGFE ",
+        " HGI   IGH ",
+        " JII   IIJ ",
+        " JI  A  IJ ",
+        " I       I ",
+        " K       K "
+      ],
+      [
+        "           ",
+        "     A     ",
+        "     A     ",
+        "     A     ",
+        "           ",
+        "           ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "environmentaltech:structure_frame_3",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "bloodmagic:blood_rune",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "environmentaltech:kyronite",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "environmentaltech:structure_panel",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "astralsorcery:blockinfusedwood",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "environmentaltech:kyronite_tiles",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "quark:purpur_block_wall",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "environmentaltech:erodium_bricks",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "cfm:electric_fence",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "bloodmagic:demon_light",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "tconstruct:firewood_slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "environmentaltech:structure_frame_2",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "bloodmagic:demon_light",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "avaritia:block_resource",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "botania:pylon",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "nuclearcraft:cooler",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "T": {
+        "states": [
+          {
+            "id": "draconicevolution:infused_obsidian",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "U": {
+        "states": [
+          {
+            "id": "minecraft:starcraft_energy_lamp",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "V": {
+        "states": [
+          {
+            "id": "botania:pool",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "W": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "X": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Y": {
+        "states": [
+          {
+            "id": "rftools:environmental_controller",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Z": {
+        "states": [
+          {
+            "id": "tconstruct:metal",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "[": {
+        "states": [
+          {
+            "id": "botania:runealtar",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "\\": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "]": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "^": {
+        "states": [
+          {
+            "id": "bloodmagic:demon_light",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "_": {
+        "states": [
+          {
+            "id": "bloodmagic:demon_light",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "minecraft:starcraft_assembler_mkiii_controller",
+        "type": "component"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "R": [
+        "R"
+      ],
+      "S": [
+        "S"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U"
+      ],
+      "V": [
+        "V"
+      ],
+      "W": [
+        "W"
+      ],
+      "X": [
+        "X"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "Z": [
+        "Z"
+      ],
+      "[": [
+        "["
+      ],
+      "\\": [
+        "\\"
+      ],
+      "]": [
+        "]"
+      ],
+      "^": [
+        "^"
+      ],
+      "_": [
+        "_"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

@@ -2,12 +2,13 @@
 
 import mods.astralsorcery.Altar;
 import mods.botania.Apothecary;
+import mods.bloodmagic.TartaricForge;
+import mods.avaritia.ExtremeCrafting;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var removeRecipe as IItemStack[] = [
     <cyclicmagic:block_forester>,
-    <randomthings:ingredient:12>,
     <botania:pool>,
     <draconicevolution:draconic_core>,
     <ic2:resource:12>,
@@ -72,8 +73,30 @@ var removeRecipe as IItemStack[] = [
     <botania:manasteelhelm>,
     <botania:manasteelchest>,
     <botania:manasteellegs>,
-    <botania:manasteelboots>
-
+    <botania:manasteelboots>,
+    <ic2:nano_helmet>,
+    <ic2:nano_chestplate>,
+    <ic2:nano_leggings>,
+    <ic2:nano_boots>,
+    <appliedenergistics2:condenser>,
+    <bloodmagic:altar>,
+    <rftools:machine_frame>,
+    <farmingforblockheads:market>,
+    <mets:plant_extract>,
+    <thermalfoundation:upgrade>,
+    <thermalfoundation:upgrade:1>,
+    <thermalfoundation:upgrade:2>,
+    <thermalfoundation:upgrade:3>,
+    <environmentaltech:lightning_cont_1>,
+    <environmentaltech:solar_cont_1>,
+    <environmentaltech:void_res_miner_cont_1>,
+    <environmentaltech:void_botanic_miner_cont_1>,
+    <environmentaltech:nano_cont_ranged_1>,
+    <environmentaltech:nano_cont_personal_1>,
+    <environmentaltech:void_ore_miner_cont_5>,
+    <environmentaltech:void_ore_miner_cont_6>,
+    <environmentaltech:structure_frame_5>,
+    <environmentaltech:structure_frame_6>
 ];
 
 for myRemoveRecipes in removeRecipe{
@@ -141,6 +164,26 @@ var ban as IItemStack[] = [
     <industrialforegoing:enchantment_extractor>
 ];
 
+var removeFurnaceRecipe as IItemStack[] = [
+    <projectred-core:resource_item>,
+];
+
+for myRemoveFurnaceRecipe in removeFurnaceRecipe{
+    furnace.remove(myRemoveFurnaceRecipe);
+}
+
+var removeAstralSorceryAltarRecipe as string[] = [
+    "astralsorcery:shaped/internal/altar/upgrade_tier2",
+    "astralsorcery:shaped/internal/altar/upgrade_tier3",
+    "astralsorcery:shaped/internal/altar/upgrade_tier4",
+    "astralsorcery:shaped/internal/altar/bore_head_liquid",
+    "astralsorcery:shaped/internal/altar/illuminationpowder",
+    "astralsorcery:shaped/attunementaltar"
+];
+for myRemoveAstralSorceryAltarRecipe in removeAstralSorceryAltarRecipe{
+    Altar.removeAltarRecipe(myRemoveAstralSorceryAltarRecipe);
+}
+
 for toBan in ban{
     recipes.remove(toBan);
     toBan.addTooltip(format.red(game.localize("tooltip.recipe_deleted")));
@@ -157,6 +200,9 @@ for toSpecialBan in specialBan{
 
 furnace.remove(<variedcommodities:ingot_steel>);
 furnace.remove(<minecraft:brick>);
-Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_liquid");
+
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
 
+ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
+
+TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);

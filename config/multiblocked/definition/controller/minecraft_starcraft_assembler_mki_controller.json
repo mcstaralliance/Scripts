@@ -3,7 +3,7 @@
   "location": "minecraft:starcraft_assembler_mki_controller",
   "traits": {},
   "properties": {
-    "rotationState": "ALL",
+    "rotationState": "NONE",
     "showInJei": true,
     "isOpaque": true,
     "hasCollision": true,
@@ -21,11 +21,16 @@
           "meta": 0
         },
         "type": "blockstate"
-      },
-      "lightEmissive": 0
+      }
     },
     "idle": {
-      "lightEmissive": 0,
+      "renderer": {
+        "state": {
+          "id": "quark:elder_sea_lantern",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
       "parent": "unformed"
     },
     "working": {
@@ -36,7 +41,7 @@
         },
         "type": "blockstate"
       },
-      "lightEmissive": 0,
+      "lightEmissive": 10,
       "parent": "idle"
     },
     "suspend": {
@@ -47,20 +52,19 @@
         },
         "type": "blockstate"
       },
-      "lightEmissive": 0,
       "parent": "working"
     }
   },
-  "recipeMap": "08395aa0-337b-420a-9ea1-c8eb2d4d381b",
+  "recipeMap": "recipe-001",
   "basePattern": {
     "structureDir": [
-      "RIGHT",
+      "BACK",
       "UP",
-      "FRONT"
+      "RIGHT"
     ],
     "pattern": [
       [
-        " AAAAA ",
+        "AAAAAAA",
         "       ",
         "       ",
         "       ",
@@ -69,53 +73,53 @@
         "       "
       ],
       [
-        "ABBBBBA",
-        " CDEDC ",
+        "AAAAAAA",
+        " BCDEB ",
         " F   F ",
         " F   F ",
-        " FGHGF ",
-        " C G C ",
-        "   I   "
-      ],
-      [
-        "ABBBBBA",
-        " J   K ",
-        "   L   ",
-        "   M   ",
-        " G N G ",
-        "   G   ",
+        " F   F ",
+        " BGHGB ",
         "   G   "
       ],
       [
-        "ABBBBBA",
-        " D O D ",
-        "  PQR  ",
-        "  STS  ",
-        " HNQNH ",
-        " GGUGG ",
-        " VGGGW "
+        "AAAAAAA",
+        " D   I ",
+        "   J   ",
+        "   J   ",
+        "   K   ",
+        " G G G ",
+        "  G G  "
       ],
       [
-        "ABBBBBA",
-        " X   Y ",
-        "   Z   ",
-        "   Z   ",
-        " G N G ",
-        "   G   ",
+        "AAAAAAA",
+        " @ L I ",
+        "  JMJ  ",
+        "  JNJ  ",
+        "  KMK  ",
+        " HGOGH ",
+        " G B G "
+      ],
+      [
+        "AAAAAAA",
+        " D   I ",
+        "   J   ",
+        "   J   ",
+        "   K   ",
+        " G G G ",
+        "  G G  "
+      ],
+      [
+        "AAAAAAA",
+        " BPDQB ",
+        " F   F ",
+        " F   F ",
+        " F   F ",
+        " BGHGB ",
         "   G   "
       ],
       [
-        "ABBBBBA",
-        " CD@DC ",
-        " F   F ",
-        " F   F ",
-        " FGHGF ",
-        " C G C ",
-        "   [   "
-      ],
-      [
-        " AAAAA ",
-        "       ",
+        "AAAAAAA",
+        "    R  ",
         "       ",
         "       ",
         "       ",
@@ -157,17 +161,21 @@
       "A": {
         "states": [
           {
-            "id": "immersiveengineering:metal_decoration1_slab",
+            "id": "immersiveengineering:metal_decoration1",
             "meta": 5
           }
         ],
         "type": "states"
       },
+      "controller": {
+        "location": "minecraft:starcraft_assembler_mki_controller",
+        "type": "component"
+      },
       "B": {
         "states": [
           {
-            "id": "immersiveengineering:metal_decoration1",
-            "meta": 5
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
           }
         ],
         "type": "states"
@@ -175,8 +183,8 @@
       "C": {
         "states": [
           {
-            "id": "astralsorcery:blockmarble",
-            "meta": 6
+            "id": "multiblocked:fluid_output",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -193,7 +201,7 @@
       "E": {
         "states": [
           {
-            "id": "minecraft:starcraft_energy_lamp",
+            "id": "multiblocked:item_output",
             "meta": 0
           }
         ],
@@ -212,7 +220,7 @@
         "states": [
           {
             "id": "astralsorcery:blockmarbleslab",
-            "meta": 8
+            "meta": 0
           }
         ],
         "type": "states"
@@ -220,8 +228,8 @@
       "H": {
         "states": [
           {
-            "id": "astralsorcery:blockmarbleslab",
-            "meta": 0
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
           }
         ],
         "type": "states"
@@ -229,7 +237,7 @@
       "I": {
         "states": [
           {
-            "id": "astralsorcery:blockmarblestairs",
+            "id": "minecraft:starcraft_energy_lamp",
             "meta": 0
           }
         ],
@@ -238,17 +246,20 @@
       "J": {
         "states": [
           {
-            "id": "multiblocked:fluid_output",
+            "id": "appliedenergistics2:quartz_vibrant_glass",
             "meta": 0
           }
         ],
         "type": "states"
       },
+      "air": {
+        "type": "air"
+      },
       "K": {
         "states": [
           {
-            "id": "multiblocked:fluid_input",
-            "meta": 0
+            "id": "botania:storage",
+            "meta": 4
           }
         ],
         "type": "states"
@@ -256,16 +267,19 @@
       "L": {
         "states": [
           {
-            "id": "immersiveengineering:stone_decoration_stairs_concrete_leaded",
-            "meta": 4
+            "id": "botania:storage",
+            "meta": 1
           }
         ],
         "type": "states"
       },
+      "any": {
+        "type": "any"
+      },
       "M": {
         "states": [
           {
-            "id": "gb:glob2_block",
+            "id": "minecraft:end_rod",
             "meta": 0
           }
         ],
@@ -274,67 +288,13 @@
       "N": {
         "states": [
           {
-            "id": "botania:storage",
-            "meta": 4
+            "id": "minecraft:end_rod",
+            "meta": 1
           }
         ],
         "type": "states"
       },
       "O": {
-        "states": [
-          {
-            "id": "botania:storage",
-            "meta": 1
-          }
-        ],
-        "type": "states"
-      },
-      "P": {
-        "states": [
-          {
-            "id": "immersiveengineering:stone_decoration_stairs_concrete_leaded",
-            "meta": 6
-          }
-        ],
-        "type": "states"
-      },
-      "Q": {
-        "states": [
-          {
-            "id": "minecraft:end_rod",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "R": {
-        "states": [
-          {
-            "id": "immersiveengineering:stone_decoration_stairs_concrete_leaded",
-            "meta": 7
-          }
-        ],
-        "type": "states"
-      },
-      "S": {
-        "states": [
-          {
-            "id": "gb:glob_block",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "T": {
-        "states": [
-          {
-            "id": "minecraft:end_rod",
-            "meta": 1
-          }
-        ],
-        "type": "states"
-      },
-      "U": {
         "states": [
           {
             "id": "minecraft:emerald_block",
@@ -343,34 +303,16 @@
         ],
         "type": "states"
       },
-      "V": {
+      "P": {
         "states": [
           {
-            "id": "astralsorcery:blockmarblestairs",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "W": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarblestairs",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
-      "X": {
-        "states": [
-          {
-            "id": "multiblocked:item_output",
+            "id": "multiblocked:fluid_input",
             "meta": 0
           }
         ],
         "type": "states"
       },
-      "Y": {
+      "Q": {
         "states": [
           {
             "id": "multiblocked:item_input",
@@ -379,35 +321,22 @@
         ],
         "type": "states"
       },
-      "Z": {
+      "R": {
         "states": [
           {
-            "id": "appliedenergistics2:quartz_vibrant_glass",
-            "meta": 0
+            "id": "minecraft:chest",
+            "meta": 5
           }
         ],
         "type": "states"
-      },
-      "[": {
-        "states": [
-          {
-            "id": "astralsorcery:blockmarblestairs",
-            "meta": 1
-          }
-        ],
-        "type": "states"
-      },
-      "controller": {
-        "location": "minecraft:starcraft_assembler_mki_controller",
-        "type": "component"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
         "controller"
+      ],
+      " ": [
+        "any"
       ],
       "A": [
         "A"
@@ -448,6 +377,9 @@
       "M": [
         "M"
       ],
+      "-": [
+        "air"
+      ],
       "N": [
         "N"
       ],
@@ -462,36 +394,6 @@
       ],
       "R": [
         "R"
-      ],
-      "S": [
-        "S"
-      ],
-      "T": [
-        "T"
-      ],
-      "U": [
-        "U"
-      ],
-      "V": [
-        "V"
-      ],
-      "W": [
-        "W"
-      ],
-      "X": [
-        "X"
-      ],
-      "Y": [
-        "Y"
-      ],
-      "Z": [
-        "Z"
-      ],
-      "[": [
-        "["
-      ],
-      " ": [
-        "any"
       ]
     }
   }
