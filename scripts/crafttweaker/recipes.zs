@@ -7,6 +7,12 @@ utils.constructCoin(commonCoin, game.localize("item.starcraft.commonCoin"), 50);
 utils.constructCoin(advancedCoin, game.localize("item.starcraft.advancedCoin"), 600);
 utils.constructCoin(ultraCoin, game.localize("item.starcraft.ultraCoin"), 1200);
 
+YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
+YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
+
+<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
+
+
 // 花药台
 recipes.addShaped(<botania:altar>, [
     [<minecraft:stone_slab>, <ore:mushroomAny>, <minecraft:stone_slab>],
