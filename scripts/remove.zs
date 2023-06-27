@@ -81,7 +81,22 @@ var removeRecipe as IItemStack[] = [
     <appliedenergistics2:condenser>,
     <bloodmagic:altar>,
     <rftools:machine_frame>,
-    <farmingforblockheads:market>
+    <farmingforblockheads:market>,
+    <mets:plant_extract>,
+    <thermalfoundation:upgrade>,
+    <thermalfoundation:upgrade:1>,
+    <thermalfoundation:upgrade:2>,
+    <thermalfoundation:upgrade:3>,
+    <environmentaltech:lightning_cont_1>,
+    <environmentaltech:solar_cont_1>,
+    <environmentaltech:void_res_miner_cont_1>,
+    <environmentaltech:void_botanic_miner_cont_1>,
+    <environmentaltech:nano_cont_ranged_1>,
+    <environmentaltech:nano_cont_personal_1>,
+    <environmentaltech:void_ore_miner_cont_5>,
+    <environmentaltech:void_ore_miner_cont_6>,
+    <environmentaltech:structure_frame_5>,
+    <environmentaltech:structure_frame_6>
 ];
 
 for myRemoveRecipes in removeRecipe{
