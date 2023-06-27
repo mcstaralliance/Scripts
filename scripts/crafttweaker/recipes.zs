@@ -7,12 +7,6 @@ utils.constructCoin(commonCoin, game.localize("item.starcraft.commonCoin"), 50);
 utils.constructCoin(advancedCoin, game.localize("item.starcraft.advancedCoin"), 600);
 utils.constructCoin(ultraCoin, game.localize("item.starcraft.ultraCoin"), 1200);
 
-YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
-YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
-
-<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
-
-
 // 花药台
 recipes.addShaped(<botania:altar>, [
     [<minecraft:stone_slab>, <ore:mushroomAny>, <minecraft:stone_slab>],
@@ -168,16 +162,6 @@ recipes.addShaped(<botania:spreader:3>, [
     [null, advancedCoin, null],
     [<tconstruct:ingots:2>, <botania:manaresource:14>, <botania:spreader:2>],
     [null, <minecraft:nether_star>, null]
-]);
-
-// 高级电路板
-recipes.addShaped(<ic2:crafting:2> * 2, [
-    [<ore:plateAdvancedAlloy>, <enderio:item_basic_capacitor:1>, <ore:plateAdvancedAlloy>],
-    [<ic2:crafting:1>, <ic2:crafting:1>, <ic2:crafting:1>],
-    [<ore:plateAdvancedAlloy>, <enderio:item_basic_capacitor:1>, <ore:plateAdvancedAlloy>]
-]);
-recipes.addShapeless(<ic2:crafting:2>, [
-    <projectred-core:resource_item:21>, <projectred-core:resource_item:21>
 ]);
 
 // 电路板
@@ -355,7 +339,7 @@ recipes.addShapeless(<multiblocked:item_input>, [<multiblocked:item_output>]);
 recipes.addShaped(<multiblocked:item_output>, [
     [<ore:chestWood>, <minecraft:hopper>, <ore:chestWood>],
     [<ore:plateIron>, <ic2:resource:12>, <ore:plateIron>],
-    [null, <minecraft:hopper>, null]
+    [null, <ore:plateIron>, null]
 ]);
 recipes.addShapeless(<multiblocked:item_output>, [<multiblocked:item_input>]);
 
@@ -382,10 +366,33 @@ recipes.addShaped(<farmingforblockheads:market>,[
     [<astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>, <astralsorcery:blockinfusedwood>]
 ]);
 
-//TODO:METS部分后期物品增产配方，避免算力溢出卡顿
-//TODO:星力组装多方块结构 MK II 和 MK III
-//TODO:环境矿机配方安排
-//TODO:星辉四级祭坛作为各阶段安排
+// 硬化升级套件
+recipes.addShaped(<thermalfoundation:upgrade>, 
+    utils.createCrossWithCore(<thermalfoundation:material:290>, <ic2:crafting:3>, <ore:dustRedstone>)
+);
+
+// 强化升级套件
+recipes.addShaped(<thermalfoundation:upgrade:1>, 
+    utils.createCrossWithCore(<ore:gearElectrum>, <ore:plateSilver>, <ore:blockGlassHardened>)
+);
+
+// 信素升级套件
+recipes.addShaped(<thermalfoundation:upgrade:2>,
+    utils.createCrossWithCore(<thermalfoundation:material:293>, <ore:plateElectrumFlux>, <ore:dustCryotheum>)
+);
+
+// 谐振升级套件
+recipes.addShaped(<thermalfoundation:upgrade:3>, 
+    utils.createCrossWithCore(<ore:gearEnderium>, <ore:plateLumium>, <ore:dustPyrotheum>)
+);
+
+// 高级电路板
+recipes.addShaped(<ic2:crafting:2>, [
+    [<appliedenergistics2:material:23>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>],
+    [commonCoin, <ic2:crafting:1>, commonCoin],
+    [<projectred-core:resource_item:21>, <botania:manaresource:9>, <appliedenergistics2:material:9>]
+]);
+
 //TODO:一些彩蛋物品
 //TODO:核电工艺爆改(材料变为机器处理，或MK II 组装获得)
 //TODO:简简单单的龙研
