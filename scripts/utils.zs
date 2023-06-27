@@ -20,11 +20,6 @@ function constructCoin(mat as IItemStack, name as string, value as string){
     mat.addTooltip(game.localize("tooltip.coin_value") + value);
 }
 
-YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
-YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
-
-<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
-
 // 引用自 https://github.com/friendlyhj/GrassUtils/blob/master/main/RecipeUtils.zs，遵循 MIT 许可证
 
 function coreSurroundCross(core as IIngredient, a as IIngredient, b as IIngredient) as IIngredient[][] {
