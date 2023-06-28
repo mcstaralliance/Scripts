@@ -33,7 +33,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("starcraft:shaped/internal/alt
 ]);
 
 // 五彩祭坛
-mods.astralsorcery.Altar.addAttunementAltarRecipe("starcraft:shaped/internal/altar/upgrader3", <astralsorcery:blockaltar:3>, 2000, 1000, [
+Altar.addConstellationAltarRecipe("starcraft:shaped/internal/altar/upgrader3", <astralsorcery:blockaltar:3>, 2000, 1000, [
     <bloodmagic:slate:3>, <astralsorcery:itemperkseal>, <bloodmagic:slate:3>,
     <ic2:crafting:4>, <environmentaltech:structure_frame_2>, <ic2:crafting:4>,
     <appliedenergistics2:material:36>, <appliedenergistics2:material:6>, <appliedenergistics2:material:36>,
@@ -63,8 +63,8 @@ Altar.addConstellationAltarRecipe("starcraft:shaped/internal/custom/assemblermki
     <threng:material:6>, <astralsorcery:blockcelestialcollectorcrystal>, <threng:material:6>,
     <nuclearcraft:gem:1>, <deepmoblearning:glitch_heart>, <nuclearcraft:gem:1>,
     <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>, <valkyrielib:modifier_speed>,
-    <threng:material:4>, <threng:material:4>, 
-    <mahoutsukai:fae_essence>, <mahoutsukai:fae_essence>, 
+    <threng:material:4>, <threng:material:4>, <bloodmagic:component:7>, <bloodmagic:component:7>,
+    <mahoutsukai:fae_essence>, <mahoutsukai:fae_essence>, <deepmoblearning:living_matter_extraterrestrial>, <deepmoblearning:living_matter_extraterrestrial>
 ]);
 
 // 双足飞龙核心
@@ -77,4 +77,17 @@ Altar.addTraitAltarRecipe("starcraft:shaped/internal/custom/wyvern_core", <draco
     <projectred-core:resource_item:201>, <projectred-core:resource_item:201>, <projectred-core:resource_item:201>, <projectred-core:resource_item:201>,
     <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>, <bloodmagic:slate:4>,
     <draconicevolution:draconium_dust>, <astralsorcery:itemcraftingcomponent:2>, <mahoutsukai:fae_essence>, <astralsorcery:itemcraftingcomponent:2>, <draconicevolution:draconium_dust>
-]);
+], "astralsorcery.constellation.pelotrio");
+
+// 飞龙能量核心
+Altar.addTraitAltarRecipe("starcraft:shaped/internal/custom/wyvern_energy_core", <draconicevolution:wyvern_energy_core>, 4500, 400, [
+    <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.evorsio"}}), <draconicevolution:draconic_core>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.armara"}}), 
+    <draconicevolution:draconic_core>, <threng:material:14>, <draconicevolution:draconic_core>, 
+    <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.discidia"}}), <draconicevolution:draconic_core>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}}), 
+    null, null, null, null,
+    <avaritia:resource:4>, <avaritia:resource:4>,
+    <mets:living_circuit>, <mets:living_circuit>, 
+    <mets:neutron_plate>, <mets:neutron_plate>, 
+    <avaritia:resource:4>, <avaritia:resource:4>,
+    <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.vicio"}}), <thermalfoundation:coin:103>, <thermalfoundation:coin:103>, <astralsorcery:itemperkgem:2>
+], "astralsorcery.constellation.horologium");

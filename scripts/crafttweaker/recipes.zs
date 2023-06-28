@@ -393,6 +393,47 @@ recipes.addShaped(<ic2:crafting:2>, [
     [<projectred-core:resource_item:21>, <botania:manaresource:9>, <appliedenergistics2:material:9>]
 ]);
 
-//TODO:一些彩蛋物品
-//TODO:核电工艺爆改(材料变为机器处理，或MK II 组装获得)
-//TODO:简简单单的龙研
+// 神龙能量核心
+recipes.addShaped(<draconicevolution:draconic_energy_core> * 2, 
+    utils.createCrossWithCore(<draconicevolution:dragon_heart>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconic_block>)
+);
+
+// 龙粒
+recipes.addShaped(<draconicevolution:nugget>, 
+    utils.createCrossWithCore(<draconicevolution:draconium_ingot>, null, <draconicevolution:draconium_ingot>)
+);
+
+// 双足飞龙套
+recipes.addShaped(<draconicevolution:wyvern_helm>.withTag({Energy: 4000000}), [
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <ic2:quantum_helmet>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
+]);
+
+recipes.addShaped(<draconicevolution:wyvern_chest>.withTag({Energy: 4000000}), [
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <mets:heavy_quantum_chest>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
+]);
+
+recipes.addShaped(<draconicevolution:wyvern_legs>.withTag({Energy: 4000000}), [
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <ic2:quantum_leggings>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
+]);
+
+recipes.addShaped(<draconicevolution:wyvern_boots>.withTag({Energy: 4000000}), [
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <ic2:quantum_boots>, <draconicevolution:nugget>],
+    [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
+]);
+
+// 导电铁碎片
+recipes.addShapeless(<tconstruct:shard>.withTag({Material: "conductive_iron"}), [
+    <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>, <ore:nuggetConductiveIron>
+]);
+
+// 铜螺线管
+recipes.addShaped(<nuclearcraft:part:4> * 4, 
+    utils.createCrossWithCore(<immersiveengineering:metal_decoration0>, <thermalfoundation:material:515>, <ic2:crafting:5>)
+);
