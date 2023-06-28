@@ -1,8 +1,62 @@
 {
   "name": "recipe-002",
-  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "progressTexture": "multiblocked:textures/001_bar.png",
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
+    {
+      "uid": "10c55424-1e2f-43e5-9392-81b444c52654",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:1b,Damage:6s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:2b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:8s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:8s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
     {
       "uid": "c2917e5d-4447-4509-83b2-581203a309d8",
       "duration": 200,
@@ -113,6 +167,53 @@
       }
     },
     {
+      "uid": "46f8d443-8530-4916-bfa0-701953ee2b79",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderio:block_simple_sag_mill\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"nuclearcraft:alloy\",Count:4b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:manufactory_idle\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      }
+    },
+    {
       "uid": "fd49a4bd-a43c-4551-b1ee-501cf5d0ebfd",
       "duration": 414,
       "inputs": {
@@ -196,6 +297,60 @@
       }
     },
     {
+      "uid": "a4e82a15-42cd-4427-9805-4b0400b64e09",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:piston\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"nuclearcraft:alloy\",Count:4b,Damage:6s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:9s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:9s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "9c01f067-0a91-4d6a-aa54-d78f9b1b9bea",
       "duration": 100,
       "inputs": {
@@ -247,6 +402,53 @@
           {
             "chance": 1.0,
             "content": 1000
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d1a3e777-6248-4c99-99ad-32df58ed972c",
+      "duration": 1000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"enderio:block_simple_alloy_smelter\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"nuclearcraft:alloy\",Count:4b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:alloy_furnace_idle\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
           }
         ]
       }
@@ -386,6 +588,62 @@
           {
             "chance": 1.0,
             "content": 1500
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f401cb72-6f38-4fa4-a34e-d3981789b9ac",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"minecraft:redstone\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"nuclearcraft:alloy\",Count:5b,Damage:6s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:7s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 0.2,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:part\",Count:1b,Damage:7s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
           }
         ]
       }
