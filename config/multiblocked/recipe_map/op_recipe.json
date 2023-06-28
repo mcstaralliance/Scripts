@@ -1,0 +1,477 @@
+{
+  "name": "op_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "83715c08-5ba9-4c33-a62e-6d39288001d4",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:crafting\",Count:1b,Damage:23s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:gold_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:iron_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:coal_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:lapis_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:redstone_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:emerald_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:quartz_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"astralsorcery:blockcustomore\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconium_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:ore\",Count:1b,Damage:5s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"ic2:resource\",Count:1b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mets:niobium_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mets:titanium_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:7s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:5s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:6s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:ore\",Count:1b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"quark:biotite_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"rftools:dimensional_shard_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"sakura:sakura_diamond_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:3s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:5s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:6s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:7s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore\",Count:1b,Damage:8s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore_fluid\",Count:1b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:ore_fluid\",Count:1b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tconstruct:ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tconstruct:ore\",Count:1b,Damage:1s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:quartz_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"appliedenergistics2:charged_quartz_ore\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 100
+          }
+        ]
+      }
+    }
+  ]
+}

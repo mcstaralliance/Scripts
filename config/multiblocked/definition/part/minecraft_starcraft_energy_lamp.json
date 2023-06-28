@@ -48,6 +48,7 @@
         },
         "type": "blockstate"
       },
+      "lightEmissive": 15,
       "parent": "idle"
     },
     "suspend": {
