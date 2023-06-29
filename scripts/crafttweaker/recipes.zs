@@ -404,29 +404,34 @@ recipes.addShaped(<draconicevolution:nugget>,
 );
 
 // 双足飞龙套
-recipes.addShaped(<draconicevolution:wyvern_helm>.withTag({Energy: 4000000}), [
+recipes.addShaped("wyvern_helm", <draconicevolution:wyvern_helm>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_helmet>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-recipes.addShaped(<draconicevolution:wyvern_chest>.withTag({Energy: 4000000}), [
+
+recipes.addShaped("wyvern_chest", <draconicevolution:wyvern_chest>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <mets:heavy_quantum_chest>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-recipes.addShaped(<draconicevolution:wyvern_legs>.withTag({Energy: 4000000}), [
+
+recipes.addShaped("wyvern_legs", <draconicevolution:wyvern_legs>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_leggings>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-recipes.addShaped(<draconicevolution:wyvern_boots>.withTag({Energy: 4000000}), [
+
+recipes.addShaped("wyvern_boots", <draconicevolution:wyvern_boots>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_boots>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
+
+
 
 // 导电铁碎片
 recipes.addShapeless(<tconstruct:shard>.withTag({Material: "conductive_iron"}), [
@@ -437,3 +442,5 @@ recipes.addShapeless(<tconstruct:shard>.withTag({Material: "conductive_iron"}), 
 recipes.addShaped(<nuclearcraft:part:4> * 4, 
     utils.createCrossWithCore(<immersiveengineering:metal_decoration0>, <thermalfoundation:material:515>, <ic2:crafting:5>)
 );
+
+<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
