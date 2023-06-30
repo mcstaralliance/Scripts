@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "minecraft:starcraft_assembler_mki_controller",
+  "location": "starcraft:assembler_mki_controller",
   "traits": {},
   "properties": {
     "rotationState": "NONE",
@@ -168,7 +168,7 @@
         "type": "states"
       },
       "controller": {
-        "location": "minecraft:starcraft_assembler_mki_controller",
+        "location": "starcraft:assembler_mki_controller",
         "type": "component"
       },
       "B": {
@@ -237,7 +237,7 @@
       "I": {
         "states": [
           {
-            "id": "minecraft:starcraft_energy_lamp",
+            "id": "starcraft:energy_lamp",
             "meta": 0
           }
         ],

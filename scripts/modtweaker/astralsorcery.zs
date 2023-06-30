@@ -50,7 +50,7 @@ Altar.addDiscoveryAltarRecipe("starcraft:shaped/internal/custom/environmental_or
 ]);
 
 // 星之装配台 MK II
-Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/assemblermkii", <minecraft:starcraft_assembler_mkii_controller>, 500, 300, [
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/assemblermkii", <starcraft:assembler_mkii_controller>, 500, 300, [
     <ore:gaiaIngot>, <mets:super_circuit>, <ore:gaiaIngot>,
     <ore:gaiaIngot>, <ic2:resource:13>, <ore:gaiaIngot>,
     <environmentaltech:mica>, <environmentaltech:mica>, <environmentaltech:mica>,
@@ -58,7 +58,7 @@ Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/assemblermkii",
 ]);
 
 // 星之装配台 MK III
-Altar.addConstellationAltarRecipe("starcraft:shaped/internal/custom/assemblermkiii", <minecraft:starcraft_assembler_mkiii_controller>, 2000, 200, [
+Altar.addConstellationAltarRecipe("starcraft:shaped/internal/custom/assemblermkiii", <starcraft:assembler_mkiii_controller>, 2000, 200, [
     <thermalfoundation:upgrade:35>, <deepmoblearning:glitch_heart>, <thermalfoundation:upgrade:35>,
     <threng:material:6>, <astralsorcery:blockcelestialcollectorcrystal>, <threng:material:6>,
     <nuclearcraft:gem:1>, <deepmoblearning:glitch_heart>, <nuclearcraft:gem:1>,

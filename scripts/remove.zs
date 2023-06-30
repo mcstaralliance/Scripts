@@ -111,7 +111,17 @@ var removeRecipe as IItemStack[] = [
     <nuclearcraft:part:12>,
     <nuclearcraft:part:7>,
     <nuclearcraft:part:8>,
-    <nuclearcraft:part:9>
+    <nuclearcraft:part:9>,
+    <mets:te:21>,
+    <mets:geomagnetic_pedestal>,
+    <mets:geomagnetic_antenna>,
+    <environmentaltech:void_ore_miner_cont_2>,
+    <environmentaltech:void_ore_miner_cont_3>,
+    <environmentaltech:void_ore_miner_cont_4>,
+    <industrialforegoing:laser_drill>,
+    <industrialforegoing:laser_base>,
+    <environmentaltech:structure_frame_4>,
+    <environmentaltech:structure_frame_3>
 ];
 
 for myRemoveRecipes in removeRecipe{

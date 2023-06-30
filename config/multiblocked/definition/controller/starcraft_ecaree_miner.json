@@ -86,7 +86,7 @@
       "C": {
         "states": [
           {
-            "id": "minecraft:starcraft_energy_lamp",
+            "id": "starcraft:energy_lamp",
             "meta": 0
           }
         ],

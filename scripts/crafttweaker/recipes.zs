@@ -318,14 +318,14 @@ recipes.addShaped(<rftools:machine_frame>,
 );
 
 // 星之组装台
-recipes.addShaped(<minecraft:starcraft_assembler_mki_controller>, [
+recipes.addShaped(<starcraft:assembler_mki_controller>, [
     [<appliedenergistics2:part:140>, <valkyrielib:modifier_component>, <appliedenergistics2:part:140>],
     [<ic2:crafting:1>, <quark:elder_sea_lantern>, <appliedenergistics2:material:46>],
     [<appliedenergistics2:part:140>, <valkyrielib:modifier_component>, <appliedenergistics2:part:140>]
 ]);
 
 // 能量输入端口
-recipes.addShapeless(<minecraft:starcraft_energy_lamp>, [<cyclicmagic:cable_wireless_energy>, <environmentaltech:connector>, <minecraft:redstone_lamp>]);
+recipes.addShapeless(<starcraft:energy_lamp>, [<cyclicmagic:cable_wireless_energy>, <environmentaltech:connector>, <minecraft:redstone_lamp>]);
 
 // 物品输入仓
 recipes.addShaped(<multiblocked:item_input>, [
@@ -404,34 +404,29 @@ recipes.addShaped(<draconicevolution:nugget>,
 );
 
 // 双足飞龙套
-recipes.addShaped("wyvern_helm", <draconicevolution:wyvern_helm>.withTag({Energy: 4000000}), [
+recipes.addShaped(<draconicevolution:wyvern_helm>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_helmet>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-
-recipes.addShaped("wyvern_chest", <draconicevolution:wyvern_chest>.withTag({Energy: 4000000}), [
+recipes.addShaped(<draconicevolution:wyvern_chest>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <mets:heavy_quantum_chest>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-
-recipes.addShaped("wyvern_legs", <draconicevolution:wyvern_legs>.withTag({Energy: 4000000}), [
+recipes.addShaped(<draconicevolution:wyvern_legs>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_leggings>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
 
-
-recipes.addShaped("wyvern_boots", <draconicevolution:wyvern_boots>.withTag({Energy: 4000000}), [
+recipes.addShaped(<draconicevolution:wyvern_boots>.withTag({Energy: 4000000}), [
     [<draconicevolution:nugget>, <draconicevolution:wyvern_energy_core>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <ic2:quantum_boots>, <draconicevolution:nugget>],
     [<draconicevolution:nugget>, <draconicevolution:wyvern_core>, <draconicevolution:nugget>]
 ]);
-
-
 
 // 导电铁碎片
 recipes.addShapeless(<tconstruct:shard>.withTag({Material: "conductive_iron"}), [
@@ -443,4 +438,29 @@ recipes.addShaped(<nuclearcraft:part:4> * 4,
     utils.createCrossWithCore(<immersiveengineering:metal_decoration0>, <thermalfoundation:material:515>, <ic2:crafting:5>)
 );
 
-<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
+// 地磁发电机
+recipes.addShaped(<mets:te:21>, [
+    [<mets:field_generator>, <nuclearcraft:fusion_core>, <mets:field_generator>],
+    [<mets:field_generator>, <draconicevolution:wyvern_core>, <mets:field_generator>],
+    [<environmentaltech:pladium>, <advanced_solar_panels:machines:5>, <environmentaltech:pladium>]
+]);
+
+// 地磁发电机基座
+recipes.addShaped(<mets:geomagnetic_pedestal>, [
+    [<mets:field_generator>, <mets:field_generator>, <mets:field_generator>],
+    [<mets:living_circuit>, <industrialforegoing:laser_base>, <mets:living_circuit>],
+    [<mets:titanium_block>, <mets:titanium_block>, <mets:titanium_block>]
+]);
+
+// 地磁发电机天线
+recipes.addShaped(<mets:geomagnetic_antenna>, [
+    [<randomthings:spectrecoil_ender>, <nuclearcraft:turbine_dynamo_coil:5>, <randomthings:spectrecoil_ender>],
+    [<mets:living_circuit>, <immersiveengineering:metal_device1:8>, <mets:living_circuit>],
+    [<immersiveengineering:metal_device1:8>, <nuclearcraft:turbine_dynamo_coil:5>, <immersiveengineering:metal_device1:8>]
+]);
+
+// 镭射钻
+recipes.addShapeless(<industrialforegoing:laser_drill>, [<environmentaltech:void_ore_miner_cont_1>, <ic2:resource:13>]);
+
+// 镭射钻基座
+recipes.addShapeless(<industrialforegoing:laser_base>, [<environmentaltech:structure_frame_1>, <industrialforegoing:pink_slime_ingot>]);

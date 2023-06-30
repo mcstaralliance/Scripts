@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "minecraft:starcraft_energy_lamp",
+  "location": "starcraft:energy_lamp",
   "traits": {
     "forge_energy": {
       "cIO": 2,
