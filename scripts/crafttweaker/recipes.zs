@@ -208,13 +208,6 @@ recipes.addShaped(<cyclicmagic:harvester_block>, [
     [<ore:obsidian>, <ic2:crafting:2>, <ore:obsidian>]
 ]);
 
-// 绊线钩
-recipes.addShaped(<minecraft:tripwire_hook> * 2, [
-    [<ore:ingotIron>],
-    [<ore:stickWood>],
-    [<quark:reed_block>]
-]);
-
 // 药水信标
 recipes.addShaped(<cyclicmagic:beacon_potion>, [
     [<minecraft:end_stone:*>, <minecraft:elytra>, <minecraft:end_stone:*>],
