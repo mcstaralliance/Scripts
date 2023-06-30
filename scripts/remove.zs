@@ -43,7 +43,6 @@ var removeRecipe as IItemStack[] = [
     <fluxnetworks:fluxplug>,
     <cyclicmagic:storage_bag>,
     <cyclicmagic:harvester_block>,
-    <minecraft:tripwire_hook>,
     <cyclicmagic:beacon_potion>,
     <scannable:scanner>,
     <redstonearsenal:material:224>,
