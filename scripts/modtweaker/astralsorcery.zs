@@ -3,10 +3,17 @@ import mods.astralsorcery.Altar;
 var starLight = <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000});
 
 // 辉光粉
-Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/altar/illuminationpowder", <astralsorcery:itemusabledust> * 16, 200, 200, [
+Altar.addDiscoveryAltarRecipe("starcraft:shaped/internal/altar/illuminationpowder", <astralsorcery:itemusabledust> * 16, 200, 200, [
     <minecraft:glowstone>, YUS_APPROVAL, <minecraft:iron_ingot>,
     <appliedenergistics2:material:16>, <astralsorcery:itemcraftingcomponent>, <appliedenergistics2:material:18>,
     <enderio:item_material:20>, commonCoin, <enderio:item_material:20>
+]);
+
+// 链接器
+Altar.addDiscoveryAltarRecipe("starcraft:shaped/internal/altar/linking_tool", <astralsorcery:itemlinkingtool>, 200, 200, [
+    <ore:logWood>, <ore:gemAquamarine>, null,
+    <ore:logWood>, <astralsorcery:itemrockcrystalsimple>, <ore:gemAquamarine>,
+    <ore:stickWood>, <ore:logWood>, <ore:logWood>
 ]);
 
 // 星辉祭坛
