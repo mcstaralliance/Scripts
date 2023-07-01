@@ -120,7 +120,8 @@ var removeRecipe as IItemStack[] = [
     <industrialforegoing:laser_drill>,
     <industrialforegoing:laser_base>,
     <environmentaltech:structure_frame_4>,
-    <environmentaltech:structure_frame_3>
+    <environmentaltech:structure_frame_3>,
+    <randomthings:timeinabottle>
 ];
 
 for myRemoveRecipes in removeRecipe{
@@ -202,7 +203,8 @@ var removeAstralSorceryAltarRecipe as string[] = [
     "astralsorcery:shaped/internal/altar/upgrade_tier4",
     "astralsorcery:shaped/internal/altar/bore_head_liquid",
     "astralsorcery:shaped/internal/altar/illuminationpowder",
-    "astralsorcery:shaped/attunementaltar"
+    "astralsorcery:shaped/attunementaltar",
+    "astralsorcery:shaped/internal/altar/tool_linking"
 ];
 for myRemoveAstralSorceryAltarRecipe in removeAstralSorceryAltarRecipe{
     Altar.removeAltarRecipe(myRemoveAstralSorceryAltarRecipe);

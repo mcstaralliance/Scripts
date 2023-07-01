@@ -457,3 +457,8 @@ recipes.addShapeless(<industrialforegoing:laser_drill>, [<environmentaltech:void
 
 // 镭射钻基座
 recipes.addShapeless(<industrialforegoing:laser_base>, [<environmentaltech:structure_frame_1>, <industrialforegoing:pink_slime_ingot>]);
+
+// 时间之瓶
+recipes.addShapeless(<randomthings:timeinabottle>, [
+    <minecraft:sponge>, <enderio:block_infinity:2>
+]);
