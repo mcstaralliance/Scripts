@@ -15,6 +15,11 @@ global pigRaw as IItemStack = <minecraft:porkchop>;
 global fishRaw as IItemStack = <minecraft:fish>;
 global neutron as IItemStack = <avaritia:resource:2>;
 
+YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
+YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
+
+<akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
+
 function constructCoin(mat as IItemStack, name as string, value as string){
     mat.displayName = name;
     mat.addTooltip(game.localize("tooltip.coin_value") + value);
