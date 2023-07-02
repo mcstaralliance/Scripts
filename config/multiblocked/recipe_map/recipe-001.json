@@ -125,7 +125,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"astralsorcery:itemshiftingstar\",Count:1b,Damage:0s,tag:{astralsorcery:{}},ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+                "{id:\"astralsorcery:itemperkseal\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
               ]
             }
           },

@@ -98,3 +98,32 @@ Altar.addTraitAltarRecipe("starcraft:shaped/internal/custom/wyvern_energy_core",
     <avaritia:resource:4>, <avaritia:resource:4>,
     <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.vicio"}}), <thermalfoundation:coin:103>, <thermalfoundation:coin:103>, <astralsorcery:itemperkgem:2>
 ], "astralsorcery.constellation.horologium");
+
+// 泰拉套
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/terrasteelhelm", <botania:terrasteelhelm>, 500, 200, [
+    <ore:ingotTerrasteel>, <botania:storage:1>, <ore:ingotTerrasteel>, 
+    <botania:rune:4>, <ic2:nano_helmet>, <botania:rune:4>, 
+    <botania:manaresource:13>, <botania:avatar>, <botania:manaresource:13>, 
+    <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>
+]);
+
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/terrasteelchest", <botania:terrasteelchest>, 500, 200, [
+    <ore:ingotTerrasteel>, <botania:storage:1>, <ore:ingotTerrasteel>, 
+    <botania:rune:4>, <ic2:nano_chestplate>, <botania:rune:4>, 
+    <botania:manaresource:13>, <botania:avatar>, <botania:manaresource:13>, 
+    <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>
+]);
+
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/terrasteellegs", <botania:terrasteellegs>, 500, 200, [
+    <ore:ingotTerrasteel>, <botania:storage:1>, <ore:ingotTerrasteel>, 
+    <botania:rune:4>, <ic2:nano_leggings>, <botania:rune:4>, 
+    <botania:manaresource:13>, <botania:avatar>, <botania:manaresource:13>, 
+    <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>
+]);
+
+Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/terrasteelboots", <botania:terrasteelboots>, 500, 200, [
+    <ore:ingotTerrasteel>, <botania:storage:1>, <ore:ingotTerrasteel>, 
+    <botania:rune:4>, <ic2:nano_boots>, <botania:rune:4>, 
+    <botania:manaresource:13>, <botania:avatar>, <botania:manaresource:13>, 
+    <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>
+]);

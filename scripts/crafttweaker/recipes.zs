@@ -462,3 +462,28 @@ recipes.addShapeless(<industrialforegoing:laser_base>, [<environmentaltech:struc
 recipes.addShapeless(<randomthings:timeinabottle>, [
     <minecraft:sponge>, <enderio:block_infinity:2>
 ]);
+
+// 量子套
+recipes.addShaped(<ic2:quantum_helmet>, [
+    [<ic2:glass>, <botania:terrasteelhelm>, <ic2:glass>],
+    [<ic2:crafting:4>, <ic2:lapotron_crystal:26>, <ic2:crafting:4>],
+    [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]
+]);
+
+recipes.addShaped(<ic2:quantum_chestplate>, [
+    [<ic2:glass>, <botania:terrasteelchest>, <ic2:glass>],
+    [<ic2:crafting:4>, <ic2:lapotron_crystal:26>, <ic2:crafting:4>],
+    [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]
+]);
+
+recipes.addShaped(<ic2:quantum_leggings>, [
+    [<ic2:glass>, <botania:terrasteellegs>, <ic2:glass>],
+    [<ic2:crafting:4>, <ic2:lapotron_crystal:26>, <ic2:crafting:4>],
+    [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]
+]);
+
+recipes.addShaped(<ic2:quantum_boots>, [
+    [<ic2:glass>, <botania:terrasteelboots>, <ic2:glass>],
+    [<ic2:crafting:4>, <ic2:lapotron_crystal:26>, <ic2:crafting:4>],
+    [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]
+]);

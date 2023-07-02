@@ -185,6 +185,113 @@
       }
     },
     {
+      "uid": "4de88a43-0e4b-4f8d-9ca2-791169448c44",
+      "duration": 2000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"botania:pylon\",Count:4b,Damage:2s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"projectred-core:resource_item\",Count:4b,Damage:200s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"projectred-core:resource_item\",Count:4b,Damage:201s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"bloodmagic:slate\",Count:4b,Damage:4s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"cyclicmagic:soulstone\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"mets:field_generator\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:draconic_core\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"mahoutsukai:fae_essence\",Count:3b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 2000000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"draconicevolution:wyvern_core\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 12500
+          }
+        ]
+      }
+    },
+    {
       "uid": "f1428d28-e5bc-45ab-9ca7-29090d3f4406",
       "duration": 1000,
       "inputs": {
