@@ -256,7 +256,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"alumina\",Amount:1296}"
+            "content": "{FluidName:\"enderium\",Amount:6912}"
           }
         ]
       },
@@ -265,9 +265,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 3,
               "matches": [
-                "{id:\"environmentaltech:mica\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+                "{id:\"environmentaltech:mica\",Count:3b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
               ]
             }
           }
@@ -566,6 +566,50 @@
                 "{id:\"deepmoblearning:glitch_infused_ingot\",Count:3b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
               ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7c33ee1d-7e5d-439f-97b2-eeb1a7ab93c6",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"appliedenergistics2:material\",Count:3b,Damage:5s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"alumina\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"environmentaltech:mica\",Count:4b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
           }
         ]
       }

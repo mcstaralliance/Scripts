@@ -487,3 +487,24 @@ recipes.addShaped(<ic2:quantum_boots>, [
     [<ic2:crafting:4>, <ic2:lapotron_crystal:26>, <ic2:crafting:4>],
     [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]
 ]);
+
+// 速度强化版部件
+recipes.addShaped(<environmentaltech:modifier_speed>, [
+    [<ore:blockRedstone>, <environmentaltech:erodium_crystal>, <ore:blockRedstone>], 
+    [<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>], 
+    [<ore:blockRedstone>, <ic2:upgrade>, <ore:blockRedstone>]
+]);
+
+// 精度强化部件
+recipes.addShaped(<environmentaltech:modifier_accuracy>, [
+    [<ore:blockDiamond>, <environmentaltech:pladium_crystal>, <ore:blockDiamond>], 
+    [<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>], 
+    [<ore:blockDiamond>, <environmentaltech:litherite>, <ore:blockDiamond>]
+]);
+
+// 幸运强化部件
+recipes.addShaped(<environmentaltech:modifier_luck>, [
+    [<minecraft:enchanting_table>, <environmentaltech:pladium_crystal>, <minecraft:enchanting_table>], 
+    [<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>], 
+    [<minecraft:enchanting_table>, <botania:cosmetic:16>, <minecraft:enchanting_table>]
+]);

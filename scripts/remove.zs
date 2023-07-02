@@ -125,7 +125,10 @@ var removeRecipe as IItemStack[] = [
     <ic2:quantum_helmet>, 
     <ic2:quantum_chestplate>,
     <ic2:quantum_leggings>,
-    <ic2:quantum_boots>
+    <ic2:quantum_boots>,
+    <environmentaltech:modifier_speed>,
+    <environmentaltech:modifier_accuracy>,
+    <environmentaltech:modifier_luck>
 ];
 
 for myRemoveRecipes in removeRecipe{
