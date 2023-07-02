@@ -86,7 +86,7 @@
       ],
       [
         " DNTWOXTND ",
-        " F V   V F ",
+        " F V`  V F ",
         "           ",
         "           ",
         "           ",
@@ -285,8 +285,13 @@
         ],
         "type": "states"
       },
-      "air": {
-        "type": "air"
+      "input_item": {
+        "blocks": [
+          {
+            "id": "minecraft:chest"
+          }
+        ],
+        "type": "blocks"
       },
       "K": {
         "states": [
@@ -585,8 +590,8 @@
       " ": [
         "any"
       ],
-      "-": [
-        "air"
+      "`": [
+        "input_item"
       ]
     }
   }
