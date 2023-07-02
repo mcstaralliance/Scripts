@@ -167,8 +167,8 @@ recipes.addShaped(<botania:spreader:3>, [
 // 电路板
 recipes.addShaped(<ic2:crafting:1>, [
     [<appliedenergistics2:material:20>, <appliedenergistics2:material:17>, <appliedenergistics2:material:20>],
-    [<ic2:cable:4>, <ic2:plate:3>, <ic2:cable:4>],
-    [<ic2:cable:4>, <ic2:cable:4>, <ic2:cable:4>]
+    [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:plate:3>, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})],
+    [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})]
 ]);
 
 // 环境控制器

@@ -1,4 +1,4 @@
-#priority 1
+#priority 1000
 
 import mods.astralsorcery.Altar;
 import mods.botania.Apothecary;
@@ -186,7 +186,8 @@ var ban as IItemStack[] = [
     <cfm:printer>,
     <armourers_workshop:tile.global-skin-library>,
     <rftools:builder>,
-    <industrialforegoing:enchantment_extractor>
+    <industrialforegoing:enchantment_extractor>,
+    <immersiveengineering:metal_device1:13>
 ];
 
 var removeFurnaceRecipe as IItemStack[] = [
