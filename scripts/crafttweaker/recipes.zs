@@ -508,3 +508,6 @@ recipes.addShaped(<environmentaltech:modifier_luck>, [
     [<environmentaltech:mica>, <environmentaltech:modifier_null>, <environmentaltech:mica>], 
     [<minecraft:enchanting_table>, <botania:cosmetic:16>, <minecraft:enchanting_table>]
 ]);
+
+// 蓝色染料
+recipes.addShapeless(<quark:root_dye>, [<industrialforegoing:artificial_dye:11>]);
