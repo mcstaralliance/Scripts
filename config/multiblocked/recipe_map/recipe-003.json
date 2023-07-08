@@ -435,7 +435,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,tag:{astralsorcery:{}},ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
+                "{id:\"astralsorcery:iteminfusedglass\",Count:1b,Damage:0s,ForgeCaps:{\"customnpcs:itemscripteddata\":{}}}"
               ]
             }
           },
