@@ -127,3 +127,13 @@ Altar.addAttunementAltarRecipe("starcraft:shaped/internal/custom/terrasteelboots
     <botania:manaresource:13>, <botania:avatar>, <botania:manaresource:13>, 
     <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>
 ]);
+
+// 聚能玻璃
+Altar.addConstellationAltarRecipe("starcraft:shaped/internal/altar/infusedglasswithNBT", <astralsorcery:iteminfusedglass>.withTag({astralsorcery: {}}), 2000, 1000, [
+    null, null, null, 
+    <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcoloredlens> | <astralsorcery:itemcoloredlens:1> | <astralsorcery:itemcoloredlens:2> | <astralsorcery:itemcoloredlens:3> | <astralsorcery:itemcoloredlens:4> | <astralsorcery:itemcoloredlens:5> | <astralsorcery:itemcoloredlens:6>, <astralsorcery:itemcraftingcomponent:3>,
+    null, null, null,
+    <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, 
+    null, null, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, 
+    null, null
+]);
