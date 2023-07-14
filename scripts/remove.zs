@@ -212,7 +212,8 @@ var removeAstralSorceryAltarRecipe as string[] = [
     "astralsorcery:shaped/internal/altar/bore_head_liquid",
     "astralsorcery:shaped/internal/altar/illuminationpowder",
     "astralsorcery:shaped/attunementaltar",
-    "astralsorcery:shaped/internal/altar/tool_linking"
+    "astralsorcery:shaped/internal/altar/tool_linking",
+    "astralsorcery:shaped/internal/altar/infusedglass"
 ];
 for myRemoveAstralSorceryAltarRecipe in removeAstralSorceryAltarRecipe{
     Altar.removeAltarRecipe(myRemoveAstralSorceryAltarRecipe);
