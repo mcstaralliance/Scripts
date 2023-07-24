@@ -17,7 +17,7 @@ global neutron as IItemStack = <avaritia:resource:2>;
 
 YUS_APPROVAL.displayName = game.localize("item.starcraft.yusapproval");
 YUS_APPROVAL.addTooltip(format.gray(game.localize("tooltip.yusapproval")));
-
+<custommc:item461>.displayName = "\u5927\u767D\u7684\u8BA4\u53EF";
 <akashictome:tome>.addTooltip(format.red(game.localize("tooltip.akashic_tome")));
 
 function constructCoin(mat as IItemStack, name as string, value as string){
