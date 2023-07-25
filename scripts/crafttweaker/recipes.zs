@@ -511,3 +511,56 @@ recipes.addShaped(<environmentaltech:modifier_luck>, [
 
 // 蓝色染料
 recipes.addShapeless(<quark:root_dye>, [<industrialforegoing:artificial_dye:11>]);
+
+// 无尽催化剂
+recipes.addShaped(<avaritia:resource:5> * 3, [
+    [<environmentaltech:lonsdaleite>, <avaritia:resource:7>, <environmentaltech:lonsdaleite>],
+    [<avaritia:endest_pearl>, <eternalsingularity:eternal_singularity>, <avaritia:ultimate_stew>], 
+    [<environmentaltech:lonsdaleite>, <avaritia:cosmic_meatballs>, <environmentaltech:lonsdaleite>]
+]);
+
+// 无尽锭
+recipes.addShaped(<avaritia:resource:6> * 2, [
+    [<enderio:block_alloy_endergy:3>, <enderio:block_alloy_endergy:1>, <enderio:block_alloy_endergy:2>], 
+    [<avaritia:block_resource>, <avaritia:resource:5>, <avaritia:block_resource>],
+    [<enderio:block_alloy_endergy:6>, <enderio:block_alloy_endergy:5>, <avaritia:block_resource:2>]
+]);
+
+// 大白的认可
+recipes.addShaped(<custommc:item461>, [
+    [YUS_APPROVAL, YUS_APPROVAL, YUS_APPROVAL],
+    [ultraCoin, ultraCoin, ultraCoin],
+    [YUS_APPROVAL, YUS_APPROVAL, YUS_APPROVAL]
+]);
+
+// 无尽套
+recipes.addShaped(<avaritia:infinity_helmet>, [
+    [<avaritia:block_resource>, <avaritia:resource:6>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <draconicevolution:draconic_helm>, <avaritia:resource:5>],
+    [<avaritia:resource:6>, <custommc:item461>, <avaritia:resource:6>]
+]);
+
+recipes.addShaped(<avaritia:infinity_chestplate>, [
+    [<avaritia:block_resource>, <avaritia:resource:6>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <draconicevolution:draconic_chest>, <avaritia:resource:5>],
+    [<avaritia:resource:6>, <custommc:item461>, <avaritia:resource:6>]
+]);
+
+recipes.addShaped(<avaritia:infinity_pants>, [
+    [<avaritia:block_resource>, <avaritia:resource:6>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <draconicevolution:draconic_legs>, <avaritia:resource:5>],
+    [<avaritia:resource:6>, <custommc:item461>, <avaritia:resource:6>]
+]);
+
+recipes.addShaped(<avaritia:infinity_boots>, [
+    [<avaritia:block_resource>, <avaritia:resource:6>, <avaritia:block_resource>],
+    [<avaritia:resource:5>, <draconicevolution:draconic_boots>, <avaritia:resource:5>],
+    [<avaritia:resource:6>, <custommc:item461>, <avaritia:resource:6>]
+]);
+
+// 无尽剑
+recipes.addShaped(<avaritia:infinity_sword>, [
+    [<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>],
+    [<avaritia:resource:6>, <draconicevolution:draconic_sword>, <avaritia:resource:6>],
+    [<avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>]
+]);

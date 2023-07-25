@@ -240,6 +240,14 @@ furnace.remove(<minecraft:brick>);
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "rannuncarpus"}));
 
 ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
+ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+ExtremeCrafting.remove(<avaritia:resource:6>);
+ExtremeCrafting.remove(<avaritia:resource:5>);
+ExtremeCrafting.remove(<avaritia:infinity_helmet>);
+ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
+ExtremeCrafting.remove(<avaritia:infinity_pants>);
+ExtremeCrafting.remove(<avaritia:infinity_boots>);
+ExtremeCrafting.remove(<avaritia:infinity_sword>);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);
 
