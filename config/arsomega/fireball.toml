@@ -1,0 +1,14 @@
+#Range: 0.0 ~ 2.147483647E9
+amplify = 0.6
+#Explosion base intensity
+#Range: 0.0 ~ 100.0
+base = 1.2
+#AOE intensity bonus
+#Range: 0.0 ~ 100.0
+aoe_bonus = 1.8
+#Range: 0.0 ~ 2.147483647E9
+damage = 6.0
+#Additional damage per amplify
+#Range: 0.0 ~ 2.147483647E9
+amp_damage = 3.0
+

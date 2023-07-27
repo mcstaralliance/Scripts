@@ -1,0 +1,8 @@
+
+#Endless Client Config
+[general]
+	#Whether to switch the wing texture
+	"Is Change Wing" = false
+	#Whether to open the luminous eyes
+	"Is Render Eye" = false
+
