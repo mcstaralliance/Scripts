@@ -38,6 +38,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("starcraft:shaped/internal/alt
     <astralsorcery:blockattunementrelay>, <astralsorcery:blockattunementrelay>, <astralsorcery:blockattunementrelay>,
     <ore:circuitAdvanced>, <ore:circuitAdvanced>, <ore:circuitAdvanced>, <ore:circuitAdvanced>
 ]);
+<astralsorcery:blockattunementaltar>.addTooltip(format.red(game.localize("tooltip.attunement_altar")));
 
 // 五彩祭坛
 Altar.addConstellationAltarRecipe("starcraft:shaped/internal/altar/upgrader3", <astralsorcery:blockaltar:3>, 2000, 1000, [
