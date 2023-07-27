@@ -1,0 +1,19 @@
+
+#Common configuration settings
+[common]
+	#Maximum range for the sound muffling effect.
+	#Range: 2 ~ 64
+	maxRange = 16
+	#Minimum volume for the sound muffling effect.
+	#Has to be smaller then max volume.
+	#Range: 0.0 ~ 0.99
+	minVolume = 0.0
+	#Maximum volume for the sound muffling effect.
+	#Has to be greater then min volume.
+	#Range: 0.01 ~ 1.0
+	maxVolume = 1.0
+	#After this amount of ticks the muffling block checks if players have left or entered the
+	#muffling area. The default value should be fine, but if you wish to change this, do it as so.
+	#Range: 0 ~ 100
+	ticksIndicatorHandler = 5
+

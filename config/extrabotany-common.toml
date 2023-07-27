@@ -1,0 +1,9 @@
+
+[common]
+	#Whether to disable the Ego's disarm. Default is false.
+	disableDisarm = false
+	#Whether to disable the Relic's Advancement Check. Default is false.
+	disableAdvancementCheck = false
+	#Whether to disable the Ego's Limit of Number of Player. Default is false.
+	disableLimit = false
+

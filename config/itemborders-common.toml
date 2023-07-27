@@ -1,0 +1,22 @@
+
+#Client Configuration
+[client]
+
+	[client.options]
+		# If the hotbar should display item borders.
+		hotbar = true
+		# If item borders should show for common items.
+		show_for_common = false
+		# If the borders should have square corners.
+		square_corners = true
+		# If the borders should fully envelop item slots (otherwise they will only show on the bottom portion of the slot).
+		full_border = false
+		# If the borders draw over items instead of under.
+		over_items = false
+		# If the borders should have a more prominent glow.
+		extra_glow = false
+		# If automatic borders (based on item rarity) should be enabled.
+		auto_borders = true
+		# If border colors should sync with loot beam colors. (From Loot Beams mod--any custom beams colors specified in Loot Beams configuration will be displayed as borders.)
+		loot_beam_sync = true
+

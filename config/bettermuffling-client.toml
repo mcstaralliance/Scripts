@@ -1,0 +1,18 @@
+
+#Client only configuration settings.
+[client]
+	#Show muffling indicator.
+	indicatorEnable = true
+	#The x coordinate of the indicator position.
+	#Range: > 0
+	xPos = 25
+	#The y coordinate of the indicator position.
+	#Range: > 0
+	yPos = 25
+	#The size of the indicator.
+	#Range: 1 ~ 100
+	size = 10
+	#Show sound levels and range in the tool tip of the muffling block.
+	#This tooltip is only shown if it has data saved on it.
+	tooltipEnable = true
+
