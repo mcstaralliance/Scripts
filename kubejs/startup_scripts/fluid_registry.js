@@ -1,0 +1,2 @@
+onEvent('fluid.registry', (event) => {
+});
