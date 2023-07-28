@@ -194,7 +194,8 @@ var ban as IItemStack[] = [
     <armourers_workshop:tile.global-skin-library>,
     <rftools:builder>,
     <industrialforegoing:enchantment_extractor>,
-    <immersiveengineering:metal_device1:13>
+    <immersiveengineering:metal_device1:13>,
+    <ic2:te:82>
 ];
 
 var removeFurnaceRecipe as IItemStack[] = [
