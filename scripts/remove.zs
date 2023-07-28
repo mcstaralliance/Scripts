@@ -248,6 +248,7 @@ ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
 ExtremeCrafting.remove(<avaritia:infinity_pants>);
 ExtremeCrafting.remove(<avaritia:infinity_boots>);
 ExtremeCrafting.remove(<avaritia:infinity_sword>);
+ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);
 
