@@ -194,8 +194,7 @@ var ban as IItemStack[] = [
     <armourers_workshop:tile.global-skin-library>,
     <rftools:builder>,
     <industrialforegoing:enchantment_extractor>,
-    <immersiveengineering:metal_device1:13>,
-    <ic2:te:82>
+    <immersiveengineering:metal_device1:13>
 ];
 
 var removeFurnaceRecipe as IItemStack[] = [
@@ -248,6 +247,7 @@ ExtremeCrafting.remove(<avaritia:infinity_chestplate>);
 ExtremeCrafting.remove(<avaritia:infinity_pants>);
 ExtremeCrafting.remove(<avaritia:infinity_boots>);
 ExtremeCrafting.remove(<avaritia:infinity_sword>);
+ExtremeCrafting.remove(<eternalsingularity:eternal_singularity>);
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:iron_sword>]);
 
