@@ -1,0 +1,2 @@
+onEvent('item.registry', (event) => {
+});

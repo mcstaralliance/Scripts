@@ -1,0 +1,19 @@
+onEvent('item.tags', (event) => {
+    event
+        .get('ico:ladder_planks')
+        .add(/_planks$/)
+        .remove([
+            'botania:livingwood_planks',
+            'botania:mossy_livingwood_planks',
+            'botania:dreamwood_planks',
+            'botania:mossy_dreamwood_planks',
+            'minecraft:warped_planks',
+            'minecraft:crimson_planks',
+            'minecraft:dark_oak_planks',
+            'minecraft:acacia_planks',
+            'minecraft:jungle_planks',
+            'minecraft:birch_planks',
+            'minecraft:spruce_planks',
+            'minecraft:oak_planks'
+        ]);
+});

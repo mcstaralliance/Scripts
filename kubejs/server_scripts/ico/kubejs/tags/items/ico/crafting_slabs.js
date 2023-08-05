@@ -1,0 +1,35 @@
+onEvent('item.tags', (event) => {
+    event
+        .get('ico:crafting_slabs')
+        .add([
+            'quark:smooth_basalt_slab',
+            'quark:polished_basalt_slab',
+            'quark:basalt_slab',
+            'quark:deepslate_tiles_slab',
+            'quark:polished_deepslate_slab',
+            'quark:polished_slate_slab',
+            'quark:slate_slab',
+            'quark:polished_jasper_slab',
+            'quark:jasper_slab',
+            'astralsorcery:marble_slab',
+            'quark:polished_marble_slab',
+            'quark:marble_slab',
+            'create:polished_weathered_limestone_slab',
+            'create:polished_limestone_slab',
+            'quark:polished_limestone_slab',
+            'quark:limestone_slab',
+            'create:polished_dolomite_slab',
+            'create:polished_gabbro_slab',
+            'create:polished_dark_scoria_slab',
+            'create:polished_scoria_slab',
+            'quark:basalt',
+            'minecraft:polished_diorite_slab',
+            'minecraft:diorite_slab',
+            'minecraft:polished_granite_slab',
+            'minecraft:granite_slab',
+            'minecraft:polished_andesite_slab',
+            'minecraft:andesite_slab',
+            'minecraft:smooth_stone_slab',
+            'minecraft:stone_slab'
+        ]);
+});
