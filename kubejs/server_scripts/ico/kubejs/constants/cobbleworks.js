@@ -27,7 +27,6 @@ const generatableStone = [
     'quark:permafrost',
     'quark:slate',
     'quark:deepslate',
-    'astralsorcery:marble_raw',
     'create:dark_scoria',
     'create:scoria',
     'create:gabbro',

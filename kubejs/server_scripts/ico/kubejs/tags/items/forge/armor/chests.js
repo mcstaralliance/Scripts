@@ -9,7 +9,6 @@ onEvent('item.tags', (event) => {
         'mekanism:jetpack',
         'mekanism:jetpack_armored',
         'mekanism:mekasuit_bodyarmor',
-        'astralsorcery:mantle',
         'create:copper_backtank'
     ];
 

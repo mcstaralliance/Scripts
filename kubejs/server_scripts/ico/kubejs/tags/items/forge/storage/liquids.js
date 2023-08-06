@@ -1,7 +1,6 @@
 onEvent('item.tags', (event) => {
     var items = [
         'rftoolsutility:tank',
-        'astralsorcery:chalice',
         'thermal:fluid_cell',
         'industrialforegoing:black_hole_controller',
         'mekanism:dynamic_valve'

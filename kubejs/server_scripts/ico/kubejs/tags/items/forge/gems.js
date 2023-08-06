@@ -10,7 +10,6 @@ onEvent('item.tags', (event) => {
         'ars_nouveau:mana_gem',
         'immersivepetroleum:bitumen',
         'thermal:bitumen',
-        'astralsorcery:aquamarine'
     ]);
 
     event.add(gems + '/coal_coke', [

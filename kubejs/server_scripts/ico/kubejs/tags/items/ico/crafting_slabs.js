@@ -11,7 +11,6 @@ onEvent('item.tags', (event) => {
             'quark:slate_slab',
             'quark:polished_jasper_slab',
             'quark:jasper_slab',
-            'astralsorcery:marble_slab',
             'quark:polished_marble_slab',
             'quark:marble_slab',
             'create:polished_weathered_limestone_slab',

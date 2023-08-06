@@ -863,13 +863,6 @@ const stonecuttables = [
     {
         name: 'marble',
         stones: [
-            'astralsorcery:marble_bricks',
-            'astralsorcery:marble_chiseled',
-            'astralsorcery:marble_engraved',
-            'astralsorcery:marble_raw',
-            'astralsorcery:marble_runed',
-            'astralsorcery:marble_arch',
-            'astralsorcery:marble_pillar',
             'quark:marble',
             'quark:marble_bricks',
             'quark:chiseled_marble_bricks',
@@ -910,20 +903,6 @@ const stonecuttables = [
             'chisel:marble/twisted',
             'chisel:marble/prism',
             'chisel:marble/cuts'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'marblesooty',
-        stones: [
-            'astralsorcery:black_marble_raw',
-            'astralsorcery:black_marble_runed',
-            'astralsorcery:black_marble_pillar',
-            'astralsorcery:black_marble_arch',
-            'astralsorcery:black_marble_bricks',
-            'astralsorcery:black_marble_chiseled',
-            'astralsorcery:black_marble_engraved'
         ],
         onlyAsOutput: [],
         onlyAsInput: []

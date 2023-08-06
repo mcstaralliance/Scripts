@@ -26,7 +26,6 @@ onEvent('recipes', (event) => {
 
         let coin = getPreferredItemInTag(Ingredient.of(`#forge:coins/${material}`)).id;
 
-        astralsorcery_ore_processing_infuser(event, material, ore, ingot, gem, shard);
 
         create_metal_ore_processing(event, material, ore, crushed_ore, ingot, nugget);
         create_gem_ore_processing(event, material, ore, gem, dust, shard);
@@ -1503,64 +1502,5 @@ onEvent('recipes', (event) => {
                 .metal_press(recipe.output, recipe.input, recipe.mold)
                 .id(`${id_prefix}immersiveengineering/metal_press/${recipe.id_suffix}`);
         });
-    }
-    function astralsorcery_ore_processing_infuser(event, material, ore, ingot, gem, shard) {
-        if (ore == air) {
-            return;
-        }
-
-        blacklistedMaterials = ['redstone', 'lapis', 'emerald', 'diamond', 'iron'];
-        for (var i = 0; i < blacklistedMaterials.length; i++) {
-            if (blacklistedMaterials[i] == material) {
-                return;
-            }
-        }
-
-        var input = `forge:ores/${material}`,
-            output,
-            count;
-        if (shard != air) {
-            output = shard;
-            count = 3;
-        } else if (gem != air) {
-            output = gem;
-            count = 5;
-        } else if (ingot != air) {
-            output = ingot;
-            count = 3;
-        } else {
-            return;
-        }
-
-        switch (material) {
-            case 'dimensional':
-                count = 9;
-                break;
-            case 'fluorite':
-                count = 7;
-                break;
-            default:
-                break;
-        }
-
-        fallback_id(
-            event.custom({
-                type: 'astralsorcery:infuser',
-                fluidInput: 'astralsorcery:liquid_starlight',
-                input: {
-                    tag: input
-                },
-                output: {
-                    item: output,
-                    count: count
-                },
-                consumptionChance: 0.1,
-                duration: 100,
-                consumeMultipleFluids: false,
-                acceptChaliceInput: true,
-                copyNBTToOutputs: false
-            }),
-            `${id_prefix}${arguments.callee.name}/`
-        );
     }
 });

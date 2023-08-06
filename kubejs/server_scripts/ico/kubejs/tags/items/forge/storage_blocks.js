@@ -17,7 +17,6 @@ onEvent('item.tags', (event) => {
 
     event.get(storageBlocks + '/glowstone').add('minecraft:glowstone');
     event.get(storageBlocks + '/mana').add('ars_nouveau:mana_gem_block');
-    event.get(storageBlocks + '/starmetal').add('astralsorcery:starmetal');
 
     event.add(storageBlocks + '/tinkers_bronze', ['tconstruct:tinkers_bronze_block']);
     event.add(storageBlocks + '/alfsteel', ['mythicbotany:alfsteel_block']);

@@ -46,7 +46,6 @@ const generatableStone = [
     'quark:permafrost',
     'quark:slate',
     'quark:deepslate',
-    'astralsorcery:marble_raw',
     'create:dark_scoria',
     'create:scoria',
     'create:gabbro',
@@ -410,10 +409,6 @@ const recipesToHide = [
             'ars_elemental:fire_focus',
             'ars_elemental:necrotic_focus'
         ]
-    },
-    {
-        category: 'astralsorcery:altar_attunement',
-        recipes_by_id: ['astralsorcery:altar/attunement_altar']
     },
     {
         category: 'botania:petals',

@@ -4,7 +4,6 @@ onEvent('item.tags', (event) => {
         'botania:lexicon',
         'rftoolsbase:manual',
         'ars_nouveau:worn_notebook',
-        'astralsorcery:tome',
         'alexsmobs:animal_dictionary',
         'occultism:dictionary_of_spirits'
     ];

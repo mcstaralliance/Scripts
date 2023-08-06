@@ -12,10 +12,8 @@ onEvent('item.tags', (event) => {
         .add('immersiveengineering:dust_hop_graphite')
         .add('immersiveengineering:dust_saltpeter')
         .add('thermal:ender_pearl_dust')
-        .add('astralsorcery:stardust')
         .add('#forge:dusts/flour');
 
-    event.add('forge:dusts/starmetal', 'astralsorcery:stardust');
     event.get('forge:dusts/lapis').add('mekanism:dust_lapis_lazuli');
     event.get('forge:dusts/netherite_scrap').add('mekanism:dust_netherite');
 

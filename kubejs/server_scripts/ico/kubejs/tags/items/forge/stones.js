@@ -2,12 +2,6 @@ onEvent('item.tags', (event) => {
     event
         .get('forge:stone')
         .add([
-            'astralsorcery:marble_arch',
-            'astralsorcery:marble_bricks',
-            'astralsorcery:marble_chiseled',
-            'astralsorcery:marble_engraved',
-            'astralsorcery:marble_raw',
-            'astralsorcery:marble_runed',
             'create:natural_scoria',
             'quark:deepslate'
         ])
@@ -29,12 +23,6 @@ onEvent('item.tags', (event) => {
         .add([
             'quark:marble',
             'quark:polished_marble',
-            'astralsorcery:marble_arch',
-            'astralsorcery:marble_bricks',
-            'astralsorcery:marble_chiseled',
-            'astralsorcery:marble_engraved',
-            'astralsorcery:marble_raw',
-            'astralsorcery:marble_runed'
         ]);
     event.get('forge:stones/limestone').add(['quark:limestone', 'quark:polished_limestone']);
     event.get('forge:stones/jasper').add(['quark:jasper', 'quark:polished_jasper']);
