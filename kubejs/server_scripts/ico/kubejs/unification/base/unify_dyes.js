@@ -6,7 +6,6 @@ onEvent('recipes', (event) => {
         botania_dye_pestle_mortar(event, recipe, id_prefix);
         create_dye_milling(event, recipe, id_prefix);
         ars_nouveau_dye_crushing(event, recipe, id_prefix);
-        immersiveengineering_dye_crusher(event, recipe, id_prefix);
         mekanism_dye_enriching(event, recipe, id_prefix);
         mekanism_pigment_extracting(event, recipe, id_prefix);
         pedestals_dye_crushing(event, recipe, id_prefix);
@@ -81,25 +80,6 @@ function ars_nouveau_dye_crushing(event, recipe, id_prefix) {
     );
 }
 
-function immersiveengineering_dye_crusher(event, recipe, id_prefix) {
-    var baseCount = 2,
-        multiplier = 1;
-    if (recipe.type == 'large') {
-        multiplier = 2;
-    }
-    var count = baseCount * multiplier,
-        output = Item.of(recipe.primary, count),
-        extras = [
-            Item.of(recipe.secondary).withCount(count).withChance(0.25),
-            Item.of(recipe.tertiary).withCount(multiplier).withChance(0.05)
-        ],
-        input = recipe.input;
-
-    fallback_id(
-        event.recipes.immersiveengineering.crusher(output, input, extras),
-        `${id_prefix}${arguments.callee.name}/`
-    );
-}
 
 function mekanism_dye_enriching(event, recipe, id_prefix) {
     var baseCount = 3,

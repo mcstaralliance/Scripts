@@ -3,8 +3,6 @@ onEvent('item.tags', (event) => {
         'ars_nouveau:apprentice_robes',
         'ars_nouveau:archmage_robes',
         'ars_nouveau:novice_robes',
-        'immersiveengineering:armor_faraday_chest',
-        'immersiveengineering:armor_steel_chest',
         'mekanism:hazmat_gown',
         'mekanism:jetpack',
         'mekanism:jetpack_armored',

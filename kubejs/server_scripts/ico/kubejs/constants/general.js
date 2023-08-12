@@ -4,7 +4,6 @@ const air = 'minecraft:air';
 const modPriorities = [
     'emendatusenigmatica',
     'minecraft',
-    'immersiveengineering',
     'thermal',
     'mekanism',
     'kubejs',

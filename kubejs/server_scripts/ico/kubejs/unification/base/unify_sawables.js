@@ -5,7 +5,6 @@ onEvent('recipes', (event) => {
             treeBark = 'farmersdelight:tree_bark';
 
         create_cutting(event, variant, sawDust, treeBark);
-        immersiveengineering_sawing(event, variant, sawDust, treeBark);
         mekanism_sawing(event, variant, sawDust);
         pedestal_sawing(event, variant);
         thermal_sawing(event, variant, sawDust);
@@ -72,40 +71,6 @@ function create_cutting(event, variant, sawDust, treeBark) {
     });
 }
 
-function immersiveengineering_sawing(event, variant, sawDust, treeBark) {
-    fallback_id(
-        event.recipes.immersiveengineering
-            .sawmill(Item.of(variant.plankBlock, 6), variant.logBlockStripped, [
-                {
-                    stripping: false,
-                    output: sawDust
-                }
-            ])
-            .energy(800),
-        `ico:unification/base/unify_sawables/${arguments.callee.name}/`
-    );
-
-    fallback_id(
-        event.recipes.immersiveengineering
-            .sawmill(
-                Item.of(variant.plankBlock, 6),
-                [variant.logBlock, variant.woodBlock],
-                [
-                    {
-                        stripping: true,
-                        output: treeBark
-                    },
-                    {
-                        stripping: false,
-                        output: sawDust
-                    }
-                ],
-                variant.logBlockStripped
-            )
-            .energy(1600),
-        `ico:unification/base/unify_sawables/${arguments.callee.name}/`
-    );
-}
 
 function mekanism_sawing(event, variant, sawDust) {
     if (variant.modId == 'minecraft') {

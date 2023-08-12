@@ -1,6 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'immersiveengineering:manual',
         'botania:lexicon',
         'rftoolsbase:manual',
         'ars_nouveau:worn_notebook',

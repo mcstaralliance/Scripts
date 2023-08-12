@@ -6,7 +6,6 @@ onEvent('item.tags', (event) => {
         'mekanism:dynamic_valve'
     ];
     var exceptions = [
-        'immersivepetroleum:upgrade_tank',
         'mekanism:scuba_tank',
         'mekanism:basic_chemical_tank',
         'mekanism:advanced_chemical_tank',

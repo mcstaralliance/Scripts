@@ -126,17 +126,6 @@ const cropRegistry = [
         ]
     },
     {
-        type: 'crop_fiber',
-        crops: [
-            {
-                seed: 'immersiveengineering:seed',
-                render: 'immersiveengineering:hemp',
-                plant: 'immersiveengineering:hemp_fiber',
-                substrate: 'dirt'
-            }
-        ]
-    },
-    {
         type: 'crop_fruit',
         crops: [
             {

@@ -1,7 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'immersiveengineering:armor_faraday_feet',
-        'immersiveengineering:armor_steel_feet',
         'mekanism:free_runners',
     ];
 

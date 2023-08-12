@@ -2,7 +2,6 @@ onEvent('item.tags', (event) => {
     var items = [
         'botania:manasteel_pick',
         'botania:terra_pick',
-        'immersiveengineering:pickaxe_steel',
         'mythicbotany:alfsteel_pick',
         'tconstruct:pickaxe'
     ];

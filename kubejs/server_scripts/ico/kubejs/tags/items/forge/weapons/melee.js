@@ -1,7 +1,6 @@
 onEvent('item.tags', (event) => {
     var items = [
         'botania:ender_dagger',
-        'immersiveengineering:sword_steel',
         'industrialforegoing:infinity_hammer',
         'mekanism:atomic_disassembler',
         'mekanism:meka_tool',

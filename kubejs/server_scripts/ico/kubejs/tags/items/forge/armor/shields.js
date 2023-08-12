@@ -6,8 +6,7 @@ onEvent('item.tags', (event) => {
         'mekanismtools:refined_glowstone_shield',
         'mekanismtools:osmium_shield',
         'mekanismtools:lapis_lazuli_shield',
-        'mekanismtools:bronze_shield',
-        'immersiveengineering:shield'
+        'mekanismtools:bronze_shield'
     ];
 
     var tags = ['forge:armor', 'forge:armor/shields'];

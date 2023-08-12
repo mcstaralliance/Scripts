@@ -36,12 +36,6 @@ onEvent('recipes', (event) => {
         emendatus_hammer_crushing(event, material, ore, dust);
         emendatus_shapeless_transform(event, material, ore, chunk);
 
-        immersiveengineering_ingot_crushing(event, material, dust, ingot);
-        immersiveengineering_gem_ore_processing(event, material, ore, dust, gem, shard);
-        immersiveengineering_hammer_crushing(event, material, ore, dust, gem);
-        immersiveengineering_gem_crushing(event, material, dust, gem);
-        immersiveengineering_coin_pressing(event, material, ingot, nugget, coin);
-
         mekanism_ingot_gem_crushing(event, material, ingot, dust, gem);
         mekanism_gem_ore_processing(event, material, ore, dust, gem, shard);
         mekanism_metal_ore_processing(
@@ -359,119 +353,6 @@ onEvent('recipes', (event) => {
             .id(`emendatusenigmatica:chunk_from_cluster/${material}`);
     }
 
-    function immersiveengineering_hammer_crushing(event, material, ore, dust, gem) {
-        if (ore == air || dust == air) {
-            return;
-        }
-
-        let output = dust,
-            input = [`#forge:ores/${material}`],
-            hammer = '#forge:tools/crafting_hammer';
-
-        if (gem != air) {
-            input.push(`#forge:gems/${material}`);
-        }
-
-        event.shapeless(output, [input, hammer]).id(`ico:base/ico/${material}_dust`);
-    }
-
-    function immersiveengineering_gem_crushing(event, material, dust, gem) {
-        if (gem == air || dust == air) {
-            return;
-        }
-
-        var output = dust,
-            input = `#forge:gems/${material}`;
-
-        fallback_id(
-            event.recipes.immersiveengineering.crusher(output, input).energy(2000),
-            `${id_prefix}${arguments.callee.name}/`
-        );
-    }
-    function immersiveengineering_coin_pressing(event, material, ingot, nugget, coin) {
-        if (ingot == air || nugget == air || coin == air) {
-            return;
-        }
-
-        var output = Item.of(coin, 3),
-            input = `#forge:ingots/${material}`,
-            mold = `#thermal:crafting/dies/coin`;
-
-        // Ingots to Coins
-        fallback_id(
-            event.recipes.immersiveengineering.metal_press(output, input, mold),
-            `${id_prefix}${arguments.callee.name}/`
-        );
-
-        // Nuggets to Coins
-        output = coin;
-        input = `3x #forge:nuggets/${material}`;
-        fallback_id(
-            event.recipes.immersiveengineering.metal_press(output, input, mold),
-            `${id_prefix}${arguments.callee.name}/`
-        );
-    }
-
-    function immersiveengineering_ingot_crushing(event, material, dust, ingot) {
-        if (ingot == air || dust == air) {
-            return;
-        }
-
-        if (material == 'signalum' || material == 'lumium' || material == 'enderium') {
-            var output = dust,
-                input = `#forge:ingots/${material}`;
-
-            fallback_id(
-                event.recipes.immersiveengineering.crusher(output, input).energy(2000),
-                `${id_prefix}${arguments.callee.name}/`
-            );
-        }
-    }
-
-    function immersiveengineering_gem_ore_processing(event, material, ore, dust, gem, shard) {
-        if (ore == air) {
-            return;
-        }
-
-        try {
-            var materialProperties = gemProcessingProperties[material],
-                primaryCount = materialProperties.immersiveengineering.count,
-                input = `#forge:ores/${material}`,
-                primaryOutput;
-        } catch (err) {
-            return;
-        }
-
-        switch (materialProperties.output) {
-            case 'dust':
-                primaryOutput = dust;
-                break;
-            case 'gem':
-                primaryOutput = gem;
-                break;
-            case 'shard':
-                primaryOutput = shard;
-                break;
-            default:
-                return;
-        }
-
-        if (materialProperties.secondary) {
-            let secondaryOutput = materialProperties.secondary,
-                secondaryChance = materialProperties.immersiveengineering.secondaryChance;
-            event.recipes.immersiveengineering
-                .crusher(Item.of(primaryOutput, primaryCount), input, [
-                    Item.of(secondaryOutput).chance(secondaryChance)
-                ])
-                .energy(2000)
-                .id(`immersiveengineering:crusher/ore_${material}`);
-        } else {
-            event.recipes.immersiveengineering
-                .crusher(Item.of(primaryOutput, primaryCount), input)
-                .energy(2000)
-                .id(`immersiveengineering:crusher/ore_${material}`);
-        }
-    }
 
     function mekanism_ingot_gem_crushing(event, material, ingot, dust, gem) {
         if (dust == air) {
@@ -1497,10 +1378,6 @@ onEvent('recipes', (event) => {
                 .press(recipe.output, [recipe.input, recipe.mold])
                 .energy(2400)
                 .id(`${id_prefix}thermal/press/${recipe.id_suffix}`);
-
-            event.recipes.immersiveengineering
-                .metal_press(recipe.output, recipe.input, recipe.mold)
-                .id(`${id_prefix}immersiveengineering/metal_press/${recipe.id_suffix}`);
         });
     }
 });

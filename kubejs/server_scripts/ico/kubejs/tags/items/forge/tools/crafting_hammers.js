@@ -7,7 +7,6 @@ onEvent('item.tags', (event) => {
         event
             .get(tag)
             .add(/emendatusenigmatica:\w+_hammer/)
-            .add('immersiveengineering:hammer')
             .remove(exceptions);
     });
 });

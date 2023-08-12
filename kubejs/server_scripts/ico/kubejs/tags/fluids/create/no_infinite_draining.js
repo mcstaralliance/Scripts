@@ -1,7 +1,6 @@
 onEvent('fluid.tags', (event) => {
     let draining_whitelist = [
         'create:chocolate',
-        'immersivepetroleum:oil',
         'industrialforegoing:latex',
         'industrialforegoing:sewage',
         'industrialforegoing:sludge',

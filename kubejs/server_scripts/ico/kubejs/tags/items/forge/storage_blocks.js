@@ -2,14 +2,6 @@ onEvent('item.tags', (event) => {
     var storageBlocks = 'forge:storage_blocks';
     event.add(storageBlocks, [
         'ars_nouveau:mana_gem_block',
-        'immersiveengineering:coke',
-        'immersiveengineering:storage_aluminum',
-        'immersiveengineering:storage_constantan',
-        'immersiveengineering:storage_electrum',
-        'immersiveengineering:storage_lead',
-        'immersiveengineering:storage_nickel',
-        'immersiveengineering:storage_silver',
-        'immersiveengineering:storage_uranium',
         'minecraft:glowstone',
         'mythicbotany:alfsteel_block',
         'occultism:iesnium_block',

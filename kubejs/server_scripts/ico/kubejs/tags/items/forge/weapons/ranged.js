@@ -2,9 +2,6 @@ onEvent('item.tags', (event) => {
     var items = [
         'botania:flare_chakram',
         'botania:thorn_chakram',
-        'immersiveengineering:chemthrower',
-        'immersiveengineering:railgun',
-        'immersiveengineering:revolver',
         'industrialforegoing:infinity_trident',
         'mekanism:flamethrower',
         'minecraft:bow',

@@ -1,5 +1,4 @@
 onEvent('item.tags', (event) => {
-    var items = ['immersiveengineering:shovel_steel'];
 
 
     var tags = ['forge:tools', 'forge:tools/shovel'];
@@ -7,7 +6,6 @@ onEvent('item.tags', (event) => {
     tags.forEach((tag) => {
         event
             .get(tag)
-            .add(items)
             .add(/_shovel$/)
             .add(/_aiot/)
             .add(/_paxel/)

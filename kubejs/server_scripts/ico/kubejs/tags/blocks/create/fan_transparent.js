@@ -6,8 +6,6 @@ onEvent('block.tags', (event) => {
         .add(/leaves/)
         .add(/scaffolding_standard/)
         .add(/scaffolding_grate/)
-        .add('immersiveengineering:metal_ladder_alu')
-        .add('immersiveengineering:metal_ladder_steel')
         .add('farmersdelight:safety_net')
         .add('darkutils:item_grate')
         .add('quark:grate')

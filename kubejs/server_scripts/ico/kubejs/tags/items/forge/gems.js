@@ -8,13 +8,11 @@ onEvent('item.tags', (event) => {
         'minecraft:ender_pearl',
         'minecraft:coal',
         'ars_nouveau:mana_gem',
-        'immersivepetroleum:bitumen',
         'thermal:bitumen',
     ]);
 
     event.add(gems + '/coal_coke', [
         'emendatusenigmatica:coke_gem',
-        'immersiveengineering:coal_coke',
         'thermal:coal_coke'
     ]);
     event.get(gems_ender).add('minecraft:ender_pearl');
@@ -22,7 +20,7 @@ onEvent('item.tags', (event) => {
     event.get('forge:gems/dimensional').add('rftoolsbase:dimensionalshard');
     event.get('forge:gems/mana').add('ars_nouveau:mana_gem');
     event.get('forge:gems/charcoal').add('minecraft:charcoal');
-    event.add('forge:gems/bitumen', ['immersivepetroleum:bitumen', 'thermal:bitumen']);
+    event.add('forge:gems/bitumen', ['thermal:bitumen']);
     event.get('forge:gems/mana_gem').remove('ars_nouveau:mana_gem');
 
 });

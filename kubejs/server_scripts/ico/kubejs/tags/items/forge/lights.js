@@ -1,8 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'immersiveengineering:floodlight',
-        'immersiveengineering:lantern',
-        'immersiveengineering:balloon',
         'minecraft:beacon',
         'minecraft:end_rod',
         'minecraft:glowstone',

@@ -1,7 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'immersiveengineering:buzzsaw',
-        'immersiveengineering:drill',
         'industrialforegoing:infinity_drill',
         'industrialforegoing:infinity_saw',
         'mekanism:atomic_disassembler',

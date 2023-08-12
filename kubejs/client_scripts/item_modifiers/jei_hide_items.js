@@ -1,6 +1,6 @@
 onEvent('jei.hide.items', (event) => {
     materialsToUnify.forEach((material) => {
-        if (material == 'iesnium' || material == 'graphite' || material == 'hop_graphite') {
+        if (material == 'iesnium' || material == 'graphite' ) {
             return;
         }
         itemsToHide.push(
@@ -9,10 +9,6 @@ onEvent('jei.hide.items', (event) => {
             'occultism:' + material + '_dust',
             'occultism:' + material + '_nugget',
             'occultism:' + material + '_block',
-            'immersiveengineering:ingot_' + material,
-            'immersiveengineering:dust_' + material,
-            'immersiveengineering:nugget_' + material,
-            'immersiveengineering:stick_' + material,
             'mekanism:nugget_' + material,
             'mekanism:dust_' + material,
             'mekanism:ingot_' + material,
