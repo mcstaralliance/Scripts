@@ -1,87 +1,66 @@
 // priority: 1005
 
-
 // Unified pattern
-function CrossWithCoreRecipe(core, surroundA, surroundB) {
-    let keyA = surroundA.startsWith('#') ? {tag: surroundA.substring(1)} : {item: surroundA};
-    let keyB = surroundB.startsWith('#') ? {tag: surroundB.substring(1)} : {item: surroundB};
-    let keyCore = core.startsWith('#') ? {tag: core.substring(1)} : {item: core}
+function getKey(item) {
+    // 用于处理字符串获取物品传入模式及返回对应的键值
+    return item.startsWith('#') ? {tag: item.substring(1)} : {item: item};
+}
+
+const patterns = {
+    // 写明各种配方
+    crossWithCore: [
+        'BAB', 
+        'ACA',
+        'BAB'
+    ],
+    surroundWithCore: [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    fullShaped: [
+        'AAA',
+        'AAA',
+        'AAA'
+    ],
+    cross: [
+        'ABA',
+        'BAB',
+        'ABA'
+    ]
+};
+
+function recipeBuilder(pattern, items) {
+    // 自动生成配方对象
+    const keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+    let keyObject = {};
+    items.forEach((item, index) => {
+        keyObject[keys[index]] = getKey(item);
+    });
     return {
-        pattern: [
-            'BAB',
-            'ACA',
-            'BAB'
-        ],
-        key: {
-            A: keyA,
-            B: keyB,
-            C: core
-        }
+        pattern: pattern,
+        key: keyObject
     }
 }
 
-function surroundWithCoreRecipe(core, surroundA) {
-    let keyCore = core.startsWith('#') ? {tag: core.substring(1)} : {item: core};
-    let keyA = surroundA.startsWith('#') ? {tag: surroundA.substring(1)} : {item: surroundA};
-    return {
-        pattern: [
-            'AAA',
-            'ABA',
-            'AAA'
-        ],
-        key: {
-            A: keyCore,
-            B: keyA
-        }
-    }
-}
 
-function fullShapedRecipe(itemA) {
-    let keyA = itemA.startsWith('#') ? {tag: itemA.substring(1)} : {item: itemA};
-    return {
-        pattern: [
-            'AAA',
-            'AAA',
-            'AAA'
-        ],
-        key: {
-            A: keyA,
-        }
-    }
-}
-
-function crossRecipe(itemA, itemB) {
-    let keyA = itemA.startsWith('#') ? {tag: itemA.substring(1)} : {item: itemA};
-    let keyB = itemB.startsWith('#') ? {tag: itemB.substring(1)} : {item: itemB};
-    return {
-        pattern: [
-            'ABA',
-            'BAB',
-            'ABA'
-        ],
-        key: {
-            A: keyA,
-            B: keyB
-        }
-    }
-}
-
+// 将函数注册到全局
 global.addCrossWithCore = function(event, output, core, surroundA, surroundB) {
-    const recipe = CrossWithCoreRecipe(core, surroundA, surroundB);
+    const recipe = recipeBuilder(patterns.crossWithCore, [surroundA, surroundB, core]);
     event.shaped(output, recipe.pattern, recipe.key);
 }
 
 global.addSurroundWithCore = function(event, output, core, surroundA) {
-    const recipe = surroundWithCoreRecipe(core, surroundA);
+    const recipe = recipeBuilder(patterns.surroundWithCore, [surroundA, core]);
     event.shaped(output, recipe.pattern, recipe.key);
 }
 
 global.addFullShaped = function(event, output, itemA) {
-    const recipe = fullShapedRecipe(itemA);
+    const recipe = recipeBuilder(patterns.fullShaped, [itemA]);
     event.shaped(output, recipe.pattern, recipe.key)
 }
 
 global.addCross = function(event, output, itemA, itemB) {
-    const recipe = crossRecipe(itemA, itemB);
+    const recipe = recipeBuilder(patterns.cross, [itemA, itemB]);
     event.shaped(output, recipe.pattern, recipe.key);
 }
