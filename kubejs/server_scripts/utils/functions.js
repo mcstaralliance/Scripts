@@ -2,11 +2,9 @@
 
 // Unified pattern
 function getKey(item) {
-    // 用于处理字符串获取物品传入模式及返回对应的键值
     return item.startsWith('#') ? {tag: item.substring(1)} : {item: item};
 }
 const patterns = {
-    // 写明各种配方
     crossWithCore: [
         'BAB', 
         'ACA',
