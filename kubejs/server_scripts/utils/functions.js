@@ -40,24 +40,3 @@ function recipeBuilder(pattern, items) {
         key: keyObject
     }
 }
-
-// 将函数注册到全局
-// global.addCrossWithCore = function(event, output, core, surroundA, surroundB) {
-//     const recipe = recipeBuilder(patterns.crossWithCore, [surroundA, surroundB, core]);
-//     event.shaped(output, recipe.pattern, recipe.key);
-// }
-
-// global.addSurroundWithCore = function(event, output, core, surroundA) {
-//     const recipe = recipeBuilder(patterns.surroundWithCore, [surroundA, core]);
-//     event.shaped(output, recipe.pattern, recipe.key);
-// }
-
-// global.addFullShaped = function(event, output, itemA) {
-//     const recipe = recipeBuilder(patterns.fullShaped, [itemA]);
-//     event.shaped(output, recipe.pattern, recipe.key)
-// }
-
-// global.addCross = function(event, output, itemA, itemB) {
-//     const recipe = recipeBuilder(patterns.cross, [itemA, itemB]);
-//     event.shaped(output, recipe.pattern, recipe.key);
-// }
