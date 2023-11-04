@@ -5,7 +5,6 @@ function getKey(item) {
     // 用于处理字符串获取物品传入模式及返回对应的键值
     return item.startsWith('#') ? {tag: item.substring(1)} : {item: item};
 }
-
 const patterns = {
     // 写明各种配方
     crossWithCore: [
@@ -29,7 +28,6 @@ const patterns = {
         'ABA'
     ]
 };
-
 function recipeBuilder(pattern, items) {
     // 自动生成配方对象
     const keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
@@ -43,24 +41,23 @@ function recipeBuilder(pattern, items) {
     }
 }
 
-
 // 将函数注册到全局
-global.addCrossWithCore = function(event, output, core, surroundA, surroundB) {
-    const recipe = recipeBuilder(patterns.crossWithCore, [surroundA, surroundB, core]);
-    event.shaped(output, recipe.pattern, recipe.key);
-}
+// global.addCrossWithCore = function(event, output, core, surroundA, surroundB) {
+//     const recipe = recipeBuilder(patterns.crossWithCore, [surroundA, surroundB, core]);
+//     event.shaped(output, recipe.pattern, recipe.key);
+// }
 
-global.addSurroundWithCore = function(event, output, core, surroundA) {
-    const recipe = recipeBuilder(patterns.surroundWithCore, [surroundA, core]);
-    event.shaped(output, recipe.pattern, recipe.key);
-}
+// global.addSurroundWithCore = function(event, output, core, surroundA) {
+//     const recipe = recipeBuilder(patterns.surroundWithCore, [surroundA, core]);
+//     event.shaped(output, recipe.pattern, recipe.key);
+// }
 
-global.addFullShaped = function(event, output, itemA) {
-    const recipe = recipeBuilder(patterns.fullShaped, [itemA]);
-    event.shaped(output, recipe.pattern, recipe.key)
-}
+// global.addFullShaped = function(event, output, itemA) {
+//     const recipe = recipeBuilder(patterns.fullShaped, [itemA]);
+//     event.shaped(output, recipe.pattern, recipe.key)
+// }
 
-global.addCross = function(event, output, itemA, itemB) {
-    const recipe = recipeBuilder(patterns.cross, [itemA, itemB]);
-    event.shaped(output, recipe.pattern, recipe.key);
-}
+// global.addCross = function(event, output, itemA, itemB) {
+//     const recipe = recipeBuilder(patterns.cross, [itemA, itemB]);
+//     event.shaped(output, recipe.pattern, recipe.key);
+// }
