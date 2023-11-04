@@ -11,7 +11,7 @@ onEvent('item.tooltip', tooltip => {
             if (!tooltip.shift) {
                 text.add(1, [Text.of('已禁用物品').red()])
             } else {
-                text.add(1, [Text.of('Be Permited For STAFF').green()])
+                text.add(1, [Text.of('BE PERMITTED FOR STAFF').green()])
             }
         })
     }
