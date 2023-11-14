@@ -1,0 +1,61 @@
+    {
+      "type": "masterfulmachinery:machine_structure",
+      "id": "material_stonework_factory_1",
+      "controllerId": "material_stonework_factory",
+    "name": "Material Stonework Factory",
+      "layout": [
+        [
+          ")*)",
+          "+++",
+          "+++",
+          "+++",
+          "+++",
+          "+++",
+          "),)"
+        ],
+        [
+          "-.-",
+          "-/-",
+          "-/-",
+          "C/-",
+          "-/-",
+          "-/-",
+          "-.-"
+        ],
+        [
+          ")*)",
+          "+0+",
+          "+0+",
+          "+0+",
+          "+0+",
+          "+0+",
+          "),)"
+        ]
+      ],
+      "legend": {
+        "0": {
+          "block": "xkdeco:factory_lamp_block"
+        },
+        ")": {
+          "block": "minecraft:gold_block"
+        },
+        "*": {
+          "block": "masterfulmachinery:material_stonework_factory_fluid_port_fluids_input"
+        },
+        "+": {
+          "block": "xkdeco:steel_tiles"
+        },
+        ",": {
+          "block": "masterfulmachinery:material_stonework_factory_item_port_items_output"
+        },
+        "-": {
+          "block": "xkdeco:factory_danger"
+        },
+        ".": {
+          "block": "immersiveengineering:coil_hv"
+        },
+        "/": {
+          "block": "xkdeco:ventiduct"
+        }
+      }
+    }

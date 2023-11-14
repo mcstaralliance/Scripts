@@ -1,0 +1,45 @@
+{
+	"type": "masterfulmachinery:machine_structure",
+	"id": "alfsteel_furnace_1",
+	"controllerId": "alfsteel_furnace",
+	"name": "Alfsteel Furnace",
+	"layout": [
+		[")***)", "+,,,*", "C,),-", "-,,,*", ").*.)"],
+		["/000/", "0   0", "0 1 0", "0   0", "/000/"],
+		["/222/", "2   2", "2   2", "2   2", "/222/"],
+		["/000/", "0   0", "0   0", "0   0", "/000/"],
+		[")***)", "*///*", "*/)/*", "*///*", ")***)"]
+	],
+	"legend": {
+		"0": {
+			"block": "kubejs:block_22"
+		},
+		"1": {
+			"block": "mythicbotany:mana_infuser"
+		},
+		"2": {
+			"block": "thermal:lumium_glass"
+		},
+		")": {
+			"block": "mythicbotany:alfsteel_block"
+		},
+		"*": {
+			"block": "kubejs:block_9"
+		},
+		"+": {
+			"block": "masterfulmachinery:alfsteel_furnace_item_port_items_input"
+		},
+		",": {
+			"block": "kubejs:block_10"
+		},
+		"-": {
+			"block": "masterfulmachinery:alfsteel_furnace_item_port_items_output"
+		},
+		".": {
+			"block": "masterfulmachinery:alfsteel_furnace_energy_port_energy_input"
+		},
+		"/": {
+			"block": "kubejs:block_17"
+		}
+	}
+}
