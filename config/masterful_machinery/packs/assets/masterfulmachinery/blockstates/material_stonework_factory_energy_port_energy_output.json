@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/material_stonework_factory_energy_port_energy_output"
+    }
+  }
+}

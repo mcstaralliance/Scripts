@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/particle_fusion_reactor_energy_port_energy_output"
+    }
+  }
+}

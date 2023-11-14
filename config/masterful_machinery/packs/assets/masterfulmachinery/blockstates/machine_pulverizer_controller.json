@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "masterfulmachinery:block/machine_pulverizer_controller"
+    },
+    "facing=south": {
+      "model": "masterfulmachinery:block/machine_pulverizer_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "masterfulmachinery:block/machine_pulverizer_controller",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "masterfulmachinery:block/machine_pulverizer_controller",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/neutron_collector_modular_fluid_port_fluids_output"
+    }
+  }
+}
