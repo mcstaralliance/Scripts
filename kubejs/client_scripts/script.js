@@ -2,7 +2,8 @@ const itemsToBan = [
     'chunkloaders:single_chunk_loader',
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
-    'chunkloaders:ultimate_chunk_loader'
+    'chunkloaders:ultimate_chunk_loader',
+    '@compactmachines'
 ];
 
 onEvent('item.tooltip', tooltip => {
@@ -11,7 +12,7 @@ onEvent('item.tooltip', tooltip => {
             if (!tooltip.shift) {
                 text.add(1, [Text.of('已禁用物品').red()])
             } else {
-                text.add(1, [Text.of('BE PERMITTED FOR STAFF').green()])
+                text.add(1, [Text.of('Be Permited For STAFF').green()])
             }
         })
     }

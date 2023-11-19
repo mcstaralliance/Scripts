@@ -1,0 +1,35 @@
+{
+    "controllerId": "star_creation_instrument",
+    "name": "Star Creation Instrument",
+    "textureOverride":"thermal:block/obsidian_glass",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "appliedenergistics2:block/interface",
+        "name": "Item",
+        "id": "item",
+        "data": {
+          "rows": 3,
+          "columns": 9
+        }
+      },
+      {
+        "type": "masterfulmachinery:fluids",
+        "textureOverride": "appliedenergistics2:block/condenser",
+        "name": "Fluid",
+        "id": "fluid",
+        "data": {
+          "capacity": 16000
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "textureOverride": "kubejs:block/block_32",
+        "name": "Energy",
+        "id": "energy",
+        "data": {
+          "capacity": 5000000
+        }
+      }
+    ]
+  }

@@ -6,14 +6,14 @@ function getKey(item) {
 }
 const patterns = {
     crossWithCore: [
-        'BAB', 
-        'ACA',
-        'BAB'
+        'CBC', 
+        'BAB',
+        'CBC'
     ],
     surroundWithCore: [
-        'AAA',
-        'ABA',
-        'AAA'
+        'BBB',
+        'BAB',
+        'BBB'
     ],
     fullShaped: [
         'AAA',
@@ -27,7 +27,6 @@ const patterns = {
     ]
 };
 function recipeBuilder(pattern, items) {
-    // 自动生成配方对象
     const keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
     let keyObject = {};
     items.forEach((item, index) => {

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/machine_pulverizer_energy_port_energy_input"
+    }
+  }
+}

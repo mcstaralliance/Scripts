@@ -1,4 +1,3 @@
-
 // Remove crafting
 const itemsToRemove = [
     'minecraft:snow_block',
@@ -6,13 +5,21 @@ const itemsToRemove = [
     'minecraft:blast_furnace',
     'immersiveengineering:blastbrick',
     'immersiveengineering:blastbrick_reinforced',
-    'ftbic:fluid_cell',
-    'ftbic:fuse',
-    'minecraft:iron_nugget'
+    'minecraft:iron_nugget',
+    'create:mechanical_press',
+    'create:mechanical_mixer',
+    'create:andesite_alloy',
+    'create:encased_fan',
+    'create:rose_quartz',
+    'appliedenergistics2:quartz_growth_accelerator',
+    'industrialforegoing:machine_frame_pity',
+    'appliedenergistics2:inscriber',
+    'appliedenergistics2:chest',
+    'appliedenergistics2:controller',
+    'appliedenergistics2:security_station'
 ];
 
 const itemsToRemoveFurnace = [
-    'ftbic:industrial_grade_metal',
 ]
 
 onEvent('recipes', event => {
@@ -33,7 +40,8 @@ const itemsToBan = [
     'chunkloaders:single_chunk_loader',
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
-    'chunkloaders:ultimate_chunk_loader'
+    'chunkloaders:ultimate_chunk_loader',
+    '@compactmachines'
 ];
 
 onEvent('recipes', event => {

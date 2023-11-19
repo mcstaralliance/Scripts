@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "masterfulmachinery:block/machine_pulverizer_fluid_port_fluids_output"
+    }
+  }
+}
