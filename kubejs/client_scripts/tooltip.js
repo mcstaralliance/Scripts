@@ -6,6 +6,7 @@ const itemsToBan = [
     '@compactmachines'
 ];
 
+// 添加提示
 onEvent('item.tooltip', tooltip => {
     for (let addTooltipForBan of itemsToBan) {
         tooltip.addAdvanced(addTooltipForBan, (item, advanced, text) => {
