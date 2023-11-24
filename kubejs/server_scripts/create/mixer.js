@@ -26,3 +26,14 @@ onEvent('recipes', event => {
         Item.of('extrabotany:photonium'),
     ]).heated()
 })
+
+// 覆写花瓣配方
+onEvent('recipes', event => {
+    var flowerColors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+    flowerColors.forEach(color => {
+        var inputFlower = `botania:${color}_mystical_flower`
+        var outputFlowerPetal = `2x botania:${color}_petal`
+        event.remove({type: 'minecraft:crafting_shapeless', output: outputFlowerPetal });
+        event.recipes.create.mixing(outputFlowerPetal, [inputFlower])
+    })
+})

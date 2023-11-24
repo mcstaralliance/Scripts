@@ -16,10 +16,29 @@ const itemsToRemove = [
     'appliedenergistics2:inscriber',
     'appliedenergistics2:chest',
     'appliedenergistics2:controller',
-    'appliedenergistics2:security_station'
+    'appliedenergistics2:security_station',
+    'create:mechanical_crafter',
+    'industrialforegoing:machine_frame_advanced',
+    'modularrouters:item_router',
+    'woot:heart',
+    'botania:apothecary_default',
+    'botania:diluted_pool',
+    'botania:mana_pool',
+    'botania:terra_plate',
+    'create:creative_blaze_cake',
+    'rftoolsbase:machine_frame',
+    'appliedenergistics2:crafting_unit',
+    'appliedenergistics2:molecular_assembler',
+    'appliedenergistics2:condenser',
+    'ars_nouveau:volcanic_accumulator',
+    'ars_nouveau:alchemical_sourcelink',
+    'ars_nouveau:vitalic_sourcelink',
+    'ars_nouveau:mycelial_sourcelink',
+    'ars_nouveau:mana_condenser'
 ];
 
 const itemsToRemoveFurnace = [
+    
 ]
 
 onEvent('recipes', event => {
@@ -49,3 +68,11 @@ onEvent('recipes', event => {
         event.remove({output: toBanItem });
     }
 });
+
+onEvent('recipes', event => {
+    event.remove({id: 'industrialforegoing:dissolution_chamber/advanced_machine_frame'})
+    event.remove({id: 'astralsorcery:altar/altar_attunement'})
+    event.remove({id: 'astralsorcery:altar/altar_constellation'})
+    event.remove({id: 'astralsorcery:altar/attunement_altar'})
+    event.remove({id: 'astralsorcery:altar/altar_radiance'})
+})
