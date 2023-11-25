@@ -1,0 +1,12 @@
+{
+    "animation": { "frametime": 1 }, 
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "layer": "BLOOM",
+        "gregtech": true,
+        "textures": [
+            "contenttweaker:blocks/cupar_proton_pair_coil-ctm"
+        ]
+    }
+}

@@ -2,9 +2,11 @@ const itemsToBan = [
     'chunkloaders:single_chunk_loader',
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
-    'chunkloaders:ultimate_chunk_loader'
+    'chunkloaders:ultimate_chunk_loader',
+    '@compactmachines'
 ];
 
+// 添加提示
 onEvent('item.tooltip', tooltip => {
     for (let addTooltipForBan of itemsToBan) {
         tooltip.addAdvanced(addTooltipForBan, (item, advanced, text) => {
@@ -15,4 +17,5 @@ onEvent('item.tooltip', tooltip => {
             }
         })
     }
+    tooltip.add(['minecraft:iron_nugget'], '貌似不能正常分解~')
 })
