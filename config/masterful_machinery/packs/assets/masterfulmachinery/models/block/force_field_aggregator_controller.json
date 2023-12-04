@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "xkdeco:block/smooth_steel"
+        "base": "kubejs:block/block_10"
       },
       "elements": [
         {

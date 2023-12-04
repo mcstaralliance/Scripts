@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "xkdeco:block/yellow_tiles"
+        "base": "kubejs:block/block_8"
       },
       "elements": [
         {

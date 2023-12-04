@@ -1,121 +1,121 @@
 {
-	"type": "masterfulmachinery:machine_structure",
-	"id": "star_picker_1",
-	"controllerId": "star_picker",
-	"name": "Star Picker",
-	"layout": [
+	'type': 'masterfulmachinery:machine_structure',
+	'id': 'star_picker_1',
+	'controllerId': 'star_picker',
+	'name': 'Star Picker',
+	'layout': [
 		[
-			")))))))",
-			")     )",
-			")     )",
-			")  *  )",
-			")     )",
-			")     )",
-			")))))))"
+			')))))))',
+			')     )',
+			')     )',
+			')  *  )',
+			')     )',
+			')     )',
+			')))))))'
 		],
 		[
-			")     )",
-			"       ",
-			"   )   ",
-			"  )+)  ",
-			"   )   ",
-			"       ",
-			")     )"
+			')     )',
+			'       ',
+			'   )   ',
+			'  )+)  ',
+			'   )   ',
+			'       ',
+			')     )'
 		],
 		[
-			")     )",
-			" ,   , ",
-			"  ,C,  ",
-			"  )+)  ",
-			"  ,),  ",
-			" ,   , ",
-			")     )"
+			')     )',
+			' ,   , ',
+			'  ,C,  ',
+			'  )+)  ',
+			'  ,),  ',
+			' ,   , ',
+			')     )'
 		],
 		[
-			")     )",
-			"       ",
-			"  -)-  ",
-			"  )+)  ",
-			"  .).  ",
-			"       ",
-			")     )"
+			')     )',
+			'       ',
+			'  -)-  ',
+			'  )+)  ',
+			'  .).  ',
+			'       ',
+			')     )'
 		],
 		[
-			")     )",
-			"       ",
-			"  )))  ",
-			"  )+)  ",
-			"  )))  ",
-			"       ",
-			")     )"
+			')     )',
+			'       ',
+			'  )))  ',
+			'  )+)  ',
+			'  )))  ',
+			'       ',
+			')     )'
 		],
 		[
-			")     )",
-			"       ",
-			"  )/)  ",
-			"  /+/  ",
-			"  )/)  ",
-			"       ",
-			")     )"
+			')     )',
+			'       ',
+			'  )/)  ',
+			'  /+/  ',
+			'  )/)  ',
+			'       ',
+			')     )'
 		],
 		[
-			")))))))",
-			")     )",
-			") ))) )",
-			") )0) )",
-			") ))) )",
-			")     )",
-			")))))))"
+			')))))))',
+			')     )',
+			') ))) )',
+			') )0) )',
+			') ))) )',
+			')     )',
+			')))))))'
 		],
 		[
-			",     ,",
-			" ,   , ",
-			"  ,),  ",
-			"  )1)  ",
-			"  ,),  ",
-			" ,   , ",
-			",     ,"
+			',     ,',
+			' ,   , ',
+			'  ,),  ',
+			'  )1)  ',
+			'  ,),  ',
+			' ,   , ',
+			',     ,'
 		],
 		[
-			"       ",
-			"       ",
-			"       ",
-			"   2   ",
-			"       ",
-			"       ",
-			"       "
+			'       ',
+			'       ',
+			'       ',
+			'   2   ',
+			'       ',
+			'       ',
+			'       '
 		]
 	],
-	"legend": {
-		"0": {
-			"block": "kubejs:block_19"
+	'legend': {
+		'0': {
+			'block': 'kubejs:block_19'
 		},
-		"1": {
-			"block": "kubejs:block_14"
+		'1': {
+			'block': 'kubejs:block_14'
 		},
-		"2": {
-			"block": "botania:manasteel_block"
+		'2': {
+			'block': 'botania:manasteel_block'
 		},
-		")": {
-			"block": "kubejs:block_44"
+		')': {
+			'block': 'kubejs:block_44'
 		},
-		"*": {
-			"block": "kubejs:block_11"
+		'*': {
+			'block': 'kubejs:block_11'
 		},
-		"+": {
-			"block": "kubejs:block_27"
+		'+': {
+			'block': 'kubejs:block_27'
 		},
-		",": {
-			"block": "immersiveengineering:steel_scaffolding_standard"
+		',': {
+			'block': 'immersiveengineering:steel_scaffolding_standard'
 		},
-		"-": {
-			"block": "masterfulmachinery:star_picker_item_port_items_output"
+		'-': {
+			'block': 'masterfulmachinery:star_picker_item_port_items_output'
 		},
-		".": {
-			"block": "masterfulmachinery:star_picker_energy_port_energy_input"
+		'.': {
+			'block': 'masterfulmachinery:star_picker_energy_port_energy_input'
 		},
-		"/": {
-			"block": "kubejs:block_39"
+		'/': {
+			'block': 'kubejs:block_39'
 		}
 	}
 }

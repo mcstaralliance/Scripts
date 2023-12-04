@@ -1,7 +1,7 @@
 {
     "controllerId": "force_field_aggregator",
     "name": "Force Field Aggregator",
-    "textureOverride":"xkdeco:block/smooth_steel",
+    "textureOverride":"kubejs:block/block_10",
     "ports": [
       {
         "type": "masterfulmachinery:items",

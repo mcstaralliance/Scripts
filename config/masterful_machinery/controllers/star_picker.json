@@ -1,7 +1,7 @@
 {
     "controllerId": "star_picker",
     "name": "Star Picker",
-    "textureOverride":"appliedenergistics2:block/quartz_glass",
+    "textureOverride":"kubejs:block/block_44",
     "ports": [
       {
         "type": "masterfulmachinery:items",

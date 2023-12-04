@@ -1,7 +1,7 @@
 {
     "controllerId": "alfsteel_furnace",
     "name": "Alfsteel Furnace",
-    "textureOverride":"chisel:block/goldplate",
+    "textureOverride":"kubejs:block/block_17",
     "ports": [
       {
         "type": "masterfulmachinery:items",

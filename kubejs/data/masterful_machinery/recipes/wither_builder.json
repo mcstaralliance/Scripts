@@ -1,45 +1,45 @@
 {
-	"type": "masterfulmachinery:machine_structure",
-	"id": "wither_builder_1",
-	"controllerId": "wither_builder",
-	"name": "Wither Builder",
-	"layout": [
-		[")))))", "*+++)", ",+-+.", "*+++)", ")))))"],
-		["/////", "/////", "C/0//", "/////", "/////"],
-		["/////", "//0//", "//1//", "//0//", "/////"],
-		["/////", "//2//", "//2//", "//2//", "/////"],
-		[")))))", ")+++)", ")+-+)", ")+++)", ")))))"]
+	'type': 'masterfulmachinery:machine_structure',
+	'id': 'wither_builder_1',
+	'controllerId': 'wither_builder',
+	'name': 'Wither Builder',
+	'layout': [
+		[')))))', '*+++)', ',+-+.', '*+++)', ')))))'],
+		['/////', '/////', 'C/0//', '/////', '/////'],
+		['/////', '//0//', '//1//', '//0//', '/////'],
+		['/////', '//2//', '//2//', '//2//', '/////'],
+		[')))))', ')+++)', ')+-+)', ')+++)', ')))))']
 	],
-	"legend": {
-		"0": {
-			"block": "minecraft:soul_sand"
+	'legend': {
+		'0': {
+			'block': 'minecraft:soul_sand'
 		},
-		"1": {
-			"block": "extendedcrafting:nether_star_block"
+		'1': {
+			'block': 'extendedcrafting:nether_star_block'
 		},
-		"2": {
-			"block": "minecraft:wither_skeleton_skull"
+		'2': {
+			'block': 'minecraft:wither_skeleton_skull'
 		},
-		")": {
-			"block": "immersiveengineering:storage_steel"
+		')': {
+			'block': 'immersiveengineering:storage_steel'
 		},
-		"*": {
-			"block": "masterfulmachinery:wither_builder_energy_port_energy_input"
+		'*': {
+			'block': 'masterfulmachinery:wither_builder_energy_port_energy_input'
 		},
-		"+": {
-			"block": "xkdeco:factory_attention"
+		'+': {
+			'block': 'xkdeco:factory_attention'
 		},
-		",": {
-			"block": "masterfulmachinery:wither_builder_item_port_items_input"
+		',': {
+			'block': 'masterfulmachinery:wither_builder_item_port_items_input'
 		},
-		"-": {
-			"block": "immersiveengineering:coil_hv"
+		'-': {
+			'block': 'immersiveengineering:coil_hv'
 		},
-		".": {
-			"block": "masterfulmachinery:wither_builder_item_port_items_output"
+		'.': {
+			'block': 'masterfulmachinery:wither_builder_item_port_items_output'
 		},
-		"/": {
-			"block": "mob_grinding_utils:tinted_glass"
+		'/': {
+			'block': 'mob_grinding_utils:tinted_glass'
 		}
 	}
 }

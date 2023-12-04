@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "chisel:block/hazardorange"
+        "base": "minecraft:block/gold_block"
       },
       "elements": [
         {

@@ -316,7 +316,21 @@ onEvent('recipes', (event) => {
                 B: 'lazierae2:fluix_steel_ingot'
             },
             id: 'starcraft:appliedenergistics2_condenser'
+        },
+
+        // 模块化中子素收集器
+        {
+            output: 'masterfulmachinery:neutronium_collector_controller',
+            pattern:patterns.crossWithCore,
+            key: {
+                A: 'endless:densest_neutronium_collector',
+                B: 'endless:neutronium_gear',
+                C: 'endless:neutronium_block'
+            },
+            id: 'starcraft:masterfulmachinery.neutronium_collector_controller'
         }
+
+        // 
     ]
 
     recipesShaped.forEach((recipe) => {
