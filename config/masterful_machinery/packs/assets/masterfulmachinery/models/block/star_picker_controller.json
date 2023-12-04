@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "appliedenergistics2:block/quartz_glass"
+        "base": "kubejs:block/block_44"
       },
       "elements": [
         {

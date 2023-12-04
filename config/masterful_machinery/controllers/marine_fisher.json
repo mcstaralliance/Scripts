@@ -1,7 +1,7 @@
 {
     "controllerId": "marine_fisher",
     "name": "Marine Fisher",
-    "textureOverride":"xkdeco:block/yellow_tiles",
+    "textureOverride":"kubejs:block/block_8",
     "ports": [
       {
         "type": "masterfulmachinery:items",

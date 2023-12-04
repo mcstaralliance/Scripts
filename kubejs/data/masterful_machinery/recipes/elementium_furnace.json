@@ -1,39 +1,39 @@
 {
-	"type": "masterfulmachinery:machine_structure",
-	"id": "elementium_furnace_1",
-	"controllerId": "elementium_furnace",
-	"name": "Elementium Furnace",
-	"layout": [
-		[")))", "C*+", ")))"],
-		[",,,", ",-,", ",,,"],
-		["...", ". .", "..."],
-		[",,,", ", ,", ",,,"],
-		["/))", ")))", "0))"]
+	'type': 'masterfulmachinery:machine_structure',
+	'id': 'elementium_furnace_1',
+	'controllerId': 'elementium_furnace',
+	'name': 'Elementium Furnace',
+	'layout': [
+		[')))', 'C*+', ')))'],
+		[',,,', ',-,', ',,,'],
+		['...', '. .', '...'],
+		[',,,', ', ,', ',,,'],
+		['/))', ')))', '0))']
 	],
-	"legend": {
-		"0": {
-			"block": "masterfulmachinery:elementium_furnace_item_port_items_output"
+	'legend': {
+		'0': {
+			'block': 'masterfulmachinery:elementium_furnace_item_port_items_output'
 		},
-		")": {
-			"block": "kubejs:block_6"
+		')': {
+			'block': 'kubejs:block_6'
 		},
-		"*": {
-			"block": "botania:terrasteel_block"
+		'*': {
+			'block': 'botania:terrasteel_block'
 		},
-		"+": {
-			"block": "masterfulmachinery:elementium_furnace_energy_port_energy_input"
+		'+': {
+			'block': 'masterfulmachinery:elementium_furnace_energy_port_energy_input'
 		},
-		",": {
-			"block": "kubejs:block_21"
+		',': {
+			'block': 'kubejs:block_21'
 		},
-		"-": {
-			"block": "botania:terra_plate"
+		'-': {
+			'block': 'botania:terra_plate'
 		},
-		".": {
-			"block": "thermal:obsidian_glass"
+		'.': {
+			'block': 'thermal:obsidian_glass'
 		},
-		"/": {
-			"block": "masterfulmachinery:elementium_furnace_item_port_items_input"
+		'/': {
+			'block': 'masterfulmachinery:elementium_furnace_item_port_items_input'
 		}
 	}
 }

@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "thermal:block/obsidian_glass"
+        "base": "kubejs:block/block_36"
       },
       "elements": [
         {

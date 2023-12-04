@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "chisel:block/goldplate"
+        "base": "kubejs:block/block_17"
       },
       "elements": [
         {

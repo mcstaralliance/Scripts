@@ -1,7 +1,7 @@
 {
     "controllerId": "star_creation_instrument",
     "name": "Star Creation Instrument",
-    "textureOverride":"thermal:block/obsidian_glass",
+    "textureOverride":"kubejs:block/block_36",
     "ports": [
       {
         "type": "masterfulmachinery:items",

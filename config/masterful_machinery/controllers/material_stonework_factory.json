@@ -1,7 +1,7 @@
 {
     "controllerId": "material_stonework_factory",
     "name": "Material Stonework Factory",
-    "textureOverride":"chisel:block/hazardorange",
+    "textureOverride":"minecraft:block/gold_block",
     "ports": [
       {
         "type": "masterfulmachinery:items",

@@ -1,7 +1,7 @@
 {
     "controllerId": "neutronium_collector",
     "name": "Neutronium Collector",
-    "textureOverride":"endless:block/crystal_matrix_block",
+    "textureOverride":"kubejs:block/block_36",
     "ports": [
       {
         "type": "masterfulmachinery:items",

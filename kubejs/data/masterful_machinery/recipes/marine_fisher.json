@@ -1,64 +1,64 @@
 {
-	"type": "masterfulmachinery:machine_structure",
-	"id": "marine_fisher_1",
-	"controllerId": "marine_fisher",
-	"name": "Marine Fisher",
-	"layout": [
+	'type': 'masterfulmachinery:machine_structure',
+	'id': 'marine_fisher_1',
+	'controllerId': 'marine_fisher',
+	'name': 'Marine Fisher',
+	'layout': [
 		[
-			")       )",
-			"         ",
-			"         ",
-			"         ",
-			"         ",
-			"         ",
-			")       )"
+			')       )',
+			'         ',
+			'         ',
+			'         ',
+			'         ',
+			'         ',
+			')       )'
 		],
 		[
-			"*********",
-			"*********",
-			"+********",
-			",*******-",
-			".********",
-			"*********",
-			"*********"
+			'*********',
+			'*********',
+			'+********',
+			',*******-',
+			'.********',
+			'*********',
+			'*********'
 		],
 		[
-			"*********",
-			"*       *",
-			"*       *",
-			"C       *",
-			"*       *",
-			"*       *",
-			"*********"
+			'*********',
+			'*       *',
+			'*       *',
+			'C       *',
+			'*       *',
+			'*       *',
+			'*********'
 		],
 		[
-			"*********",
-			"*       *",
-			"*       *",
-			"*       *",
-			"*       *",
-			"*       *",
-			"*********"
+			'*********',
+			'*       *',
+			'*       *',
+			'*       *',
+			'*       *',
+			'*       *',
+			'*********'
 		]
 	],
-	"legend": {
-		")": {
-			"block": "xkdeco:hollow_steel_frame"
+	'legend': {
+		')': {
+			'block': 'xkdeco:hollow_steel_frame'
 		},
-		"*": {
-			"block": "xkdeco:yellow_tiles"
+		'*': {
+			'block': 'xkdeco:yellow_tiles'
 		},
-		"+": {
-			"block": "masterfulmachinery:marine_fisher_item_port_items_input"
+		'+': {
+			'block': 'masterfulmachinery:marine_fisher_item_port_items_input'
 		},
-		",": {
-			"block": "masterfulmachinery:marine_fisher_energy_port_energy_input"
+		',': {
+			'block': 'masterfulmachinery:marine_fisher_energy_port_energy_input'
 		},
-		"-": {
-			"block": "masterfulmachinery:marine_fisher_fluid_port_fluids_input"
+		'-': {
+			'block': 'masterfulmachinery:marine_fisher_fluid_port_fluids_input'
 		},
-		".": {
-			"block": "masterfulmachinery:marine_fisher_item_port_items_output"
+		'.': {
+			'block': 'masterfulmachinery:marine_fisher_item_port_items_output'
 		}
 	}
 }

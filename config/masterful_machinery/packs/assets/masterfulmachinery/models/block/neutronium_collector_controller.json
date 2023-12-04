@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "endless:block/crystal_matrix_block"
+        "base": "kubejs:block/block_36"
       },
       "elements": [
         {

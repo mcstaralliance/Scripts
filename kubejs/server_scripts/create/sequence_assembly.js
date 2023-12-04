@@ -18,5 +18,11 @@ onEvent('recipes', event => {
         event.recipes.createDeploying('woot:plate_die', ['woot:plate_die', 'minecraft:stone_slab']),
         event.recipes.createPressing('woot:plate_die', 'woot:plate_die')
     ]).transitionalItem('woot:plate_die').loops(1)
+
+    event.recipes.createSequencedAssembly([
+        Item.of('masterfulmachinery:netherstar_controller').withChance(130.0)
+    ], 'industrialforegoing:mycelial_netherstar', [
+        event.recipes.createDeploying('masterfulmachinery:netherstar_controller', ['masterfulmachinery:netherstar_controller', 'kubejs:block_19'])
+    ]).transitionalItem('masterfulmachinery:netherstar_controller').loops(24)
 })
 
