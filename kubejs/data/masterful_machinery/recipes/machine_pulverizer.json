@@ -1,79 +1,79 @@
     {
-      'type': 'masterfulmachinery:machine_structure',
-      'id': 'machine_pulverizer_1',
-      'controllerId': 'machine_pulverizer',
-    'name': 'Machine Pulverizer',
-      'layout': [
+      "type": "masterfulmachinery:machine_structure",
+      "id": "machine_pulverizer_1",
+      "controllerId": "machine_pulverizer",
+    "name": "Machine Pulverizer",
+      "layout": [
         [
-          '        ',
-          '*+++    ',
-          '++++    ',
-          ',+++    ',
-          '        '
+          "        ",
+          "*+++    ",
+          "++++    ",
+          ",+++    ",
+          "        "
         ],
         [
-          '        ',
-          '++++    ',
-          'C-----  ',
-          '++++    ',
-          '        '
+          "        ",
+          "++++    ",
+          "C-----  ",
+          "++++    ",
+          "        "
         ],
         [
-          '    +++ ',
-          '++++++++',
-          '+++++-+.',
-          '++++++++',
-          '    +++ '
+          "    +++ ",
+          "++++++++",
+          "+++++-+.",
+          "++++++++",
+          "    +++ "
         ],
         [
-          '    /0/ ',
-          '   /111/',
-          '   01110',
-          '   /111/',
-          '    /0/ '
+          "    /0/ ",
+          "   /111/",
+          "   01110",
+          "   /111/",
+          "    /0/ "
         ],
         [
-          '    /0/ ',
-          '   /   /',
-          '   0   0',
-          '   /   /',
-          '    /0/ '
+          "    /0/ ",
+          "   /   /",
+          "   0   0",
+          "   /   /",
+          "    /0/ "
         ],
         [
-          '    /0/ ',
-          '   /222/',
-          '   02220',
-          '   /222/',
-          '    /0/ '
+          "    /0/ ",
+          "   /222/",
+          "   02220",
+          "   /222/",
+          "    /0/ "
         ]
       ],
-      'legend': {
-        '0': {
-          'block': 'xkdeco:factory_attention'
+      "legend": {
+        "0": {
+          "block": "xkdeco:factory_attention"
         },
-        '1': {
-          'block': 'create_stuff_additions:quartz_crusher'
+        "1": {
+          "block": "create_stuff_additions:quartz_crusher"
         },
-        '2': {
-          'block': 'thermal:obsidian_glass'
+        "2": {
+          "block": "thermal:obsidian_glass"
         },
-        '*': {
-          'block': 'masterfulmachinery:machine_pulverizer_item_port_items_input'
+        "*": {
+          "block": "masterfulmachinery:machine_pulverizer_item_port_items_input"
         },
-        '+': {
-          'block': 'kubejs:block_37'
+        "+": {
+          "block": "kubejs:block_37"
         },
-        ',': {
-          'block': 'masterfulmachinery:machine_pulverizer_item_port_items_output'
+        ",": {
+          "block": "masterfulmachinery:machine_pulverizer_item_port_items_output"
         },
-        '-': {
-          'block': 'kubejs:block_7'
+        "-": {
+          "block": "kubejs:block_7"
         },
-        '.': {
-          'block': 'masterfulmachinery:machine_pulverizer_energy_port_energy_input'
+        ".": {
+          "block": "masterfulmachinery:machine_pulverizer_energy_port_energy_input"
         },
-        '/': {
-          'block': 'xkdeco:factory_danger'
+        "/": {
+          "block": "xkdeco:factory_danger"
         }
       }
     }

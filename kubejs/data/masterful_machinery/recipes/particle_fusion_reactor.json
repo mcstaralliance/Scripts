@@ -1,108 +1,108 @@
 {
-	'type': 'masterfulmachinery:machine_structure',
-	'id': 'particle_fusion_reactor_1',
-	'controllerId': 'particle_fusion_reactor',
-	'name': 'Particle Fusion Reactor',
-	'layout': [
+	"type": "masterfulmachinery:machine_structure",
+	"id": "particle_fusion_reactor_1",
+	"controllerId": "particle_fusion_reactor",
+	"name": "Particle Fusion Reactor",
+	"layout": [
 		[
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               ',
-			'               '
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               ",
+			"               "
 		],
 		[
-			'               ',
-			'      )))      ',
-			'    ))   ))    ',
-			'   *       *   ',
-			'  )         )  ',
-			'  )         )  ',
-			' )           ) ',
-			' +           + ',
-			' )           ) ',
-			'  )         )  ',
-			'  )         )  ',
-			'   *       *   ',
-			'    ))   ))    ',
-			'      ),)      ',
-			'               '
+			"               ",
+			"      )))      ",
+			"    ))   ))    ",
+			"   *       *   ",
+			"  )         )  ",
+			"  )         )  ",
+			" )           ) ",
+			" +           + ",
+			" )           ) ",
+			"  )         )  ",
+			"  )         )  ",
+			"   *       *   ",
+			"    ))   ))    ",
+			"      ),)      ",
+			"               "
 		],
 		[
-			'      -.-      ',
-			'    ))   ))    ',
-			'   )  /0/  )   ',
-			'  ) ))   )) )  ',
-			' ) )       ) ) ',
-			' ) )       ) ) ',
-			'1 )         ) 1',
-			'+ 2         2 +',
-			'1 )         ) 1',
-			' ) )       ) ) ',
-			' ) )       ) ) ',
-			'  ) ))   )) )  ',
-			'   )  1,1  )   ',
-			'    ))   ))    ',
-			'      )C)      '
+			"      -.-      ",
+			"    ))   ))    ",
+			"   )  /0/  )   ",
+			"  ) ))   )) )  ",
+			" ) )       ) ) ",
+			" ) )       ) ) ",
+			"1 )         ) 1",
+			"+ 2         2 +",
+			"1 )         ) 1",
+			" ) )       ) ) ",
+			" ) )       ) ) ",
+			"  ) ))   )) )  ",
+			"   )  1,1  )   ",
+			"    ))   ))    ",
+			"      )C)      "
 		],
 		[
-			'               ',
-			'      )))      ',
-			'    ))   ))    ',
-			'   *       *   ',
-			'  )         )  ',
-			'  )         )  ',
-			' )           ) ',
-			' +           + ',
-			' )           ) ',
-			'  )         )  ',
-			'  )         )  ',
-			'   *       *   ',
-			'    ))   ))    ',
-			'      ),)      ',
-			'               '
+			"               ",
+			"      )))      ",
+			"    ))   ))    ",
+			"   *       *   ",
+			"  )         )  ",
+			"  )         )  ",
+			" )           ) ",
+			" +           + ",
+			" )           ) ",
+			"  )         )  ",
+			"  )         )  ",
+			"   *       *   ",
+			"    ))   ))    ",
+			"      ),)      ",
+			"               "
 		]
 	],
-	'legend': {
-		'0': {
-			'block': 'masterfulmachinery:particle_fusion_reactor_item_port_items_input'
+	"legend": {
+		"0": {
+			"block": "masterfulmachinery:particle_fusion_reactor_item_port_items_input"
 		},
-		'1': {
-			'block': 'masterfulmachinery:particle_fusion_reactor_energy_port_energy_input'
+		"1": {
+			"block": "masterfulmachinery:particle_fusion_reactor_energy_port_energy_input"
 		},
-		'2': {
-			'block': 'appliedenergistics2:crafting_accelerator'
+		"2": {
+			"block": "appliedenergistics2:crafting_accelerator"
 		},
-		')': {
-			'block': 'thermal:lumium_glass'
+		")": {
+			"block": "thermal:lumium_glass"
 		},
-		'*': {
-			'block': 'thermal:electrum_block'
+		"*": {
+			"block": "thermal:electrum_block"
 		},
-		'+': {
-			'block': 'appliedenergistics2:fluix_block'
+		"+": {
+			"block": "appliedenergistics2:fluix_block"
 		},
-		',': {
-			'block': 'ars_nouveau:warding_stone'
+		",": {
+			"block": "ars_nouveau:warding_stone"
 		},
-		'-': {
-			'block': 'appliedenergistics2:dense_energy_cell'
+		"-": {
+			"block": "appliedenergistics2:dense_energy_cell"
 		},
-		'.': {
-			'block': 'masterfulmachinery:particle_fusion_reactor_item_port_items_output'
+		".": {
+			"block": "masterfulmachinery:particle_fusion_reactor_item_port_items_output"
 		},
-		'/': {
-			'block': 'woot:cell_2'
+		"/": {
+			"block": "woot:cell_2"
 		}
 	}
 }

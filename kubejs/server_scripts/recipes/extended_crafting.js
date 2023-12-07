@@ -382,4 +382,25 @@ onEvent('recipes', event => {
         },
         result: 'masterfulmachinery:star_creation_instrument_controller'
     })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            "ABCBA",
+            "BDEDB",
+            "CEFEC",
+            "BDEDB",
+            "ABCBA"
+        ],
+        key:{
+            A: "extendedcrafting:crystaltine_catalyst",
+            B: "lazierae2:parallel_processor",
+            C: "appliedenergistics2:crafting_unit",
+            D: "extrabotany:aerialite",
+            E: "extendedcrafting:enhanced_ender_ingot",
+            F: "buddycards:perfect_buddysteel_ingot"
+        },
+        result: '8x kubejs:block_1'
+    })
 })

@@ -1,22 +1,22 @@
 {
-	'type': 'masterfulmachinery:machine_structure',
-	'id': 'neutronium_collector_1',
-	'controllerId': 'neutronium_collector',
-	'name': 'Neutronium Collector',
-	'layout': [
-		[')))', ')))', ')))'],
-		['*C+', ')))', ')))'],
-		[')))', ')))', ')))']
+	"type": "masterfulmachinery:machine_structure",
+	"id": "neutronium_collector_1",
+	"controllerId": "neutronium_collector",
+	"name": "Neutronium Collector",
+	"layout": [
+		[")))", ")))", ")))"],
+		["*C+", ")))", ")))"],
+		[")))", ")))", ")))"]
 	],
-	'legend': {
-		')': {
-			'block': 'endless:neutronium_block'
+	"legend": {
+		")": {
+			"block": "endless:neutronium_block"
 		},
-		'*': {
-			'block': 'masterfulmachinery:neutronium_collector_item_port_items_output'
+		"*": {
+			"block": "masterfulmachinery:neutronium_collector_item_port_items_output"
 		},
-		'+': {
-			'block': 'masterfulmachinery:neutronium_collector_item_port_items_input'
+		"+": {
+			"block": "masterfulmachinery:neutronium_collector_item_port_items_input"
 		}
 	}
 }
