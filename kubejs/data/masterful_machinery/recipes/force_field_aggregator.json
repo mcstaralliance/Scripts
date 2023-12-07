@@ -1,91 +1,91 @@
 {
-	'type': 'masterfulmachinery:machine_structure',
-	'id': 'force_field_aggregator_1',
-	'controllerId': 'force_field_aggregator',
-	'name': 'Force Field Aggregator',
-	'layout': [
+	"type": "masterfulmachinery:machine_structure",
+	"id": "force_field_aggregator_1",
+	"controllerId": "force_field_aggregator",
+	"name": "Force Field Aggregator",
+	"layout": [
 		[
-			')))))',
-			'     ',
-			'     ',
-			'*****',
-			'     ',
-			'     ',
-			'*****',
-			'     ',
-			'     ',
-			')))))'
+			")))))",
+			"     ",
+			"     ",
+			"*****",
+			"     ",
+			"     ",
+			"*****",
+			"     ",
+			"     ",
+			")))))"
 		],
 		[
-			')))))',
-			'  +  ',
-			'  +  ',
-			'* + *',
-			'  +  ',
-			'  +  ',
-			'* + *',
-			'  +  ',
-			'  +  ',
-			')))))'
+			")))))",
+			"  +  ",
+			"  +  ",
+			"* + *",
+			"  +  ",
+			"  +  ",
+			"* + *",
+			"  +  ",
+			"  +  ",
+			")))))"
 		],
 		[
-			')),))',
-			' +-+ ',
-			' +-+ ',
-			'*+-+*',
-			' +-+ ',
-			' +-+ ',
-			'*+-+*',
-			' +-+ ',
-			' +-+ ',
-			')).))'
+			")),))",
+			" +-+ ",
+			" +-+ ",
+			"*+-+*",
+			" +-+ ",
+			" +-+ ",
+			"*+-+*",
+			" +-+ ",
+			" +-+ ",
+			")).))"
 		],
 		[
-			')))))',
-			'  +  ',
-			'  +  ',
-			'* + *',
-			'  +  ',
-			'  +  ',
-			'* + *',
-			'  +  ',
-			'  +  ',
-			')))))'
+			")))))",
+			"  +  ",
+			"  +  ",
+			"* + *",
+			"  +  ",
+			"  +  ",
+			"* + *",
+			"  +  ",
+			"  +  ",
+			")))))"
 		],
 		[
-			')))))',
-			'     ',
-			'     ',
-			'*****',
-			'     ',
-			'     ',
-			'*****',
-			'     ',
-			'     ',
-			')/C/)'
+			")))))",
+			"     ",
+			"     ",
+			"*****",
+			"     ",
+			"     ",
+			"*****",
+			"     ",
+			"     ",
+			")/C/)"
 		]
 	],
-	'legend': {
-		')': {
-			'block': 'kubejs:block_10'
+	"legend": {
+		")": {
+			"block": "kubejs:block_10"
 		},
-		'*': {
-			'block': 'kubejs:block_21'
+		"*": {
+			"block": "kubejs:block_21"
 		},
-		'+': {
-			'block': 'kubejs:block_43'
+		"+": {
+			"block": "kubejs:block_43"
 		},
-		',': {
-			'block': 'masterfulmachinery:force_field_aggregator_item_port_items_output'
+		",": {
+			"block": "masterfulmachinery:force_field_aggregator_item_port_items_output"
 		},
-		'-': {
-			'block': 'kubejs:block_24'
+		"-": {
+			"block": "kubejs:block_24"
 		},
-		'.': {
-			'block': 'masterfulmachinery:force_field_aggregator_item_port_items_input'
+		".": {
+			"block": "masterfulmachinery:force_field_aggregator_item_port_items_input"
 		},
-		'/': {
-			'block': 'masterfulmachinery:force_field_aggregator_energy_port_energy_input'
+		"/": {
+			"block": "masterfulmachinery:force_field_aggregator_energy_port_energy_input"
 		}
 	}
 }

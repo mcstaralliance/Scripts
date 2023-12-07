@@ -1,204 +1,204 @@
 {
-	'type': 'masterfulmachinery:machine_structure',
-	'id': 'neutron_collector_modular_1',
-	'controllerId': 'neutron_collector_modular',
-	'name': 'Neutron Collector Modular',
-	'layout': [
+	"type": "masterfulmachinery:machine_structure",
+	"id": "neutron_collector_modular_1",
+	"controllerId": "neutron_collector_modular",
+	"name": "Neutron Collector Modular",
+	"layout": [
 		[
-			'  )*)*)  ',
-			' )*+*+*) ',
-			')*+*+*+*)',
-			'*+*,,,*+*',
-			')*+,,,+*)',
-			'*+*,,,*+*',
-			')*+*+*+*)',
-			' )*+*+*) ',
-			'  )*)*)  '
+			"  )*)*)  ",
+			" )*+*+*) ",
+			")*+*+*+*)",
+			"*+*,,,*+*",
+			")*+,,,+*)",
+			"*+*,,,*+*",
+			")*+*+*+*)",
+			" )*+*+*) ",
+			"  )*)*)  "
 		],
 		[
-			'         ',
-			' - . . - ',
-			'  . /    ',
-			'  0121 . ',
-			'  3242/  ',
-			'  0121 . ',
-			'  . /    ',
-			' - . . - ',
-			'         '
+			"         ",
+			" - . . - ",
+			"  . /    ",
+			"  0121 . ",
+			"  3242/  ",
+			"  0121 . ",
+			"  . /    ",
+			" - . . - ",
+			"         "
 		],
 		[
-			'         ',
-			' - . . - ',
-			'  . 5    ',
-			'   , , . ',
-			'  C   5  ',
-			'   , , . ',
-			'  . 5    ',
-			' - . . - ',
-			'         '
+			"         ",
+			" - . . - ",
+			"  . 5    ",
+			"   , , . ",
+			"  C   5  ",
+			"   , , . ",
+			"  . 5    ",
+			" - . . - ",
+			"         "
 		],
 		[
-			'         ',
-			' 6 7 7 6 ',
-			'  8,9,   ',
-			'  ,:;:,8 ',
-			'  9; ;9  ',
-			'  ,:;:,8 ',
-			'  8,9,   ',
-			' 6 < < 6 ',
-			'         '
+			"         ",
+			" 6 7 7 6 ",
+			"  8,9,   ",
+			"  ,:;:,8 ",
+			"  9; ;9  ",
+			"  ,:;:,8 ",
+			"  8,9,   ",
+			" 6 < < 6 ",
+			"         "
 		],
 		[
-			'         ',
-			' - =>= - ',
-			'  >?9?>  ',
-			' =?9@9?= ',
-			' >9@A@9> ',
-			' =?9@9?= ',
-			'  >?9?>  ',
-			' - =>= - ',
-			'         '
+			"         ",
+			" - =>= - ",
+			"  >?9?>  ",
+			" =?9@9?= ",
+			" >9@A@9> ",
+			" =?9@9?= ",
+			"  >?9?>  ",
+			" - =>= - ",
+			"         "
 		],
 		[
-			'         ',
-			' -     - ',
-			'   ,9,   ',
-			'  ,:;:,  ',
-			'  9; ;9  ',
-			'  ,:;:,  ',
-			'   ,9,   ',
-			' -     - ',
-			'         '
+			"         ",
+			" -     - ",
+			"   ,9,   ",
+			"  ,:;:,  ",
+			"  9; ;9  ",
+			"  ,:;:,  ",
+			"   ,9,   ",
+			" -     - ",
+			"         "
 		],
 		[
-			'         ',
-			'         ',
-			'    9    ',
-			'   ,9,   ',
-			'  99 99  ',
-			'   ,9,   ',
-			'    9    ',
-			'         ',
-			'         '
+			"         ",
+			"         ",
+			"    9    ",
+			"   ,9,   ",
+			"  99 99  ",
+			"   ,9,   ",
+			"    9    ",
+			"         ",
+			"         "
 		],
 		[
-			'         ',
-			'         ',
-			'         ',
-			'   191   ',
-			'   9 9   ',
-			'   191   ',
-			'         ',
-			'         ',
-			'         '
+			"         ",
+			"         ",
+			"         ",
+			"   191   ",
+			"   9 9   ",
+			"   191   ",
+			"         ",
+			"         ",
+			"         "
 		],
 		[
-			'         ',
-			'         ',
-			'         ',
-			'    B    ',
-			'   BDB   ',
-			'    B    ',
-			'         ',
-			'         ',
-			'         '
+			"         ",
+			"         ",
+			"         ",
+			"    B    ",
+			"   BDB   ",
+			"    B    ",
+			"         ",
+			"         ",
+			"         "
 		],
 		[
-			'         ',
-			'         ',
-			'         ',
-			'         ',
-			'    E    ',
-			'         ',
-			'         ',
-			'         ',
-			'         '
+			"         ",
+			"         ",
+			"         ",
+			"         ",
+			"    E    ",
+			"         ",
+			"         ",
+			"         ",
+			"         "
 		]
 	],
-	'legend': {
-		'@': {
-			'block': 'immersiveposts:fence_electrum'
+	"legend": {
+		"@": {
+			"block": "immersiveposts:fence_electrum"
 		},
-		'A': {
-			'block': 'astralsorcery:chalice'
+		"A": {
+			"block": "astralsorcery:chalice"
 		},
-		'B': {
-			'block': 'appliedenergistics2:quartz_stairs'
+		"B": {
+			"block": "appliedenergistics2:quartz_stairs"
 		},
-		'D': {
-			'block': 'minecraft:black_stained_glass'
+		"D": {
+			"block": "minecraft:black_stained_glass"
 		},
-		'E': {
-			'block': 'botania:floating_orechid'
+		"E": {
+			"block": "botania:floating_orechid"
 		},
-		')': {
-			'block': 'astralsorcery:black_marble_bricks'
+		")": {
+			"block": "astralsorcery:black_marble_bricks"
 		},
-		'*': {
-			'block': 'immersiveengineering:sheetmetal_aluminum'
+		"*": {
+			"block": "immersiveengineering:sheetmetal_aluminum"
 		},
-		'+': {
-			'block': 'astralsorcery:marble_bricks'
+		"+": {
+			"block": "astralsorcery:marble_bricks"
 		},
-		',': {
-			'block': 'astralsorcery:starmetal'
+		",": {
+			"block": "astralsorcery:starmetal"
 		},
-		'-': {
-			'block': 'astralsorcery:black_marble_pillar'
+		"-": {
+			"block": "astralsorcery:black_marble_pillar"
 		},
-		'.': {
-			'block': 'astralsorcery:marble_pillar'
+		".": {
+			"block": "astralsorcery:marble_pillar"
 		},
-		'/': {
-			'block': 'powah:blazing_crystal_block'
+		"/": {
+			"block": "powah:blazing_crystal_block"
 		},
-		'0': {
-			'block': 'xkdeco:ventiduct_corner'
+		"0": {
+			"block": "xkdeco:ventiduct_corner"
 		},
-		'1': {
-			'block': 'thermal:signalum_block'
+		"1": {
+			"block": "thermal:signalum_block"
 		},
-		'2': {
-			'block': 'xkdeco:ventiduct_down'
+		"2": {
+			"block": "xkdeco:ventiduct_down"
 		},
-		'3': {
-			'block': 'xkdeco:ventiduct_sixway'
+		"3": {
+			"block": "xkdeco:ventiduct_sixway"
 		},
-		'4': {
-			'block': 'minecraft:beacon'
+		"4": {
+			"block": "minecraft:beacon"
 		},
-		'5': {
-			'block': 'astralsorcery:ritual_link'
+		"5": {
+			"block": "astralsorcery:ritual_link"
 		},
-		'6': {
-			'block': 'minecraft:glowstone'
+		"6": {
+			"block": "minecraft:glowstone"
 		},
-		'7': {
-			'block': 'masterfulmachinery:neutron_collector_modular_energy_port_energy_input'
+		"7": {
+			"block": "masterfulmachinery:neutron_collector_modular_energy_port_energy_input"
 		},
-		'8': {
-			'block': 'masterfulmachinery:neutron_collector_modular_item_port_items_input'
+		"8": {
+			"block": "masterfulmachinery:neutron_collector_modular_item_port_items_input"
 		},
-		'9': {
-			'block': 'industrialforegoing:dark_glass'
+		"9": {
+			"block": "industrialforegoing:dark_glass"
 		},
-		':': {
-			'block': 'immersiveengineering:coil_lv'
+		":": {
+			"block": "immersiveengineering:coil_lv"
 		},
-		';': {
-			'block': 'immersiveengineering:alu_scaffolding_standard'
+		";": {
+			"block": "immersiveengineering:alu_scaffolding_standard"
 		},
-		'<': {
-			'block': 'masterfulmachinery:neutron_collector_modular_energy_port_energy_output'
+		"<": {
+			"block": "masterfulmachinery:neutron_collector_modular_energy_port_energy_output"
 		},
-		'=': {
-			'block': 'botania:manasteel_block'
+		"=": {
+			"block": "botania:manasteel_block"
 		},
-		'>': {
-			'block': 'gobber2:gobber2_block'
+		">": {
+			"block": "gobber2:gobber2_block"
 		},
-		'?': {
-			'block': 'immersiveengineering:coil_mv'
+		"?": {
+			"block": "immersiveengineering:coil_mv"
 		}
 	}
 }

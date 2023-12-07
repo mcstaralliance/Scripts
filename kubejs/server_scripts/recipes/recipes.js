@@ -328,17 +328,165 @@ onEvent('recipes', (event) => {
                 C: 'endless:neutronium_block'
             },
             id: 'starcraft:masterfulmachinery.neutronium_collector_controller'
-        }
+        },
 
-        // 
+        // 量子位计算器
+        {
+            output: 'kubejs:block_2',
+            pattern:['AAA', 'BCB', 'AAA'],
+            key:{
+                A: 'kubejs:block_1',
+                B: 'jecalculation:item_calculator_math',
+                C: 'rftoolscontrol:cpu_core_2000'
+            },
+            id: 'starcraft:kubejs.block_2'
+        },
+
+        // 星辰之耀线圈
+        {
+            output: 'kubejs:block_3',
+            pattern:['AAA', 'ABC', 'CCC'],
+            key:{
+                A: 'astralsorcery:stardust',
+                B: 'kubejs:block_21',
+                C: 'botania:mana_powder'
+            },
+            id: 'starcraft:kubejs.block_3'
+        },
+
+        // 维度外壳
+        {
+            output: 'kubejs:block_4',
+            pattern:[' A ', 'ABA', ' A '],
+            key:{
+                A: 'rftoolsbase:dimensionalshard',
+                B: 'kubejs:block_1'
+            },
+            id: 'starcraft:kubejs.block_4'
+        },
+
+        // 星域计算力场方块
+        {
+            output: '3x kubejs:block_5',
+            pattern:patterns.crossWithCore,
+            key:{
+                A: 'kubejs:block_1',
+                B: 'extrabotany:powerframe',
+                C: 'botania:piston_relay'
+            },
+            id: 'starcraft:kubejs.block_5'
+        },
+
+        // 源质钢机械方块
+        {
+            output: 'kubejs:block_6',
+            pattern:patterns.crossWithCore,
+            key:{
+                A: 'kubejs:block_10',
+                B: '#forge:gears/signalum',
+                C: 'botania:elementium_ingot'
+            },
+            id: 'starcraft:kubejs.block_6'
+        },
+
+        // 下界合金包层铝传输通道
+        {
+            output: 'kubejs:block_7',
+            pattern:['AAA', 'BBB', 'AAA'],
+            key:{
+                A: 'minecraft:netherite_ingot',
+                B: '#forge:storage_blocks/aluminum'
+            },
+            id: 'starcraft:kubejs.block_7'
+        },
+
+        // 排气扇
+        {
+            output: 'kubejs:block_30',
+            pattern:patterns.surroundWithCore,
+            key:{
+                A: 'create:propeller', 
+                B: '#forge:ingots/invar'
+            },
+            id: 'starcraft:kubejs:block_30'
+        },
+        
+        // 高级排气扇
+        {
+            output: '4x kubejs:block_9',
+            pattern:patterns.crossWithCore,
+            key:{
+                A: 'kubejs:block_30',
+                B: 'woot:factory_upgrade',
+                C: 'xnet:connector_upgrade'
+            },
+            id: 'starcraft:kubejs.block_9'
+        },
+
+        // 机械外壳
+        {
+            output: 'kubejs:block_10',
+            pattern:patterns.surroundWithCore,
+            key:{
+                A: '#forge:gears/steel',
+                B: '#forge:ingots/steel'
+            },
+            id: 'starcraft:kubejs.block_10'
+        },
+
+        // 星钢机械方块
+        {
+            output: 'kubejs:block_44',
+            pattern:patterns.cross,
+            key:{
+                A: 'astralsorcery:starmetal_ingot',
+                B: 'powah:steel_energized'
+            },
+            id: 'starcraft:kubejs.block_44'
+        },
+
+        // 星钢散热器
+        {
+            output: 'kubejs:block_39',
+            pattern:patterns.crossWithCore,
+            key:{
+                A: 'immersiveengineering:radiator',
+                B: 'astralsorcery:starmetal_ingot',
+                C: 'powah:steel_energized',
+            },
+            id: 'starcraft:kubejs.block_39'
+        },
+
+        // 星钢钻杆方块
+        {
+            output: '3x kubejs:block_27',
+            pattern:['ABA', 'ACA', 'ABA'],
+            key:{
+                A: 'kubejs:block_44',
+                B: 'create:piston_extension_pole',
+                C: 'create:shaft'
+            },
+            id: 'starcraft:kubejs:block_27'
+        },
+        
+        // 星钢钻头稳定器
+        {
+            output: '4x kubejs:block_14',
+            pattern:patterns.cross,
+            key:{
+                A: 'kubejs:block_39',
+                B: 'thermal:lightning_tnt'
+            },
+            id: 'starcraft:kubejs.block_14'
+        }
     ]
 
     recipesShaped.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
     })
 
-    event.shapeless('immersiveengineering:blastbrick_reinforced', ['immersiveengineering:blastbrick', 'botania:blaze_block', '#forge:plates/steel'])  // 强化高炉砖
     event.shapeless('create:mechanical_mixer', ['create:mechanical_press', 'create:whisk']).replaceIngredient('create:mechanical_press', 'create:mechanical_piston')  // 动力搅拌机
+    event.shapeless('immersiveengineering:blastbrick_reinforced', ['immersiveengineering:blastbrick', 'botania:blaze_block', '#forge:plates/steel']) // 强化高炉砖
     event.shapeless(Item.of('botania:terra_sword', '{Damage:2000}'), ['gobber2:gobber2_sword', 'create_stuff_additions:blazing_cleaver', 'create_stuff_additions:copper_sword']) // 泰拉刃
     event.shapeless('botania:aura_ring', ['gobber2:gobber2_ring', 'minecraft:player_head']) // 光环之戒
     event.shapeless(Item.of('astralsorcery:knowledge_share', '{astralsorce:{creativeKnowledge:1b}}'), ['minecraft:writable_book', 'astralsorcery:altar_discovery']) // 知识全解卷轴
