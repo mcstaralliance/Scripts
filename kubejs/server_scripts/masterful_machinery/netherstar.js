@@ -2,16 +2,21 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             outputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 1 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 100000 } },
             ],
             inputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 4 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:nether_star', count: 1 } },
             ],
-            ticks: 80,
+            ticks: 100,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 1000000 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:nether_star_block', count: 1 } },
+            ],
+            ticks: 1,
         },
 ];
 

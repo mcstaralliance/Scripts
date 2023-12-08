@@ -2,16 +2,47 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             outputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 1 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_table', count: 1 } },
             ],
             inputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 4 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:advanced_table', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:elite_catalyst', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 20000 } },
             ],
-            ticks: 80,
+            ticks: 2000,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:basic_flux_storage', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:flux_block', count: 16 } },
+                { type: 'masterfulmachinery:items', data: { item: 'thermal:obsidian_glass', count: 8 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 2000 } },
+            ],
+            ticks: 100,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:herculean_flux_storage', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:flux_block', count: 32 } },
+                { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:ender_star', count: 4 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 2000 } },
+            ],
+            ticks: 500,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:flux_plug', count: 4 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'fluxnetworks:flux_block', count: 8 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:redstone_block', count: 8 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
+            ],
+            ticks: 1000,
         },
 ];
 
