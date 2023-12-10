@@ -41,7 +41,12 @@ const itemsToRemove = [
     'fluxnetworks:herculean_flux_storage',
     'fluxnetworks:flux_point',
     'fluxnetworks:flux_block',
-    'fluxnetworks:flux_controller'
+    'fluxnetworks:flux_controller',
+    'endless:infinity_helmet',
+    'endless:infinity_chestplate',
+    'endless:infinity_leggings',
+    'endless:infinity_boots',
+    'endless:infinity_sword'
 ];
 
 const itemsToRemoveFurnace = [
