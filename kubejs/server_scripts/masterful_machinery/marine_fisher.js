@@ -2,16 +2,16 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             outputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 1 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:cod', count: 8 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:salmon', count: 8 } },
+                { type: 'masterfulmachinery:items', data: { item: 'aquaculture:neptunium_ingot', count: 1 } },
             ],
             inputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'id', count: 4 } },
-                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
-                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'mekanismgenerators:fusion_fuel', amount: 500 }},
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:sweet_berries', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 200 } },
+                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: 'minecraft:water', amount: 2500 }},
             ],
-            ticks: 80,
+            ticks: 200,
         },
 ];
 

@@ -34,7 +34,19 @@ const itemsToRemove = [
     'ars_nouveau:alchemical_sourcelink',
     'ars_nouveau:vitalic_sourcelink',
     'ars_nouveau:mycelial_sourcelink',
-    'ars_nouveau:mana_condenser'
+    'ars_nouveau:mana_condenser',
+    'extendedcrafting:elite_table',
+    'fluxnetworks:basic_flux_storage',
+    'fluxnetworks:flux_plug',
+    'fluxnetworks:herculean_flux_storage',
+    'fluxnetworks:flux_point',
+    'fluxnetworks:flux_block',
+    'fluxnetworks:flux_controller',
+    'endless:infinity_helmet',
+    'endless:infinity_chestplate',
+    'endless:infinity_leggings',
+    'endless:infinity_boots',
+    'endless:infinity_sword'
 ];
 
 const itemsToRemoveFurnace = [
@@ -75,4 +87,5 @@ onEvent('recipes', event => {
     event.remove({id: 'astralsorcery:altar/altar_constellation'})
     event.remove({id: 'astralsorcery:altar/attunement_altar'})
     event.remove({id: 'astralsorcery:altar/altar_radiance'})
+    event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
 })

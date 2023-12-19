@@ -402,5 +402,92 @@ onEvent('recipes', event => {
             F: "buddycards:perfect_buddysteel_ingot"
         },
         result: '8x kubejs:block_1'
+    }),
+    
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            "AA AA",
+            "AAAAA",
+            "AABAA",
+            "AAAAA",
+            " AAA "
+        ],
+        key:{
+            A: "endless:infinity_ingot",
+            B: "extendedcrafting:nether_star_block"
+        },
+        result: 'endless:infinity_chestplate'
+    }),
+    
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            "AAAAA",
+            "AAAAA",
+            "AA AA",
+            "BB BB",
+            "AA AA"
+        ],
+        key:{
+            A: "endless:infinity_ingot",
+            B: "extendedcrafting:nether_star_block"
+        },
+        result: 'endless:infinity_leggings'
+    }),
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            " A A ",
+            " B B ",
+            " B B ",
+            "BB BB",
+            "BB BB"
+        ],
+        key:{
+            A: "extendedcrafting:nether_star_block",
+            B: "endless:infinity_ingot"
+        },
+        result: 'endless:infinity_boots'
+    }),
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            "AAAAA",
+            "ABABA",
+            "AAAAA",
+            "A   A",
+            "     "
+        ],
+        key:{
+            A: "endless:infinity_ingot",
+            B: "minecraft:nether_star"
+        },
+        result: 'endless:infinity_helmet'
+    }),
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern:[
+            "   AB",
+            "  AAA",
+            " AAA ",
+            " CA  ",
+            "D    "
+        ],
+        key:{
+            A: "endless:infinity_ingot",
+            B: "endless:infinity_block",
+            C: "minecraft:nether_star",
+            D: "pamhc2foodextended:walnutraisinbreaditem"
+        },
+        result: 'endless:infinity_sword'
     })
 })
