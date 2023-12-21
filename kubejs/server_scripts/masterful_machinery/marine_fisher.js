@@ -13,6 +13,18 @@ onEvent('recipes', (event) => {
             ],
             ticks: 200,
         },
+
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'tiab:timeinabottle', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:glass_bottle', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 200 } },
+                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: "industrialforegoing:ether_gas", amount: 250 }},
+            ],
+            ticks: 200,
+        }
 ];
 
         recipes.forEach((recipe) => {

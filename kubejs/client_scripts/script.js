@@ -3,7 +3,14 @@ const itemsToBan = [
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
     'chunkloaders:ultimate_chunk_loader',
-    '@compactmachines'
+    '@compactmachines',
+    'thermal:earth_tnt',
+    'thermal:earth_grenade',
+    'gobber2:gobber2_ring_explorer',
+    'gobber2:gobber2_ring_miner',
+    'gobber2:gobber2_ring_husbandry',
+    'gobber2:gobber2_ring_blink',
+    'gobber2:gobber2_ring_sunshine'
 ];
 
 onEvent('item.tooltip', tooltip => {
