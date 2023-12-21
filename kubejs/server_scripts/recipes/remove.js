@@ -1,3 +1,4 @@
+// priority: 2
 // Remove crafting
 const itemsToRemove = [
     'minecraft:snow_block',

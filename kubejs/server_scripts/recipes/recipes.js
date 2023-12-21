@@ -408,13 +408,12 @@ onEvent('recipes', (event) => {
                 A: 'create:propeller', 
                 B: '#forge:ingots/invar'
             },
-            id: 'starcraft:kubejs:block_30'
+            id: 'starcraft:kubejs.block_30'
         },
-        
-        // 高级排气扇
+    // 高级排气扇
         {
             output: '4x kubejs:block_9',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'kubejs:block_30',
                 B: 'woot:factory_upgrade',
@@ -426,7 +425,7 @@ onEvent('recipes', (event) => {
         // 机械外壳
         {
             output: 'kubejs:block_10',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: '#forge:gears/steel',
                 B: '#forge:ingots/steel'
@@ -437,7 +436,7 @@ onEvent('recipes', (event) => {
         // 星钢机械方块
         {
             output: 'kubejs:block_44',
-            pattern:patterns.cross,
+            pattern: patterns.cross,
             key:{
                 A: 'astralsorcery:starmetal_ingot',
                 B: 'powah:steel_energized'
@@ -448,7 +447,7 @@ onEvent('recipes', (event) => {
         // 星钢散热器
         {
             output: 'kubejs:block_39',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'immersiveengineering:radiator',
                 B: 'astralsorcery:starmetal_ingot',
@@ -460,19 +459,19 @@ onEvent('recipes', (event) => {
         // 星钢钻杆方块
         {
             output: '3x kubejs:block_27',
-            pattern:['ABA', 'ACA', 'ABA'],
+            pattern: ['ABA', 'ACA', 'ABA'],
             key:{
                 A: 'kubejs:block_44',
                 B: 'create:piston_extension_pole',
                 C: 'create:shaft'
             },
-            id: 'starcraft:kubejs:block_27'
+            id: 'starcraft:kubejs.block_27'
         },
         
         // 星钢钻头稳定器
         {
             output: '4x kubejs:block_14',
-            pattern:patterns.cross,
+            pattern: patterns.cross,
             key:{
                 A: 'kubejs:block_39',
                 B: 'thermal:lightning_tnt'
@@ -483,7 +482,7 @@ onEvent('recipes', (event) => {
         // 精灵钢机械方块
         {
             output: '2x kubejs:block_17',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'kubejs:block_17',
                 B: 'mythicbotany:alfsteel_ingot'
@@ -494,7 +493,7 @@ onEvent('recipes', (event) => {
         // 下界之星能量块
         {
             output: '2x kubejs:block_19',
-            pattern: ['ABA', 'BBB', 'ABA'],
+            pattern:  ['ABA', 'BBB', 'ABA'],
             key:{
                 A: 'rftoolspower:power_core3',
                 B: 'minecraft:nether_star'
@@ -505,7 +504,7 @@ onEvent('recipes', (event) => {
         // 源质钢线圈
         {
             output: 'kubejs:block_21',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'immersiveengineering:coil_lv',
                 B: '#forge:ingots/elementium'
@@ -516,7 +515,7 @@ onEvent('recipes', (event) => {
         // 精灵钢线圈
         {
             output: 'kubejs:block_22',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'immersiveengineering:coil_mv',
                 B: 'mythicbotany:alfsteel_ingot'
@@ -527,7 +526,7 @@ onEvent('recipes', (event) => {
         // 星灵中子机械方块
         {
             output: '5x kubejs:block_35',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'kubejs:block_44',
                 B: 'kubejs:block_19',
@@ -539,7 +538,7 @@ onEvent('recipes', (event) => {
         // 星灵中子响应器
         {
             output: '3x kubejs:block_29',
-            pattern:['AAA', 'BCB', 'AAA'],
+            pattern: ['AAA', 'BCB', 'AAA'],
             key:{
                 A: 'kubejs:block_35',
                 B: 'appliedenergistics2:toggle_bus',
@@ -551,7 +550,7 @@ onEvent('recipes', (event) => {
         // 星灵中子聚合器
         {
             output: 'kubejs:block_23',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'appliedenergistics2:condenser',
                 B: 'kubejs:block_35'
@@ -562,7 +561,7 @@ onEvent('recipes', (event) => {
         // 质量压力容器
         {
             output: '2x kubejs:block_24',
-            pattern:['ABA', 'BBB', 'ABA'],
+            pattern: ['ABA', 'BBB', 'ABA'],
             key:{
                 A: '#forge:plates/steel',
                 B: 'immersivepetroleum:asphalt'
@@ -573,7 +572,7 @@ onEvent('recipes', (event) => {
         // 中子素质量通道
         {
             output: '3x kubejs:block_38',
-            pattern: ['AAA', 'BBB', 'AAA'],
+            pattern:  ['AAA', 'BBB', 'AAA'],
             key: {
                 A: 'endless:neutronium_block',
                 B: 'endless:neutronium_ingot'
@@ -584,7 +583,7 @@ onEvent('recipes', (event) => {
         // 中子素连接固化器
         {
             output: 'kubejs:block_28',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'kubejs:block_38',
                 B: 'appliedenergistics2:matter_ball'
@@ -595,7 +594,7 @@ onEvent('recipes', (event) => {
         // 夸克级承重方块
         {
             output: '3x kubejs:block_34',
-            pattern:[' A ', ' A ', ' A '],
+            pattern: [' A ', ' A ', ' A '],
             key:{
                 A: 'kubejs:block_5',
             },
@@ -605,7 +604,7 @@ onEvent('recipes', (event) => {
         // 中子素反应堆外壳
         {
             output: '4x kubejs:block_36',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'powah:reactor_nitro',
                 B: 'endless:neutronium_block',
@@ -617,19 +616,19 @@ onEvent('recipes', (event) => {
         // 黑曜石反应堆基底
         {
             output: '3x kubejs:block_46',
-            pattern:['AAA', 'ABA', 'CCC'],
+            pattern: ['AAA', 'ABA', 'CCC'],
             key:{
                 A: '#forge:plates/lead',
                 B: '#forge:storage_blocks/uraninite',
                 C: '#forge:obsidian'
             },
-            id: 'starcraft:kubejs:block_46'
+            id: 'starcraft:kubejs.block_46'
         },
 
         // 下界合金机械方块
         {
             output: '2x kubejs:block_37',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'kubejs:block_10',
                 B: '#forge:ingots/netherite'
@@ -640,7 +639,7 @@ onEvent('recipes', (event) => {
         // 聚变外壳
         {
             output: '4x kubejs:block_43',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'powah:energized_steel_block',
                 B: 'extendedcrafting:ender_ingot',
@@ -652,7 +651,7 @@ onEvent('recipes', (event) => {
         // 星辉界能量汲取器
         {
             output: '2x kubejs:block_51',
-            pattern:patterns.crossWithCore,
+            pattern: patterns.crossWithCore,
             key:{
                 A: 'kubejs:block_51',
                 B: 'appliedenergistics2:energy_acceptor',
@@ -664,7 +663,7 @@ onEvent('recipes', (event) => {
         // 量子位结构外壳
         {
             output: '24x kubejs:block_53',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'kubejs:block_53',
                 B: 'appliedenergistics2:quantum_link'
@@ -675,7 +674,7 @@ onEvent('recipes', (event) => {
         // 泰拉钢机械方块
         {
             output: '64x kubejs:block_54',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'kubejs:block_10',
                 B: '#forge:ingots/terrasteel'
@@ -686,7 +685,7 @@ onEvent('recipes', (event) => {
         // 终极锭
         {
             output: 'extendedcrafting:the_ultimate_ingot',
-            pattern:patterns.surroundWithCore,
+            pattern: patterns.surroundWithCore,
             key:{
                 A: 'extendedcrafting:ultimate_singularity',
                 B: 'extendedcrafting:crystaltine_ingot'
