@@ -46,7 +46,10 @@ const itemsToRemove = [
     'endless:infinity_chestplate',
     'endless:infinity_leggings',
     'endless:infinity_boots',
-    'endless:infinity_sword'
+    'endless:infinity_sword',
+    'tiab:timeinabottle',
+    'majobroom:broom_item',
+    'thermal:machine_frame'
 ];
 
 const itemsToRemoveFurnace = [
@@ -72,7 +75,23 @@ const itemsToBan = [
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
     'chunkloaders:ultimate_chunk_loader',
-    '@compactmachines'
+    '@compactmachines',
+    'thermal:earth_tnt',
+    'thermal:earth_grenade',
+    'gobber2:gobber2_ring_explorer',
+    'gobber2:gobber2_ring_miner',
+    'gobber2:gobber2_ring_husbandry',
+    'gobber2:gobber2_ring_blink',
+    'gobber2:gobber2_ring_sunshine',
+    "industrialforegoing:ether_gas",
+    'rftoolsbuilder:builder',
+    'thermal:earth_tnt',
+    'thermal:earth_grenade',
+    'thermal:earth_tnt_minecart',
+    'endless:infinity_chest',
+    'buildinggadgets:gadget_destruction',
+    'ars_nouveau:glyph_break',
+    'modularrouters:breaker_module'
 ];
 
 onEvent('recipes', event => {
