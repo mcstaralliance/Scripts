@@ -232,8 +232,8 @@ onEvent('recipes', (event) => {
         // 魔力池
         {
             output: 'botania:mana_pool',
-            pattern: ['   ', 'A A', 'AAA'],
-            key: { A: 'botania:livingrock'},
+            pattern: ['   ', 'ABA', 'AAA'],
+            key: { A: 'botania:livingrock', B: 'botania:diluted_pool'},
             id: 'starcraft:botania_mana_pool'
         },
 
@@ -699,7 +699,7 @@ onEvent('recipes', (event) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
     })
 
-    event.shapeless('create:mechanical_mixer', ['create:mechanical_press', 'create:whisk']).replaceIngredient('create:mechanical_press', 'create:mechanical_piston')  // 动力搅拌机
+    event.shapeless('create:mechanical_mixer', ['create:mechanical_press', 'create:whisk']) // 动力搅拌机
     event.shapeless(Item.of('botania:terra_sword', '{Damage:2000}'), ['gobber2:gobber2_sword', 'create_stuff_additions:blazing_cleaver', 'create_stuff_additions:copper_sword']) // 泰拉刃
     event.shapeless('botania:aura_ring', ['gobber2:gobber2_ring', 'minecraft:player_head']) // 光环之戒
     event.shapeless(Item.of('astralsorcery:knowledge_share', '{astralsorce:{creativeKnowledge:1b}}'), ['minecraft:writable_book', 'astralsorcery:altar_discovery']) // 知识全解卷轴

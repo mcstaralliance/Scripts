@@ -48,7 +48,8 @@ const itemsToRemove = [
     'endless:infinity_boots',
     'endless:infinity_sword',
     'tiab:timeinabottle',
-    'majobroom:broom_item'
+    'majobroom:broom_item',
+    'thermal:machine_frame'
 ];
 
 const itemsToRemoveFurnace = [
