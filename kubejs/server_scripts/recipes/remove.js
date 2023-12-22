@@ -92,7 +92,11 @@ const itemsToBan = [
     'endless:infinity_chest',
     'buildinggadgets:gadget_destruction',
     'ars_nouveau:glyph_break',
-    'modularrouters:breaker_module'
+    'modularrouters:breaker_module',
+    'extrabotany:cosmiccarkey',
+    'extrabotany:cosmiccarkeyaccessory',
+    'extrabotany:motor',
+    'extrabotany:motoraccessory'
 ];
 
 onEvent('recipes', event => {
@@ -108,4 +112,5 @@ onEvent('recipes', event => {
     event.remove({id: 'astralsorcery:altar/attunement_altar'})
     event.remove({id: 'astralsorcery:altar/altar_radiance'})
     event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
+    event.remove({id: 'extrabotany:runic_altar/sunring'})
 })
