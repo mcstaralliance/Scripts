@@ -84,7 +84,6 @@ const itemsToBan = [
     'gobber2:gobber2_ring_husbandry',
     'gobber2:gobber2_ring_blink',
     'gobber2:gobber2_ring_sunshine',
-    "industrialforegoing:ether_gas",
     'rftoolsbuilder:builder',
     'thermal:earth_tnt',
     'thermal:earth_grenade',
