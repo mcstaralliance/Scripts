@@ -10,7 +10,20 @@ const itemsToBan = [
     'gobber2:gobber2_ring_miner',
     'gobber2:gobber2_ring_husbandry',
     'gobber2:gobber2_ring_blink',
-    'gobber2:gobber2_ring_sunshine'
+    'gobber2:gobber2_ring_sunshine',
+    'rftoolsbuilder:builder',
+    'thermal:earth_tnt',
+    'thermal:earth_grenade',
+    'thermal:earth_tnt_minecart',
+    'endless:infinity_chest',
+    'buildinggadgets:gadget_destruction',
+    'ars_nouveau:glyph_break',
+    'modularrouters:breaker_module',
+    'extrabotany:cosmiccarkey',
+    'extrabotany:cosmiccarkeyaccessory',
+    'extrabotany:motor',
+    'extrabotany:motoraccessory',
+    'extrabotany:sunring'
 ];
 
 onEvent('item.tooltip', tooltip => {
