@@ -665,7 +665,7 @@ onEvent('recipes', (event) => {
             output: '24x kubejs:block_53',
             pattern: patterns.surroundWithCore,
             key:{
-                A: 'kubejs:block_53',
+                A: 'kubejs:block_1',
                 B: 'appliedenergistics2:quantum_link'
             },
             id: 'starcraft:kubejs.block_53'
