@@ -178,7 +178,7 @@ onEvent('recipes', (event) => {
             key: {
                 A: 'create:brass_casing',
                 B: 'create:electron_tube',
-                C: 'create:chromatic_compound'
+                C: 'create:polished_rose_quartz'
             },
             id: 'starcraft:create_mechanical_crafter'
         },
@@ -665,7 +665,7 @@ onEvent('recipes', (event) => {
             output: '24x kubejs:block_53',
             pattern: patterns.surroundWithCore,
             key:{
-                A: 'kubejs:block_1',
+                A: 'kubejs:block_53',
                 B: 'appliedenergistics2:quantum_link'
             },
             id: 'starcraft:kubejs.block_53'
@@ -691,6 +691,18 @@ onEvent('recipes', (event) => {
                 B: 'extendedcrafting:crystaltine_ingot'
             },
             id: 'starcraft:extendedcrafting.the_ultimate_ingot'
+        },
+
+        // 水槽
+        {
+            output: 'cookingforblockheads:sink',
+            pattern: ['AAA', 'BCB', 'BBB'],
+            key:{
+                A: 'industrialforegoing:ether_gas_bucket',
+                B: 'extendedcrafting:enhanced_ender_ingot',
+                C: 'extendedcrafting:crystaltine_ingot'
+            },
+            id: 'starcraft:cookingforblockheads.sink'
         }
     ]
 
