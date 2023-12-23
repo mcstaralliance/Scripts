@@ -40,7 +40,8 @@ const itemsToBan = [
     'thermal:earth_charge',
     'rftoolsbuilder:space_chamber',
     'rftoolsbuilder:space_chamber_controller',
-    'industrialforegoing:infinity_backpack'
+    'industrialforegoing:infinity_backpack',
+    'armourers_workshop:mannequin'
 ];
 
 onEvent('item.tooltip', tooltip => {
