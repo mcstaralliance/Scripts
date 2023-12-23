@@ -85,15 +85,35 @@ const itemsToBan = [
     'gobber2:gobber2_ring_husbandry',
     'gobber2:gobber2_ring_blink',
     'gobber2:gobber2_ring_sunshine',
-    "industrialforegoing:ether_gas",
     'rftoolsbuilder:builder',
     'thermal:earth_tnt',
     'thermal:earth_grenade',
     'thermal:earth_tnt_minecart',
     'endless:infinity_chest',
-    'buildinggadgets:gadget_destruction',
-    'ars_nouveau:glyph_break',
     'modularrouters:breaker_module',
+    'extrabotany:cosmiccarkey',
+    'extrabotany:cosmiccarkeyaccessory',
+    'extrabotany:motor',
+    'extrabotany:motoraccessory',
+    'ars_nouveau:glyph_break',
+    'ars_nouveau:glyph_place_block',
+    'ars_nouveau:glyph_crush',
+    'ars_nouveau:glyph_ignite',
+    'appliedenergistics2:tiny_tnt',
+    'botania:mana_bomb',
+    'create:schematicannon',
+    'create:mechanical_drill',
+    'create:mechanical_plough',
+    'gobber2:gobber2_staff_clearing',
+    'gobber2:gobber2_staff_harvest',
+    'gobber2:gobber2_staff_farmer',
+    'botania:lens_mine',
+    'industrialforegoing:infinity_nuke',
+    '@buildinggadgets',
+    'thermal:earth_charge',
+    'rftoolsbuilder:space_chamber',
+    'rftoolsbuilder:space_chamber_controller',
+    'industrialforegoing:infinity_backpack',
     'armourers_workshop:mannequin'
 ];
 
@@ -110,4 +130,5 @@ onEvent('recipes', event => {
     event.remove({id: 'astralsorcery:altar/attunement_altar'})
     event.remove({id: 'astralsorcery:altar/altar_radiance'})
     event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
+    event.remove({id: 'extrabotany:runic_altar/sunring'})
 })
