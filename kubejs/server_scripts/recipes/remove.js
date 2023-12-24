@@ -50,7 +50,8 @@ const itemsToRemove = [
     'endless:infinity_sword',
     'tiab:timeinabottle',
     'majobroom:broom_item',
-    'thermal:machine_frame'
+    'thermal:machine_frame',
+    'cookingforblockheads:sink'
 ];
 
 const itemsToRemoveFurnace = [
@@ -112,7 +113,8 @@ const itemsToBan = [
     'thermal:earth_charge',
     'rftoolsbuilder:space_chamber',
     'rftoolsbuilder:space_chamber_controller',
-    'industrialforegoing:infinity_backpack'
+    'industrialforegoing:infinity_backpack',
+    'armourers_workshop:mannequin'
 ];
 
 onEvent('recipes', event => {
