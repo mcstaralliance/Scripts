@@ -41,7 +41,10 @@ const itemsToBan = [
     'rftoolsbuilder:space_chamber',
     'rftoolsbuilder:space_chamber_controller',
     'industrialforegoing:infinity_backpack',
-    'armourers_workshop:mannequin'
+    'armourers_workshop:mannequin'，
+    'appliedenergistics2:spatial_pylon',
+    'appliedenergistics2:matter_cannon',
+    'sophisticatedbackpacks:inception_upgrade'
 ];
 
 onEvent('item.tooltip', tooltip => {
