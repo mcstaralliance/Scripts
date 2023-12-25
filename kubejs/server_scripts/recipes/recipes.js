@@ -716,6 +716,12 @@ onEvent('recipes', (event) => {
     event.shapeless(Item.of('astralsorcery:knowledge_share', '{astralsorce:{creativeKnowledge:1b}}'), ['minecraft:writable_book', 'astralsorcery:altar_discovery']) // 知识全解卷轴
     event.shapeless('fluxnetworks:flux_plug', ['fluxnetworks:flux_point'])
     event.shapeless('fluxnetworks:flux_point', ['fluxnetworks:flux_plug'])
+    event.shapeless('emendatusenigmatica:fluix_gem', ['appliedenergistics2:fluix_crystal'])
+    event.shapeless('appliedenergistics2:fluix_crystal', ['emendatusenigmatica:fluix_gem'])
+    event.shapeless('emendatusenigmatica:charged_certus_quartz_gem', ['appliedenergistics2:charged_certus_quartz_crystal'])
+    event.shapeless('appliedenergistics2:charged_certus_quartz_crystal', ['emendatusenigmatica:charged_certus_quartz_gem'])
+    event.shapeless('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:certus_quartz_gem'])
+    event.shapeless('emendatusenigmatica:certus_quartz_gem', ['appliedenergistics2:certus_quartz_crystal'])
 
 
     event.smithing('ars_nouveau:volcanic_accumulator', 'ars_nouveau:mana_condenser', 'minecraft:lava_bucket') // 火山魔源通道
