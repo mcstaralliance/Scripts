@@ -299,18 +299,15 @@ onEvent('recipes', event => {
 
     event.custom({
         'type': 'extendedcrafting:shaped_table',
-        tier: 3,
+        tier: 2,
         pattern:[
-            'AAABAAA',
-            'ACDBDCA',
-            'ADEFEDA',
-            'BBFBFBB',
-            'ADEFEDA',
-            'ACDBDCA',
-            'AAABAAA'
+            'CDBDC',
+            'DEFED',
+            'BFBFB',
+            'DEFED',
+            'CDBDC'
         ],
         key: {
-            A: 'minecraft:gold_ingot',
             B: 'thermal:lumium_glass',
             C: 'rftoolscontrol:cpu_core_1000',
             D: 'appliedenergistics2:crafting_unit',
