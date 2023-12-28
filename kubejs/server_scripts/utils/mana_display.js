@@ -13,7 +13,7 @@ const manaDisplay = (event) => {
       ? [Text.white('∞')]
       : [Text.white(`${mana}/${manaCap}`)]
     : id === 'extrabotany:manabuffer'
-    ? [Text.white(`${mana}/2147483647`)]
+    ? [Text.white(`${mana}/64000000`)]
     : null;
 
   player.setStatusMessage(['Mana: '].concat(manaInfo));
