@@ -41,7 +41,7 @@ const itemsToBan = [
     'rftoolsbuilder:space_chamber',
     'rftoolsbuilder:space_chamber_controller',
     'industrialforegoing:infinity_backpack',
-    'armourers_workshop:mannequin'，
+    'armourers_workshop:mannequin',
     'appliedenergistics2:spatial_pylon',
     'appliedenergistics2:matter_cannon',
     'sophisticatedbackpacks:inception_upgrade'
@@ -75,4 +75,9 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('masterfulmachinery:wither_builder_controller',['§e多方块名§f : §a模块化杀凋机', '§e需要：', '§c灵魂沙 * 3', '§c下界之星方块 * 1', '§c凋灵骷髅头 * 3', '§c钢块(沉浸工程) * 28', '§c注意危险 * 16', '§c高压线圈 * 2', '§c遮光玻璃 * 67', '§c杀凋机能量输入口 * 2', '§c杀凋机物品输入 + 输出口 * 1', '§d§lDesigned by qing_kong'])
 
     tooltip.add(['minecraft:iron_nugget'], '貌似不能正常分解~')
+    tooltip.add(['botania:mana_pool'], '放下后右键可查看其剩余魔力')
+    tooltip.add(['botania:diluted_pool'], '放下后右键可查看其剩余魔力')
+    tooltip.add(['botania:fabulous_pool'], '放下后右键可查看其剩余魔力')
+    tooltip.add(['botania:creative_pool'], '放下后右键可查看其剩余魔力')
+    tooltip.add(['extrabotany:manabuffer'], '放下后右键可查看其剩余魔力')
 })
