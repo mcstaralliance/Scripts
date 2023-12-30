@@ -31,5 +31,8 @@
     "block.kubejs.block_46": "黑曜石反应堆基底",
     "block.kubejs.block_51": "星辉界能量汲取器",
     "block.kubejs.block_53": "量子位结构外壳",
-    "block.kubejs.block_54": "泰拉钢机械方块"
+    "block.kubejs.block_54": "泰拉钢机械方块",
+    "block.kubejs.block_11_processing": "未完成的泰拉钢掺杂下界合金五向挖掘钻头",
+    "block.kubejs.machine_frame_advanced_processing": "未完成的高级机器框架",
+    "block.kubejs.netherstar_controller_processing": "未完成的模块化下界之星能源炉"
 }

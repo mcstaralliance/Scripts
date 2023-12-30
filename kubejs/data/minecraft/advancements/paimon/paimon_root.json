@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "paimon:paimon"
+      },
+      "title": {
+        "translate": "应急食品"
+      },
+      "description": {
+        "translate": "「星域世界」服主，在此终结「派蒙食用者」的僭越"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "paimon:textures/block/paimon_block.png"
+    },
+    "criteria": {
+      "consumed_item": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {}
+      }
+    },
+    "requirements": [
+      [
+        "consumed_item"
+      ]
+    ]
+  }

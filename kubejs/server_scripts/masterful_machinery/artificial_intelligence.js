@@ -19,6 +19,75 @@ onEvent('recipes', (event) => {
             ],
             ticks: 1000,
         },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_crystal', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:redstone', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:charged_certus_quartz_crystal', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:quartz', count: 128 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_crystal', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:redstone', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:certus_quartz_crystal', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:quartz', count: 128 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:purified_certus_quartz_crystal', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:charged_certus_quartz_crystal', count: 192 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:sand', count: 192 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:purified_certus_quartz_crystal', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:certus_quartz_crystal', count: 192 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:sand', count: 192 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:purified_fluix_crystal', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_crystal', count: 192 } },
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:sand', count: 192 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'botania:terrasteel_block', count: 32 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'botania:manasteel_block', count: 32 } },
+                { type: 'masterfulmachinery:items', data: { item: 'botania:mana_diamond_block', count: 32 } },
+                { type: 'masterfulmachinery:items', data: { item: 'botania:mana_pearl', count: 288 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 7500000 } },
+            ],
+            ticks: 40,
+        }
 ];
 
         recipes.forEach((recipe) => {

@@ -703,6 +703,50 @@ onEvent('recipes', (event) => {
                 C: 'extendedcrafting:crystaltine_ingot'
             },
             id: 'starcraft:cookingforblockheads.sink'
+        },
+
+        // 派蒙方块
+        {
+            output: '4x paimon:paimon_block',
+            pattern: ['AA ', 'AA ', '   '],
+            key: {
+                A: 'paimon:paimon'
+            },
+            id: 'starcraft:paimon'
+        },
+
+        // 幻灯片投影仪
+        {
+            output: 'slide_show:projector',
+            pattern: ['AAA', 'BCD', 'AAA'],
+            key: {
+                A: 'minecraft:smooth_stone_slab',
+                B: '#forge:glass_panes',
+                C: 'minecraft:lantern',
+                D: 'paimon:paimon'
+            },
+            id: 'starcraft:slide_show.projector'
+        },
+
+        // 鞘翅
+        {
+            output: 'minecraft:elytra',
+            pattern: ['A A', 'AAA', 'AAA'],
+            key: {
+                A: 'minecraft:phantom_membrane'
+            },
+            id: 'starcraft:minecraft.elytra'
+        },
+        
+        // 龙首
+        {
+            output: 'minecraft:dragon_head',
+            pattern: ['AAA', 'ABA', '   '],
+            key: {
+                A: 'minecraft:phantom_membrane',
+                B: 'minecraft:wither_skeleton_skull'
+            },
+            id: 'starcraft:minecraft.dragon_head'
         }
     ]
 
@@ -722,8 +766,10 @@ onEvent('recipes', (event) => {
     event.shapeless('appliedenergistics2:charged_certus_quartz_crystal', ['emendatusenigmatica:charged_certus_quartz_gem'])
     event.shapeless('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:certus_quartz_gem'])
     event.shapeless('emendatusenigmatica:certus_quartz_gem', ['appliedenergistics2:certus_quartz_crystal'])
+    event.shapeless('4x paimon:paimon', ['paimon:paimon_block'])
 
-
+    event.smithing('paimon:paimon_sword', 'minecraft:netherite_sword', 'paimon:paimon')
+    event.smithing('immersiveengineering:blastbrick_reinforced', 'immersiveengineering:blastbrick', '#forge:plates/steel') // 强化高炉砖
     event.smithing('ars_nouveau:volcanic_accumulator', 'ars_nouveau:mana_condenser', 'minecraft:lava_bucket') // 火山魔源通道
     event.smithing('ars_nouveau:alchemical_sourcelink', 'ars_nouveau:mana_condenser', 'minecraft:brewing_stand') // 炼金魔源通道
     event.smithing('ars_nouveau:vitalic_sourcelink', 'ars_nouveau:mana_condenser', 'minecraft:glistering_melon_slice') // 生死魔源通道

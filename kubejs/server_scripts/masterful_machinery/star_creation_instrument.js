@@ -34,12 +34,12 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:items', data: { item: 'gobber2:gobber2_ore_end', count: 2 } },
                 { type: 'masterfulmachinery:items', data: { item: 'mythicbotany:elementium_ore', count: 4 } },
                 { type: 'masterfulmachinery:items', data: { item: 'mythicbotany:dragonstone_ore', count: 4 } },
-                { type: 'masterfulmachinery:fluids', data: { fluid: 'mob_grinding_utils:fluid_xp', amount: 500 }},
+                { type: 'masterfulmachinery:fluids', data: { fluid: "industrialforegoing:ether_gas", amount: 500 }},
             ],
             inputs: [
                 { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 40000 } },
             ],
-            ticks: 3000,
+            ticks: 750,
         },
 ];
 

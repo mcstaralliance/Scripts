@@ -10,7 +10,6 @@ onEvent('recipes', (event) => {
             ],
             ticks: 200,
         },
-
         {
             outputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'minecraft:nether_star', count: 1 } },
@@ -20,6 +19,16 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 4000 } },
             ],
             ticks: 200,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:dragon_egg', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:end_crystal', count: 2 } },
+                { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 10000 } },
+            ],
+            ticks: 500,
         },
 ];
 
