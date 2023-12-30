@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "对物品按 Y 可以在附近的容器中寻找该物品。"
+    }
+}

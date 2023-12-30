@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "幻灯片投影仪可以投影图片，当然，这需要一个图床链接。"
+    }
+}

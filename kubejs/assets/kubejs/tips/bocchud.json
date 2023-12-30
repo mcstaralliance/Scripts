@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "BoccHUD(Forge 版 MiniHUD)模组为你提供了左上角的信息显示功能，按 H + C 可打开模组的设置界面以关闭 HUD 或对其进行进一步配置。"
+    }
+}

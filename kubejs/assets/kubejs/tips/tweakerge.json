@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "Tweakerge(Forge 版 Tweakeroo)模组提供的灵魂出窍等功能很实用，按 X + C 可打开模组的设置界面。"
+    }
+}
