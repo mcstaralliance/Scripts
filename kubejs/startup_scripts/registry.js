@@ -12,3 +12,9 @@ onEvent('item.registry', event => {
 onEvent('block.registry', event => {
     repeat(55, (i) => event.create('block_' + i).material('metal').hardness(1).lightLevel(1.0));
 })
+
+onEvent('block.registry', event => {
+    event.create('machine_frame_advanced_processing').material('metal').hardness(1).lightLevel(1.0)
+    event.create('netherstar_controller_processing').material('metal').hardness(1).lightLevel(1.0)
+    event.create('block_11_processing').material('metal').hardness(1).lightLevel(1.0)
+})

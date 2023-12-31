@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:paimon/paimon_root",
+    "display": {
+      "icon": {
+        "item": "paimon:paimon"
+      },
+      "title": {
+        "translate": "§5§l异世相遇"
+      },
+      "description": {
+        "translate": "§c所以说，你们是从世界之外… 漂流来的?"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "paimon": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "item": {
+            "item": "paimon:paimon"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "paimon"
+      ]
+    ]
+  }

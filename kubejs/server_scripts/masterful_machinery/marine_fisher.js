@@ -13,7 +13,6 @@ onEvent('recipes', (event) => {
             ],
             ticks: 200,
         },
-
         {
             outputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'tiab:timeinabottle', count: 1 } },
@@ -24,6 +23,36 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: "industrialforegoing:ether_gas", amount: 250 }},
             ],
             ticks: 200,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'paimon:paimon', count: 512 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:cobblestone', count: 1600 } },
+                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: "minecraft:water", amount: 1000 }},
+            ],
+            ticks: 200,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'aquaculture:neptunium_block', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'thermal:aquachow', count: 6 } },
+                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: "minecraft:water", amount: 10000 }},
+            ],
+            ticks: 100,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'aquaculture:neptunium_block', count: 9 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'thermal:aquachow', count: 54 } },
+                { type: 'masterfulmachinery:fluids', perTick: false, data: { fluid: "minecraft:water", amount: 160000 }},
+            ],
+            ticks: 800,
         }
 ];
 

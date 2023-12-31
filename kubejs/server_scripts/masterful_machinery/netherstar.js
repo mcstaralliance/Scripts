@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:items', data: { item: 'extendedcrafting:nether_star_block', count: 1 } },
             ],
             ticks: 300,
-        },
+        }
 ];
 
         recipes.forEach((recipe) => {
