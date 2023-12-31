@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "按 Ctrl + P 打开衣柜，选择第三栏的显示设置，可以选择是否隐藏盔甲。"
+    }
+}

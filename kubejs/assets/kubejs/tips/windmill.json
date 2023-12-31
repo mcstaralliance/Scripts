@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "风车可以直接由风帆框架组成，在前期提供稳定的应力，但它很吃性能，这之后你会更喜欢虚空飞轮。"
+    }
+}

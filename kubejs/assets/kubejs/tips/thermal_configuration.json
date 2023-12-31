@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "在热力机器的配置中按 Shift 点击机器正面可取消所有侧面配置，按 Shift 点击机器侧面可取消这一面的配置。"
+    }
+}

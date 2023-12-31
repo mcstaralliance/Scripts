@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "手杖不小心点错了而建错方块？别急，对着建错的方块按 Ctrl + Shift + 鼠标右键可以复原！"
+    }
+}
