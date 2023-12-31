@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "ME 接口自己传输频道时，最多只能传输 8 个频道。"
+    }
+}

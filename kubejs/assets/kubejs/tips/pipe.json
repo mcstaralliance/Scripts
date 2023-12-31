@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "XNet 线缆和 Pipez 管道对服务器的 TPS 更加友好。"
+    }
+}

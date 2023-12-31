@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "按 F7 可以显示周围方块的光照等级，带黄框的方块表示该方块会刷怪。"
+    }
+}

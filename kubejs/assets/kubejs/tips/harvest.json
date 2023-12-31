@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "StarCraft Tips",
+      "bold": true,
+      "color": "aqua"
+    },
+      "tip": {
+        "text": "按 ~ +鼠标右键可以一键收获所有作物。"
+    }
+}
