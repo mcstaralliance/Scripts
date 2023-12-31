@@ -36,4 +36,9 @@ onEvent('recipes', event => {
         event.remove({type: 'minecraft:crafting_shapeless', output: outputFlowerPetal });
         event.recipes.create.mixing(outputFlowerPetal, [inputFlower])
     })
+    flowerColors.forEach(color => {
+        var inputDoubleFlower = `botania:${color}_double_flower`
+        var outputDoubleFlowerPetal = `4x botania:${color}_petal`
+        event.recipes.create.mixing(outputDoubleFlowerPetal, [inputDoubleFlower])
+    })
 })
