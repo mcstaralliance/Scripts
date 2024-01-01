@@ -20,6 +20,36 @@ onEvent('recipes', (event) => {
             ],
             ticks: 20,
         },
+                {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:sky_dust', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:sky_stone_block', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
+            ],
+            ticks: 20,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_dust', count: 1 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_crystal', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
+            ],
+            ticks: 20,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_dust', count: 4 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:fluix_block', count: 1 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 10000 } },
+            ],
+            ticks: 40,
+        }
 ];
 
         recipes.forEach((recipe) => {
