@@ -767,7 +767,8 @@ onEvent('recipes', (event) => {
     event.shapeless('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:certus_quartz_gem'])
     event.shapeless('emendatusenigmatica:certus_quartz_gem', ['appliedenergistics2:certus_quartz_crystal'])
     event.shapeless('4x paimon:paimon', ['paimon:paimon_block'])
-
+    event.shapeless('minecraft:iron_ore', ['emendatusenigmatica:iron_ore'])
+    
     event.smithing('paimon:paimon_sword', 'minecraft:netherite_sword', 'paimon:paimon')
     event.smithing('immersiveengineering:blastbrick_reinforced', 'immersiveengineering:blastbrick', '#forge:plates/steel') // 强化高炉砖
     event.smithing('ars_nouveau:volcanic_accumulator', 'ars_nouveau:mana_condenser', 'minecraft:lava_bucket') // 火山魔源通道
