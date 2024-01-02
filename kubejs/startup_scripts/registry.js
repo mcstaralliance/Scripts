@@ -10,7 +10,7 @@ onEvent('item.registry', event => {
 })
 
 onEvent('block.registry', event => {
-    repeat(55, (i) => event.create('block_' + i).material('metal').hardness(1).lightLevel(1.0));
+    repeat(55, (i) => event.create('block_' + i).material('stone').hardness(2).lightLevel(1.0).requiresTool(true));
 })
 
 onEvent('block.registry', event => {

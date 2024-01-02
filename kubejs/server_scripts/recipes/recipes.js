@@ -756,7 +756,7 @@ onEvent('recipes', (event) => {
 
     event.shapeless('create:mechanical_mixer', ['create:mechanical_press', 'create:whisk']) // 动力搅拌机
     event.shapeless(Item.of('botania:terra_sword', '{Damage:2000}'), ['gobber2:gobber2_sword', 'create_stuff_additions:blazing_cleaver', 'create_stuff_additions:copper_sword']) // 泰拉刃
-    event.shapeless('botania:aura_ring', ['gobber2:gobber2_ring', 'minecraft:player_head']) // 光环之戒
+    event.shapeless('botania:aura_ring', ['gobber2:gobber2_ring']) // 光环之戒
     event.shapeless(Item.of('astralsorcery:knowledge_share', '{astralsorce:{creativeKnowledge:1b}}'), ['minecraft:writable_book', 'astralsorcery:altar_discovery']) // 知识全解卷轴
     event.shapeless('fluxnetworks:flux_plug', ['fluxnetworks:flux_point'])
     event.shapeless('fluxnetworks:flux_point', ['fluxnetworks:flux_plug'])
@@ -767,7 +767,8 @@ onEvent('recipes', (event) => {
     event.shapeless('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:certus_quartz_gem'])
     event.shapeless('emendatusenigmatica:certus_quartz_gem', ['appliedenergistics2:certus_quartz_crystal'])
     event.shapeless('4x paimon:paimon', ['paimon:paimon_block'])
-
+    event.shapeless('minecraft:iron_ore', ['emendatusenigmatica:iron_ore'])
+    
     event.smithing('paimon:paimon_sword', 'minecraft:netherite_sword', 'paimon:paimon')
     event.smithing('immersiveengineering:blastbrick_reinforced', 'immersiveengineering:blastbrick', '#forge:plates/steel') // 强化高炉砖
     event.smithing('ars_nouveau:volcanic_accumulator', 'ars_nouveau:mana_condenser', 'minecraft:lava_bucket') // 火山魔源通道

@@ -177,7 +177,7 @@ onEvent('recipes', event => {
             'AAAAA'
         ],
         key: {
-            A: 'aquaculture:neptunium_block',
+            A: 'aquaculture:neptunium_nugget',
             B: 'woot:rate_3',
             C: 'industrialforegoing:marine_fisher'
         },
