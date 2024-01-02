@@ -44,7 +44,8 @@ const itemsToBan = [
     'armourers_workshop:mannequin',
     'appliedenergistics2:spatial_pylon',
     'appliedenergistics2:matter_cannon',
-    'sophisticatedbackpacks:inception_upgrade'
+    'sophisticatedbackpacks:inception_upgrade',
+    'tiab:timeinabottle'
 ];
 
 onEvent('item.tooltip', tooltip => {
