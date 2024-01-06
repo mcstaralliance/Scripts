@@ -28,7 +28,7 @@
         "name": "Energy",
         "id": "energy",
         "data": {
-          "capacity": 5000000
+          "capacity": 2147483647
         }
       }
     ]
