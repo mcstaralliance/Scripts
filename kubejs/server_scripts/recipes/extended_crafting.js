@@ -486,5 +486,30 @@ onEvent('recipes', event => {
             D: "pamhc2foodextended:walnutraisinbreaditem"
         },
         result: 'endless:infinity_sword'
+    }),
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 3,
+        pattern:[
+            "   A   ",
+            " BCCCB ",
+            " BDEDB ",
+            "FBGHGBF",
+            "  DHD  ",
+            "       ",
+            "   A   "
+        ],
+        key:{
+            A: "astralsorcery:aquamarine",
+            B: "astralsorcery:infused_wood_planks",
+            C: "astralsorcery:black_marble_raw",
+            D: "astralsorcery:starmetal_ingot",
+            E: "lazierae2:resonating_gem",
+            F: "astralsorcery:stardust",
+            G: "minecraft:gold_ingot",
+            H: "astralsorcery:resonating_gem"
+        },
+        result: 'astralsorcery:fountain'
     })
 })
