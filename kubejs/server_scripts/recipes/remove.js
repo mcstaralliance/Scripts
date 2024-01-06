@@ -139,4 +139,5 @@ onEvent('recipes', event => {
     event.remove({id: 'astralsorcery:altar/shifting_star_discidia'})
     event.remove({id: 'astralsorcery:altar/shifting_star_evorsio'})
     event.remove({id: 'astralsorcery:altar/shifting_star_vicio'})
+    event.remove({id: 'astralsorcery:altar/fountain'})
 })

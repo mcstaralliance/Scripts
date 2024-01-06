@@ -747,6 +747,24 @@ onEvent('recipes', (event) => {
                 B: 'minecraft:wither_skeleton_skull'
             },
             id: 'starcraft:minecraft.dragon_head'
+        },
+
+        // 无尽奇点
+        {
+            output: 'extendedcrafting:ultimate_singularity',
+            pattern: ['ABC', 'DEF', 'GHI'],
+            key: {
+                A: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:bronze"}'),
+                B: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:electrum"}'),
+                C: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:invar"}'),
+                D: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:steel"}'),
+                E: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:aluminum"}'),
+                F: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:glowstone"}'),
+                G: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
+                H: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:lead"}'),
+                I: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:diamond"}')
+            },
+            id: 'starcraft:extendedcrafting.ultimate_singularity'
         }
     ]
 
