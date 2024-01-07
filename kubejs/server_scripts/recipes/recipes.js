@@ -760,7 +760,7 @@ onEvent('recipes', (event) => {
                 D: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:steel"}'),
                 E: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:aluminum"}'),
                 F: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:glowstone"}'),
-                G: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
+                G: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:redstone"}'),
                 H: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:lead"}'),
                 I: Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:diamond"}')
             },
