@@ -9,7 +9,7 @@
         "name": "Item",
         "id": "item",
         "data": {
-          "rows": 5,
+          "rows": 6,
           "columns": 9
         }
       },
