@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:items', data: { item: 'immersiveengineering:ore_uranium', count: 1 } },
             ],
             inputs: [
-                { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 5000 } },
+                { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 10000 } },
             ],
             ticks: 750,
         },
