@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
             inputs: [
                 { type: 'masterfulmachinery:energy', perTick: true, data: { amount: 40000 } },
             ],
-            ticks: 750,
+            ticks: 200,
         },
 ];
 
