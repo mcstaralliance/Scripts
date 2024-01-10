@@ -1,108 +1,34 @@
-{
-	"type": "masterfulmachinery:machine_structure",
-	"id": "particle_fusion_reactor_1",
-	"controllerId": "particle_fusion_reactor",
-	"name": "Particle Fusion Reactor",
-	"layout": [
-		[
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               ",
-			"               "
-		],
-		[
-			"               ",
-			"      )))      ",
-			"    ))   ))    ",
-			"   *       *   ",
-			"  )         )  ",
-			"  )         )  ",
-			" )           ) ",
-			" +           + ",
-			" )           ) ",
-			"  )         )  ",
-			"  )         )  ",
-			"   *       *   ",
-			"    ))   ))    ",
-			"      ),)      ",
-			"               "
-		],
-		[
-			"      -.-      ",
-			"    ))   ))    ",
-			"   )  /0/  )   ",
-			"  ) ))   )) )  ",
-			" ) )       ) ) ",
-			" ) )       ) ) ",
-			"1 )         ) 1",
-			"+ 2         2 +",
-			"1 )         ) 1",
-			" ) )       ) ) ",
-			" ) )       ) ) ",
-			"  ) ))   )) )  ",
-			"   )  1,1  )   ",
-			"    ))   ))    ",
-			"      )C)      "
-		],
-		[
-			"               ",
-			"      )))      ",
-			"    ))   ))    ",
-			"   *       *   ",
-			"  )         )  ",
-			"  )         )  ",
-			" )           ) ",
-			" +           + ",
-			" )           ) ",
-			"  )         )  ",
-			"  )         )  ",
-			"   *       *   ",
-			"    ))   ))    ",
-			"      ),)      ",
-			"               "
-		]
-	],
-	"legend": {
-		"0": {
-			"block": "masterfulmachinery:particle_fusion_reactor_item_port_items_input"
-		},
-		"1": {
-			"block": "masterfulmachinery:particle_fusion_reactor_energy_port_energy_input"
-		},
-		"2": {
-			"block": "appliedenergistics2:crafting_accelerator"
-		},
-		")": {
-			"block": "thermal:lumium_glass"
-		},
-		"*": {
-			"block": "thermal:electrum_block"
-		},
-		"+": {
-			"block": "appliedenergistics2:fluix_block"
-		},
-		",": {
-			"block": "ars_nouveau:warding_stone"
-		},
-		"-": {
-			"block": "appliedenergistics2:dense_energy_cell"
-		},
-		".": {
-			"block": "masterfulmachinery:particle_fusion_reactor_item_port_items_output"
-		},
-		"/": {
-			"block": "woot:cell_2"
-		}
-	}
-}
+    "controllerId": "particle_fusion_reactor",
+    "name": "Particle Fusion Reactor",
+    "textureOverride":"appliedenergistics2:block/controller",
+    "ports": [
+      {
+        "type": "masterfulmachinery:items",
+        "textureOverride": "appliedenergistics2:block/interface",
+        "name": "Item",
+        "id": "item",
+        "data": {
+          "rows": 3,
+          "columns": 9
+        }
+      },
+      {
+        "type": "masterfulmachinery:fluids",
+        "textureOverride": "appliedenergistics2:block/condenser",
+        "name": "Fluid",
+        "id": "fluid",
+        "data": {
+          "capacity": 16000
+        }
+      },
+      {
+        "type": "masterfulmachinery:energy",
+        "textureOverride": "kubejs:block/block_32",
+        "name": "Energy",
+        "id": "energy",
+        "data": {
+          "capacity": 5000000
+        }
+      }
+    ]
+  }
