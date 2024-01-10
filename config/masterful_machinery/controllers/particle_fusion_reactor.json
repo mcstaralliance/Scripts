@@ -1,3 +1,4 @@
+{
     "controllerId": "particle_fusion_reactor",
     "name": "Particle Fusion Reactor",
     "textureOverride":"appliedenergistics2:block/controller",
