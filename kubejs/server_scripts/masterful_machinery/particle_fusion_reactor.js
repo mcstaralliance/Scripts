@@ -185,6 +185,17 @@ onEvent('recipes', (event) => {
             ],
             ticks: 50,
         },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'buddycards:deep_luminis_crystal', count: 3 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:tnt', count: 1 } },
+                { type: 'masterfulmachinery:items', data: { item: 'buddycards:luminis_block', count: 8 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 225000 } },
+            ],
+            ticks: 50,
+        },
 ];
 
         recipes.forEach((recipe) => {

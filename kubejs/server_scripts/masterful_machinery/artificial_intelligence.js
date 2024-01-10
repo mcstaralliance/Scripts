@@ -87,6 +87,39 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 7500000 } },
             ],
             ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:logic_processor', count: 128 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:gold_ingot', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:silicon', count: 64 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 500000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:engineering_processor', count: 128 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'minecraft:diamond', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:silicon', count: 64 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 500000 } },
+            ],
+            ticks: 40,
+        },
+        {
+            outputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:calculation_processor', count: 128 } },
+            ],
+            inputs: [
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:purified_certus_quartz_crystal', count: 128 } },
+                { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:silicon', count: 64 } },
+                { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 500000 } },
+            ],
+            ticks: 40,
         }
 ];
 
