@@ -2,7 +2,7 @@ onEvent('recipes', (event) => {
     const recipes = [
         {
             outputs: [
-                { type: 'masterfulmachinery:items', data: { item: 'endless:neutronium_ingot', count: 2 } },
+                { type: 'masterfulmachinery:items', data: { item: 'endless:neutronium_ingot', count: 48 } },
             ],
             inputs: [
                 { type: 'masterfulmachinery:items', data: { item: 'minecraft:cobblestone', count: 1 } },
