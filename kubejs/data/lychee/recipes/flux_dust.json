@@ -1,0 +1,11 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "minecraft:redstone"
+    },
+    "block_in": "fluxnetworks:flux_block",
+    "post": {
+        "type": "drop_item",
+        "item": "fluxnetworks:flux_dust"
+    }
+}
