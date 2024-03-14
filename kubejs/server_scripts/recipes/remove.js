@@ -128,16 +128,6 @@ onEvent('recipes', event => {
 
 onEvent('recipes', event => {
     event.remove({id: 'industrialforegoing:dissolution_chamber/advanced_machine_frame'})
-    event.remove({id: 'astralsorcery:altar/altar_attunement'})
-    event.remove({id: 'astralsorcery:altar/altar_constellation'})
-    event.remove({id: 'astralsorcery:altar/attunement_altar'})
-    event.remove({id: 'astralsorcery:altar/altar_radiance'})
     event.remove({id: 'fluxnetworks:herculeanfluxstorage'})
     event.remove({id: 'extrabotany:runic_altar/sunring'})
-    event.remove({id: 'astralsorcery:altar/shifting_star_aevitas'})
-    event.remove({id: 'astralsorcery:altar/shifting_star_armara'})
-    event.remove({id: 'astralsorcery:altar/shifting_star_discidia'})
-    event.remove({id: 'astralsorcery:altar/shifting_star_evorsio'})
-    event.remove({id: 'astralsorcery:altar/shifting_star_vicio'})
-    event.remove({id: 'astralsorcery:altar/fountain'})
 })

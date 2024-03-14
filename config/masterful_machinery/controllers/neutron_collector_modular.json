@@ -1,7 +1,7 @@
 {
     "controllerId": "neutron_collector_modular",
     "name": "Neutron Collector Modular",
-    "textureOverride":"astralsorcery:block/starmetal",
+    "textureOverride":"extendedcrafting:nether_star_block",
     "ports": [
       {
         "type": "masterfulmachinery:items",

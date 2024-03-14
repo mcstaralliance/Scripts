@@ -14,7 +14,6 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:items', data: { item: 'aeadditions:fluid_storage_component_4096', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:singularity', count: 1 } },
                 { type: 'masterfulmachinery:items', data: { item: 'botania:gaia_ingot', count: 1 } },
-                { type: 'masterfulmachinery:items', data: { item: 'astralsorcery:starmetal', count: 1 } },
                 { type: 'masterfulmachinery:energy', perTick: false, data: { amount: 50000 } },
             ],
             ticks: 1000,

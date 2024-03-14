@@ -24,8 +24,6 @@ onEvent('recipes', (event) => {
                 { type: 'masterfulmachinery:items', data: { item: 'appliedenergistics2:quartz_ore', count: 5 } },
                 { type: 'masterfulmachinery:items', data: { item: 'immersiveengineering:ore_aluminum', count: 6 } },
                 { type: 'masterfulmachinery:items', data: { item: 'immersiveengineering:ore_uranium', count: 6 } },
-                { type: 'masterfulmachinery:items', data: { item: 'astralsorcery:starmetal_ore', count: 4 } },
-                { type: 'masterfulmachinery:items', data: { item: 'astralsorcery:rock_crystal_ore', count: 2 } },
                 { type: 'masterfulmachinery:items', data: { item: 'gobber2:gobber2_ore_end', count: 2 } },
                 { type: 'masterfulmachinery:items', data: { item: 'mythicbotany:elementium_ore', count: 4 } },
                 { type: 'masterfulmachinery:items', data: { item: 'mythicbotany:dragonstone_ore', count: 4 } },

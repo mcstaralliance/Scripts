@@ -362,7 +362,7 @@
 			"block": "mythicbotany:alfsteel_block"
 		},
 		"5": {
-			"block": "astralsorcery:starmetal"
+			"block": "minecraft:quartz_block"
 		},
 		"6": {
 			"block": "thermal:enderium_glass"

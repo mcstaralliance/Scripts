@@ -44,7 +44,7 @@
     "solid": {
       "parent": "minecraft:block/block",
       "textures": {
-        "base": "astralsorcery:block/starmetal"
+        "base": "extendedcrafting:nether_star_block"
       },
       "elements": [
         {

@@ -120,7 +120,7 @@
 			"block": "immersiveposts:fence_electrum"
 		},
 		"A": {
-			"block": "astralsorcery:chalice"
+			"block": "minecraft:quartz_block"
 		},
 		"B": {
 			"block": "appliedenergistics2:quartz_stairs"
@@ -132,22 +132,22 @@
 			"block": "botania:floating_orechid"
 		},
 		")": {
-			"block": "astralsorcery:black_marble_bricks"
+			"block": "minecraft:quartz_block"
 		},
 		"*": {
 			"block": "immersiveengineering:sheetmetal_aluminum"
 		},
 		"+": {
-			"block": "astralsorcery:marble_bricks"
+			"block": "minecraft:quartz_block"
 		},
 		",": {
-			"block": "astralsorcery:starmetal"
+			"block": "minecraft:quartz_block"
 		},
 		"-": {
-			"block": "astralsorcery:black_marble_pillar"
+			"block": "minecraft:quartz_block"
 		},
 		".": {
-			"block": "astralsorcery:marble_pillar"
+			"block": "minecraft:quartz_block"
 		},
 		"/": {
 			"block": "powah:blazing_crystal_block"
@@ -168,7 +168,7 @@
 			"block": "minecraft:beacon"
 		},
 		"5": {
-			"block": "astralsorcery:ritual_link"
+			"block": "minecraft:quartz_block"
 		},
 		"6": {
 			"block": "minecraft:glowstone"

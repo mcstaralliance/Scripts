@@ -502,7 +502,7 @@
 			"block": "kubejs:block_19"
 		},
 		":": {
-			"block": "astralsorcery:starmetal"
+			"block": "minecraft:quartz_block"
 		},
 		";": {
 			"block": "mythicbotany:alfsteel_block"

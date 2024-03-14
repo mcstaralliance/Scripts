@@ -261,7 +261,7 @@ onEvent('recipes', (event) => {
             pattern:patterns.crossWithCore,
             key: {
                 A: 'create:blaze_cake',
-                B: 'astralsorcery:colored_lens_regeneration',
+                B: 'botania:manasteel_ingot',
                 C:'minecraft:totem_of_undying'
             },
             id: 'starcraft:create_creative_blaze_cake'
@@ -347,7 +347,7 @@ onEvent('recipes', (event) => {
             output: 'kubejs:block_3',
             pattern:['AAA', 'ABC', 'CCC'],
             key:{
-                A: 'astralsorcery:stardust',
+                A: 'minecraft:blaze_powder',
                 B: 'kubejs:block_21',
                 C: 'botania:mana_powder'
             },
@@ -438,7 +438,7 @@ onEvent('recipes', (event) => {
             output: 'kubejs:block_44',
             pattern: patterns.cross,
             key:{
-                A: 'astralsorcery:starmetal_ingot',
+                A: 'minecraft:nether_star',
                 B: 'powah:steel_energized'
             },
             id: 'starcraft:kubejs.block_44'
@@ -450,7 +450,7 @@ onEvent('recipes', (event) => {
             pattern: patterns.crossWithCore,
             key:{
                 A: 'immersiveengineering:radiator',
-                B: 'astralsorcery:starmetal_ingot',
+                B: 'minecraft:nether_star',
                 C: 'powah:steel_energized',
             },
             id: 'starcraft:kubejs.block_39'
@@ -655,7 +655,7 @@ onEvent('recipes', (event) => {
             key:{
                 A: 'kubejs:block_51',
                 B: 'appliedenergistics2:energy_acceptor',
-                C: 'astralsorcery:starmetal'
+                C: 'minecraft:nether_star'
             },
             id: 'starcraft:kubejs.block_51'
         },
@@ -775,7 +775,6 @@ onEvent('recipes', (event) => {
     event.shapeless('create:mechanical_mixer', ['create:mechanical_press', 'create:whisk']) // 动力搅拌机
     event.shapeless(Item.of('botania:terra_sword', '{Damage:2000}'), ['gobber2:gobber2_sword', 'create_stuff_additions:blazing_cleaver', 'create_stuff_additions:copper_sword']) // 泰拉刃
     event.shapeless('botania:aura_ring', ['gobber2:gobber2_ring']) // 光环之戒
-    event.shapeless(Item.of('astralsorcery:knowledge_share', '{astralsorce:{creativeKnowledge:1b}}'), ['minecraft:writable_book', 'astralsorcery:altar_discovery']) // 知识全解卷轴
     event.shapeless('fluxnetworks:flux_plug', ['fluxnetworks:flux_point'])
     event.shapeless('fluxnetworks:flux_point', ['fluxnetworks:flux_plug'])
     event.shapeless('emendatusenigmatica:fluix_gem', ['appliedenergistics2:fluix_crystal'])
