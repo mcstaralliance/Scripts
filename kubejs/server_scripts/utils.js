@@ -37,3 +37,10 @@ function recipeBuilder(pattern, items) {
         key: keyObject
     }
 }
+
+onEvent('item.tags', event => {
+    let corundum = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
+    corundum.forEach(Color => {
+        event.add('starcraft:tag_corundum_cluster', ["quark:" + Color + "_corundum" + "_cluster"])
+    }); 
+})

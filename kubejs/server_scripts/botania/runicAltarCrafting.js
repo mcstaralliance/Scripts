@@ -7,4 +7,5 @@ onEvent("recipes", event => {
         'botania:mana_diamond',
         'elementalcraft:small_container'
 ], 50000)
+
 })

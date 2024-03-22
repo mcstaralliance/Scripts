@@ -1,0 +1,26 @@
+{
+    "type": "elementalcraft:binding",
+    "element_type": "water",
+    "element_amount": 10000,
+    "ingredients": [
+      {
+        "item": "botania:alfheim_portal"
+      },
+      {
+        "item": "minecraft:player_head"
+      },
+      {
+        "item": "rftoolsbase:dimensionalshard_nether"
+      },
+      {
+        "item": "mekanism:teleportation_core"
+      },
+      {
+        "item": "ae2:spatial_cell_component_16"
+      }
+      
+    ],
+    "output": {
+      "item": "dimdungeons:item_portal_key"
+    }
+  }
