@@ -17,13 +17,117 @@ const itemsToRemove = [
     'psi:cad_assembler',
     'psi:programmer',
     'botania:terra_plate',
-    'elementalcraft:binder'
+    'elementalcraft:binder',
+    'thermal:machine_frame',
+    'thermal:energy_cell_frame',
+    'thermal:machine_smelter',
+    'thermal:machine_insolator',
+    'thermal:machine_crucible',
+    'thermal:machine_chiller',
+    'thermal:machine_refinery',
+    'thermal:machine_pulverizer',
+    'thermal:machine_press',
+    'pipez:energy_pipe',
+    'pipez:fluid_pipe',
+    'pipez:gas_pipe',
+    'integrateddynamics:cable',
+    'ae2:drive',
+    'ae2:controller',
+    'ae2:inscriber',
+    'ae2:crafting_unit',
+    'botanicalmachinery:alfheim_market',
+    'botanicalmachinery:industrial_agglomeration_factory',
+    'botanicalmachinery:mechanical_apothecary',
+    'botanicalmachinery:mechanical_brewery',
+    'botanicalmachinery:mechanical_daisy',
+    'botanicalmachinery:mechanical_mana_pool',
+    'botanicalmachinery:mechanical_runic_altar',
+    'ae2:cell_component_4k',
+    'ae2:cell_component_16k',
+    'ae2:cell_component_64k',
+    'ae2:cell_component_256k',
+    'ae2:cell_component_1k',
+    'ae2:crafting_accelerator',
+    'ae2:interface',
+    'dimdungeons:block_gilded_portal',
+    'dimdungeons:block_portal_keyhole',
+    'dimdungeons:item_portal_key',
+    'dimdungeons:item_blank_build_key',
+    'mekanism:metallurgic_infuser',
+    'mekanism:steel_casing',
+    'ars_nouveau:source_jar',
+    'ars_nouveau:imbuement_chamber',
+    'ars_nouveau:agronomic_sourcelink',
+    'ars_nouveau:volcanic_sourcelink',
+    'ars_nouveau:alchemical_sourcelink',
+    'ars_nouveau:vitalic_sourcelink',
+    'ars_nouveau:mycelial_sourcelink',
+    'ars_nouveau:enchanting_apparatus',
+    'mekanism:configurator',
+    'ae2:molecular_assembler',
+    'mekanismgenerators:solar_panel',
+    'mekanism:advanced_tier_installer',
+    'mekanism:basic_tier_installer',
+    'mekanism:elite_tier_installer',
+    'mekanism:ultimate_tier_installer',
+    'mekanism:thermal_evaporation_block',
+    'mekanism:thermal_evaporation_valve',
+    'mekanism:thermal_evaporation_controller',
+    'mekanism:upgrade_speed',
+    'mekanism:upgrade_energy',
+    'mekanism:induction_casing',
+    'mekanism:induction_port',
+    'mekanism:enrichment_chamber',
+    'mekanism:osmium_compressor',
+    'mekanism:crusher',
+    'mekanism:purification_chamber',
+    'mekanism:energized_smelter'
+]
+
+const itemsToBan = [
+    'mekanism:dimensional_stabilizer',
+    'mekanism:upgrade_anchor',
+    'mekanism:cardboard_box',
+    'mekanismgenerators:turbine_casing',
+    'mekanismgenerators:turbine_valve',
+    'mekanismgenerators:turbine_blade',
+    'mekanismgenerators:turbine_vent'
 ]
 
 const recipeIdToRemove = [
     'tconstruct:smeltery/casting/seared/smeltery_controller',
-    'create:deploying/cogwheel'
+    'create:deploying/cogwheel',
+    'ars_nouveau:novice_spell_book',
+    'mekanism:energy_tablet',
+    'mekanismgenerators:generator/wind',
+    'mekanism:purification_chamber'
 ]
+
+const factoryToRemove = [
+    'smelting',
+    'enriching',
+    'crushing',
+    'compressing',
+    'combining',
+    'purifying',
+    'injecting',
+    'infusing',
+    'sawing'
+]
+const factoryLevel = [
+    'basic',
+    'advanced',
+    'elite',
+    'ultimate'
+]
+
+onEvent('recipes', event => {
+    for (let i = 0; i < factoryLevel.length; i++) {
+        for (let j = 0; j < factoryToRemove.length; j++) {
+            event.remove({id: 'mekanism:factory/'+ factoryLevel[i] + '/' + factoryToRemove[j]})            
+        }
+    }
+})
 
 onEvent('recipes', event => {
     for (let index = 0; index < recipeIdToRemove.length; index++) {
@@ -38,3 +142,9 @@ onEvent('recipes', event => {
     }
 })
 
+onEvent('recipes', event => {
+    for (let BanItem of itemsToBan) {
+        event.remove({type: 'minecraft:crafting_shaped', output: BanItem});
+        event.remove({type: 'minecraft:crafting_shapeless', output: BanItem}); 
+    }
+})
