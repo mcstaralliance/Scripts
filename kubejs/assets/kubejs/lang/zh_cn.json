@@ -1,3 +1,29 @@
 {
-    "item.kubejs.nether_passport": "临时下界通行证"
+    "item.kubejs.nether_passport": "临时下界通行证",
+    "item.kubejs.incomplete_heat_engine": "热力引擎(半成品)",
+    "item.kubejs.incomplete_cell_component_4k": "4k-ME存储组件(半成品)",
+    "item.kubejs.incomplete_cell_component_16k": "16k-ME存储组件(半成品)",
+    "item.kubejs.incomplete_fission_reactor_casing": "裂变反应堆外壳(半成品)",
+    "item.kubejs.end_portal_frame_tool": "末地传送门框架工具",
+
+    "block.starcraft.input_bus": "物品输入口",
+    "block.multiblocked.item_output": "物品输出口",
+    "block.starcraft.energy_input_bus": "能量接口",
+    "block.starcraft.portal_gate": "新相迁跃仪",
+    "block.starcraft.paimon_miner_lite": "超级派蒙旋风 Lite",
+    "block.starcraft.paimon_miner_pro": "超级派蒙旋风 Pro",
+    "block.starcraft.electric_stress_creator": "能源引擎",
+    "block.starcraft.stress_creator": "热力引擎",
+
+    "multiblocked.recipe_map.star_transition_recipes": "物品迁跃",
+    "multiblocked.recipe_map.paimon_miner_lite": "旋风产出",
+    "multiblocked.recipe_map.paimon_miner_pro": "超级旋风产出",
+    "multiblocked.recipe_map.electric_stress_creator_recipe": "能源应力产出",
+    "multiblocked.recipe_map.stress_creator_recipe": "燃烧应力产出",
+
+    "starcraft.paimon_miner_lite.description": "超级派蒙旋风 Pro",
+    "starcraft.paimon_miner_pro.description": "超级派蒙旋风 Lite",
+    "starcraft.portal_gate.description": "该结构需要使用「源质钢锭」催化",
+    "starcraft.stress_creator.description": "蒸汽引擎驱动",
+    "starcraft.electric_press_creator.description": "电力引擎驱动"
 }

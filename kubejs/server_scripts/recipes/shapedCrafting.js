@@ -555,6 +555,385 @@ onEvent('recipes', event => {
                 C: 'mekanism:steel_casing',
                 D: 'mekanism:enrichment_chamber'
             }
+        },
+        {
+            output: 'mekanism:electric_pump',
+            pattern: ['ABA','CDC','EEE'],
+            key: {
+                A: 'mekanism:dynamic_tank',
+                B: 'thermal:device_water_gen',
+                C: 'thermal:filter_attachment',
+                D: 'mekanism:steel_casing',
+                E: 'mekanism:advanced_control_circuit'
+            }
+        },
+        {
+            output: 'mekanism:rotary_condensentrator',
+            pattern: ['ABA','CDE','ABA'],
+            key: {
+                A: '#c:glass',
+                B: 'mekanism:advanced_control_circuit',
+                C: 'pipez:gas_pipe',
+                D: 'mekanism:steel_casing',
+                E: 'pipez:fluid_pipe'
+            }
+        },
+        {
+            output: 'mekanism:isotopic_centrifuge',
+            pattern: ['ABA','ACA','ADA'],
+            key: {
+                A: 'mekanism:ultimate_control_circuit',
+                B: 'mekanism:ultimate_chemical_tank',
+                C: 'mekanism:steel_casing',
+                D: 'thermal:machine_centrifuge'
+            }
+        },
+        {
+            output: 'mekanism:electrolytic_separator',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'mekanism:electrolytic_core',
+                C: 'mekanism:advanced_control_circuit'
+            }
+        },
+        {
+            output: 'mekanism:solar_neutron_activator',
+            pattern: ['ABA','CAC','DED'],
+            key: {
+                A: 'mekanism:hdpe_sheet',
+                B: 'mekanismgenerators:advanced_solar_generator',
+                C: 'mekanism:alloy_reinforced',
+                D: 'mekanism:elite_control_circuit',
+                E: 'mekanism:steel_casing'
+            }
+        },
+        {
+            output: 'kubejs:incomplete_fission_reactor_casing',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: '#forge:storage_blocks/lead',
+                C: 'mekanism:hdpe_sheet'
+            }
+        },
+        {
+            output: '2x mekanismgenerators:fission_reactor_port',
+            pattern: patterns.surroundWithCore,
+            key: {
+                A: 'ae2:storage_bus',
+                B: 'mekanismgenerators:fission_reactor_casing'
+            }
+        },
+        {
+            output: 'mekanismgenerators:fission_reactor_logic_adapter',
+            pattern: patterns.surroundWithCore,
+            key: {
+                A: 'integrateddynamics:logic_programmer',
+                B: 'mekanismgenerators:fission_reactor_casing'
+            }
+        },
+        {
+            output: 'mekanismgenerators:fission_fuel_assembly',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:elite_chemical_tank',
+                B: 'avaritia:neutron_pile',
+                C: '#forge:ingots/lead'
+            }
+        },
+        {
+            output: '4x mekanismgenerators:control_rod_assembly',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'ae2:controller',
+                B: 'mekanismgenerators:fission_fuel_assembly',
+                C: 'mekanism:ultimate_control_circuit'
+            }
+        },
+        {
+            output: 'mekanismgenerators:fusion_reactor_frame',
+            pattern:patterns.crossWithCore,
+            key: {
+                A: 'mekanismgenerators:fission_reactor_casing',
+                B: 'mekanism:pellet_polonium',
+                C: 'mekanism:ultimate_control_circuit'
+            }
+        },
+        {
+            output: 'mekanismgenerators:fusion_reactor_logic_adapter',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanismgenerators:fission_reactor_logic_adapter',
+                B: 'mekanismgenerators:fusion_reactor_frame',
+                C: Item.empty
+            }
+        },
+        {
+            output: 'mekanismgenerators:fusion_reactor_controller',
+            pattern: ['ABA','CDC','CCC'],
+            key: {
+                A: 'mekanism:ultimate_control_circuit',
+                B: 'mekanism:pellet_polonium',
+                C: 'mekanismgenerators:fusion_reactor_frame',
+                D: 'ae2:controller'
+            }
+        },
+        {
+            output: 'mekanismgenerators:fusion_reactor_port',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'ae2:interface',
+                B: 'mekanismgenerators:fusion_reactor_frame',
+                C: Item.empty
+            }
+        },
+        {
+            output: 'draconicevolution:basic_crafting_injector',
+            pattern: ['ABA','CCC','CCC'],
+            key: {
+                A: 'draconicevolution:basic_crafting_injector',
+                B: 'draconicevolution:draconium_core',
+                C: 'draconicevolution:draconium_core'
+            }
+        },
+        {
+            output: 'draconicevolution:module_core',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'draconicevolution:draconium_core',
+                B: 'lazierae2:universal_press',
+                C: 'lazierae2:parallel_processor'
+            }
+        },
+        {
+            output: 'draconicevolution:wyvern_core',
+            pattern: patterns.cross,
+            key: {
+                A: 'extendedcrafting:ender_star_block',
+                B: 'draconicevolution:draconium_core'
+            }
+        },
+        {
+            output: 'draconicevolution:wyvern_energy_core',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'avaritia:redstone_singularity',
+                B: 'draconicevolution:draconium_core',
+                C: 'ae2:controller'
+            }
+        },
+        {
+            output: 'fluxnetworks:flux_controller',
+            pattern: ['ABA','CDC','AAA'],
+            key: {
+                A: 'fluxnetworks:flux_block',
+                B: 'fluxnetworks:flux_core',
+                C: 'fluxnetworks:flux_dust',
+                D: 'mekanism:steel_casing'
+            }
+        },
+        {
+            output: 'fluxnetworks:basic_flux_storage',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'fluxnetworks:flux_block',
+                B: 'mekanismgenerators:reactor_glass',
+                C: 'mekanism:steel_casing'
+            }
+        },
+        {
+            output: 'fluxnetworks:flux_plug',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'fluxnetworks:flux_core',
+                C: 'fluxnetworks:flux_block'
+            }
+        },
+        {
+            output: 'fluxnetworks:flux_point',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'fluxnetworks:flux_core',
+                C: '#forge:storage_blocks/redstone'
+            }
+        },
+        {
+            output: '4x mekanism:boiler_casing',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'extendedcrafting:black_iron_ingot',
+                C: 'mekanism:bio_fuel'
+            }
+        },
+        {
+            output: 'mekanism:superheating_element',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'createaddition:copper_wire',
+                C: 'extendedcrafting:redstone_ingot'
+            }
+        },
+        {
+            output: 'mekanism:pressure_disperser',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mekanism:steel_casing',
+                B: 'create_sa:hydraulic_engine',
+                C: 'create_sa:heat_engine'
+            }
+        },
+        {
+            output: 'hostilenetworks:deep_learner',
+            pattern: ['ABA','CBC','ABA'],
+            key: {
+                A: 'fluxnetworks:flux_block',
+                B: '#mekanism:crystals',
+                C: 'fluxnetworks:flux_plug'
+            }
+        },
+        {
+            output: 'hostilenetworks:sim_chamber',
+            pattern: ['ABA','CDC','ABA'],
+            key: {
+                A: 'fluxnetworks:flux_block',
+                B: 'mekanismgenerators:control_rod_assembly',
+                C: 'integrateddynamics:part_display_panel',
+                D: 'lazierae2:growth_core'
+            }
+        },
+        {
+            output: 'integrateddynamics:part_display_panel',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'mysticalagriculture:supremium_growth_accelerator',
+                B: 'hostilenetworks:nether_prediction',
+                C: '#forge:storage_blocks/netherite'
+            }
+        },
+        {
+            output: '8x mekanism:basic_thermodynamic_conductor',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: '#forge:ingots/constantan',
+                B: 'mekanism:basic_control_circuit',
+                C: 'rftoolspower:blazing_rod'
+            }
+        },
+        {
+            output: '8x mekanism:basic_mechanical_pipe',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'pipez:fluid_pipe',
+                B: 'mekanism:basic_control_circuit',
+                C: 'create:smart_fluid_pipe'
+            }
+        },
+        {
+            output: '8x mekanism:basic_pressurized_tube',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'pipez:gas_pipe',
+                B: 'mekanism:basic_control_circuit',
+                C: '#forge:glass'
+            }
+        },
+        {
+            output: '8x mekanism:basic_logistical_transporter',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'pipez:item_pipe',
+                B: 'mekanism:basic_control_circuit',
+                C: 'itemfilters:always_true'
+            }
+        },
+        {
+            output: '8x mekanism:basic_universal_cable',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'pipez:energy_pipe',
+                B: 'mekanism:basic_control_circuit',
+                C: '#forge:storage_blocks/redstone'
+            }
+        },
+        {
+            output: 'mysticalagriculture:infusion_altar',
+            pattern: ['ABA','ACA','CCC'],
+            key: {
+                A: 'elementalcraft:swift_alloy_block',
+                B: 'dimdungeons:block_gilded_portal',
+                C: 'mekanismgenerators:fusion_reactor_frame'
+            }
+        },
+        {
+            output: 'mysticalagriculture:infusion_pedestal',
+            pattern: ['ABA',' C ',' C '],
+            key: {
+                A: 'dimdungeons:block_gilded_portal',
+                B: 'mekanismgenerators:fusion_reactor_port',
+                C: 'elementalcraft:swift_alloy_block'
+            }
+        },
+        {
+            output: 'kubejs:end_portal_frame_tool',
+            pattern: [' AB',' CA','C  '],
+            key: {
+                A: 'avaritia:neutronium_ingot',
+                B: 'minecraft:end_crystal',
+                C: 'mekanism:hdpe_stick'
+            }
+        },
+        {
+            output: 'starcraft:input_bus',
+            pattern: patterns.crossWithCore,
+            key: {
+                A: 'rftoolsbase:machine_frame',
+                B: 'pipez:item_pipe',
+                C: 'integrateddynamics:portable_logic_programmer'
+            }
+        },
+        {
+            output: 'starcraft:energy_input_bus',
+            pattern: ['AAA','BCB','AAA'],
+            key: {
+                A: 'rftoolspower:power_core3',
+                B: 'pipez:energy_pipe',
+                C: 'extendedcrafting:redstone_catalyst'
+            }
+        },
+        {
+            output: 'starcraft:portal_gate',
+            pattern: ['ABA','CDC','ABA'],
+            key: {
+                A: 'thermal:enderium_ingot',
+                B: 'botania:gaia_ingot',
+                C: 'botania:natura_pylon',
+                D: 'botania:gaia_pylon'
+            }
+        },
+        {
+            output: 'starcraft:stress_creator',
+            pattern: ['ABA','BCB','ADA'],
+            key: {
+                A: 'create:steam_engine',
+                B: 'create_sa:heat_engine',
+                C: 'mekanism:thermal_evaporation_controller',
+                D: 'create:blaze_burner'
+            }
+        },
+        {
+            output: 'starcraft:electric_stress_creator',
+            pattern: ['ABA','BCB','ADA'],
+            key: {
+                A: 'mekanism:induction_casing',
+                B: 'mekanism:advanced_induction_cell',
+                C: 'mekanism:advanced_induction_provider',
+                D: 'create:flywheel'
+            }
         }
     ]
 

@@ -40,5 +40,11 @@ onEvent('recipes', event => {
         event.recipes.createDeploying('kubejs:incomplete_cell_component_16k', ['kubejs:incomplete_cell_component_16k', 'ae2:fluix_pearl']),
         event.recipes.createFilling('kubejs:incomplete_cell_component_16k', ['kubejs:incomplete_cell_component_16k', Fluid.of('tconstruct:molten_signalum', 360)])
     ]).transitionalItem('kubejs:incomplete_cell_component_16k').loops(2)
+
+    event.recipes.createSequencedAssembly([
+        Item.of('mekanismgenerators:fission_reactor_casing',1).withChance(130.0)
+    ],'kubejs:incomplete_fission_reactor_casing', [
+        event.recipes.createFilling('kubejs:incomplete_fission_reactor_casing',['kubejs:incomplete_fission_reactor_casing',Fluid.of('mekanism:heavy_water',1000)])
+    ]).transitionalItem('kubejs:incomplete_fission_reactor_casing').loops(1)
 })
 

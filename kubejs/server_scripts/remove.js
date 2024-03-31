@@ -81,7 +81,51 @@ const itemsToRemove = [
     'mekanism:osmium_compressor',
     'mekanism:crusher',
     'mekanism:purification_chamber',
-    'mekanism:energized_smelter'
+    'mekanism:energized_smelter',
+    'mekanism:electric_pump',
+    'mekanism:rotary_condensentrator',
+    'mekanism:electrolytic_separator',
+    'mekanism:solar_neutron_activator',
+    'mekanismgenerators:fission_reactor_casing',
+    'mekanismgenerators:fission_reactor_logic_adapter',
+    'mekanismgenerators:fission_fuel_assembly',
+    'mekanismgenerators:control_rod_assembly',
+    'mekanismgenerators:fission_reactor_port',
+    'mekanismgenerators:fusion_reactor_frame',
+    'mekanismgenerators:fusion_reactor_logic_adapter',
+    'mekanismgenerators:fusion_reactor_controller',
+    'mekanismgenerators:fusion_reactor_port',
+    'mekanism:quantum_entangloporter',
+    'draconicevolution:basic_crafting_injector',
+    'draconicevolution:module_core',
+    'draconicevolution:draconium_core',
+    'draconicevolution:wyvern_core',
+    'draconicevolution:wyvern_energy_core',
+    'fluxnetworks:flux_controller',
+    'fluxnetworks:basic_flux_storage',
+    'fluxnetworks:flux_point',
+    'fluxnetworks:flux_plug',
+    'mekanism:boiler_casing',
+    'mekanism:boiler_valve',
+    'mekanism:superheating_element',
+    'mekanism:pressure_disperser',
+    'hostilenetworks:deep_learner',
+    'hostilenetworks:blank_data_model',
+    'hostilenetworks:empty_prediction',
+    'hostilenetworks:sim_chamber',
+    'integrateddynamics:part_display_panel',
+    'mekanism:basic_thermodynamic_conductor',
+    'mekanism:basic_mechanical_pipe',
+    'mekanism:basic_pressurized_tube',
+    'mekanism:basic_logistical_transporter',
+    'mekanism:basic_universal_cable',
+    'mysticalagriculture:infusion_altar',
+    'mysticalagriculture:infusion_pedestal',
+    'tiab:time_in_a_bottle',
+    'mekanism:mekasuit_helmet',
+    'mekanism:mekasuit_bodyarmor',
+    'mekanism:mekasuit_pants',
+    'mekanism:mekasuit_boots'
 ]
 
 const itemsToBan = [
@@ -100,7 +144,11 @@ const recipeIdToRemove = [
     'ars_nouveau:novice_spell_book',
     'mekanism:energy_tablet',
     'mekanismgenerators:generator/wind',
-    'mekanism:purification_chamber'
+    'mekanism:purification_chamber',
+    'mekanism:rotary_condensentrator',
+    'mekanism:isotopic_centrifuge',
+    'fluxnetworks:fluxplug',
+    'fluxnetworks:fluxpoint'
 ]
 
 const factoryToRemove = [
@@ -119,6 +167,19 @@ const factoryLevel = [
     'advanced',
     'elite',
     'ultimate'
+]
+const defaultVein = [
+    'coal',
+    'copper',
+    'diamond',
+    'emerald',
+    'glowstone',
+    'gold',
+    'hardened_diamond',
+    'iron',
+    'quartz',
+    'redstone',
+    'zinc'
 ]
 
 onEvent('recipes', event => {
@@ -146,5 +207,11 @@ onEvent('recipes', event => {
     for (let BanItem of itemsToBan) {
         event.remove({type: 'minecraft:crafting_shaped', output: BanItem});
         event.remove({type: 'minecraft:crafting_shapeless', output: BanItem}); 
+    }
+})
+
+onEvent('recipes', event => {
+    for (let Vein of defaultVein) {
+        event.remove({id: 'createoreexcavation:drilling/'+Vein})
     }
 })
