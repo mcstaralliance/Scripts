@@ -73,7 +73,7 @@ onEvent('recipes', event => {
             output: '8x extendedcrafting:luminessence',
             pattern: patterns.crossWithCore,
             key: {
-                A: Item.of('mysticalagriculture:infusion_crystal', '{Damage:0}'),
+                A: '#mysticalagriculture:infusion_crystals',
                 B: '#forge:gunpowder',
                 C: '#forge:dusts/glowstone'
             }
