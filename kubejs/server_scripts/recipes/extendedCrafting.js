@@ -159,4 +159,167 @@ onEvent('recipes', event => {
         },
         result: '2x mekanism:ultimate_tier_installer'
     })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern: [
+            "ABCBA",
+            "DEFED",
+            "BGGGB",
+            "DEHED",
+            "ABCBA"
+        ],
+        key: {
+            A: 'fluxnetworks:flux_block',
+            B: 'mekanism:ultimate_control_circuit',
+            C: 'ars_nouveau:relay_warp',
+            D: 'hostilenetworks:end_prediction',
+            E: 'mekanism:teleportation_core',
+            F: 'mekanism:teleporter_frame',
+            G: 'extendedcrafting:crystaltine_ingot',
+            H: 'mekanism:teleporter'
+        },
+        result: 'mekanism:quantum_entangloporter'
+    })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 3,
+        pattern: [
+            "AABCBAA",
+            "ADEFEDA",
+            "BGHIHGB",
+            "CJKLKJC",
+            "BGMIMGB",
+            "ADNFNDA",
+            "AABCBAA"
+        ],
+        key: {
+            A: 'extendedcrafting:crystaltine_ingot',
+            B: 'mekanism:enriched_refined_obsidian',
+            C: 'mekanism:ultimate_control_circuit',
+            D: 'fluxnetworks:flux_block',
+            E: 'ae2:spatial_cell_component_128',
+            F: 'mekanism:elite_tier_installer',
+            G: 'mekanism:hdpe_rod',
+            H: 'mysticalagriculture:supremium_gemstone_block',
+            I: 'dimdungeons:item_homeward_pearl',
+            J: 'rftoolspower:power_core3',
+            K: 'botanicalmachinery:mana_emerald_block',
+            L: 'elementalcraft:fireite_block',
+            M: 'lazierae2:logic_unit',
+            N: 'ae2:cell_component_64k'
+        },
+        result: 'draconicevolution:draconium_core'
+    })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern: [
+            "ABBBA",
+            "CDEDC",
+            "FDGDF",
+            "HIJIH",
+            "KHLHK"
+        ],
+        key: {
+            A: 'hostilenetworks:end_prediction',
+            B: 'mekanism:ultimate_control_circuit',
+            C: 'alexsmobs:void_worm_mandible',
+            D: 'mekanism:hdpe_sheet',
+            E: 'draconicevolution:draconium_core',
+            F: 'mekanismgenerators:fusion_reactor_frame',
+            G: 'mysticalagriculture:supremium_helmet',
+            H: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell',
+            J: 'fluxnetworks:gargantuan_flux_storage',
+            K: 'elementalcraft:purecrystal',
+            L: 'alexsmobs:void_worm_eye',
+        },
+        result: 'mekanism:mekasuit_helmet'
+    })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern: [
+            "ABBBA",
+            "CDEDC",
+            "FDGDF",
+            "HIJIH",
+            "KHLHK"
+        ],
+        key: {
+            A: 'hostilenetworks:end_prediction',
+            B: 'mekanism:ultimate_control_circuit',
+            C: 'alexsmobs:void_worm_mandible',
+            D: 'mekanism:hdpe_sheet',
+            E: 'draconicevolution:draconium_core',
+            F: 'mekanismgenerators:fusion_reactor_frame',
+            G: 'mysticalagriculture:supremium_chestplate',
+            H: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell',
+            J: 'fluxnetworks:gargantuan_flux_storage',
+            K: 'elementalcraft:purecrystal',
+            L: 'alexsmobs:void_worm_eye',
+        },
+        result: 'mekanism:mekasuit_bodyarmor'
+    })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern: [
+            "ABBBA",
+            "CDEDC",
+            "FDGDF",
+            "HIJIH",
+            "KHLHK"
+        ],
+        key: {
+            A: 'hostilenetworks:end_prediction',
+            B: 'mekanism:ultimate_control_circuit',
+            C: 'alexsmobs:void_worm_mandible',
+            D: 'mekanism:hdpe_sheet',
+            E: 'draconicevolution:draconium_core',
+            F: 'mekanismgenerators:fusion_reactor_frame',
+            G: 'mysticalagriculture:supremium_leggings',
+            H: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell',
+            J: 'fluxnetworks:gargantuan_flux_storage',
+            K: 'elementalcraft:purecrystal',
+            L: 'alexsmobs:void_worm_eye',
+        },
+        result: 'mekanism:mekasuit_pants'
+    })
+
+    event.custom({
+        'type': 'extendedcrafting:shaped_table',
+        tier: 2,
+        pattern: [
+            "ABBBA",
+            "CDEDC",
+            "FDGDF",
+            "HIJIH",
+            "KHLHK"
+        ],
+        key: {
+            A: 'hostilenetworks:end_prediction',
+            B: 'mekanism:ultimate_control_circuit',
+            C: 'alexsmobs:void_worm_mandible',
+            D: 'mekanism:hdpe_sheet',
+            E: 'draconicevolution:draconium_core',
+            F: 'mekanismgenerators:fusion_reactor_frame',
+            G: 'mysticalagriculture:supremium_boots',
+            H: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell',
+            J: 'fluxnetworks:gargantuan_flux_storage',
+            K: 'elementalcraft:purecrystal',
+            L: 'alexsmobs:void_worm_eye',
+        },
+        result: 'mekanism:mekasuit_boots'
+    })
+
 })

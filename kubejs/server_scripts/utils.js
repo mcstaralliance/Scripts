@@ -42,5 +42,18 @@ onEvent('item.tags', event => {
     let corundum = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "white", "black"]
     corundum.forEach(Color => {
         event.add('starcraft:tag_corundum_cluster', ["quark:" + Color + "_corundum" + "_cluster"])
-    }); 
+    });
+    let metamorphicStoneItem = [
+        'botania:metamorphic_forest_stone',
+        'botania:metamorphic_plains_stone',
+        'botania:metamorphic_mountain_stone',
+        'botania:metamorphic_fungal_stone',
+        'botania:metamorphic_swamp_stone',
+        'botania:metamorphic_desert_stone',
+        'botania:metamorphic_taiga_stone',
+        'botania:metamorphic_mesa_stone'
+    ]
+    metamorphicStoneItem.forEach(Metamorphic => {
+        event.add('starcraft:tag_metamorphic_stone', [Metamorphic])
+    })
 })

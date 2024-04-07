@@ -1,0 +1,17 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "kubejs:end_portal_frame_tool"
+    },
+    "block_in": "minecraft:end_portal_frame",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "minecraft:end_stone"
+        },
+        {
+            "type": "place",
+            "block": "dimdungeons:block_key_charger"
+        }
+    ]
+}
