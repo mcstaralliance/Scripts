@@ -8,8 +8,8 @@ function repeat(count, handler, thisArg) {
 onEvent('item.registry', event => {
     repeat(3200, (i) => event.create('item_' + i));
 
-    event.create("nether_passport").rarity(RARITY_EPIC)
-    event.create("permanent_nether_passport").rarity(RARITY_EPIC).glow(true)
+    event.create("nether_passport").rarity(RARITY_EPIC).maxStackSize(1)
+    event.create("permanent_nether_passport").rarity(RARITY_EPIC).glow(true).maxStackSize(1)
     event.create("end_portal_frame_tool").rarity("cosmic").glow(true)
     event.create('fragment_of_patience').rarity(RARITY_EPIC).glow(true)
 
@@ -18,6 +18,7 @@ onEvent('item.registry', event => {
 onEvent('block.registry', event => {
     event.create('paimon_miner_pro').unbreakable().noDrops()
     event.create('paimon_miner_lite').unbreakable().noDrops()
+    event.create('trophy').unbreakable()
 })
 
 onEvent('item.registry', event => {
