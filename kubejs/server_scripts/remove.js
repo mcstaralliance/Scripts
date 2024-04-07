@@ -44,8 +44,6 @@ const itemsToRemove = [
     'botanicalmachinery:mechanical_runic_altar',
     'ae2:cell_component_4k',
     'ae2:cell_component_16k',
-    'ae2:cell_component_64k',
-    'ae2:cell_component_256k',
     'ae2:cell_component_1k',
     'ae2:crafting_accelerator',
     'ae2:interface',
