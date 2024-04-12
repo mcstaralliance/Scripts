@@ -1,0 +1,25 @@
+{
+  "name": "the_final_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "a09b522b-6400-48a4-a12e-b3fd714d9d27",
+      "duration": 72000,
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:starcraft_core"
+              }
+            },
+            "chance": 0.1
+          }
+        ]
+      }
+    }
+  ]
+}

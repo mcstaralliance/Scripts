@@ -1,0 +1,553 @@
+{
+  "name": "paimon_miner_pro",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "5a933f30-4ea1-48e2-a43b-0508a8672487",
+      "duration": 20,
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:coal_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:iron_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:copper_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:gold_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:redstone_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:emerald_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:lapis_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:diamond_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:nether_quartz_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ae2:quartz_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "create:zinc_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "draconicevolution:nether_draconium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "rftoolsbase:dimensionalshard_nether"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:cinnabar_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:niter_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:sulfur_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:tin_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:lead_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:silver_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:nickel_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "tconstruct:cobalt_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "elementalcraft:inert_crystal_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mysticalagriculture:prosperity_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mysticalagriculture:inferium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mysticalagriculture:soulium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:osmium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:uranium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:fluorite_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "draconicevolution:end_draconium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "rftoolsbase:dimensionalshard_end"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "rftoolsbase:dimensionalshard_nether"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ae2:deepslate_quartz_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_diamond_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_lapis_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_emerald_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_redstone_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_gold_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_copper_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_iron_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "minecraft:deepslate_coal_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "create:deepslate_zinc_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_cinnabar_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_niter_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_sulfur_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_lead_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_silver_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "thermal:deepslate_nickel_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "elementalcraft:deepslate_inert_crystal_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mysticalagriculture:deepslate_prosperity_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mysticalagriculture:deepslate_inferium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:deepslate_osmium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:deepslate_uranium_ore"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "mekanism:deepslate_fluorite_ore"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 100,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

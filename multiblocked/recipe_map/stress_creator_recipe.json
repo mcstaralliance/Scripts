@@ -1,0 +1,69 @@
+{
+  "name": "stress_creator_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "5757b035-622f-4b2a-9f78-b2b01b2fc057",
+      "duration": 1200,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:coal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "create_stress": [
+          {
+            "content": 512.0,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ecfe15d0-9db8-49b2-8e59-f0533978ef97",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 4,
+              "ingredient": {
+                "item": "minecraft:gunpowder"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "hostilenetworks:nether_prediction"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "create_stress": [
+          {
+            "content": 768.0,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}
