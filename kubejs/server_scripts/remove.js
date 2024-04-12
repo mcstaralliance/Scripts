@@ -44,8 +44,6 @@ const itemsToRemove = [
     'botanicalmachinery:mechanical_runic_altar',
     'ae2:cell_component_4k',
     'ae2:cell_component_16k',
-    'ae2:cell_component_64k',
-    'ae2:cell_component_256k',
     'ae2:cell_component_1k',
     'ae2:crafting_accelerator',
     'ae2:interface',
@@ -113,7 +111,6 @@ const itemsToRemove = [
     'hostilenetworks:blank_data_model',
     'hostilenetworks:empty_prediction',
     'hostilenetworks:sim_chamber',
-    'integrateddynamics:part_display_panel',
     'mekanism:basic_thermodynamic_conductor',
     'mekanism:basic_mechanical_pipe',
     'mekanism:basic_pressurized_tube',
@@ -125,7 +122,8 @@ const itemsToRemove = [
     'mekanism:mekasuit_helmet',
     'mekanism:mekasuit_bodyarmor',
     'mekanism:mekasuit_pants',
-    'mekanism:mekasuit_boots'
+    'mekanism:mekasuit_boots',
+    'paimonfood:paimon'
 ]
 
 const itemsToBan = [

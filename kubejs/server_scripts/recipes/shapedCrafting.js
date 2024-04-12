@@ -73,7 +73,7 @@ onEvent('recipes', event => {
             output: '8x extendedcrafting:luminessence',
             pattern: patterns.crossWithCore,
             key: {
-                A: Item.of('mysticalagriculture:infusion_crystal', '{Damage:0}'),
+                A: '#mysticalagriculture:infusion_crystals',
                 B: '#forge:gunpowder',
                 C: '#forge:dusts/glowstone'
             }
@@ -804,15 +804,6 @@ onEvent('recipes', event => {
                 B: 'mekanismgenerators:control_rod_assembly',
                 C: 'integrateddynamics:part_display_panel',
                 D: 'lazierae2:growth_core'
-            }
-        },
-        {
-            output: 'integrateddynamics:part_display_panel',
-            pattern: patterns.crossWithCore,
-            key: {
-                A: 'mysticalagriculture:supremium_growth_accelerator',
-                B: 'hostilenetworks:nether_prediction',
-                C: '#forge:storage_blocks/netherite'
             }
         },
         {

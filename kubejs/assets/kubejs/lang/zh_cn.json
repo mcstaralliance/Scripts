@@ -1,10 +1,14 @@
 {
     "item.kubejs.nether_passport": "临时下界通行证",
+    "item.kubejs.permanent_nether_passport": "永久下界通行证",
     "item.kubejs.incomplete_heat_engine": "热力引擎(半成品)",
     "item.kubejs.incomplete_cell_component_4k": "4k-ME存储组件(半成品)",
     "item.kubejs.incomplete_cell_component_16k": "16k-ME存储组件(半成品)",
     "item.kubejs.incomplete_fission_reactor_casing": "裂变反应堆外壳(半成品)",
     "item.kubejs.end_portal_frame_tool": "末地传送门框架工具",
+    "item.kubejs.fragment_of_patience": "耐心碎片",
+    "item.kubejs.starcraft_core": "星核",
+    "item.kubejs.patience_reward": "耐心奖励",
 
     "block.starcraft.input_bus": "物品输入口",
     "block.multiblocked.item_output": "物品输出口",
@@ -14,6 +18,7 @@
     "block.starcraft.paimon_miner_pro": "超级派蒙旋风 Pro",
     "block.starcraft.electric_stress_creator": "能源引擎",
     "block.starcraft.stress_creator": "热力引擎",
+    "block.starcraft.trophy":"毕业勋章",
 
     "multiblocked.recipe_map.star_transition_recipes": "物品迁跃",
     "multiblocked.recipe_map.paimon_miner_lite": "旋风产出",
