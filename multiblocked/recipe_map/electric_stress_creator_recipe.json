@@ -1,0 +1,27 @@
+{
+  "name": "electric_stress_creator_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "d42d9564-f866-4040-a4f3-83f2c51a68a0",
+      "duration": 10,
+      "outputs": {
+        "create_stress": [
+          {
+            "content": 1024.0,
+            "chance": 1.0
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "content": 1000,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

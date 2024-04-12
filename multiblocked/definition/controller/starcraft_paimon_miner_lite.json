@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "location": "starcraft:paimon_miner_lite",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 100.0,
+    "explosionResistance": 100.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 1,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "kubejs:paimon_miner_lite",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "lightEmissive": 15,
+      "parent": "unformed",
+      "sound": {
+        "sound": "paimon:paimon_7",
+        "loop": false,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "paimon_miner_lite",
+  "catalyst": "{Count:1b,id:\"kubejs:item_1145\"}",
+  "consumeCatalyst": "CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "A",
+        "@",
+        "B",
+        "C"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "starcraft:energy_input_bus"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "starcraft:paimon_miner_lite",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "starcraft:input_bus"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ironchest:crystal_chest"
+          }
+        ],
+        "type": "blocks"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

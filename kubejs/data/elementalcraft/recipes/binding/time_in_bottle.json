@@ -1,0 +1,28 @@
+{
+    "type": "elementalcraft:binding",
+    "element_type": "water",
+    "element_amount": 50000,
+    "ingredients": [
+      {
+        "item": "alexsmobs:tarantula_hawk_elytra"
+      },
+      {
+        "item": "alexsmobs:enderiophage_rocket"
+      },
+      {
+        "item": "alexsmobs:void_worm_eye"
+      },
+      {
+        "item": "alexsmobs:rainbow_jelly"
+      },
+      {
+        "item": "alexsmobs:mysterious_worm"
+      },
+      {
+        "item": "alexsmobs:soul_heart"
+      }
+    ],
+    "output": {
+      "item": "tiab:time_in_a_bottle"
+    }
+  }

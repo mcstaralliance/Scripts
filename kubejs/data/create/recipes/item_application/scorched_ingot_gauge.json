@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "tconstruct:scorched_bricks"
+      },
+      {
+        "tag": "forge:gems/quartz"
+      }
+    ],
+    "results": [
+      {
+        "item": "tconstruct:scorched_ingot_gauge"
+      }
+    ]
+  }
