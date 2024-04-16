@@ -925,6 +925,16 @@ onEvent('recipes', event => {
                 C: 'mekanism:advanced_induction_provider',
                 D: 'create:flywheel'
             }
+        },
+        {
+            output: 'hostilenetworks:loot_fabricator',
+            pattern: ['AAA','BCB','BDB'],
+            key: {
+                A: 'avaritia:neutronium_block',
+                B: 'extendedcrafting:nether_star_block',
+                C: 'hostilenetworks:sim_chamber',
+                D: 'draconicevolution:draconium_core'
+            }
         }
     ]
 
