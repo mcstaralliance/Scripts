@@ -7,4 +7,5 @@ onEvent('recipes', event =>{
     event.shapeless('hostilenetworks:blank_data_model', ['mekanism:hdpe_sheet', 'fluxnetworks:flux_dust', 'fluxnetworks:flux_dust', 'fluxnetworks:flux_dust', 'fluxnetworks:flux_dust'])
     event.shapeless('8x hostilenetworks:empty_prediction', ['elementalcraft:strongly_contained_crystal', 'botania:cocoon'])
     event.shapeless('multiblocked:item_output', ['starcraft:input_bus'])
+    event.shapeless('reliquary:alkahestry_tome', ['#forge:books', 'draconicevolution:wyvern_core', 'botania:mana_powder'])
 })  
