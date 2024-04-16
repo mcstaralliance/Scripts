@@ -123,7 +123,9 @@ const itemsToRemove = [
     'mekanism:mekasuit_bodyarmor',
     'mekanism:mekasuit_pants',
     'mekanism:mekasuit_boots',
-    'paimonfood:paimon'
+    'paimonfood:paimon',
+    'reliquary:alkahestry_tome',
+    'hostilenetworks:loot_fabricator'
 ]
 
 const itemsToBan = [
