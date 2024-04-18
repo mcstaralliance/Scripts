@@ -4,9 +4,9 @@
   "traits": {
     "item": [
       {
-        "cIO": 1,
-        "gIO": 1,
-        "mIO": 1,
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
         "x": 78,
         "y": 72,
         "autoIO": false
@@ -82,7 +82,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "end_recipe",
+  "recipeMap": "the_final_recipe",
   "basePattern": {
     "structureDir": [
       "BACK",
