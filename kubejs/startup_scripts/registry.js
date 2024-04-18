@@ -6,7 +6,7 @@ function repeat(count, handler, thisArg) {
 }
 
 onEvent('item.registry', event => {
-    repeat(3200, (i) => event.create('item_' + i));
+    repeat(1404, (i) => event.create(i+"_item"));
 
     event.create("nether_passport").rarity(RARITY_EPIC).maxStackSize(1)
     event.create("permanent_nether_passport").rarity(RARITY_EPIC).glow(true).maxStackSize(1)
