@@ -9,6 +9,7 @@
     "item.kubejs.fragment_of_patience": "耐心碎片",
     "item.kubejs.starcraft_core": "星核",
     "item.kubejs.patience_reward": "耐心奖励",
+    "item.kubejs.key": "奇珍之匙",
 
     "block.starcraft.input_bus": "物品输入口",
     "block.multiblocked.item_output": "物品输出口",
@@ -19,16 +20,19 @@
     "block.starcraft.electric_stress_creator": "能源引擎",
     "block.starcraft.stress_creator": "热力引擎",
     "block.starcraft.trophy":"毕业勋章",
+    "block.kubejs.custom_chest":"星域奇珍箱",
 
     "multiblocked.recipe_map.star_transition_recipes": "物品迁跃",
     "multiblocked.recipe_map.paimon_miner_lite": "旋风产出",
     "multiblocked.recipe_map.paimon_miner_pro": "超级旋风产出",
     "multiblocked.recipe_map.electric_stress_creator_recipe": "能源应力产出",
     "multiblocked.recipe_map.stress_creator_recipe": "燃烧应力产出",
+    "multiblocked.recipe_map.the_final_recipe": "毕业奖励",
 
     "starcraft.paimon_miner_lite.description": "超级派蒙旋风 Pro",
     "starcraft.paimon_miner_pro.description": "超级派蒙旋风 Lite",
     "starcraft.portal_gate.description": "该结构需要使用「源质钢锭」催化",
     "starcraft.stress_creator.description": "蒸汽引擎驱动",
-    "starcraft.electric_press_creator.description": "电力引擎驱动"
+    "starcraft.electric_stress_creator.description": "电力引擎驱动",
+    "starcraft.trophy.description": "毕业勋章"
 }
