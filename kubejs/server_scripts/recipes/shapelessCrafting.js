@@ -8,4 +8,5 @@ onEvent('recipes', event =>{
     event.shapeless('8x hostilenetworks:empty_prediction', ['elementalcraft:strongly_contained_crystal', 'botania:cocoon'])
     event.shapeless('multiblocked:item_output', ['starcraft:input_bus'])
     event.shapeless('reliquary:alkahestry_tome', ['#forge:books', 'draconicevolution:wyvern_core', 'botania:mana_powder'])
+    event.shapeless(akashicTome, '3x #forge:rods/wooden');
 })  
