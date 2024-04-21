@@ -692,9 +692,9 @@ onEvent('recipes', event => {
             output: 'draconicevolution:basic_crafting_injector',
             pattern: ['ABA','CCC','CCC'],
             key: {
-                A: 'draconicevolution:basic_crafting_injector',
+                A: 'elementalcraft:fireite_block',
                 B: 'draconicevolution:draconium_core',
-                C: 'draconicevolution:draconium_core'
+                C: 'draconicevolution:infused_obsidian'
             }
         },
         {
