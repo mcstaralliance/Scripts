@@ -40,11 +40,22 @@ onEvent('recipes', event => {
         event.recipes.createDeploying('kubejs:incomplete_cell_component_16k', ['kubejs:incomplete_cell_component_16k', 'ae2:fluix_pearl']),
         event.recipes.createFilling('kubejs:incomplete_cell_component_16k', ['kubejs:incomplete_cell_component_16k', Fluid.of('tconstruct:molten_signalum', 360)])
     ]).transitionalItem('kubejs:incomplete_cell_component_16k').loops(2)
+})
+
+
+onEvent('recipes', event => {
+    event.recipes.createSequencedAssembly([
+        Item.of('create:cogwheel', 5).withChance(130.0)
+    ], '#forge:stripped_logs', [
+        event.recipes.createDeploying('create:cogwheel', ['create:cogwheel', 'create:shaft'])
+    ]).transitionalItem('create:cogwheel').loops(1)
 
     event.recipes.createSequencedAssembly([
-        Item.of('mekanismgenerators:fission_reactor_casing',1).withChance(130.0)
-    ],'kubejs:incomplete_fission_reactor_casing', [
-        event.recipes.createFilling('kubejs:incomplete_fission_reactor_casing',['kubejs:incomplete_fission_reactor_casing',Fluid.of('mekanism:heavy_water',1000)])
-    ]).transitionalItem('kubejs:incomplete_fission_reactor_casing').loops(1)
+        Item.of('create:precision_mechanism', 2).withChance(130.0)
+    ], 'create:sturdy_sheet', [
+        event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', '#forge:ingots/rose_gold']),
+        event.recipes.createDeploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'ae2:charged_certus_quartz_crystal']),
+        event.recipes.createFilling('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', Fluid.of('integrateddynamics:menril_resin', 500)])
+    ]).transitionalItem('create:incomplete_precision_mechanism').loops(2)
 })
 
