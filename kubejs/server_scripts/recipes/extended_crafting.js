@@ -117,7 +117,7 @@ onEvent('recipes', event => {
             D: 'mekanism:elite_control_circuit',
             E: 'mekanism:module_base',
             F: 'mysticalagriculture:supremium_essence',
-            G: 'mekanism:elite_tier_installer',
+            G: 'mekanism:advanced_tier_installer',
             H: 'mekanism:alloy_atomic',
             I: 'extendedcrafting:ender_star',
             J: 'extendedcrafting:crystaltine_ingot',
