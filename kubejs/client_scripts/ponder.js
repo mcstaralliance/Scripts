@@ -62,7 +62,7 @@ onEvent('ponder.registry', event => {
 		let blocksToPlace = [
 			[2, 1, 3], [2, 2, 3], [2, 1, 2], [2, 2, 2]
 		];
-		scene.text(DURATION, "§a焦黑熔化炉是一个小型的多方块结构");
+		scene.text(DURATION, '§a焦黑熔化炉是一个小型的多方块结构');
 		for (let block of blocksToPlace) {
 			scene.world.showSection(block, Direction.DOWN);
 			scene.playSound('block.stone.place');
@@ -104,7 +104,7 @@ onEvent('ponder.registry', event => {
 			[3, 1, 6], [4, 1, 6], [5, 1, 6],
 			[6, 1, 5], [6, 1, 4], [6, 1, 3]
 		];
-		scene.text(150, "§a准备好一个平地，以你为中心，\n§a将 12 个末地门框架像这样摆放\n§c注意，一定要以你为中心，不然末地门框架朝向\n§c有问题会导致不能开门");
+		scene.text(150, '§a准备好一个平地，以你为中心，\n§a将 12 个末地门框架像这样摆放\n§c注意，一定要以你为中心，不然末地门框架朝向\n§c有问题会导致不能开门');
 		for (let block of blocksToPlace) {
 			scene.world.showSection(block, Direction.DOWN);
 			scene.playSound('block.glass.place');
@@ -114,7 +114,7 @@ onEvent('ponder.registry', event => {
 
 		scene.addKeyframe();
 		for (let block of blocksToPlace) {
-			scene.world.modifyBlock(block, state => state.with("eye", true), false);
+			scene.world.modifyBlock(block, state => state.with('eye', true), false);
 			scene.playSound('block.end_portal_frame.fill');
 			scene.idle(5);
 		}
