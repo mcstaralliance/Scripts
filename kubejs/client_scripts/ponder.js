@@ -197,13 +197,16 @@ onEvent('ponder.registry', event => {
 		scene.world.showSection([4, 3, 4], Direction.DOWN);
 		scene.text(DURATION, '§d通往地牢的门就打开了');
 		for (let i = 1; i <= 10; i++) {
+			// 防止粒子位置和速度的重复
 			let x1 = 4 + Math.random(), x2 = 4 + Math.random();
 			let y1 = 2 + 0.8, y2 = 3 + 0.8;
 			let z1 = 4 + Math.random(), z2 = 4 + Math.random();
 			let xspeed = (Math.floor(Math.random() * 3) - 1) / 9;
 			let zspeed = (Math.floor(Math.random() * 3) - 1) / 9;
-			scene.particles.simple(1, 'end_rod', [x1, y1, z1]).motion([xspeed, 0.0, zspeed]).density(2);
-			scene.particles.simple(1, 'end_rod', [x2, y2, z2]).motion([xspeed, 0.0, zspeed]).density(2);
+			let xspeed1 = (Math.floor(Math.random() * 3) - 1) / 9;
+			let zspeed2 = (Math.floor(Math.random() * 3) - 1) / 9;
+			scene.particles.simple(1, 'end_rod', [x1, y1, z1]).motion([xspeed, 0.0, zspeed]).density(3);
+			scene.particles.simple(1, 'end_rod', [x2, y2, z2]).motion([xspeed1, 0.0, zspeed2]).density(3);
 			scene.idle(8);
 		}
 	});
