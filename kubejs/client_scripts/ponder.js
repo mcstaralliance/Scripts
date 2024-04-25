@@ -115,11 +115,13 @@ onEvent('ponder.registry', event => {
 		scene.addKeyframe();
 		for (let block of blocksToPlace) {
 			scene.world.modifyBlock(block, state => state.with('eye', true), false);
+			scene.particles.simple(1, 'smoke', [block[0] + 0.25, 1.5, block[2] + 0.25]).area([block[0] + 0.75, 1.5, block[2] + 0.75]).withinBlockSpace().density(5);
 			scene.playSound('block.end_portal_frame.fill');
 			scene.idle(5);
 		}
 		scene.world.setBlocks([3, 1, 3, 5, 1, 5], 'minecraft:end_portal');
 		scene.world.showSection([3, 1, 3, 5, 1, 5], Direction.DOWN);
+		scene.particles.simple(50, 'smoke', [3, 1, 3]).area([6, 2, 6]).density(5);
 		scene.playSound('block.end_portal.spawn');
 
 		scene.idle(10);
@@ -138,21 +140,23 @@ onEvent('ponder.registry', event => {
 		scene.world.showSection([2, 1, 2], Direction.DOWN);
 
 		scene.addKeyframe();
-		scene.showControls(DURATION, [2.5, 2, 2.5], 'down').rightClick().withItem('dimdungeons:item_portal_key');
-		scene.text(DURATION, '§b用空白传送门钥匙右键末地门框架', [2.5, 2, 2.5]);
+		scene.showControls(DURATION, [2.65, 1.8, 2.65], 'down').rightClick().withItem('dimdungeons:item_portal_key');
+		scene.overlay.chaseBoundingBoxOutline('white', {}, AABB.ofSize([2.5, 1.8, 2.5], 0.3, 0, 0.3), DURATION);
+		scene.text(DURATION, '§b用空白传送门钥匙右键末地门框架§b的中心位置', [2.65, 1.675, 2.65]);
 		scene.idle(IDLE);
 
 		scene.addKeyframe();
-		scene.showControls(DURATION, [2.5, 2, 2.5], 'down').showing('I_REFRESH').withItem(Item.of('dimdungeons:item_portal_key', '{dest_x:5,dest_z:0,key_activated:1b}'));
-		scene.text(DURATION, '§b就变成了激活了的钥匙', [2.5, 2, 2.5]);
+		scene.showControls(DURATION, [2.65, 1.8, 2.65], 'down').showing('I_REFRESH').withItem(Item.of('dimdungeons:item_portal_key', '{dest_x:5,dest_z:0,key_activated:1b}'));
+		scene.text(DURATION, '§b就变成了激活了的钥匙', [2.65, 1.675, 2.65]);
 		scene.playSound('block.beacon.activate');
-		for (let i = 1; i <= 10; i++) {
-			let xspeed = (Math.random() * 0.08) * (Math.random() < 0.5 ? 1 : -1);
-			let yspeed = Math.random() * 0.4;
-			let zspeed = (Math.random() * 0.08) * (Math.random() < 0.5 ? 1 : -1);
-			scene.particles.simple(5, 'end_rod', [2.5, 2, 2.5]).delta([xspeed, yspeed, zspeed]).density(3);
-			scene.idle(8);
+		for (let i = 1; i <= 5; i++) {
+			let xspeed = (Math.random() * 0.04) * (Math.random() > 0.5 ? 1 : -1);
+			let yspeed = Math.random() * 0.125;
+			let zspeed = (Math.random() * 0.04) * (Math.random() > 0.5 ? 1 : -1);
+			scene.particles.simple(3, 'firework', [2.3, 1.5, 2.3]).area([2.7, 2, 2.7]).motion([xspeed, yspeed, zspeed]).density(3);
+			scene.idle(3);
 		}
+		scene.idle(65);
 	})
 
 	.scene('kubejs:portal', '维度传送门多方块结构', 'kubejs:portal', (scene, utils) => {
@@ -222,12 +226,12 @@ onEvent('ponder.registry', event => {
 		scene.text(DURATION, '使用有机灌注器种植作物', [3.5, 2, 1.5]);
 		showAddingItems(scene, [3.5, 2, 1.5], 'minecraft:wheat_seeds', 'minecraft:beetroot_seeds', 'minecraft:carrot', 'minecraft:potato');
 
-		function processMachine(scene, x, y, z, text) {
+		function processMachine(scene, pos, text) {
 			scene.addKeyframe();
-			scene.world.showSection([x, y, z], Direction.DOWN);
+			scene.world.showSection(pos, Direction.DOWN);
 			scene.playSound('block.stone.place');
-			scene.overlay.showOutline('red', {}, [x, y, z], DURATION);
-			scene.text(DURATION, text, [x + 0.5, y + 1, z + 0.5]);
+			scene.overlay.showOutline('red', {}, pos, DURATION);
+			scene.text(DURATION, text, [pos[0] + 0.5, pos[1] + 1, pos[2] + 0.5]);
 			scene.idle(IDLE);
 		}
 
@@ -239,12 +243,12 @@ onEvent('ponder.registry', event => {
 			scene.idle(IDLE);
 		}
 
-		processMachine(scene, 2, 1, 2, '水源');
-		processMachine(scene, 3, 1, 2, '粉碎机将作物粉碎为生物燃料');
-		processMachine(scene, 2, 1, 3, '电解分离器分解水产出氢气和氧气');
-		processMachine(scene, 3, 1, 3, '加压反应室消耗水、氢气和生物燃料产出基片');
-		processMachine(scene, 4, 1, 4, '回旋式气液转换机将气体乙烯转换为液态乙烯');
-		processMachine(scene, 4, 1, 3, '另一个加压反应室消耗液态乙烯、氧气和基片产出高密度聚乙烯丸');
+		processMachine(scene, [2, 1, 2], '水源');
+		processMachine(scene, [3, 1, 2], '粉碎机将作物粉碎为生物燃料');
+		processMachine(scene, [2, 1, 3], '电解分离器分解水产出氢气和氧气');
+		processMachine(scene, [3, 1, 3], '加压反应室消耗水、氢气和生物燃料产出基片');
+		processMachine(scene, [4, 1, 4], '回旋式气液转换机将气体乙烯转换为液态乙烯');
+		processMachine(scene, [4, 1, 3], '另一个加压反应室消耗液态乙烯、氧气和基片产出高密度聚乙烯丸');
 
 		scene.world.showSection([2, 1, 1], Direction.DOWN);
 		io(scene, [2, 1, 2], [3, 1, 1], [2.5, 1.5, 1.5], '为§e有机灌注器§r供§b水');
