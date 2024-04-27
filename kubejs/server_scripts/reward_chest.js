@@ -1,20 +1,36 @@
-onEvent('lootjs', event => {
-    event
-        .addLootTableModifier('kubejs:chests/reward_chest')
-        .addLoot('minecraft:stone');
-})
+
+const stackWithProbability = [
+    newItem('minecraft:stone', 1),
+    newItem('minecraft:stick', 0.5)
+];
 
 onEvent('block.right_click', event => {
     let {
        block,
        player,
-       hand
+       hand,
+       level
     } = event;
     let stack = player.getHeldItem(hand);
+    let randomNumber = level.minecraftLevel.random.nextDouble();
     if (stack == 'kubejs:key' && block == 'kubejs:custom_chest') {
-        let data = block.entityData;
-        data.putString('LootTable', 'kubejs:chests/reward_chest');
-        block.setEntityData(data);
+        for (let item of stackWithProbability) {
+            if (randomNumber < item.probability) {
+                player.give(item.id);
+            }
+        }
+        block.set('minecraft:air')
         stack.count--;
     }
 })
+
+/**
+ * @param {string} id 
+ * @param {number} probability 
+ */
+function newItem(id, probability) {
+    return {
+        id : id,
+        probability : probability
+    }
+}
