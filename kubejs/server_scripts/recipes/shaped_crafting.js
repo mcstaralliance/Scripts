@@ -935,6 +935,15 @@ onEvent('recipes', event => {
                 C: 'hostilenetworks:sim_chamber',
                 D: 'draconicevolution:draconium_core'
             }
+        },
+        {
+            output: 'mysticalagriculture:enderman_seeds',
+            pattern:patterns.crossWithCore,
+            key:{
+                A: 'mysticalagriculture:soulium_seed_base',
+                B: 'rftoolsbase:infused_enderpearl',
+                C: 'mysticalagriculture:imperium_essence'
+            }
         }
     ]
 

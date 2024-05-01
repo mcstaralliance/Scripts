@@ -5,7 +5,7 @@
   "recipes": [
     {
       "uid": "5a933f30-4ea1-48e2-a43b-0508a8672487",
-      "duration": 100,
+      "duration": 500,
       "inputs": {
         "item": [
           {
@@ -13,7 +13,7 @@
               "type": "multiblocked:sized",
               "count": 1,
               "ingredient": {
-                "item": "paimonfood:paimon"
+                "item": "minecraft:polished_andesite"
               }
             },
             "chance": 1.0
@@ -307,7 +307,7 @@
       "tickInputs": {
         "forge_energy": [
           {
-            "content": 1000,
+            "content": 200,
             "chance": 1.0
           }
         ]

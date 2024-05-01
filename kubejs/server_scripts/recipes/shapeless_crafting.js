@@ -9,4 +9,5 @@ onEvent('recipes', event =>{
     event.shapeless('multiblocked:item_output', ['starcraft:input_bus'])
     event.shapeless('reliquary:alkahestry_tome', ['#forge:books', 'draconicevolution:wyvern_core', 'botania:mana_powder'])
     event.shapeless(akashicTome, '3x #forge:rods/wooden');
+    event.shapeless('minecraft:end_portal_frame', ['dimdungeons:block_key_charger', 'minecraft:end_stone'])
 })  

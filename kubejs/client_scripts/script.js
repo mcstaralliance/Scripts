@@ -23,6 +23,8 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add('kubejs:fragment_of_patience', Text.of('§c *重要提示：动力锯将始终将碎片设为第 1 阶段，请确保锯只被使用一次！* \n §b涉及 7 个加工步骤和 7 个机器，每次世界加载时，加工步骤的顺序都是随机的。第一步始终是切割。\n每个周期有 1/1000 的几率获得成功。\n关键在于创建一个非常通用的工厂。'))
 	tooltip.add('kubejs:starcraft_core', Text.of('群星之力...').gray())
 	tooltip.add('akashictome:tome', Text.of('弄丢了用三个木棍合成！').gold())
+	tooltip.add('kubejs:custom_chest', Text.of('需要使用「奇珍之匙」开启').gold())
+	tooltip.add('kubejs:key', Text.of('能够开启「星域奇珍箱」售价为：6 元/把。').gold())
 })
 
 onEvent('item.tooltip', tooltip => {
