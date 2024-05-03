@@ -38,7 +38,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "electric_press_creator_recipe",
+  "recipeMap": "electric_stress_creator_recipe",
   "basePattern": {
     "structureDir": [
       "BACK",
