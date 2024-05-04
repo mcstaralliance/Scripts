@@ -79,7 +79,6 @@ const itemsToRemove = [
     'mekanism:osmium_compressor',
     'mekanism:crusher',
     'mekanism:purification_chamber',
-    'mekanism:energized_smelter',
     'mekanism:electric_pump',
     'mekanism:rotary_condensentrator',
     'mekanism:electrolytic_separator',
