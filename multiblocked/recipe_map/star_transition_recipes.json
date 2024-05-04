@@ -721,9 +721,29 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 4,
+              "count": 8,
               "ingredient": {
                 "item": "ae2:fluix_pearl"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 8,
+              "ingredient": {
+                "item": "ae2:logic_processor"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 8,
+              "ingredient": {
+                "item": "ae2:calculation_processor"
               }
             },
             "chance": 1.0
@@ -741,29 +761,9 @@
           {
             "content": {
               "type": "multiblocked:sized",
-              "count": 8,
+              "count": 16,
               "ingredient": {
-                "item": "thermal:signalum_gear"
-              }
-            },
-            "chance": 1.0
-          },
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 8,
-              "ingredient": {
-                "item": "thermal:lumium_gear"
-              }
-            },
-            "chance": 1.0
-          },
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 8,
-              "ingredient": {
-                "item": "ae2:fluix_glass_cable"
+                "item": "ae2:smooth_sky_stone_block"
               }
             },
             "chance": 1.0
@@ -772,12 +772,6 @@
         "bot_mana": [
           {
             "content": 100000,
-            "chance": 1.0
-          }
-        ],
-        "forge_energy": [
-          {
-            "content": 150000,
             "chance": 1.0
           }
         ]
@@ -793,26 +787,14 @@
               }
             },
             "chance": 1.0
-          },
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
           {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 1,
-              "ingredient": {
-                "item": "ae2:drive"
-              }
-            },
-            "chance": 0.5
-          },
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 1,
-              "ingredient": {
-                "item": "ae2:cell_component_1k"
-              }
-            },
-            "chance": 0.5
+            "content": 2000,
+            "chance": 1.0
           }
         ]
       }
