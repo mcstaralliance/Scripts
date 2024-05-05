@@ -17,7 +17,7 @@ onEvent('recipes', event => {
     ]).superheated()
 
     event.recipes.create.mixing('kubejs:permanent_nether_passport', [
-        Fluid.of('tconstruct:molten_soulsteel', 1000),
+        Fluid.of('tconstruct:liquid_soul', 1000),
         '8x kubejs:nether_passport',
         Fluid.of('tinkers_reforged:molten_proto_lava',1000),
         '16x hostilenetworks:nether_prediction'
