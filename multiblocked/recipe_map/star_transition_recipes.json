@@ -787,6 +787,16 @@
               }
             },
             "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ae2:drive"
+              }
+            },
+            "chance": 0.1
           }
         ]
       },
