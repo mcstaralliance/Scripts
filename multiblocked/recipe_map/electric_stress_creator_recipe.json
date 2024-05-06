@@ -9,7 +9,7 @@
       "outputs": {
         "create_stress": [
           {
-            "content": 1024.0,
+            "content": 655360.0,
             "chance": 1.0
           }
         ]

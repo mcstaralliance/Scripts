@@ -23,7 +23,7 @@
       "outputs": {
         "create_stress": [
           {
-            "content": 512.0,
+            "content": 65536.0,
             "chance": 1.0
           }
         ]
@@ -59,7 +59,7 @@
       "outputs": {
         "create_stress": [
           {
-            "content": 768.0,
+            "content": 327680.0,
             "chance": 1.0
           }
         ]
