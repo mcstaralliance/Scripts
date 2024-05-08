@@ -27,6 +27,8 @@ onEvent('item.tooltip', tooltip => {
 	tooltip.add('kubejs:custom_chest', Text.of('内含：MekaSuit 护甲、大法师法术书、256k元件、无尽催化剂、寰宇肉丸、下界之星、金苹果、终极能量立方').gold())
 	tooltip.add('kubejs:custom_chest', Text.of('超级派蒙旋风 Lite、区块加载器、创造魔力石板、超级煲、时间之瓶、应急食品、大型/超大型能量存储器、终极注魔水晶').gold())
 	tooltip.add('kubejs:key', Text.of('能够开启「星域奇珍箱」售价为：6 元/把。').gold())
+	tooltip.add('starcraft:electric_stress_creator', Text.of('已弃用物品，请勿使用').red())
+	tooltip.add('starcraft:stress_creator', Text.of('已弃用物品，请勿使用').red())
 })
 
 onEvent('item.tooltip', tooltip => {

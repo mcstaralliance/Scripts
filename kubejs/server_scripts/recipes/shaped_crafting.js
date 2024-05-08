@@ -907,26 +907,6 @@ onEvent('recipes', event => {
             }
         },
         {
-            output: 'starcraft:stress_creator',
-            pattern: ['ABA','BCB','ADA'],
-            key: {
-                A: 'create:steam_engine',
-                B: 'create_sa:heat_engine',
-                C: 'mekanism:thermal_evaporation_controller',
-                D: 'create:blaze_burner'
-            }
-        },
-        {
-            output: 'starcraft:electric_stress_creator',
-            pattern: ['ABA','BCB','ADA'],
-            key: {
-                A: 'mekanism:induction_casing',
-                B: 'mekanism:advanced_induction_cell',
-                C: 'mekanism:advanced_induction_provider',
-                D: 'create:flywheel'
-            }
-        },
-        {
             output: 'hostilenetworks:loot_fabricator',
             pattern: ['AAA','BCB','BDB'],
             key: {
