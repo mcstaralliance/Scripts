@@ -125,7 +125,12 @@ const itemsToRemove = [
     'paimonfood:paimon',
     'reliquary:alkahestry_tome',
     'hostilenetworks:loot_fabricator',
-    'lazierae2:universal_press'
+    'lazierae2:universal_press',
+    'chunkloaders:basic_chunk_loader',
+    'chunkloaders:advanced_chunk_loader',
+    'chunkloaders:ultimate_chunk_loader',
+    'chunkloaders:single_chunk_loader'
+
 ]
 
 const itemsToBan = [
