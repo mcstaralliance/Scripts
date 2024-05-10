@@ -924,6 +924,18 @@ onEvent('recipes', event => {
                 B: 'rftoolsbase:infused_enderpearl',
                 C: 'mysticalagriculture:imperium_essence'
             }
+        },
+        {
+            output: 'lazierae2:universal_press',
+            pattern:['ABA','CDE','AFA'],
+            key:{
+                A: '#forge:ingots/fluix_steel',
+                B: 'ae2:calculation_processor_press',
+                C: 'ae2:engineering_processor_press',
+                D: 'ae2:matter_ball',
+                E: 'ae2:logic_processor_press',
+                F: 'ae2:silicon_press'
+            }
         }
     ]
 
