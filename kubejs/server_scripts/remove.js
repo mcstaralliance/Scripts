@@ -140,7 +140,9 @@ const itemsToBan = [
     'mekanismgenerators:turbine_casing',
     'mekanismgenerators:turbine_valve',
     'mekanismgenerators:turbine_blade',
-    'mekanismgenerators:turbine_vent'
+    'mekanismgenerators:turbine_vent',
+    'botania:lens_mine'
+
 ]
 
 const recipeIdToRemove = [
