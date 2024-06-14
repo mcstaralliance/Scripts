@@ -1,6 +1,7 @@
 
 const stackWithProbability = [
     newItem('mysticalagriculture:master_infusion_crystal', 0.001),
+    newItem('starcraft:paimon_miner_lite', 0.01),
     newItem('chunkloaders:single_chunk_loader', 0.01),
     newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.02),
     newItem('create:creative_blaze_cake', 0.03),
