@@ -13,6 +13,7 @@ StartupEvents.registry('item', event => {
 StartupEvents.registry('block', event => {
     event.create("paimoncyclone_miner_base");
     event.create("paimoncyclone_miner_pro");
+    event.create("custom_chest");
 })
 
 // 注册硬币
