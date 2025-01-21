@@ -1,3 +1,18 @@
 {
-   
+    "block.starcraft.paimon_cyclone_miner": "Super Paimon Cyclone Miner Lite",
+    "block.starcraft.paimon_cyclone_miner_pro": "Super Paimon Cyclone Miner Pro",
+    "block.starcraft.mana_input": "Mana Input Port",
+    "block.starcraft.mana_output": "Mana Output Port",
+    "block.starcraft.item_input": "Item Input Port",
+    "block.starcraft.item_output": "Item Output Port",
+    "block.starcraft.stress_input": "Stress Input Port",
+    "block.starcraft.energy_input": "Energy Input Port",
+    "block.starcraft.assembler": "Precision Assembler",
+    "block.starcraft.hobbyist_mana_producer": "Hobbyist Mana Producer",
+
+    "starcraft.paimon_cyclone_miner": "Super Paimon Cyclone Miner Lite",
+    "starcraft.paimon_cyclone_miner_pro_recipe": "Super Paimon Cyclone Miner Pro Recipe",
+    "starcraft.precision_assembler_recipes": "Precision Assembler Recipes",
+    "starcraft.botania_mana_producer": "Hobbyist Production",
+    "starcraft.cyber_bee_nast": "Cyber Bee Nest"
 }

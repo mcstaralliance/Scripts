@@ -1,0 +1,34 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "bigreactors:inanite_ingot"
+  },
+  "ingredients": [
+    {
+      "item": "thermal_extra:abyssal_block"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_block"
+    },
+    {
+      "item": "mekanism_extras:infinite_control_circuit"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:awakened_core"
+  },
+  "tier": "WYVERN",
+  "total_energy": 1000000
+}
