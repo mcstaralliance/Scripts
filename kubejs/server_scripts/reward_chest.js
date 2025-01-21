@@ -1,6 +1,5 @@
 
 const stackWithProbability = [
-    // TODO
     newItem('mysticalagriculture:master_infusion_crystal', 0.001),
     newItem('starcraft:paimon_miner_lite', 0.01),
     newItem('chunkloaders:single_chunk_loader', 0.01),
@@ -30,22 +29,22 @@ const stackWithProbability = [
     newItem('64x create:experience_nugget', 1),
 ];
 
-BlockEvents.rightClicked(event => {
-    let {
-       block,
-       player,
-       hand,
-       level
-    } = event;
-    let stack = player.getHeldItem(hand);
-    let randomNumber = level.minecraftLevel.random.nextDouble();
-    if (stack == 'kubejs:key' && block == 'kubejs:custom_chest') {
+BlockEvents.rightClicked('custom_chest', event => {
+    let block = event.getBlock();
+    let player = event.getPlayer();
+    let stack = event.getItem();
+
+    let randomNumber = Math.random();
+    
+    if (stack == "kubejs:key") {
         for (let item of stackWithProbability) {
             if (randomNumber < item.probability) {
+                console.log(item.probability)
                 player.give(item.id);
                 break
             }
         }
+        
         block.set('minecraft:air')
         stack.count--;
     }

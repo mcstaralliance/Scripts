@@ -16,10 +16,11 @@ StartupEvents.registry('block', event => {
     event.create("custom_chest");
 })
 
-// 注册硬币
+// 注册物品
 StartupEvents.registry('item', event => {
-    event.create("starcraft_commoncoin").rarity("common").displayName("铜币").tooltip(Component.gray("面值: 50"));
-    event.create("starcraft_advancedcoin").rarity("uncommon").displayName("银币").tooltip(Component.gray("面值: 600"));
-    event.create("starcraft_ultracoin").rarity("rare").displayName("金币").tooltip(Component.gray("面值: 1200"));
+    event.create("starcraft_commoncoin").rarity("common").tooltip(Component.gray("面值: 50"));
+    event.create("starcraft_advancedcoin").rarity("uncommon").tooltip(Component.gray("面值: 600"));
+    event.create("starcraft_ultracoin").rarity("rare").tooltip(Component.gray("面值: 1200"));
+    event.create("key").rarity("epic");
 })
 
