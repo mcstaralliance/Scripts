@@ -1,6 +1,5 @@
 // priority: 0
 
-// Visit the wiki for more info - https://kubejs.com/
 const itemToBan = [
     'ae2:entropy_manipulator',
     'draconicevolution:celestial_manipulator',
