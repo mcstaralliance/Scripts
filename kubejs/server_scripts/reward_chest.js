@@ -36,7 +36,7 @@ BlockEvents.rightClicked('custom_chest', event => {
 
     let randomNumber = Math.random();
     
-    if (stack == "kubejs:key") {
+    if (stack == "kubejs:key" && block == "kubejs:custom_chest") {
         for (let item of stackWithProbability) {
             if (randomNumber < item.probability) {
                 console.log(item.probability)
