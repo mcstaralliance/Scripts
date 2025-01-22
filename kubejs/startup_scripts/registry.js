@@ -16,7 +16,7 @@ StartupEvents.registry('block', event => {
     event.create("custom_chest");
 })
 
-// 注册物品
+// item registry
 StartupEvents.registry('item', event => {
     event.create("starcraft_commoncoin").rarity("common").tooltip(Component.gray("面值: 50"));
     event.create("starcraft_advancedcoin").rarity("uncommon").tooltip(Component.gray("面值: 600"));
@@ -24,3 +24,10 @@ StartupEvents.registry('item', event => {
     event.create("key").rarity("epic");
 })
 
+// fluid registry
+StartupEvents.registry('fluid', event => {
+    event.create("nether_star_fluid")
+        .thickTexture(0xDDDBFF)
+        .bucketColor(0xDDDBFF)
+        .displayName('Nether Star Fluid')
+})

@@ -1,0 +1,16 @@
+{
+  "type": "createmetallurgy:melting",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:nether_star_block"
+    }
+  ],
+  "processingTime": 1600,
+  "results": [
+    {
+      "fluid": "kubejs:nether_star_fluid",
+      "amount": 1296
+    }
+  ],
+  "heatRequirement": "superheated"
+}
