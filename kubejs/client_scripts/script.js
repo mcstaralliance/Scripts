@@ -1,5 +1,6 @@
 // priority: 0
 
+// Visit the wiki for more info - https://kubejs.com/
 const itemToBan = [
     'ae2:entropy_manipulator',
     'draconicevolution:celestial_manipulator',
@@ -28,7 +29,8 @@ const itemToBan = [
     'botania:floating_rannuncarpus_chibi',
     'naturesaura:placer',
     'botania:starfield',
-    'ars_nouveau:glyph_flare'
+    'ars_nouveau:glyph_flare',
+    'mekanism:cardboard_box'
 ]
 
 ItemEvents.tooltip(tooltip => {

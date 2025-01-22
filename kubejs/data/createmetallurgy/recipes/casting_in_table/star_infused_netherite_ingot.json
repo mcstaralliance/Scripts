@@ -1,0 +1,17 @@
+{
+  "type": "createmetallurgy:casting_in_table",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "fluid": "kubejs:nether_star_fluid",
+      "amount": 576
+    }
+  ],
+  "processingTime": 100,
+  "mold_consumed": true,
+  "result": {
+    "item": "cagedmobs:star_infused_netherite_ingot"
+  }
+}
