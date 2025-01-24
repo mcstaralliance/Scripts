@@ -11,7 +11,13 @@ const itemToRemove =[
     'avaritia:infinity_armor_chestplate',
     'avaritia:infinity_armor_leggings',
     'avaritia:infinity_armor_boots',
-    'avaritia:swordofthe_cosmos'
+    'avaritia:swordofthe_cosmos',
+    'chunkloaders:advanced_chunk_loader',
+    'chunkloaders:basic_chunk_loader',
+    'chunkloaders:single_chunk_loader',
+    'chunkloaders:ultimate_chunk_loader',
+    'create:mechanical_drill',
+    'create:mechanical_plough'
 ]
 
 const itemToBan = [
