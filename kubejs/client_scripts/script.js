@@ -30,7 +30,13 @@ const itemToBan = [
     'naturesaura:placer',
     'botania:starfield',
     'ars_nouveau:glyph_flare',
-    'mekanism:cardboard_box'
+    'mekanism:cardboard_box',
+    'chunkloaders:advanced_chunk_loader',
+    'chunkloaders:basic_chunk_loader',
+    'chunkloaders:single_chunk_loader',
+    'chunkloaders:ultimate_chunk_loader',
+    'create:mechanical_drill',
+    'create:mechanical_plough'
 ]
 
 ItemEvents.tooltip(tooltip => {
