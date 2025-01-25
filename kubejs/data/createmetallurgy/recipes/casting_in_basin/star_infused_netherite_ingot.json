@@ -1,5 +1,5 @@
 {
-  "type": "createmetallurgy:casting_in_table",
+  "type": "createmetallurgy:casting_in_basin",
   "ingredients": [
     {
       "item": "minecraft:netherite_ingot"
