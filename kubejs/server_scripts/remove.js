@@ -11,7 +11,9 @@ const itemToRemove =[
     'avaritia:infinity_armor_chestplate',
     'avaritia:infinity_armor_leggings',
     'avaritia:infinity_armor_boots',
-    'avaritia:swordofthe_cosmos'
+    'avaritia:swordofthe_cosmos',
+    'avaritia:infinity_catalyst'
+    
 ]
 
 const itemToBan = [
