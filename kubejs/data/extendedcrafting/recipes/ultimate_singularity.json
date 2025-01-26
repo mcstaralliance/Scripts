@@ -1,0 +1,115 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDEFGHI",
+      "JKLMNOP  ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "A": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:redstone\"}"
+      },
+      "B": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:aluminum\"}"
+      },
+      "C": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:tin\"}"
+      },
+      "D": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:diamond\"}"
+      },
+      "E": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:copper\"}"
+      },
+      "F": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:iron\"}"
+      },
+      "G": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:lead\"}"
+      },
+      "H": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:nickel\"}"
+      },
+      "I": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:gold\"}"
+      },
+      "J": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:bronze\"}"
+      },
+      "K": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:electrum\"}"
+      },
+      "L": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:invar\"}"
+      },
+      "M": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:steel\"}"
+      },
+      "N": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
+      },
+      "O": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:emerald\"}"
+      },
+      "P": {
+        "type": "forge:nbt",
+        "item": "extendedcrafting:singularity",
+        "count": 1,
+        "nbt": "{Id:\"extendedcrafting:coal\"}"
+      }
+    },
+    "result": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  }
