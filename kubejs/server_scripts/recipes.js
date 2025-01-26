@@ -45,4 +45,8 @@ ServerEvents.recipes(event => {
     event.shapeless('starcraft:mana_output', ['starcraft:mana_output']);
     event.shapeless('createaddition:electric_motor', ['starcraft:stress_input']);
     event.shapeless('starcraft:stress_input', ['createaddition:electric_motor']);
+<<<<<<< HEAD
+=======
+    event.shapeless('avaritia:infinity_catalyst',['extendedcrafting:ultimate_singularity','avaritia:ultimate_stew','avaritia:endest_pearl','avaritia:record_fragment','avaritia:neutronium_block','avaritia:crystal_matrix'])
+>>>>>>> dcaf3a6f0d350872fea5b2930b577bf37652003c
 })
