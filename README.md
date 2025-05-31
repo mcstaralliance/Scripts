@@ -6,31 +6,31 @@
 
 ### 🚀 工业自动化
 
-资源蜜蜂 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力 | 工业先锋 | 应用能源2 | Modern AE2 Additions | ExtendedAE  | MEGACells | AE2无线终端 | 模块化路由器 | 功能性存储 | 超级工厂管理 | 热力膨胀5 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | XyCraft: Machines | 无尽贪婪：重生
+资源蜜蜂 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生| 末影接口
 
 ------
 
 ### 🔮 魔法大冒险
 
-圣遗物 | 生活调味料：胡萝卜版 | 莱特兰-恶意 | 莱特兰-古遗物 | 莱特兰-扩充 | 禁忌与奥秘 | 新生魔艺 | 植物魔法 | 神话植物学 | 植物机械 | Ad Astra | Mekanism: Ad Astra Ores | 自然灵气 | Theurgy | Jerotes村庄 | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋
+圣遗物 | 生活调味料：胡萝卜版 | 莱特兰-恶意 | 莱特兰-古遗物 | 莱特兰-扩充 | 禁忌与奥秘 | 新生魔艺 | 植物魔法 | 神话植物学 | 额外植物学：重燃 | 植物机械 | Ad Astra | Mekanism: Ad Astra Ores | 自然灵气 | Theurgy | Jerotes村庄 | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋 | 邪恶工艺 | BBL Strainers 滤水器
 
 ------
 
 ### 🛠️ 生存优化工具
 
-农夫乐事 | 装箱乐事 | 矿工乐事 | 妖怪们的归家 | 烟火凡人心 | 神秘农业 | 烹饪锅 | 水产业2 | 建筑手杖 | 网络音乐机 | 传送石碑 | 车万女仆 | 植物盆栽 | 匠魂3 | 匠魂校准 | 匠魂工具升级2 | 蘑菇构想| 复合材料 | 匠魂突破 | 懒人厨房 | 农场贸易 | Yes Steve Model | 我踏马吃吃吃！| 更多箱子 | 超越维度 | 更好的火把放置重制版 | 多态合成 | 红石钟
+农夫乐事 | 装箱乐事| 妖怪们的归家 | 烹饪锅 | 水产业2 | 建筑手杖 | 网络音乐机 | 传送石碑 | 车万女仆 | 植物盆栽 | 匠魂3 | 匠魂校准 | 匠魂工具升级2 | 蘑菇构想 | 复合材料 | 匠魂突破 | 懒人厨房 | 农场贸易 | Yes Steve Model | 更多箱子 | 超越维度 | 多态合成 | 红石钟 | 火炬大师 | 笼中生物 | 阿卡什宝典 | Caveopolis | 探险者指南针 | 自然罗盘 | 旅行者背包 | 垃圾桶 | DIS 展示 | 树叶快速腐烂
 
 ------
 
 ### 📦 特色玩法扩展
 
-任务拓展 | 展示 |
+FTB 全家桶 | 任务拓展 | PaimonFood | XPlus 自动钓鱼 | MBD2 | KubeJS | 真实物理（仅美观效果） | 高级透视
 
 ---
 
 ### 仅安装在客户端的 Mod
 
-旅行地图 | 拾取提示 | Loot Beams: Relooted!
+旅行地图 | 拾取提示 | Loot Beams: Relooted! | Jade | ModernFix | FPS Reducer 
 
 
 
