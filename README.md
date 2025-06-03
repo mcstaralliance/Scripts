@@ -2,17 +2,17 @@
 
 动工于 2025/4/6。
 
-## 模组列表 20250603 版
+## 模组列表 20250603V2 版
 
 ### 🚀 工业自动化
 
-资源蜜蜂 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生| 末影接口
+工业升级 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生| 末影接口 | 资源蜜蜂 
 
 ------
 
 ### 🔮 魔法大冒险
 
-神秘学 | 圣遗物 | 生活调味料：胡萝卜版 | 莱特兰-恶意 | 莱特兰-古遗物 | 莱特兰-扩充 | 禁忌与奥秘 | 新生魔艺 | 植物魔法 | 额外植物学：重燃 | 植物机械 | Ad Astra | Mekanism: Ad Astra Ores | 自然灵气 | Theurgy | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋 | 拔刀剑日系附属包 | 传世之刃 | 邪恶工艺 | BBL Strainers 滤水器
+神秘学 | 圣遗物 | 生活调味料：胡萝卜版 | 莱特兰-恶意 | 莱特兰-古遗物 | 莱特兰-扩充 | 禁忌与奥秘 | 新生魔艺 | 植物魔法 | 额外植物学：重燃 | 植物机械 | 永恒常春藤：重生 | 自然灵气 | Theurgy | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋 | 拔刀剑日系附属包 | 传世之刃 | 邪恶工艺 | BBL Strainers 滤水器
 
 ------
 
