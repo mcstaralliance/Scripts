@@ -26,8 +26,6 @@ Minecraft 版本: 1.20.1 Forge
 
 ### 📦 特色玩法扩展
 
-FTB 全家桶 | 任务拓展 | PaimonFood | 自动钓鱼 XPlus 版 | MBD2 | KubeJS | 真实物理（仅美观效果） | 高级透视
-=======
 FTB 全家桶 | 连锁挖掘 | 任务拓展 | PaimonFood | 自动钓鱼XPlus版 | MBD2 | KubeJS | 真实物理（仅美观效果）| 高级透视  | BBL Strainers 滤水器 | 建筑手杖
 
 ---
