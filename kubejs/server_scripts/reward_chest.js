@@ -1,5 +1,6 @@
 
 const stackWithProbability = [
+   /* 19周目的物品待添加
     newItem('starcraft:paimon_miner_lite', 0.01),
     newItem('chunkloaders:single_chunk_loader', 0.01),
     newItem(Item.of('avaritia:infinity_armor_chestplate', '{Damage:0}'), 0.02),
@@ -27,6 +28,7 @@ const stackWithProbability = [
     newItem('paimonfood:paimon_sword', 0.51),
     newItem('16x paimonfood:paimon', 0.52),
     newItem('64x create:experience_nugget', 1),
+    */
 ];
 
 BlockEvents.rightClicked('custom_chest', event => {
