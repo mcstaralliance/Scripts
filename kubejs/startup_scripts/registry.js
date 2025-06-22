@@ -23,3 +23,19 @@ StartupEvents.registry('item', event => {
     event.create("starcraft_ultracoin").rarity("rare").tooltip(Component.gray("面值: 1200"));
     event.create("key").rarity("epic");
 })
+
+// fluid registry
+StartupEvents.registry("fluid",event=>{
+    event.create("starcraft:exp_fluid").thickTexture("#d51767").displayName("精液")
+})
+
+// food  registry
+StartupEvents.registry("item",event=>{
+    event.create("starcraft:milk_bread")
+    .food(foodbuilder => {
+        foodbuilder.hunger(7)
+        .saturation(6)
+        .alwaysEdible()
+    }),
+    event.create("starcraft:incomplete_paimon_sword")
+})

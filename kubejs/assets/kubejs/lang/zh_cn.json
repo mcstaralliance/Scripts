@@ -6,5 +6,9 @@
     "item.kubejs.key": "奇珍之匙",
     "item.kubejs.starcraft_commoncoin": "铜币",
     "item.kubejs.starcraft_advancedcoin": "银币",
-    "item.kubejs.starcraft_ultracoin": "金币"
+    "item.kubejs.starcraft_ultracoin": "金币",
+    "fluid.starcraft.exp_fluid":"精华液",
+    "item.starcraft.exp_fluid_bucket":"精液桶",
+    "item.starcraft.milk_bread":"牛奶面包",
+    "item.starcraft.incomplete_paimon_sword":"未完成的派猛"
 } 
