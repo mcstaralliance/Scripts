@@ -1,0 +1,15 @@
+{
+   "block.starcraft.paimon_cyclone_miner": "超级派蒙旋风矿机 Lite",
+   "block.starcraft.paimon_cyclone_miner_pro": "超级派蒙旋风矿机 Pro",
+   "block.starcraft.mana_input": "魔力输入口",
+   "block.starcraft.mana_output": "魔力输出口",
+   "block.starcraft.item_input": "物品输入口",
+   "block.starcraft.item_output": "物品输出口",
+   "block.starcraft.stress_input": "应力输入口",
+   "block.starcraft.energy_input": "能量输入口",
+   "block.starcraft.hobbyist_mana_producer": "民科魔力生产机",
+
+   "starcraft.paimon_cyclone_miner": "超级派蒙旋风矿机 Lite",
+   "starcraft.paimon_cyclone_miner_pro_recipe": "超级派蒙旋风矿机 Pro",
+   "starcraft.botania_mana_producer": "民科生产"
+}
