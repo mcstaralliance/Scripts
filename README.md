@@ -32,7 +32,7 @@ FTB 全家桶 | 连锁挖掘 | 任务拓展 | PaimonFood | 自动钓鱼XPlus版 
 
 ### 仅安装在客户端的 Mod
 
-旅行地图 | 拾取提示 | Loot Beams: Relooted! | Jade | ModernFix | FPS Reducer | JEI 拼音搜索 | 输入法冲突修复 | CustomSkinLoader | I18N 汉化
+旅行地图 | 拾取提示 | Loot Beams: Relooted! | Jade | ModernFix | FPS Reducer | JEI 拼音搜索 | 输入法冲突修复 | CustomSkinLoader | I18N 汉化 | 通用拼音搜索
 
 
 
