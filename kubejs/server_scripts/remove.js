@@ -1,7 +1,11 @@
 // priority: 1
 
 const idToRemove = [
-
+    'botania:runic_altar/air',
+    'botania:runic_altar/earth',
+    'botania:runic_altar/fire',
+    'botania:runic_altar/water',
+    'botania:runic_altar/mana'
 ]
 
 const itemToBan = [
@@ -17,7 +21,8 @@ const itemToRemove = [
     'beyonddimensions:net_control',
     'beyonddimensions:net_interface',
     'beyonddimensions:net_pathway',
-    'create:sweet_roll'
+    'create:sweet_roll',
+    'botania:runic_altar'
 ]
 
 
@@ -33,8 +38,6 @@ ServerEvents.recipes(event => {
     for (let toBan of itemToBan){
         event.remove({ output: toBan })
     }
-
-    
 
     console.log("Remove items is done")
 })
