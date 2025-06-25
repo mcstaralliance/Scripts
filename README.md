@@ -4,11 +4,11 @@
 
 Minecraft 版本: 1.20.1 Forge
 
-## 模组列表 20250622V1 版
+## 模组列表 20250624V1 版
 
 ### 🚀 工业自动化
 
-工业升级 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | Create Crafts & Additions | 机械动力：实用物品 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生 | 末影接口 | 资源蜜蜂 
+工业先锋 | 工业先锋：灵魂 |  工业先锋：更多升级 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | Create Crafts & Additions | 机械动力：实用物品 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生 | 末影接口 | 资源蜜蜂 
 
 ------
 
@@ -26,13 +26,13 @@ Minecraft 版本: 1.20.1 Forge
 
 ### 📦 特色玩法扩展
 
-FTB 全家桶 | 连锁挖掘 | 任务拓展 | PaimonFood | 自动钓鱼XPlus版 | MBD2 | KubeJS | 真实物理（仅美观效果）| 高级透视 | 建筑手杖 | 无中生有：神赐 | Ex Machinis: Divitiae Deorum | 跳舞树成长
+FTB 全家桶 | 连锁挖掘 | 任务拓展 | PaimonFood | 自动钓鱼XPlus版 | MBD2 | KubeJS | 方块合成 | 真实物理（仅美观效果）| 高级透视 | 建筑手杖 | 无中生有：神赐 | Ex Machinis: Divitiae Deorum | 跳舞树成长
 
 ---
 
 ### 仅安装在客户端的 Mod
 
-旅行地图 | 拾取提示 | Loot Beams: Relooted! | Jade | ModernFix | FPS Reducer | JEI 拼音搜索 | 输入法冲突修复 | CustomSkinLoader | I18N 汉化 | 通用拼音搜索
+旅行地图 | 拾取提示 | Jade | ModernFix | FPS Reducer | JEI 拼音搜索 | 输入法冲突修复 | 万用皮肤补丁
 
 
 
