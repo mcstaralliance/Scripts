@@ -22,6 +22,8 @@ StartupEvents.registry('item', event => {
     event.create("starcraft_advancedcoin").rarity("uncommon").tooltip(Component.gray("面值: 600"));
     event.create("starcraft_ultracoin").rarity("rare").tooltip(Component.gray("面值: 1200"));
     event.create("key").rarity("epic");
+    event.create("starcraft:rune_blank");
+    event.create("starcraft:twilightforest_potral_item");
 })
 
 // fluid registry
