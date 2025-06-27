@@ -1,0 +1,6 @@
+{
+  "type": "ars_nouveau:budding_conversion",
+  "id": "ars_nouveau:flawless_budding_quartz",
+  "input": "ae2:quartz_block",
+  "result": "ae2:flawless_budding_quartz"
+}
