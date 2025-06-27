@@ -8,13 +8,13 @@ Minecraft 版本: 1.20.1 Forge
 
 ### 🚀 工业自动化
 
-工业先锋 | 工业先锋：灵魂 |  工业先锋：更多升级 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | Create Crafts & Additions | 机械动力：实用物品 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生 | 末影接口 | 资源蜜蜂 
+工业先锋 | 工业先锋：灵魂 |  工业先锋：更多升级 | 模块化路由器 | 通用机械 | 通用机械发电机 | 机械动力6 | Create Crafts & Additions | 机械动力：实用物品 | 应用能源2 | Modern AE2 Additions | AE2NetworkAnalyzer | ExtendedAE  | MEGACells | ME Requester | AE2无线终端 | 封包合成 | 功能性存储 | 超级工厂管理 | 热力系列 | Pipez | 通量网络 | Actually Subtractions | 气动工艺 | 压缩动力 | XyCraft: Machines | 无尽贪婪：重生 | 末影接口 | 资源蜜蜂 | XNet
 
 ------
 
 ### 🔮 魔法大冒险
 
-神秘学 | 生活调味料：胡萝卜版 | 新生魔艺 | 植物魔法 | 额外植物学：重燃 | 植物机械 | 永恒常春藤：重生 | 自然灵气 | Theurgy | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋 | 拔刀剑日系附属包 | 邪恶工艺 | 葡园酒香
+神秘学 | 生活调味料：胡萝卜版 | 新生魔艺 | 植物魔法 | 额外植物学：重燃 | 植物机械 | 永恒常春藤：重生 | 自然灵气 | 暮色森林 | 永恒枪械工坊 | 拔刀剑：重锋 | 拔刀剑日系附属包 | 邪恶工艺 | 葡园酒香
 
 ------
 
