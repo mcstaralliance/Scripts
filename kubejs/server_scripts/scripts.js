@@ -9,7 +9,9 @@ ServerEvents.recipes(event => {
     event.shapeless('2x botania:rune_fire', ['starcraft:rune_blank', 'minecraft:crying_obsidian', 'minecraft:gunpowder', 'minecraft:blaze_powder'])
     event.shapeless('2x botania:rune_earth', ['starcraft:rune_blank', 'minecraft:dirt', 'minecraft:sand', 'minecraft:gravel'])
     event.shapeless('2x botania:rune_air', ['starcraft:rune_blank', '#minecraft:flowers', 'minecraft:grass', 'minecraft:bone_meal'])
-    
+    event.shapeless(Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:overworld"}'), [Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:other"}'), '#minecraft:flowers'])
+
+    // 生物笼
     event.shaped('cagedmobs:mob_cage', [
         'AAA',
         'ABA',
@@ -20,7 +22,7 @@ ServerEvents.recipes(event => {
         'C': 'pneumaticcraft:compressed_iron_block',
         'D': 'compressedcreativity:compressed_iron_casing'
     })
-
+    // 网络控制器
     event.shaped('beyonddimensions:net_control',[
         'ABA',
         'CDC',
@@ -32,6 +34,7 @@ ServerEvents.recipes(event => {
         D: 'beyonddimensions:space_time_stable_frame'
     })
 
+    // 网络接口
     event.shaped('beyonddimensions:net_interface',[
         'ABA',
         'CDC',
@@ -42,7 +45,7 @@ ServerEvents.recipes(event => {
         C: 'ae2:interface',
         D: 'beyonddimensions:space_time_stable_frame'
     })
-
+    // 维度网络通道
     event.shaped('beyonddimensions:net_pathway', [
         'ABA',
         'CDC',
@@ -53,7 +56,8 @@ ServerEvents.recipes(event => {
         C: 'botania:ender_eye_block',
         D: '#ae2:p2p_attunements/item_p2p_tunnel'
     })
-
+    
+    // 空白符文
     event.shaped('6x starcraft:rune_blank',[
         'AAA',
         'ABA',
@@ -63,6 +67,7 @@ ServerEvents.recipes(event => {
         B: 'occultism:chalk_white'
     }).damageIngredient('occultism:chalk_white')
 
+    // 魔力符文
     event.shaped('2x botania:rune_mana',[
         'AAA',
         'ABA',
@@ -72,6 +77,7 @@ ServerEvents.recipes(event => {
         B: 'starcraft:rune_blank'
     })
 
+    // 环境储存器
     event.shaped('evilcraft:environmental_accumulator',[
         'ABA',
         'CDC',
@@ -83,6 +89,7 @@ ServerEvents.recipes(event => {
         D: 'naturesaura:gold_powder'
     })
 
+    // 暮色森林传送水晶
     event.shaped('starcraft:twilightforest_potral_item',[
         'ABA',
         'ACA',
@@ -94,6 +101,7 @@ ServerEvents.recipes(event => {
         D: 'occultism:spirit_lantern'
     })
     
+    // 魔法祭坛
     event.shaped('botania:runic_altar',[
         'ABA',
         'COD',
@@ -107,6 +115,147 @@ ServerEvents.recipes(event => {
         F: 'botania:rune_air',
         G: 'botania:rune_mana',
         O: 'kubejs:starcraft_advancedcoin'
+    })
+
+    // 模块化路由器
+    event.shaped('2x modularrouters:modular_router',[
+        'FAF',
+        'BCD',
+        'FEF'
+    ],{
+        A: 'actuallyadditions:phantom_itemface',
+        B: 'actuallyadditions:phantom_liquiface',
+        C: 'actuallyadditions:player_interface',
+        D: 'actuallyadditions:phantom_energyface',
+        E: '#forge:chests',
+        F: 'mekanism:enriched_iron'
+    })
+
+    // 钢制机壳
+    event.shaped('mekanism:steel_casing',[
+        'ABA',
+        'CDC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:void_crystal',
+        B: '#forge:ingots/steel',
+        C: 'mekanism:advanced_control_circuit',
+        D: 'industrialforegoing:machine_frame_simple',
+    })
+
+    // 水槽
+    event.shaped('cookingforblockheads:sink',[
+        'ABA',
+        'BCB',
+        'ABA'
+    ],{
+        A: '#minecraft:terracotta',
+        B: 'kubejs:starcraft_ultracoin',
+        C: 'naturesaura:spring'
+    })
+
+    // 永恒水方块
+    event.shaped('2x evilcraft:eternal_water', [
+        ' A ',
+        'BCB',
+        ' D '
+    ],{
+        A: 'evilcraft:bucket_eternal_water',
+        B: 'actuallyadditions:phantom_liquiface',
+        C: 'cookingforblockheads:sink',
+        D: 'evilcraft:lightning_grenade'
+    })
+
+    // 造石机
+    event.shaped('thermal:device_rock_gen', [
+        'AAA',
+        'BCB',
+        'DDD'
+    ],{
+        A: 'minecraft:obsidian',
+        B: 'xycraft_machines:extractor',
+        C: 'thermal:machine_frame',
+        D: 'minecraft:smooth_stone'
+    })
+
+    // pipez 流体管道
+    event.shaped('12x pipez:fluid_pipe', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],{
+        A: 'minecraft:lapis_lazuli',
+        B: 'minecraft:iron_ingot',
+        C: 'minecraft:bucket',
+        D: 'minecraft:redstone_block'
+    })
+
+    // pipez 物品管道
+    event.shaped('12x pipez:item_pipe', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],{
+        A: 'mekanism:enriched_iron',
+        B: 'minecraft:iron_ingot',
+        C: 'minecraft:dropper',
+        D: 'minecraft:redstone_block'
+    })
+
+    // 基础机械管道
+    event.shaped('6x mekanism:basic_mechanical_pipe', [
+        'ABA',
+        'CBC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:palis_crystal',
+        B: 'pipez:fluid_pipe',
+        C: 'mekanism:enriched_iron'
+    })
+
+    // 基础物流管道
+        event.shaped('6x mekanism:basic_logistical_transporter', [
+        'ABA',
+        'CBC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:enori_crystal',
+        B: 'pipez:item_pipe',
+        C: 'mekanism:enriched_iron'
+    })
+
+    // 基础加压管道
+    event.shaped('6x mekanism:basic_pressurized_tube', [
+        'ABA',
+        'CBC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:emeradic_crystal',
+        B: 'pipez:gas_pipe',
+        C: 'mekanism:enriched_iron'
+    })
+
+    // 基础通用线缆
+    event.shaped('6x mekanism:basic_universal_cable', [
+        'ABA',
+        'CBC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:restonia_crystal',
+        B: 'pipez:energy_pipe',
+        C: 'mekanism:enriched_iron'
+    })
+    
+    // 热力机器框架
+    event.shaped('thermal:machine_frame', [
+        'ABA',
+        'CDC',
+        'ABA'
+    ],{
+        A: 'actuallyadditions:enori_crystal',
+        B: 'actuallyadditions:restonia_crystal',
+        C: 'minecraft:glass',
+        D: '#forge:gears/tin'
     })
 })
 
