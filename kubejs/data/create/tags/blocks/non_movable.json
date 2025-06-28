@@ -1,0 +1,204 @@
+{
+  "values": [
+    {
+      "id": "immersiveengineering:connector_lv",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_lv_relay",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_mv",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_mv_relay",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_hv",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_hv_relay",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_bundled",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_structural",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_redstone",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:connector_probe",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:breaker_switch",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:oak_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:oak_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:oak_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:acacia_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:acacia_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:acacia_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:spruce_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:spruce_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:spruce_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:birch_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:birch_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:birch_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:jungle_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:jungle_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:jungle_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:dark_oak_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:dark_oak_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:dark_oak_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:warped_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:warped_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:warped_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:crimson_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:crimson_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:crimson_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:mangrove_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:mangrove_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:mangrove_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:cherry_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:cherry_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:cherry_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:framed_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:framed_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:framed_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:fluid_1",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:fluid_2",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:fluid_4",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:simple_compacting_drawer",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:compacting_drawer",
+      "required": false
+    },
+    {
+      "id": "functionalstorage:ender_drawer",
+      "required": false
+    }
+  ]
+}
