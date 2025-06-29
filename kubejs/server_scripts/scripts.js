@@ -257,6 +257,15 @@ ServerEvents.recipes(event => {
         C: 'minecraft:glass',
         D: '#forge:gears/tin'
     })
+
+    // 铝矿物
+    event.shaped('xycraft_world:aluminum_ore_stone', [
+        'AA ',
+        'AA ',
+        '   '
+    ],{
+        A: 'exdeorum:aluminum_ore_chunk'
+    })
 })
 
 
