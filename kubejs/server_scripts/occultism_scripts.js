@@ -5,10 +5,15 @@ ServerEvents.recipes((event) => {
         'beyonddimensions:unstable_space_time_fragment',
         'occultism:craft_marid'
     )
+    event.recipes.occultism.ritual(
+        'create:creative_blaze_cake',
+        ['extrabotany:orichalcos_ingot', 'occultism:iesnium_block', 'industrialforegoing:pink_slime_ingot', 'evilcraft:promise_acceptor_diamond'],
+        'create:blaze_cake',
+        'occultism:craft_marid'
+    )
 
     event.recipes.occultism.spirit_fire('minecraft:crying_obsidian', 'minecraft:obsidian')
     event.recipes.occultism.spirit_fire('evilcraft:dark_gem', 'minecraft:flint')
-    event.recipes.occultism.spirit_fire('occultism:otherworld_log', '#minecraft:logs')
     event.recipes.occultism.spirit_fire('minecraft:raw_iron', 'minecraft:iron_block')
     event.recipes.occultism.spirit_fire('minecraft:raw_gold', 'minecraft:gold_block')
     event.recipes.occultism.spirit_fire('thermal:raw_silver', 'thermal:silver_block')

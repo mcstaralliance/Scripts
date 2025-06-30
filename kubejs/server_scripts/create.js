@@ -22,3 +22,7 @@ ServerEvents.recipes(event => {
     )
     .transitionalItem("starcraft:incomplete_paimon_sword").loops(2)
 })
+
+ServerEvents.recipes(event => {
+    event.recipes.create.haunting('actuallyadditions:black_quartz', '#forge:gems/quartz')
+})

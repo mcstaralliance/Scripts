@@ -1,15 +1,20 @@
 // priority: 1
 
+const itemToBan = [
+    'create:schematicannon',
+    'torcherino:torcherino',
+    'torcherino:compressed_torcherino',
+    'torcherino:double_compressed_torcherino'
+]
+
 const idToRemove = [
     'botania:runic_altar/air',
     'botania:runic_altar/earth',
     'botania:runic_altar/fire',
     'botania:runic_altar/water',
-    'botania:runic_altar/mana'
-]
-
-const itemToBan = [
-    'create:schematicannon'
+    'botania:runic_altar/mana',
+    'evilcraft:crafting/weather_container_lightning',
+    'evilcraft:crafting/weather_container_rain'
 ]
 
 const itemToRemove = [
@@ -22,7 +27,19 @@ const itemToRemove = [
     'beyonddimensions:net_interface',
     'beyonddimensions:net_pathway',
     'create:sweet_roll',
-    'botania:runic_altar'
+    'botania:runic_altar',
+    'modularrouters:modular_router',
+    'mekanism:steel_casing',
+    'cookingforblockheads:sink',
+    'evilcraft:eternal_water',
+    'thermal:device_rock_gen',
+    'pipez:fluid_pipe',
+    'pipez:item_pipe',
+    'mekanism:basic_mechanical_pipe',
+    'mekanism:basic_logistical_transporter',
+    'mekanism:basic_universal_cable',
+    'mekanism:basic_pressurized_tube',
+    'thermal:machine_frame'
 ]
 
 

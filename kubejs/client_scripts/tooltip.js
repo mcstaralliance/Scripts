@@ -1,7 +1,10 @@
 // priority: 0
 
 const itemToBan = [
-    'create:schematicannon'
+    'create:schematicannon',
+    'torcherino:torcherino',
+    'torcherino:compressed_torcherino',
+    'torcherino:double_compressed_torcherino'
 ]
 
 ItemEvents.tooltip(tooltip => {
