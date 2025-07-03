@@ -4,7 +4,23 @@ const itemToBan = [
     'create:schematicannon',
     'torcherino:torcherino',
     'torcherino:compressed_torcherino',
-    'torcherino:double_compressed_torcherino'
+    'torcherino:double_compressed_torcherino',
+    'ars_nouveau:glyph_phantom_block',
+    'ars_nouveau:glyph_place_block',
+    'ars_nouveau:glyph_wall',
+    'ars_nouveau:glyph_intangible',
+    'mekanism:robit',
+    'mekanism:upgrade_anchor',
+    'pneumaticcraft:chunkloader_upgrade',
+    'evilcraft:lightning_bomb',
+    'industrialforegoing:enchantment_applicator',
+    'ae2:matter_cannon',
+    'twilightforest:uncrafting_table',
+    'ifeu:time_controller',
+    'ifeu:rule_controller',
+    'create:mechanical_plough',
+    'create:mechanical_drill',
+    'create:mechanical_roller'
 ]
 
 const idToRemove = [

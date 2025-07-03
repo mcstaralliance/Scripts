@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": [
+    {
+      "fluid": "evilcraft:blood",
+      "amount": 750
+    }
+  ],
+  "energy": 10000
+}

@@ -26,3 +26,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     event.recipes.create.haunting('actuallyadditions:black_quartz', '#forge:gems/quartz')
 })
+
+ServerEvents.recipes(event => {
+  event.recipes.create.emptying([Fluid.of('evilcraft:blood',250), 'evilcraft:hardened_blood_shard'], 'minecraft:rotten_flesh')
+})
