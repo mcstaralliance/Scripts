@@ -24,6 +24,7 @@ StartupEvents.registry('item', event => {
     event.create("key").rarity("epic");
     event.create("starcraft:rune_blank");
     event.create("starcraft:twilightforest_potral_item");
+    event.create("starcraft:beehive_frame");
 })
 
 // fluid registry

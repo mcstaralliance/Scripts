@@ -266,6 +266,25 @@ ServerEvents.recipes(event => {
     ],{
         A: 'exdeorum:aluminum_ore_chunk'
     })
+    //蜂箱框架
+    event.shaped('starcraft:beehive_frame',[
+        'AAA',
+        'BCB',
+        'AAA'
+    ],{
+        A:'minecraft:stick',
+        B:'minecraft:string',
+        C:'minecraft:slime_ball'
+    })
+    //蜂箱
+    event.shaped('minecraft:beehive',[
+        'AAA',
+        'BBB',
+        'AAA'
+    ],{
+        A:'#minecraft:planks',
+        B:'starcraft:beehive_frame'
+    })
 })
 
 
