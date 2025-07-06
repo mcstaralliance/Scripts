@@ -1,11 +1,11 @@
 
 const stackWithProbability = [
-   /* 19周目的物品待添加
-    newItem('starcraft:paimon_miner_lite', 0.01),
-    newItem('chunkloaders:single_chunk_loader', 0.01),
-    newItem(Item.of('avaritia:infinity_armor_chestplate', '{Damage:0}'), 0.02),
-    newItem(Item.of('avaritia:infinity_armor_leggings', '{Damage:0}'), 0.02),
-    newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.02),
+    newItem('starcraft:paimon_miner_lite', 0.1),
+    newItem('torcherino:torcherino', 0.09),
+    newItem('chunkloaders:single_chunk_loader', 0.12),
+    newItem(Item.of('avaritia:infinity_armor_chestplate', '{Damage:0}'), 0.13),
+    newItem(Item.of('avaritia:infinity_armor_leggings', '{Damage:0}'), 0.14),
+    newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.15),
     newItem('botania:creative_pool', 0.03),
     newItem('create:creative_blaze_cake', 0.03),
     newItem('mekanism:mekasuit_helmet', 0.05),
@@ -24,11 +24,10 @@ const stackWithProbability = [
     newItem('32x minecraft:enchanted_golden_apple',0.35),
     newItem('32x minecraft:nether_star', 0.40),
     newItem('ars_nouveau:archmage_spell_book', 0.45),
-    newItem('paimon:paimonmedal', 0.50),
     newItem('paimonfood:paimon_sword', 0.51),
     newItem('16x paimonfood:paimon', 0.52),
-    newItem('64x create:experience_nugget', 1),
-    */
+    newItem('64x create:experience_nugget', 0.8),
+    
 ];
 
 BlockEvents.rightClicked('custom_chest', event => {

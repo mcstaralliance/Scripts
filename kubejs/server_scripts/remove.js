@@ -57,8 +57,12 @@ const itemToRemove = [
     'mekanism:basic_pressurized_tube',
     'thermal:machine_frame',
     Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
-    Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}')
-
+    Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
+    'naturesaura:chunk_loader',
+    'chunkloaders:single_chunk_loader',
+    'chunkloaders:basic_chunk_loader',
+    'chunkloaders:advanced_chunk_loader',
+    'chunkloaders:ultimate_chunk_loader'
 ]
 
 
