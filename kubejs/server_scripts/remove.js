@@ -55,7 +55,10 @@ const itemToRemove = [
     'mekanism:basic_logistical_transporter',
     'mekanism:basic_universal_cable',
     'mekanism:basic_pressurized_tube',
-    'thermal:machine_frame'
+    'thermal:machine_frame',
+    Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
+    Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}')
+
 ]
 
 

@@ -2,9 +2,6 @@
 
 const itemToBan = [
     'create:schematicannon',
-    'torcherino:torcherino',
-    'torcherino:compressed_torcherino',
-    'torcherino:double_compressed_torcherino',
     'ars_nouveau:glyph_phantom_block',
     'ars_nouveau:glyph_place_block',
     'ars_nouveau:glyph_wall',
