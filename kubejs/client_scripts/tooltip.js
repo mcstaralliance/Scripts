@@ -17,7 +17,15 @@ const itemToBan = [
     'ifeu:rule_controller',
     'create:mechanical_plough',
     'create:mechanical_drill',
-    'create:mechanical_roller'
+    'create:mechanical_roller',
+    'mekanism:cardboard_box',
+    'botania:terraform_rod',
+    'ifeu:blueprint',
+    'beachparty:message_in_a_bottle',
+    'botania:laputa_shard',
+    'tconstruct:efln_ball',
+    'botania:rannuncarpus',
+    'botania:rannuncarpus_chibi'
 ]
 
 ItemEvents.tooltip(tooltip => {
