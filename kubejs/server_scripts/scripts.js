@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     event.shapeless('2x botania:rune_fire', ['starcraft:rune_blank', 'minecraft:crying_obsidian', 'minecraft:gunpowder', 'minecraft:blaze_powder'])
     event.shapeless('2x botania:rune_earth', ['starcraft:rune_blank', 'minecraft:dirt', 'minecraft:sand', 'minecraft:gravel'])
     event.shapeless('2x botania:rune_air', ['starcraft:rune_blank', '#minecraft:flowers', 'minecraft:grass', 'minecraft:bone_meal'])
-    event.shapeless(Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:overworld"}'), [Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:other"}'), '#minecraft:flowers'])
+    event.shapeless('starcraft:stress_input', ['createaddition:electric_motor']);
 
     // 生物笼
     event.shaped('cagedmobs:mob_cage', [
@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
     ],{
         A: 'botania:livingwood',
         B: 'evilcraft:dark_block',
-        C: Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:other"}'),
+        C: 'enderio:grains_of_infinity',
         D: 'naturesaura:gold_powder'
     })
 
@@ -266,6 +266,7 @@ ServerEvents.recipes(event => {
     ],{
         A: 'exdeorum:aluminum_ore_chunk'
     })
+
     //蜂箱框架
     event.shaped('starcraft:beehive_frame',[
         'AAA',
@@ -276,6 +277,7 @@ ServerEvents.recipes(event => {
         B:'minecraft:string',
         C:'minecraft:slime_ball'
     })
+
     //蜂箱
     event.shaped('minecraft:beehive',[
         'AAA',
@@ -285,6 +287,37 @@ ServerEvents.recipes(event => {
         A:'#minecraft:planks',
         B:'starcraft:beehive_frame'
     })
+
+    // 物品输入口
+    event.shaped('starcraft:item_input', [
+        "ABA",
+        "ACA",
+        "AAA"
+    ],{
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:dispenser',
+            C: 'minecraft:hopper'    
+    })
+
+    // 物品输出口
+    event.shaped('starcraft:item_output', [
+        "AAA",
+        "ABA",
+        "ACA"
+    ],{
+            A: 'minecraft:iron_ingot',
+            B: 'minecraft:dispenser',
+            C: 'minecraft:hopper'
+    })
+
+    // 魔力输出口
+    event.shaped('starcraft:mana_output', [
+        "AAA",
+        "ABA",
+        "ACA"
+    ],{
+        A: 'minecraft:lapis_block',
+        B: 'botania:elven_spreader',
+        C: 'botania:mana_pylon'
+    })
 })
-
-
