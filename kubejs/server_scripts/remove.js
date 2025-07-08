@@ -20,7 +20,13 @@ const itemToBan = [
     'ifeu:rule_controller',
     'create:mechanical_plough',
     'create:mechanical_drill',
-    'create:mechanical_roller'
+    'create:mechanical_roller',
+    'mekanism:cardboard_box',
+    'botania:terraform_rod',
+    'ifeu:blueprint',
+    'beachparty:message_in_a_bottle',
+    'botania:laputa_shard',
+    'tconstruct:efln_ball'
 ]
 
 const idToRemove = [
@@ -30,7 +36,9 @@ const idToRemove = [
     'botania:runic_altar/water',
     'botania:runic_altar/mana',
     'evilcraft:crafting/weather_container_lightning',
-    'evilcraft:crafting/weather_container_rain'
+    'evilcraft:crafting/weather_container_rain',
+    'botania:mana_infusion/rannuncarpus_chibi',
+    'botania:petal_apothecary/rannuncarpus'
 ]
 
 const itemToRemove = [
