@@ -30,3 +30,6 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
   event.recipes.create.emptying([Fluid.of('evilcraft:blood',250), 'evilcraft:hardened_blood_shard'], 'minecraft:rotten_flesh')
 })
+ServerEvents.recipes(event => {
+    event.recipes.create.milling('2x evilcraft:dark_gem_crushed','evilcraft:dark_gem')
+})
