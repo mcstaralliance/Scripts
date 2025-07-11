@@ -1,23 +1,22 @@
-
 const stackWithProbability = [
-    newItem('starcraft:paimon_miner_lite', 0.1),
-    newItem('torcherino:torcherino', 0.09),
-    newItem('chunkloaders:single_chunk_loader', 0.12),
-    newItem(Item.of('avaritia:infinity_armor_chestplate', '{Damage:0}'), 0.13),
-    newItem(Item.of('avaritia:infinity_armor_leggings', '{Damage:0}'), 0.14),
-    newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.15),
     newItem('botania:creative_pool', 0.03),
-    newItem('create:creative_blaze_cake', 0.03),
+    newItem('create:creative_blaze_cake', 0.04),
     newItem('mekanism:mekasuit_helmet', 0.05),
     newItem('mekanism:mekasuit_bodyarmor', 0.06),
     newItem('mekanism:mekasuit_pants', 0.07),
     newItem('mekanism:mekasuit_boots', 0.08),
-    newItem(Item.of('avaritia:infinity_armor_boots', '{Damage:0}'), 0.09),
-    newItem('avaritia:infinity_catalyst', 0.1),
-    newItem('8x avaritia:ultimate_stew', 0.15),
-    newItem('16x avaritia:cosmic_meatballs', 0.16),
-    newItem(Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'), 0.20),
-    newItem('ae2:item_storage_cell_256k', 0.20),
+    newItem('torcherino:torcherino', 0.08),
+    newItem('avaritia:infinity_boots', 0.09),
+    newItem('starcraft:paimon_miner_lite', 0.10),
+    newItem('chunkloaders:single_chunk_loader', 0.12),
+    newItem('avaritia:infinity_chestplate', 0.13),
+    newItem('avaritia:infinity_pants', 0.14),
+    newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.15),
+    newItem('8x avaritia:ultimate_stew', 0.16),
+    newItem('16x avaritia:cosmic_meatballs', 0.17),
+    newItem(Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'), 0.19),
+    newItem('ae2:item_storage_cell_256k', 0.22),
+    newItem('avaritia:infinity_catalyst', 0.24),
     newItem('4x kubejs:custom_chest', 0.25),
     newItem('fluxnetworks:gargantuan_flux_storage', 0.27),
     newItem('fluxnetworks:herculean_flux_storage', 0.30),
@@ -26,9 +25,8 @@ const stackWithProbability = [
     newItem('ars_nouveau:archmage_spell_book', 0.45),
     newItem('paimonfood:paimon_sword', 0.51),
     newItem('16x paimonfood:paimon', 0.52),
-    newItem('64x create:experience_nugget', 0.8),
-    
-];
+    newItem('64x create:experience_nugget', 1)
+]
 
 BlockEvents.rightClicked('custom_chest', event => {
     let block = event.getBlock();
