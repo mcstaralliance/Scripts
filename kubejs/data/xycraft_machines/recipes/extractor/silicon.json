@@ -1,0 +1,20 @@
+{
+  "type": "xycraft_machines:extractor",
+  "item_result": {
+    "Count": 1,
+    "id": "ae2:silicon"
+  },
+  "target": {
+    "block": "expatternprovider:silicon_block",
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "ticks": 60,
+  "valid_directions": [
+    "down",
+    "up",
+    "north",
+    "south",
+    "west",
+    "east"
+  ]
+}

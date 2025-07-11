@@ -25,12 +25,14 @@ const itemToBan = [
     'botania:laputa_shard',
     'tconstruct:efln_ball',
     'botania:rannuncarpus',
-    'botania:rannuncarpus_chibi'
+    'botania:rannuncarpus_chibi',
+    'industrialforegoing:material_stonework_factory'
 ]
 
 ItemEvents.tooltip(tooltip => {
     
     tooltip.add("starcraft:milk_bread","众所周知，甜品可任意无限量的吃")
+    tooltip.add('occultism:tallow',['也许你可以选择使用转化粉将暮色的生物变成原版的生物'])
 
     for (let addTooltipForBan of itemToBan) {
         tooltip.addAdvanced(addTooltipForBan, (item, advanced, text) => {

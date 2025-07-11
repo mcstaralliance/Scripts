@@ -320,4 +320,32 @@ ServerEvents.recipes(event => {
         B: 'botania:elven_spreader',
         C: 'botania:mana_pylon'
     })
+    //转化粉
+    event.shaped('16x twilightforest:transformation_powder',[
+        "ABA",
+        "BCB",
+        "DBD"
+    
+    ],{
+        A:'twilightforest:twilight_oak_leaves',
+        B:'twilightforest:borer_essence',
+        C:'twilightforest:torchberries',
+        D:'twilightforest:canopy_leaves'
+    })
+    //蜂巢头盔
+    event.shaped('productivebees:bee_nest_diamond_helmet',[
+        "AB"
+    ],{
+        A:'minecraft:diamond_helmet',
+        B:'minecraft:beehive'
+    })
+    //钟
+    event.shaped('minecraft:bell',[
+        "AAA",
+        "B B",
+        "B B"
+    ],{
+        A:'#minecraft:planks',
+        B:'minecraft:gold_ingot'
+    })
 })

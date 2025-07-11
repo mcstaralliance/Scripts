@@ -26,7 +26,8 @@ const itemToBan = [
     'ifeu:blueprint',
     'beachparty:message_in_a_bottle',
     'botania:laputa_shard',
-    'tconstruct:efln_ball'
+    'tconstruct:efln_ball',
+    'industrialforegoing:material_stonework_factory'
 ]
 
 const idToRemove = [
@@ -70,7 +71,8 @@ const itemToRemove = [
     'chunkloaders:single_chunk_loader',
     'chunkloaders:basic_chunk_loader',
     'chunkloaders:advanced_chunk_loader',
-    'chunkloaders:ultimate_chunk_loader'
+    'chunkloaders:ultimate_chunk_loader',
+    'industrialforegoing:material_stonework_factory'
 ]
 
 
