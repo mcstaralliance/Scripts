@@ -27,7 +27,8 @@ const itemToBan = [
     'beachparty:message_in_a_bottle',
     'botania:laputa_shard',
     'tconstruct:efln_ball',
-    'industrialforegoing:material_stonework_factory'
+    'industrialforegoing:material_stonework_factory',
+    'mekanism:creative_bin'
 ]
 
 const idToRemove = [
