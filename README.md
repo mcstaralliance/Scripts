@@ -8,7 +8,7 @@ Minecraft 版本: 1.20.1 Forge
 
 ## 科技类
 
-工业升级 | 应用能源2 | AdvancedAE | ExtendedAE | ExtendedAE Plus | AE2 Network Analyser | 封包合成 | 封包无尽贪婪 | 封包龙之研究 | 超越维度 | Roost Ultimate | 工业先锋 | 通用机械 | 通用机械发电机 | 通用机械工具 | 沉浸工程 | 沉浸科技 | 龙之研究 | 无尽贪婪 | 功能性存储 | 植物盆栽 | 笼中生物 | 通量网络
+工业升级 | 应用能源2 | AdvancedAE | ExtendedAE | ExtendedAE Plus | AE2 Network Analyser | 封包合成 | 封包无尽贪婪 | 封包龙之研究 | 超越维度 | Roost Ultimate | 工业先锋 | 通用机械 | 通用机械发电机 | 通用机械工具 | 沉浸工程 | 沉浸科技 | 龙之研究 | 无尽贪婪 | 功能性存储 | 植物盆栽 | 笼中生物 | 通量网络 | 集成动力
 
 
 ## 魔法类
@@ -25,5 +25,5 @@ Minecraft 版本: 1.20.1 Forge
 
 ## 客户端优化
 
-输入法修复 | JEI 拼音搜索 | Jade | Jade Addons | 退出二次确认 | 鼠标手势 | ModernFix | FPS Reducer | FerriteCore | FastWorkbench
+输入法修复 | JEI 拼音搜索 | Jade | Jade Addons | 退出二次确认 | 鼠标手势 | ModernFix | FPS Reducer | FerriteCore | FastWorkbench  | 多态合成
 
