@@ -1,6 +1,6 @@
 # 星域联盟 Scripts 公开仓库
 
-通过 ZenScript 和 JavaScript 修改 Minecraft 物品配方等，基于 CraftTweaker 1.12.2 和 KubeJS 1.18.2。
+通过 ZenScript 和 JavaScript 修改 Minecraft 物品配方等，基于 CraftTweaker 1.12.2 和 KubeJS 1.18.2 及 1.20.1。
 
 ![](https://img.shields.io/badge/license-Apache--2.0-orange)
 
