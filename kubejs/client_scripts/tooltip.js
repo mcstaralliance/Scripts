@@ -12,7 +12,6 @@ const itemToBan = [
     'ae2:matter_cannon',
     'mekanism:cardboard_box',
     'botania:terraform_rod',
-    'beachparty:message_in_a_bottle',
     'botania:laputa_shard',
     'tconstruct:efln_ball',
     'botania:rannuncarpus',
@@ -22,6 +21,9 @@ const itemToBan = [
 ItemEvents.tooltip(tooltip => {
     
     tooltip.add("starcraft:milk_bread","众所周知，甜品可任意无限量的吃")
+    tooltip.add("ae2:flawless_budding_quartz", "星域世界赋予它能够被合成的特性")
+    tooltip.add("kubejs:custom_chest", "可到点券商城购买奇珍之匙开箱，放置到地上使用奇珍之匙右键即可")
+    tooltip.add("kubejs:custom_chest", "内含：加速火把，派蒙矿机，无尽装备，MEK装备等稀有物品")
 
     for (let addTooltipForBan of itemToBan) {
         tooltip.addAdvanced(addTooltipForBan, (item, advanced, text) => {
@@ -33,7 +35,4 @@ ItemEvents.tooltip(tooltip => {
         })}
 })
 
-// JEI 
-JEIEvents.information(event => {
-    event.addItem('minecraft:beehive', ['如果橡树树苗、白桦树苗或樱花树苗水平2格范围内存在花、红树胎生苗、盛开的杜鹃花丛或盛开的杜鹃树叶，则该树苗长成的树会有 5% 的概率悬挂着蜂巢。'])
-})
+

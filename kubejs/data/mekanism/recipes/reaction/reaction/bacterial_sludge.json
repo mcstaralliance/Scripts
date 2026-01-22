@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 80,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "forestry:biomass"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "kubejs:bacteria"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "kubejs:bacterial_sludge"
+  },
+  "itemInput": {
+    "ingredient": {
+     "amount": 1,
+     "item": "mekanism:bio_fuel"
+    }
+  },
+  "itemOutput": {
+    "item": "starcraft:ammonia_rich_mixture"
+  }
+}

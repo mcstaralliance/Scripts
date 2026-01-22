@@ -1,0 +1,24 @@
+{
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "starcraft:dust_meat"
+    },
+    {
+      "item": "starcraft:dust_calcium"
+    },
+    {
+       "item":"starcraft:dust_agar"
+    },
+    {
+       "tag":"forge:salt"
+    }
+  ],
+  "inputFluid": "{Amount:1000,FluidName:\"starcraft:mutagen\"}",
+  "output": {
+    "count": 1,
+    "item": "starcraft:dust_collagen"
+  },
+  "outputFluid": "{Amount:1000,FluidName:\"starcraft:raw_growth_medium\"}",
+  "processingTime": 100
+}

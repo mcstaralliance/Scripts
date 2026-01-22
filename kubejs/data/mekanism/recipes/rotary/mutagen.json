@@ -1,0 +1,19 @@
+{
+    "type":"mekanism:rotary",
+    "fluidInput":{
+        "amount":1,
+        "fluid":"starcraft:mutagen"
+    },
+    "fluidOutput":{
+        "amount":1,
+        "fluid":"starcraft:mutagen"
+    },
+    "gasInput":{
+        "amount":1,
+        "gas":"kubejs:enriched_bacterial_sludge"
+    },
+    "gasOutput":{
+        "amount":1,
+        "gas":"kubejs:enriched_bacterial_sludge"
+    }
+}
