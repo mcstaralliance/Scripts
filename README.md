@@ -4,11 +4,11 @@
 
 Minecraft 版本: 1.20.1 Forge
 
-# 模组列表 20260117
+# 模组列表 20260122
 
 ## 科技类
 
-应用能源2 | AdvancedAE | ExtendedAE | ExtendedAE Plus | AE2 Network Analyser | 应用能源：通用机械附属 | 封包合成 | 封包无尽贪婪 | 封包龙之研究 | 超越维度 | Roost Ultimate（鸡窝） | 工业先锋 | More Industrial Foregoing Addons | 通用机械 | 通用机械发电机 | 通用机械工具 | 沉浸工程 | 沉浸科技 | 龙之研究 | 无尽贪婪 | 功能性存储 | 植物盆栽 | 笼中生物 | 通量网络 | 集成动力 | 林业 | BuildCraft | 末影接口 | MBD2
+应用能源2 | AdvancedAE | ExtendedAE | ExtendedAE Plus | AE2 Network Analyser | AE2无线终端 | 应用能源：通用机械附属 | 封包合成 | 封包无尽贪婪 | 封包龙之研究 | 超越维度 | Roost Ultimate（鸡窝） | 工业先锋 | More Industrial Foregoing Addons | 通用机械 | 通用机械发电机 | 通用机械工具 | 沉浸工程 | 沉浸科技 | 龙之研究 | 无尽贪婪 | 功能性存储 | 植物盆栽 | 笼中生物 | 通量网络 | 集成动力 | 集成管道 | 林业 | BuildCraft | 末影接口 | MBD2 | 模块化路由器
 
 
 ## 魔法类
@@ -21,7 +21,7 @@ Minecraft 版本: 1.20.1 Forge
 
 ## 实用类
 
-车万女仆 | 精妙背包 | 生物展示瓶 | 懒人厨房 | 星门之旅 | 农夫乐事| 下界乐事 | 末地乐事 | 玉米乐事 | 森罗物语：厨房 | 蟹农乐事 | FTB 全家桶 | FTB Materials | Connectivity | 建筑手杖 | Yes Steve Model | 更多箱子 | 加速火把 | 自然罗盘 | 探险者指南针 | 樱 | Easy NPC | 高级透视 | 连锁破坏 | 自动钓鱼
+车万女仆 | 精妙背包 | 生物展示瓶 | 懒人厨房 | 星门之旅 | 农夫乐事| 下界乐事 | 末地乐事 | 玉米乐事 | 森罗物语：厨房 | 蟹农乐事 | FTB 全家桶 | FTB Materials | Connectivity | 建筑手杖 | Yes Steve Model | 更多箱子 | 加速火把 | 自然罗盘 | 探险者指南针 | 樱 | Easy NPC | 高级透视 | 连锁破坏 | 自动钓鱼 | 区块加载器
 
 ## 客户端优化
 
