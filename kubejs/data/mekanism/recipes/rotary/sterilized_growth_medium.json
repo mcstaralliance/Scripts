@@ -1,0 +1,19 @@
+{
+    "type":"mekanism:rotary",
+    "fluidInput":{
+        "amount":1,
+        "fluid":"starcraft:raw_growth_medium"
+    },
+    "fluidOutput":{
+        "amount":1,
+        "fluid":"starcraft:raw_growth_medium"
+    },
+    "gasInput":{
+        "amount":1,
+        "gas":"kubejs:sterilized_growth_medium"
+    },
+    "gasOutput":{
+        "amount":1,
+        "gas":"kubejs:sterilized_growth_medium"
+    }
+}

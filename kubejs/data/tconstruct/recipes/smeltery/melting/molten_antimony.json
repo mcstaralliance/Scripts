@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "ftbmaterials:antimony_ingot"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "starcraft:molten_antimony_ingot"
+  },
+  "temperature": 1000,
+  "time": 90
+}

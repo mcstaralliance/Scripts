@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "starcraft:soldering_alloy"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "starcraft:molten_soldering_alloy"
+  },
+  "temperature": 1000,
+  "time": 90
+}

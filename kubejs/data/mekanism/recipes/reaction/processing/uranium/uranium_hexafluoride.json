@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 5,
+    "gas": "kubejs:uranium_tetrafluoride"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "ftbmaterials:fluorite"
+    }
+  },
+  "output": {
+    "amount": 1000,
+    "chemicalType": "gas",
+    "gas": "mekanism:uranium_hexafluoride"
+  }
+}

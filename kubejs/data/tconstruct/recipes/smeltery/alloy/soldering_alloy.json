@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "fluid": "starcraft:molten_antimony_ingot"
+    },
+    {
+      "amount": 810,
+      "tag": "forge:molten_tin"
+    }
+    ],
+  "result": {
+    "amount": 900,
+    "fluid": "starcraft:molten_soldering_alloy"
+  },
+  "temperature": 1000
+}
