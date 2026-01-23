@@ -1,0 +1,26 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 80,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "immersivetechnology:distilled_water"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanism:oxygen"
+  },
+  "gasOutput": {
+    "amount": 1000,
+    "gas": "kubejs:bacteria"
+  },
+  "itemInput": {
+    "ingredient": {
+     "amount": 4,
+     "item": "mekanism:bio_fuel"
+    }
+  },
+  "itemOutput": {
+    "count": 4,
+    "item": "minecraft:brown_mushroom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "forestry:royal_jelly"
+  },
+  "result": {
+    "amount": 250,
+    "fluid": "starcraft:royal_jelly"
+  },
+  "temperature": 1000,
+  "time": 90
+}

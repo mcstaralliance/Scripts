@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 1,
+    "gas": "mekanism:hydrogen"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "starcraft:ammonium_diuranate"
+    }
+  },
+  "output": {
+    "amount": 1000,
+    "chemicalType": "gas",
+    "gas": "mekanism:uranium_oxide"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "forestry:sturdy_machine"
+  },
+  "requiredMicroJoules": 500000000000,
+  "requiredStacks": [
+    {
+      "count": 8,
+      "ingredient": {
+        "tag": "forge:ingots/bronze"
+      }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"minecraft:minecart"
+        }
+    }
+  ],
+  "subType": "BASIC"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "forestry:fabricator",
+  "molten": {
+    "Amount": 500,
+    "FluidName": "forestry:glass"
+  },
+  "plan": [],
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": {
+        "item": "ae2:certus_quartz_dust"
+      },
+      "X": {
+        "item": "botania:mana_glass"
+      }
+    },
+    "pattern": [
+      "X#X",
+      "#X#",
+      "X#X"
+    ],
+    "result": {
+      "count": 4,
+      "item": "ae2:quartz_glass"
+    },
+    "show_notification": true
+  }
+}

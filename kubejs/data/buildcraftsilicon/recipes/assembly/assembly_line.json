@@ -1,0 +1,58 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "starcraft:assembly_line"
+  },
+  "requiredMicroJoules": 2000000000000,
+  "requiredStacks": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "kubejs:assembly_line"
+      }
+    },
+    {
+        "count": 8,
+        "ingredient":{
+         "item":"mekanism:ultimate_control_circuit"
+        }
+    },
+    {
+        "count": 4,
+        "ingredient":{
+         "item":"starcraft:stem_cells"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"mekanism:pellet_antimatter"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"industrialforegoing:machine_frame_supreme"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"botania:gaia_ingot"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"occultism:storage_stabilizer_tier4"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"ars_nouveau:wilden_tribute"
+        }
+    }
+  ],
+  "subType": "BASIC"
+}
