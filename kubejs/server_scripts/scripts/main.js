@@ -777,6 +777,178 @@ ServerEvents.recipes(event => {
         D:'ae2:quantum_link',
         E:'ae2:energy_acceptor'
     })
-    // TODO 龙之进化，魔力，龙钢锻造，星门，AE ，产血装置 神经元电路，生物线衍生产品 多方块控制器
+
+    // 鸡舍
+    event.shaped('chicken_roost:roost',[
+        'AAA',
+        'BCB',
+        'DDD'
+    ],{
+        A:'botania:gaia_ingot',
+        B:'starcraft:biological_control_circuit',
+        C:'industrialforegoing:machine_frame_supreme',
+        D:'industrialforegoing:hydroponic_bed'
+    })
+    
+    // 灵魂提取器
+    event.shaped('chicken_roost:soul_extractor',[
+        'ABA',
+        'CDC',
+        'EBE'
+    ],{
+        A:'industrialforegoing:enchantment_extractor',
+        B:'mekanism:ultimate_chemical_tank',
+        C:'mekanism:gauge_dropper',
+        D:'chicken_roost:chicken_stick',
+        E:'starcraft:biological_control_circuit'
+    })
+    
+    // 繁殖箱
+    event.shaped('chicken_roost:breeder',[
+        'ABC',
+        'DED',
+        'FGH'
+    ],{
+        A:'forestry:alveary_stabiliser',
+        B:'chicken_roost:c_vanilla',
+        C:'forestry:alveary_swarmer',
+        D:'starcraft:biological_control_circuit',
+        E:'chicken_roost:roost',
+        F:'forestry:alveary_heater',
+        G:'chicken_roost:chicken_stick',
+        H:'forestry:alveary_hygro' 
+    })
+
+    // 鸡训练器
+    event.shaped('chicken_roost:trainer',[
+        'ABA',
+        'CCC',
+        'DBD'
+    ],{
+        A:'farmersdelight:vegetable_soup',
+        B:'starcraft:biological_control_circuit',
+        C:'chicken_roost:breeder',
+        D:'farmersdelight:apple_pie'
+    })
+
+    // 一级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_1',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_1',
+        B:'minecraft:wheat_seeds',
+        C:'minecraft:iron_ingot',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:cake_slice'
+    })
+    
+     // 二级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_2',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_2',
+        B:'chicken_roost:chicken_food_tier_1',
+        C:'minecraft:gold_ingot',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:apple_pie_slice'
+    })
+
+      // 三级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_3',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_3',
+        B:'chicken_roost:chicken_food_tier_2',
+        C:'minecraft:diamond',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:kelp_roll_slice'
+    })
+
+      // 四级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_4',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_4',
+        B:'chicken_roost:chicken_food_tier_3',
+        C:'minecraft:netherite_ingot',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:dumplings'
+    })
+
+      // 五级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_5',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_5',
+        B:'chicken_roost:chicken_food_tier_4',
+        C:'minecraft:netherite_ingot',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:dumplings'
+    })
+
+      // 六级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_6',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_6',
+        B:'chicken_roost:chicken_food_tier_5',
+        C:'mekanism:alloy_reinforced',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:baked_cod_stew'
+    })
+
+      // 七级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_7',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_7',
+        B:'chicken_roost:chicken_food_tier_6',
+        C:'mekanism:alloy_atomic',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:pasta_with_meatballs'
+    })
+    
+      // 八级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_8',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_8',
+        B:'chicken_roost:chicken_food_tier_7',
+        C:'forestry:royal_jelly',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:ratatouille'
+    })
+    
+      // 九级鸡饲料
+    event.shaped('chicken_roost:chicken_food_tier_9',[
+        'ABB',
+        'CCD',
+        'DEE'
+    ],{
+        A:'chicken_roost:chicken_essence_tier_9',
+        B:'chicken_roost:chicken_food_tier_8',
+        C:'starcraft:biological_control_circuit',
+        D:'starcraft:stem_cells',
+        E:'farmersdelight:roast_chicken_block'
+    })
+    
+    
+    // TODO 龙之进化，龙钢锻造，星门，AE ，
 
 })

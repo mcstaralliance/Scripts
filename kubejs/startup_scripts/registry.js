@@ -24,6 +24,10 @@ StartupEvents.registry('block', event => {
     event.create("assembly_line_grating").soundType('metal');
     event.create("assembly_line_controller").soundType('metal');
     event.create("assembly_line_controller_working").soundType('metal');
+    event.create("biological_magic_generator").soundType('metal');
+    event.create("biological_magic_generator_working").soundType('metal');
+    event.create("blood_sweat_factory").soundType('metal');
+    event.create("blood_sweat_factory_working").soundType('metal');
 })
 
 // item registry
@@ -59,6 +63,7 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:mutagen").thickTexture("#00e672").displayName("诱变剂");
     event.create("starcraft:molten_soldering_alloy").thickTexture("#7a7a81").displayName("熔融焊锡");
     event.create("starcraft:molten_antimony_ingot").thickTexture("#65515a").displayName("熔融锑")
+    event.create("starcraft:royal_jelly").thickTexture("#fcfadd").displayName("蜂王浆")
     // event.create("starcraft:enriched_bacterial_sludge").thickTexture("#afdc81").displayName("富集细菌浆液");
     // event.create("starcraft:bacterial_sludge").thickTexture("#2b4a2f").displayName("细菌浆液");
     

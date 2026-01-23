@@ -1,0 +1,40 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "starcraft:blood_sweat_factory"
+  },
+  "requiredMicroJoules": 500000000000,
+  "requiredStacks": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "evilcraft:blood_infuser"
+      }
+    },
+    {
+        "count": 4,
+        "ingredient":{
+         "item":"starcraft:imbued_slate"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"evilcraft:colossal_blood_chest"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"evilcraft:sanguinary_pedestal_1"
+        }
+    },
+   {
+        "count": 1,
+        "ingredient":{
+         "item":"evilcraft:spiked_plate"
+        }
+    } 
+  ],
+  "subType": "BASIC"
+}

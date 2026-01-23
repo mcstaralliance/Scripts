@@ -46,7 +46,8 @@ const idToRemove = [
     'botania:mana_infusion/manasteel',
     'botania:alfheim_portal',
     'ae2:decorative/quartz_glass',
-    'advanced_ae:quantum_processor'
+    'advanced_ae:quantum_processor',
+    'forestry:sturdy_machine'
 ]
 
 const itemToRemove = [
@@ -130,7 +131,21 @@ const itemToRemove = [
     '#chicken_roost:blocks/all',
     'expatternprovider:wireless_tool',
     'expatternprovider:wireless_connect',
-    'ae2:vibration_chamber'
+    'ae2:vibration_chamber',
+    'industrialforegoing:machine_frame_pity',
+    'chicken_roost:roost',
+    'chicken_roost:soul_extractor',
+    'chicken_roost:breeder',
+    'chicken_roost:trainer',
+    'chicken_roost:chicken_food_tier_1',
+    'chicken_roost:chicken_food_tier_2',
+    'chicken_roost:chicken_food_tier_3',
+    'chicken_roost:chicken_food_tier_4',
+    'chicken_roost:chicken_food_tier_5',
+    'chicken_roost:chicken_food_tier_6',
+    'chicken_roost:chicken_food_tier_7',
+    'chicken_roost:chicken_food_tier_8',
+    'chicken_roost:chicken_food_tier_9'
     
 
     // 'create:cogwheel',
