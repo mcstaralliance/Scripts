@@ -145,7 +145,14 @@ const itemToRemove = [
     'chicken_roost:chicken_food_tier_6',
     'chicken_roost:chicken_food_tier_7',
     'chicken_roost:chicken_food_tier_8',
-    'chicken_roost:chicken_food_tier_9'
+    'chicken_roost:chicken_food_tier_9',
+    '#chicken_roost:blocks/all',
+    'chicken_roost:chickenstorage',
+    'ae2:blank_pattern',
+    'enderio:primitive_alloy_smelter',
+    'immersiveengineering:cokebrick',
+    'industrialforegoing:ore_laser_base',
+    'industrialforegoing:laser_drill'
     
 
     // 'create:cogwheel',

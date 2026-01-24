@@ -1,0 +1,40 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "industrialforegoing:laser_drill"
+  },
+  "requiredMicroJoules": 100000000000,
+  "requiredStacks": [
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"industrialforegoing:machine_frame_simple"
+        }
+    },
+        {
+        "count": 1,
+        "ingredient":{
+         "item":"mekanism:laser_amplifier"
+        }
+    },
+        {
+        "count": 2,
+        "ingredient":{
+         "item":"mekanism:laser"
+        }
+    },
+        {
+        "count": 1,
+        "ingredient":{
+         "item":"ftbmaterials:stainless_steel_gear"
+        }
+    },
+        {
+        "count": 8,
+        "ingredient":{
+         "item":"enderio:redstone_alloy_ingot"
+        }
+    }
+  ],
+  "subType": "BASIC"
+}

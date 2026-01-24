@@ -614,17 +614,6 @@ ServerEvents.recipes(event => {
         'enderio:vibrant_powder'
     ])
 
-    // 装配线 重写一下
-    // event.shaped('starcraft:assembly_line',[
-    //     'ABA',
-    //     'BCB',
-    //     'ABA'
-    // ],{
-    //     A: 'ftbmaterials:stainless_steel_ingot',
-    //     B: '#immersiveengineering:scaffoldings/aluminum',
-    //     C: 'industrialforegoing:machine_frame_supreme'
-    // })
-
     //ME 无线连接器
     event.shaped('2x expatternprovider:wireless_connect',[
         'ABA',
@@ -947,6 +936,8 @@ ServerEvents.recipes(event => {
         D:'starcraft:stem_cells',
         E:'farmersdelight:roast_chicken_block'
     })
+
+
     
     
     // TODO 龙之进化，龙钢锻造，星门，AE ，

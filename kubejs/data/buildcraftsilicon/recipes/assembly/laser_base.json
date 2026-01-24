@@ -1,0 +1,40 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "industrialforegoing:ore_laser_base"
+  },
+  "requiredMicroJoules": 100000000000,
+  "requiredStacks": [
+    {
+      "count": 8,
+      "ingredient": {
+        "tag": "forge:plates/stainless_steel"
+      }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"composite_material:etherite_ingot"
+        }
+    },
+        {
+        "count": 1,
+        "ingredient":{
+         "item":"enderio:end_steel_ingot"
+        }
+    },
+        {
+        "count": 1,
+        "ingredient":{
+         "item":"cagedmobs:star_infused_netherite_ingot"
+        }
+    },
+        {
+        "count": 1,
+        "ingredient":{
+         "item":"industrialforegoing:machine_frame_advanced"
+        }
+    }
+  ],
+  "subType": "BASIC"
+}
