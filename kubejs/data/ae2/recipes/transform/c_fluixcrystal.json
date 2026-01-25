@@ -1,0 +1,21 @@
+{
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "chicken_roost:c_redstone"
+    },
+    {
+      "item": "chicken_roost:c_chargedcertus"
+    },
+    {
+      "item": "chicken_roost:c_quartz"
+    }
+  ],
+  "result": {
+    "item": "chicken_roost:c_fluixcrystal"
+  }
+}

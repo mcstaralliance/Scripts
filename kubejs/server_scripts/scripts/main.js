@@ -937,7 +937,18 @@ ServerEvents.recipes(event => {
         E:'farmersdelight:roast_chicken_block'
     })
 
-
+    //模块化路由器
+    event.shaped('modularrouters:modular_router',[
+        'ABA',
+        'CDE',
+        'ABA'
+    ],{
+        A:'botania:elementium_ingot',
+        B:'integrateddynamics:part_connector_omni_directional',
+        C:'mekanism:ultimate_logistical_transporter',
+        D:'industrialforegoing:machine_frame_supreme',
+        E:'mekanism:ultimate_mechanical_pipe'
+    })
     
     
     // TODO 龙之进化，龙钢锻造，星门，AE ，

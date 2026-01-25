@@ -28,7 +28,7 @@ StartupEvents.registry('block', event => {
     event.create("biological_magic_generator_working").soundType('metal');
     event.create("blood_sweat_factory").soundType('metal');
     event.create("blood_sweat_factory_working").soundType('metal');
-})
+    })
 
 // item registry
 StartupEvents.registry('item', event => {
