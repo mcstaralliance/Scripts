@@ -1,0 +1,16 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "type": "forge:add_spawns",
+  "biomes": ["biomesoplenty:wasteland", "biomesoplenty:volcano", "biomesoplenty:volcanic_plains", "biomesoplenty:rocky_shrubland", "biomesoplenty:rocky_rainforest", "biomesoplenty:crag", "biomesoplenty:cold_desert"],
+  "spawners": {
+    "type": "chicken_roost:c_stone",
+    "maxCount": 0,
+    "minCount": 0,
+    "weight": 8
+  }
+}

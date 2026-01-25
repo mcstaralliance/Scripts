@@ -1,0 +1,16 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "type": "forge:add_spawns",
+  "biomes": ["biomesoplenty:volcano", "biomesoplenty:volcanic_plains", "biomesoplenty:withered_abyss"],
+  "spawners": {
+    "type": "chicken_roost:c_obsidian",
+    "maxCount": 0,
+    "minCount": 0,
+    "weight": 5
+  }
+}

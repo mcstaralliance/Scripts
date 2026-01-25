@@ -1,0 +1,16 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "type": "forge:add_spawns",
+  "biomes": ["biomesoplenty:auroral_garden", "biomesoplenty:muskeg", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:snowy_maple_woods", "biomesoplenty:snowblossom_grove"],
+  "spawners": {
+    "type": "chicken_roost:c_snow",
+    "maxCount": 0,
+    "minCount": 0,
+    "weight": 5
+  }
+}

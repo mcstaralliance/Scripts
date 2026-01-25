@@ -47,7 +47,10 @@ const idToRemove = [
     'botania:alfheim_portal',
     'ae2:decorative/quartz_glass',
     'advanced_ae:quantum_processor',
-    'forestry:sturdy_machine'
+    'forestry:sturdy_machine',
+    'industrialforegoing:ore_laser_base',
+    'industrialforegoing:laser_drill',
+    'avaritia:extreme_crafting_table'
 ]
 
 const itemToRemove = [
@@ -151,8 +154,7 @@ const itemToRemove = [
     'ae2:blank_pattern',
     'enderio:primitive_alloy_smelter',
     'immersiveengineering:cokebrick',
-    'industrialforegoing:ore_laser_base',
-    'industrialforegoing:laser_drill'
+    'modularrouters:modular_router'
     
 
     // 'create:cogwheel',
