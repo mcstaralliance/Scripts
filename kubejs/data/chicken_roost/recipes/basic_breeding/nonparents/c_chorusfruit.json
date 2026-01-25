@@ -1,0 +1,16 @@
+{
+  "type": "chicken_roost:basic_breeding",
+  "food": {
+    "tag": "c:seeds/tier4orup"
+  },
+  "left-chicken": {
+    "item": "chicken_roost:c_purple"
+  },
+  "right-chicken": {
+    "item": "chicken_roost:c_magenta"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:c_chorusfruit"
+  }
+}

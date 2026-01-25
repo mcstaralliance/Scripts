@@ -1,0 +1,40 @@
+{
+  "type": "buildcraftsilicon:assembly",
+  "output": {
+    "item": "starcraft:biological_magic_generator"
+  },
+  "requiredMicroJoules": 100000000000,
+  "requiredStacks": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "botania:elementium_ingot"
+      }
+    },
+    {
+        "count": 8,
+        "ingredient":{
+         "item":"botania:pixie_dust"
+        }
+    },
+    {
+        "count": 8,
+        "ingredient":{
+         "item":"botania:dragonstone"
+        }
+    },
+    {
+        "count": 8,
+        "ingredient":{
+         "item":"botania:spark"
+        }
+    },
+    {
+        "count": 1,
+        "ingredient":{
+         "item":"forestry:sturdy_machine"
+        }
+    }
+  ],
+  "subType": "BASIC"
+}
