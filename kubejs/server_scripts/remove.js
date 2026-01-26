@@ -50,7 +50,13 @@ const idToRemove = [
     'forestry:sturdy_machine',
     'industrialforegoing:ore_laser_base',
     'industrialforegoing:laser_drill',
-    'avaritia:extreme_crafting_table'
+    'avaritia:extreme_crafting_table',
+    'draconicevolution:components/draconium_ingot_from_ore',
+    'draconicevolution:components/draconium_ingot_from_dust',
+    'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
+    'enderio:smelting/draconicevolution/components/draconium_ingot_from_ore',
+    'draconicevolution:components/draconium_core',
+    'draconicevolution:components/wyvern_core'
 ]
 
 const itemToRemove = [
@@ -154,7 +160,17 @@ const itemToRemove = [
     'ae2:blank_pattern',
     'enderio:primitive_alloy_smelter',
     'immersiveengineering:cokebrick',
-    'modularrouters:modular_router'
+    'modularrouters:modular_router',
+    'mekanism:creative_fluid_tank',
+    'mekanism:creative_bin',
+    'mekanism:creative_energy_cube',
+    'mekanism:creative_chemical_tank',
+    'draconicevolution:creative_op_capacitor',
+    'enderio:creative_power',
+    'draconicevolution:creative_capacitor',
+    
+
+
     
 
     // 'create:cogwheel',

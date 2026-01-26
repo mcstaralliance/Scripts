@@ -950,6 +950,19 @@ ServerEvents.recipes(event => {
         E:'mekanism:ultimate_mechanical_pipe'
     })
     
+    //没那么神秘的的方块
+    event.shaped('2x ae2:not_so_mysterious_cube',[
+        'ABA',
+        'CDE',
+        'AFA'
+    ],{
+        A:'ae2:smooth_sky_stone_block',
+        B:'ae2:logic_processor_press',
+        C:'ae2:calculation_processor_press',
+        D:'ae2:energy_acceptor',
+        E:'ae2:engineering_processor_press',
+        F:'ae2:silicon_press'
+    })
     
     // TODO 龙之进化，龙钢锻造，星门，AE ，
 
