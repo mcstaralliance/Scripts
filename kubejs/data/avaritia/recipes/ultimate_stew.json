@@ -1,105 +1,173 @@
 {
-  "type": "avaritia:shaped_table",
-  "category": "misc",
-  "key": {
-    "a": {
+  "type": "avaritia:shapeless_table",
+  "category": "equipment",
+  "ingredients": [
+    {
       "item": "farmersdelight:glow_berry_custard"
     },
-    "b": {
+    {
       "item": "farmersdelight:honey_cookie"
     },
-    "c": {
+    {
       "item": "farmersdelight:hamburger"
     },
-    "d": {
+    {
       "item": "farmersdelight:mixed_salad"
     },
-    "e": {
+    {
       "item": "farmersdelight:egg_sandwich"
     },
-    "f": {
+    {
       "item": "farmersdelight:chicken_sandwich"
     },
-    "g": {
+    {
       "item": "farmersdelight:dumplings"
     },
-    "h": {
+    {
       "item": "farmersdelight:roast_chicken_block"
     },
-    "i": {
+    {
       "item": "farmersdelight:shepherds_pie_block"
     },
-    "j": {
+    {
       "item": "farmersdelight:grilled_salmon"
     },
-    "k": {
+    {
       "item": "farmersdelight:steak_and_potatoes"
     },
-    "l": {
+    {
       "item": "farmersdelight:bacon_sandwich"
     },
-    "m": {
+    {
       "item": "farmersdelight:apple_pie"
     },
-    "n": {
+    {
       "item": "farmersdelight:chocolate_pie"
     },
-    "o": {
+    {
       "item": "farmersdelight:pasta_with_meatballs"
     },
-    "p": {
+    {
       "item": "farmersdelight:barbecue_stick"
     },
-    "q": {
+    {
       "item": "farmersdelight:honey_glazed_ham_block"
     },
-    "r": {
+    {
       "item": "farmersdelight:rice_roll_medley_block"
     },
-    "s": {
+    {
       "item": "farmersdelight:fruit_salad"
     },
-    "t": {
+    {
       "item": "farmersdelight:stuffed_potato"
     },
-    "u": {
+    {
       "item": "farmersdelight:stuffed_pumpkin_block"
     },
-    "v": {
+    {
       "item": "farmersdelight:sweet_berry_cookie"
     },
-    "w": {
+    {
       "item": "farmersdelight:sweet_berry_cheesecake"
     },
-    "x": {
+    {
       "item": "farmersdelight:melon_popsicle"
     },
-    "y": {
+    { 
       "item": "farmersdelight:nether_salad"
     },
-    "z": {
+    {
       "item": "farmersdelight:mushroom_rice"
     },
-    "!": {
+    {
       "item": "farmersdelight:squid_ink_pasta"
     },
-    "#": {
+    {
       "item": "farmersdelight:mutton_wrap"
     },
-    "%": {
+    {
+      "item": "kaleidoscope_cookery:delicious_egg_fried_rice"
+    },
+    {
+      "item": "kaleidoscope_cookery:lamb_and_radish_soup"
+    },
+    {
+      "item": "kaleidoscope_cookery:beef_noodle"
+    },
+    {
+      "item": "kaleidoscope_cookery:slime_ball_meal"
+    },
+    {
+      "item": "kaleidoscope_cookery:yakitori"
+    },
+    {
+      "item": "kaleidoscope_cookery:braised_fish"
+    },
+    {
+      "item": "kaleidoscope_cookery:spicy_chicken_rice_bowl"
+    },
+    {
+      "item": "kaleidoscope_cookery:nether_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:shengjian_mantou"
+    },
+    {
+      "item": "kaleidoscope_cookery:golden_salad"
+    },
+    {
+      "item": "kaleidoscope_cookery:crystal_lamb_chop"
+    },
+    {
+      "item": "kaleidoscope_cookery:tundra_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:sweet_and_sour_ender_pearls"
+    },
+    {
+      "item": "kaleidoscope_cookery:pan_seared_knight_steak"
+    },
+    {
+      "item": "kaleidoscope_cookery:dongpo_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:fondant_pie"
+    },
+    {
+      "item": "kaleidoscope_cookery:chicken_and_mushroom_stew"
+    },
+    {
+      "item": "kaleidoscope_cookery:sweet_and_sour_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:cold_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:desert_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:fondant_spider_eye"
+    },
+    {
+      "item": "kaleidoscope_cookery:stargazy_pie"
+    },
+    {
+      "item": "kaleidoscope_cookery:fish_flavored_shredded_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:stir_fried_beef_offal_rice_bowl"
+    },
+    {
+      "item": "kaleidoscope_cookery:end_style_sashimi"
+    },
+    {
       "item": "avaritia:crystal_matrix"
     }
-   },
-  "pattern": [
-    "abcdefghi",
-    "jklmnopqr",
-    "stuvwxyz!",
-    "#%       ",
-    "         "
-  ],
-  "result": {
+    ],
+   "result": {
+    "count": 16,
     "item": "avaritia:ultimate_stew"
   },
-  "show_notification": true,
   "tier": 4
 }

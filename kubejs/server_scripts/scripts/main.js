@@ -598,7 +598,7 @@ ServerEvents.recipes(event => {
         B: 'ae2:singularity',
         C: 'mekanism:hdpe_stick',
         D: 'ae2:vibration_chamber',
-        E: 'apotheosis:infused_breath'
+        E:'botania:elementium_block'
     })
 
     // 不锈钢粉

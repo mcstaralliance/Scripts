@@ -23,14 +23,14 @@ ServerEvents.recipes((event) => {
 
     //等级3维度存储稳定器
     event.recipes.occultism.ritual(
-        'occultism:storage_stabilizer_tier3',['minecraft:gold_block','minecraft:nether_star','occultism:spirit_attuned_crystal','occultism:storage_stabilizer_tier2','botania:rune_lust','botania:rune_gluttony','botania:rune_sloth'],
+        'occultism:storage_stabilizer_tier3',['minecraft:gold_block','minecraft:nether_star','occultism:spirit_attuned_crystal','occultism:storage_stabilizer_tier2','botania:rune_lust','botania:rune_gluttony','botania:rune_envy'],
         'occultism:book_of_binding_bound_afrit',
         'occultism:craft_afrit'
     )
 
     //等级4维度存储稳定器
     event.recipes.occultism.ritual(
-        'occultism:storage_stabilizer_tier4',['occultism:storage_stabilizer_tier3','occultism:iesnium_block','minecraft:dragon_head','occultism:spirit_attuned_crystal','occultism:spirit_attuned_crystal','botania:rune_greed','botania:rune_wrath','botania:rune_envy','botania:rune_pride'],
+        'occultism:storage_stabilizer_tier4',['occultism:storage_stabilizer_tier3','occultism:iesnium_block','minecraft:dragon_head','occultism:spirit_attuned_crystal','occultism:spirit_attuned_crystal','botania:rune_greed','botania:rune_wrath','botania:rune_sloth','botania:rune_pride'],
         'occultism:book_of_binding_bound_marid',
         'occultism:craft_marid'
     )
