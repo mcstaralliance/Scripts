@@ -15,6 +15,7 @@
    "block.starcraft.assembly_line": "装配线",
    "block.starcraft.biological_magic_generator": "生物型 mana 发生器",
    "block.starcraft.blood_sweat_factory": "血汗工厂",
+   "block.starcraft.simple_miner": "简易矿机",
 
    "starcraft.paimon_cyclone_miner": "超级派蒙旋风矿机 Lite",
    "starcraft.paimon_cyclone_miner_pro_recipe": "超级派蒙旋风矿机 Pro",
@@ -22,5 +23,6 @@
    "starcraft.cyber_bee_nast": "赛博养蜂",
    "starcraft.lazer_recipe": "激光切割配方",
    "starcraft.biological_magic_generator_recipes": "平成之梦 mana 生成",
-   "starcraft.blood_sweat_factory_recipe": "血汗工厂"
+   "starcraft.blood_sweat_factory_recipe": "血汗工厂",
+   "starcraft.simple_miner_recipe": "简易矿机"
 }
