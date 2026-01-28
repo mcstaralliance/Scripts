@@ -56,7 +56,12 @@ const idToRemove = [
     'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
     'enderio:smelting/draconicevolution/components/draconium_ingot_from_ore',
     'draconicevolution:components/draconium_core',
-    'draconicevolution:components/wyvern_core'
+    'draconicevolution:components/wyvern_core',
+    'botania:pure_daisy/livingwood',
+    'botania:pure_daisy/livingrock',
+    'sgjourney:classic_stargate_ring_block',
+    'sgjourney:classic_stargate_base_block',
+    'sgjourney:classic_stargate_chevron_block'
 ]
 
 const itemToRemove = [
@@ -168,6 +173,8 @@ const itemToRemove = [
     'draconicevolution:creative_op_capacitor',
     'enderio:creative_power',
     'draconicevolution:creative_capacitor',
+    'immersiveengineering:blastbrick',
+    
     
 
 
