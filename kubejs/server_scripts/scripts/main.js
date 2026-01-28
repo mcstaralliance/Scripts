@@ -383,7 +383,7 @@ ServerEvents.recipes(event => {
     ],{
         A: 'ae2:charged_certus_quartz_crystal',
         B: 'ae2:logic_processor',
-        C: 'kubejs:starcraft_commoncoin',
+        C: 'ae2:quartz_vibrant_glass',
         D: 'mekanism:hdpe_pellet'
     })
 
@@ -439,14 +439,13 @@ ServerEvents.recipes(event => {
 
     // 焦炉砖
     event.shaped('immersiveengineering:cokebrick',[
-        'ADA',
+        'ABA',
         'BCB',
         'ABA'
     ],{
         A:'minecraft:clay',
         B:'minecraft:brick',
-        C:'ars_nouveau:earth_essence',
-        D:'kubejs:starcraft_commoncoin'
+        C:'ars_nouveau:earth_essence'
     })
 
     // 紫水晶母岩
@@ -475,13 +474,12 @@ ServerEvents.recipes(event => {
     event.shaped('ae2:blank_pattern',[
         'ABA',
         'BCB',
-        'DED'
+        'DDD'
     ],{
         A:'ae2:quartz_glass',
         B:'mekanism:hdpe_sheet',
         C:'ae2:charged_certus_quartz_crystal',
-        D:'minecraft:iron_ingot',
-        E:'kubejs:starcraft_commoncoin'
+        D:'minecraft:iron_ingot'
     })
     
     // ME 接口
