@@ -174,6 +174,8 @@ const itemToRemove = [
     'enderio:creative_power',
     'draconicevolution:creative_capacitor',
     'immersiveengineering:blastbrick',
+    'mekanism:steel_casing',
+    'cookingforblockheads:sink'
     
     
 

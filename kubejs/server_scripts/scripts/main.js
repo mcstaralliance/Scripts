@@ -383,7 +383,7 @@ ServerEvents.recipes(event => {
     ],{
         A: 'ae2:charged_certus_quartz_crystal',
         B: 'ae2:logic_processor',
-        C: 'ae2:quartz_vibrant_glass',
+        C: 'kubejs:starcraft_commoncoin',
         D: 'mekanism:hdpe_pellet'
     })
 
@@ -439,13 +439,14 @@ ServerEvents.recipes(event => {
 
     // 焦炉砖
     event.shaped('immersiveengineering:cokebrick',[
-        'ABA',
+        'ADA',
         'BCB',
         'ABA'
     ],{
         A:'minecraft:clay',
         B:'minecraft:brick',
-        C:'ars_nouveau:earth_essence'
+        C:'ars_nouveau:earth_essence',
+        D:'kubejs:starcraft_commoncoin'
     })
 
     // 紫水晶母岩
@@ -474,12 +475,13 @@ ServerEvents.recipes(event => {
     event.shaped('ae2:blank_pattern',[
         'ABA',
         'BCB',
-        'DDD'
+        'DED'
     ],{
         A:'ae2:quartz_glass',
         B:'mekanism:hdpe_sheet',
         C:'ae2:charged_certus_quartz_crystal',
-        D:'minecraft:iron_ingot'
+        D:'minecraft:iron_ingot',
+        E:'kubejs:starcraft_commoncoin'
     })
     
     // ME 接口
@@ -964,6 +966,18 @@ ServerEvents.recipes(event => {
         F:'ae2:silicon_press'
     })
     
-    // TODO 龙之进化，龙钢锻造，星门，AE ，
+    // 水槽
+    event.shaped(
+        'cookingforblockheads:sink', [
+            'AAA',
+            'BCB',
+            'BBB'
+        ],{
+            A: 'kubejs:starcraft_ultracoin',
+            B: 'minecraft:name_tag',
+            C: 'minecraft:water_bucket',
+            D: 'corn_delight:corn'
+        }
+    );
 
 })
