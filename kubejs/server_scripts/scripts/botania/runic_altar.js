@@ -49,4 +49,7 @@ ServerEvents.recipes(event => {
 
     //欲望符文
     event.recipes.botania.runic_altar('botania:rune_lust',['botania:rune_air','botania:rune_summer','botania:mana_diamond','botania:mana_diamond','starcraft:rune_blank'],12000)
+
+    //奥哈钢块
+    event.recipes.botania.runic_altar('extrabotany:orichalcos_block',['starcraft:block_of_gaia','starcraft:block_of_gaia','extrabotany:hero_medal','extrabotany:gilded_potato_mashed','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence','botania:life_essence'],100000000)
 })

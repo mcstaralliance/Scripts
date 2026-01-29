@@ -1,6 +1,7 @@
 // priority: 1
 
 const itemToBan = [
+    'create:schematicannon',
     'torcherino:torcherino',
     'torcherino:compressed_torcherino',
     'torcherino:double_compressed_torcherino',
@@ -10,14 +11,20 @@ const itemToBan = [
     'ars_nouveau:glyph_intangible',
     'mekanism:robit',
     'mekanism:upgrade_anchor',
+    'pneumaticcraft:chunkloader_upgrade',
     'evilcraft:lightning_bomb',
     'industrialforegoing:enchantment_applicator',
     'ae2:matter_cannon',
+    'twilightforest:uncrafting_table',
     'ifeu:time_controller',
     'ifeu:rule_controller',
+    'create:mechanical_plough',
+    'create:mechanical_drill',
+    'create:mechanical_roller',
     'mekanism:cardboard_box',
     'botania:terraform_rod',
     'ifeu:blueprint',
+    'beachparty:message_in_a_bottle',
     'botania:laputa_shard',
     'tconstruct:efln_ball',
     'ae2:interface',
@@ -168,11 +175,7 @@ const itemToRemove = [
     'draconicevolution:creative_capacitor',
     'immersiveengineering:blastbrick',
     'mekanism:steel_casing',
-    'cookingforblockheads:sink',
-    'chunkloaders:single_chunk_loader',
-    'chunkloaders:basic_chunk_loader',
-    'chunkloaders:advanced_chunk_loader',
-    'chunkloaders:ultimate_chunk_loader'
+    'cookingforblockheads:sink'
     
     
 
@@ -202,6 +205,10 @@ const itemToRemove = [
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
     // 'naturesaura:chunk_loader',
+    // 'chunkloaders:single_chunk_loader',
+    // 'chunkloaders:basic_chunk_loader',
+    // 'chunkloaders:advanced_chunk_loader',
+    // 'chunkloaders:ultimate_chunk_loader'
 ]
 
 
