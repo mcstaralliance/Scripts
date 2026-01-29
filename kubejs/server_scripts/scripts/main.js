@@ -988,5 +988,5 @@ ServerEvents.recipes(event => {
     })
     
     //盖亚钢锭
-    event.shapeless('9x botania:gaia_ingot',['botania:gaia_ingot'])
+    event.shapeless('9x botania:gaia_ingot',['starcraft:block_of_gaia'])
 })
