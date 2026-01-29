@@ -973,8 +973,7 @@ ServerEvents.recipes(event => {
         ],{
             A: 'kubejs:starcraft_ultracoin',
             B: 'minecraft:name_tag',
-            C: 'minecraft:water_bucket',
-            D: 'corn_delight:corn'
+            C: 'minecraft:water_bucket'
         }
     );
 
