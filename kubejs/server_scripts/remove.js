@@ -1,7 +1,6 @@
 // priority: 1
 
 const itemToBan = [
-    'create:schematicannon',
     'torcherino:torcherino',
     'torcherino:compressed_torcherino',
     'torcherino:double_compressed_torcherino',
@@ -11,20 +10,14 @@ const itemToBan = [
     'ars_nouveau:glyph_intangible',
     'mekanism:robit',
     'mekanism:upgrade_anchor',
-    'pneumaticcraft:chunkloader_upgrade',
     'evilcraft:lightning_bomb',
     'industrialforegoing:enchantment_applicator',
     'ae2:matter_cannon',
-    'twilightforest:uncrafting_table',
     'ifeu:time_controller',
     'ifeu:rule_controller',
-    'create:mechanical_plough',
-    'create:mechanical_drill',
-    'create:mechanical_roller',
     'mekanism:cardboard_box',
     'botania:terraform_rod',
     'ifeu:blueprint',
-    'beachparty:message_in_a_bottle',
     'botania:laputa_shard',
     'tconstruct:efln_ball',
     'ae2:interface',
