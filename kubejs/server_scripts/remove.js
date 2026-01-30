@@ -175,7 +175,11 @@ const itemToRemove = [
     'draconicevolution:creative_capacitor',
     'immersiveengineering:blastbrick',
     'mekanism:steel_casing',
-    'cookingforblockheads:sink'
+    'cookingforblockheads:sink',
+    'chunkloaders:single_chunk_loader',
+    'chunkloaders:basic_chunk_loader',
+    'chunkloaders:advanced_chunk_loader',
+    'chunkloaders:ultimate_chunk_loader'
     
     
 
@@ -205,10 +209,7 @@ const itemToRemove = [
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
     // 'naturesaura:chunk_loader',
-    // 'chunkloaders:single_chunk_loader',
-    // 'chunkloaders:basic_chunk_loader',
-    // 'chunkloaders:advanced_chunk_loader',
-    // 'chunkloaders:ultimate_chunk_loader'
+
 ]
 
 
