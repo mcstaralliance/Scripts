@@ -202,6 +202,7 @@ const itemToRemove = [
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
     // 'naturesaura:chunk_loader',
+
 ]
 
 

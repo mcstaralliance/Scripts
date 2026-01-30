@@ -52,7 +52,8 @@ StartupEvents.registry('item', event => {
     event.create("starcraft:dust_meat");
     event.create("starcraft:biological_control_circuit");
     event.create("starcraft:dust_calcium");
-    event.create("starcraft:soldering_alloy")
+    event.create("starcraft:soldering_alloy");
+    event.create("starcraft:block_of_gaia")
 
 })
 

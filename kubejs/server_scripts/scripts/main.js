@@ -973,8 +973,20 @@ ServerEvents.recipes(event => {
         ],{
             A: 'kubejs:starcraft_ultracoin',
             B: 'minecraft:name_tag',
-            C: 'minecraft:water_bucket'
+            C: 'minecraft:water_bucket',
+            D: 'corn_delight:corn'
         }
-    );
+    )
 
+    //盖亚钢块
+    event.shaped('starcraft:block_of_gaia',[
+        'AAA',
+        'AAA',
+        'AAA'
+    ],{
+        A:'botania:gaia_ingot'
+    })
+    
+    //盖亚钢锭
+    event.shapeless('9x botania:gaia_ingot',['starcraft:block_of_gaia'])
 })
