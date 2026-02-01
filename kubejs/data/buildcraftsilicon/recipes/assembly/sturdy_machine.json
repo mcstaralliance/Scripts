@@ -3,7 +3,7 @@
   "output": {
     "item": "forestry:sturdy_machine"
   },
-  "requiredMicroJoules": 500000000000,
+  "requiredMicroJoules": 50000000000,
   "requiredStacks": [
     {
       "count": 8,

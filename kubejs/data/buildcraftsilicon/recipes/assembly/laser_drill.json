@@ -3,7 +3,7 @@
   "output": {
     "item": "industrialforegoing:laser_drill"
   },
-  "requiredMicroJoules": 100000000000,
+  "requiredMicroJoules": 10000000000,
   "requiredStacks": [
     {
         "count": 1,

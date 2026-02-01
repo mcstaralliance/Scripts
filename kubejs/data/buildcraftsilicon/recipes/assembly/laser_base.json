@@ -3,7 +3,7 @@
   "output": {
     "item": "industrialforegoing:ore_laser_base"
   },
-  "requiredMicroJoules": 100000000000,
+  "requiredMicroJoules": 10000000000,
   "requiredStacks": [
     {
       "count": 8,

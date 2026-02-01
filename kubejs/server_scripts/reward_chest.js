@@ -1,5 +1,6 @@
 
 const stackWithProbability = [
+        newItem('torcherino:torcherino', 0.02),
     newItem('botania:creative_pool', 0.03),
     newItem('chunkloaders:single_chunk_loader', 0.04),
     newItem('mekanism:mekasuit_helmet', 0.05),
@@ -8,13 +9,12 @@ const stackWithProbability = [
     newItem('mekanism:mekasuit_boots', 0.08),
     newItem(Item.of('avaritia:infinity_armor_boots', '{Damage:0}'), 0.09),
     newItem('avaritia:infinity_catalyst', 0.1),
-    newItem('torcherino:torcherino', 0.05),
     newItem('starcraft:paimon_miner_lite', 0.1),
     newItem(Item.of('avaritia:infinity_armor_chestplate', '{Damage:0}'), 0.13),
     newItem(Item.of('avaritia:infinity_armor_leggings', '{Damage:0}'), 0.14),
     newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.15),
-    newItem('2x avaritia:ultimate_stew', 0.15),
-    newItem('16x avaritia:cosmic_meatballs', 0.16),
+    newItem('2x avaritia:ultimate_stew', 0.16),
+    newItem('16x avaritia:cosmic_meatballs', 0.18),
     newItem(Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'), 0.19),
     newItem('ae2:item_storage_cell_256k', 0.20),
     newItem('4x kubejs:custom_chest', 0.25),
