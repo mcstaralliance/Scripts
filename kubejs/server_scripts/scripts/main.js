@@ -988,4 +988,15 @@ ServerEvents.recipes(event => {
     
     //盖亚钢锭
     event.shapeless('9x botania:gaia_ingot',['starcraft:block_of_gaia'])
+
+    //岩浆制造者
+    event.shaped('starcraft:lava_producer',[
+        'AAA',
+        'BBB',
+        'CCC'
+    ],{
+        A:'minecraft:lava_bucket',
+        B:'minecraft:dripstone_block',
+        C:'minecraft:cauldron'
+    })
 })

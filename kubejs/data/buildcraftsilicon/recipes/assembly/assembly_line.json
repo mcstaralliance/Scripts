@@ -3,7 +3,7 @@
   "output": {
     "item": "starcraft:assembly_line"
   },
-  "requiredMicroJoules": 2000000000000,
+  "requiredMicroJoules": 200000000000,
   "requiredStacks": [
     {
       "count": 4,
