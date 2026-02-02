@@ -67,7 +67,9 @@ const itemToBan = [
     'tconstruct:shuriken',
     'composite:material_duplichanted_book',
     'avaritia:infinity_clock',
-    'ars:nouveau_glyph_break'
+    'ars:nouveau_glyph_break',
+    'ae2:io_port',
+    'expatternprovider:ex_io_port'
 ]
 
 const idToRemove = [
