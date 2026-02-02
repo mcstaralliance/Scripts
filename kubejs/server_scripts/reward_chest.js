@@ -1,6 +1,6 @@
 
 const stackWithProbability = [
-        newItem('torcherino:torcherino', 0.02),
+    newItem('torcherino:torcherino', 0.02),
     newItem('botania:creative_pool', 0.03),
     newItem('chunkloaders:single_chunk_loader', 0.04),
     newItem('mekanism:mekasuit_helmet', 0.05),
