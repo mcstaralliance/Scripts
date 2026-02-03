@@ -999,4 +999,7 @@ ServerEvents.recipes(event => {
         B:'minecraft:dripstone_block',
         C:'minecraft:cauldron'
     })
+
+    //ME 样板供应器
+    event.shapeless('ae2:pattern_provider',['ae2:cable_pattern_provider'])
 })
