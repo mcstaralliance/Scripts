@@ -71,6 +71,7 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("starcraft_advancedcoin", "到主城系统商店购买")
     tooltip.add("starcraft_ultracoin", "到主城系统商店购买")
     tooltip.add("starcraft:simple_miner", "可消耗石头、电量与魔力随机挖掘出各种矿石，顺带一提这玩意其实有 27 个输出格")
+    tooltip.add("starcraft:simple_miner", [Text.of("控制器方块换成纯净玻璃，用红石右键成型").red()])
 
     for (let addTooltipForBan of itemToBan) {
         tooltip.addAdvanced(addTooltipForBan, (item, advanced, text) => {

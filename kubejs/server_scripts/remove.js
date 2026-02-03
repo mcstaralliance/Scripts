@@ -101,7 +101,8 @@ const idToRemove = [
     'botania:pure_daisy/livingrock',
     'sgjourney:classic_stargate_ring_block',
     'sgjourney:classic_stargate_base_block',
-    'sgjourney:classic_stargate_chevron_block'
+    'sgjourney:classic_stargate_chevron_block',
+    'mekanism:enriching/hdpe_sheet'
 ]
 
 const itemToRemove = [
