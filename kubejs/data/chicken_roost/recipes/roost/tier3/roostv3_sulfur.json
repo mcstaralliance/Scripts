@@ -1,0 +1,14 @@
+{
+"type": "chicken_roost:roost_output",
+        "food": {
+            "tag": "c:seeds/tier3orup"
+          },
+          "chicken": {
+            "item": "chicken_roost:c_sulfur"
+          },
+        "time": 20,
+        "output": {
+          "item": "ftbmaterials:sulfur"
+        }
+
+      }

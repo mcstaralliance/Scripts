@@ -18,7 +18,13 @@
         }
     },
         {
-        "count": 2,
+        "count": 1,
+        "ingredient":{
+         "item":"mekanism:laser"
+        }
+    },
+        {
+        "count": 1,
         "ingredient":{
          "item":"mekanism:laser"
         }
