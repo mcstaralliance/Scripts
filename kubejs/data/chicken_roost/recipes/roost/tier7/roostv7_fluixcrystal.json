@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": { 
+    "tag": "c:seeds/tier7orup"
+  },
+  "chicken": {
+      "item": "chicken_roost:c_fluixcrystal"
+    },
+  "time": 20,
+  "output": {
+    "item": "ae2:fluix_crystal"
+  }
+}

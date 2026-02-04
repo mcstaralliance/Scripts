@@ -11,4 +11,7 @@ ServerEvents.recipes(event => {
     //硫粉
     event.recipes.mekanism.crushing('ftbmaterials:sulfur_dust','ftbmaterials:sulfur')
     event.recipes.mekanism.crushing('4x ftbmaterials:sulfur_dust','ftbmaterials:sulfur_stone_ore')
+
+    //盐粉
+    event.recipes.mekanism.crushing('ftbmaterials:salt_dust','ftbmaterials:salt')
 })
