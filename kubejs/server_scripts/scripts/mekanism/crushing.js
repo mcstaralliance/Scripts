@@ -7,4 +7,7 @@ ServerEvents.recipes(event => {
 
     //钙粉
     event.recipes.mekanism.crushing('starcraft:dust_calcium','minecraft:bone_meal')
+
+    //硫粉
+    event.recipes.mekanism.crushing('ftbmaterials:sulfur_dust','ftbmaterials:sulfur')
 })
