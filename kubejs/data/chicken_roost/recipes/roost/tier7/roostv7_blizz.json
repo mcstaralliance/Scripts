@@ -1,0 +1,14 @@
+{
+        "type": "chicken_roost:roost_output",
+        "food": {
+            "tag": "c:seeds/tier7orup"
+          },
+          "chicken": {
+            "item": "chicken_roost:c_blizz"
+          },
+        "time": 20,
+        "output": {
+          "item": "ftbmaterials:fluorite"
+        }
+
+      }
