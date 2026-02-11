@@ -1,0 +1,16 @@
+{
+  "type": "chicken_roost:basic_breeding",
+  "food": {
+    "item": "sgjourney:classic_stargate_chevron_block"
+  },
+  "left-chicken": {
+    "item": "chicken_roost:c_iridium"
+  },
+  "right-chicken": {
+    "item": "chicken_roost:c_awakeneddraconium"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:c_demonmetal"
+  }
+}

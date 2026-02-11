@@ -1,0 +1,14 @@
+{
+        "type": "chicken_roost:roost_output",
+        "food": {
+            "tag": "c:seeds/tier4orup"
+          },
+          "chicken": {
+            "item": "chicken_roost:c_bitumen"
+          },
+        "time": 20,
+        "output": {
+          "item": "ae2:sky_stone_block"
+        }
+
+      }

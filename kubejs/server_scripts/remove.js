@@ -69,7 +69,8 @@ const itemToBan = [
     'avaritia:infinity_clock',
     'ars:nouveau_glyph_break',
     'ae2:io_port',
-    'expatternprovider:ex_io_port'
+    'expatternprovider:ex_io_port',
+    'goety:dark_anvil'
 ]
 
 const idToRemove = [
