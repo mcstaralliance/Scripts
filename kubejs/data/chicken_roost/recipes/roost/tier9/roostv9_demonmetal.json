@@ -1,7 +1,7 @@
 {
   "type": "chicken_roost:roost_output",
   "food": { 
-    "item": "avaritia:infinity_catalyst"
+    "tag": "c:seeds/tier9orup"
   },
   "chicken": {
       "item": "chicken_roost:c_demonmetal"

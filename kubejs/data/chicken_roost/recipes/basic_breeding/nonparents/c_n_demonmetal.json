@@ -1,7 +1,7 @@
 {
   "type": "chicken_roost:basic_breeding",
   "food": {
-    "item": "sgjourney:classic_stargate_chevron_block"
+    "item": "sgjourney:classic_stargate_base_block"
   },
   "left-chicken": {
     "item": "chicken_roost:c_iridium"
