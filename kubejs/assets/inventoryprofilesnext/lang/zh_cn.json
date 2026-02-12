@@ -1,0 +1,3 @@
+{
+    "inventoryprofiles.tooltip.move_all_button.move_just_refill":                        "§5按住 §o%s§r\n§6 - 仅移动足够的物品\n§6以填充现有组.\n\n§b[小域] 如果该按钮与其他按钮重叠，\n§b请在该界面按 R + G 打开 IPN GUI 覆盖配置界面，\n§b将右侧的两个「忽略」设置为是，再按 ESC 退出\n§c（或者直接删除 IPN 模组）"
+}
