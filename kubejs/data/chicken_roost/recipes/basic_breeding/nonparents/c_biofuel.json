@@ -1,0 +1,16 @@
+{
+  "type": "chicken_roost:basic_breeding",
+  "food": {
+    "tag": "c:seeds/tier5orup"
+  },
+  "left-chicken": {
+    "item": "chicken_roost:c_green"
+  },
+  "right-chicken": {
+    "item": "chicken_roost:c_black"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:c_biofuel"
+  }
+}
