@@ -24,7 +24,6 @@ const itemToBan = [
     'avaritia:infinity_chest',
     'forestry:mailbox',
     'forestry:trade_station',
-    'avaritia:endest_pearl',
     'industrialforegoing:infinity_drill',
     'industrialforegoing:infinity_nuke',
     'composite:material_creative_reinforced_book',

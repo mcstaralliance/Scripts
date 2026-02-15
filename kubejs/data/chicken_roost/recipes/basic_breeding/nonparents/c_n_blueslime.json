@@ -1,16 +1,16 @@
 {
   "type": "chicken_roost:basic_breeding",
   "food": {
-    "tag": "c:seeds/tier2orup"
+    "tag": "c:seeds/tier4orup"
   },
   "left-chicken": {
-    "item": "chicken_roost:c_black"
+    "item": "chicken_roost:c_lapis"
   },
   "right-chicken": {
-    "item": "chicken_roost:c_blue"
+    "item": "chicken_roost:c_snow"
   },
   "time": 20,
   "output": {
-    "item": "chicken_roost:c_bitumen"
+    "item": "chicken_roost:c_blueslime"
   }
 }
