@@ -18,7 +18,7 @@ global.ipnIgnore = (event) => {
 
     if (
         !className.startsWith('mekanism') &&
-        !className.startsWith('org.cyclops.integrateddynamics')
+        !className.startsWith('org.cyclops.integrated')
     ) {
         return;
     }
