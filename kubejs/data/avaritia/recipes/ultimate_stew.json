@@ -1,0 +1,176 @@
+{
+  "type": "avaritia:shapeless_table",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "farmersdelight:glow_berry_custard"
+    },
+    {
+      "item": "farmersdelight:honey_cookie"
+    },
+    {
+      "item": "farmersdelight:hamburger"
+    },
+    {
+      "item": "farmersdelight:mixed_salad"
+    },
+    {
+      "item": "farmersdelight:egg_sandwich"
+    },
+    {
+      "item": "farmersdelight:chicken_sandwich"
+    },
+    {
+      "item": "farmersdelight:dumplings"
+    },
+    {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    {
+      "item": "farmersdelight:shepherds_pie_block"
+    },
+    {
+      "item": "farmersdelight:grilled_salmon"
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich"
+    },
+    {
+      "item": "farmersdelight:apple_pie"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie"
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs"
+    },
+    {
+      "item": "farmersdelight:barbecue_stick"
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham_block"
+    },
+    {
+      "item": "farmersdelight:rice_roll_medley_block"
+    },
+    {
+      "item": "farmersdelight:fruit_salad"
+    },
+    {
+      "item": "farmersdelight:stuffed_potato"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin_block"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cookie"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake"
+    },
+    {
+      "item": "farmersdelight:melon_popsicle"
+    },
+    { 
+      "item": "farmersdelight:nether_salad"
+    },
+    {
+      "item": "farmersdelight:mushroom_rice"
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta"
+    },
+    {
+      "item": "farmersdelight:mutton_wrap"
+    },
+    {
+      "item": "kaleidoscope_cookery:delicious_egg_fried_rice"
+    },
+    {
+      "item": "kaleidoscope_cookery:lamb_and_radish_soup"
+    },
+    {
+      "item": "kaleidoscope_cookery:beef_noodle"
+    },
+    {
+      "item": "kaleidoscope_cookery:slime_ball_meal"
+    },
+    {
+      "item": "kaleidoscope_cookery:yakitori"
+    },
+    {
+      "item": "kaleidoscope_cookery:braised_fish"
+    },
+    {
+      "item": "kaleidoscope_cookery:spicy_chicken_rice_bowl"
+    },
+    {
+      "item": "kaleidoscope_cookery:nether_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:shengjian_mantou"
+    },
+    {
+      "item": "kaleidoscope_cookery:golden_salad"
+    },
+    {
+      "item": "kaleidoscope_cookery:crystal_lamb_chop"
+    },
+    {
+      "item": "kaleidoscope_cookery:tundra_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:sweet_and_sour_ender_pearls"
+    },
+    {
+      "item": "kaleidoscope_cookery:pan_seared_knight_steak"
+    },
+    {
+      "item": "kaleidoscope_cookery:dongpo_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:fondant_pie"
+    },
+    {
+      "item": "kaleidoscope_cookery:chicken_and_mushroom_stew"
+    },
+    {
+      "item": "kaleidoscope_cookery:sweet_and_sour_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:cold_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:desert_style_sashimi"
+    },
+    {
+      "item": "kaleidoscope_cookery:fondant_spider_eye"
+    },
+    {
+      "item": "kaleidoscope_cookery:stargazy_pie"
+    },
+    {
+      "item": "kaleidoscope_cookery:fish_flavored_shredded_pork"
+    },
+    {
+      "item": "kaleidoscope_cookery:stir_fried_beef_offal_rice_bowl"
+    },
+    {
+      "item": "kaleidoscope_cookery:end_style_sashimi"
+    },
+    {
+      "item": "avaritia:crystal_matrix"
+    },
+    {
+      "item": "kubejs:starcraft_advancedcoin"
+    }
+    ],
+   "result": {
+    "count": 16,
+    "item": "avaritia:ultimate_stew"
+  },
+  "tier": 4
+}

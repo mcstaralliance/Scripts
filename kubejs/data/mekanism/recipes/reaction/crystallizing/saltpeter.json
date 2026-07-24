@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 15,
+    "gas": "mekanism:brine"
+  },
+  "output": {
+    "item": "immersiveengineering:dust_saltpeter"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crystallizing",
+  "chemicalType": "gas",
+  "input": {
+    "amount": 6000,
+    "gas": "kubejs:gelatin_mixture"
+  },
+  "output": {
+    "count": 4,
+    "item": "starcraft:dust_gelatin"
+  }
+}

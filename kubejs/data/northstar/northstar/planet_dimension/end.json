@@ -1,0 +1,27 @@
+{
+  "atmosphere": {
+    "daytime_star_brightness": 1.0,
+    "fluid": "starcraft:ender_air",
+    "fluid_nbt": {},
+    "pressure_pa": 610.0
+  },
+  "averageTemperature": 20,
+  "dimension": "minecraft:the_end",
+  "gravity": 100,
+  "heat_gradient": 0.0,
+  "longitude_offset": 135.0,
+  "name": "surface",
+  "planet": "northstar:the_end",
+  "sun_multiplier": {
+    "type": "northstar:arithmetic",
+    "a": {
+      "type": "northstar:light",
+      "mode": "sky_darken",
+      "normalize": true
+    },
+    "b": 1.5,
+    "mode": "mul"
+  },
+  "temperature": 20,
+  "wind_multiplier": 0.0
+}

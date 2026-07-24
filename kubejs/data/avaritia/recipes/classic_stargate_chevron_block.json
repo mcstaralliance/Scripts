@@ -1,0 +1,46 @@
+{
+  "type": "avaritia:shaped_table",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "sgjourney:pure_naquadah_block"
+    },
+    "b": {
+      "item": "extrabotany:orichalcos_ingot"
+    },
+    "c": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "d": {
+      "item": "extrabotany:shadowium_ingot"
+    },
+    "e": {
+      "item": "extrabotany:aerialite_ingot"
+    },
+    "f": {
+      "item": "draconicevolution:awakened_draconium_block"
+    },
+    "g": {
+      "item": "extrabotany:photonium_ingot"
+    },
+    "j": {
+      "item":"sgjourney:classic_stargate_ring_block"
+    }
+    },
+    "pattern": [
+    "aaaaaaaaa",
+    "abbbbbbba",
+    "adcccccea",
+    "adcjjjcea",
+    "adcjfjcea",
+    "adcjjjcea",
+    "adcccccea",
+    "aggggggga",
+    "aaaaaaaaa"
+  ],
+  "result": {
+    "item": "sgjourney:classic_stargate_chevron_block"
+  },
+  "show_notification": true,
+  "tier": 4
+}

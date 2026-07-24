@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:dissolution",
+  "gasInput": {
+    "amount": 50,
+    "gas": "mekanism:sulfuric_acid"
+  },
+  "itemInput": {
+    "ingredient": {
+      "amount": 9,
+      "item": "ftbmaterials:apatite_dust"
+    }
+  },
+  "output": {
+    "amount": 1000,
+    "chemicalType": "gas",
+    "gas": "kubejs:phosphoric_acid"
+  }
+}
