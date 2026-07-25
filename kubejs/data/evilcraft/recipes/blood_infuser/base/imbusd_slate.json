@@ -1,0 +1,14 @@
+{
+  "type": "evilcraft:blood_infuser",
+  "item": "starcraft:reinforce_slate",
+  "fluid": {
+    "fluid": "evilcraft:blood",
+    "amount": 8000
+  },
+  "result": {
+    "item": "starcraft:imbued_slate"
+  },
+  "duration": 1000,
+  "xp": 2,
+  "tier": 2
+}

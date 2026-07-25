@@ -1,0 +1,19 @@
+{
+  "central_body": "northstar:earth",
+  "class": "end",
+  "diameter": 3474.8,
+  "orbit": {
+    "type": "northstar:simple",
+    "ascending_node_deg": 121.08000000000001,
+    "duration_days": 27.322,
+    "inclination_deg": 5.145,
+    "radius": 0.00357
+  },
+  "renderer": {
+    "type": "northstar:phase",
+    "texture": "northstar:solar_system/earth/moon_phases"
+  },
+  "required_science": 2.0,
+  "rotation_period_days": -27.322,
+  "texture": "northstar:solar_system/earth/moon"
+}

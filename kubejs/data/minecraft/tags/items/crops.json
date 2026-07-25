@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    { "id":"chicken_roost:chicken_food_tier_1", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_2", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_3", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_8", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_9", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_4", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_5", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_6", "required": false },
+    { "id":"chicken_roost:chicken_food_tier_7", "required": false },
+    { "id":"chicken_roost:seed_crop_1", "required": false },
+    { "id":"chicken_roost:seed_crop_2", "required": false },
+    { "id":"chicken_roost:seed_crop_3", "required": false },
+    { "id":"chicken_roost:seed_crop_4", "required": false },
+    { "id":"chicken_roost:seed_crop_5", "required": false },
+    { "id":"chicken_roost:seed_crop_6", "required": false },
+    { "id":"chicken_roost:seed_crop_7", "required": false },
+    { "id":"chicken_roost:seed_crop_8", "required": false },
+    { "id":"chicken_roost:seed_crop_9", "required": false },
+    { "id":"sgjourney:classic_stargate_base_block", "required": false }
+  ]
+}

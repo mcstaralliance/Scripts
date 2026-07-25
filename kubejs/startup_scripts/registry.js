@@ -57,8 +57,20 @@ StartupEvents.registry('item', event => {
     event.create("starcraft:biological_control_circuit");
     event.create("starcraft:dust_calcium");
     event.create("starcraft:soldering_alloy");
-    event.create("starcraft:block_of_gaia")
-
+    event.create("starcraft:block_of_gaia");
+    event.create("starcraft:reinforcedrpoxyresin_plate");
+    event.create("starcraft:multilayer_fiber_reinforced_circuit_board");
+    event.create("starcraft:master_circuit_board");
+    event.create("starcraft:wetware_lifesupport_circuit_board");
+    event.create("starcraft:fiber_reinforced_circuit_board");
+    event.create("starcraft:sodium_hydroxide_dust");
+    event.create("starcraft:incomplete_neuro_processing_unit");
+    event.create("starcraft:hasoc_wafer");
+    event.create("starcraft:hasoc");
+    event.create("starcraft:neutronium_doped_monocrystalline_silicon_boule");
+    event.create("starcraft:neutronium_doped_wafer");
+    event.create("starcraft:sodium_bisulfate_dust");
+    event.create("starcraft:incomplete_biological_control_circuit");
 })
 
 // fluid registry
@@ -83,8 +95,41 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:enriched_bacterial_sludge").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xafdc81).displayName("富集细菌浆液");
     event.create("starcraft:distilled_water").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x3b73c5).displayName("蒸馏水");
     event.create("starcraft:biomass").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x10ce00).displayName("生物质");
+    event.create("starcraft:epoxy").stillTexture("minecraft:block/lava_still").flowingTexture("minecraft:block/lava_flow").tint(0x956b15).displayName("环氧树脂");
+    event.create("starcraft:phenol").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x5a351c).displayName("苯酚");
+    event.create("starcraft:epichlorohydrin").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4d110a).displayName("环氧氯丙烷");
+    event.create("starcraft:sodium_persulfate").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x094444).displayName("过硫酸钠");
+    event.create("starcraft:propene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xb49e43).displayName("丙烯");
+    event.create("starcraft:acetone").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x828383).displayName("丙酮"); 
+    event.create("starcraft:ender_air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x2a3550).displayName("末地空气");
+    event.create("starcraft:sulfuric_heavy_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xf7e692).displayName("含硫重燃油");
+    event.create("starcraft:sulfuric_light_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xc09911).displayName("含硫轻燃油");
+    event.create("starcraft:sulfuric_naphtha").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xb7ad0a).displayName("含硫石脑油");
+    event.create("starcraft:sulfuric_kerosine").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x8487c6).displayName("含硫煤油");
+    event.create("starcraft:heavy_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xf7e6aa).displayName("重燃油");
+    event.create("starcraft:light_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xbab207).displayName("轻燃油");
+    event.create("starcraft:gasoline_premium").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xbf7d02).displayName("高辛烷值汽油");
+    event.create("starcraft:methanol").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x806802).displayName("甲醇");
+    event.create("starcraft:ethyl_tertbutyl_ether").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x834707).displayName("乙基叔丁基醚");
+    event.create("starcraft:octane").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x670b09).displayName("辛烷");
+    event.create("starcraft:toluene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x562408).displayName("甲苯");
+    event.create("starcraft:butene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x94410b).displayName("丁烯");
+    event.create("starcraft:severely_steamcracked_naphtha").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xb9b442).displayName("重度蒸汽裂化的石脑油");
+    event.create("starcraft:nitrous_oxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x5f94b32).displayName("一氧化二氮");
+    event.create("starcraft:raw_gasoline").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xc14e02).displayName("粗汽油");
+    event.create("starcraft:fermented_biomass").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x354202).displayName("发酵生物质"); 
+    event.create("starcraft:hypochlorous_acid").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x526569).displayName("次氯酸"); 
+    event.create("starcraft:dimethylhydrazine").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x04053e).displayName("偏二甲肼"); 
+    event.create("starcraft:liquid_ender_air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x04053e).displayName("液态末地空气");
+    event.create("starcraft:air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x787878).displayName("空气");
+    event.create("starcraft:liquid_air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x81bcff).displayName("液态空气");
+    event.create("starcraft:hydrogen_sulfide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xdd6103).displayName("硫化氢");  
+    event.create("starcraft:benzene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xdd6103).displayName("苯");
     
+
+      
     
+
 })
 
 // gas registry
