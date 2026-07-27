@@ -1,4 +1,0 @@
-{"type":"mekanism:purifying",
-"chemicalInput":{"amount":1,"gas":"mekanism:oxygen"},
-    "itemInput":{"ingredient":{"item":"sgjourney:raw_naquadah"}},
-    "output":{"count":1,"item":"sgjourney:pure_naquadah"}}

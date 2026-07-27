@@ -71,6 +71,9 @@ StartupEvents.registry('item', event => {
     event.create("starcraft:neutronium_doped_wafer");
     event.create("starcraft:sodium_bisulfate_dust");
     event.create("starcraft:incomplete_biological_control_circuit");
+    event.create("starcraft:nutrient_rich_sapling")
+    event.create("starcraft:incomplete_nutrient_rich_sapling")
+    event.create("starcraft:crushed_kiwi")
 })
 
 // fluid registry
@@ -124,10 +127,13 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x787878).displayName("空气");
     event.create("starcraft:liquid_air").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x81bcff).displayName("液态空气");
     event.create("starcraft:hydrogen_sulfide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xdd6103).displayName("硫化氢");  
-    event.create("starcraft:benzene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xdd6103).displayName("苯");
-    
-
-      
+    event.create("starcraft:benzene").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x161615).displayName("苯");
+    event.create("starcraft:carbon_dioxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x7d99ac).displayName("二氧化碳");
+    event.create("starcraft:nitrogen").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x0c8988).displayName("氮气");
+    event.create("starcraft:urea").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("尿素");
+    event.create("starcraft:basic_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("火箭燃料");
+    event.create("starcraft:advanced_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("二型火箭燃料");
+    event.create("starcraft:ultimate_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("三型火箭燃料");
     
 
 })
