@@ -73,6 +73,7 @@ const itemToBan = [
 ]
 
 const idToRemove = [
+    'productivebees:botania/elementium_bee',
     'goety:haunted/haunted_jug',
     'mushroom_concept:alloy/steel',
     'ae2:inscriber/engineering_processor',
@@ -255,11 +256,11 @@ const itemToRemove = [
 ServerEvents.recipes(event => {
     console.log("Remove items is running")
 
-    for (let toRemove of itemToRemove) {
-        event.remove({ output: toRemove })
-    }
     for (let toIdRemove of idToRemove) {
         event.remove({ id: toIdRemove })
+    }
+    for (let toRemove of itemToRemove) {
+        event.remove({ output: toRemove })
     }
     for (let toBan of itemToBan) {
         event.remove({ output: toBan })
