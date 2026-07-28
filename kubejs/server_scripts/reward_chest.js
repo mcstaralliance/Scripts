@@ -11,13 +11,17 @@ const stackWithProbability = [
     newItem('mekanism:mekasuit_bodyarmor', 0.13),
     newItem('mekanism:mekasuit_pants', 0.14),
     newItem('mekanism:mekasuit_boots', 0.15),
-    newItem(Item.of('botania:mana_tablet', '{creative:1b,mana:500000}'), 0.16),
+    newItem(
+        Item.of(
+            'botania:mana_tablet[botania:mana=500000,botania:creative_mana={}]'
+        ),
+        0.16
+    ),
     newItem('2x avaritia:ultimate_stew', 0.17),
     newItem('16x avaritia:cosmic_meatballs', 0.18),
     newItem(
         Item.of(
-            'mekanism:ultimate_energy_cube',
-            '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'
+            'mekanism:ultimate_energy_cube[mekanism:energy={energy_containers:[256000000L]}]'
         ),
         0.19
     ),
@@ -31,14 +35,14 @@ const stackWithProbability = [
     newItem('64x minecraft:experience_bottle', 0.5)
 ];
 
-BlockEvents.rightClicked('custom_chest', (event) => {
+BlockEvents.rightClicked('kubejs:custom_chest', (event) => {
     let block = event.getBlock();
     let player = event.getPlayer();
     let stack = event.getItem();
 
     let randomNumber = Math.random();
 
-    if (stack == 'kubejs:key' && block == 'kubejs:custom_chest') {
+    if (stack.id === 'kubejs:key' && block.id === 'kubejs:custom_chest') {
         let rewarded = false;
         for (let item of stackWithProbability) {
             if (randomNumber < item.probability) {

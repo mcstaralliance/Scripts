@@ -1,6 +1,5 @@
 const lootStrainer = [
   {
-    id: "ftb:strainer",
     pools: [
       {
         pool_name: "pebbles",
@@ -42,34 +41,62 @@ const lootStrainer = [
 ];
 
 LootJS.lootTables((event) => {
-  lootStrainer.forEach((barrelType) => {
-    const { id, pools } = barrelType;
+  const targetTable = event.getLootTable(
+    "ftbstuff:custom/water_strainer_test"
+  );
 
-    pools.forEach((pool) => {
-      const { pool_name, entries } = pool;
+  if (targetTable == null) {
+    console.error(
+      "[LootJS] Missing FTB Stuff water strainer loot table: " +
+        "ftbstuff:custom/water_strainer_test"
+    );
+    return;
+  }
 
-      // Create a new loot table for each pool within the strainer
-      event.create(`${id}_${pool_name}`).createPool((poolName) => {
-        entries.forEach(([itemID, entryWeight, [min, max]]) => {
-          poolName
-            .addEntry(
-              LootEntry.of(itemID).setCount([min, max]).withWeight(entryWeight)
-            )
-            .name("Strainer");
+  lootStrainer.forEach((strainerType) => {
+    const pools = strainerType.pools;
+
+    const poolReferences = [];
+
+    pools.forEach((poolDefinition) => {
+      const pool_name = poolDefinition.pool_name;
+      const weight = poolDefinition.weight;
+      const entries = poolDefinition.entries;
+      const helperTable = `kubejs:ftb_stuff/water_strainer/${pool_name}`;
+      poolReferences.push([helperTable, weight]);
+
+      event.create(helperTable).createPool((lootPool) => {
+        lootPool.name(`water_strainer_${pool_name}`);
+
+        entries.forEach((entry) => {
+          const itemID = entry[0];
+          const entryWeight = entry[1];
+          const min = entry[2][0];
+          const max = entry[2][1];
+
+          lootPool.addEntry(
+            LootEntry.of(itemID)
+              .withWeight(entryWeight)
+              .setCount([min, max])
+          );
         });
       });
     });
 
-    // Use the `create` method directly on the `event` object
-    event.create(id).createPool((poolName) => {
-      pools.forEach((pool) => {
-        poolName
-          .addEntry(
-            LootEntry.reference(`${id}_${pool.pool_name}`).withWeight(
-              pool.weight
-            )
-          )
-          .name(pool.pool_name);
+    // FTB Stuff uses this shared table for every wooden water strainer.
+    targetTable.clear();
+
+    targetTable.createPool((lootPool) => {
+      lootPool.name("water_strainer");
+      lootPool.rolls(1);
+
+      poolReferences.forEach((reference) => {
+        const helperTable = reference[0];
+        const weight = reference[1];
+
+        lootPool.addEntry(
+          LootEntry.reference(helperTable).withWeight(weight)
+        );
       });
     });
   });
