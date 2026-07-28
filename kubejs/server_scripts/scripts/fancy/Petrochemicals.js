@@ -448,5 +448,212 @@ ServerEvents.recipes(event =>{
 	"processing_time": 800,
     "heat_requirement":'heated'
     })
-
+    //苯酚丙酮
+    event.custom({
+	"type":"createvintageneoforged:pressurizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'starcraft:propene'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'starcraft:benzene'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'northstar:oxygen'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":100,
+        'fluid':'starcraft:phosphoric_acid'
+      },
+	],
+	"results": [
+      {
+        'amount':1000,
+        "id": "starcraft:phenol"
+      },
+      {
+        'amount':1000,
+        "id": "starcraft:acetone"
+      }
+  ],
+	"processing_time": 100,
+    "heat_requirement":'heated'
+    })
+    //甲烷提氢
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:tag",
+        "amount":1000,
+        'tag':'c:methane'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":2000,
+        'fluid':'minecraft:water'
+      }
+	],
+	"results": [
+      {
+        'amount':8000,
+        "id": "northstar:hydrogen"
+      },
+      {
+        'amount':3000,
+        "id": "starcraft:carbon_dioxide"
+      },
+	],
+	"processing_time": 200,
+    "heat_requirement":'heated'
+    })
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'northstar:hydrogen'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":2000,
+        'fluid':'starcraft:nitrogen'
+      }
+	],
+	"results": [
+      {
+        'amount':1000,
+        "id": "starcreaft:ammonia"
+      }
+	],
+	"processing_time": 200,
+    "heat_requirement":'superheated'
+    })
+    //尿素
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":2000,
+        'fluid':'northstar:hydrogen'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'starcraft:carbon_dioxide'
+      }
+	],
+	"results": [
+      {
+        'amount':1000,
+        "id": "starcraft:urea"
+      }
+	],
+	"processing_time": 800,
+    "heat_requirement":'superheated'
+    })
+    event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:saplings"
+  },
+  "loops": 3,
+  "results": [
+    {'id': 'starcraft:nutrient_rich_sapling'}
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "starcraft:incomplete_nutrient_rich_sapling"
+        },
+        {
+          "item": 'immersiveengineering:fertilizer'
+        }
+      ],
+      "results": [
+        {
+          "id": "starcraft:incomplete_nutrient_rich_sapling"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "starcraft:incomplete_nutrient_rich_sapling"
+        },
+        {
+          "type":"neoforge:single",
+          "amount":1000,
+          "fluid": "starcraft:urea"
+        }
+         ],
+      "results": [
+        {
+          "id": "starcraft:incomplete_nutrient_rich_sapling"
+        }
+      ]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 10000,
+      "ingredients": [
+        {
+          "item": "starcraft:incomplete_nutrient_rich_sapling"
+        }
+      ],
+      "results": [
+        {
+          "id": "starcraft:incomplete_nutrient_rich_sapling"
+        }
+      ]
+    },
+  ],
+  "transitional_item": {
+    "id": "starcraft:incomplete_nutrient_rich_sapling"
+  }
+})
+    //树叶
+    event.custom({
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    },
+    {
+      "item":"starcraft:nutrient_rich_sapling"
+    }
+  ],
+  "results": [
+    {
+      "count":64,
+      "id": 'minecraft:oak_leaves'
+    },
+    {
+      "count":64,
+      "id": 'minecraft:oak_leaves'
+    },
+    {
+      "count":64,
+      "id": 'minecraft:oak_leaves'
+    },
+    {
+      "count":64,
+      "id": 'minecraft:oak_leaves'
+    },
+  ]
+    }) 
 })

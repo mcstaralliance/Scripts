@@ -106,6 +106,14 @@ const idToRemove = [
     'botania:livingwood_log',
     'createdieselgenerators:distillation/superheated_crude_oil',
     'createdieselgenerators:distillation/crude_oil',
+    "createsifter:andesite_mesh_dirt_merged",
+	"createsifter:string_mesh_dirt_merged",
+    "ftbstuff:iron_mesh",
+    "ftbstuff:diamond_mesh",
+    "ftbstuff:blazing_mesh",
+	"ftbstuff:gold_mesh",
+    "createsifter:crafting/brass_mesh",
+	"createsifter:crafting/advanced_brass_mesh",
 ]
 
 const itemToRemove = [
