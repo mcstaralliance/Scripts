@@ -18,7 +18,7 @@ StartupEvents.registry('block', event => {
     event.create("paimoncyclone_miner_base");
     event.create("paimoncyclone_miner_pro");
     event.create("custom_chest").item(item => {
-        item.tooltip(Component.gold("使用奇珍之钥开启"));
+        item.tooltip(Component.gold("使用奇珍之匙开启"));
         item.tooltip(Component.yellow("钥匙可在菜单点券商城花费 60 点券购买"));
         item.tooltip(Component.gray("可抽出创造魔力池、区块加载器、无尽套与 MekaSuit 等珍稀物品"));
     });
