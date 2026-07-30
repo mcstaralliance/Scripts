@@ -140,6 +140,11 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:basic_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("火箭燃料");
     event.create("starcraft:advanced_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("二型火箭燃料");
     event.create("starcraft:ultimate_rocket_fuel").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4dbe88).displayName("三型火箭燃料");
+    event.create("starcraft:mercury").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xa8a0a0).displayName("汞");
+    event.create("starcraft:dinitrogen_tetroxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xa8a0a0).displayName("四氧化二氮");
+    event.create("starcraft:depleted_uranium_hexafluoride").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x74ba66).displayName("枯竭六氟化铀");
+    event.create("starcraft:mixed_uranium_hexafluoride").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4bf52a).displayName("含杂六氟化铀");
+    
     
 
 })
