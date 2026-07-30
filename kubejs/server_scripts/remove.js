@@ -179,23 +179,6 @@ const itemToRemove = [
     'ae2:molecular_assembler',
     'fluxnetworks:flux_core',
     'advanced_ae:reaction_chamber',
-    'chicken_roost:brown_egg',
-    'chicken_roost:green_egg',
-    'chicken_roost:blue_egg',
-    'chicken_roost:magenta_egg',
-    'chicken_roost:light_blue_egg',
-    'chicken_roost:cyan_egg',
-    'chicken_roost:yellow_egg',
-    'chicken_roost:orange_egg',
-    'chicken_roost:lime_egg',
-    'chicken_roost:white_egg',
-    'chicken_roost:purple_egg',
-    'chicken_roost:light_gray_egg',
-    'chicken_roost:pink_egg',
-    'chicken_roost:black_egg',
-    'chicken_roost:red_egg',
-    'chicken_roost:gray_egg',
-    '#chicken_roost:blocks/all',
     'expatternprovider:wireless_tool',
     'expatternprovider:wireless_connect',
     'ae2:vibration_chamber',
@@ -219,7 +202,9 @@ const itemToRemove = [
     'chunkloaders:advanced_chunk_loader',
     'chunkloaders:ultimate_chunk_loader',
     'botania:manasteel_ingot',
-    'botania:livingwood_log'
+    'botania:livingwood_log',
+    'createsifter:string_mesh',
+    'createsifter:andesite_mesh'
     
     
 
