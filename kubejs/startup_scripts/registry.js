@@ -17,10 +17,11 @@ StartupEvents.registry('item', event => {
 StartupEvents.registry('block', event => {
     event.create("paimoncyclone_miner_base");
     event.create("paimoncyclone_miner_pro");
-    event.create("custom_chest")
-        .tooltip(Component.gold("使用奇珍之钥开启"))
-        .tooltip(Component.yellow("钥匙可在菜单点券商城花费 60 点券购买"))
-        .tooltip(Component.gray("可抽出创造魔力池、区块加载器、无尽套与 MekaSuit 等珍稀物品"))
+    event.create("custom_chest").item(item => {
+        item.tooltip(Component.gold("使用奇珍之钥开启"));
+        item.tooltip(Component.yellow("钥匙可在菜单点券商城花费 60 点券购买"));
+        item.tooltip(Component.gray("可抽出创造魔力池、区块加载器、无尽套与 MekaSuit 等珍稀物品"));
+    });
     event.create("energy_input");
     event.create("fluid_input");
     event.create("fluid_output");
@@ -42,7 +43,9 @@ StartupEvents.registry('item', event => {
     event.create("starcraft_commoncoin").rarity("common").tooltip(Component.gray("面值: 50"));
     event.create("starcraft_advancedcoin").rarity("uncommon").tooltip(Component.gray("面值: 600"));
     event.create("starcraft_ultracoin").rarity("rare").tooltip(Component.gray("面值: 1200"));
-    event.create("key").rarity("epic");
+    event.create("key")
+        .rarity("epic")
+        .tooltip(Component.gray("对着奇珍箱右键即可开箱"));
     event.create("starcraft:ammonia_rich_mixture");
     event.create("starcraft:uranyl_nitrate");
     event.create("starcraft:ammonium_diuranate");
