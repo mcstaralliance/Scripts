@@ -31,10 +31,9 @@ const oreWithChance = {
 }
 
 ServerEvents.recipes(event => {
-    let recipe = event.recipes.starcraft.simple_miner_recipe()
+    let recipe = event.recipes.starcraft.simple_miner()
         .inputItems("minecraft:stone")
-        .inputFE(500)
-        .inputMana(100)
+        .inputFE(1500)
         .duration(200)
         
     for (let [ore, chance] of Object.entries(oreWithChance)) {

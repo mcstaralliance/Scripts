@@ -1,0 +1,16 @@
+{
+   "block.starcraft.paimon_cyclone_miner": "超级派蒙旋风矿机 Lite",
+   "block.starcraft.paimon_cyclone_miner_pro": "超级派蒙旋风矿机 Pro",
+   "block.starcraft.item_input": "物品输入口",
+   "block.starcraft.item_output": "物品输出口",
+   "block.starcraft.energy_input": "能量输入口",
+   "block.starcraft.beehive": "赛博蜂巢",
+   "block.starcraft.fluid_input": "流体输入口",
+   "block.starcraft.fluid_output": "流体输出口",
+   "block.starcraft.simple_miner": "简易矿机",
+
+   "recipe_type.starcraft.paimon_cyclone_miner_recipe": "超级派蒙旋风矿机 Lite",
+   "recipe_type.starcraft.paimon_cyclone_miner_pro_recipe": "超级派蒙旋风矿机 Pro",
+   "recipe_type.starcraft.cyber_bee_nast": "赛博养蜂",
+   "recipe_type.starcraft.simple_miner": "简易矿机"
+}
