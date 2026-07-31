@@ -537,6 +537,30 @@ ServerEvents.recipes(event =>{
 	"processing_time": 200,
     "heat_requirement":'superheated'
     })
+   //一氧化二氮
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'northstar:oxygen'
+      },
+      {
+        'type':"neoforge:single",
+        "amount":2000,
+        'fluid':'starcraft:nitrogen'
+      }
+	],
+	"results": [
+      {
+        'amount':1000,
+        "id": "starcraft:nitrous_oxide"
+      }
+	],
+	"processing_time": 200,
+    "heat_requirement":'heated'
+    })
     //尿素
     event.custom({
 	"type":"createvintageneoforged:vacuumizing",
@@ -656,4 +680,58 @@ ServerEvents.recipes(event =>{
     },
   ]
     }) 
+    //四氧化二氮
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":2000,
+        'fluid':'starcraft:nitrogen_dioxide'
+      },
+	],
+	"results": [
+      {
+        'amount':1000,
+        "id": "starcraft:dinitrogen_tetroxide"
+      }
+	],
+	"processing_time": 800,
+    "heat_requirement":'superheated'
+    })
+    //龙锭
+    event.custom({
+	"type":"createvintageneoforged:vacuumizing",
+	"ingredients": [
+      {
+        'type':"neoforge:single",
+        "amount":1000,
+        'fluid':'starcraft:gasoline_premium'
+      },
+      {
+        'item':'draconicevolution:draconium_dust'
+      }
+	],
+	"results": [
+      {
+        "id": "starcraft:hot_draconium_ingot"
+      },
+	],
+	"processing_time": 1000,
+    "heat_requirement":'superheated'
+    })
+    event.custom({
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "item": "starcraft:hot_draconium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": 'draconicevolution:draconium_ingot'
+    }
+  ]
 })
+})
+

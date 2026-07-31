@@ -309,7 +309,7 @@ const sifterRecipes = [
 			["xycraft_world:xychorium_gem_green", 0.9],
 			["xycraft_world:xychorium_gem_red", 0.9]
 		]
-	}
+	},
 ];
 
 const meshSpeeds = {
