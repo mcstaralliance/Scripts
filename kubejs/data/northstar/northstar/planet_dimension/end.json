@@ -7,7 +7,7 @@
   },
   "averageTemperature": 20,
   "dimension": "minecraft:the_end",
-  "gravity": 100,
+  "gravity": 10,
   "heat_gradient": 0.0,
   "longitude_offset": 135.0,
   "name": "surface",
