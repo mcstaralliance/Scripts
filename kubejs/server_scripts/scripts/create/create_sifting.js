@@ -53,7 +53,8 @@ const sifterRecipes = [
 			["minecraft:flint", 0.22],
 			["minecraft:coal", 0.2],
 			["ftbmaterials:tin_chunk", 0.12],
-			["ftbmaterials:lead_chunk", 0.1]
+			["ftbmaterials:lead_chunk", 0.1],
+			['ftbmaterials:zinc_chunk',0.2]
 		]
 	},
 	{
@@ -68,7 +69,8 @@ const sifterRecipes = [
 			["ftbmaterials:aluminum_chunk", 0.16],
 			["ftbmaterials:tin_chunk", 0.15],
 			["ftbmaterials:lead_chunk", 0.15],
-			["ftbmaterials:emerald_chunk", 0.04]
+			["ftbmaterials:emerald_chunk", 0.04],
+			['ftbmaterials:zinc_chunk',0.3]
 		]
 	},
 	{
@@ -84,7 +86,8 @@ const sifterRecipes = [
 			["ftbmaterials:tin_chunk", 0.2],
 			["ftbmaterials:osmium_chunk", 0.19],
 			["ftbmaterials:emerald_chunk", 0.08],
-			["ftbmaterials:diamond_chunk", 0.12]
+			["ftbmaterials:diamond_chunk", 0.12],
+			['ftbmaterials:zinc_chunk',0.4]
 		]
 	},
 	{
@@ -100,7 +103,8 @@ const sifterRecipes = [
 			["ftbmaterials:tin_chunk", 0.2],
 			["ftbmaterials:osmium_chunk", 0.19],
 			["ftbmaterials:emerald_chunk", 0.08],
-			["ftbmaterials:diamond_chunk", 0.12]
+			["ftbmaterials:diamond_chunk", 0.12],
+			['ftbmaterials:zinc_chunk',0.5]
 		]
 	},
 	{
