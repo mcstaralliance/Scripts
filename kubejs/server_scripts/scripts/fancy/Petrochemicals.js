@@ -249,10 +249,6 @@ ServerEvents.recipes(event =>{
 		"id": 'mekanism:ethene',
 		'amount':500
 	},
-  {
-    "id":'starcraft:methanol',
-    "amount":100
-  }
 	],
   "processing_time": 150,
   "heat_requirement":'superheated'
@@ -503,7 +499,8 @@ ServerEvents.recipes(event =>{
         'type':"neoforge:single",
         "amount":2000,
         'fluid':'minecraft:water'
-      }
+      },
+      
 	],
 	"results": [
       {
@@ -514,6 +511,10 @@ ServerEvents.recipes(event =>{
         'amount':3000,
         "id": "starcraft:carbon_dioxide"
       },
+      {
+    "id":'starcraft:methanol'
+    "amount":100
+      }
 	],
 	"processing_time": 200,
     "heat_requirement":'heated'
