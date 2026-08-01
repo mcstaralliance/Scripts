@@ -242,7 +242,9 @@ const itemToRemove = [
     'mekanismgenerators:wind_generator',
     'mekanismgenerators:solar_generator',
     'mekanismgenerators:advanced_solar_generator',
-    'mekmm:large_gas_burning_generator'
+    'mekmm:large_gas_burning_generator',
+    'northstar:rocket_station',
+    'northstar:rocket_controls'
 
     
     

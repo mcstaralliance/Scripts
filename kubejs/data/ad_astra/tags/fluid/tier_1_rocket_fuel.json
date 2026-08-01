@@ -1,0 +1,7 @@
+{
+  "values": [
+    {"id":"starcraft:basic_rocket_fuel"},
+    {"id":"starcraft:advanced_rocket_fuel"},
+    {"id":"starcraft:ultimate_rocket_fuel"}
+  ]
+}
