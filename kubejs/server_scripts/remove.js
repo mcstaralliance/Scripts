@@ -122,7 +122,12 @@ const idToRemove = [
     'oritech:foundry/alloy/biosteel',
     'immersiveengineering:blastfurnace/steel',
     'oritech:compat/immersiveengineering/arcalloying/biosteel',
-    'oritech:compat/immersiveengineering/alloying/biosteel'
+    'oritech:compat/immersiveengineering/alloying/biosteel',
+    'oritech:centrifuge/fluid/plasticoilbetter',
+    'oritech:centrifuge/fluid/plasticoil',
+    'oritech:centrifuge/fluid/plasticbiobetter',
+    'oritech:centrifuge/fluid/plasticbio'
+
 
 
 ]
