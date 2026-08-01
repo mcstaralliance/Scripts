@@ -512,7 +512,7 @@ ServerEvents.recipes(event =>{
         "id": "starcraft:carbon_dioxide"
       },
       {
-    "id":'starcraft:methanol'
+    "id":'starcraft:methanol',
     "amount":100
       }
 	],
