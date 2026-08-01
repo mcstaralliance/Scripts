@@ -50,6 +50,7 @@ const sifterRecipes = [
 			["ftbmaterials:iron_chunk", 0.54],
 			["ftbmaterials:coal_tiny", 0.5],
 			["ftbmaterials:copper_chunk", 0.44],
+			["ftbmaterials:zinc_chunk", 0.1],
 			["minecraft:flint", 0.22],
 			["minecraft:coal", 0.2],
 			["ftbmaterials:tin_chunk", 0.12],
@@ -63,6 +64,7 @@ const sifterRecipes = [
 			["ftbmaterials:iron_chunk", 0.64],
 			["ftbmaterials:coal_tiny", 0.6],
 			["ftbmaterials:copper_chunk", 0.54],
+			["ftbmaterials:zinc_chunk", 0.15],
 			["minecraft:coal", 0.25],
 			["ftbmaterials:lapis_lazuli_chunk", 0.16],
 			["ftbmaterials:aluminum_chunk", 0.16],
@@ -77,6 +79,7 @@ const sifterRecipes = [
 		outputs: [
 			["ftbmaterials:iron_chunk", 0.69],
 			["ftbmaterials:copper_chunk", 0.59],
+			["ftbmaterials:zinc_chunk", 0.2],
 			["minecraft:coal", 0.3],
 			["ftbmaterials:lapis_lazuli_chunk", 0.21],
 			["ftbmaterials:lead_chunk", 0.2],
@@ -93,6 +96,7 @@ const sifterRecipes = [
 		outputs: [
 			["ftbmaterials:iron_chunk", 0.69],
 			["ftbmaterials:copper_chunk", 0.59],
+			["ftbmaterials:zinc_chunk", 0.2],
 			["minecraft:coal", 0.3],
 			["ftbmaterials:lapis_lazuli_chunk", 0.21],
 			["ftbmaterials:lead_chunk", 0.2],
@@ -199,7 +203,7 @@ const sifterRecipes = [
 			["ftbmaterials:silver_chunk", 0.13],
 			["ftbmaterials:niter_dust", 0.13],
 			["ftbmaterials:gold_chunk", 0.11],
-			["ftbmaterials:redstone_chunk", 0.11],
+			["minecraft:redstone", 0.11],
 			["ftbmaterials:nickel_chunk", 0.11],
 			["ftbmaterials:bauxite_dust", 0.1]
 		]
@@ -210,7 +214,7 @@ const sifterRecipes = [
 		outputs: [
 			["minecraft:bone_meal", 0.25],
 			["ftbmaterials:salt_dust", 0.22],
-			["ftbmaterials:redstone_chunk", 0.21],
+			["minecraft:redstone", 0.21],
 			["minecraft:gunpowder", 0.19],
 			["ftbmaterials:gold_chunk", 0.16],
 			["ftbmaterials:bauxite_dust", 0.15],
