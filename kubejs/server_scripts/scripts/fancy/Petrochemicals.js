@@ -249,6 +249,10 @@ ServerEvents.recipes(event =>{
 		"id": 'mekanism:ethene',
 		'amount':500
 	},
+  {
+    "id":'starcraft:methanol'
+    "amount":100
+  }
 	],
   "processing_time": 150,
   "heat_requirement":'superheated'
