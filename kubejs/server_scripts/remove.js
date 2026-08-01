@@ -86,7 +86,6 @@ const idToRemove = [
     'botania:mana_infusion/manasteel_block',
     'botania:mana_infusion/manasteel',
     'botania:alfheim_portal',
-    'ae2:decorative/quartz_glass',
     'advanced_ae:quantum_processor',
     'forestry:sturdy_machine',
     'industrialforegoing:ore_laser_base',
