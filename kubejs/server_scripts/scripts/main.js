@@ -843,6 +843,16 @@ ServerEvents.recipes(event => {
     ],{
         A:'#c:raw_materials/iron',
         B:'#c:raw_materials/gold'
-    })
+    }),
+    //神秘方块
+    event.shaped('ae2:mysterious_cube',
+        ['ABA',
+         'BAB',
+         'ABA'],
+         {
+            A:'ae2:certus_quartz_crystal',
+            B:'xycraft_world:kivi'
+         }
+    )
 })
 
