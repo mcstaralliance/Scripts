@@ -1,0 +1,16 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "tag": "minecraft:saplings",
+      "count": 64
+    }
+  ],
+  "output_items": [
+    {
+      "count": 8,
+      "id": "minecraft:dirt"
+    }
+  ],
+  "temperature": "normal"
+}

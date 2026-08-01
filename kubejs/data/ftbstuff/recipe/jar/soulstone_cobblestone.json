@@ -1,0 +1,12 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "normal",
+  "time": 200,
+  "input_items": [
+    { "tag": "c:cobblestones", "count": 8 },
+    { "item": "mysticalagriculture:soulium_dust", "count": 1 }
+  ],
+  "output_items": [
+    { "id": "mysticalagriculture:soulstone_cobble", "count": 9 }
+  ]
+}

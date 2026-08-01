@@ -1,0 +1,11 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "hot",
+  "time": 200,
+  "input_fluids": [
+    { "fluid": "minecraft:water", "amount": 500 }
+  ],
+  "output_items": [
+    { "id": "ftbmaterials:salt_block", "count": 1 }
+  ]
+}

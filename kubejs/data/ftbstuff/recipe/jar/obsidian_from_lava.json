@@ -1,0 +1,11 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "chilled",
+  "time": 200,
+  "input_fluids": [
+    { "fluid": "minecraft:lava", "amount": 1000 }
+  ],
+  "output_items": [
+    { "id": "minecraft:obsidian", "count": 1 }
+  ]
+}

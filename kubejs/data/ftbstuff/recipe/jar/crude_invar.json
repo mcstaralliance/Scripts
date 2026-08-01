@@ -1,0 +1,12 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "normal",
+  "time": 20,
+  "input_items": [
+    { "item": "ftbmaterials:iron_dust", "count": 2 },
+    { "item": "ftbmaterials:nickel_dust", "count": 1 }
+  ],
+  "output_items": [
+    { "id": "ftbmaterials:invar_dust", "count": 1 }
+  ]
+}

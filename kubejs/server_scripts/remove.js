@@ -231,7 +231,18 @@ const itemToRemove = [
     'productivebees:incubator',
     'productivebees:gene_indexer',
     'productivebees:breeding_chamber',
-    'ad_astra:etrionic_blast_furnace'
+    'ad_astra:etrionic_blast_furnace',
+    'oritech:bio_generator_block',
+    'oritech:lava_generator_block',
+    'oritech:fuel_generator_block',
+    'oritech:basic_generator_block',
+    'mekanismgenerators:heat_generator',
+    'mekanismgenerators:bio_generator',
+    'mekanismgenerators:gas_burning_generator',
+    'mekanismgenerators:wind_generator',
+    'mekanismgenerators:solar_generator',
+    'mekanismgenerators:advanced_solar_generator',
+    'mekmm:large_gas_burning_generator'
 
     
     

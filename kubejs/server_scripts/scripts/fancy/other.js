@@ -281,4 +281,59 @@ ServerEvents.recipes(event =>{
       "id": 'avaritia:infinity_ingot'
     }
   }})
+  event.custom({
+  "type": "northstar:freezing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "starcraft:air"
+    }
+  ],
+  "maxTemperature": -180,
+  "processing_time": 10,
+  "results": [
+    {
+      "amount":100,
+      "id": "starcraft:liquid_air"
+    }
+  ]
+})
+  event.custom({
+  "type": "northstar:freezing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "starcraft:ender_air"
+    }
+  ],
+  "maxTemperature": -180,
+  "processing_time": 10,
+  "results": [
+    {
+      "amount":100,
+      "id": "starcraft:liquid_ender_air"
+    }
+  ]
+})
+  event.custom(({
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 2000,
+      "fluid": "starcraft:air"
+    },
+    {
+      "item":'minecraft:blue_ice'
+    },
+  ],
+  "results": [
+    {
+      "amount": 2000,
+      "id": "starcraft:liquid_air"
+    },
+  ]
+    }))
 })

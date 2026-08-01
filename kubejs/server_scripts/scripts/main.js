@@ -835,5 +835,14 @@ ServerEvents.recipes(event => {
         C: 'ars_nouveau:conjuration_essence',
         D:'minecraft:egg'
     })
+    //磁铁矿
+    event.shaped('create_new_age:magnetite_block',[
+        'AAA',
+        'A B',
+        'BBB'
+    ],{
+        A:'#c:raw_materials/iron',
+        B:'#c:raw_materials/gold'
+    })
 })
 

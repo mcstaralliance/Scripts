@@ -1,0 +1,12 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "normal",
+  "time": 200,
+  "input_items": [
+    { "item": "mysticalagriculture:prosperity_shard", "count": 64 },
+    { "tag": "c:seeds", "count": 16 }
+  ],
+  "output_items": [
+    { "id": "mysticalagriculture:prosperity_seed_base", "count": 16 }
+  ]
+}
