@@ -250,7 +250,7 @@ ServerEvents.recipes(event =>{
 		'amount':500
 	},
   {
-    "id":'starcraft:methanol'
+    "id":'starcraft:methanol',
     "amount":100
   }
 	],
