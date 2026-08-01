@@ -310,6 +310,24 @@ const sifterRecipes = [
 			["xycraft_world:xychorium_gem_red", 0.9]
 		]
 	},
+	{
+		input: 'minecraft:oak_leaves',
+		mesh: "cloth",
+		outputs: [
+			['ars_nouveau:blue_archwood_sapling', 0.9],
+			['ars_nouveau:red_archwood_sapling', 0.9],
+			['ars_nouveau:green_archwood_sapling', 0.9],
+			['ars_nouveau:purple_archwood_sapling', 0.9],
+			['minecraft:oak_sapling', 0.9],
+			['minecraft:spruce_sapling',0.9],
+			['minecraft:birch_sapling',0.9],
+			['minecraft:jungle_sapling',0.9],
+			['minecraft:acacia_sapling',0.9],
+			['minecraft:dark_oak_sapling',0.9],
+			['minecraft:cherry_sapling',0.9]
+			
+		]
+	},
 ];
 
 const meshSpeeds = {
