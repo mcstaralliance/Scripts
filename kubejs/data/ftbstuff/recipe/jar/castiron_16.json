@@ -1,0 +1,12 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "superheated",
+  "time": 200,
+  "input_items": [
+    { "tag": "c:ingots/iron", "count": 16 },
+    { "tag": "minecraft:coals", "count": 1 }
+  ],
+  "output_items": [
+    { "id": "ftbstuff:cast_iron_ingot", "count": 16 }
+  ]
+}

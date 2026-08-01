@@ -3,6 +3,13 @@
     {
       "id":"starcraft:ender_air",
       "required": false
+    },
+    {
+      "id":"starcraft:molten_infinity_ingot",
+      "required": false
+    },
+    {
+      "id":"starcraft:air"
     }
   ]
 }

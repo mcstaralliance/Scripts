@@ -1,0 +1,16 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "tag": "c:seeds",
+      "count": 8
+    }
+  ],
+  "output_items": [
+    {
+      "count": 1,
+      "id": "minecraft:dirt"
+    }
+  ],
+  "temperature": "normal"
+}

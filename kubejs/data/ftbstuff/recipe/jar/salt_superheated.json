@@ -1,0 +1,11 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "superheated",
+  "time": 200,
+  "input_fluids": [
+    { "fluid": "minecraft:water", "amount": 1000 }
+  ],
+  "output_items": [
+    { "id": "ftbmaterials:salt_dust", "count": 9 }
+  ]
+}

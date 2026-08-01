@@ -1,0 +1,11 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "superheated",
+  "time": 200,
+  "input_items": [
+    { "tag": "c:rods/blaze", "count": 1 }
+  ],
+  "output_fluids": [
+    { "id": "productivemetalworks:molten_blaze", "amount": 400 }
+  ]
+}

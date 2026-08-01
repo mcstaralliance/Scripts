@@ -79,7 +79,13 @@ StartupEvents.registry('item', event => {
     event.create("starcraft:incomplete_biological_control_circuit");
     event.create("starcraft:nutrient_rich_sapling")
     event.create("starcraft:incomplete_nutrient_rich_sapling")
-    event.create("starcraft:crushed_kiwi")
+    event.create("starcraft:crushed_kiwi");
+    event.create("starcraft:incomplete_hasoc_wafer");
+    event.create("starcraft:advanced_rocket_nose_cone");
+    event.create("starcraft:heavy_awakened_draconium_plate");
+    event.create("starcraft:ender_lens"),
+    event.create("starcraft:hot_draconium_ingot")
+
 })
 
 // fluid registry
@@ -144,6 +150,10 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:dinitrogen_tetroxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xa8a0a0).displayName("四氧化二氮");
     event.create("starcraft:depleted_uranium_hexafluoride").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x74ba66).displayName("枯竭六氟化铀");
     event.create("starcraft:mixed_uranium_hexafluoride").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x4bf52a).displayName("含杂六氟化铀");
+    event.create("starcraft:photoresist").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x536571).displayName("光刻胶");
+    event.create("starcraft:molten_infinity_ingot").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xddb7b8).displayName("熔融无尽之锭");
+    
+    
     
     
 

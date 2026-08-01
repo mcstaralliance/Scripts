@@ -91,13 +91,11 @@ const idToRemove = [
     'forestry:sturdy_machine',
     'industrialforegoing:ore_laser_base',
     'industrialforegoing:laser_drill',
-    'avaritia:extreme_crafting_table',
     'draconicevolution:components/draconium_ingot_from_ore',
     'draconicevolution:components/draconium_ingot_from_dust',
     'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
     'enderio:smelting/draconicevolution/components/draconium_ingot_from_ore',
     'draconicevolution:components/draconium_core',
-    'draconicevolution:components/wyvern_core',
     'botania:pure_daisy/livingwood_log',
     'botania:pure_daisy/livingrock',
     'sgjourney:classic_stargate_ring_block',
@@ -115,6 +113,18 @@ const idToRemove = [
 	"ftbstuff:gold_mesh",
     "createsifter:crafting/brass_mesh",
 	"createsifter:crafting/advanced_brass_mesh",
+    "pneumaticcraft:thermo_plant/plastic_from_biodiesel",
+    "oritech:crafting/alloy/steel",
+    'oritech:mixing/compat/create/biosteel',
+    'oritech:mixing/compat/create/steel',
+    'immersiveengineering:arcfurnace/steel',
+    'oritech:foundry/alloy/steel',
+    'oritech:foundry/alloy/biosteel',
+    'immersiveengineering:blastfurnace/steel',
+    'oritech:compat/immersiveengineering/arcalloying/biosteel',
+    'oritech:compat/immersiveengineering/alloying/biosteel'
+
+
 ]
 
 const itemToRemove = [
@@ -204,7 +214,36 @@ const itemToRemove = [
     'botania:manasteel_ingot',
     'botania:livingwood_log',
     'createsifter:string_mesh',
-    'createsifter:andesite_mesh'
+    'createsifter:andesite_mesh',
+    'industrialforegoing:plastic',
+    'oritech:plastic_block',
+    'pneumaticcraft:refinery',
+    'createvintageneoforged:convex_curving_head',
+    'ad_astra:calorite_engine',
+    "ad_astra:tier_4_rocket",
+    'avaritia:ultimate_stew',
+    "northstar:temperature_regulator",
+    'northstar:electrolysis_machine',
+    '#productivebees:advanced_beehives',
+    'productivebees:centrifuge',
+    'productivebees:bottler',
+    'productivebees:catcher',
+    'productivebees:incubator',
+    'productivebees:gene_indexer',
+    'productivebees:breeding_chamber',
+    'ad_astra:etrionic_blast_furnace',
+    'oritech:bio_generator_block',
+    'oritech:lava_generator_block',
+    'oritech:fuel_generator_block',
+    'oritech:basic_generator_block',
+    'mekanismgenerators:heat_generator',
+    'mekanismgenerators:bio_generator',
+    'mekanismgenerators:gas_burning_generator',
+    'mekanismgenerators:wind_generator',
+    'mekanismgenerators:solar_generator',
+    'mekanismgenerators:advanced_solar_generator',
+    'mekmm:large_gas_burning_generator'
+
     
     
 

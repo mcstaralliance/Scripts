@@ -1,0 +1,20 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "item": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:fertilizer",
+      "count": 1
+    }
+  ],
+  "output_items": [
+    {
+      "count": 1,
+      "id": "utilitarian:snad"
+    }
+  ],
+  "temperature": "normal"
+}

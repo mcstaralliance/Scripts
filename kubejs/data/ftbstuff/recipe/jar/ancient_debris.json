@@ -1,0 +1,12 @@
+{
+  "type": "ftbstuff:jar",
+  "temperature": "superheated",
+  "time": 200,
+  "input_items": [
+    { "tag": "geore:geore_shards/ancient_debris", "count": 1 },
+    { "item": "enderio:grains_of_infinity", "count": 1 }
+  ],
+  "output_items": [
+    { "id": "minecraft:netherite_scrap", "count": 1 }
+  ]
+}

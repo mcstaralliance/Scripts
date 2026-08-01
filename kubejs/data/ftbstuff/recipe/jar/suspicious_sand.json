@@ -1,0 +1,20 @@
+{
+  "type": "ftbstuff:jar",
+  "input_items": [
+    {
+      "item": "minecraft:sand",
+      "count": 8
+    },
+    {
+      "item": "enderio:grains_of_infinity",
+      "count": 1
+    }
+  ],
+  "output_items": [
+    {
+      "count": 8,
+      "id": "minecraft:suspicious_sand"
+    }
+  ],
+  "temperature": "normal"
+}
