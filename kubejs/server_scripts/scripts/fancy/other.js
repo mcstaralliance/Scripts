@@ -11,6 +11,16 @@ ServerEvents.recipes(event =>{
   "input": 'minecraft:andesite',
   "output": 'create:andesite_alloy_block'})
   event.custom({
+    "type": "ftbstuff:dripper",
+  "chance": 0.1,
+  "consume_fluid_on_fail": true,
+  "fluid": {
+    "amount": 1000,
+    "id": "minecraft:lava"
+  },
+  "input": 'minecraft:diorite',
+  "output": 'xycraft_world:kivi'})
+  event.custom({
   "type": "extendedcrafting:shapeless_table",
   "ingredients": [
     {
@@ -317,7 +327,7 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
-  event.custom(({
+  event.custom({
   "type": "create:mixing",
   "ingredients": [
     {
@@ -335,5 +345,79 @@ ServerEvents.recipes(event =>{
       "id": "starcraft:liquid_air"
     },
   ]
-    }))
+    })
+    event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": 'mekanism:quantum_entangloporter'
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      'count':32,
+      "id": 'fluxnetworks:flux_core'
+    }
+  ]
+}),
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": 'mekanism:quantum_entangloporter'
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      'count':32,
+      "id": 'fluxnetworks:flux_core'
+    }
+  ]
+})
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:sand"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "northstar:rutile_concentrate"
+    },
+    {
+      "id":'ftbstuff:dust'
+    }
+  ]
+})
+  event.custom({
+  "type": "xycraft_machines:extractor",
+  "adjacent": [
+    {
+      "fluid_type": "minecraft:water",
+      "predicate_type": "xycraft_core:fluid_type_rule"
+    },
+    {
+      "fluid_type": "minecraft:lava",
+      "predicate_type": "xycraft_core:fluid_type_rule"
+    }
+  ],
+  "catalyst": {
+    "block": 'minecraft:gravel',
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "output": {
+    "count": 1,
+    "id": 'create:limestone'
+  },
+  "target": {
+    "block": 'minecraft:sand',
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "ticks": 30
+})
 })

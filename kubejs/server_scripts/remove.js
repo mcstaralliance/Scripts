@@ -29,7 +29,6 @@ const itemToBan = [
     'composite:material_creative_reinforced_book',
     'ars:nouveau_glyph_intangible',
     'mekanism:upgrade_anchor',
-    'mekanism:robit',
     'mekanism:dimensional_stabilizer',
     'ars:nouveau_glyph_phantom_block',
     'ars:nouveau_glyph_place_block',
@@ -89,7 +88,6 @@ const idToRemove = [
     'advanced_ae:quantum_processor',
     'forestry:sturdy_machine',
     'industrialforegoing:ore_laser_base',
-    'industrialforegoing:laser_drill',
     'draconicevolution:components/draconium_ingot_from_ore',
     'draconicevolution:components/draconium_ingot_from_dust',
     'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
@@ -125,7 +123,14 @@ const idToRemove = [
     'oritech:centrifuge/fluid/plasticoilbetter',
     'oritech:centrifuge/fluid/plasticoil',
     'oritech:centrifuge/fluid/plasticbiobetter',
-    'oritech:centrifuge/fluid/plasticbio'
+    'oritech:centrifuge/fluid/plasticbio',
+    'immersiveengineering:blastfurnace/steel_block',
+    'ae2:inscriber/calculation_processor_print',
+    'ae2cs:inscriber/simple_circuit_print',
+    'ae2:inscriber/engineering_processor_print',
+    'ae2:inscriber/logic_processor_print',
+    'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'
+
 
 
 
@@ -249,8 +254,8 @@ const itemToRemove = [
     'mekmm:large_gas_burning_generator',
     'northstar:rocket_station',
     'northstar:rocket_controls',
-    'ae2:inscriber'
-
+    'pneumaticcraft:refinery_output',
+    'extendedae_plus:infinity_biginteger_cell'
     
     
 

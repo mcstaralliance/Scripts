@@ -1216,4 +1216,44 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  event.custom({
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "northstar:sodium"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "mekanism:sulfuric_acid"
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "id": "starcraft:sodium_persulfate"
+    }
+  ]
+    })
+    event.custom({
+	"type":"createvintageneoforged:pressurizing",
+	"ingredients": [
+      {
+        'type':'neoforge:single',
+        'amount':1000,
+        'fluid':"starcraft:sodium_persulfate"
+      }
+	],
+	"results": [
+      {
+        'count':1,
+        "id": 'starcraft:sodium_hydroxide_dust'
+      },
+    ],
+	"processing_time": 160,
+    "heat_requirement":'superheated'
+    })
 })
