@@ -442,8 +442,8 @@ ServerEvents.recipes(event => {
         'DDD'
     ],{
         A:'ae2:quartz_glass',
-        B:'pneumaticcraft:plastic',
-        C:'immersiveengineering:logic_circuit',
+        B:'#c:plastics',
+        C:'immersiveengineering:circuit_board',
         D:'minecraft:iron_ingot'
     })
     
@@ -888,7 +888,8 @@ ServerEvents.recipes(event => {
             B:'minecraft:chest'
          }
     )
-    event.shapeless('starcraft:item_input',['starcraft:item_output'])
-    event.shapeless('starcraft:item_output',['starcraft:item_input'])
+    event.shapeless('starcraft:item_input',['starcraft:item_output']),
+    event.shapeless('starcraft:item_output',['starcraft:item_input']),
+    event.shapeless('9x minecraft:copper_ingot',['minecraft:copper_block'])
 })
 

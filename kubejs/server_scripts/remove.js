@@ -254,7 +254,6 @@ const itemToRemove = [
     'mekmm:large_gas_burning_generator',
     'northstar:rocket_station',
     'northstar:rocket_controls',
-    'ae2:inscriber',
     'pneumaticcraft:refinery_output',
     'extendedae_plus:infinity_biginteger_cell'
     
