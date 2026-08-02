@@ -868,5 +868,27 @@ ServerEvents.recipes(event => {
             F:'minecraft:redstone'
         }
     )
+    //输入口
+    event.shaped('starcraft:item_input',
+        [' A ',
+         ' B ',
+         '   '],
+         {
+            A:'#c:storage_blocks/steel',
+            B:'minecraft:chest'
+         }
+    )
+    //输出口
+    event.shaped('starcraft:item_output',
+        [' B ',
+         ' A ', 
+         '   '],
+         {
+            A:'#c:storage_blocks/steel',
+            B:'minecraft:chest'
+         }
+    )
+    event.shapeless('starcraft:item_input',['starcraft:item_output'])
+    event.shapeless('starcraft:item_output',['starcraft:item_input'])
 })
 
