@@ -29,7 +29,6 @@ const itemToBan = [
     'composite:material_creative_reinforced_book',
     'ars:nouveau_glyph_intangible',
     'mekanism:upgrade_anchor',
-    'mekanism:robit',
     'mekanism:dimensional_stabilizer',
     'ars:nouveau_glyph_phantom_block',
     'ars:nouveau_glyph_place_block',

@@ -70,7 +70,8 @@ const sifterRecipes = [
 			["ftbmaterials:tin_chunk", 0.15],
 			["ftbmaterials:lead_chunk", 0.15],
 			["ftbmaterials:emerald_chunk", 0.04],
-			['ftbmaterials:zinc_chunk',0.3]
+			['ftbmaterials:zinc_chunk',0.3],
+			["ftbmaterials:diamond_chunk", 0.07],
 		]
 	},
 	{
