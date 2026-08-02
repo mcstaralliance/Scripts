@@ -11,6 +11,16 @@ ServerEvents.recipes(event =>{
   "input": 'minecraft:andesite',
   "output": 'create:andesite_alloy_block'})
   event.custom({
+    "type": "ftbstuff:dripper",
+  "chance": 0.1,
+  "consume_fluid_on_fail": true,
+  "fluid": {
+    "amount": 1000,
+    "id": "minecraft:lava"
+  },
+  "input": 'minecraft:diorite',
+  "output": 'xycraft_world:kivi'})
+  event.custom({
   "type": "extendedcrafting:shapeless_table",
   "ingredients": [
     {
