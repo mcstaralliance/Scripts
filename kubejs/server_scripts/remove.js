@@ -255,7 +255,8 @@ const itemToRemove = [
     'northstar:rocket_station',
     'northstar:rocket_controls',
     'pneumaticcraft:refinery_output',
-    'extendedae_plus:infinity_biginteger_cell'
+    'extendedae_plus:infinity_biginteger_cell',
+    'avaritia:ultimate_stew'
     
     
 
