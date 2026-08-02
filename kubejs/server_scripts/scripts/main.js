@@ -854,5 +854,41 @@ ServerEvents.recipes(event => {
             B:'xycraft_world:kivi'
          }
     )
+    //镭射钻
+    event.shaped('industrialforegoing:ore_laser_base',
+        ['ABA',
+         'ACA',
+         'DFD'
+        ],
+        {
+            A:'industrialforegoing:plastic',
+            B:'#occultism:miners/master',
+            C:'industrialforegoing:machine_frame_advanced',
+            D:'ftbmaterials:diamond_gear',
+            F:'minecraft:redstone'
+        }
+    )
+    //输入口
+    event.shaped('starcraft:item_input',
+        [' A ',
+         ' B ',
+         '   '],
+         {
+            A:'#c:storage_blocks/steel',
+            B:'minecraft:chest'
+         }
+    )
+    //输出口
+    event.shaped('starcraft:item_output',
+        [' B ',
+         ' A ', 
+         '   '],
+         {
+            A:'#c:storage_blocks/steel',
+            B:'minecraft:chest'
+         }
+    )
+    event.shapeless('starcraft:item_input',['starcraft:item_output'])
+    event.shapeless('starcraft:item_output',['starcraft:item_input'])
 })
 
