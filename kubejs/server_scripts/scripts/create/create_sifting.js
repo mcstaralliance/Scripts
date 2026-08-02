@@ -190,7 +190,8 @@ const sifterRecipes = [
 			["ftbmaterials:salt_dust", 0.1],
 			["minecraft:gunpowder", 0.09],
 			["ftbmaterials:niter_dust", 0.08],
-			["ftbmaterials:gold_chunk", 0.07]
+			["ftbmaterials:gold_chunk", 0.07],
+			['minecraft:amethyst_shard',0.1]
 		]
 	},
 	{
@@ -205,7 +206,8 @@ const sifterRecipes = [
 			["ftbmaterials:gold_chunk", 0.11],
 			["ftbmaterials:redstone_chunk", 0.11],
 			["ftbmaterials:nickel_chunk", 0.11],
-			["ftbmaterials:bauxite_dust", 0.1]
+			["ftbmaterials:bauxite_dust", 0.1],
+			['minecraft:amethyst_shard',0.2]
 		]
 	},
 	{
@@ -220,7 +222,8 @@ const sifterRecipes = [
 			["ftbmaterials:bauxite_dust", 0.15],
 			["ftbmaterials:niter_dust", 0.15],
 			["ftbmaterials:silver_chunk", 0.15],
-			["ftbmaterials:nickel_chunk", 0.14]
+			["ftbmaterials:nickel_chunk", 0.14],
+			['minecraft:amethyst_shard',0.3]
 		]
 	},
 	{
@@ -232,7 +235,8 @@ const sifterRecipes = [
 			["ftbmaterials:salt_dust", 0.5],
 			["modern_industrialization:aluminum_dust", 0.41],
 			["ftbmaterials:silver_ingot", 0.61],
-			["ftbmaterials:nickel_ingot", 0.54]
+			["ftbmaterials:nickel_ingot", 0.54],
+			['minecraft:amethyst_shard',0.5]
 		]
 	},
 	{

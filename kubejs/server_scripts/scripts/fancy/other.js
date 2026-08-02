@@ -317,7 +317,7 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
-  event.custom(({
+  event.custom({
   "type": "create:mixing",
   "ingredients": [
     {
@@ -335,5 +335,20 @@ ServerEvents.recipes(event =>{
       "id": "starcraft:liquid_air"
     },
   ]
-    }))
+    })
+    event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": 'mekanism:quantum_entangloporter'
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      'count':32,
+      "id": 'fluxnetworks:flux_core'
+    }
+  ]
+})
 })

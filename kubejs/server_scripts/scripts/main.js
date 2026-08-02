@@ -854,5 +854,19 @@ ServerEvents.recipes(event => {
             B:'xycraft_world:kivi'
          }
     )
+    //镭射钻
+    event.shaped('industrialforegoing:ore_laser_base',
+        ['ABA',
+         'ACA',
+         'DFD'
+        ],
+        {
+            A:'industrialforegoing:plastic',
+            B:'#occultism:miners/master',
+            C:'industrialforegoing:machine_frame_advanced',
+            D:'ftbmaterials:diamond_gear',
+            F:'minecraft:redstone'
+        }
+    )
 })
 
