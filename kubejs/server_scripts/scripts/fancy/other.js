@@ -350,5 +350,64 @@ ServerEvents.recipes(event =>{
       "id": 'fluxnetworks:flux_core'
     }
   ]
+}),
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": 'mekanism:quantum_entangloporter'
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      'count':32,
+      "id": 'fluxnetworks:flux_core'
+    }
+  ]
+})
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:sand"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "northstar:rutile_concentrate"
+    },
+    {
+      "id":'ftbstuff:dust'
+    }
+  ]
+})
+  event.custom({
+  "type": "xycraft_machines:extractor",
+  "adjacent": [
+    {
+      "fluid_type": "minecraft:water",
+      "predicate_type": "xycraft_core:fluid_type_rule"
+    },
+    {
+      "fluid_type": "minecraft:lava",
+      "predicate_type": "xycraft_core:fluid_type_rule"
+    }
+  ],
+  "catalyst": {
+    "block": 'minecraft:gravel',
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "output": {
+    "count": 1,
+    "id": 'create:limestone'
+  },
+  "target": {
+    "block": 'minecraft:sand',
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "ticks": 30
 })
 })
