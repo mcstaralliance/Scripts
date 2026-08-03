@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
         A: 'botania:livingwood',
         B: 'evilcraft:dark_block',
         C: 'rainbowcompound:rainbow_compound',
-        D: 'evilcraft:environmental_accumulation_core',
+        D: 'evilcraft:blood_pearl_of_teleportation[cyclopscore:fluid_content={amount:1000,id:"evilcraft:blood"}]',
         E: 'minecraft:nether_star'
     })
 
