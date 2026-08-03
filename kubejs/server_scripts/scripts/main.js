@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
         B: 'ae2:spatial_pylon',
         C: 'industrialforegoing:machine_frame_advanced',
         D: 'extendedcrafting:enhanced_ender_ingot',
-        E: 'ftbmaterials:netherite_gear'
+        E: 'minecraft:netherite_ingot'
     })
 
     // 笼升级 II
@@ -609,8 +609,8 @@ ServerEvents.recipes(event => {
         'ABA'
     ],{
         A: 'ftbmaterials:stainless_steel_plate',
-        B: 'ftbmaterials:stainless_steel_gear',
-        C: 'ftbmaterials:obsidian_gear'
+        B: 'ftbmaterials:stainless_steel_ingot',
+        C: 'minecraft:obsidian'
     })
 
     // 装配线格栅
@@ -864,7 +864,7 @@ ServerEvents.recipes(event => {
             A:'industrialforegoing:plastic',
             B:'#occultism:miners/master',
             C:'industrialforegoing:machine_frame_advanced',
-            D:'ftbmaterials:diamond_gear',
+            D:'minecraft:diamond',
             F:'minecraft:redstone'
         }
     )
