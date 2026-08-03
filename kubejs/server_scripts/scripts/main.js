@@ -915,5 +915,18 @@ ServerEvents.recipes(event => {
        B: 'minecraft:emerald_block'
      }
     )
+    //坚守者刷怪蛋
+    event.shaped(
+      'minecraft:warden_spawn_egg',
+     [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+       C: 'minecraft:egg',
+       A: 'minecraft:echo_shard',
+       B: 'minecraft:sculk'
+     }
+    )
 })
-

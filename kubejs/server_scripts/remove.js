@@ -129,7 +129,8 @@ const idToRemove = [
     'ae2cs:inscriber/simple_circuit_print',
     'ae2:inscriber/engineering_processor_print',
     'ae2:inscriber/logic_processor_print',
-    'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'
+    'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench',
+    'pneumaticcraft:thermo_plant/plastic_from_lpg',
 
 
 
