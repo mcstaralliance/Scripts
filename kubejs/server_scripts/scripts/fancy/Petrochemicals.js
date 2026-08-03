@@ -738,5 +738,28 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  //柴油
+  event.custom({
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "starcraft:heavy_fuel"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "starcraft:light_fuel"
+    },
+  ],
+  "results": [
+    {
+      "amount":2000,
+      "id": "createdieselgenerators:diesel"
+    }
+  ]
+    }) 
 })
 
