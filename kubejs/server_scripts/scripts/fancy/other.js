@@ -420,4 +420,26 @@ ServerEvents.recipes(event =>{
   },
   "ticks": 30
 })
+  //不锈钢锭
+  event.custom({
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "item": 'create:chromatic_compound'
+    }
+  ],
+  "energy": 2048000,
+  "input": {
+    "tag": 'c:dusts/stainless_steel'
+  },
+  "results": [
+    {
+      "tag": 'c:ingots/stainless_steel'
+    }
+  ],
+  "slag": {
+    "tag": "c:slag"
+  },
+  "time": 400
+})
 })

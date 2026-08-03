@@ -237,7 +237,7 @@ const sifterRecipes = [
 			["modern_industrialization:aluminum_dust", 0.41],
 			["ftbmaterials:silver_ingot", 0.61],
 			["ftbmaterials:nickel_ingot", 0.54],
-			['minecraft:amethyst_shard',0.5]
+			['minecraft:amethyst_shard',0.5],
 		]
 	},
 	{
@@ -305,7 +305,8 @@ const sifterRecipes = [
 			["xycraft_world:xychorium_gem_dark", 0.24],
 			["xycraft_world:xychorium_gem_blue", 0.24],
 			["xycraft_world:xychorium_gem_green", 0.24],
-			["xycraft_world:xychorium_gem_red", 0.24]
+			["xycraft_world:xychorium_gem_red", 0.24],
+			['minecraft:sculk',0.1]
 		]
 	},
 	{
@@ -316,7 +317,8 @@ const sifterRecipes = [
 			["xycraft_world:xychorium_gem_dark", 0.9],
 			["xycraft_world:xychorium_gem_blue", 0.9],
 			["xycraft_world:xychorium_gem_green", 0.9],
-			["xycraft_world:xychorium_gem_red", 0.9]
+			["xycraft_world:xychorium_gem_red", 0.9],
+			['minecraft:sculk',0.2]
 		]
 	},
 	{
