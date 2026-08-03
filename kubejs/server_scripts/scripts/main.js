@@ -891,5 +891,15 @@ ServerEvents.recipes(event => {
     event.shapeless('starcraft:item_input',['starcraft:item_output']),
     event.shapeless('starcraft:item_output',['starcraft:item_input']),
     event.shapeless('9x minecraft:copper_ingot',['minecraft:copper_block'])
+    // 赛博蜂巢控制器
+    event.shaped('starcraft:beehive',
+        ['AAA',
+         'ABA', 
+         'AAA'],
+         {
+            A:'#minecraft:logs',
+            B:'minecraft:honey_bottle'
+         }
+    )
 })
 
