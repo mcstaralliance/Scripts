@@ -96,7 +96,7 @@ StartupEvents.registry("fluid",event=>{
     event.create("starcraft:molten_soldering_alloy").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x7a7a81).displayName("熔融焊锡");
     event.create("starcraft:molten_antimony_ingot").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x65515a).displayName("熔融锑")
     event.create("starcraft:royal_jelly").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0xfcfadd).displayName("蜂王浆")
-    event.create("starcreaft:ammonia").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x99d6ff).displayName("氨气");
+    event.create("starcraft:ammonia").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x99d6ff).displayName("氨气");
     event.create("starcraft:nitrogen_monoxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x82a3c6).displayName("一氧化氮");
     event.create("starcraft:nitrogen_dioxide").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x80242f).displayName("二氧化氮");
     event.create("starcraft:fluorine").stillTexture("minecraft:block/water_still").flowingTexture("minecraft:block/water_flow").tint(0x72aa55).displayName("氟气");
