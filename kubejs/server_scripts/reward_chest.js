@@ -6,7 +6,7 @@ const stackWithProbability = [
     newItem('avaritia:infinity_pants', 0.08),
     newItem('avaritia:infinity_boots', 0.09),
     newItem('avaritia:infinity_catalyst', 0.1),
-    newItem('starcraft:paimon_miner_lite', 0.11),
+    newItem('starcraft:paimon_cyclone_miner', 0.11),
     newItem('mekanism:mekasuit_helmet', 0.12),
     newItem('mekanism:mekasuit_bodyarmor', 0.13),
     newItem('mekanism:mekasuit_pants', 0.14),
