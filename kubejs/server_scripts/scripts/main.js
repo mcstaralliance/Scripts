@@ -901,5 +901,19 @@ ServerEvents.recipes(event => {
             B:'minecraft:honey_bottle'
          }
     )
+    // 颓残之书
+    event.shaped(
+      'irons_spellbooks:ruined_book',
+     [
+        'EAE',
+        'ABA',
+        'EAE'
+      ],
+      {
+       E: 'minecraft:echo_shard',
+       A: 'minecraft:diamond_block',
+       B: 'minecraft:emerald_block'
+     }
+    )
 })
 
