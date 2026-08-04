@@ -132,7 +132,8 @@ const idToRemove = [
     'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench',
     'pneumaticcraft:thermo_plant/plastic_from_lpg',
     'oritech:atomicforge/wafer',
-    'oritech:centrifuge/fluid/siliconwafers'
+    'oritech:centrifuge/fluid/siliconwafers',
+    'oritech:assembler/processingunit'
 
 
 
