@@ -131,6 +131,8 @@ const idToRemove = [
     'ae2:inscriber/logic_processor_print',
     'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench',
     'pneumaticcraft:thermo_plant/plastic_from_lpg',
+    'oritech:atomicforge/wafer',
+    'oritech:centrifuge/fluid/siliconwafers'
 
 
 
@@ -258,7 +260,8 @@ const itemToRemove = [
     'pneumaticcraft:refinery_output',
     'extendedae_plus:infinity_biginteger_cell',
     'avaritia:ultimate_stew',
-    'oritech:biosteel_block'
+    'oritech:biosteel_block',
+    'oritech:silicon_wafer'
     
     
 
