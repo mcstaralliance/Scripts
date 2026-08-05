@@ -230,7 +230,7 @@ ServerEvents.recipes(event => {
         "ABA"
     ],{
         A:'#c:ingots/steel',
-        B:'pneumaticcraft:plastic',
+        B:'#c:plastics',
         C:'mekanism:basic_control_circuit'
     })
     // 
@@ -929,4 +929,6 @@ ServerEvents.recipes(event => {
        B: 'minecraft:sculk'
      }
     )
+    //生物钢锭
+    event.shapeless('oritech:biosteel_ingot',['ftbmaterials:steel_ingot'])
 })

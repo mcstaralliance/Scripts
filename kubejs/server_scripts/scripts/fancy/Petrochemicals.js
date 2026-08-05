@@ -75,7 +75,7 @@ ServerEvents.recipes(event =>{
   "results": [
     {
       "amount": 12000,
-      "id": "starcraft:heavy_fuel"
+      "id": "starcraft:light_fuel"
     },
     {
       "amount":1000,

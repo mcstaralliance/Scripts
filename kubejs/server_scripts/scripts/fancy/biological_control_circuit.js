@@ -1256,4 +1256,35 @@ ServerEvents.recipes(event =>{
 	"processing_time": 160,
     "heat_requirement":'superheated'
     })
+    //钙粉
+    event.custom({
+	"type":"createvintageneoforged:centrifugation",
+	"ingredients": [ 
+	{
+      "item": 'minecraft:bone_meal'
+    },
+    ],
+	"results": [
+    {
+       'id':'starcraft:dust_calcium'
+    }
+	],
+  "processing_time": 100,
+  "heat_requirement":'superheated'
+})
+  //肉末
+  event.custom({
+	"type":"create:crushing",
+	"ingredients": [ 
+	{
+      "tag": 'c:raw_meats'
+    },
+    ],
+	"results": [
+    {
+       'id':'starcraft:dust_meat'
+    }
+	],
+  "processing_time": 100,
+})
 })

@@ -442,4 +442,49 @@ ServerEvents.recipes(event =>{
   },
   "time": 400
 })
+  //强化萤石板
+  event.custom({
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": 'c:ingots/refined_glowstone'
+    }
+  ],
+  "results": [
+    {
+      "id": 'ftbmaterials:refined_glowstone_plate'
+    }
+  ]
+})
+  //粗火星铁
+  event.smelting('northstar:raw_martian_iron_ore',['ad_astra:mars_iron_ore']);
+  event.custom({
+  "type": "minecraft:smelting",
+  "category": "block",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": 'ad_astra:mars_iron_ore'
+  },
+  "result": {
+    "count": 1,
+    "id": 'northstar:raw_martian_iron_ore'
+  }
+})
+  //钛棒
+  event.custom({
+	"type":"createvintageneoforged:turning",
+	"ingredients": [
+		{
+			"tag": 'c:ingots/titanium'
+		}
+	],
+	"results": [
+		{
+			"id": 'ftbmaterials:titanium_rod',
+			"count": 1
+		}
+	],
+	"processingTime": 200
+})
 })
