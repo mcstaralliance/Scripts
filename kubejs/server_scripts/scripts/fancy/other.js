@@ -471,5 +471,20 @@ ServerEvents.recipes(event =>{
     "id": 'northstar:raw_martian_iron_ore'
   }
 })
-  
+  //钛棒
+  event.custom({
+	"type":"createvintageneoforged:turning",
+	"ingredients": [
+		{
+			"tag": 'c:ingots/titanium'
+		}
+	],
+	"results": [
+		{
+			"id": 'ftbmaterials:titanium_rod',
+			"count": 1
+		}
+	],
+	"processingTime": 200
+})
 })
