@@ -150,7 +150,6 @@ const itemToRemove = [
     '#botanypots:basic_botany_pots',
     'evilcraft:eternal_water',
     'cagedmobs:mob_cage',
-    'cagedmobs:hopping_mob_cage',
     'cagedmobs:speed_ii_upgrade',
     'cagedmobs:speed_iii_upgrade',
     'cagedmobs:looting_upgrade',
