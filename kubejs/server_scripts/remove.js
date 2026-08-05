@@ -132,7 +132,9 @@ const idToRemove = [
     'pneumaticcraft:thermo_plant/plastic_from_lpg',
     'oritech:atomicforge/wafer',
     'oritech:centrifuge/fluid/siliconwafers',
-    'oritech:assembler/processingunit'
+    'oritech:assembler/processingunit',
+    'ad_astra:blasting/iron_ingot_from_blasting_mars_iron_ore',
+    'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore'
 
 
 
@@ -262,7 +264,9 @@ const itemToRemove = [
     'avaritia:ultimate_stew',
     'oritech:biosteel_block',
     'oritech:silicon_wafer',
-    'createsifter:dust'
+    'createsifter:dust',
+    'northstar:raw_martian_iron_ore',
+    
     
     
 

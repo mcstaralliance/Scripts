@@ -456,5 +456,20 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  //粗火星铁
+  event.smelting('northstar:raw_martian_iron_ore',['ad_astra:mars_iron_ore']);
+  event.custom({
+  "type": "minecraft:smelting",
+  "category": "block",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": 'ad_astra:mars_iron_ore'
+  },
+  "result": {
+    "count": 1,
+    "id": 'northstar:raw_martian_iron_ore'
+  }
+})
   
 })
