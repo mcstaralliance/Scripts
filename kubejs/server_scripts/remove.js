@@ -98,7 +98,6 @@ const idToRemove = [
     'sgjourney:classic_stargate_ring_block',
     'sgjourney:classic_stargate_base_block',
     'sgjourney:classic_stargate_chevron_block',
-    'mekanism:enriching/hdpe_sheet',
     'botania:livingwood_log',
     'createdieselgenerators:distillation/superheated_crude_oil',
     'createdieselgenerators:distillation/crude_oil',
@@ -262,7 +261,8 @@ const itemToRemove = [
     'extendedae_plus:infinity_biginteger_cell',
     'avaritia:ultimate_stew',
     'oritech:biosteel_block',
-    'oritech:silicon_wafer'
+    'oritech:silicon_wafer',
+    'createsifter:dust'
     
     
 

@@ -442,4 +442,19 @@ ServerEvents.recipes(event =>{
   },
   "time": 400
 })
+  //强化萤石板
+  event.custom({
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": 'c:ingots/refined_glowstone'
+    }
+  ],
+  "results": [
+    {
+      "id": 'ftbmaterials:refined_glowstone_plate'
+    }
+  ]
+})
+  
 })

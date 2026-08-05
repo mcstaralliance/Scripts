@@ -224,7 +224,8 @@ const sifterRecipes = [
 			["ftbmaterials:niter_dust", 0.15],
 			["ftbmaterials:silver_chunk", 0.15],
 			["ftbmaterials:nickel_chunk", 0.14],
-			['minecraft:amethyst_shard',0.3]
+			['minecraft:amethyst_shard',0.3],
+			['ae2:certus_quartz_crystal',0.2]
 		]
 	},
 	{
@@ -238,6 +239,7 @@ const sifterRecipes = [
 			["ftbmaterials:silver_ingot", 0.61],
 			["ftbmaterials:nickel_ingot", 0.54],
 			['minecraft:amethyst_shard',0.5],
+			['ae2:certus_quartz_crystal',0.325]
 		]
 	},
 	{
