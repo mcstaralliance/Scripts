@@ -6,7 +6,7 @@
     "pressure_pa": 610.0
   },
   "averageTemperature": 20.0,
-  "dimension": "minecraft:overworld",
+  "dimension": "minecraft:iridiumskyblock",
   "dimension_above": "northstar:earth_orbit",
   "heat_gradient": 0.4,
   "heat_intercept": 100.0,
