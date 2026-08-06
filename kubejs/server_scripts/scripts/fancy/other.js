@@ -487,4 +487,67 @@ ServerEvents.recipes(event =>{
 	],
 	"processingTime": 200
 })
+  //火山灰
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": 'northstar:volcanic_ash'
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "amount": 4,
+      "id":'northstar:volcanic_ash_item'
+    }
+  ]
+})
+  //磷灰石粉
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": 'c:gems/apatite'
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "amount": 1,
+      "id":'ftbmaterials:apatite_dust'
+    }
+  ]
+})
+  //末影透镜
+   event.custom({
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 64000,
+      "fluid": "starcraft:liquid_ender_air"
+    },
+  ],
+  "results": [
+    {
+      "id": 'starcraft:ender_lens'
+    },
+  ]
+    })
+    //末影透镜
+   event.custom({
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+     "tag":'c:ingots/stainless_steel'
+    },
+  ],
+  "results": [
+    {
+      "amount":2,
+      "id": 'ftbmaterials:stainless_steel_wire'
+    },
+  ]
+    })
 })
