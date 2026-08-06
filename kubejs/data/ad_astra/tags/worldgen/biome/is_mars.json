@@ -3,6 +3,12 @@
     {
       "id": "ad_astra:martian_wastelands",
       "required": false
+    },
+    {
+      "id": "ad_astra:martian_canyon_creek"
+    },
+    {
+      "id": "ad_astra:martian_polar_caps"
     }
   ]
 }
