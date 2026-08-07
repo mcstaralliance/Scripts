@@ -565,4 +565,20 @@ ServerEvents.recipes(event =>{
     },
   ]
     })
+    //锑粉
+    event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": 'c:ingots/antimony'
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "amount": 1,
+      "id":'ftbmaterials:antimony_dust'
+    }
+  ]
+})
 })
