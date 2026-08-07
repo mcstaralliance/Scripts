@@ -10,5 +10,5 @@ ServerEvents.tags("item",(event) =>{
     event.add('pneumaticcraft:plastic_sheets',['industrialforegoing:plastic']);
     event.remove('c:ores/iron',['ad_astra:mars_iron_ore']);
     event.remove('minecraft:iron_ores',['ad_astra:mars_iron_ore']);
-    event.remove('c:plates/obsidian',['create:sturdy_sheet'])
+    event.remove('c:plates/obsidian',['ftbmaterials:obsidian_plate'])
 })
