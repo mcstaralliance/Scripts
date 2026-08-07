@@ -535,8 +535,23 @@ ServerEvents.recipes(event =>{
     },
   ]
     })
-    //末影透镜
+    //不锈钢线
    event.custom({
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+     "tag":'c:plates/stainless_steel'
+    },
+  ],
+  "results": [
+    {
+      "count":2,
+      "id": 'ftbmaterials:stainless_steel_wire'
+    },
+  ]
+    })
+    //不锈钢棒
+     event.custom({
   "type": "createaddition:rolling",
   "ingredients": [
     {
@@ -545,9 +560,25 @@ ServerEvents.recipes(event =>{
   ],
   "results": [
     {
-      "amount":2,
-      "id": 'ftbmaterials:stainless_steel_wire'
+      "count":2,
+      "id": 'ftbmaterials:stainless_steel_rod'
     },
   ]
     })
+    //锑粉
+    event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": 'c:ingots/antimony'
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "amount": 1,
+      "id":'ftbmaterials:antimony_dust'
+    }
+  ]
+})
 })
