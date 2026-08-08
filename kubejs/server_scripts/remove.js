@@ -265,6 +265,8 @@ const itemToRemove = [
     'oritech:silicon_wafer',
     'createsifter:dust',
     'northstar:raw_martian_iron_ore',
+    'mekmm:large_heat_generator',
+    'mekmm:large_solar_neutron_activator'
     
     
     

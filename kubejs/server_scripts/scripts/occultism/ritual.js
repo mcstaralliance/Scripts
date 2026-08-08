@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         ['occultism:storage_controller','occultism:storage_stabilizer_tier5','occultism:storage_stabilizer_tier5','occultism:storage_stabilizer_tier5','occultism:storage_stabilizer_tier5','minecraft:netherite_ingot','minecraft:netherite_ingot','minecraft:netherite_ingot','minecraft:netherite_ingot'],
         'beyonddimensions:unstable_space_time_fragment',
         'occultism:contact_eldritch_spirit'
-    ).entityToSacrifice(EntityToSacrifice.of("minecraft:enderman","末影人"))
+    )
 
     //等级1维度存储稳定器
     event.recipes.occultism.ritual(
