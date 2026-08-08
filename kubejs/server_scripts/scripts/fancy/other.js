@@ -597,4 +597,19 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  //矿井产出磷灰石 
+  event.custom({
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/master"
+  },
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 1,
+      "id": 'ftbmaterials:apatite_end_ore'
+    },
+    "weight": 325
+  }
+})
 })
