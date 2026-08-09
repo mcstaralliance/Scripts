@@ -69,7 +69,8 @@ const itemToBan = [
     'ae2:io_port',
     'expatternprovider:ex_io_port',
     'goety:dark_anvil',
-    'ae2:spatial_anchor'
+    'ae2:spatial_anchor',
+    'ars_caelum:ritual_conjure_island_end_portal'
 ]
 
 const idToRemove = [
