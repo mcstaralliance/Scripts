@@ -1,6 +1,70 @@
 // priority: 1
 
-const itemToBan = [
+const idsToRemove = [
+    'productivebees:botania/elementium_bee',
+    'goety:haunted/haunted_jug',
+    'mushroom_concept:alloy/steel',
+    'ae2:inscriber/engineering_processor',
+    'ae2:inscriber/logic_processor',
+    'ae2:inscriber/calculation_processor',
+    'mekanism:processing/uranium/uranium_oxide',
+    'mekanism:crystallizing/salt',
+    'botania:mana_infusion/manasteel_block',
+    'botania:mana_infusion/manasteel',
+    'botania:alfheim_portal',
+    'advanced_ae:quantum_processor',
+    'forestry:sturdy_machine',
+    'industrialforegoing:ore_laser_base',
+    'draconicevolution:components/draconium_ingot_from_ore',
+    'draconicevolution:components/draconium_ingot_from_dust',
+    'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
+    'enderio:smelting/draconicevolution/components/draconium_ingot_from_ore',
+    'draconicevolution:components/draconium_core',
+    'botania:pure_daisy/livingwood_log',
+    'botania:pure_daisy/livingrock',
+    'sgjourney:classic_stargate_ring_block',
+    'sgjourney:classic_stargate_base_block',
+    'sgjourney:classic_stargate_chevron_block',
+    'botania:livingwood_log',
+    'createdieselgenerators:distillation/superheated_crude_oil',
+    'createdieselgenerators:distillation/crude_oil',
+    'createsifter:andesite_mesh_dirt_merged',
+    'createsifter:string_mesh_dirt_merged',
+    'ftbstuff:iron_mesh',
+    'ftbstuff:diamond_mesh',
+    'ftbstuff:blazing_mesh',
+    'ftbstuff:gold_mesh',
+    'createsifter:crafting/brass_mesh',
+    'createsifter:crafting/advanced_brass_mesh',
+    'pneumaticcraft:thermo_plant/plastic_from_biodiesel',
+    'oritech:crafting/alloy/steel',
+    'oritech:mixing/compat/create/biosteel',
+    'oritech:mixing/compat/create/steel',
+    'immersiveengineering:arcfurnace/steel',
+    'oritech:foundry/alloy/steel',
+    'oritech:foundry/alloy/biosteel',
+    'immersiveengineering:blastfurnace/steel',
+    'oritech:compat/immersiveengineering/arcalloying/biosteel',
+    'oritech:compat/immersiveengineering/alloying/biosteel',
+    'oritech:centrifuge/fluid/plasticoilbetter',
+    'oritech:centrifuge/fluid/plasticoil',
+    'oritech:centrifuge/fluid/plasticbiobetter',
+    'oritech:centrifuge/fluid/plasticbio',
+    'immersiveengineering:blastfurnace/steel_block',
+    'ae2:inscriber/calculation_processor_print',
+    'ae2cs:inscriber/simple_circuit_print',
+    'ae2:inscriber/engineering_processor_print',
+    'ae2:inscriber/logic_processor_print',
+    'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench',
+    'pneumaticcraft:thermo_plant/plastic_from_lpg',
+    'oritech:atomicforge/wafer',
+    'oritech:centrifuge/fluid/siliconwafers',
+    'oritech:assembler/processingunit',
+    'ad_astra:blasting/iron_ingot_from_blasting_mars_iron_ore',
+    'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore'
+];
+
+const itemsToRemove = [
     'torcherino:torcherino',
     'torcherino:compressed_torcherino',
     'torcherino:double_compressed_torcherino',
@@ -70,78 +134,8 @@ const itemToBan = [
     'expatternprovider:ex_io_port',
     'goety:dark_anvil',
     'ae2:spatial_anchor',
-    'ars_caelum:ritual_conjure_island_end_portal'
-]
+    'ars_caelum:ritual_conjure_island_end_portal',
 
-const idToRemove = [
-    'productivebees:botania/elementium_bee',
-    'goety:haunted/haunted_jug',
-    'mushroom_concept:alloy/steel',
-    'ae2:inscriber/engineering_processor',
-    'ae2:inscriber/logic_processor',
-    'ae2:inscriber/calculation_processor',
-    'mekanism:processing/uranium/uranium_oxide',
-    'mekanism:crystallizing/salt',
-    'botania:mana_infusion/manasteel_block',
-    'botania:mana_infusion/manasteel',
-    'botania:alfheim_portal',
-    'advanced_ae:quantum_processor',
-    'forestry:sturdy_machine',
-    'industrialforegoing:ore_laser_base',
-    'draconicevolution:components/draconium_ingot_from_ore',
-    'draconicevolution:components/draconium_ingot_from_dust',
-    'enderio:smelting/draconicevolution/components/draconium_ingot_from_dust',
-    'enderio:smelting/draconicevolution/components/draconium_ingot_from_ore',
-    'draconicevolution:components/draconium_core',
-    'botania:pure_daisy/livingwood_log',
-    'botania:pure_daisy/livingrock',
-    'sgjourney:classic_stargate_ring_block',
-    'sgjourney:classic_stargate_base_block',
-    'sgjourney:classic_stargate_chevron_block',
-    'botania:livingwood_log',
-    'createdieselgenerators:distillation/superheated_crude_oil',
-    'createdieselgenerators:distillation/crude_oil',
-    "createsifter:andesite_mesh_dirt_merged",
-	"createsifter:string_mesh_dirt_merged",
-    "ftbstuff:iron_mesh",
-    "ftbstuff:diamond_mesh",
-    "ftbstuff:blazing_mesh",
-	"ftbstuff:gold_mesh",
-    "createsifter:crafting/brass_mesh",
-	"createsifter:crafting/advanced_brass_mesh",
-    "pneumaticcraft:thermo_plant/plastic_from_biodiesel",
-    "oritech:crafting/alloy/steel",
-    'oritech:mixing/compat/create/biosteel',
-    'oritech:mixing/compat/create/steel',
-    'immersiveengineering:arcfurnace/steel',
-    'oritech:foundry/alloy/steel',
-    'oritech:foundry/alloy/biosteel',
-    'immersiveengineering:blastfurnace/steel',
-    'oritech:compat/immersiveengineering/arcalloying/biosteel',
-    'oritech:compat/immersiveengineering/alloying/biosteel',
-    'oritech:centrifuge/fluid/plasticoilbetter',
-    'oritech:centrifuge/fluid/plasticoil',
-    'oritech:centrifuge/fluid/plasticbiobetter',
-    'oritech:centrifuge/fluid/plasticbio',
-    'immersiveengineering:blastfurnace/steel_block',
-    'ae2:inscriber/calculation_processor_print',
-    'ae2cs:inscriber/simple_circuit_print',
-    'ae2:inscriber/engineering_processor_print',
-    'ae2:inscriber/logic_processor_print',
-    'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench',
-    'pneumaticcraft:thermo_plant/plastic_from_lpg',
-    'oritech:atomicforge/wafer',
-    'oritech:centrifuge/fluid/siliconwafers',
-    'oritech:assembler/processingunit',
-    'ad_astra:blasting/iron_ingot_from_blasting_mars_iron_ore',
-    'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore'
-
-
-
-
-]
-
-const itemToRemove = [
     // 'ars_nouveau:imbuement_chamber',
     // 'ars_nouveau:source_jar',
     // 'ars_nouveau:relay',
@@ -206,7 +200,7 @@ const itemToRemove = [
     'expatternprovider:wireless_connect',
     'ae2:vibration_chamber',
     'industrialforegoing:machine_frame_pity',
-     'ae2:blank_pattern',
+    'ae2:blank_pattern',
     'enderio:primitive_alloy_smelter',
     'immersiveengineering:cokebrick',
     'modularrouters:modular_router',
@@ -233,9 +227,9 @@ const itemToRemove = [
     'pneumaticcraft:refinery',
     'createvintageneoforged:convex_curving_head',
     'ad_astra:calorite_engine',
-    "ad_astra:tier_4_rocket",
+    'ad_astra:tier_4_rocket',
     'avaritia:ultimate_stew',
-    "northstar:temperature_regulator",
+    'northstar:temperature_regulator',
     'northstar:electrolysis_machine',
     '#productivebees:advanced_beehives',
     'productivebees:centrifuge',
@@ -267,12 +261,6 @@ const itemToRemove = [
     'northstar:raw_martian_iron_ore',
     'mekmm:large_heat_generator',
     'mekmm:large_solar_neutron_activator'
-    
-    
-    
-
-
-    
 
     // 'create:cogwheel',
     // 'create:large_cogwheel',
@@ -298,21 +286,17 @@ const itemToRemove = [
     // Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
     // 'naturesaura:chunk_loader',
 
-]
+];
 
+ServerEvents.recipes((event) => {
+    console.log('Remove items is running');
 
-ServerEvents.recipes(event => {
-    console.log("Remove items is running")
-
-    for (let toIdRemove of idToRemove) {
-        event.remove({ id: toIdRemove })
+    for (let idToRemove of idsToRemove) {
+        event.remove({ id: idToRemove });
     }
-    for (let toRemove of itemToRemove) {
-        event.remove({ output: toRemove })
-    }
-    for (let toBan of itemToBan) {
-        event.remove({ output: toBan })
+    for (let itemToRemove of itemsToRemove) {
+        event.remove({ output: itemToRemove });
     }
 
-    console.log("Remove items is done")
-})
+    console.log('Remove items is done');
+});

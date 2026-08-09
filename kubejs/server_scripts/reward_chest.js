@@ -1,6 +1,6 @@
 const stackWithProbability = [
     newItem('torcherino:torcherino', 0.02),
-    newItem('botania:creative_pool', 0.03),
+    newItem('botania:creative_mana_pool', 0.03),
     newItem('chunkloaders:single_chunk_loader', 0.04),
     newItem('avaritia:infinity_chestplate', 0.07),
     newItem('avaritia:infinity_pants', 0.08),
@@ -36,32 +36,28 @@ const stackWithProbability = [
 ];
 
 BlockEvents.rightClicked('kubejs:custom_chest', (event) => {
-    let block = event.getBlock();
-    let player = event.getPlayer();
-    let stack = event.getItem();
+    let { block, player, item: stack } = event;
+    if (stack.id !== 'kubejs:key' || block.id !== 'kubejs:custom_chest') return;
 
     let randomNumber = Math.random();
 
-    if (stack.id === 'kubejs:key' && block.id === 'kubejs:custom_chest') {
-        let rewarded = false;
-        for (let item of stackWithProbability) {
-            if (randomNumber < item.probability) {
-                console.log(item.probability);
-                player.give(item.id);
-                rewarded = true;
-                break;
-            }
+    let rewarded = false;
+    for (let item of stackWithProbability) {
+        if (randomNumber < item.probability) {
+            console.log(item.probability);
+            giveAndNotify(item.id, player, block);
+            rewarded = true;
+            break;
         }
-
-        if (!rewarded) {
-            let fallback =
-                stackWithProbability[stackWithProbability.length - 1];
-            player.give(fallback.id);
-        }
-
-        block.set('minecraft:air');
-        stack.count--;
     }
+
+    if (!rewarded) {
+        let fallback = stackWithProbability[stackWithProbability.length - 1];
+        giveAndNotify(fallback.id, player, block);
+    }
+
+    block.set('minecraft:air');
+    stack.count--;
 });
 
 /**
@@ -73,4 +69,30 @@ function newItem(id, probability) {
         id: id,
         probability: probability
     };
+}
+
+/**
+ * @param {string} item
+ * @param {import("@package/net/minecraft/world/entity/player").$Player} player
+ * @param {import("@package/dev/latvian/mods/kubejs/level").$LevelBlock} block
+ */
+function giveAndNotify(item, player, block) {
+    let stack = Item.of(item);
+    let message = Text.of('✦ 你获得了')
+        .append(stack.getHoverName())
+        ['withStyle(java.util.function.UnaryOperator)'](stack.getRarity().getStyleModifier());
+
+    player.give(stack);
+    player.setStatusMessage(message);
+    player.swing();
+    player.playNotifySound('minecraft:entity.experience_orb.pickup', 'players', 1, 1);
+
+    let { x, y, z } = block.pos;
+    // prettier-ignore
+    player.level.spawnParticles(
+        'minecraft:totem_of_undying', true,
+        x + 0.5, y + 1.0, z + 0.5,
+        0.5, 0.5, 0.5,
+        10, 0.1
+    );
 }
