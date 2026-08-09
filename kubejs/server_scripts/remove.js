@@ -68,7 +68,8 @@ const itemToBan = [
     'ars:nouveau_glyph_break',
     'ae2:io_port',
     'expatternprovider:ex_io_port',
-    'goety:dark_anvil'
+    'goety:dark_anvil',
+    'ae2:spatial_anchor'
 ]
 
 const idToRemove = [
@@ -80,8 +81,6 @@ const idToRemove = [
     'ae2:inscriber/calculation_processor',
     'mekanism:processing/uranium/uranium_oxide',
     'mekanism:crystallizing/salt',
-    'mekanism:processing/uranium/sulfuric_acid',
-    'mekanism:oxidizing/sulfur_dioxide',
     'botania:mana_infusion/manasteel_block',
     'botania:mana_infusion/manasteel',
     'botania:alfheim_portal',
@@ -265,6 +264,8 @@ const itemToRemove = [
     'oritech:silicon_wafer',
     'createsifter:dust',
     'northstar:raw_martian_iron_ore',
+    'mekmm:large_heat_generator',
+    'mekmm:large_solar_neutron_activator'
     
     
     

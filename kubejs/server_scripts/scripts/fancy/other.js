@@ -581,4 +581,35 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  //强化萤石粉
+    event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": 'c:ingots/refined_glowstone'
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "amount": 1,
+      "id":'ftbmaterials:refined_glowstone_dust'
+    }
+  ]
+})
+  //矿井产出磷灰石 
+  event.custom({
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/master"
+  },
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 1,
+      "id": 'ftbmaterials:apatite_end_ore'
+    },
+    "weight": 325
+  }
+})
 })

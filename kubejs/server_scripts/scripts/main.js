@@ -931,4 +931,17 @@ ServerEvents.recipes(event => {
     )
     //生物钢锭
     event.shapeless('oritech:biosteel_ingot',['ftbmaterials:steel_ingot'])
+
+    //大型太阳能中子活化器
+    event.shaped('mekmm:large_solar_neutron_activator',[
+        'AAA',
+        'BCB',
+        'DFD'
+    ],{
+        A:'mekanism:solar_neutron_activator',
+        B:'#c:storage_blocks/steel',
+        C:'mekanism:robit',
+        D:'mekmm:ultimate_max_chemical_tank',
+        F:'mekanism:laser'
+    })
 })

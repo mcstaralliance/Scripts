@@ -29,7 +29,36 @@ ServerEvents.recipes(event =>{
       "amount": 60
     }
    ]
-})
+}),
+  event.custom({
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "tag": "c:crude_oil",
+      "amount": 200
+    }
+  ],
+  "heat_requirement": "superheated",
+  "processing_time": 5,
+  "results": [
+    {
+      "id": "starcraft:sulfuric_heavy_fuel",
+      "amount": 20
+    },
+     {
+      "id": "starcraft:sulfuric_light_fuel",
+      "amount": 100
+    },
+     {
+      "id": "starcraft:sulfuric_naphtha",
+      "amount": 300
+    },
+     {
+      "id": "starcraft:sulfuric_kerosine",
+      "amount": 120
+    }
+   ]})
     //脱硫处理
     event.custom({
   "type": "create:mixing",
@@ -219,11 +248,11 @@ ServerEvents.recipes(event =>{
 	"results": [
 	{
 		"id": 'starcraft:heavy_fuel',
-		'amount':25
+		'amount':100
 	},
     {
-		"id": 'starcraft:heavy_fuel',
-		'amount':50
+		"id": 'starcraft:octane',
+		'amount':60
 	},
     {
 		"id": 'starcraft:toluene',
