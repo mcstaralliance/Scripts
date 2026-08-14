@@ -612,4 +612,40 @@ ServerEvents.recipes(event =>{
     "weight": 325
   }
 })
+  event.custom({
+  "type": "northstar:electrolysis",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "id": "northstar:oxygen"
+    },
+    {
+      "amount": 300,
+      "id": "northstar:hydrogen"
+    }
+  ]
+}) 
+  //硫磺粉
+  event.custom({
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": 'c:gems/sulfur'
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "amount": 1,
+      "id":'immersiveengineering:dust_sulfur'
+    }
+  ]
+})
 })

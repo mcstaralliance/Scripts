@@ -61,7 +61,8 @@ const idsToRemove = [
     'oritech:centrifuge/fluid/siliconwafers',
     'oritech:assembler/processingunit',
     'ad_astra:blasting/iron_ingot_from_blasting_mars_iron_ore',
-    'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore'
+    'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore',
+    'northstar:electrolysis/water'
 ];
 
 const itemsToRemove = [
@@ -260,7 +261,8 @@ const itemsToRemove = [
     'createsifter:dust',
     'northstar:raw_martian_iron_ore',
     'mekmm:large_heat_generator',
-    'mekmm:large_solar_neutron_activator'
+    'mekmm:large_solar_neutron_activator',
+    'ftbmaterials:gold_gem'
 
     // 'create:cogwheel',
     // 'create:large_cogwheel',
