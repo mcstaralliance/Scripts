@@ -330,7 +330,7 @@ ServerEvents.recipes(event =>{
     "heat_requirement":'heated'
     })
     event.custom({
-	"type":"createvintageneoforged:vacuumizing",
+	"type":"createvintageneoforged:pressurizing",
 	"ingredients": [
       {
         'type':"neoforge:single",
