@@ -106,12 +106,12 @@ ServerEvents.recipes(event =>{
 	  {
       "type":"neoforge:single",
       "amount":1000,
-      "fluid": "starcraft:dinitrogen_tetroxide"
+      "fluid": "starcraft:dimethylhydrazine"
     },
 	  {
       "type":"neoforge:single",
       "amount":1000,
-      "fluid": "northstar:oxygen"
+      "fluid": "starcraft:dinitrogen_tetroxide"
     }
   ],
 	"results": [

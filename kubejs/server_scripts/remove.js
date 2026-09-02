@@ -62,7 +62,8 @@ const idsToRemove = [
     'oritech:assembler/processingunit',
     'ad_astra:blasting/iron_ingot_from_blasting_mars_iron_ore',
     'ad_astra:smelting/iron_ingot_from_smelting_mars_iron_ore',
-    'northstar:electrolysis/water'
+    'northstar:electrolysis/water',
+    'northstar:electrolysis/brine'
 ];
 
 const itemsToRemove = [
