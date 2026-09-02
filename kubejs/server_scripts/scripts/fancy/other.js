@@ -648,4 +648,24 @@ ServerEvents.recipes(event =>{
     }
   ]
 })
+  event.custom({
+  "type": "northstar:electrolysis",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 500,
+      "tag": 'c:brine'
+    }
+  ],
+  "results": [
+    {
+      "amount": 200,
+      "id": "northstar:sodium"
+    },
+    {
+      "amount": 300,
+      "id": "northstar:chlorine"
+    }
+  ]
+}) 
 })
