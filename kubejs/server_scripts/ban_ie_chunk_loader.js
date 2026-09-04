@@ -9,7 +9,7 @@ NativeEvents.onEvent($MultiblockFormEvent, (event) => {
     const { multiblock, entity } = event;
 
     if (multiblock.uniqueName === 'immersiveengineering:multiblocks/chunk_loader' && entity.type === 'minecraft:player') {
-        // event.setCanceled(true);
+        event.setCanceled(true);
         entity.tell(Text.aqua('[小域] ').append(Text.red('已禁用')));
     }
 });
