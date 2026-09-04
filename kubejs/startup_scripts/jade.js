@@ -65,6 +65,8 @@ StartupEvents.init((event) => {
 
             let mana = blockEntity.getCurrentMana();
             let cap = blockEntity.getMaxMana();
+            // 跳过维度魔力池客户端的 0/0 数据
+            if (cap == 0) return;
             addToTooltip(Text.aqua(`${manaInfo.getString()}: ${mana}/${cap}`), rootElement);
         });
 

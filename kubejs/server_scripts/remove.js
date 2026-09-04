@@ -263,7 +263,8 @@ const itemsToRemove = [
     'northstar:raw_martian_iron_ore',
     'mekmm:large_heat_generator',
     'mekmm:large_solar_neutron_activator',
-    'ftbmaterials:gold_gem'
+    'ftbmaterials:gold_gem',
+    'immersiveengineering:resonanz_engineering'
 
     // 'create:cogwheel',
     // 'create:large_cogwheel',
